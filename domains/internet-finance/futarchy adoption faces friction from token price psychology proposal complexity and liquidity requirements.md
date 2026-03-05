@@ -16,6 +16,8 @@ Proposal creation compounds this friction through genuine difficulty. Creating f
 
 Liquidity requirements create capital barriers that exclude smaller participants. Each proposal needs sufficient market depth for meaningful trading, which requires capital commitments before knowing if the proposal has merit. This favors well-capitalized players and creates a chicken-and-egg problem where low liquidity deters traders, which reduces price discovery quality, which makes governance less effective.
 
+The Hurupay raise on MetaDAO (Feb 2026) provides direct evidence of these compounding frictions. The project attempted a $3-6M raise, attracted $2M in nominal commitments, but only ~$900k materialized as real demand. The commitment-to-real-demand gap reveals a new dimension of the liquidity barrier: participants commit to futarchy-governed raises at a higher rate than they actually fund them, suggesting that proposal complexity and capital lockup requirements create a "commitment theater" where expressed interest exceeds genuine willingness to deploy capital under futarchic conditions.
+
 Yet [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] suggests these barriers might be solvable through better tooling, token splits, and proposal templates rather than fundamental mechanism changes. The observation that [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]] implies futarchy could focus on high-stakes decisions where the benefits justify the complexity.
 
 ---

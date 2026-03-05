@@ -14,6 +14,8 @@ Traditional companies uphold joint ownership through shareholder oppression laws
 
 The implication extends beyond governance quality. Since [[ownership alignment turns network effects from extractive to generative]], futarchy becomes the enabling primitive for genuinely decentralized organizations. This connects directly to [[Living Capital vehicles pair Living Agent domain expertise with futarchy-governed investment to direct capital toward crucial innovations]]—the trustless ownership guarantee makes it possible to coordinate capital without centralized control or legal overhead.
 
+**Strongest real-world evidence (Mar 2026).** The Ranger Finance liquidation is the most significant test of trustless joint ownership to date. Investors exercised ownership rights to force full treasury liquidation and IP separation — without courts, without lawyers, without board votes. The conditional market priced the outcome ($581K volume, 97% pass, +9.43% TWAP spread), capital flowed to the answer, and the governance mechanism is executing it. This is what trustless joint ownership looks like in production: strangers who pooled capital into a futarchy-governed vehicle are using that same governance to unwind it when the investment thesis collapsed. Since [[futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent]], the exit mechanism is as important as the entry mechanism for trustless ownership.
+
 ---
 
 Relevant Notes:
