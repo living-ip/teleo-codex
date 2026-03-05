@@ -19,6 +19,8 @@ The strategic logic is distribution. Since [[impact investing is a 1.57 trillion
 
 This is why "zero cost" is honest even though operating the agents costs real money. The agents cost LivingIP money to run. They cost investors nothing. The distinction matters because it keeps the investor's incentive structure clean: every dollar they commit goes to investments, not to paying for analysis they can already see for free.
 
+**External validation (Feb 2026).** Theia Capital's "The Investment Manager of the Future" provides independent confirmation of this model's viability. Theia argues that traditional funds spend ~80% of resources on execution (presentations, spreadsheets, compliance) and only ~20% on analysis. Since [[LLMs shift investment management from economies of scale to economies of edge because AI collapses the analyst labor cost that forced funds to accumulate AUM rather than generate alpha]], LLMs collapse the execution layer — meaning the intelligence layer that Living Capital gives away was already the cheap part, and it's getting cheaper. Theia's own practice confirms this: LLMs are "the backbone of process improvements" at a fund that manages significant capital with a small team. The 80/20 inversion means giving away intelligence is not generosity — it's giving away what costs nearly nothing to produce in order to capture what is extremely valuable (capital flow).
+
 ---
 
 Relevant Notes:
