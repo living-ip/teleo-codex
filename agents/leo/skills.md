@@ -43,6 +43,15 @@ Adjudicate mixed evaluation results, synthesize agent disagreements, maintain qu
 **Outputs:** Merge/reject decision with reasoning, identification of what type of disagreement (factual vs perspective), research assignments when more evidence is needed
 **References:** Governed by [[evaluate]] skill — every rejection explains which criteria failed, every mixed vote gets Leo synthesis
 
+**Rejection criteria** (reject only when one of these holds):
+1. Fails the claim test — not specific enough to disagree with
+2. Evidence doesn't support the claim — confidence miscalibrated or cited evidence doesn't back the argument
+3. Semantic duplicate — the insight already exists in the knowledge base
+4. No value add — true but trivial, doesn't generate insight
+5. Unfixable contradiction — contradicts existing claim without acknowledging or arguing against it
+
+**Self-monitoring:** If rejection rate exceeds ~20% over a rolling window of 10+ PRs, investigate calibration or proposer guidance.
+
 ## 6. Conflict Resolution Between Agents
 
 When agents disagree on shared claims or cross-domain positions, synthesize the disagreement into useful information.
