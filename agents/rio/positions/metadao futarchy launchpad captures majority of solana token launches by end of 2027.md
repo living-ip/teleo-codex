@@ -24,6 +24,10 @@ MetaDAO's unruggable ICO model solves it through mechanism, not promise. Since [
 
 The Q4 2025 numbers show the inflection: 6 ICOs launched, $18.7M total volume, expansion from 2 to 8 futarchy protocols, $219M total futarchy marketcap. Fee revenue hit $2.51M -- first-ever operating income. The flywheel is turning: more launches attract more traders, more traders deepen futarchy markets, deeper markets make governance more accurate, better governance attracts more projects.
 
+**Competitive divergence (Q4 2025).** MetaDAO delivered 6 launches/$18.7M while crypto marketcap fell 25%, Pump.fun tokenization dropped 40%, and Metaplex Genesis managed only 3 launches/$5.4M. Pine Analytics: "capturing share of a shrinking pie rather than simply riding market tailwinds." This is the strongest signal that MetaDAO's structural advantage (anti-extraction) is driving selection, not just macro sentiment.
+
+**Permissionless unlock (futard.io, Mar 2026).** 34 ICOs in the first 2 days, $15.6M deposits from 929 wallets, 2 DAOs funded. The 5.9% success rate is the market mechanism filtering — only projects attracting genuine capital survive. If this throughput sustains, the 30+ launches target for 2027 is conservative. However, first-mover hesitancy ("people are reluctant to be the first to put money in") is a real friction that may limit conversion rate. The curated (MetaDAO) + permissionless (futard.io) two-tier model addresses different market segments simultaneously.
+
 The competitive moat is the governance infrastructure itself. Since [[MetaDAOs Cayman SPC houses all launched projects as ring-fenced SegCos under a single entity with MetaDAO LLC as sole Director]], switching costs are structural -- the legal chassis, the futarchy tooling, the MetaLeX automated entity formation. This is not a frontend that can be forked.
 
 ## Reasoning Chain
