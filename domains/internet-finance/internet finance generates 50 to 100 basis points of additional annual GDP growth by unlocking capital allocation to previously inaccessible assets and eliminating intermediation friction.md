@@ -37,6 +37,7 @@ The 50-100 bps range is derived from historical estimates of financial innovatio
 - Property rights extension through on-chain assets requires legal recognition by local jurisdictions — technology alone cannot create enforceable property rights where governments don't recognize them
 - "Hundreds of thousands of assets trading online" may create liquidity fragmentation rather than improved allocation — thin markets for Egyptian auto loans may not produce better price discovery than no market at all
 - The 50-100 bps estimate is a single firm's projection, not peer-reviewed research — the confidence level should remain speculative until independent validation
+- **Ghost GDP challenge (Citrini, Feb 2026):** If AI-driven productivity gains flow to capital and compute owners rather than through households, GDP may grow while the real economy deteriorates. "The output is still there. But it's no longer routing through households on the way back to firms." This challenges whether internet finance GDP growth translates to broad prosperity or concentrates further — see [[AI labor displacement operates as a self-funding feedback loop because companies substitute AI for labor as OpEx not CapEx meaning falling aggregate demand does not slow AI adoption]] and [[technology-driven deflation is categorically different from demand-driven deflation because falling production costs expand purchasing power and unlock new demand while falling demand creates contraction spirals]]
 
 ---
 

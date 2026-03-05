@@ -10,6 +10,7 @@ depends_on:
 challenged_by:
   - "Bloch argues displaced capital gets redeployed to expansion, R&D, and new hires — making this a reallocation, not a destruction"
   - "Loeber argues institutional momentum and Jevons Paradox create a natural speed limit on displacement"
+  - "Citadel Securities argues technological diffusion follows S-curves (not exponentials) — slow adoption, acceleration, then plateau as marginal returns diminish. Physical constraint: expanding automation requires exponentially more compute, raising costs until substitution becomes uneconomical. Feb 2026 data showed software engineering demand still rising 11% YoY."
 ---
 
 # AI labor displacement operates as a self-funding feedback loop because companies substitute AI for labor as OpEx not CapEx meaning falling aggregate demand does not slow AI adoption
