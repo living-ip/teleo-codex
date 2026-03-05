@@ -16,6 +16,8 @@ The mechanism works at any ownership threshold, not just above 50%. MetaDAO prop
 
 This mechanism proof connects to [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]]—the arbitrage protection is strongest for clear-cut value transfers, making futarchy ideal for treasury decisions even when other mechanisms suit different decision types.
 
+**Bidirectional protection (Mar 2026 evidence).** The Ranger Finance liquidation demonstrates that the mechanism works not only to protect minorities from majority theft, but also to protect investors from team extraction. Tokenholders alleged material misrepresentation ($5B volume/$2M revenue claimed vs $2B/$500K actual), and the conditional market priced liquidation at 97% pass with $581K in volume. The team had no viable path to prevent liquidation through market manipulation — the same arbitrage dynamics that protect against majority raids also prevent teams from blocking investor-initiated liquidation. Since [[futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent]], the conditional token arbitrage mechanism is the enforcement layer for the entire "unruggable ICO" thesis.
+
 ---
 
 Relevant Notes:
