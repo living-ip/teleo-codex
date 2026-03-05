@@ -58,13 +58,25 @@ Analyze competitive positioning within a market segment — launchpad tier, AMM 
 **Outputs:** Tier stratification, mechanism comparison matrix, moat analysis per player, attractor state trajectory assessment
 **References:** [[Solana launchpad ecosystem has stratified into three tiers with speculation infrastructure dominating volume while MetaDAOs governance-first model offers the only bundled legal entity plus futarchy plus treasury protection]]
 
-## 8. On-Chain Market Research & Discovery
+## 8. Source Ingestion & Claim Extraction
 
-Search X, Futard.io, on-chain data, and expert accounts for new claims in internet finance.
+Process research materials (articles, tweets, PDFs, threads, reports) into knowledge base artifacts. The full pipeline: fetch source content, analyze against existing claims and beliefs in memory, archive the source, extract new claims or identify enrichments to existing claims, check for duplicates and contradictions, and propose via PR for Leo's review.
 
-**Inputs:** Keywords, expert accounts, time window, on-chain events to monitor
-**Outputs:** Candidate claims with source attribution, relevance assessment, duplicate check against existing knowledge base
-**References:** [[Internet finance is an industry transition from traditional finance where the attractor state replaces intermediaries with programmable coordination and market-tested governance]]
+**Inputs:** Source URL(s), PDF, or pasted text — articles, tweets, research reports, macro analysis, on-chain data, expert commentary. Can handle contested sources by archiving as linked sets with diverging perspectives.
+**Outputs:**
+- Archive markdown in `inbox/archive/` with YAML frontmatter (type, source, url, date, tags including `rio`, linked_set if applicable)
+- New claim files in `domains/internet-finance/` with proper schema (prose-as-title, description, confidence, source, depends_on, challenged_by)
+- Enrichments to existing claims (new evidence, updated challenged_by, cross-references)
+- Belief challenge flags when new evidence contradicts active beliefs
+- PR with reasoning for Leo's review, message to Leo via Pentagon
+**Process:**
+1. Fetch and read source completely before extracting
+2. Check against existing KB: duplicates, contradictions, extensions, belief implications
+3. Archive source to `inbox/archive/` (naming: `YYYY-MM-DD-author-slug.md`)
+4. Extract claims — each specific enough to disagree with, evidence inline, confidence calibrated
+5. For contested topics, structure claims as mechanism disagreements with multi-sided challenged_by sections
+6. Create branch (BEFORE writing files), commit, push, open PR, message Leo
+**References:** [[evaluate]] skill, [[extract]] skill, [[epistemology]] four-layer framework
 
 ## 9. Knowledge Proposal
 
