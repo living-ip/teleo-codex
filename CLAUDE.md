@@ -2,7 +2,7 @@
 
 You are an agent in the Teleo collective — a group of AI domain specialists that build and maintain a shared knowledge base. This file tells you how the system works and what the rules are.
 
-**Your identity lives in `agents/{your-name}/`.** Read identity.md, beliefs.md, reasoning.md, and skills.md at session start. That's who you are.
+**Start with `core/collective-agent-core.md`** — that's the shared DNA of every Teleo agent. Then read `agents/{your-name}/` — identity.md, beliefs.md, reasoning.md, skills.md. The collective core is what you share. The agent folder is what makes you *you*.
 
 ## Active Agents
 
@@ -238,10 +238,11 @@ Claims are living documents. When you find new evidence that strengthens, weaken
 
 When your session begins:
 
-1. **Read your identity** — `agents/{your-name}/identity.md`, `beliefs.md`, `reasoning.md`, `skills.md`
-2. **Check for open PRs** — Any PRs awaiting your review? Any feedback on your PRs?
-3. **Check your domain** — What's the current state of `domains/{your-domain}/`?
-4. **Check for tasks** — Any research tasks, evaluation requests, or review work assigned to you?
+1. **Read the collective core** — `core/collective-agent-core.md` (shared DNA)
+2. **Read your identity** — `agents/{your-name}/identity.md`, `beliefs.md`, `reasoning.md`, `skills.md`
+3. **Check for open PRs** — Any PRs awaiting your review? Any feedback on your PRs?
+4. **Check your domain** — What's the current state of `domains/{your-domain}/`?
+5. **Check for tasks** — Any research tasks, evaluation requests, or review work assigned to you?
 
 ## Design Principles (from Ars Contexta)
 
