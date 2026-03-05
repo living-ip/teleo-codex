@@ -28,6 +28,16 @@ The immutability constraint is a feature, not a limitation. Since [[futarchy ena
 
 The streaming liquidation mechanism deserves attention. Rather than binary liquidation events that cascade (the mechanism behind most DeFi flash crashes), Omnipair gradually unwinds positions. This is mechanistically consonant with [[financial markets and neural networks are isomorphic critical systems where short-term instability is the mechanism for long-term learning not a failure to be corrected]] -- graduated response preserves market continuity rather than amplifying discontinuities.
 
+## Early Production Evidence (Feb 2026)
+
+**Mainnet launch (Feb 16 2026):** Omnipair beta went live on Solana with borrowing enabled, leveraged longs staged for later. Users immediately demonstrated synthetic leverage loops -- post collateral, borrow USDC, buy more, repost -- confirming that permissionless market creation works in production. LTV drift risk with volatile memecoins is a real failure mode being monitored. (Source: @Kyojindoteth, Feb 16 2026)
+
+**Interest rate controller upgrade (Feb 21 2026):** Omnipair does not use a fixed utilization-interest curve (like Aave's kink model). Instead it uses a configurable target utilization *range*. Initial config used 50%-85% range, but shallow liquidity plus dynamic LTV made it hard to exceed ~55% utilization. Default upgraded to 30%-50% target range, increasing borrow rates as soon as utilization hits 50%. This is an adaptive controller mechanism -- mechanistically distinct from static interest rate curves. (Source: @rakka_sol, Feb 21 2026)
+
+**Fee competitiveness:** Early data suggests a $1000 USDC position costs ~$1.67 in fees over 60 days vs. ~$600 on competitors -- a 360x cost advantage if the numbers hold at scale. This supports the capital efficiency thesis but needs validation at higher TVL. (Source: @Jvke201 via @rakka_sol, Feb 21 2026)
+
+**Builder framing:** Rakka explicitly states: "Omnipair should be the primary place for capital, no more fragmentation between lending and spot" -- confirming the anti-fragmentation thesis is not just an external interpretation but the core design intent.
+
 ## Reasoning Chain
 
 Beliefs this depends on:
