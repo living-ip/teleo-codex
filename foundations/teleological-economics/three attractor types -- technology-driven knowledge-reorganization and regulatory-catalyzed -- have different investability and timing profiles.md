@@ -1,0 +1,42 @@
+---
+description: Historical backtesting reveals a taxonomy where technology-driven attractors are most investable, knowledge-reorganization attractors require patience, and regulatory-catalyzed attractors are least predictable
+type: framework
+domain: livingip
+created: 2026-02-17
+confidence: likely
+source: "Attractor state historical backtesting, Feb 2026"
+tradition: "Teleological Investing, complexity economics"
+---
+
+# three attractor types -- technology-driven knowledge-reorganization and regulatory-catalyzed -- have different investability and timing profiles
+
+Historical backtesting of the attractor state framework across five industry transitions reveals that not all attractors behave the same way. Three distinct types emerge, each with different predictability, timing, and investability characteristics.
+
+**Type 1: Technology-driven attractor.** The technology trajectory makes the end state effectively inevitable; the primary uncertainty is timing. Containerization and computing deconstruction are the paradigm cases. Moore's Law made horizontal computing inevitable -- the microprocessor cost curve guaranteed that computing power would become cheap enough for personal use, and modularity theory predicted that cheap components would disaggregate vertical stacks into horizontal layers. Standardized containers made intermodal shipping inevitable once the ISO standards locked in. These attractors are the most investable because directional confidence is highest. The investor's task reduces to identifying the keystone threshold and positioning just after it is crossed.
+
+**Type 2: Knowledge-reorganization attractor.** The technology is available but the attractor requires deep organizational transformation that takes decades. Electrification is the paradigm case -- electric motors existed for thirty years before factories were redesigned around unit drive to capture the productivity gains. The automotive transition also has knowledge-reorganization elements: the assembly line was an organizational innovation, not a technological one. Since [[knowledge embodiment lag means technology is available decades before organizations learn to use it optimally creating a productivity paradox]], these attractors are investable but require extraordinary patience and the ability to identify when organizational learning is reaching its tipping point. The investable moment is not when the technology arrives but when leading firms demonstrate the new organizational architecture.
+
+**Type 3: Regulatory-catalyzed attractor.** The technology and demand exist but the transition requires regulatory or political action to begin. Telecom deregulation is the paradigm case -- the 1984 AT&T breakup and the 1996 Telecom Act were not predictable from technology or demand analysis alone. Once regulatory action occurs, the downstream dynamics are highly predictable (cream-skimming of cross-subsidized segments, competitive entry, eventual reconsolidation). But the initial catalytic event depends on political processes that are exogenous to the framework. These attractors are least predictable in timing but most predictable in mechanism once initiated.
+
+The taxonomy has direct implications for conviction-sizing in teleological investing. Since [[attractor states provide gravitational reference points for capital allocation during structural industry change]], the investor should weight conviction by attractor type: highest for technology-driven (where the physics or economics make convergence near-certain), moderate for knowledge-reorganization (where organizational learning adds decades of uncertainty), and lowest for regulatory-catalyzed (where political timing is unknowable). Since [[economic path dependence means early technological choices compound irreversibly through dominant designs and industrial structures]], misidentifying the attractor type leads to catastrophic timing errors -- treating a knowledge-reorganization attractor as technology-driven produces premature investment that must survive decades of apparent non-performance.
+
+Real transitions can exhibit multiple types in sequence. Telecom had a regulatory catalyst (the breakup) followed by technology-driven dynamics (wireless maturation, internet protocol convergence). Computing deconstruction was primarily technology-driven but IBM's open architecture decision was a keystone event with regulatory-like exogeneity. The taxonomy is not about rigid classification but about identifying the dominant dynamic and adjusting investment timing accordingly.
+
+**Rare case: all three types simultaneously.** Medicare Advantage (2024-2027) appears to be the first backtested case where all three attractor types converge on the same industry at the same time: technology-driven (Devoted's Orinoco platform demonstrating AI-native care delivery), knowledge-reorganization (value-based care model requiring fundamental organizational transformation from fee-for-service), and regulatory-catalyzed (CMS 2027 three-pronged squeeze -- rate compression, chart review exclusion, Star Ratings redesign). Since [[CMS 2027 rate notice creates a three-pronged regulatory squeeze that forces incumbents into margin-protection retreat while Devoteds 9-point cost advantage enables continued growth]], CMS is not delivering a single exogenous political event but executing a systematic multi-year regulatory program with clear directional intent. This convergence of all three types suggests the transition is accelerating: the technology is proven, the organizational model exists at scale (Devoted at 550K+ projected members, ~$9B revenue), and the regulator is actively removing the profit mechanisms that sustain incumbent resistance. The timing uncertainty typical of regulatory-catalyzed transitions is lower than usual because CMS is showing its hand across multiple coordinated instruments. For teleological investing, this convergence pattern -- if generalizable -- would represent the highest-conviction investment signal in the taxonomy.
+
+---
+
+Relevant Notes:
+- [[attractor states provide gravitational reference points for capital allocation during structural industry change]] -- the foundational framework this taxonomy enriches with type-specific investability profiles
+- [[knowledge embodiment lag means technology is available decades before organizations learn to use it optimally creating a productivity paradox]] -- defines why Type 2 attractors have longer timelines than Type 1
+- [[economic path dependence means early technological choices compound irreversibly through dominant designs and industrial structures]] -- path dependence operates differently across attractor types: technologically determined vs organizationally contingent
+- [[the universal disruption cycle is how systems of greedy agents perform global optimization because local convergence creates fragility that triggers restructuring toward greater efficiency]] -- all three types follow the universal cycle but with different phase durations
+- [[pioneers prove concepts but fast followers with better capital allocation capture most long-term value in industry transitions]] -- pioneer disadvantage is most severe in Type 1 where standards and dominant designs eventually commoditize early innovation
+
+- [[five guideposts predict industry transitions -- rising fixed costs force consolidation and deregulation unwinds cross-subsidies creating cream-skimming opportunities]] -- the five guideposts map differentially onto the three attractor types: deregulation signals are strongest for Type 3, rising fixed costs for Type 1, and incumbent inertia patterns for Type 2
+- [[three types of organizational inertia -- routine cultural and proxy -- each resist adaptation through different mechanisms and require different remedies]] -- different inertia types dominate in different attractor categories: routine inertia in technology-driven transitions, cultural inertia in knowledge-reorganization, and proxy inertia across all three
+- [[CMS 2027 rate notice creates a three-pronged regulatory squeeze that forces incumbents into margin-protection retreat while Devoteds 9-point cost advantage enables continued growth]] -- Medicare Advantage as rare case of all three attractor types converging simultaneously
+
+Topics:
+- [[attractor dynamics]]
+- [[livingip overview]]

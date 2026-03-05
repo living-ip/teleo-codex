@@ -1,0 +1,35 @@
+---
+description: Individual humans can hold at most one personbyte of knowledge and knowhow, so products requiring more must be produced by networks whose structure becomes the binding constraint
+type: framework
+domain: livingip
+created: 2026-02-16
+source: "Hidalgo, Why Information Grows (2015)"
+confidence: likely
+tradition: "complexity economics, information theory, network science"
+---
+
+Hidalgo introduces the personbyte as the maximum knowledge and knowhow carrying capacity of a single human nervous system. This is a quantization limit: below one personbyte, the binding constraint on production is individual learning (experiential, social, and geographically biased). Above one personbyte, the binding constraint shifts to the collective problem of distributing knowledge chunks across a network of people and reconnecting them into productive capacity. The personbyte is not a precise measurement but a conceptual threshold that marks a phase transition in the difficulty of accumulating productive knowledge.
+
+The quantization has cascading consequences. First, knowledge must be "chopped up" into sub-personbyte chunks. Second, these chunks must be distributed across individuals who can each hold their piece. Third, the individuals must be connected in a network structure that can reconstitute the whole -- and this network itself requires additional knowledge and knowhow to maintain (coordination overhead). The difference between a band and four solo musicians illustrates this: a band requires not only each musician's instrument mastery but practice time together, coordination of timing and dynamics, and mutual adaptation. The Beatles were more than four personbytes summed; they were a network whose emergent capability exceeded the sum of its parts.
+
+Hidalgo extends this to a second quantization threshold: the firmbyte, representing the maximum knowledge and knowhow that can be accumulated within a single firm. When products require more than a firmbyte, production must be distributed across networks of firms, introducing additional coordination costs governed by transaction cost economics (Coase, Williamson) and social capital (Fukuyama, Putnam). Ford's River Rouge complex, which internalized 7,882 distinct tasks, represented the upper limit of single-firm knowledge accumulation -- a "personbyte cathedral." Modern production has moved to inter-firm networks, exemplified by the Barbie doll manufactured across twenty countries, reflecting the reduction in link costs that enables distributing firmbytes across organizational boundaries. Space settlement represents the extreme case of the personbyte constraint: since [[civilizational self-sufficiency requires orders of magnitude more population than biological self-sufficiency because industrial capability not reproduction is the binding constraint]], even a basic semiconductor fab demands such deep knowledge networks that Mars needs 100K-1M people before the colony can sustain civilizational capability independent of Earth.
+
+This framework is structurally analogous to [[biological organization nests Markov blankets hierarchically from cells to organs to organisms enabling local autonomy with global coherence]] -- the personbyte and firmbyte limits create nested structures where networks at one scale become nodes at the next. Networks of neurons become people (personbytes), networks of people become firms (firmbytes), networks of firms become industrial ecosystems. At each transition, new coordination mechanisms are required and new constraints emerge. The personbyte limit also explains why [[hayek's knowledge problem reveals that economic planning requires both local and global information which are never simultaneously available to decision makers]] -- central planning fails because no individual or committee can hold enough personbytes to internalize the knowledge distributed across the economy. Prices succeed precisely because they communicate the relevant effects of distributed knowledge without requiring any node to exceed its personbyte capacity.
+
+---
+
+Relevant Notes:
+- [[biological organization nests Markov blankets hierarchically from cells to organs to organisms enabling local autonomy with global coherence]] -- the personbyte/firmbyte nesting mirrors biological Markov blanket hierarchy with different coordination mechanisms at each scale
+- [[intelligence is a property of networks not individuals]] -- the personbyte limit provides the formal explanation for why intelligence must be networked
+- [[economic complexity emerges from the diversity and exclusivity of nontradable capabilities not from tradable inputs]] -- personbytes explain why capabilities are nontradable: they reside in nervous systems and network structures, not in transferable packages
+- [[knowledge scaling bottlenecks kill revolutionary ideas before they reach critical mass]] -- personbyte limits are the root cause of knowledge scaling bottlenecks
+- [[products are crystallized imagination that augment human capacity beyond individual knowledge by embodying practical uses of knowhow in physical order]] -- products augment individuals beyond their personbyte limit by crystallizing distributed network knowledge into accessible form
+- [[trust is the binding constraint on network size and therefore on the complexity of products an economy can produce]] -- trust determines how many personbytes can be coordinated in a single network
+- [[economies cannot replicate knowhow like biology because they lack the intimate marriage of information and computation that DNA and cells provide]] -- personbytes distributed across networks cannot be packaged for replication the way DNA packages biological information
+- [[hayek's knowledge problem reveals that economic planning requires both local and global information which are never simultaneously available to decision makers]] -- the personbyte limit is the information-theoretic root of Hayek's knowledge problem
+- [[the personbyte is the maximum knowledge a single human can accumulate creating a phase transition in production organization]] -- source-faithful treatment of Hidalgo's original personbyte concept and the phase transition it creates
+- [[civilizational self-sufficiency requires orders of magnitude more population than biological self-sufficiency because industrial capability not reproduction is the binding constraint]] -- space settlement as the extreme test case: the personbyte networks required for industrial civilization set the minimum viable population far above biological reproduction needs
+- [[the memory hierarchy is a speed-cost pyramid where the goal is the right information at the top not all information equally accessible]] -- the personbyte IS a caching limit: humans can only hold so much at the fast access layer, forcing networked teams as the next tier in the knowledge memory hierarchy
+
+Topics:
+- [[livingip overview]]

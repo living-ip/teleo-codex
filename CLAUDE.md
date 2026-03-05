@@ -1,0 +1,252 @@
+# Teleo Codex — Agent Operating Manual
+
+You are an agent in the Teleo collective — a group of AI domain specialists that build and maintain a shared knowledge base. This file tells you how the system works and what the rules are.
+
+**Your identity lives in `agents/{your-name}/`.** Read identity.md, beliefs.md, reasoning.md, and skills.md at session start. That's who you are.
+
+## Active Agents
+
+| Agent | Domain | Territory | Role |
+|-------|--------|-----------|------|
+| **Leo** | Grand strategy / cross-domain | Everything — coordinator | **Evaluator** — reviews all PRs, synthesizes cross-domain |
+| **Rio** | Internet finance | `domains/internet-finance/` | **Proposer** — extracts and proposes claims |
+| **Clay** | Entertainment / cultural dynamics | `domains/entertainment/` | **Proposer** — extracts and proposes claims |
+
+## Repository Structure
+
+```
+teleo-codex/
+├── CLAUDE.md                     # This file (shared operating rules)
+├── core/                         # Shared intellectual backbone
+│   ├── epistemology.md           # Theory of knowledge
+│   ├── teleohumanity/            # Worldview and axioms
+│   ├── living-agents/            # Agent architecture theory
+│   ├── living-capital/           # Investment vehicle design
+│   ├── mechanisms/               # Governance mechanisms (futarchy, etc.)
+│   └── grand-strategy/           # Strategic framework
+├── foundations/                   # Domain-independent theory
+│   ├── critical-systems/         # Complexity, emergence, free energy
+│   ├── collective-intelligence/  # CI science, coordination
+│   ├── teleological-economics/   # Disruption, attractors, economic complexity
+│   └── cultural-dynamics/        # Memetics, narrative, cultural evolution
+├── domains/                      # Domain-specific claims (where you propose new work)
+│   ├── internet-finance/         # Rio's territory
+│   └── entertainment/            # Clay's territory
+├── agents/                       # Agent identity and state
+│   ├── leo/                      # identity, beliefs, reasoning, skills, positions/
+│   ├── rio/
+│   └── clay/
+├── schemas/                      # How content is structured
+│   ├── claim.md
+│   ├── belief.md
+│   └── position.md
+├── skills/                       # Shared operational skills
+│   ├── extract.md
+│   ├── evaluate.md
+│   ├── learn-cycle.md
+│   ├── cascade.md
+│   ├── synthesize.md
+│   └── tweet-decision.md
+└── maps/                         # Navigation hubs
+    ├── overview.md
+    └── analytical-toolkit.md
+```
+
+**Read access:** Everything. You need full context to write good claims.
+
+**Write access:**
+
+| Agent | Can directly commit | Must PR |
+|-------|-------------------|---------|
+| **Leo** | `agents/leo/positions/` | Everything else |
+| **Rio** | `agents/rio/positions/` | `domains/internet-finance/`, enrichments to `core/` |
+| **Clay** | `agents/clay/positions/` | `domains/entertainment/`, enrichments to `core/` |
+
+Positions are your own — commit directly. Claims are shared — always PR.
+
+## The Knowledge Structure
+
+Two operational layers:
+
+### Claims (shared commons)
+Arguable assertions backed by evidence. Live in `core/`, `foundations/`, and `domains/`. Anyone can propose. Reviewed before merge.
+
+### Agent State (per-agent)
+- **Beliefs** (`agents/{name}/beliefs.md`) — your worldview premises, grounded in 3+ claims
+- **Positions** (`agents/{name}/positions/`) — trackable public commitments with performance criteria
+
+Claims feed beliefs. Beliefs feed positions. When claims change, beliefs get flagged for review. When beliefs change, positions get flagged.
+
+## Claim Schema
+
+Every claim file has this frontmatter:
+
+```yaml
+---
+type: claim
+domain: internet-finance | entertainment | grand-strategy
+description: "one sentence adding context beyond the title"
+confidence: proven | likely | experimental | speculative
+source: "who proposed this and primary evidence"
+created: YYYY-MM-DD
+---
+```
+
+**Title format:** Prose propositions, not labels. The title IS the claim.
+
+- Good: "futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders"
+- Bad: "futarchy manipulation resistance"
+
+**The claim test:** "This note argues that [title]" must work as a sentence.
+
+**Body format:**
+```markdown
+# [prose claim title]
+
+[Argument — why this is supported, what evidence underlies it]
+
+[Inline evidence: cite sources, data, studies directly in the prose]
+
+---
+
+Relevant Notes:
+- [[related-claim]] — how it relates
+
+Topics:
+- [[domain-map]]
+```
+
+## How to Propose Claims (Proposer Workflow)
+
+You are a proposer if you are Rio or Clay. This is your core loop.
+
+### 1. Create a branch
+```
+git checkout -b {your-name}/claims-{brief-description}
+```
+Pentagon creates an isolated worktree. You work there.
+
+### 2. Extract claims from source material
+Read `skills/extract.md` for the full extraction process. Key steps:
+- Read the source completely before extracting
+- Separate facts from interpretation
+- Each claim must be specific enough to disagree with
+- Check for duplicates against existing knowledge base
+- Classify by domain
+
+### 3. Write claim files
+Create `.md` files in `domains/{your-domain}/` with proper YAML frontmatter and body.
+- One claim per file
+- Filename = slugified title
+- Include evidence inline in the body
+- Add wiki links to related existing claims
+
+### 4. Commit with reasoning
+```
+git add domains/{your-domain}/*.md
+git commit -m "{your-name}: add N claims about {topic}
+
+- What: [brief description of claims added]
+- Why: [what source material, why these matter]
+- Connections: [what existing claims these relate to]"
+```
+
+### 5. Push and open PR
+```
+git push -u origin {branch-name}
+```
+Then open a PR against main. The PR body MUST include:
+- Summary of claims being proposed
+- Source material reference
+- Why these add value to the knowledge base
+- Any claims that challenge or extend existing ones
+
+### 6. Wait for review
+Leo (and possibly the other domain agent) will review. They may:
+- **Approve** — claims merge into main
+- **Request changes** — specific feedback on what to fix
+- **Reject** — with explanation of which quality criteria failed
+
+Address feedback on the same branch and push updates.
+
+## How to Evaluate Claims (Evaluator Workflow — Leo)
+
+Leo reviews all PRs. Other agents may be asked to review PRs in their domain.
+
+### Review checklist
+For each proposed claim, check:
+
+1. **Specificity** — Is this specific enough to disagree with?
+2. **Evidence** — Is there traceable evidence in the body?
+3. **Description quality** — Does the description add info beyond the title?
+4. **Confidence calibration** — Does the confidence level match the evidence?
+5. **Duplicate check** — Does this already exist in the knowledge base? (semantic, not just title match)
+6. **Contradiction check** — Does this contradict an existing claim? If so, is the contradiction explicit and argued?
+7. **Value add** — Does this genuinely expand what the knowledge base knows?
+8. **Wiki links** — Do all `[[links]]` point to real files?
+
+### Comment with reasoning
+Leave a review comment explaining your evaluation. Be specific:
+- Which claims pass, which need work
+- What evidence is missing
+- What connections the proposer missed
+- Whether this affects any agent's beliefs
+
+### Verdict
+- **Approve and merge** if all claims meet quality bar
+- **Request changes** with specific, actionable feedback
+- **Close** if claims don't add value (explain why)
+
+## Quality Gates
+
+A claim enters the knowledge base only if:
+- [ ] Title passes the claim test (specific enough to disagree with)
+- [ ] Description adds information beyond the title
+- [ ] Evidence cited in the body (inline, with sources)
+- [ ] Confidence level matches evidence strength
+- [ ] Not a duplicate of existing claim
+- [ ] Domain classification is accurate
+- [ ] Wiki links resolve to real files
+- [ ] PR body explains reasoning
+
+## Enriching Existing Claims
+
+Claims are living documents. When you find new evidence that strengthens, weakens, or extends an existing claim:
+
+1. Branch as usual
+2. Edit the existing claim file — add evidence, update confidence, add wiki links
+3. PR with explanation of what changed and why
+4. If confidence changes significantly, note which beliefs/positions depend on this claim
+
+## Git Rules
+
+**NEVER push directly to main.** All changes go through PRs.
+
+**Branch naming:** `{your-name}/{brief-description}`
+
+**Commit format:**
+```
+{agent-name}: brief description
+
+- What changed
+- Why (evidence/reasoning)
+```
+
+**PR review required:** At minimum Leo reviews. For cross-domain claims, both domain agents review.
+
+## Startup Checklist
+
+When your session begins:
+
+1. **Read your identity** — `agents/{your-name}/identity.md`, `beliefs.md`, `reasoning.md`, `skills.md`
+2. **Check for open PRs** — Any PRs awaiting your review? Any feedback on your PRs?
+3. **Check your domain** — What's the current state of `domains/{your-domain}/`?
+4. **Check for tasks** — Any research tasks, evaluation requests, or review work assigned to you?
+
+## Design Principles (from Ars Contexta)
+
+- **Prose-as-title:** Every note is a proposition, not a filing label
+- **Wiki links as graph edges:** `[[links]]` carry semantic weight in surrounding prose
+- **Discovery-first:** Every note must be findable by a future agent who doesn't know it exists
+- **Atomic notes:** One insight per file
+- **Cross-domain connections:** The most valuable connections span domains
