@@ -40,6 +40,8 @@ teleo-codex/
 │   ├── claim.md
 │   ├── belief.md
 │   └── position.md
+├── inbox/                        # Source material pipeline
+│   └── archive/                  # Processed sources (tweets, articles) with YAML frontmatter
 ├── skills/                       # Shared operational skills
 │   ├── extract.md
 │   ├── evaluate.md
