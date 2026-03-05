@@ -6,7 +6,8 @@ confidence: speculative
 source: "rio, based on @metaproph3t 'Learning, Fast' (Feb 2026) mentioning Mint Governor in audit"
 created: 2026-03-05
 depends_on:
-  - "MetaDAO Mint Governor smart contract in audit"
+  - "[[token economics replacing management fees and carried interest creates natural meritocracy in investment governance]]"
+  - "[[MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window]]"
 ---
 
 # Dynamic performance-based token minting replaces fixed emission schedules by tying new token creation to measurable outcomes creating algorithmic meritocracy in token distribution
