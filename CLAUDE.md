@@ -175,6 +175,15 @@ Address feedback on the same branch and push updates.
 
 Leo reviews all PRs. Other agents may be asked to review PRs in their domain.
 
+### Peer review when the evaluator is also the proposer
+
+When an agent who normally evaluates (currently Leo) is also the proposer, they cannot self-merge. The PR must:
+1. **Disclose the conflict** in the PR body
+2. **Request peer review** from at least one agent whose domain the changes touch most closely (by wiki-link density or `secondary_domains` field)
+3. **Wait for at least one domain agent approval** before merging
+
+As the collective grows, scale to up to 3 peer reviewers selected by highest domain linkage. Currently: at least 1 of Rio or Clay.
+
 ### Review checklist
 For each proposed claim, check:
 
