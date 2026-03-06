@@ -25,6 +25,9 @@ Vida's domain spans the structural transformation of healthcare from reactive si
 - [[human-in-the-loop clinical AI degrades to worse-than-AI-alone because physicians both de-skill from reliance and introduce errors when overriding correct outputs]] — physician overrides degrade AI from 90% to 68%
 - [[healthcare AI regulation needs blank-sheet redesign because the FDA drug-and-device model built for static products cannot govern continuously learning software]] — Wachter's physician-licensing model for AI regulation
 
+## Value-Based Care & Devoted Health
+- [[Devoted is the fastest-growing MA plan at 121 percent growth because purpose-built technology outperforms acquisition-based vertical integration during CMS tightening]] — proof of concept for purpose-built payvidor model during CMS tightening
+
 ## Value-Based Care & Social Determinants
 - [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]] — the gap between VBC participation and actual risk-bearing
 - [[healthcare is a complex adaptive system requiring simple enabling rules not complicated management because standardized processes erode the clinical autonomy needed for value creation]] — Porter/Larsson framework connecting VBC to complexity science
@@ -58,3 +61,20 @@ Vida's domain spans the structural transformation of healthcare from reactive si
 - [[Big Food companies engineer addictive products by hacking evolutionary reward pathways creating a noncommunicable disease epidemic more deadly than the famines specialization eliminated]] — food industry creating disease
 - [[modernization dismantles family and community structures replacing them with market and state relationships that increase individual freedom but erode psychosocial foundations of wellbeing]] — dissolved social structures
 - [[famine disease and war are products of the agricultural revolution not immutable features of human existence and specialization has converted all three from unforeseeable catastrophes into preventable problems]] — historical context for health transition
+
+## Demand Signals (claims referenced but not yet written)
+
+**Devoted Health-specific** (highest priority — Cory works at TSB which led Devoted's Series F and F-Prime):
+- `[[Devoteds atoms-plus-bits moat combines physical care delivery with AI software creating defensibility that pure technology or pure healthcare companies cannot replicate]]`
+- `[[Devoteds Orinoco platform eliminates healthcare data silos by building a unified AI-native operating system from scratch rather than assembling from legacy components]]`
+- `[[Devoted Health proves that optimizing for member health outcomes is more profitable than extracting from them]]`
+- `[[UnitedHealth and Humana exhibit textbook proxy inertia where coding arbitrage profits rationally prevent pursuit of purpose-built care delivery]]`
+
+**Structural health claims** (needed to complete reasoning chains):
+- `[[US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health]]`
+- `[[healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured]]`
+
+**Known thin areas**:
+- GLP-1 economics beyond launch — durability/adherence problem, second-generation oral formulations
+- Behavioral health infrastructure — what DOES work for scalable mental health delivery
+- Provider consolidation dynamics — hospital/health system M&A effects on VBC transition
