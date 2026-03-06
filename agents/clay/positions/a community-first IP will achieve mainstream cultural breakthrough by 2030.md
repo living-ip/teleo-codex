@@ -32,15 +32,15 @@ The missing piece has been production quality at the top of the funnel -- you ne
 ## Reasoning Chain
 
 Beliefs this depends on:
-- [[Community beats budget]] -- Claynosaurz, Pudgy Penguins, BTS prove community-first models produce superior engagement per dollar
-- [[GenAI democratizes creation making community the new scarcity]] -- AI cost collapse removes the production quality barrier that kept community-first IP in the niche tier
-- [[Ownership alignment turns fans into stakeholders]] -- economic participation converts passive fans into active evangelists, accelerating the cultural cascade
+- Belief: Community beats budget -- Claynosaurz, Pudgy Penguins, BTS prove community-first models produce superior engagement per dollar
+- Belief: GenAI democratizes creation, making community the new scarcity -- AI cost collapse removes the production quality barrier that kept community-first IP in the niche tier
+- [[ownership alignment turns fans into stakeholders]] -- economic participation converts passive fans into active evangelists, accelerating the cultural cascade
 
 Claims underlying those beliefs:
 - [[fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership]] -- the systematic engagement ladder that builds proven audiences
 - [[entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset]] -- the organizational form that enables community-first IP
 - [[community ownership accelerates growth through aligned evangelism not passive holding]] -- the mechanism through which ownership drives cultural penetration
-- [[information cascades create power law distributions in culture because consumers use popularity as a filter when choice is overwhelming]] -- fan-created content generates more cascade surface area, increasing the probability of mainstream discovery
+- [[information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming]] -- fan-created content generates more cascade surface area, increasing the probability of mainstream discovery
 
 ## Performance Criteria
 

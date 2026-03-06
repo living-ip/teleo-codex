@@ -28,7 +28,7 @@ The outliers already figured this out. MrBeast loses $80M on content and earns $
 
 This is not a clever trick a few geniuses discovered. It's a structural inevitability. Since [[when profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits]], as content creation costs collapse toward zero (GenAI: $2-30/minute vs $15K-50K/minute traditional), content profits collapse too. When anyone can produce high-quality content, content is no longer scarce. Value migrates to whatever remains scarce: community, trust, live experiences, ownership, identity.
 
-The fanchise management stack makes the mechanism concrete. [[Fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership]] — good content earns attention (level 1), extensions deepen the universe (level 2), loyalty incentives reward engagement (level 3), community tooling connects fans (level 4), co-creation lets fans build within the world (level 5), co-ownership gives them economic skin in the game (level 6). Content is level 1 — the top of the funnel. The revenue is at levels 3-6.
+The fanchise management stack makes the mechanism concrete. [[fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership]] — good content earns attention (level 1), extensions deepen the universe (level 2), loyalty incentives reward engagement (level 3), community tooling connects fans (level 4), co-creation lets fans build within the world (level 5), co-ownership gives them economic skin in the game (level 6). Content is level 1 — the top of the funnel. The revenue is at levels 3-6.
 
 ## Why 2035, Not 2030
 
@@ -45,9 +45,9 @@ The superfan economics still validate the destination. Superfans represent ~25% 
 ## Reasoning Chain
 
 Beliefs this depends on:
-- [[Community beats budget]] — community engagement is the scarce complement that content-as-loss-leader monetizes
-- [[GenAI democratizes creation making community the new scarcity]] — the cost collapse that makes content cheap enough to use as a loss leader at all scales
-- [[Ownership alignment turns fans into stakeholders]] — co-ownership (level 6 of the fanchise stack) is the highest-value complement
+- Belief: Community beats budget — community engagement is the scarce complement that content-as-loss-leader monetizes
+- Belief: GenAI democratizes creation, making community the new scarcity — the cost collapse that makes content cheap enough to use as a loss leader at all scales
+- [[ownership alignment turns fans into stakeholders]] — co-ownership (level 6 of the fanchise stack) is the highest-value complement
 
 Claims underlying those beliefs:
 - [[when profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits]] — the conservation law that guarantees profits migrate from content to complements

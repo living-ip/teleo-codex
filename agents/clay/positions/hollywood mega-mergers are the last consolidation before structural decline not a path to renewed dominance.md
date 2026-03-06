@@ -22,7 +22,7 @@ I've seen this movie before. Literally -- it's the same script every dying indus
 
 The Paramount-WBD mega-merger ($111B) is textbook. The thesis: combine libraries, cut costs, achieve scale. The reality: you're building a bigger castle on a shrinking island. Since [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]], the merger optimizes precisely the metrics that are becoming irrelevant -- library size, production scale, distribution reach -- while ignoring the metrics that matter in the attractor state: community depth, fan economic participation, and content-as-loss-leader economics.
 
-Here's what the merger architects aren't processing. [[Creator and corporate media economies are zero-sum because total media time is stagnant and every marginal hour shifts between them]]. Total media time isn't growing. Every hour YouTube captures comes directly from their revenue pool. The creator economy is at $250B growing 25% annually. Corporate media grows at 3%. A combined Paramount-WBD doesn't change this equation -- it just means one entity absorbs the decline that would have been split between two.
+Here's what the merger architects aren't processing. [[creator and corporate media economies are zero-sum because total media time is stagnant and every marginal hour shifts between them]]. Total media time isn't growing. Every hour YouTube captures comes directly from their revenue pool. The creator economy is at $250B growing 25% annually. Corporate media grows at 3%. A combined Paramount-WBD doesn't change this equation -- it just means one entity absorbs the decline that would have been split between two.
 
 Studios allocated less than 3% of production budgets to GenAI in 2025. They are suing ByteDance while their audience lives on TikTok. They are spending $180M per tentpole while a 9-person team produces an animated film for $700K. They are optimizing for IP control while [[entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset]]. Every strategic decision optimizes for the old scarcity (production capability) while the new scarcity (community, trust, fan engagement) goes unaddressed.
 
@@ -33,8 +33,8 @@ The revenue compression tells the structural story. Pay TV generated $90/month p
 ## Reasoning Chain
 
 Beliefs this depends on:
-- [[Community beats budget]] -- the structural advantage shifts to community-first models that mega-studios cannot replicate through merger
-- [[GenAI democratizes creation making community the new scarcity]] -- the cost collapse removes the production scale advantage that mergers are designed to protect
+- Belief: Community beats budget -- the structural advantage shifts to community-first models that mega-studios cannot replicate through merger
+- Belief: GenAI democratizes creation, making community the new scarcity -- the cost collapse removes the production scale advantage that mergers are designed to protect
 
 Claims underlying those beliefs:
 - [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]] -- the mechanism: current profitability makes adaptation feel irrational

@@ -71,7 +71,7 @@ The IP-as-property model (studios control IP, creators don't own). The gatekeepi
 - Creative vision requires human judgment. Deciding what story to tell, what resonates emotionally, what a community cares about -- these are judgment calls that AI tools amplify but do not replace. The personbyte limit applies: since [[the personbyte is a fundamental quantization limit on knowledge accumulation forcing all complex production into networked teams]], creative vision is embodied knowledge that requires human accumulation.
 - Live experiences cannot be digitized. Concerts, festivals, conventions, in-person community -- physical co-presence generates value that digital cannot substitute. This is why Taylor Swift's Eras Tour ($2B+) earned 7x her recorded music revenue.
 - Trust and authenticity require genuine human relationships. An emerging "authenticity premium" means audiences push back against undisclosed synthetic content. The parasocial relationships that drive superfan engagement depend on perceived human authenticity.
-- Since [[information cascades create power law distributions in culture because consumers use popularity as a filter when choice is overwhelming]], power law distributions in cultural consumption are a near-physical constraint. Hits will always dominate in a system where consumers use popularity as a filter. No amount of technology changes this.
+- Since [[information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming]], power law distributions in cultural consumption are a near-physical constraint. Hits will always dominate in a system where consumers use popularity as a filter. No amount of technology changes this.
 
 **Convention (historical artifacts, not physical requirements):**
 
@@ -294,7 +294,7 @@ Relevant Notes:
 - [[creator and corporate media economies are zero-sum because total media time is stagnant and every marginal hour shifts between them]] -- the zero-sum constraint anchoring the structural shift
 - [[social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]] -- where attention actually lives
 - [[the internet simultaneously fragments and concentrates attention because infinite choice drives consumers toward social proof and popularity signals]] -- the dual dynamic destroying the middle
-- [[information cascades create power law distributions in culture because consumers use popularity as a filter when choice is overwhelming]] -- why hits are inevitable and power laws intensify
+- [[information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming]] -- why hits are inevitable and power laws intensify
 - [[when profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits]] -- profits migrate from content to community/curation
 - [[streaming churn may be permanently uneconomic because maintenance marketing consumes up to half of average revenue per user]] -- streaming's structural weakness vs community's structural strength
 - [[entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset]] -- IP-as-platform is the attractor's organizational form

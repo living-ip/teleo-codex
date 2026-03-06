@@ -24,7 +24,7 @@ Relevant Notes:
 - [[value flows to whichever resources are scarce and disruption shifts which resources are scarce making resource-scarcity analysis the core strategic framework]] -- subscriber loyalty becomes the scarce resource that streaming economics cannot capture
 - [[when profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits]] -- unbundling destroyed the cross-subsidy mechanism that generated profits at the distribution layer
 - [[performance overshooting creates a vacuum for good-enough alternatives when products exceed what mainstream customers need]] -- streaming overshoots on volume while undershooting on curation, creating the churn cycle
-- [[information cascades create power law distributions in culture because consumers use popularity as a filter when choice is overwhelming]] -- power law dynamics mean only a few titles drive subscriptions, making the gap between content cost and hit probability lethal
+- [[information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming]] -- power law dynamics mean only a few titles drive subscriptions, making the gap between content cost and hit probability lethal
 
 Topics:
 - [[competitive advantage and moats]]

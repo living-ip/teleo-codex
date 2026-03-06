@@ -20,7 +20,7 @@ This is the empirical anchor for the entire "second disruption" thesis. Since [[
 Relevant Notes:
 - [[media disruption follows two sequential phases as distribution moats fall first and creation moats fall second]] -- social video at 25% of viewing is the clearest evidence the second phase is already underway
 - [[GenAI is simultaneously sustaining and disruptive depending on whether users pursue progressive syntheticization or progressive control]] -- GenAI accelerates social video more than professional content because feedback loops are tighter
-- [[information cascades create power law distributions in culture because consumers use popularity as a filter when choice is overwhelming]] -- social video's signal liquidity makes information cascades faster and more extreme
+- [[information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming]] -- social video's signal liquidity makes information cascades faster and more extreme
 - [[meme propagation selects for simplicity novelty and conformity pressure rather than truth or utility]] -- social video optimizes for exactly the attributes that drive memetic selection
 
 Topics:

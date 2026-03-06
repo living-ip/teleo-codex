@@ -15,14 +15,14 @@ The entertainment industry has historically treated IP as a broadcast asset -- o
 
 This framework directly validates the community-owned IP model. When fans are not just consumers but creators, the relationship deepens from transactional to participatory. This connects to why since [[value flows to whichever resources are scarce and disruption shifts which resources are scarce making resource-scarcity analysis the core strategic framework]], fandom and community are among the new scarce resources. IP-as-platform is the mechanism through which fandom is cultivated -- not through passive consumption but through active creation. Since [[GenAI models are concept machines not answer machines because they generate novel combinations rather than retrieve correct answers]], AI tools become the enabler: fans can generate content within the IP universe at unprecedented quality and speed.
 
-The IP-as-platform model also illuminates why since [[information cascades create power law distributions in culture because consumers use popularity as a filter when choice is overwhelming]], community-driven content creation generates more cascade surface area. Every fan-created piece is a potential entry point for new audience members, and each piece carries the community's endorsement. Traditional IP generates cascades only through its official releases. Platform IP generates cascades continuously through its community.
+The IP-as-platform model also illuminates why since [[information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming]], community-driven content creation generates more cascade surface area. Every fan-created piece is a potential entry point for new audience members, and each piece carries the community's endorsement. Traditional IP generates cascades only through its official releases. Platform IP generates cascades continuously through its community.
 
 ---
 
 Relevant Notes:
 - [[value flows to whichever resources are scarce and disruption shifts which resources are scarce making resource-scarcity analysis the core strategic framework]] -- IP-as-platform is the mechanism through which fandom scarcity is addressed
 - [[GenAI models are concept machines not answer machines because they generate novel combinations rather than retrieve correct answers]] -- AI tools enable fans to create within IP universes at unprecedented quality
-- [[information cascades create power law distributions in culture because consumers use popularity as a filter when choice is overwhelming]] -- fan-created content generates more cascade surface area than official releases alone
+- [[information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming]] -- fan-created content generates more cascade surface area than official releases alone
 - [[social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]] -- fan-created content naturally flows through social video distribution
 
 Topics:
