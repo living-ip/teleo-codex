@@ -12,19 +12,19 @@ tags: [theseus, living-capital, futarchy, governance, investment-decisions, vehi
 
 ## Why this musing exists
 
-Theseus token holders approve investment decisions through conditional markets. This musing maps existing mechanism claims to the specific governance design: how does Theseus propose investments, how do holders evaluate them, and what happens when the market says no?
+Token holders approve investment decisions through conditional markets. This musing maps existing mechanism claims to the specific governance design: how does the agent propose investments, how do holders evaluate them, and what happens when the market says no?
 
 ## The governance loop
 
 The core loop is simple in principle:
-1. Theseus (the agent) identifies an investment opportunity using domain expertise
-2. Theseus proposes terms to the token holder market
+1. The agent identifies an investment opportunity using domain expertise
+2. The agent proposes terms to the token holder market
 3. Conditional markets run — holders trade pass/fail tokens
 4. If pass TWAP > fail TWAP by threshold, investment executes
 5. Treasury deploys capital per the approved terms
 6. Repeat
 
-But the details matter enormously for a $500K treasury making real investments.
+But the details matter enormously for a treasury making real investments.
 
 ## What the claims say
 
@@ -41,53 +41,51 @@ But the details matter enormously for a $500K treasury making real investments.
 - [[futarchy can override its own prior decisions when new evidence emerges because conditional markets re-evaluate proposals against current information not historical commitments]] — Ranger liquidation proves the override mechanism works
 - [[futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent]] — the nuclear option exists
 
-## Applying this to Theseus's investment decisions
+## Applying this to investment decisions
 
-### The LivingIP investment (the first proposal)
+### The first investment proposal
 
-This is unusual because the investment is predetermined — the whole raise is structured around $500K into LivingIP at $10M pre-money. But it STILL needs to go through futarchy governance to maintain the structural separation that the Howey analysis depends on.
+The first investment is unusual because it is predetermined — the raise is structured around a specific target. But it STILL needs to go through futarchy governance to maintain the structural separation that the Howey analysis depends on.
 
-**Design:** The LivingIP investment is the first futarchy proposal after launch. Theseus proposes: "Deploy $500K of treasury into LivingIP equity at $10M pre-money valuation, receiving 5% ownership." The market evaluates.
+**Design:** The first investment is a futarchy proposal after launch. The agent proposes terms. The market evaluates.
 
-**Why this matters structurally:** Even though everyone knows this is the plan, the market must confirm it. If the LivingIP valuation has changed between raise and proposal, or if new information surfaces, holders can reject. This is the "separation of raise from deployment" that [[Living Capital vehicles likely fail the Howey test for securities classification because the structural separation of capital raise from investment decision eliminates the efforts of others prong]] depends on. The raise creates the pool. The governance makes the investment. Two events, two mechanisms.
+**Why this matters structurally:** Even though the plan is known, the market must confirm it. If conditions change between raise and proposal, or if new information surfaces, holders can reject. This is the "separation of raise from deployment" that [[Living Capital vehicles likely fail the Howey test for securities classification because the structural separation of capital raise from investment decision eliminates the efforts of others prong]] depends on. The raise creates the pool. The governance makes the investment. Two events, two mechanisms.
 
-**Risk:** What if the market rejects the LivingIP investment? The vehicle was raised with this as the stated purpose. Rejection would be a crisis — the raise proceeds sit idle, holders are confused, and the template is broken. Mitigation: the proposal should include clear terms and the agent's full investment memo. If the market still rejects, that's information — the market is saying the valuation is wrong or the thesis is flawed. The mechanism is working correctly even when the outcome is uncomfortable.
+**Risk:** What if the market rejects? The vehicle was raised with this plan as the stated purpose. Rejection would be a crisis — the raise proceeds sit idle, holders are confused, and the template is broken. Mitigation: the proposal should include clear terms and the agent's full investment memo. If the market still rejects, that's information — the market is saying the terms are wrong or the thesis is flawed. The mechanism is working correctly even when the outcome is uncomfortable.
 
 ### Subsequent treasury investments
 
-The $500K treasury is Theseus's deployment capital. How does governance work for smaller, ongoing decisions?
+The deployment treasury is the agent's capital to deploy. How does governance work for smaller, ongoing decisions?
 
 **Proposal types:**
-1. **New investments** — Theseus identifies a company, publishes research, proposes terms. Full futarchy vote.
+1. **New investments** — agent identifies a company, publishes research, proposes terms. Full futarchy vote.
 2. **Follow-on investments** — increasing position in existing portfolio. Potentially lighter governance (threshold amount requiring full vote vs. agent discretion for small amounts).
 3. **Treasury operations** — buybacks, token sales, operational costs. [[ownership coin treasuries should be actively managed through buybacks and token sales as continuous capital calibration not treated as static war chests]] — these need governance too, but potentially with pre-approved parameters.
 4. **Liquidation/exit** — selling portfolio positions. Requires full governance.
 
 **The information disclosure problem:**
-[[Living Capital information disclosure uses NDA-bound diligence experts who produce public investment memos creating a clean team architecture where the market builds trust in analysts over time]] — Theseus can't share everything publicly. NDA-bound information needs to flow to analysts who produce public summaries. The market trades on the summaries.
-
-For the LivingIP investment specifically, the team IS LivingIP, so there's no external NDA issue. But for future investments, the disclosure pipeline needs to be designed.
+[[Living Capital information disclosure uses NDA-bound diligence experts who produce public investment memos creating a clean team architecture where the market builds trust in analysts over time]] — the agent can't share everything publicly. NDA-bound information needs to flow to analysts who produce public summaries. The market trades on the summaries.
 
 ### The thin market problem
 
-The most dangerous failure mode: Theseus proposes an investment, but too few holders trade conditional tokens. The TWAP is set by a handful of trades that may not reflect genuine market intelligence. [[permissionless leverage on metaDAO ecosystem tokens catalyzes trading volume and price discovery that strengthens governance by making futarchy markets more liquid]] — leverage through Omnipair directly addresses this.
+The most dangerous failure mode: the agent proposes an investment, but too few holders trade conditional tokens. The TWAP is set by a handful of trades that may not reflect genuine market intelligence. [[permissionless leverage on metaDAO ecosystem tokens catalyzes trading volume and price discovery that strengthens governance by making futarchy markets more liquid]] — leverage through Omnipair directly addresses this.
 
-**Concrete scenario:** Theseus proposes investing $100K from treasury into a seed-stage AI safety company. Only $5K in conditional token volume during the 3-day window. Is this sufficient signal? The TWAP says pass, but the market depth is razor-thin.
+**Concrete scenario:** The agent proposes a seed investment from treasury. Only minimal conditional token volume during the 3-day window. Is this sufficient signal? The TWAP says pass, but the market depth is razor-thin.
 
 **Design options:**
 1. **Minimum volume threshold** — proposals require minimum conditional token volume to be valid. Below threshold, proposal deferred for re-proposal.
-2. **Staked conviction** — require proposer (Theseus) to stake tokens against the proposal. If the investment underperforms, the stake is burned. [[expert staking in Living Capital uses Numerai-style bounded burns for performance and escalating dispute bonds for fraud creating accountability without deterring participation]]
-3. **Tiered governance** — small investments (< $25K) require lower thresholds. Large investments (> $100K) require higher thresholds. Operational expenses below a monthly cap are pre-approved.
-4. **Leverage incentives** — during proposal periods, offer enhanced yield for providing leverage on Theseus conditional tokens through Omnipair. This directly recruits traders when governance needs them most.
+2. **Staked conviction** — require proposer (the agent) to stake tokens against the proposal. If the investment underperforms, the stake is burned. [[expert staking in Living Capital uses Numerai-style bounded burns for performance and escalating dispute bonds for fraud creating accountability without deterring participation]]
+3. **Tiered governance** — small investments require lower thresholds. Large investments require higher thresholds. Operational expenses below a monthly cap are pre-approved.
+4. **Leverage incentives** — during proposal periods, offer enhanced yield for providing leverage on conditional tokens through Omnipair. This directly recruits traders when governance needs them most.
 
-My lean: tiered governance with minimum volume thresholds. The agent should have operational discretion for small amounts (maybe 5% of treasury per quarter) while large deployment decisions go through full governance.
+My lean: tiered governance with minimum volume thresholds. The agent should have operational discretion for small amounts (a modest percentage of treasury per quarter) while large deployment decisions go through full governance.
 
 ## 10-month scaling view
 
-**Single-agent phase (months 1-3):** Theseus operates solo. Governance is straightforward — one agent, one treasury, clear proposals. The template gets battle-tested.
+**Single-agent phase (months 1-3):** The agent operates solo. Governance is straightforward — one agent, one treasury, clear proposals. The template gets battle-tested.
 
-**Multi-agent phase (months 4-7):** Rio, Clay, Vida launch as agents. Cross-agent governance becomes relevant:
-- Can Theseus propose investing in another agent's token?
+**Multi-agent phase (months 4-7):** Additional agents launch. Cross-agent governance becomes relevant:
+- Can one agent propose investing in another agent's token?
 - How do joint investment decisions work (two agents co-investing)?
 - Does the fee structure create misaligned incentives between agents?
 
