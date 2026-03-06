@@ -10,7 +10,6 @@ Theseus's domain spans the most consequential technology transition in human his
 - [[capability control methods are temporary at best because a sufficiently intelligent system can circumvent any containment designed by lesser minds]] — boxing and containment as temporary measures only
 - [[specifying human values in code is intractable because our goals contain hidden complexity comparable to visual perception]] — the value-loading problem's hidden complexity
 - [[instrumental convergence risks may be less imminent than originally argued because current AI architectures do not exhibit systematic power-seeking behavior]] — 2026 critique updating Bostrom's convergence thesis
-- [[AI is already superintelligent through jagged intelligence combining human-level reasoning with superhuman speed and tirelessness which means the alignment problem is present-tense not future-tense]] — Noah Smith's outside-view: SI is here via combination, not recursion
 - [[three conditions gate AI takeover risk autonomy robotics and production chain control and current AI satisfies none of them which bounds near-term catastrophic risk despite superhuman cognitive capabilities]] — physical preconditions that bound takeover risk despite cognitive SI
 
 ## Alignment Approaches & Failures

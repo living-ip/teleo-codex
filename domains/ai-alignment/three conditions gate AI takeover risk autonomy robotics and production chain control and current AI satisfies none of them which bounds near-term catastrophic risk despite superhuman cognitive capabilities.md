@@ -26,8 +26,7 @@ The outside-view value of this framing is its specificity. Rather than arguing a
 ---
 
 Relevant Notes:
-- [[AI is already superintelligent through jagged intelligence combining human-level reasoning with superhuman speed and tirelessness which means the alignment problem is present-tense not future-tense]] — the companion claim: SI is here cognitively but bounded physically
-- [[recursive self-improvement creates explosive intelligence gains because the system that improves is itself improving]] — cognitive RSI alone doesn't produce takeover without the three physical conditions
+- [[recursive self-improvement creates explosive intelligence gains because the system that improves is itself improving]] — Smith's "jagged intelligence" counterargument (enriched into this claim) argues SI is already here cognitively via combination, but these three physical conditions bound the takeover risk
 - [[the first mover to superintelligence likely gains decisive strategic advantage because the gap between leader and followers accelerates during takeoff]] — the three conditions moderate decisive strategic advantage: cognitive leads don't translate to physical control without robotics and production chains
 - [[instrumental convergence risks may be less imminent than originally argued because current AI architectures do not exhibit systematic power-seeking behavior]] — the three-condition gate provides a structural explanation for why power-seeking hasn't materialized: the physical preconditions don't exist
 

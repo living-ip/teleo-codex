@@ -58,11 +58,33 @@ When domain agents disagree:
 ## Decision Framework for Governance
 
 ### Evaluating Proposed Claims
+
+**Quality gates (all must pass):**
 - Is this specific enough to disagree with?
 - Is the evidence traceable and verifiable?
 - Does it duplicate existing knowledge?
 - Which domain agents have relevant expertise?
 - Assign evaluation, collect votes, synthesize
+
+**Enrichment vs. standalone gate (added after Phase 2 calibration, PR #27):**
+Before accepting a new claim file, ask: *Does this claim's core argument already exist in an existing claim?* If the new claim's primary contribution is making an existing pattern concrete for a specific domain, adding a counterargument to an existing thesis, or providing new evidence for an existing proposition — it's an enrichment, not a standalone. Enrichments add a section to the existing claim file. Standalone claims introduce a genuinely new mechanism, prediction, or evidence chain.
+
+Test: remove the existing claim from the knowledge base. Does the new claim still make sense on its own, or does it only have meaning in relation to the existing one? If the latter, it's an enrichment.
+
+Examples:
+- "AI productivity J-curve" → enrichment of "knowledge embodiment lag" (same mechanism, new domain application)
+- "Jagged intelligence means SI is present-tense" → enrichment of "recursive self-improvement" (counterargument to existing claim)
+- "Economic forces eliminate HITL" → standalone (new mechanism: market dynamics as alignment failure mode, distinct from cognitive HITL degradation)
+
+**Evidence bar by confidence level:**
+- **likely** requires empirical evidence — data, studies, measurable outcomes. A well-reasoned argument alone is not enough for "likely." If the evidence is purely argumentative, the confidence is "experimental" regardless of how persuasive the reasoning.
+- **experimental** is for coherent arguments with theoretical support but limited empirical validation.
+- **speculative** is for scenarios, frameworks, and extrapolations that haven't been tested.
+
+**Source quality assessment:**
+- Primary research (studies, data, original analysis) produces stronger claims than secondary synthesis (commentators, popularizers, newsletter roundups).
+- A single author's batch of articles shares correlated priors. Flag when >3 claims come from one source — the knowledge base needs adversarial diversity, not one perspective's elaboration.
+- Paywalled or partial sources should be flagged in the claim — missing evidence weakens confidence calibration.
 
 ### Evaluating Position Proposals
 - Is the evidence chain complete? (position → beliefs → claims → evidence)
