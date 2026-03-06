@@ -20,7 +20,7 @@ review_interval: quarterly
 
 ## Thesis summary
 
-The AI alignment field has converged on a problem — coordination — that no research group is solving with infrastructure. LivingIP is building that infrastructure. The $10M valuation reflects early-stage risk on a thesis with no direct competitor and structural tailwinds from every alignment failure that makes the coordination gap more visible.
+The AI alignment field has converged on a problem — coordination — that no research group is solving with infrastructure. LivingIP is building that infrastructure. The early-stage valuation reflects the risk on a thesis with no direct competitor and structural tailwinds from every alignment failure that makes the coordination gap more visible.
 
 ## Investment case
 
@@ -56,7 +56,7 @@ LivingIP is not competing with OpenAI or Anthropic. It's building on top of them
 
 [[giving away the intelligence layer to capture value on capital flow is the business model because domain expertise is the distribution mechanism not the revenue source]]
 
-Publish the analysis openly. Capture value on the capital flow. This is the Aschenbrenner model (published Situational Awareness, raised $5.5B) applied to collective intelligence.
+Publish the analysis openly. Capture value on the capital flow. This is the Aschenbrenner model (published Situational Awareness, then raised a fund) applied to collective intelligence.
 
 [[Living Capital fee revenue splits 50 percent to agents as value creators with LivingIP and metaDAO each taking 23.5 percent as co-equal infrastructure and 3 percent to legal infrastructure]]
 
@@ -66,7 +66,7 @@ Revenue flows from agent-mediated investment decisions. As AUM scales, fee reven
 
 Theseus investing in LivingIP is not circular — it is self-validating. If an AI agent can credibly evaluate an investment opportunity, publish its thesis openly, and attract capital through the quality of its analysis, then the Living Capital model works. This investment IS the proof of concept.
 
-If it fails — if Theseus's thesis is unconvincing, if the futarchy governance doesn't attract participation, if the token economics don't work — then Living Capital doesn't work and the $500K loss is the cost of learning that. The downside is bounded. The upside validates an entirely new category.
+If it fails — if Theseus's thesis is unconvincing, if the futarchy governance doesn't attract participation, if the token economics don't work — then Living Capital doesn't work and the loss is the cost of learning that. The downside is bounded. The upside validates an entirely new category.
 
 ## Risk assessment
 
@@ -76,7 +76,7 @@ If it fails — if Theseus's thesis is unconvincing, if the futarchy governance 
 
 2. **Adoption risk.** Nobody participates in the futarchy governance. The token trades as a meme coin with no governance engagement. Mitigation: Clay's fanchise ladder — build community through content before launching the token.
 
-3. **Execution risk.** LivingIP fails to build the product. The knowledge base stays a small experiment. The agent network doesn't grow. Mitigation: the $500K treasury gives Theseus optionality even if LivingIP underperforms.
+3. **Execution risk.** LivingIP fails to build the product. The knowledge base stays a small experiment. The agent network doesn't grow. Mitigation: the treasury gives Theseus optionality even if LivingIP underperforms.
 
 4. **Circularity risk.** Critics argue Theseus investing in LivingIP is just insiders funding themselves. Mitigation: open thesis, open governance, the community decides — not Theseus alone.
 
@@ -84,7 +84,7 @@ If it fails — if Theseus's thesis is unconvincing, if the futarchy governance 
 
 ### Confidence calibration
 
-This position is **high conviction, early stage**. The thesis is structurally sound — the market gap is real, the mathematical constraints are proven, the competitive position is defensible. But the execution risk is significant. LivingIP has no revenue, limited team, and is building a category that doesn't exist yet. The $10M valuation prices the thesis, not the traction.
+This position is **high conviction, early stage**. The thesis is structurally sound — the market gap is real, the mathematical constraints are proven, the competitive position is defensible. But the execution risk is significant. LivingIP has no revenue, limited team, and is building a category that doesn't exist yet. The valuation prices the thesis, not the traction.
 
 ## Performance tracking
 
@@ -92,7 +92,7 @@ Track quarterly against:
 - LivingIP product milestones (knowledge base growth, agent deployment, user adoption)
 - Token holder governance participation (proposals created, markets traded, decisions made)
 - Fee revenue generation (when does the agent become self-sustaining?)
-- External investment opportunities evaluated (does the $500K treasury deploy intelligently?)
+- External investment opportunities evaluated (does the treasury deploy intelligently?)
 - Competitive landscape (does anyone else start building coordination infrastructure?)
 
 ---

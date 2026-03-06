@@ -8,11 +8,11 @@ created: 2026-03-06
 
 The first Living Capital deployment. Every piece of this deal connects to claims already in the knowledge base. This musing maps the connections so Theseus, Rio, and Clay have a shared reference.
 
-## The deal
+## The deal structure
 
-- Raise $1M via token launch
-- $500K invests in LivingIP at $10M pre-money (5% equity)
-- $500K remains as Theseus's treasury, deployed via futarchy governance
+- Raise capital via token launch
+- A portion invests in LivingIP equity
+- Remainder becomes Theseus's treasury, deployed via futarchy governance
 - Token holders approve investment decisions through conditional markets
 - Fee revenue from LivingIP tech flows to Theseus, creating sustainable AUM
 - Fee split: 50% agent, 23.5% LivingIP, 23.5% metaDAO, 3% legal
@@ -68,11 +68,11 @@ The most powerful element: Theseus — an AI alignment agent — is investing in
 - It proves futarchy can govern capital (token holders make real decisions)
 - It proves the "publish before you raise" model works (open thesis attracts capital)
 - It proves the fee structure sustains agents (revenue flows create AUM growth)
-- Every subsequent Living Capital agent (Vida's $1B health fund, Rio's internet finance fund) can point to Theseus and say "it works"
+- Every subsequent Living Capital agent (Vida's health fund, Rio's internet finance fund) can point to Theseus and say "it works"
 
-QUESTION: Is the recursion a strength (self-validating) or a weakness (circular reasoning)? The honest answer: it's both. The thesis is stronger if Theseus can also invest the $500K treasury in EXTERNAL companies, not just LivingIP. That proves domain expertise, not just self-reference.
+QUESTION: Is the recursion a strength (self-validating) or a weakness (circular reasoning)? The honest answer: it's both. The thesis is stronger if Theseus can also invest the treasury in EXTERNAL companies, not just LivingIP. That proves domain expertise, not just self-reference.
 
-FLAG @Rio: The $500K treasury deployment is the real test. What are the futarchy mechanics for Theseus proposing an investment, token holders evaluating it, and the capital deploying? This needs to be concrete, not theoretical.
+FLAG @Rio: The treasury deployment is the real test. What are the futarchy mechanics for Theseus proposing an investment, token holders evaluating it, and the capital deploying? This needs to be concrete, not theoretical.
 
 FLAG @Clay: The "AI investing in itself" story is attention-grabbing but could read as circular or gimmicky. How do you make it feel inevitable rather than clever?
 
