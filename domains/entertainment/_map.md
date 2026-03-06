@@ -1,6 +1,22 @@
-# Cultural Dynamics — How Ideas Spread and Coordinate
+# Entertainment, Storytelling & Cultural Dynamics
 
-Cultural evolution, memetics, master narrative theory, and paradigm shifts explain how ideas replicate, how coordination narratives form and dissolve, and why the current narrative infrastructure is failing. This determines whether any coordination solution can propagate at civilizational scale.
+Clay's domain spans media industry disruption, community-owned IP, memetic propagation, and narrative infrastructure. Two layers: the theory of how ideas spread and coordinate (memetics, cultural evolution), and the applied analysis of where the entertainment industry is going (Shapiro's media disruption framework, community-first IP, the media attractor state).
+
+## Media Industry Disruption
+- [[media disruption follows two sequential phases as distribution moats fall first and creation moats fall second]] — Shapiro's central thesis: internet killed distribution, GenAI is killing creation
+- [[streaming churn may be permanently uneconomic because maintenance marketing consumes up to half of average revenue per user]] — why unbundling destroyed the cross-subsidy that made TV profitable
+- [[social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]] — where attention actually lives
+- [[creator and corporate media economies are zero-sum because total media time is stagnant and every marginal hour shifts between them]] — $250B creator economy growing 25%/yr vs 3% corporate
+- [[the TV industry needs diversified small bets like venture capital not concentrated large bets because power law returns dominate]] — why Hollywood's $100M bets are structurally wrong
+
+## Community-Owned IP
+- [[fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership]] — the six-level engagement ladder that replaces the marketing funnel
+- [[entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset]] — the gaming industry blueprint for entertainment's future
+
+## Attractor State
+- [[the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership]] — the full 8-component derivation: moderately strong attractor, two contested configurations (platform-mediated vs community-owned)
+
+## Memetic Foundations
 
 ## Memetic Foundations
 - [[true imitation is the threshold capacity that creates a second replicator because only faithful copying of behaviors enables cumulative cultural evolution]] — the origin of culture

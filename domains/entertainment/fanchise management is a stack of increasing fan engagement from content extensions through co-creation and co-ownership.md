@@ -1,0 +1,31 @@
+---
+type: framework
+domain: entertainment
+description: "Shapiro proposes a purposeful engagement ladder for IP management -- good content then content extensions then loyalty incentives then community tooling then co-creation then co-ownership"
+confidence: likely
+source: "Doug Shapiro, 'What is Scarce When Quality is Abundant?', The Mediator (Substack)"
+created: 2026-03-01
+---
+
+# fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership
+
+Shapiro introduces the concept of "fanchise management" -- a purposeful, systematic approach to cultivating fandom that goes far beyond traditional franchise management. While franchise management is about IP exploitation (sequels, merchandise, licensing), fanchise management is about fan relationship cultivation. The stack moves through six levels of increasing engagement: (1) good content that earns initial attention, (2) content extensions that deepen the universe (lore, behind-the-scenes, companion content), (3) loyalty incentives that reward continued engagement, (4) community tooling that enables fans to connect with each other, (5) co-creation where fans contribute to the IP universe, and (6) co-ownership where fans have economic participation in the IP's success.
+
+Each level deepens the fan relationship and increases switching costs -- but positive switching costs based on value, not negative switching costs based on lock-in. A fan who has co-created content within a universe, connected with a community, and owns a stake in the IP's success has enormous positive switching costs. They stay not because leaving is hard but because the value of staying is immense. This is the exact inverse of since [[streaming churn may be permanently uneconomic because maintenance marketing consumes up to half of average revenue per user]] -- streaming creates negative switching costs (content you'll miss) while fanchise management creates positive switching costs (community you belong to).
+
+This framework maps directly onto the web3 entertainment model. NFTs and digital collectibles operate at levels 3 (loyalty incentives), 4 (community tooling through holder-gated experiences), and 6 (co-ownership through token appreciation). Social media content creation tools operate at level 5 (co-creation). Traditional studios are stuck at levels 1-2 because their business model has no mechanism for levels 3-6. Since [[entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset]], IP-as-platform is the infrastructure that enables levels 4-6, while traditional broadcast IP caps out at level 2.
+
+The fanchise management stack also explains why since [[value flows to whichever resources are scarce and disruption shifts which resources are scarce making resource-scarcity analysis the core strategic framework]], superfans are the scarce resource. Superfans represent fans who have progressed to levels 4-6 -- they spend disproportionately more, evangelize more effectively, and create more content. Cultivating superfans is not a marketing tactic but a strategic imperative because they are the scarcity that filters infinite content into discoverable signal.
+
+---
+
+Relevant Notes:
+- [[streaming churn may be permanently uneconomic because maintenance marketing consumes up to half of average revenue per user]] -- fanchise management creates positive switching costs that solve the churn problem streaming cannot
+- [[entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset]] -- IP-as-platform is the infrastructure that enables the higher levels of the fanchise stack
+- [[value flows to whichever resources are scarce and disruption shifts which resources are scarce making resource-scarcity analysis the core strategic framework]] -- superfans at levels 4-6 are the scarce resource that filters infinite content
+- [[information cascades create power law distributions in culture because consumers use popularity as a filter when choice is overwhelming]] -- superfans are the cascade initiators whose engagement creates the social proof that drives mainstream adoption
+- [[social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]] -- co-creation at level 5 naturally flows through social video distribution channels
+
+Topics:
+- [[competitive advantage and moats]]
+- [[web3 entertainment and creator economy]]
