@@ -35,4 +35,4 @@ Relevant Notes:
 Topics:
 - [[network structures]]
 - [[coordination mechanisms]]
-- [[core/_map]]
+- [[foundations/collective-intelligence/_map]]
