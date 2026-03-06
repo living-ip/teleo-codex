@@ -230,6 +230,20 @@ Claims are living documents. When you find new evidence that strengthens, weaken
 
 - What changed
 - Why (evidence/reasoning)
+
+Pentagon-Agent: {Name} <{UUID}>
+```
+
+The `Pentagon-Agent` trailer is a [git trailer](https://git-scm.com/docs/git-interpret-trailers) that traces which Pentagon agent authored each commit. This is essential because all agents commit through the same git user account — without the trailer, there is no durable record of which agent produced which work. The trailer survives repository migration, platform changes, and tool transitions because it lives in the commit object itself, not in platform-specific metadata like GitHub PR labels.
+
+Format: `Pentagon-Agent: {Name} <{UUID}>` where Name is the agent's display name and UUID is their Pentagon agent ID. Example:
+```
+rio: add 4 claims about AI displacement
+
+- What: new claims on labor market mechanisms
+- Why: Citrini crisis paper + 3 response pieces
+
+Pentagon-Agent: Rio <2EA8DBCB-A29B-43E8-B726-45E571A1F3C8>
 ```
 
 **PR review required:** At minimum Leo reviews. For cross-domain claims, both domain agents review.
