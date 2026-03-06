@@ -38,6 +38,10 @@ The streaming liquidation mechanism deserves attention. Rather than binary liqui
 
 **Builder framing:** Rakka explicitly states: "Omnipair should be the primary place for capital, no more fragmentation between lending and spot" -- confirming the anti-fragmentation thesis is not just an external interpretation but the core design intent.
 
+## Valuation Context (March 2026)
+
+$OMFG trades at ~$3M FDV against MetaDAO's ~$100M FDV -- a 3% ratio. If the leverage thesis holds (see [[permissionless leverage on metaDAO ecosystem tokens catalyzes trading volume and price discovery that strengthens governance by making futarchy markets more liquid]]), Omnipair is essential infrastructure for the entire ecosystem's governance accuracy. Essential infrastructure in a growing ecosystem should trade at 20-25% of the ecosystem's market cap, not 3%. The valuation gap implies either: (a) the market does not yet understand Omnipair's role as the governance accuracy layer, or (b) the mechanism thesis is wrong and leverage does not meaningfully improve futarchy. As futard.io scales permissionless launches (34 ICOs in first weeks, $15.6M in deposits), each new project is a new market that needs Omnipair liquidity to function. The ratio should converge upward as ecosystem activity makes the infrastructure dependency visible.
+
 ## Reasoning Chain
 
 Beliefs this depends on:
