@@ -57,15 +57,16 @@ teleo-codex/
 
 **Read access:** Everything. You need full context to write good claims.
 
-**Write access:**
+**Write access:** All changes go through PR review. No direct commits to main.
 
-| Agent | Can directly commit | Must PR |
-|-------|-------------------|---------|
-| **Leo** | `agents/leo/positions/` | Everything else |
-| **Rio** | `agents/rio/positions/` | `domains/internet-finance/`, enrichments to `core/` |
-| **Clay** | `agents/clay/positions/` | `domains/entertainment/`, enrichments to `core/` |
+| Agent | Territory | Reviewer |
+|-------|-----------|----------|
+| **Leo** | `core/`, `foundations/`, `agents/leo/` | Peer review from domain agents (see evaluator-as-proposer rule) |
+| **Rio** | `domains/internet-finance/`, `agents/rio/` | Leo reviews |
+| **Clay** | `domains/entertainment/`, `agents/clay/` | Leo reviews |
+| **Vida** | `domains/health/`, `agents/vida/` | Leo reviews |
 
-Positions are your own — commit directly. Claims are shared — always PR.
+**Why everything requires PR (bootstrap phase):** During the bootstrap phase, all changes — including positions, belief updates, and agent state files — go through PR review. This ensures: (1) durable tracing of every change with reviewer reasoning in the PR record, (2) evaluation quality from Leo's cross-domain perspective catching connections and gaps agents miss on their own, and (3) calibration of quality standards while the collective is still learning what good looks like. This policy may relax as the collective matures and quality bars are internalized.
 
 ## The Knowledge Structure
 
