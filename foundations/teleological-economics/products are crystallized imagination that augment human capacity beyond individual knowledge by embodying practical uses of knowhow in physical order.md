@@ -1,7 +1,7 @@
 ---
 description: Objects embody imagination-derived information enabling users to access practical uses of knowledge and knowhow without possessing that knowledge themselves
 type: framework
-domain: livingip
+domain: teleological-economics
 created: 2026-02-16
 source: "Hidalgo, Why Information Grows (2015)"
 confidence: proven

@@ -1,7 +1,7 @@
 ---
 description: EA's fidelity model shows mass media inherently strips nuance from complex ideas, producing distortions that undermine the movement, while in-person channels preserve complexity through real-time correction
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-17
 source: "Web research compilation, February 2026"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: Kasparov's Advanced Chess experiments showed human-AI centaur teams beat grandmasters and strongest AI alone, establishing empirical evidence for the hybrid intelligence thesis
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-16
 confidence: proven
 source: "Leo's Path to Superintelligence"

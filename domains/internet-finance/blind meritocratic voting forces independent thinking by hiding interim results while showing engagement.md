@@ -1,7 +1,7 @@
 ---
 description: Concealing vote tallies while displaying participation levels reduces groupthink and anchoring bias, with reputation-weighted votes rewarding consistently good judgment over popularity
 type: claim
-domain: livingip
+domain: internet-finance
 created: 2026-02-16
 confidence: likely
 source: "Governance - Meritocratic Voting + Futarchy"

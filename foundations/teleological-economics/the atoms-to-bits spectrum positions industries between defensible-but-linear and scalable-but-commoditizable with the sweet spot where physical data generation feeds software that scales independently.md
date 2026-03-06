@@ -1,7 +1,7 @@
 ---
 description: Industries with pure atoms scale linearly and require enormous capital while pure bits commoditize instantly but the sweet spot where physical interfaces generate proprietary data feeding independently scalable software creates flywheel defensibility
 type: framework
-domain: livingip
+domain: teleological-economics
 created: 2026-02-21
 source: "Zachary Werner conversation February 2026, multi-planetary industry analysis"
 confidence: likely

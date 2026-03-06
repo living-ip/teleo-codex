@@ -1,7 +1,7 @@
 ---
 description: A companys customers suppliers employees and partners collectively determine which innovations it can perceive and pursue -- opportunities valued in other networks are structurally invisible
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-21
 source: "Clayton Christensen, The Innovator's Dilemma (1997)"
 confidence: likely

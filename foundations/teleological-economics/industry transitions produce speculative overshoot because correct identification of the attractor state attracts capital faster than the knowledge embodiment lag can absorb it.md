@@ -1,7 +1,7 @@
 ---
 description: The telecom bust and automotive shakeout show that even accurate attractor identification produces bubbles when capital inflows outpace organizational readiness
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-17
 confidence: likely
 source: "Attractor state historical backtesting, Feb 2026"

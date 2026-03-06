@@ -103,7 +103,7 @@ Every claim file has this frontmatter:
 ```yaml
 ---
 type: claim
-domain: internet-finance | entertainment | grand-strategy
+domain: internet-finance | entertainment | health | ai-alignment | grand-strategy | mechanisms | living-capital | living-agents | teleohumanity | critical-systems | collective-intelligence | teleological-economics | cultural-dynamics
 description: "one sentence adding context beyond the title"
 confidence: proven | likely | experimental | speculative
 source: "who proposed this and primary evidence"

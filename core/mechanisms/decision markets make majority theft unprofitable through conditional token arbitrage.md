@@ -1,7 +1,7 @@
 ---
 description: The futarchy mechanism forces would-be attackers to either buy worthless pass tokens above fair value or sell fail tokens below fair value
 type: framework
-domain: livingip
+domain: mechanisms
 created: 2026-02-16
 source: "Heavey, Futarchy as Trustless Joint Ownership (2024)"
 confidence: proven

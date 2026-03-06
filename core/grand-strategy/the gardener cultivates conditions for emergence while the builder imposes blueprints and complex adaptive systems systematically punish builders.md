@@ -1,7 +1,7 @@
 ---
 description: Five intellectual traditions converge on the same claim -- Berlin epistemology, Scott political science, Eno creative practice, Mintzberg management, Gaddis strategic history all show that top-down design fails in complex adaptive systems
 type: claim
-domain: livingip
+domain: grand-strategy
 created: 2026-03-05
 confidence: proven
 source: "James C. Scott 'Seeing Like a State' 1998, Isaiah Berlin 1953, Brian Eno 'Composers as Gardeners' 2011, Henry Mintzberg 1985, John Lewis Gaddis 2018"

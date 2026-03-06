@@ -1,7 +1,7 @@
 ---
 description: Like painting an asteroid white decades before impact to deflect it with solar pressure, small interventions now shift species-level trajectories that become immovable later
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: likely
 source: "TeleoHumanity Manifesto, Chapter 2"

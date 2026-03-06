@@ -1,7 +1,7 @@
 ---
 description: AI accelerates biotech risk, climate destabilizes politics, political dysfunction reduces AI governance capacity -- pull any thread and the whole web moves
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: likely
 source: "TeleoHumanity Manifesto, Chapter 6"

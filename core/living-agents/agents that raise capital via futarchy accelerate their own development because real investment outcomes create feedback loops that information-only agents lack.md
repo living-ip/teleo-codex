@@ -1,7 +1,7 @@
 ---
 description: Capital-bearing agents learn faster through three feedback loops at three timescales — social engagement from capital-attracted attention (days), futarchy market assessment of proposals (weeks), and investment outcomes (years) — making the transition to Living Agent an intelligence upgrade not just a business model
 type: claim
-domain: livingip
+domain: living-agents
 created: 2026-03-05
 confidence: likely
 source: "Living Capital thesis development, March 2026"

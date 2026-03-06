@@ -1,7 +1,7 @@
 ---
 description: Blackmore argues imitation (not tool use, language, or consciousness) is what made humans unique by launching memetic evolution
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-16
 source: "Blackmore, The Meme Machine (1999)"
 confidence: likely

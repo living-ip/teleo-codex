@@ -1,7 +1,7 @@
 ---
 description: Three structural features of futarchy-governed entities compound to eliminate the concentrated promoter effort Howey requires — active market participation as governance, company non-control of treasury, absence of beneficial owners — though argument strength varies by project from Solomon (strongest) to Avici (weakest)
 type: analysis
-domain: livingip
+domain: internet-finance
 created: 2026-03-05
 confidence: experimental
 source: "SEC Report on The DAO (2017), Howey test framework, MetaDAO ecosystem analysis, Seedplex regulatory analysis, March 2026"

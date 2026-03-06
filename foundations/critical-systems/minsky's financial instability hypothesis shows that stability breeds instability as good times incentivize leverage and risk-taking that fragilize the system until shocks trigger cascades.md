@@ -1,7 +1,7 @@
 ---
 description: Prolonged economic expansion decreases perceived disaster probability through disaster myopia causing lenders to compete by lowering standards and increasing leverage which creates actual fragility making crises endogenous not exogenous
 type: framework
-domain: livingip
+domain: critical-systems
 created: 2026-02-16
 source: "Teleological Investing / TeleoHumanity book"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: Polymarket's accurate 2024 election forecasts demonstrated prediction markets as more responsive and democratic than centralized polling venues
 type: claim
-domain: livingip
+domain: mechanisms
 created: 2026-02-16
 source: "Galaxy Research, State of Onchain Futarchy (2025)"
 confidence: proven

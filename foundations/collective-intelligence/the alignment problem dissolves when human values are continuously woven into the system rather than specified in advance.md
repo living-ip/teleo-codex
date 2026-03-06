@@ -1,7 +1,7 @@
 ---
 description: Fixed-goal AI must get values right before deployment with no mechanism for correction -- collective superintelligence keeps humans in the loop so values evolve with understanding
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-16
 confidence: experimental
 source: "TeleoHumanity Manifesto, Chapter 8"

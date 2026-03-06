@@ -1,7 +1,7 @@
 ---
 description: Individual humans can hold at most one personbyte of knowledge and knowhow, so products requiring more must be produced by networks whose structure becomes the binding constraint
 type: framework
-domain: livingip
+domain: teleological-economics
 created: 2026-02-16
 source: "Hidalgo, Why Information Grows (2015)"
 confidence: likely

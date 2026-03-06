@@ -1,7 +1,7 @@
 ---
 description: The chain of improbabilities from stellar nucleosynthesis to eukaryotic transition to human awareness suggests consciousness arose at most a handful of times and possibly only once
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: likely
 source: "TeleoHumanity Manifesto, Chapters 1-2"

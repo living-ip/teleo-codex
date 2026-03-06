@@ -1,7 +1,7 @@
 ---
 description: Historical evidence shows that every successful civilizational narrative emerged from shared practice and crisis rather than deliberate design, which poses the fundamental challenge for projects like LivingIP that attempt deliberate narrative architecture
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-21
 source: "Master Narratives Theory research synthesis -- cross-referencing Ansary, Toynbee, historical case studies"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: Across five historical transitions value concentrated at layers with network effects switching costs or natural monopoly characteristics regardless of who initiated the transition
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-17
 confidence: likely
 source: "Attractor state historical backtesting, Feb 2026"

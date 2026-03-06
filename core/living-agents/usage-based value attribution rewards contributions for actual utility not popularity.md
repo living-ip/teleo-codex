@@ -1,7 +1,7 @@
 ---
 description: Measuring contribution value by how often information serves as a crucial node in meaningful query responses rather than by views or likes creates incentives aligned with genuine knowledge quality
 type: claim
-domain: livingip
+domain: living-agents
 created: 2026-02-16
 confidence: experimental
 source: "PathRAG and Knowledge Graphs: Optimizing Living Agent Intelligence"

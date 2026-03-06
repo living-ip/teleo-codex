@@ -1,7 +1,7 @@
 ---
 description: The SEC's 2017 DAO Report rejected token voting as active management because pseudonymous holders and forum dynamics made consolidated control impractical — futarchy must show prediction market participation is mechanistically different from voting, not just more sophisticated
 type: analysis
-domain: livingip
+domain: internet-finance
 created: 2026-03-05
 confidence: likely
 source: "SEC Report of Investigation Release No. 34-81207 (July 2017), CFTC v. Ooki DAO (N.D. Cal. 2023), Living Capital regulatory analysis March 2026"

@@ -1,7 +1,7 @@
 ---
 description: Hayek Ostrom Madison Juarrero Snowden Lessig Zittrain Scott Meadows Kauffman and Kelly all distinguish framework design from outcome prescription
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-17
 source: "Synthesis across political theory, complexity science, economics, commons governance, internet architecture, open source, and systems thinking"
 confidence: proven

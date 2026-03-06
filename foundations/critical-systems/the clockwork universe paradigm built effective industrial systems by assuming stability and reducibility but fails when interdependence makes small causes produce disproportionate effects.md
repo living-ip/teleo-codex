@@ -1,7 +1,7 @@
 ---
 description: Newtonian reductionism and determinism created a worldview where everything is predictable with sufficient understanding -- Taylor built clockwork factories from it and it worked until technological progress made the world too interdependent for linear thinking
 type: framework
-domain: livingip
+domain: critical-systems
 source: "Architectural Investing, Ch. Introduction; Warren Weaver (1947)"
 confidence: likely
 tradition: "complexity theory, management history, Teleological Investing"

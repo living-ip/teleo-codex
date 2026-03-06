@@ -1,7 +1,7 @@
 ---
 description: 800+ empirical cases show successful commons share structural properties like boundaries collective choice monitoring and graduated sanctions not specific rules
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-17
 source: "Ostrom, Governing the Commons (1990), Nobel Prize 2009"
 confidence: proven

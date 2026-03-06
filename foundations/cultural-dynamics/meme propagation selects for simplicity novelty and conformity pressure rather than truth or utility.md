@@ -1,7 +1,7 @@
 ---
 description: Heylighen's seven selection criteria reveal that only utility serves human needs while six other factors -- simplicity, novelty, formality, authority, publicity, conformity -- optimize for spread over accuracy
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-17
 source: "Web research compilation, February 2026"
 confidence: likely

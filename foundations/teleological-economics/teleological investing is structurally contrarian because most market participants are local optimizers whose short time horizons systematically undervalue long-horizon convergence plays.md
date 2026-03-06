@@ -1,7 +1,7 @@
 ---
 description: The contrarian alpha is not a personality trait or market timing trick but a structural consequence of bounded rationality -- agents who hill-climb on quarterly earnings cannot price in decade-scale attractor convergence
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-28
 confidence: likely
 source: "Synthesis from Architectural Investing book and vault attractor dynamics research"

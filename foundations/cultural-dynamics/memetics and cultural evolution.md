@@ -1,6 +1,6 @@
 ---
 type: topic-map
-domain: entertainment
+domain: cultural-dynamics
 secondary_domains:
   - grand-strategy
 description: "Topic index for claims about memetic theory, cultural evolution, and the mechanisms by which ideas propagate, persist, and coordinate action"

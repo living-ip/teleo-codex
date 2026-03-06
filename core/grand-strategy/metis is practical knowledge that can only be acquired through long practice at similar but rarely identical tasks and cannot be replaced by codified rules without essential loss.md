@@ -1,7 +1,7 @@
 ---
 description: Scott's central concept from Seeing Like a State -- metis lies in the large space between genius and codified knowledge, and high modernist schemes fail when they ignore it in favor of legible but simplified designs
 type: claim
-domain: livingip
+domain: grand-strategy
 created: 2026-03-05
 confidence: proven
 source: "James C. Scott 'Seeing Like a State' 1998"

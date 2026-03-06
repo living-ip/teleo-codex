@@ -1,7 +1,7 @@
 ---
 description: Listening to best customers investing in highest margins and allocating to proven markets creates structural bias against disruptive innovations that look unattractive on every metric
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-21
 source: "Clayton Christensen, The Innovator's Dilemma (1997)"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: Universal instant communication infrastructure enables everyone to shout into the same room but provides no mechanism for coordinating what is shouted into collective intelligence
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Manifesto, Chapter 5"

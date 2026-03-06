@@ -1,7 +1,7 @@
 ---
 description: Henrich's collective brain hypothesis shows that larger more interconnected populations produce more complex culture because innovation emerges from serendipity recombination and incremental improvement across social networks
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-17
 source: "Web research compilation, February 2026"
 confidence: likely

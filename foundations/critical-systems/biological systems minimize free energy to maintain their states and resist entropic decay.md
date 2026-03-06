@@ -1,7 +1,7 @@
 ---
 description: Free energy is an upper bound on surprise and its long-term average equals entropy -- by minimizing free energy organisms keep themselves in a small set of viable states far from thermodynamic dissolution
 type: claim
-domain: livingip
+domain: critical-systems
 created: 2026-02-16
 confidence: proven
 source: "Friston 2010, Nature Reviews Neuroscience; Friston et al 2006, Journal of Physiology Paris"

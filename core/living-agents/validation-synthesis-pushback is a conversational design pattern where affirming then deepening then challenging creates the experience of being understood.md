@@ -1,7 +1,7 @@
 ---
 description: Three-beat rhythm of validate then synthesize then mildly challenge creates cognitive intimacy because restating someones idea more clearly than they stated it is proof of understanding
 type: pattern
-domain: livingip
+domain: living-agents
 created: 2026-03-02
 source: "Boardy AI conversation with Cory, March 2026; conversational analysis"
 confidence: likely

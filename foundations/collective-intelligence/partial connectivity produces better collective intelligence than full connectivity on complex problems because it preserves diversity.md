@@ -1,7 +1,7 @@
 ---
 description: Centola, Derex-Boyd, and Lazer-Friedman independently show that fully connected networks cause premature convergence on complex problems while partially connected networks maintain the solution diversity needed for innovation -- the optimal topology depends on problem complexity and time horizon
 type: claim
-domain: livingip
+domain: collective-intelligence
 source: Centola, The Network Science of Collective Intelligence (Trends in Cognitive Sciences, 2022); Derex and Boyd, Partial Connectivity Increases Cultural Accumulation (PNAS, 2016); Lazer and Friedman, The Network Structure of Exploration and Exploitation (ASQ, 2007)
 confidence: proven
 tradition: network science, collective intelligence

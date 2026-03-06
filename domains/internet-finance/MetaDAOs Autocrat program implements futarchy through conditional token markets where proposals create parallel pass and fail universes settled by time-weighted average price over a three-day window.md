@@ -1,7 +1,7 @@
 ---
 description: The on-chain governance mechanism -- anyone stakes 500K META to create a proposal that splits tokens into conditional pass/fail variants traded in parallel AMMs with TWAP-based settlement at a 1.5 percent threshold
 type: analysis
-domain: livingip
+domain: internet-finance
 created: 2026-03-04
 confidence: likely
 source: "MetaDAO Founder/Operator Legal Pack, Solomon Labs governance docs, MetaDAO Terms of Service, inbox research files"

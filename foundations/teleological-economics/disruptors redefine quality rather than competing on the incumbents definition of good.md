@@ -1,7 +1,7 @@
 ---
 description: Disruptive products are inferior only on metrics the incumbent's value network prizes -- they are superior on dimensions incumbents systematically ignore like convenience and accessibility
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-21
 source: "Clayton Christensen, The Innovator's Dilemma (1997); The Innovator's Solution (2003)"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: Gaddis's observation via Napoleon -- the higher leaders rise the more their success erodes the environmental feedback that produced their good judgment, creating a structural blindspot that scales with authority
 type: claim
-domain: livingip
+domain: grand-strategy
 created: 2026-03-05
 confidence: likely
 source: "John Lewis Gaddis 'On Grand Strategy' 2018"

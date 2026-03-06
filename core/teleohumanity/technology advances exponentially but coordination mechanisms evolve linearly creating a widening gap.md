@@ -1,7 +1,7 @@
 ---
 description: The Red Queen dynamic means each technological breakthrough shortens the runway for developing governance, and the gap between capability and wisdom grows wider every year
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: likely
 source: "TeleoHumanity Manifesto, Fermi Paradox & Great Filter"

@@ -1,7 +1,7 @@
 ---
 description: Trades nullified when conditions fail let speculators estimate policy effects without ever proving what would have happened otherwise
 type: framework
-domain: livingip
+domain: internet-finance
 created: 2026-02-16
 source: "Hanson, Shall We Vote on Values But Bet on Beliefs (2013)"
 confidence: proven

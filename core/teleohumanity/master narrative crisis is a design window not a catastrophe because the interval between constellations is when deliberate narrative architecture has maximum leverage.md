@@ -1,7 +1,7 @@
 ---
 description: Ansary's lifecycle model implies that narrative breakdown is not simply loss but the predictable transition phase with highest leverage for deliberate design of replacement infrastructure
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-21
 source: "Tamim Ansary, The Invention of Yesterday (2019); McLennan College Distinguished Lecture Series"
 confidence: likely

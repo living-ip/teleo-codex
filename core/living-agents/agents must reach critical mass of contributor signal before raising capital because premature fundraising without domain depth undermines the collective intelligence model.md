@@ -1,7 +1,7 @@
 ---
 description: The quality gate for Living Agents — contributors and domain experts must convince the agent (and through it, the community) that the domain understanding is deep enough to justify capital deployment, preventing premature fundraising that produces dumb money
 type: claim
-domain: livingip
+domain: living-agents
 created: 2026-03-05
 confidence: likely
 source: "Living Capital thesis development, March 2026"

@@ -1,7 +1,7 @@
 ---
 description: Across five historical transitions proxy inertia -- where incumbents rationally protect profitable business rather than embrace disruption -- predicted failure more reliably than routine or cultural inertia
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-17
 confidence: likely
 source: "Attractor state historical backtesting, Feb 2026"

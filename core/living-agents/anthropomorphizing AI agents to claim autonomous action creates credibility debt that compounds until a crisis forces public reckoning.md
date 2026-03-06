@@ -1,7 +1,7 @@
 ---
 description: Companies marketing AI agents as autonomous decision-makers build narrative debt because each overstated capability claim narrows the gap between expectation and reality until a public failure exposes the gap
 type: claim
-domain: livingip
+domain: living-agents
 created: 2026-02-17
 source: "Boardy AI case study, February 2026; broader AI agent marketing patterns"
 confidence: likely

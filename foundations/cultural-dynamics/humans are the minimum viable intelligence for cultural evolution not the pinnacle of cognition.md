@@ -1,7 +1,7 @@
 ---
 description: Our cognitive limitations -- 4-7 item working memory, Dunbar's 150, systematic biases -- are not imperfections in a powerful system but evidence we barely crossed the threshold for cumulative culture
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-16
 confidence: likely
 source: "TeleoHumanity Manifesto, Minimum Sufficient Rationality"

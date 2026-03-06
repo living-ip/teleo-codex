@@ -1,7 +1,7 @@
 ---
 description: In futarchy markets, any attempt to manipulate decision outcomes by distorting prices creates arbitrage opportunities that incentivize other traders to correct the distortion
 type: claim
-domain: livingip
+domain: mechanisms
 created: 2026-02-16
 confidence: likely
 source: "Governance - Meritocratic Voting + Futarchy"

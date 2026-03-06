@@ -1,7 +1,7 @@
 ---
 description: The founder experience of Living Capital is radically simpler than traditional community-governed investment because the AI agent absorbs investor management complexity — one cap table entry, one point of contact, one aggregated voice
 type: claim
-domain: livingip
+domain: living-capital
 created: 2026-03-05
 confidence: likely
 source: "Living Capital thesis development, March 2026"

@@ -1,7 +1,7 @@
 ---
 description: Stack Overflow provided data to LLMs, LLMs replaced Stack Overflow, and now no new Q&A hub exists to provide fresh data -- this self-undermining causal loop creates the opening for systems that reward knowledge producers
 type: claim
-domain: livingip
+domain: grand-strategy
 created: 2026-02-28
 confidence: likely
 source: "LivingIP Master Plan"

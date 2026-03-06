@@ -1,7 +1,7 @@
 ---
 description: LivingIP builds the technical substrate while TeleoHumanity provides the philosophical framework and ideology that guides it
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: proven
 ---

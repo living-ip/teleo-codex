@@ -1,7 +1,7 @@
 ---
 description: Practical strategy for entering the knowledge industry by building attributed collective synthesis infrastructure -- sequenced through domain-specific beachheads using complex contagion growth and quality redefinition -- while letting TeleoHumanity emerge from practice rather than design
 type: framework
-domain: livingip
+domain: grand-strategy
 created: 2026-02-21
 confidence: experimental
 source: "Strategic synthesis of Christensen disruption analysis, master narratives theory, and LivingIP grand strategy, Feb 2026"

@@ -1,7 +1,7 @@
 ---
 description: Gaddis's framework for grand strategy connects infinite goals to present action by selecting intermediate targets that are achievable, strategically valuable, and capability-building -- as Kennedy's moon goal nullified Soviet rocket advantage
 type: claim
-domain: livingip
+domain: grand-strategy
 created: 2026-02-16
 confidence: likely
 source: "Grand Strategy for Humanity"

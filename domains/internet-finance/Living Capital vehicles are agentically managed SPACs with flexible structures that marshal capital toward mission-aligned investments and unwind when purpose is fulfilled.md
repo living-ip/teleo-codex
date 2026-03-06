@@ -1,7 +1,7 @@
 ---
 description: The SPAC analogy clarifies the vehicle lifecycle -- agents spin up vehicles to marshal capital, invest toward mission objectives, and naturally unwind through token buybacks when purpose is achieved, with no permanent fund structure required
 type: claim
-domain: livingip
+domain: internet-finance
 created: 2026-03-03
 confidence: experimental
 source: "Strategy session journal, March 2026"

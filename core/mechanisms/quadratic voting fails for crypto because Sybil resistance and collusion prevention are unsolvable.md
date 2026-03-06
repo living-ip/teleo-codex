@@ -1,7 +1,7 @@
 ---
 description: Quadratic voting requires preventing both Sybil attacks and collusion which is likely impossible in practice for blockchain systems
 type: claim
-domain: livingip
+domain: mechanisms
 created: 2026-02-16
 source: "Heavey, Futarchy as Trustless Joint Ownership (2024)"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: A medical insight connected to materials science is worth more than either alone because cross-pollination between fields is rare, creating outsized returns for systems that enable it
 type: claim
-domain: livingip
+domain: living-agents
 created: 2026-02-16
 confidence: likely
 source: "LivingIP Evolution of Collective Knowledge"

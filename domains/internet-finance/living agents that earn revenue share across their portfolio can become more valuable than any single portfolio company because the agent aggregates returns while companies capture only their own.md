@@ -1,7 +1,7 @@
 ---
 description: The revenue-share policy where agents earn a piece of the revenue they generate means agent token value reflects the sum of all portfolio contributions -- creating the possibility that the coordinating intelligence becomes more valuable than the things it coordinates
 type: claim
-domain: livingip
+domain: internet-finance
 created: 2026-03-03
 confidence: speculative
 source: "Strategy session journal, March 2026"

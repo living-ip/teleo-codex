@@ -1,7 +1,7 @@
 ---
 description: Markets, democracy, science, and liberal individualism all assume rational actors -- Kahneman, Tversky, and Dunbar show we are minimally sufficiently rational creatures running systems beyond our cognitive capacity
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Manifesto, Chapter 3"

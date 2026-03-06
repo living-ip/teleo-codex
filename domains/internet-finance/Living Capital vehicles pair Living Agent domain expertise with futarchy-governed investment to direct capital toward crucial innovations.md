@@ -1,7 +1,7 @@
 ---
 description: The investment vehicle concept combines collective intelligence with capital deployment -- Living Agents identify opportunities, futarchy governs allocation, and Living Constitutions define purpose, creating mission-driven investment with built-in governance
 type: claim
-domain: livingip
+domain: internet-finance
 created: 2026-02-16
 confidence: experimental
 source: "Living Capital"

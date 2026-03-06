@@ -1,7 +1,7 @@
 ---
 description: The investment thesis that permissionless borrowing and lending infrastructure for ownership coins creates a virtuous cycle -- leverage increases volume which improves price discovery which makes futarchy governance more accurate which attracts more participation
 type: analysis
-domain: livingip
+domain: mechanisms
 created: 2026-03-03
 confidence: speculative
 source: "Strategy session journal, March 2026"

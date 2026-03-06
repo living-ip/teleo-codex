@@ -1,7 +1,7 @@
 ---
 description: Implementation barriers include high-priced tokens deterring traders, proposal difficulty, and capital needs for market liquidity
 type: analysis
-domain: livingip
+domain: mechanisms
 created: 2026-02-16
 source: "Rio Futarchy Experiment"
 confidence: experimental

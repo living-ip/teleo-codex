@@ -1,7 +1,7 @@
 ---
 description: Diverse components following local rules plus feedback loops plus selective pressure produces adaptive intelligence that transcends any individual component -- from pheromone trails to neurons to scientific communities
 type: claim
-domain: livingip
+domain: critical-systems
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Manifesto, Chapter 4"

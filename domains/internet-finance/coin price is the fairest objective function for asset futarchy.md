@@ -1,7 +1,7 @@
 ---
 description: Using token price as the futarchy objective elegantly aligns all holders and avoids the impossible task of specifying complex multi-dimensional goals
 type: claim
-domain: livingip
+domain: internet-finance
 created: 2026-02-16
 source: "Heavey, Futarchy as Trustless Joint Ownership (2024)"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: Boardy excels at person-level adaptation through structured profiles but its reasoning and beliefs do not evolve from conversations -- the gap between person-adaptation and idea-learning is precisely where LivingIP operates
 type: insight
-domain: livingip
+domain: living-agents
 created: 2026-03-02
 source: "Boardy AI conversation with Cory, March 2026"
 confidence: likely

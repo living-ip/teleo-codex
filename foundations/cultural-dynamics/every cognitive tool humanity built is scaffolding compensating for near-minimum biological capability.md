@@ -1,7 +1,7 @@
 ---
 description: Writing, mathematics, money, legal systems, double-blind studies, and computers all exist because individual cognition cannot handle what civilization demands -- they are prosthetics not luxuries
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Manifesto, Minimum Sufficient Rationality"

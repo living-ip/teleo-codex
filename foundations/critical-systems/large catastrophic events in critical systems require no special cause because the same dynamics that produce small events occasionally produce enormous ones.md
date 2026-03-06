@@ -1,7 +1,7 @@
 ---
 description: At the self-organized critical state individual events are fundamentally unpredictable -- not from practical measurement limits but because the same grain of sand can trigger an avalanche of any size depending on the global configuration
 type: claim
-domain: livingip
+domain: critical-systems
 created: 2026-02-16
 source: "Bak, How Nature Works (1996)"
 confidence: proven

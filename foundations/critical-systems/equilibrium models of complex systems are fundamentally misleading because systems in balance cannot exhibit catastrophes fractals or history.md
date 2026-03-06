@@ -1,7 +1,7 @@
 ---
 description: Bak argues that the default assumption across sciences -- economics biology geophysics -- that large systems are in stable equilibrium blinds researchers to the critical dynamics that actually govern these systems
 type: claim
-domain: livingip
+domain: critical-systems
 created: 2026-02-16
 source: "Bak, How Nature Works (1996)"
 confidence: likely

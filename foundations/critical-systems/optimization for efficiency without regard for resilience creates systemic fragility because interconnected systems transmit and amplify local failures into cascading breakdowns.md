@@ -1,7 +1,7 @@
 ---
 description: Globalized supply chains lean healthcare infrastructure and overleveraged financial systems all optimize for efficiency during normal times while accumulating hidden tail risk that materializes catastrophically during shocks
 type: claim
-domain: livingip
+domain: critical-systems
 source: "Architectural Investing, Ch. Introduction; Taleb (Black Swan)"
 confidence: proven
 tradition: "complexity economics, risk management, Teleological Investing"

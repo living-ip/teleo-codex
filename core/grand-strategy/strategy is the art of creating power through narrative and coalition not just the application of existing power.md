@@ -1,7 +1,7 @@
 ---
 description: Freedman's reframing of strategy as getting more out of a situation than the starting balance of power would suggest -- through scripts, stories, and alliance-building that reorganize resources rather than merely deploying them
 type: claim
-domain: livingip
+domain: grand-strategy
 created: 2026-03-05
 confidence: likely
 source: "Lawrence Freedman 'Strategy: A History' 2013"

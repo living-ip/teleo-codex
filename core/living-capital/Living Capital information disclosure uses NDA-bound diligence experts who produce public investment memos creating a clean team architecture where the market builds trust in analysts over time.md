@@ -1,7 +1,7 @@
 ---
 description: The information architecture solving Living Capitals binding constraint -- diligence experts under NDA review proprietary docs and produce filtered memos for the market, combining clean team legal precedent with credit rating agency model and market-driven analyst reputation
 type: framework
-domain: livingip
+domain: living-capital
 created: 2026-02-28
 confidence: experimental
 source: "SEC securities law research, M&A clean team precedent, credit rating agency model, Feb 2026"

@@ -1,7 +1,7 @@
 ---
 description: The proposal filtering mechanism where agents generate many ideas but the 5 percent stake threshold acts as a market-based attention filter -- proposals that cannot attract minimum capital never reach the futarchy stage, keeping governance focused without centralized curation
 type: claim
-domain: livingip
+domain: mechanisms
 created: 2026-03-03
 confidence: experimental
 source: "Strategy session journal, March 2026"

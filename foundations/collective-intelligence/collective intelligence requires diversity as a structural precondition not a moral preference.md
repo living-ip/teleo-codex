@@ -1,7 +1,7 @@
 ---
 description: Ashby's Law of Requisite Variety, Kauffman's adjacent possible, Page's diversity theorem, and Henrich's Tasmanian regression all prove diversity is a physical law of adaptive systems
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Manifesto, Chapter 4"

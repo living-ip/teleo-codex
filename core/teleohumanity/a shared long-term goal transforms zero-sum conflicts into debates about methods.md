@@ -1,7 +1,7 @@
 ---
 description: When humans agree on a destination, disagreements shift from existential tribal conflicts over whose vision wins to productive debates about the best path, converting destructive competition into collaborative problem-solving
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: likely
 source: "Grand Strategy for Humanity"

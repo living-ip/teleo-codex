@@ -1,7 +1,7 @@
 ---
 description: The precise Christensen disruption analysis of LivingIP -- the disrupted industry is knowledge production and synthesis, frontier labs are one incumbent among many AND the substrate, and the unserved job is trustworthy collective synthesis with attribution and ownership
 type: framework
-domain: livingip
+domain: grand-strategy
 created: 2026-02-21
 confidence: experimental
 source: "Christensen disruption framework applied to LivingIP strategy, Feb 2026"

@@ -1,7 +1,7 @@
 ---
 description: Current alignment approaches are all single-model focused while the hardest problems preference diversity scalable oversight and value evolution are inherently collective
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-17
 source: "Survey of alignment research landscape 2025-2026"
 confidence: likely

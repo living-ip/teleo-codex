@@ -1,7 +1,7 @@
 ---
 description: The sustainability movement spread from fringe to corporate mandate through reporting frameworks, certification systems, and professional roles -- infrastructure that embedded the concept in organizational practice
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-17
 source: "Web research compilation, February 2026"
 confidence: likely

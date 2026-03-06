@@ -1,7 +1,7 @@
 ---
 description: The canonical critic of central planning was simultaneously an advocate for institutional design distinguishing general abstract rules from specific outcome-directing commands
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-17
 source: "Hayek, The Road to Serfdom; Law Legislation and Liberty"
 confidence: proven

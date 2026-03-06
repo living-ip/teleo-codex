@@ -1,7 +1,7 @@
 ---
 description: 2025 scaling laws show oversight success rates of 10-52% at moderate Elo gaps meaning current approaches cannot reliably supervise superhuman systems
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-17
 source: "Scaling Laws for Scalable Oversight (2025)"
 confidence: proven

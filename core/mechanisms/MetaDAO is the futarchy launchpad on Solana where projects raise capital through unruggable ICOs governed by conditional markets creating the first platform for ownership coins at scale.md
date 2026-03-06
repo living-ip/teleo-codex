@@ -1,7 +1,7 @@
 ---
 description: Marshall Islands DAO LLC operating a Cayman SPC that houses all launched projects as SegCos -- platform not participant positioning with sole Director control and MetaLeX partnership automating entity formation
 type: analysis
-domain: livingip
+domain: mechanisms
 created: 2026-03-04
 confidence: likely
 source: "MetaDAO Terms of Service, Founder/Operator Legal Pack, inbox research files, web research"

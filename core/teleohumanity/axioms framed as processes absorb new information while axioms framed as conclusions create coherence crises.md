@@ -1,7 +1,7 @@
 ---
 description: Conclusions break when reality contradicts them but processes absorb new evidence without breaking -- the generativity-coherence tension determines whether a framework survives contact with the unknown
 type: insight
-domain: livingip
+domain: teleohumanity
 created: 2026-03-02
 source: "Boardy AI conversation with Cory, March 2026"
 confidence: likely

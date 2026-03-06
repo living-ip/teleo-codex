@@ -1,7 +1,7 @@
 ---
 description: Human technology and knowledge have grown exponentially for 70,000 years while our cognitive hardware stayed fixed, creating a runaway process that its creators can no longer individually comprehend
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Manifesto, Minimum Sufficient Rationality"

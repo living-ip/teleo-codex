@@ -1,7 +1,7 @@
 ---
 description: Menger's imputation principle meets attractor dynamics -- value flows backward from consumer needs to industry structure, and the attractor state is the configuration where that backward flow encounters least resistance
 type: framework
-domain: livingip
+domain: teleological-economics
 created: 2026-02-18
 source: "Menger Principles of Economics 1871; Christensen Competing Against Luck 2016; Max-Neef Human Scale Development 1991; Musk first principles reasoning; Schumpeter Capitalism Socialism and Democracy 1942"
 confidence: likely

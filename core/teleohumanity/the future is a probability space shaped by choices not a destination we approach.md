@@ -1,7 +1,7 @@
 ---
 description: Neither inevitable progress nor inevitable collapse -- the future branches based on decisions, and some branches foreclose others permanently
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Manifesto, Chapter 2"

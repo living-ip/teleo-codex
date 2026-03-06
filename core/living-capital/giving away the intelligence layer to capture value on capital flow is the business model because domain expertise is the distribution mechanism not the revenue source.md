@@ -1,7 +1,7 @@
 ---
 description: The Google model applied to capital allocation — zero management fees removes the biggest objection to fund investing while the intelligence layer attracts capital flow that generates revenue through trading fees and carry
 type: claim
-domain: livingip
+domain: living-capital
 created: 2026-03-05
 confidence: likely
 source: "Living Capital thesis development, March 2026"

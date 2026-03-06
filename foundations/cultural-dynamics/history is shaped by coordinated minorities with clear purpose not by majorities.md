@@ -1,7 +1,7 @@
 ---
 description: The Royal Society, American founders, open-source developers, and cypherpunks all reshaped the world as small coordinated groups -- in systems at criticality the trigger size is unrelated to outcome size
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-16
 confidence: likely
 source: "TeleoHumanity Manifesto, Chapter 9"
