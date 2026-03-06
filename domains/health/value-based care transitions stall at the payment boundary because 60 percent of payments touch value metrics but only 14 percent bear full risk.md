@@ -22,10 +22,10 @@ The Making Care Primary model's termination in June 2025 (after just 12 months, 
 Relevant Notes:
 - [[healthcare is a complex adaptive system requiring simple enabling rules not complicated management because standardized processes erode the clinical autonomy needed for value creation]] -- the systems framework for why payment reform alone fails
 - [[four competing payer-provider models are converging toward value-based care with vertical integration dominant today but aligned partnership potentially more durable]] -- the structural models competing to deliver on VBC
-- [[US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health]] -- the underlying incentive structure that VBC attempts to correct
+- US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health -- the underlying incentive structure that VBC attempts to correct
 - [[the physician role shifts from information processor to relationship manager as AI automates documentation triage and evidence synthesis]] -- AI as infrastructure enabling the VBC transition
 - [[CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring]] -- CMS is tightening the FFS-to-VBC transition by closing profitable FFS-like mechanisms within MA, pushing the industry toward genuine risk-bearing
 - [[medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm]] -- the 86% of payments not at full risk are systematically ignoring the factors that matter most for health outcomes
 
 Topics:
-- [[health and wellness]]
+- health and wellness

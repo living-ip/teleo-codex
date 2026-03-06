@@ -46,10 +46,10 @@ Relevant Notes:
 - [[CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring]] -- CMS mechanism-targeting is the alternative to legislative structural separation and is already further along
 - [[four competing payer-provider models are converging toward value-based care with vertical integration dominant today but aligned partnership potentially more durable]] -- both bills would reshape the competitive landscape by banning the Integrated Behemoth and Aligned Partner models equally
 - [[Kaiser Permanentes 80-year tripartite structure is the strongest precedent for purpose-built payvidor exemptions because any structural separation bill that captures Kaiser faces 12.5 million members and Californias entire healthcare infrastructure]] -- the exemption precedent that could protect purpose-built payvidors
-- [[Devoted faces low-probability but existential regulatory risk from structural separation bills that would require divesting Devoted Medical within one to two years]] -- Devoted-specific impact assessment
+- Devoted faces low-probability but existential regulatory risk from structural separation bills that would require divesting Devoted Medical within one to two years -- Devoted-specific impact assessment
 - [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]] -- UHG lobbying to preserve the status quo is proxy inertia that paradoxically also protects purpose-built competitors
-- [[five guideposts predict industry transitions -- rising fixed costs force consolidation and deregulation unwinds cross-subsidies creating cream-skimming opportunities]] -- the anti-payvidor bills represent re-regulation that would unwind the vertical integration consolidation wave
+- five guideposts predict industry transitions -- rising fixed costs force consolidation and deregulation unwinds cross-subsidies creating cream-skimming opportunities -- the anti-payvidor bills represent re-regulation that would unwind the vertical integration consolidation wave
 
 Topics:
-- [[devoted overview]]
-- [[health and wellness]]
+- devoted overview
+- health and wellness

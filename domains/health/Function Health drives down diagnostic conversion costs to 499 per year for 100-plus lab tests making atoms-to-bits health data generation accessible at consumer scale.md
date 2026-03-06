@@ -29,10 +29,10 @@ The platform has significant expansion potential. Since [[continuous health moni
 
 Relevant Notes:
 - [[healthcares defensible layer is where atoms become bits because physical-to-digital conversion generates the data that powers AI care while building patient trust that software alone cannot create]] -- Function Health is the purest expression of atoms-to-bits strategy at the diagnostics conversion point
-- [[Devoted Health proves that optimizing for member health outcomes is more profitable than extracting from them]] -- Function's outcomes-aligned model parallels Devoted's approach at the diagnostics conversion point
+- Devoted Health proves that optimizing for member health outcomes is more profitable than extracting from them -- Function's outcomes-aligned model parallels Devoted's approach at the diagnostics conversion point
 - [[continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware]] -- Function could integrate continuous wearable data between periodic lab tests
 - [[value in industry transitions accrues to bottleneck positions in the emerging architecture not to pioneers or to the largest incumbents]] -- diagnostics is a bottleneck position in healthcare's emerging architecture
 - [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]] -- Quest and Labcorp won't cannibalize their $100+ per test pricing to match Function's $5/test economics
 
 Topics:
-- [[health and wellness]]
+- health and wellness

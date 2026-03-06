@@ -26,5 +26,5 @@ Relevant Notes:
 - [[the physician role shifts from information processor to relationship manager as AI automates documentation triage and evidence synthesis]] -- ambient docs are the mechanism enabling this role shift
 
 Topics:
-- [[livingip overview]]
-- [[health and wellness]]
+- livingip overview
+- health and wellness

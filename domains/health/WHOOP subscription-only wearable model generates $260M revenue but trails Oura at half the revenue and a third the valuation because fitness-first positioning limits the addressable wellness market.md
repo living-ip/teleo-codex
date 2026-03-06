@@ -33,5 +33,5 @@ Relevant Notes:
 - [[Function Health drives down diagnostic conversion costs to 499 per year for 100-plus lab tests making atoms-to-bits health data generation accessible at consumer scale]] -- WHOOP's Advanced Labs (blood testing via Quest) competes directly with Function's diagnostics model but from a weaker starting position
 
 Topics:
-- [[health and wellness]]
-- [[livingip overview]]
+- health and wellness
+- livingip overview

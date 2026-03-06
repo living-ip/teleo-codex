@@ -38,9 +38,9 @@ Relevant Notes:
 - [[gene editing is shifting from ex vivo to in vivo delivery via lipid nanoparticles which will reduce curative therapy costs from millions to hundreds of thousands per treatment]] -- deflationary long-term but front-loaded spending in the transition
 - [[personalized mRNA cancer vaccines show sustained 49 percent reduction in melanoma recurrence after five years representing a genuinely novel therapeutic paradigm]] -- new cost center from individualized manufacturing
 - [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]] -- VBC is designed to bend the cost curve but faces these structural headwinds
-- [[healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured]] -- the macro consequence of an upward-bending cost curve
+- healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured -- the macro consequence of an upward-bending cost curve
 
-- [[launch cost reduction is the keystone variable that unlocks every downstream space industry at specific price thresholds]] -- both healthcare costs and launch costs are keystone variables that gate entire industry ecosystems, but they move in opposite directions (healthcare bends up, launch bends down)
+- launch cost reduction is the keystone variable that unlocks every downstream space industry at specific price thresholds -- both healthcare costs and launch costs are keystone variables that gate entire industry ecosystems, but they move in opposite directions (healthcare bends up, launch bends down)
 
 Topics:
-- [[health and wellness]]
+- health and wellness

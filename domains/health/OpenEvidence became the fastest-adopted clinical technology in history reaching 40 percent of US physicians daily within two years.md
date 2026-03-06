@@ -24,5 +24,5 @@ Relevant Notes:
 - [[knowledge scaling bottlenecks kill revolutionary ideas before they reach critical mass]] -- OpenEvidence solved clinical knowledge scaling by making evidence retrieval instant
 
 Topics:
-- [[livingip overview]]
-- [[health and wellness]]
+- livingip overview
+- health and wellness

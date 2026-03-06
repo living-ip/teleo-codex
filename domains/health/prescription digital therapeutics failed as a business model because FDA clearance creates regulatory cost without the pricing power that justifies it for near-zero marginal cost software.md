@@ -26,4 +26,4 @@ Relevant Notes:
 - [[WHOOP subscription-only wearable model generates $260M revenue but trails Oura at half the revenue and a third the valuation because fitness-first positioning limits the addressable wellness market]] -- WHOOP's FDA defiance on blood pressure parallels DTx's cautionary tale: regulatory engagement without matching business model economics
 
 Topics:
-- [[health and wellness]]
+- health and wellness

@@ -25,4 +25,4 @@ Relevant Notes:
 - [[AI compresses drug discovery timelines by 30-40 percent but has not yet improved the 90 percent clinical failure rate that determines industry economics]] -- AI accelerates target identification but gene editing provides the delivery mechanism for curative interventions
 
 Topics:
-- [[health and wellness]]
+- health and wellness

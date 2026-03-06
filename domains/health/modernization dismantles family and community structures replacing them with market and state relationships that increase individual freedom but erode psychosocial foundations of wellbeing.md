@@ -32,9 +32,9 @@ Relevant Notes:
 - [[Americas declining life expectancy is driven by deaths of despair concentrated in populations and regions most damaged by economic restructuring since the 1980s]] -- the most dramatic empirical confirmation that modernization-without-community produces lethal outcomes
 - [[Big Food companies engineer addictive products by hacking evolutionary reward pathways creating a noncommunicable disease epidemic more deadly than the famines specialization eliminated]] -- food addiction is one vector; attention addiction via social media is another
 - [[the mental health supply gap is widening not closing because demand outpaces workforce growth and technology primarily serves the already-served rather than expanding access]] -- the supply gap exists because the problem is growing faster than the system designed to address it
-- [[specialization and value form an autocatalytic feedback loop where each amplifies the other exponentially]] -- the same feedback loop that drives material progress also drives the psychosocial disconnection
+- specialization and value form an autocatalytic feedback loop where each amplifies the other exponentially -- the same feedback loop that drives material progress also drives the psychosocial disconnection
 - [[a shared long-term goal transforms zero-sum conflicts into debates about methods]] -- shared goals may be the replacement structure for the community bonds that modernization dissolved
 
 Topics:
-- [[health and wellness]]
-- [[livingip overview]]
+- health and wellness
+- livingip overview

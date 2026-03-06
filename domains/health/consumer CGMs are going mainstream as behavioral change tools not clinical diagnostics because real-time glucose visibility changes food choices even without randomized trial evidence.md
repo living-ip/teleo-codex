@@ -24,5 +24,5 @@ Relevant Notes:
 - [[Oura controls 80 percent of the smart ring market with patent-defended form factor while a demographic pivot from fitness enthusiasts to wellness-focused women drives 250 percent sales growth]] -- Oura's Veri acquisition positions it to integrate CGM data into its ring platform, bridging Layer 1 and Layer 2
 
 Topics:
-- [[livingip overview]]
-- [[health and wellness]]
+- livingip overview
+- health and wellness

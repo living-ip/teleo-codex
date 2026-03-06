@@ -24,19 +24,19 @@ The extraordinary development is that increasing economic specialization has eff
 - **Epidemic disease:** Pneumonia is the only infectious disease still among the leading causes of death in developed nations, and usually as a complication of underlying chronic disease. Life expectancy rose from ~30 years globally in 1800 to ~73 in 2019.
 - **Large-scale war:** Increasing specialization made wealth knowledge-based rather than resource-based, making conquest economically irrational among developed nations. War is now concentrated in regions where wealth is still primarily embodied in physical assets.
 
-But the same specialization that solved these ancient problems created an entirely new risk landscape. Since [[existential risk breaks trial and error because the first failure is the last event]], the new risks -- nuclear weapons, climate change, AI, bioengineering -- are products of the extreme specialization that defeated famine, disease, and war. Since [[the epidemiological transition marks the shift from material scarcity to social disadvantage as the primary driver of health outcomes in developed nations]], the individual health burden has shifted from infectious disease to chronic noncommunicable disease and mental health crises. The solutions to the old problems are the sources of the new ones.
+But the same specialization that solved these ancient problems created an entirely new risk landscape. Since existential risk breaks trial and error because the first failure is the last event, the new risks -- nuclear weapons, climate change, AI, bioengineering -- are products of the extreme specialization that defeated famine, disease, and war. Since [[the epidemiological transition marks the shift from material scarcity to social disadvantage as the primary driver of health outcomes in developed nations]], the individual health burden has shifted from infectious disease to chronic noncommunicable disease and mental health crises. The solutions to the old problems are the sources of the new ones.
 
 ---
 
 Relevant Notes:
-- [[existential risk breaks trial and error because the first failure is the last event]] -- the new risk landscape created by specialization permits no second chances, unlike the old one
+- existential risk breaks trial and error because the first failure is the last event -- the new risk landscape created by specialization permits no second chances, unlike the old one
 - [[the epidemiological transition marks the shift from material scarcity to social disadvantage as the primary driver of health outcomes in developed nations]] -- the individual-health analog of this civilizational-risk shift
-- [[specialization and value form an autocatalytic feedback loop where each amplifies the other exponentially]] -- specialization is the single force that both solved the old risks and created the new ones
+- specialization and value form an autocatalytic feedback loop where each amplifies the other exponentially -- specialization is the single force that both solved the old risks and created the new ones
 - [[Americas declining life expectancy is driven by deaths of despair concentrated in populations and regions most damaged by economic restructuring since the 1980s]] -- the US life expectancy reversal is the most visible symptom of the new risk landscape
 - [[Big Food companies engineer addictive products by hacking evolutionary reward pathways creating a noncommunicable disease epidemic more deadly than the famines specialization eliminated]] -- the noncommunicable disease epidemic is the food-system instance of the new risk landscape replacing the old
-- [[capital reallocation toward civilizational problem-solving is autocatalytic because excess returns attract more capital]] -- solving the new risk landscape creates the same autocatalytic dynamic that solved the old one but now requires deliberate direction rather than trial and error
+- capital reallocation toward civilizational problem-solving is autocatalytic because excess returns attract more capital -- solving the new risk landscape creates the same autocatalytic dynamic that solved the old one but now requires deliberate direction rather than trial and error
 
 Topics:
-- [[historical transitions]]
-- [[health and wellness]]
-- [[livingip overview]]
+- historical transitions
+- health and wellness
+- livingip overview

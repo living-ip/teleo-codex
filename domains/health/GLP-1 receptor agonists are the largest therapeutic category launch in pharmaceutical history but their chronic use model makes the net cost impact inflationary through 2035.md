@@ -25,4 +25,4 @@ Relevant Notes:
 - [[continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware]] -- biometric monitoring could identify GLP-1 candidates earlier and track metabolic response
 
 Topics:
-- [[health and wellness]]
+- health and wellness

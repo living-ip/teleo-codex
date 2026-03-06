@@ -39,9 +39,9 @@ Since [[four competing payer-provider models are converging toward value-based c
 Relevant Notes:
 - [[anti-payvidor legislation targets all insurer-provider integration without distinguishing acquisition-based arbitrage from purpose-built care delivery]] -- the legislation Kaiser's precedent provides defense against
 - [[four competing payer-provider models are converging toward value-based care with vertical integration dominant today but aligned partnership potentially more durable]] -- Kaiser is the Consumer Health Partner model, the longest-running payvidor
-- [[Devoted faces low-probability but existential regulatory risk from structural separation bills that would require divesting Devoted Medical within one to two years]] -- Kaiser's precedent directly supports Devoted's differentiation arguments
+- Devoted faces low-probability but existential regulatory risk from structural separation bills that would require divesting Devoted Medical within one to two years -- Kaiser's precedent directly supports Devoted's differentiation arguments
 - [[CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring]] -- CMS mechanism-targeting is the alternative to structural separation, and Kaiser's FCA settlement shows existing enforcement works
 
 Topics:
-- [[devoted overview]]
-- [[health and wellness]]
+- devoted overview
+- health and wellness

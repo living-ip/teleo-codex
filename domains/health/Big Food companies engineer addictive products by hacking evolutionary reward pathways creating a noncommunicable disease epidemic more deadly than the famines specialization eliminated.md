@@ -32,11 +32,11 @@ The four major risk factors behind the highest burden of noncommunicable disease
 Relevant Notes:
 - [[the epidemiological transition marks the shift from material scarcity to social disadvantage as the primary driver of health outcomes in developed nations]] -- the transition created the conditions under which noncommunicable diseases could eclipse infectious ones
 - [[Americas declining life expectancy is driven by deaths of despair concentrated in populations and regions most damaged by economic restructuring since the 1980s]] -- deaths of despair and diet-driven chronic disease are parallel products of the same economic forces
-- [[healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured]] -- 75 percent of healthcare spending goes to preventable diseases, many diet-related
-- [[US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health]] -- the pharmaceutical approach to diet-driven disease is the epitome of treating symptoms not causes
+- healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured -- 75 percent of healthcare spending goes to preventable diseases, many diet-related
+- US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health -- the pharmaceutical approach to diet-driven disease is the epitome of treating symptoms not causes
 - [[the clockwork universe paradigm built effective industrial systems by assuming stability and reducibility but fails when interdependence makes small causes produce disproportionate effects]] -- reductionist medicine treats the body as separable clockwork rather than an interdependent complex system
-- [[specialization and value form an autocatalytic feedback loop where each amplifies the other exponentially]] -- the same autocatalytic specialization that ended famine now drives the chronic disease epidemic
+- specialization and value form an autocatalytic feedback loop where each amplifies the other exponentially -- the same autocatalytic specialization that ended famine now drives the chronic disease epidemic
 
 Topics:
-- [[health and wellness]]
-- [[livingip overview]]
+- health and wellness
+- livingip overview

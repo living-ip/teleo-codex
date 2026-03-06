@@ -24,5 +24,5 @@ Relevant Notes:
 - [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- the monitoring centaur: AI handles volume, humans provide judgment
 
 Topics:
-- [[livingip overview]]
-- [[health and wellness]]
+- livingip overview
+- health and wellness

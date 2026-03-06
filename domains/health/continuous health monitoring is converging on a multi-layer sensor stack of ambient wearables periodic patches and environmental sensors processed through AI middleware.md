@@ -27,5 +27,5 @@ Relevant Notes:
 - [[healthcares defensible layer is where atoms become bits because physical-to-digital conversion generates the data that powers AI care while building patient trust that software alone cannot create]] -- the wearable sensor stack is atoms-to-bits conversion infrastructure; value accrues at the physical-digital interface, not the software layer
 
 Topics:
-- [[livingip overview]]
-- [[health and wellness]]
+- livingip overview
+- health and wellness

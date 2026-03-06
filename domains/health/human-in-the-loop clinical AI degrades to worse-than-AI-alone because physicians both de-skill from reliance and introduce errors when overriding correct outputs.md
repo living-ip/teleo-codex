@@ -26,7 +26,7 @@ Relevant Notes:
 - [[medical LLM benchmark performance does not translate to clinical impact because physicians with and without AI access achieve similar diagnostic accuracy in randomized trials]] -- the multi-hospital RCT found similar diagnostic accuracy with/without AI; the Stanford/Harvard study found AI alone dramatically superior
 - [[the physician role shifts from information processor to relationship manager as AI automates documentation triage and evidence synthesis]] -- if physicians degrade AI diagnostic performance, the role shift toward relationship management is not just efficient but necessary
 - [[ambient AI documentation reduces physician documentation burden by 73 percent but the relationship between automation and burnout is more complex than time savings alone]] -- documentation AI where physicians don't override outputs avoids the de-skilling problem
-- [[emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive]] -- human-in-the-loop oversight is the standard safety measure against misalignment, but if humans reliably fail at oversight, this safety architecture is weaker than assumed
+- emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive -- human-in-the-loop oversight is the standard safety measure against misalignment, but if humans reliably fail at oversight, this safety architecture is weaker than assumed
 
 Topics:
-- [[health and wellness]]
+- health and wellness

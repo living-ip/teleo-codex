@@ -29,4 +29,4 @@ Relevant Notes:
 - [[WHOOP subscription-only wearable model generates $260M revenue but trails Oura at half the revenue and a third the valuation because fitness-first positioning limits the addressable wellness market]] -- WHOOP's 4+ year fundraising gap illustrates the other side: companies that miss the capital wave face stale valuations
 
 Topics:
-- [[health and wellness]]
+- health and wellness

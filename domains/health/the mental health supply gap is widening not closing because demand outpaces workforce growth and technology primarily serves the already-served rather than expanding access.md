@@ -29,4 +29,4 @@ Relevant Notes:
 - [[SDOH interventions show strong ROI but adoption stalls because Z-code documentation remains below 3 percent and no operational infrastructure connects screening to action]] -- mental health is the SDOH domain most affected by the screening-to-action infrastructure gap
 
 Topics:
-- [[health and wellness]]
+- health and wellness

@@ -22,8 +22,8 @@ The AI payment problem compounds the regulatory gap. No payer currently reimburs
 Relevant Notes:
 - [[the FDA now separates wellness devices from medical devices based on claims not sensor technology enabling health insights without full medical device classification]] -- the FDA has already created flexibility for wellness devices; clinical AI needs a parallel regulatory innovation
 - [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]] -- AI payment gaps may accelerate VBC adoption by making fee-for-service untenable for AI-enabled care
-- [[adaptive governance outperforms rigid alignment blueprints because superintelligence development has too many unknowns for fixed plans]] -- the same principle applies to clinical AI: governance frameworks must adapt with the technology
+- adaptive governance outperforms rigid alignment blueprints because superintelligence development has too many unknowns for fixed plans -- the same principle applies to clinical AI: governance frameworks must adapt with the technology
 - [[technology advances exponentially but coordination mechanisms evolve linearly creating a widening gap]] -- healthcare AI regulation is a specific instance of this general coordination gap
 
 Topics:
-- [[health and wellness]]
+- health and wellness

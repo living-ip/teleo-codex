@@ -19,10 +19,10 @@ This two-track system has structural implications. It lowers the barrier for get
 
 Relevant Notes:
 - [[continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware]] -- the regulatory framework enabling the sensor stack to reach consumers
-- [[adaptive governance outperforms rigid alignment blueprints because superintelligence development has too many unknowns for fixed plans]] -- TEMPO's real-world evidence approach mirrors the adaptive governance principle
+- adaptive governance outperforms rigid alignment blueprints because superintelligence development has too many unknowns for fixed plans -- TEMPO's real-world evidence approach mirrors the adaptive governance principle
 - [[WHOOP subscription-only wearable model generates $260M revenue but trails Oura at half the revenue and a third the valuation because fitness-first positioning limits the addressable wellness market]] -- WHOOP MG blood pressure confrontation is the live test case for where wellness-medical boundary actually sits
 - [[Oura controls 80 percent of the smart ring market with patent-defended form factor while a demographic pivot from fitness enthusiasts to wellness-focused women drives 250 percent sales growth]] -- Oura stays firmly in wellness classification, strategically avoiding the medical device boundary WHOOP crossed
 
 Topics:
-- [[livingip overview]]
-- [[health and wellness]]
+- livingip overview
+- health and wellness

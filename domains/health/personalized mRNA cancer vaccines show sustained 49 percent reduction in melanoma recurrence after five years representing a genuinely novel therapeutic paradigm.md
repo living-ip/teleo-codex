@@ -25,4 +25,4 @@ Relevant Notes:
 - [[AI compresses drug discovery timelines by 30-40 percent but has not yet improved the 90 percent clinical failure rate that determines industry economics]] -- AI-accelerated neoantigen selection is critical to scaling personalized vaccine manufacturing
 
 Topics:
-- [[health and wellness]]
+- health and wellness

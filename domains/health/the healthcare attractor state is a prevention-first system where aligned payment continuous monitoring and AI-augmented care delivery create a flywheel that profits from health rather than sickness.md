@@ -9,9 +9,9 @@ confidence: likely
 
 # the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness
 
-Healthcare is civilization's largest coordination failure. The US spends $5.3 trillion annually — 18% of GDP, $15,000 per person, 2.5x the OECD average — and gets worse outcomes than every comparable nation. Life expectancy is 2.7 years below the OECD average. Maternal mortality is several times higher than most of Europe. 36% of adults skip or delay care due to cost. The system converts money into health at dramatically lower efficiency than any peer, and since [[healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured]], the trajectory (20.3% of GDP by 2033) threatens to consume resources humanity needs for everything else.
+Healthcare is civilization's largest coordination failure. The US spends $5.3 trillion annually — 18% of GDP, $15,000 per person, 2.5x the OECD average — and gets worse outcomes than every comparable nation. Life expectancy is 2.7 years below the OECD average. Maternal mortality is several times higher than most of Europe. 36% of adults skip or delay care due to cost. The system converts money into health at dramatically lower efficiency than any peer, and since healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured, the trajectory (20.3% of GDP by 2033) threatens to consume resources humanity needs for everything else.
 
-This note derives the healthcare attractor state using [[the attractor state derivation template converts human needs and physical constraints into concrete industry direction through iterative analysis that includes built-in challenge and cross-domain synthesis]].
+This note derives the healthcare attractor state using the attractor state derivation template converts human needs and physical constraints into concrete industry direction through iterative analysis that includes built-in challenge and cross-domain synthesis.
 
 ---
 
@@ -48,7 +48,7 @@ Individual needs dominate demand through direct consumer and employer spending. 
 - Administrative overhead: in hospitals alone, admin costs are $687B vs $346B in direct patient care — a **2:1 ratio**. Admin costs are 66.5% of hospital operating expenditures. The US spends $639 per person on healthcare governance and financing — 3x the next highest country and 12x the UK ($53/person).
 - Estimated waste: $760B-$935B annually (JAMA 2019), with administrative complexity as the largest category at $266B.
 
-**Incentive architecture — since [[US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health]]:**
+**Incentive architecture — since US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health:**
 
 - **Providers** earn more when people are sick. Fee-for-service pays per procedure, per visit, per test. A healthy patient generates $0 in FFS revenue.
 - **Insurers** profit from administrative complexity (raises switching costs) and risk selection (avoid the sick, recruit the healthy). MA plans extracted an estimated $40B-$84B annually through coding intensity and favorable selection.
@@ -177,11 +177,11 @@ Beyond the three core layers, several additional dimensions may be part of the a
 
 Healthcare is a **weak attractor** — one of the clearest examples across all industries. There are at least two locally stable configurations:
 
-**Configuration A: AI-optimized sick-care.** The current system made more efficient with AI. Documentation automated, diagnostics enhanced, workflows streamlined. But the fundamental incentive remains fee-for-service. Hospitals run leaner but the system still treats sickness. This is a local maximum because it's profitable for incumbents and doesn't require coordination across the system. Since [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]], UnitedHealth's $9B annual tech spend is being directed at optimizing the current model (consolidating 18 EMRs, AI scribing) rather than rebuilding around prevention. Since [[UnitedHealth and Humana exhibit textbook proxy inertia where coding arbitrage profits rationally prevent pursuit of purpose-built care delivery]], this is rational behavior given their current profit structure.
+**Configuration A: AI-optimized sick-care.** The current system made more efficient with AI. Documentation automated, diagnostics enhanced, workflows streamlined. But the fundamental incentive remains fee-for-service. Hospitals run leaner but the system still treats sickness. This is a local maximum because it's profitable for incumbents and doesn't require coordination across the system. Since [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]], UnitedHealth's $9B annual tech spend is being directed at optimizing the current model (consolidating 18 EMRs, AI scribing) rather than rebuilding around prevention. Since UnitedHealth and Humana exhibit textbook proxy inertia where coding arbitrage profits rationally prevent pursuit of purpose-built care delivery, this is rational behavior given their current profit structure.
 
-**Configuration B: Prevention-first health maintenance.** The three-layer attractor state described above. More efficient for the system as a whole but requires simultaneous reform of payment, delivery, and technology — a chain-link problem. Since [[excellence in chain-link systems creates durable competitive advantage because a competitor must match every link simultaneously]], once a provider achieves this configuration (Devoted, Kaiser), it creates a durable moat. But reaching it requires crossing a coordination valley that no individual actor can cross alone.
+**Configuration B: Prevention-first health maintenance.** The three-layer attractor state described above. More efficient for the system as a whole but requires simultaneous reform of payment, delivery, and technology — a chain-link problem. Since excellence in chain-link systems creates durable competitive advantage because a competitor must match every link simultaneously, once a provider achieves this configuration (Devoted, Kaiser), it creates a durable moat. But reaching it requires crossing a coordination valley that no individual actor can cross alone.
 
-Which configuration the industry converges on depends on regulatory and payment structure decisions being made now. CMS tightening on coding arbitrage pushes toward Configuration B. But if CMS loosens (political change, lobbying), Configuration A could lock in. Since [[economic path dependence means early technological choices compound irreversibly through dominant designs and industrial structures]], the path-dependent choices being made in 2025-2030 will determine the industry's trajectory for decades.
+Which configuration the industry converges on depends on regulatory and payment structure decisions being made now. CMS tightening on coding arbitrage pushes toward Configuration B. But if CMS loosens (political change, lobbying), Configuration A could lock in. Since economic path dependence means early technological choices compound irreversibly through dominant designs and industrial structures, the path-dependent choices being made in 2025-2030 will determine the industry's trajectory for decades.
 
 ## 5. Challenge and Calibrate
 
@@ -249,7 +249,7 @@ Healthcare is primarily individual-need-driven, so demand comes through direct c
 
 **Energy (Forge domain):** Decentralized energy enables decentralized care delivery. If affordable power reaches rural and underserved areas, telemedicine and AI primary care can operate anywhere. The energy attractor and healthcare attractor are loosely coupled — not dependent but mutually enabling.
 
-**Space (Astra domain):** Since [[the space manufacturing killer app sequence is pharmaceuticals now ZBLAN fiber in 3-5 years and bioprinted organs in 15-25 years each catalyzing the next tier of orbital infrastructure]], microgravity pharmaceutical manufacturing is the first cross-domain dependency. Superior crystallization in microgravity produces better drug formulations. Orbital pharma is where the space attractor directly serves the healthcare attractor. Bioprinted organs in 15-25 years would transform transplant medicine.
+**Space (Astra domain):** Since the space manufacturing killer app sequence is pharmaceuticals now ZBLAN fiber in 3-5 years and bioprinted organs in 15-25 years each catalyzing the next tier of orbital infrastructure, microgravity pharmaceutical manufacturing is the first cross-domain dependency. Superior crystallization in microgravity produces better drug formulations. Orbital pharma is where the space attractor directly serves the healthcare attractor. Bioprinted organs in 15-25 years would transform transplant medicine.
 
 **Entertainment (Clay domain):** Health behavior change is partially a narrative problem. People's health decisions are shaped by cultural narratives about identity, attractiveness, aging, and worth. Since [[social isolation costs Medicare 7 billion annually and carries mortality risk equivalent to smoking 15 cigarettes per day making loneliness a clinical condition not a personal problem]], community and belonging are clinical interventions. Entertainment platforms that build genuine community might be upstream of healthcare outcomes.
 
@@ -282,8 +282,8 @@ Healthcare is the clearest case study for TeleoHumanity's thesis: purpose-driven
 ---
 
 Relevant Notes:
-- [[US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health]] -- the structural flaw the attractor state corrects
-- [[healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured]] -- the civilizational stakes
+- US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health -- the structural flaw the attractor state corrects
+- healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured -- the civilizational stakes
 - [[healthcare AI creates a Jevons paradox because adding capacity to sick care induces more demand for sick care]] -- why AI within the current incentive structure makes things worse, not better
 - [[medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm]] -- why the system's products address the wrong 10-20%
 - [[continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware]] -- the monitoring layer's architecture
@@ -299,16 +299,16 @@ Relevant Notes:
 - [[social isolation costs Medicare 7 billion annually and carries mortality risk equivalent to smoking 15 cigarettes per day making loneliness a clinical condition not a personal problem]] -- loneliness as a clinical condition the system ignores
 - [[healthcares defensible layer is where atoms become bits because physical-to-digital conversion generates the data that powers AI care while building patient trust that software alone cannot create]] -- where competitive advantage forms within the attractor
 - [[Devoted is the fastest-growing MA plan at 121 percent growth because purpose-built technology outperforms acquisition-based vertical integration during CMS tightening]] -- the proof of concept for purpose-built payvidor model
-- [[UnitedHealth and Humana exhibit textbook proxy inertia where coding arbitrage profits rationally prevent pursuit of purpose-built care delivery]] -- incumbent proxy inertia preventing pursuit of the attractor
+- UnitedHealth and Humana exhibit textbook proxy inertia where coding arbitrage profits rationally prevent pursuit of purpose-built care delivery -- incumbent proxy inertia preventing pursuit of the attractor
 - [[CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring]] -- regulatory pressure catalyzing the transition
-- [[Devoteds atoms-plus-bits moat combines physical care delivery with AI software creating defensibility that pure technology or pure healthcare companies cannot replicate]] -- the atoms-to-bits defensibility within the attractor
-- [[the attractor state derivation template converts human needs and physical constraints into concrete industry direction through iterative analysis that includes built-in challenge and cross-domain synthesis]] -- the template used to derive this analysis
-- [[attractor states for societal-need industries require derived demand channel analysis because civilizational needs lack direct consumer pull and translate through government procurement defense contracts and investor conviction]] -- individual needs dominate but CMS is the critical demand channel for the transition
+- Devoteds atoms-plus-bits moat combines physical care delivery with AI software creating defensibility that pure technology or pure healthcare companies cannot replicate -- the atoms-to-bits defensibility within the attractor
+- the attractor state derivation template converts human needs and physical constraints into concrete industry direction through iterative analysis that includes built-in challenge and cross-domain synthesis -- the template used to derive this analysis
+- attractor states for societal-need industries require derived demand channel analysis because civilizational needs lack direct consumer pull and translate through government procurement defense contracts and investor conviction -- individual needs dominate but CMS is the critical demand channel for the transition
 - [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]] -- the combined signal: attractor identification + proxy inertia of UHC/Humana = strongest thesis
 - [[disruptors redefine quality rather than competing on the incumbents definition of good]] -- AI primary care disrupts on access and availability, not on traditional physician quality metrics
-- [[excellence in chain-link systems creates durable competitive advantage because a competitor must match every link simultaneously]] -- once a provider achieves the three-layer configuration, replication requires matching every link
+- excellence in chain-link systems creates durable competitive advantage because a competitor must match every link simultaneously -- once a provider achieves the three-layer configuration, replication requires matching every link
 
 Topics:
-- [[health and wellness]]
-- [[attractor dynamics]]
-- [[livingip overview]]
+- health and wellness
+- attractor dynamics
+- livingip overview

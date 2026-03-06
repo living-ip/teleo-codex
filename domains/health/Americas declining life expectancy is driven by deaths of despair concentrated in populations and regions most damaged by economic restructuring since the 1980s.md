@@ -32,10 +32,10 @@ This data powerfully validates [[the epidemiological transition marks the shift 
 
 Relevant Notes:
 - [[the epidemiological transition marks the shift from material scarcity to social disadvantage as the primary driver of health outcomes in developed nations]] -- the US life expectancy reversal is the most dramatic empirical confirmation of this claim
-- [[healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured]] -- 75 percent of US healthcare dollars go to preventable diseases while government subsidizes the behaviors causing them
-- [[US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health]] -- deaths of despair are the most extreme symptom of a system that profits from treating rather than preventing
+- healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured -- 75 percent of US healthcare dollars go to preventable diseases while government subsidizes the behaviors causing them
+- US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health -- deaths of despair are the most extreme symptom of a system that profits from treating rather than preventing
 - [[the mental health supply gap is widening not closing because demand outpaces workforce growth and technology primarily serves the already-served rather than expanding access]] -- mental health is both a driver of deaths of despair and itself worsened by the same economic forces
 
 Topics:
-- [[health and wellness]]
-- [[livingip overview]]
+- health and wellness
+- livingip overview

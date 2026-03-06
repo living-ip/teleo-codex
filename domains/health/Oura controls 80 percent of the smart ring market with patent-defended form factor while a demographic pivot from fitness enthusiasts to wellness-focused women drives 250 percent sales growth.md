@@ -38,5 +38,5 @@ Relevant Notes:
 - [[Function Health drives down diagnostic conversion costs to 499 per year for 100-plus lab tests making atoms-to-bits health data generation accessible at consumer scale]] -- Function could bundle wearable monitoring with diagnostics, commoditizing standalone rings
 
 Topics:
-- [[health and wellness]]
-- [[livingip overview]]
+- health and wellness
+- livingip overview

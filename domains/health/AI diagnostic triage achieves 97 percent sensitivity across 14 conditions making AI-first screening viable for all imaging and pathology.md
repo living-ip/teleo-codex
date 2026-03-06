@@ -22,5 +22,5 @@ Relevant Notes:
 - [[AI middleware bridges consumer wearable data to clinical utility because continuous data is too voluminous for direct clinician review]] -- the same AI middleware pattern applies to clinical imaging data
 
 Topics:
-- [[livingip overview]]
-- [[health and wellness]]
+- livingip overview
+- health and wellness

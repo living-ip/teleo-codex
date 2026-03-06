@@ -35,9 +35,9 @@ Relevant Notes:
 - [[social isolation costs Medicare 7 billion annually and carries mortality risk equivalent to smoking 15 cigarettes per day making loneliness a clinical condition not a personal problem]] -- loneliness is one of the most actionable SDOH factors with clear cost signature and robust evidence
 - [[SDOH interventions show strong ROI but adoption stalls because Z-code documentation remains below 3 percent and no operational infrastructure connects screening to action]] -- the 90% finding motivates SDOH intervention but the implementation gap persists
 - [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]] -- VBC is the payment model aligned with addressing non-clinical determinants but remains minority practice
-- [[US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health]] -- the misalignment is even deeper than clinical vs preventive -- it ignores the 80-90% of determinants that clinical care does not touch
+- US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health -- the misalignment is even deeper than clinical vs preventive -- it ignores the 80-90% of determinants that clinical care does not touch
 - [[healthcare is a complex adaptive system requiring simple enabling rules not complicated management because standardized processes erode the clinical autonomy needed for value creation]] -- addressing the full spectrum of determinants requires enabling rules, not standardized SDOH checklists
 - [[human needs are finite universal and stable across millennia making them the invariant constraints from which industry attractor states can be derived]] -- health needs are a subset of universal needs, and the attractor state must address the full spectrum not just clinical encounters
 
 Topics:
-- [[health and wellness]]
+- health and wellness

@@ -34,4 +34,4 @@ Relevant Notes:
 - [[anti-payvidor legislation targets all insurer-provider integration without distinguishing acquisition-based arbitrage from purpose-built care delivery]] -- the regulatory risk that could affect Devoted despite its structural differentiation
 
 Topics:
-- [[health and wellness]]
+- health and wellness

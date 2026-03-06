@@ -18,10 +18,10 @@ The critical question is whether AI can move the needle beyond Phase I. The phar
 ---
 
 Relevant Notes:
-- [[recursive improvement is the engine of human progress because we get better at getting better]] -- AI drug discovery is recursive improvement applied to pharma R&D
+- recursive improvement is the engine of human progress because we get better at getting better -- AI drug discovery is recursive improvement applied to pharma R&D
 - [[continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware]] -- new drugs from AI discovery feed into the monitoring-driven care model
-- [[clinical trials should use adaptive allocation to minimize harm to patients during the trial not just produce clean data for future patients]] -- adaptive trial designs could improve the 90% clinical failure rate by reallocating patients away from failing arms mid-trial rather than running fixed protocols to completion
+- clinical trials should use adaptive allocation to minimize harm to patients during the trial not just produce clean data for future patients -- adaptive trial designs could improve the 90% clinical failure rate by reallocating patients away from failing arms mid-trial rather than running fixed protocols to completion
 
 Topics:
-- [[livingip overview]]
-- [[health and wellness]]
+- livingip overview
+- health and wellness

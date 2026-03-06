@@ -65,14 +65,14 @@ Vida's domain spans the structural transformation of healthcare from reactive si
 ## Demand Signals (claims referenced but not yet written)
 
 **Devoted Health-specific** (highest priority — Cory works at TSB which led Devoted's Series F and F-Prime):
-- `[[Devoteds atoms-plus-bits moat combines physical care delivery with AI software creating defensibility that pure technology or pure healthcare companies cannot replicate]]`
-- `[[Devoteds Orinoco platform eliminates healthcare data silos by building a unified AI-native operating system from scratch rather than assembling from legacy components]]`
-- `[[Devoted Health proves that optimizing for member health outcomes is more profitable than extracting from them]]`
-- `[[UnitedHealth and Humana exhibit textbook proxy inertia where coding arbitrage profits rationally prevent pursuit of purpose-built care delivery]]`
+- `Devoteds atoms-plus-bits moat combines physical care delivery with AI software creating defensibility that pure technology or pure healthcare companies cannot replicate`
+- `Devoteds Orinoco platform eliminates healthcare data silos by building a unified AI-native operating system from scratch rather than assembling from legacy components`
+- `Devoted Health proves that optimizing for member health outcomes is more profitable than extracting from them`
+- `UnitedHealth and Humana exhibit textbook proxy inertia where coding arbitrage profits rationally prevent pursuit of purpose-built care delivery`
 
 **Structural health claims** (needed to complete reasoning chains):
-- `[[US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health]]`
-- `[[healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured]]`
+- `US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health`
+- `healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured`
 
 **Known thin areas**:
 - GLP-1 economics beyond launch — durability/adherence problem, second-generation oral formulations

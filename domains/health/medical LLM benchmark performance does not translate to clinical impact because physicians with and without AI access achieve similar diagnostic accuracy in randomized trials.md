@@ -25,5 +25,5 @@ Relevant Notes:
 - [[OpenEvidence became the fastest-adopted clinical technology in history reaching 40 percent of US physicians daily within two years]] -- OpenEvidence succeeds as evidence retrieval, not diagnostic replacement
 
 Topics:
-- [[livingip overview]]
-- [[health and wellness]]
+- livingip overview
+- health and wellness

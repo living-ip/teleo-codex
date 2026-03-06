@@ -23,17 +23,17 @@ The mechanism is evolutionary. Our psychologies evolved under conditions of mate
 
 This creates a profound paradox for economic development: a society can be absolutely better off in material terms while experiencing worse health outcomes, if growth is accompanied by widening inequality. The rising tide lifts all ships, but if it lifts some ships far more than others, the psychosocial damage can outweigh the material gains.
 
-Since [[specialization and value form an autocatalytic feedback loop where each amplifies the other exponentially]], the same specialization that drives economic growth also drives the inequality that undermines health. Since [[healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured]], the epidemiological transition explains WHY healthcare costs escalate: the system is fighting psychosocially-driven disease with materialist medicine.
+Since specialization and value form an autocatalytic feedback loop where each amplifies the other exponentially, the same specialization that drives economic growth also drives the inequality that undermines health. Since healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured, the epidemiological transition explains WHY healthcare costs escalate: the system is fighting psychosocially-driven disease with materialist medicine.
 
 ---
 
 Relevant Notes:
-- [[specialization and value form an autocatalytic feedback loop where each amplifies the other exponentially]] -- specialization drives both the wealth that triggers the transition and the inequality that makes it pathological
-- [[healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured]] -- the epidemiological transition explains why healthcare spending grows faster than GDP in developed nations
-- [[US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health]] -- treating symptoms of psychosocial disease with pharmaceutical intervention is the epitome of misaligned incentives
-- [[continuous biometric monitoring transforms healthcare from episodic reaction to predictive prevention]] -- biometrics could address the transition by making psychosocial health visible
-- [[Devoted Health proves that optimizing for member health outcomes is more profitable than extracting from them]] -- Devoted's model addresses the transition by aligning incentives with actual health improvement
+- specialization and value form an autocatalytic feedback loop where each amplifies the other exponentially -- specialization drives both the wealth that triggers the transition and the inequality that makes it pathological
+- healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured -- the epidemiological transition explains why healthcare spending grows faster than GDP in developed nations
+- US healthcare incentives are fundamentally misaligned because every participant profits from sickness not health -- treating symptoms of psychosocial disease with pharmaceutical intervention is the epitome of misaligned incentives
+- continuous biometric monitoring transforms healthcare from episodic reaction to predictive prevention -- biometrics could address the transition by making psychosocial health visible
+- Devoted Health proves that optimizing for member health outcomes is more profitable than extracting from them -- Devoted's model addresses the transition by aligning incentives with actual health improvement
 
 Topics:
-- [[health and wellness]]
-- [[livingip overview]]
+- health and wellness
+- livingip overview

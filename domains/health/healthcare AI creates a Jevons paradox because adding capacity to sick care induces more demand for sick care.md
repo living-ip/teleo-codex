@@ -29,4 +29,4 @@ Relevant Notes:
 - [[performance overshooting creates a vacuum for good-enough alternatives when products exceed what mainstream customers need]] -- AI diagnostic accuracy already exceeds physician performance on benchmarks, yet outcomes barely improve, suggesting the bottleneck is not accuracy but system integration
 
 Topics:
-- [[health and wellness]]
+- health and wellness

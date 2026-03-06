@@ -25,13 +25,13 @@ These four organizations plus subsidiaries comprised 70% of terminated MA plan m
 
 Relevant Notes:
 - [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]] -- the VBC transition these models compete to deliver
-- [[Devoted Health proves that optimizing for member health outcomes is more profitable than extracting from them]] -- Devoted's specific competitive position within the aligned partner model
+- Devoted Health proves that optimizing for member health outcomes is more profitable than extracting from them -- Devoted's specific competitive position within the aligned partner model
 - [[healthcare is a complex adaptive system requiring simple enabling rules not complicated management because standardized processes erode the clinical autonomy needed for value creation]] -- the aligned partner model preserves clinician autonomy that vertical integration may erode
 - [[CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring]] -- CMS regulation specifically targeting the Integrated Behemoth model's coding arbitrage, which may accelerate the shift toward aligned partnership
 - [[Devoted is the fastest-growing MA plan at 121 percent growth because purpose-built technology outperforms acquisition-based vertical integration during CMS tightening]] -- competitive evidence: Devoted growing 121% while UHC sheds 1M members and Humana faces $3.5B star headwind
-- [[Devoteds Orinoco platform eliminates healthcare data silos by building a unified AI-native operating system from scratch rather than assembling from legacy components]] -- the technology architecture enabling the aligned partner model: purpose-built integration vs assembled-through-acquisition integration
+- Devoteds Orinoco platform eliminates healthcare data silos by building a unified AI-native operating system from scratch rather than assembling from legacy components -- the technology architecture enabling the aligned partner model: purpose-built integration vs assembled-through-acquisition integration
 - [[anti-payvidor legislation targets all insurer-provider integration without distinguishing acquisition-based arbitrage from purpose-built care delivery]] -- both proposed bills would ban the Integrated Behemoth and Aligned Partner models equally, failing to distinguish the structural abuse from the structural benefit
 - [[Kaiser Permanentes 80-year tripartite structure is the strongest precedent for purpose-built payvidor exemptions because any structural separation bill that captures Kaiser faces 12.5 million members and Californias entire healthcare infrastructure]] -- Kaiser's Consumer Health Partner model is the strongest precedent for preserving purpose-built integration through regulatory cycles
 
 Topics:
-- [[health and wellness]]
+- health and wellness

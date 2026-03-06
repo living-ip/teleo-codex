@@ -27,5 +27,5 @@ Relevant Notes:
 - [[healthcare AI regulation needs blank-sheet redesign because the FDA drug-and-device model built for static products cannot govern continuously learning software]] -- the AI payment gap may force VBC transition, which would accelerate the physician role shift
 
 Topics:
-- [[livingip overview]]
-- [[health and wellness]]
+- livingip overview
+- health and wellness

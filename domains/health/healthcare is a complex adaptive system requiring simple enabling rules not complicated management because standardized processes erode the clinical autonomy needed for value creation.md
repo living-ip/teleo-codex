@@ -26,14 +26,14 @@ Relevant Notes:
 - [[Hayek argued that designed rules of just conduct enable spontaneous order of greater complexity than deliberate arrangement could achieve]] -- healthcare's complexity exceeds any central planner's capacity, requiring Hayekian spontaneous order within designed rules
 - [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]] -- the current state of the VBC transition this framework aims to accelerate
 
-- [[space settlement governance must be designed before settlements exist because retroactive governance of autonomous communities is historically impossible]] -- both healthcare and space governance must provide enabling constraints not prescriptive rules, and both face the challenge of designing governance before the system fully exists
-- [[chain-link systems get stuck at low-effectiveness equilibria because improving any single link produces no visible gain until all links improve]] -- healthcare delivery as a chain-link system where piecemeal improvement at individual links fails
-- [[excellence in chain-link systems creates durable competitive advantage because a competitor must match every link simultaneously]] -- the flip side: healthcare organizations that achieve chain-link excellence create nearly unreplicable advantages
+- space settlement governance must be designed before settlements exist because retroactive governance of autonomous communities is historically impossible -- both healthcare and space governance must provide enabling constraints not prescriptive rules, and both face the challenge of designing governance before the system fully exists
+- chain-link systems get stuck at low-effectiveness equilibria because improving any single link produces no visible gain until all links improve -- healthcare delivery as a chain-link system where piecemeal improvement at individual links fails
+- excellence in chain-link systems creates durable competitive advantage because a competitor must match every link simultaneously -- the flip side: healthcare organizations that achieve chain-link excellence create nearly unreplicable advantages
 
-- [[diagnosis is the most undervalued element of strategy because naming the challenge correctly simplifies overwhelming complexity into a problem that can be addressed]] -- the CAS diagnosis of healthcare IS a Rumelt-style re-diagnosis: most reform treats healthcare as a complicated system requiring better management; the CAS diagnosis reframes it as a complex system requiring enabling rules, which transforms the entire strategy
-- [[the resource-design tradeoff means organizations with fewer resources must compensate with tighter strategic coherence]] -- value-based care organizations that achieve tighter coherence between measurement, incentives, and governance outperform better-resourced fee-for-service systems with looser strategic coordination
+- diagnosis is the most undervalued element of strategy because naming the challenge correctly simplifies overwhelming complexity into a problem that can be addressed -- the CAS diagnosis of healthcare IS a Rumelt-style re-diagnosis: most reform treats healthcare as a complicated system requiring better management; the CAS diagnosis reframes it as a complex system requiring enabling rules, which transforms the entire strategy
+- the resource-design tradeoff means organizations with fewer resources must compensate with tighter strategic coherence -- value-based care organizations that achieve tighter coherence between measurement, incentives, and governance outperform better-resourced fee-for-service systems with looser strategic coordination
 
 Topics:
-- [[health and wellness]]
-- [[emergence and complexity]]
-- [[coordination mechanisms]]
+- health and wellness
+- emergence and complexity
+- coordination mechanisms
