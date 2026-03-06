@@ -3,7 +3,7 @@ description: Global healthcare venture financing reached 60.4 billion in 2025 bu
 type: claim
 domain: health
 created: 2026-02-17
-source: "Health tech VC landscape analysis February 2026; OpenEvidence Abridge Hippocratic AI fundraising disclosures; Agilon Health SEC filings; Rock Health digital health funding reports 2025"
+source: "Health tech VC landscape analysis February 2026; OpenEvidence Abridge Hippocratic AI fundraising disclosures; Agilon Health SEC filings; Rock Health digital health funding reports 2025; Bessemer Venture Partners State of Health AI 2026"
 confidence: likely
 ---
 
@@ -16,6 +16,8 @@ Global healthcare venture financing reached $60.4 billion in 2025, the strongest
 **The losers:** 35% of all 2025 deals were flat or down rounds -- the highest rate since 2022-2023. Agilon Health collapsed from ~$10B+ market cap at IPO to $255M, posting $110M quarterly net losses despite $5.89B in revenue. Calm went from $2B to $1B valuation despite 4x revenue growth. Cerebral cannot pay its fines. 600+ companies that last raised in 2021-2022 haven't raised again or exited, many facing valuation overhangs from peak-era multiples. Distressed exits are accelerating (Thirty Madison $1B to $500M, SteadyMD $25M exit after raising $40M).
 
 The emerging consensus: healthcare AI is a platform shift, not a bubble, but the shift creates winner-take-most dynamics where category leaders absorb capital while everyone else fights for scraps. The IPO window is opening cautiously (Hinge Health at ~60% discount, Insilico Medicine in Hong Kong). 2026 demands fundamentals: clinical-grade evidence, regulatory clarity, proven path to profitability. 15 new unicorns were minted in 2025, predominantly in AI-enabled categories.
+
+**Bessemer corroboration (January 2026):** 527 VC deals in 2025 totaling an estimated $14B deployed. Average deal size increased 42% year-over-year (from $20.7M to $29.3M). Series D+ valuations jumped 63%. AI companies captured 55% of health tech funding (up from 37% in 2024). For every $1 invested in AI broadly, $0.22 goes to healthcare AI — exceeding healthcare's 18% GDP share. The Health Tech 2.0 IPO wave produced 6 companies with $36.6B combined market cap, averaging 67% annualized revenue growth. Health tech M&A hit 400 deals in 2025 (up from 350 in 2024), with strategic acquirers consolidating AI capabilities.
 
 ---
 
