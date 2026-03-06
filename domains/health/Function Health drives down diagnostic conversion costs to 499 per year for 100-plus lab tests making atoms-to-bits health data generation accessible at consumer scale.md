@@ -1,6 +1,6 @@
 ---
 description: Preventive health platform co-started by Zachary Werner and Mark Hyman offering 100-plus lab tests and AI-powered MRI for 499 per year with 350M total raised at 2.5B valuation using Costco model of break-even testing with membership margin
-type: analysis
+type: claim
 domain: health
 created: 2026-02-21
 source: "Zachary Werner profile research, Devoted Health Series G deck references, a16z Series A announcement June 2024, Redpoint Series B announcement November 2025"

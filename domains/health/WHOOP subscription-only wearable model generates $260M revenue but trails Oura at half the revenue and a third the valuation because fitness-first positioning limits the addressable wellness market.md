@@ -1,6 +1,6 @@
 ---
 description: Boston-based fitness wearable with $3.6B stale valuation from 2021 and no new priced round in 4 years faces competitive pressure from Oura's faster growth plus regulatory risk from FDA blood pressure confrontation while targeting a 2027 IPO
-type: analysis
+type: claim
 domain: health
 created: 2026-02-17
 source: "WHOOP company announcements 2020-2026; Bloomberg November 2025; Forbes; FDA warning letter July 2025; Sacra research; Getlatka revenue data"

@@ -1,6 +1,6 @@
 ---
 description: Finnish smart ring maker dominates wearable ring category at $11B valuation with $500M revenue, defended by ITC patent action against Samsung, while deliberately shifting from male fitness demographic to women in their early twenties who show high-80s 12-month retention
-type: analysis
+type: claim
 domain: health
 created: 2026-02-17
 source: "Oura company announcements 2024-2026; CNBC October 2025; TechCrunch October 2025; Crunchbase funding data; ITC patent filing November 2025"

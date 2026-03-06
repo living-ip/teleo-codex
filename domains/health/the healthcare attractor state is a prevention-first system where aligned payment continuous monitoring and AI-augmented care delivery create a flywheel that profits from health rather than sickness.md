@@ -1,6 +1,6 @@
 ---
 description: Derived using the 8-component template -- three core interrelated layers (VBC payment alignment, AI-enabled proactive care, continuous biometric monitoring) plus contested dimensions around social determinants and administrative simplification, classified as a weak attractor with multiple locally stable configurations
-type: framework
+type: claim
 domain: health
 created: 2026-03-01
 source: "Healthcare attractor state derivation using vault knowledge + 2026 industry research; Rumelt Good Strategy Bad Strategy; Devoted Health analysis; CMS data; OECD comparisons; Singapore model"

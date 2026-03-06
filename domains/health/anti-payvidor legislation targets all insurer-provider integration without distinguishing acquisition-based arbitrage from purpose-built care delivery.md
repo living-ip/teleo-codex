@@ -3,8 +3,6 @@ description: Both the Patients Over Profits Act and Break Up Big Medicine Act wo
 type: claim
 domain: health
 created: 2026-02-20
-company: "Devoted Health"
-deal_stage: active
 source: "POP Act H.R.5433/S.2836 September 2025; Break Up Big Medicine Act Warren/Hawley February 2026; Frier Levitt POP Act analysis 2025; Sheppard Health Law analysis 2025; AJMC analysis February 2026; On Healthcare Tech impact analysis February 2026"
 confidence: proven
 ---

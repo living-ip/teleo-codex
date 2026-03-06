@@ -1,6 +1,6 @@
 ---
 description: The three ancient enemies of humanity emerged from specific conditions of the agricultural revolution -- dense populations dependent on staple crops domestic animals and sedentary property -- and increasing specialization has ameliorated all three within the last century
-type: framework
+type: claim
 domain: health
 source: "Architectural Investing, Ch. Burden of Agriculture; Diamond (Guns Germs and Steel); Harari (Sapiens; Homo Deus)"
 confidence: likely

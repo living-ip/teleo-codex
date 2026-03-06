@@ -3,8 +3,6 @@ description: Kaisers 1955 legal separation into health plan hospitals and physic
 type: claim
 domain: health
 created: 2026-02-20
-company: "Devoted Health"
-deal_stage: active
 source: "HMO Act of 1973 legislative history; Kaiser Permanente corporate structure; DOJ Kaiser $556M FCA settlement 2026; Frier Levitt POP Act analysis 2025; AJMC Break Up Big Medicine analysis February 2026"
 confidence: likely
 ---
