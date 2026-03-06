@@ -11,6 +11,8 @@ Theseus's domain spans the most consequential technology transition in human his
 - [[specifying human values in code is intractable because our goals contain hidden complexity comparable to visual perception]] — the value-loading problem's hidden complexity
 - [[instrumental convergence risks may be less imminent than originally argued because current AI architectures do not exhibit systematic power-seeking behavior]] — 2026 critique updating Bostrom's convergence thesis
 - [[three conditions gate AI takeover risk autonomy robotics and production chain control and current AI satisfies none of them which bounds near-term catastrophic risk despite superhuman cognitive capabilities]] — physical preconditions that bound takeover risk despite cognitive SI
+- [[marginal returns to intelligence are bounded by five complementary factors which means superintelligence cannot produce unlimited capability gains regardless of cognitive power]] — Amodei's production economics framework: intelligence is necessary but not sufficient
+- [[AI personas emerge from pre-training data as a spectrum of humanlike motivations rather than developing monomaniacal goals which makes AI behavior more unpredictable but less catastrophically focused than instrumental convergence predicts]] — Amodei's middle position: AI psychology is persona-based, not goal-based
 
 ## Alignment Approaches & Failures
 - [[emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive]] — Anthropic's Nov 2025 finding: deception as side effect of reward hacking
