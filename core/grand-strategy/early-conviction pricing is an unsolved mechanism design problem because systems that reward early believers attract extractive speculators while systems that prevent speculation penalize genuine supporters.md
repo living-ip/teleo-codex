@@ -35,6 +35,7 @@ No existing implementation achieves all three:
 | Dutch auction (Doppler) | Yes — descending price | No — early = expensive | Yes — reveals true valuation |
 | Fanchise loyalty (Web2) | N/A — no pricing | Yes — tenure rewarded | No — no market mechanism |
 | NFT allowlists | Partial — gatekept | Yes — curated access | No — binary in/out |
+| Batch auction (Gnosis-style) | Yes — uniform clearing price | Partial — no early advantage | Yes — sealed bids reveal valuation |
 | Futarchy pre-filter | Yes — market governs | Neutral | Yes — conditional markets |
 
 **The deeper pattern:** This is a variant of the adverse selection problem. Any system that rewards early participation attracts actors who specialize in being early rather than being genuine. Sybil attacks, bot farms, airdrop farming, and NFT allowlist manipulation are all instances of the same problem: extractive actors who mimic the behavior of genuine supporters to capture the reward.
@@ -46,6 +47,8 @@ No existing implementation achieves all three:
 2. **Identity-layered pricing.** Separate pricing tiers for verified community members (who get early access at favorable terms) and open market participants (who face dutch-auction dynamics). This requires identity infrastructure that doesn't yet exist at scale in crypto — but reputation systems, on-chain activity scoring, and community attestation could approximate it.
 
 3. **Futarchy as pre-filter, community pricing as post-filter.** Use futarchy to govern whether a project launches (preventing scams), then use community-aligned pricing for the actual distribution. The governance layer handles price discovery; the distribution layer handles community alignment. This is close to how futard.io could work with a community-distribution mechanism layered on top.
+
+4. **Sequencing rather than combining.** Claynosaurz provides a live case study: NFT allowlist pricing (community-aligned but not price-discovering) → community building and IP validation → institutional capital at market price (Mediawan TV deal). Rather than solving all three criteria simultaneously with one mechanism, this approach sequences community formation first and price discovery second. The fanchise stack's six levels effectively implement this: early levels reward conviction with engagement (not price), later levels convert that engagement into economic participation once the community is proven. The insight: the two scarce resources (capital and community) may need different mechanisms applied in sequence rather than one mechanism applied simultaneously. (Clay review, Claynosaurz case study.)
 
 **Why this matters beyond mechanism design:** The early-conviction pricing problem is a microcosm of the broader challenge facing ownership-based internet economies. If the ownership layer (tokens, equity, co-ownership stakes) can be gamed by extractive actors faster than genuine community can form, then community ownership doesn't accelerate growth — it attracts mercenaries. The mechanism design must be solved for the broader thesis (community ownership > passive holding) to hold.
 
