@@ -8,7 +8,7 @@ Apply Shapiro's frameworks to assess where a media segment sits in the disruptio
 
 **Inputs:** Media segment, key players, recent market signals
 **Outputs:** Disruption phase assessment (distribution moat falling vs creation moat falling), quality redefinition map, progressive syntheticization vs progressive control positioning, value migration forecast
-**References:** [[Media disruption follows two sequential phases as distribution moats fall first and creation moats fall second]], [[Quality is revealed preference and disruptors change the definition not just the level]]
+**References:** [[media disruption follows two sequential phases as distribution moats fall first and creation moats fall second]], [[Quality is revealed preference and disruptors change the definition not just the level]]
 
 ## 2. Community Economics Evaluation
 
@@ -16,7 +16,7 @@ Assess whether a community's economic model actually converts engagement into su
 
 **Inputs:** Community platform, engagement data, monetization model, ownership structure
 **Outputs:** Engagement-to-ownership conversion analysis, sustainable economics assessment, comparison to fanchise stack model, red flags for extraction patterns
-**References:** [[Fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership]], [[Community ownership accelerates growth through aligned evangelism not passive holding]]
+**References:** [[fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership]], [[community ownership accelerates growth through aligned evangelism not passive holding]]
 
 ## 3. Narrative Propagation Analysis
 
@@ -24,7 +24,7 @@ Assess how an idea, brand, or cultural product spreads — simple vs complex con
 
 **Inputs:** The narrative/product, target audience, distribution channels
 **Outputs:** Contagion type assessment (simple viral vs complex requiring reinforcement), propagation strategy recommendation, vulnerability analysis (what kills spread), comparison to historical propagation patterns
-**References:** [[Ideological adoption is a complex contagion requiring multiple reinforcing exposures from trusted sources not simple viral spread through weak ties]], [[Meme propagation selects for simplicity novelty and conformity pressure rather than truth or utility]]
+**References:** [[ideological adoption is a complex contagion requiring multiple reinforcing exposures from trusted sources not simple viral spread through weak ties]], [[meme propagation selects for simplicity novelty and conformity pressure rather than truth or utility]]
 
 ## 4. IP Platform Assessment
 
@@ -32,7 +32,7 @@ Evaluate whether an entertainment IP is structured as a platform (enabling fan c
 
 **Inputs:** IP property, ownership structure, fan activity, licensing model
 **Outputs:** Platform score (how open to fan creation), fanchise stack depth (content → extensions → co-creation → co-ownership), monetization analysis, transition recommendations
-**References:** [[Entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset]]
+**References:** [[entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset]]
 
 ## 5. Creator Economy Metrics
 
@@ -40,7 +40,7 @@ Track the creator-corporate media balance — where attention is flowing, what f
 
 **Inputs:** Platform, creator segment, time window
 **Outputs:** Attention share analysis, revenue model comparison, sustainability assessment (churn economics, platform dependency risk), trend trajectory
-**References:** [[Creator and corporate media economies are zero-sum because total media time is stagnant and every marginal hour shifts between them]], [[Social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]]
+**References:** [[creator and corporate media economies are zero-sum because total media time is stagnant and every marginal hour shifts between them]], [[social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]]
 
 ## 6. Cultural Trend Detection
 
@@ -48,7 +48,7 @@ Spot the fiction-to-reality pipeline — cultural products that are shaping expe
 
 **Inputs:** Cultural signals (shows, games, memes, community narratives), technology trajectories
 **Outputs:** Fiction-to-reality candidates, timeline assessment, adoption vector analysis (which community carries it), memetic fitness evaluation
-**References:** [[The strongest memeplexes align individual incentive with collective behavior creating self-validating feedback loops]]
+**References:** [[the strongest memeplexes align individual incentive with collective behavior creating self-validating feedback loops]]
 
 ## 7. Memetic Fitness Analysis
 
@@ -56,7 +56,7 @@ Evaluate whether an idea, product, or movement has the structural features that 
 
 **Inputs:** The idea/movement, target population, existing memetic landscape
 **Outputs:** Fitness assessment against the memeplex checklist (emotional hook, unfalsifiability, identity attachment, altruism trick, transmission instructions), vulnerability analysis, competitive memetic landscape
-**References:** [[Memeplexes survive by combining mutually reinforcing memes that protect each other from external challenge through untestability threats and identity attachment]], [[Religions are optimized memeplexes whose structural features form a complete propagation system]]
+**References:** [[memeplexes survive by combining mutually reinforcing memes that protect each other from external challenge through untestability threats and identity attachment]], [[Religions are optimized memeplexes whose structural features form a complete propagation system]]
 
 ## 8. Market Research & Discovery
 
@@ -64,7 +64,7 @@ Search X, entertainment industry sources, and community platforms for new claims
 
 **Inputs:** Keywords, expert accounts, community platforms, time window
 **Outputs:** Candidate claims with source attribution, relevance assessment, duplicate check against existing knowledge base
-**References:** [[The media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership]]
+**References:** [[the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership]]
 
 ## 9. Knowledge Proposal
 

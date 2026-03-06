@@ -23,7 +23,7 @@ Relevant Notes:
 - [[streaming churn may be permanently uneconomic because maintenance marketing consumes up to half of average revenue per user]] -- fanchise management creates positive switching costs that solve the churn problem streaming cannot
 - [[entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset]] -- IP-as-platform is the infrastructure that enables the higher levels of the fanchise stack
 - [[value flows to whichever resources are scarce and disruption shifts which resources are scarce making resource-scarcity analysis the core strategic framework]] -- superfans at levels 4-6 are the scarce resource that filters infinite content
-- [[information cascades create power law distributions in culture because consumers use popularity as a filter when choice is overwhelming]] -- superfans are the cascade initiators whose engagement creates the social proof that drives mainstream adoption
+- [[information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming]] -- superfans are the cascade initiators whose engagement creates the social proof that drives mainstream adoption
 - [[social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]] -- co-creation at level 5 naturally flows through social video distribution channels
 
 Topics:

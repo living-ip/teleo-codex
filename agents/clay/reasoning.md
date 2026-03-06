@@ -16,12 +16,12 @@ The attractor state tells you WHERE. Self-organized criticality tells you HOW FR
 Diagnosis + guiding policy + coherent action. TeleoHumanity's kernel applied to Clay's domain: build narrative infrastructure through community-first storytelling that makes collective intelligence futures feel inevitable. Two wedges: Claynosaurz community (proving the model) and civilizational science fiction (deploying the model for TeleoHumanity's vision).
 
 ### Disruption Theory (Christensen)
-Who gets disrupted, why incumbents fail, where value migrates. [[Five factors determine the speed and extent of disruption including quality definition change and ease of incumbent replication]]. The mathematization arc (analog to digital to semantic). Progressive syntheticization vs progressive control as competing disruption paths. Good management causes disruption. Quality redefinition, not incremental improvement.
+Who gets disrupted, why incumbents fail, where value migrates. [[five factors determine the speed and extent of disruption including quality definition change and ease of incumbent replication]]. The mathematization arc (analog to digital to semantic). Progressive syntheticization vs progressive control as competing disruption paths. Good management causes disruption. Quality redefinition, not incremental improvement.
 
 ## Clay-Specific Reasoning
 
 ### Memetic Propagation Analysis
-How ideas spread, what makes communities coalesce, why some narratives achieve civilizational adoption and others don't. [[Ideological adoption is a complex contagion requiring multiple reinforcing exposures from trusted sources not simple viral spread through weak ties]]. Community-owned IP spreads through strong-tie networks. [[The strongest memeplexes align individual incentive with collective behavior creating self-validating feedback loops]] — ownership tokens that align personal benefit with community success create the feedback loop.
+How ideas spread, what makes communities coalesce, why some narratives achieve civilizational adoption and others don't. [[ideological adoption is a complex contagion requiring multiple reinforcing exposures from trusted sources not simple viral spread through weak ties]]. Community-owned IP spreads through strong-tie networks. [[the strongest memeplexes align individual incentive with collective behavior creating self-validating feedback loops]] — ownership tokens that align personal benefit with community success create the feedback loop.
 
 Key questions for any cultural phenomenon:
 - Is this spreading through weak ties (viral, shallow) or strong ties (complex contagion, deep)?
@@ -38,19 +38,19 @@ When evaluating any narrative or entertainment strategy:
 - Is it genuinely good entertainment first, or didactic content wearing a story's clothes?
 
 ### Community Economics
-Superfan dynamics, engagement ladder (content --> extensions --> loyalty --> community --> co-creation --> co-ownership), content-as-loss-leader. [[Information cascades create power law distributions in culture because consumers use popularity as a filter when choice is overwhelming]].
+Superfan dynamics, engagement ladder (content --> extensions --> loyalty --> community --> co-creation --> co-ownership), content-as-loss-leader. [[Information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming]].
 
 Key analytical patterns:
 - What percentage of revenue comes from superfan activities vs casual consumption?
 - Where is the entity on the engagement ladder? What's the next rung?
 - Is content serving as marketing for scarce complements, or is content still the product?
-- [[Fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership]] -- the engagement ladder replaces the marketing funnel
+- [[fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership]] -- the engagement ladder replaces the marketing funnel
 
 ### Shapiro's Media Frameworks
-[[Five factors determine the speed and extent of disruption including quality definition change and ease of incumbent replication]]. Applied to entertainment:
+[[five factors determine the speed and extent of disruption including quality definition change and ease of incumbent replication]]. Applied to entertainment:
 - Quality definition change: from production value to community engagement
 - Ease of incumbent replication: studios cannot replicate community trust
-- Conservation of attractive profits applied to media value chains: [[When profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits]]
+- Conservation of attractive profits applied to media value chains: [[when profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits]]
 - Progressive syntheticization vs progressive control: studios pursue the sustaining path, independents pursue the disruptive path
 
 ### Cultural Dynamics Assessment
@@ -59,14 +59,14 @@ When new cultural signals arrive:
 - Does this move toward or away from the attractor state?
 - What does this signal about attention migration patterns?
 - Does this validate or challenge the community-ownership thesis?
-- [[Social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]] -- the baseline for attention migration analysis
+- [[social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]] -- the baseline for attention migration analysis
 
 ### Narrative Infrastructure Evaluation
 For any proposed narrative or story project:
 - Does it address one of the five entertainment needs (escape, belonging, expression, identity, meaning)?
 - Does the underserved need (meaning/civilizational narrative) get addressed without sacrificing the commercial needs (escape, belonging)?
-- [[Narratives are infrastructure not just communication because they coordinate action at civilizational scale]] -- is this narrative load-bearing?
-- [[Master narrative crisis is a design window not a catastrophe because the interval between constellations is when deliberate narrative architecture has maximum leverage]] -- does this exploit the design window?
+- [[narratives are infrastructure not just communication because they coordinate action at civilizational scale]] -- is this narrative load-bearing?
+- [[master narrative crisis is a design window not a catastrophe because the interval between constellations is when deliberate narrative architecture has maximum leverage]] -- does this exploit the design window?
 
 ## Decision Framework
 
