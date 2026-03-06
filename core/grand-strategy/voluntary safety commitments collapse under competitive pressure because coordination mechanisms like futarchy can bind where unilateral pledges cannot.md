@@ -4,7 +4,7 @@ domain: grand-strategy
 secondary_domains:
   - ai-alignment
   - mechanisms
-description: "The RSP collapse, alignment tax dynamics, and futarchy's manipulation resistance form a triangle: voluntary commitments fail predictably, competitive dynamics explain why, and coordination mechanisms offer the structural alternative that unilateral pledges cannot provide."
+description: "The RSP collapse, alignment tax dynamics, and futarchy's binding mechanisms form a triangle: voluntary commitments fail predictably, competitive dynamics explain why, and coordination mechanisms offer the structural alternative that unilateral pledges cannot provide."
 confidence: experimental
 source: "Leo synthesis — connecting Anthropic RSP collapse (Feb 2026), alignment tax race-to-bottom dynamics, and futarchy mechanism design"
 created: 2026-03-06
@@ -26,13 +26,13 @@ Three claims in the knowledge base independently converge on the same mechanism:
 
 ## Why coordination mechanisms are the structural alternative
 
-The voluntary commitment fails because defection is individually rational and enforcement is absent. This is precisely the structure that [[futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders]] addresses. In a futarchy-governed safety regime:
+The voluntary commitment fails because defection is individually rational and enforcement is absent. This is precisely the structure that futarchy's mechanism design addresses. [[futarchy enables trustless joint ownership by forcing dissenters to be bought out through pass markets]] shows how conditional markets make exit — not defection — the rational response to disagreement. [[decision markets make majority theft unprofitable through conditional token arbitrage]] demonstrates how market structure prevents collective action from being undermined by free-riders. In a futarchy-governed safety regime:
 
 - Safety commitments would be priced into conditional markets, not declared unilaterally
 - Defection would be costly because markets would immediately reprice the defector's token
-- The coordination problem dissolves because the mechanism aligns individual incentives with collective outcomes
+- The coordination problem becomes tractable because the mechanism aligns individual incentives with collective outcomes — though implementation gaps remain (AI labs lack tokens, safety market optimization targets are non-trivial, and low-liquidity markets face manipulation risk)
 
-The key insight is not that futarchy solves alignment — it's that **the RSP collapse demonstrates the class of problem** (voluntary commitment under competitive pressure) **for which coordination mechanisms exist**. The alignment field has been treating safety as a technical problem of model behavior while the actual failure mode is a coordination problem of institutional behavior.
+The key insight is not that futarchy solves alignment — it's that **the RSP collapse demonstrates the class of problem** (voluntary commitment under competitive pressure) **for which coordination mechanisms exist**. The alignment field has been treating safety as a technical problem of model behavior while the actual failure mode is a coordination problem of institutional behavior. What an AI safety coordination market would actually look like — optimization targets, liquidity requirements, participant incentives — remains an open design problem worth developing.
 
 ## Cross-domain pattern
 
@@ -46,7 +46,8 @@ Relevant Notes:
 - [[voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints]] — empirical confirmation (RSP collapse)
 - [[the alignment tax creates a structural race to the bottom because safety training costs capability and rational competitors skip it]] — mechanism
 - [[government designation of safety-conscious AI labs as supply chain risks inverts the regulatory dynamic by penalizing safety constraints rather than enforcing them]] — feedback loop
-- [[futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders]] — coordination alternative
+- [[futarchy enables trustless joint ownership by forcing dissenters to be bought out through pass markets]] — binding mechanism (exit over defection)
+- [[decision markets make majority theft unprofitable through conditional token arbitrage]] — free-rider prevention
 - [[alignment research is experiencing its own Jevons paradox because improving single-model safety induces demand for more single-model safety rather than coordination-based alignment]] — resource misallocation
 - [[COVID proved humanity cannot coordinate even when the threat is visible and universal]] — pattern match
 - [[AI alignment is a coordination problem not a technical problem]] — parent claim
