@@ -1,3 +1,16 @@
+---
+source_type: "article"
+title: "To Everything Churn Churn Churn"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/to-everything-churn-churn-churn"
+date_published: "2023-05-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "streaming churn may be permanently uneconomic because maintenance marketing consumes up to half of average revenue per user"
+---
 # 4/23/25, 7:38 PM To Everything, Churn, Churn, Churn - by Doug Shapiro
 
 archive.today Saved from https://dougshapiro.substack.com/p/to-everything-churn-churn-churn

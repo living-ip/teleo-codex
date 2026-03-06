@@ -5,6 +5,8 @@ url: https://x.com/harkl_/status/2025790698939941060
 date: 2026-02-23
 tags: [rio, ai-macro, sovereignty, crypto, scenario-analysis]
 linked_set: ai-intelligence-crisis-divergence-feb2026
+status: unprocessed
+claims_extracted: []
 ---
 
 # The 2030 Sovereign Intelligence Memo — harkl_

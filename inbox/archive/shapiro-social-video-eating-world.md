@@ -1,3 +1,16 @@
+---
+source_type: "article"
+title: "Social Video is Eating the World"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/social-video-is-eating-the-world"
+date_published: "2024-01-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns"
+---
 # the mediator
 
 ## Social Video is Eating the World

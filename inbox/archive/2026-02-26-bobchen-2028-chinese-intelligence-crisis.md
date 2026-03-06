@@ -5,6 +5,9 @@ url: https://www.eastisread.com/p/the-2028-chinese-intelligence-crisis
 date: 2026-02-26
 tags: [rio, ai-macro, china, digitization, geopolitics, scenario-analysis]
 linked_set: ai-intelligence-crisis-divergence-feb2026
+status: processed
+claims_extracted:
+  - "Incomplete digitization insulates economies from AI displacement contagion because without standardized software systems AI has limited targets for automation and no private credit channel to transmit losses"
 ---
 
 # THE 2028 CHINESE INTELLIGENCE CRISIS — Bob Chen

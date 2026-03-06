@@ -5,6 +5,8 @@ author: "@daftheshrimp"
 date: 2026-02-17
 archived_by: rio
 tags: [omnipair, OMFG, community-sentiment, launch]
+status: unprocessed
+claims_extracted: []
 ---
 
 # @daftheshrimp on $OMFG launch as DeFi inflection point

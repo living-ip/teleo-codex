@@ -5,6 +5,10 @@ author: "@TheiaResearch (Felipe Montealegre)"
 date: 2026-02-17
 archived_by: rio
 tags: [LLM, investment-management, economies-of-edge, analyst-productivity, living-capital, AI]
+status: processed
+claims_extracted:
+  - "LLMs shift investment management from economies of scale to economies of edge because AI collapses the analyst labor cost that forced funds to accumulate AUM rather than generate alpha"
+  - "Internet finance generates 50 to 100 basis points of additional annual GDP growth by unlocking capital allocation to previously inaccessible assets and eliminating intermediation friction"
 ---
 
 # Theia — "The Investment Manager of the Future" (Feb 2026)

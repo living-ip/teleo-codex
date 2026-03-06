@@ -1,3 +1,15 @@
+---
+source_type: "tweet"
+title: "Popkins Mint Announcement"
+author: "@claynosaurz"
+url: ""
+date_published: "2025-05-22"
+date_archived: "2025-05-22"
+archived_by: "clay"
+domain: "entertainment"
+status: "unprocessed"
+claims_extracted: []
+---
 # Popkins Mint Announcement
 
 Published May 22nd on X by @claynosaurz

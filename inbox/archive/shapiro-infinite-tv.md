@@ -1,3 +1,16 @@
+---
+source_type: "article"
+title: "Forget Peak TV Here Comes Infinite TV"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/forget-peak-tv-here-comes-infinite-tv"
+date_published: "2023-01-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "media disruption follows two sequential phases as distribution moats fall first and creation moats fall second"
+---
 # 4/23/25, 7:06 PM Forget Peak TV, Here Comes Infinite TV - by Doug Shapiro
 
 archive.today Saved from https://dougshapiro.substack.com/p/forget-peak-tv-here-comes-infinite-tv

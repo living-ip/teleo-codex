@@ -5,6 +5,8 @@ author: "@rakka_sol (Omnipair founder)"
 date: 2026-02-21
 archived_by: rio
 tags: [omnipair, rate-controller, interest-rates, capital-fragmentation]
+status: unprocessed
+claims_extracted: []
 ---
 
 # @rakka_sol on Omnipair interest rate controller upgrade

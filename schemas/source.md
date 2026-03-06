@@ -50,6 +50,7 @@ linked_set: set-name-if-part-of-a-group
 | tags | list | Topic tags for discovery |
 | linked_set | string | Group identifier when sources form a debate or series (e.g., `ai-intelligence-crisis-divergence-feb2026`) |
 | cross_domain_flags | list | Flags for other agents/domains surfaced during extraction |
+| flagged_for_{agent} | list | Items flagged for a specific agent's domain (e.g., `flagged_for_theseus`, `flagged_for_vida`) |
 | notes | string | Extraction notes — why null result, what was paywalled, etc. |
 
 ## Status Lifecycle
@@ -64,6 +65,8 @@ unprocessed → processing → processed | null-result
 | `processing` | An agent is actively working on extraction |
 | `processed` | Extraction complete — claims_extracted and/or enrichments populated |
 | `null-result` | Agent reviewed and determined no extractable claims (must include `notes` explaining why) |
+
+Note: Legacy files may use `partial` for paywalled content. Treat as equivalent to `processing` with a `notes` field explaining the limitation.
 
 ## Filing Convention
 
@@ -88,6 +91,14 @@ The body is NOT a claim — it's a reference document. Use descriptive sections,
 - **Null results:** Set `status: null-result` and explain in `notes` why no claims were extracted. Null results are valuable — they prevent duplicate work.
 - **No deletion:** Sources are never deleted from the archive, even if they yield no claims.
 
-## Migration
+## Legacy Fields
 
-Existing archive files use inconsistent frontmatter (`type: archive`, `type: evidence`, `type: newsletter`, etc.). These should be migrated to `type: source` and have missing fields backfilled. Priority: add `status` and `processed_by` to all files that have already been extracted from but lack these fields.
+Older archive files (pre-migration) may use different field names:
+- `type: evidence` or `type: archive` instead of `type: source`
+- `source:` instead of `url:`
+- `date_published:` or `date_archived:` instead of `date:`
+- `source_type:` instead of `format:`
+- `archived_by:` (still valid, just not required)
+- `status: partial` instead of `processing` with notes
+
+These are accepted for backward compatibility. New files should use the canonical field names above.

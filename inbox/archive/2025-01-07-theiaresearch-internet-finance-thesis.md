@@ -5,6 +5,9 @@ author: "@TheiaResearch (Felipe Montealegre, Theia Capital)"
 date: 2025-01-07
 archived_by: rio
 tags: [IFS, internet-finance, theia, macro, GDP, remittance, property-rights, smart-contracts]
+status: processed
+claims_extracted:
+  - "Internet finance generates 50 to 100 basis points of additional annual GDP growth by unlocking capital allocation to previously inaccessible assets and eliminating intermediation friction"
 ---
 
 # Theia — "Internet Finance" fund thesis (Jan 2025)

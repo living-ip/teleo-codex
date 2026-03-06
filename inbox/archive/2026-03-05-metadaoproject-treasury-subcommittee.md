@@ -5,6 +5,9 @@ author: "@MetaDAOProject"
 date: 2026-03-05
 archived_by: rio
 tags: [metadao, treasury, legal, compliance, governance]
+status: processed
+claims_extracted:
+  - "Futarchy-governed DAOs converge on traditional corporate governance scaffolding for treasury operations because market mechanisms alone cannot provide operational security and legal compliance"
 ---
 
 # @MetaDAOProject announces treasury subcommittee proposal

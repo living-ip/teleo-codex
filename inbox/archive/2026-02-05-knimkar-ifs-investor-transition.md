@@ -5,6 +5,9 @@ author: "@knimkar (Kuleen, ex-Solana Foundation)"
 date: 2026-02-05
 archived_by: rio
 tags: [IFS, internet-finance, solana, institutional, fundamentals]
+status: processed
+claims_extracted:
+  - "Cryptos primary use case is capital formation not payments or store of value (co-source with ceterispar1bus and TheiaResearch)"
 ---
 
 # @knimkar — "On becoming an investor in the future of finance"

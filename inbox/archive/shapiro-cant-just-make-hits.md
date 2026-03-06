@@ -1,3 +1,17 @@
+---
+source_type: "article"
+title: "You Cant Just Make the Hits"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/you-cant-just-make-the-hits"
+date_published: "2023-04-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "cost-plus deals shifted economic risk from talent to streamers while misaligning creative incentives"
+  - "the TV industry needs diversified small bets like venture capital not concentrated large bets because power law returns dominate"
+---
 # You Can't Just Make the Hits - by Doug Shapiro
 
 archive.today Saved from https://dougshapiro.substack.com/p/you-cant-just-make-the-hits

@@ -5,6 +5,10 @@ author: "@metaproph3t (Proph3t, MetaDAO co-founder)"
 date: 2026-02-17
 archived_by: rio
 tags: [metadao, treasury, hurupay, buybacks, mint-governor, futard, permissionless-launch, community]
+status: processed
+claims_extracted:
+  - "Dynamic performance-based token minting replaces fixed emission schedules by tying new token creation to measurable outcomes creating algorithmic meritocracy in token distribution"
+  - "Futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility"
 ---
 
 # "Learning, Fast" — @metaproph3t monthly update (Feb 2026)

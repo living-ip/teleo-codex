@@ -1,3 +1,17 @@
+---
+source_type: "article"
+title: "What is Scarce When Quality is Abundant"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/what-is-scarce-when-quality-is-abundan"
+date_published: "2023-10-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "consumer definition of quality is fluid and revealed through preference not fixed by production value"
+  - "fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership"
+---
 # What is Scarce When Quality is Abundant - by Doug Shapiro
 
 archive.today Saved from https://dougshapiro.substack.com/p/what-is-scarce-when-quality-is-abundan

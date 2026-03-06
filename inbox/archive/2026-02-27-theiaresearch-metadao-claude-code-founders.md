@@ -5,6 +5,8 @@ author: "@TheiaResearch (Felipe Montealegre)"
 date: 2026-02-27
 archived_by: rio
 tags: [metadao, futard, claude-code, solo-founder, capital-formation, fundraising]
+status: unprocessed
+claims_extracted: []
 ---
 
 # @TheiaResearch — MetaDAO + Claude Code founders narrative

@@ -1,3 +1,16 @@
+---
+source_type: "article"
+title: "IP as Platform"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/ip-as-platform"
+date_published: "2023-08-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset"
+---
 # IP as Platform - by Doug Shapiro - The Mediator
 
 4/23/25, 6:56 PM

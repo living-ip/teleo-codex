@@ -5,6 +5,10 @@ url: https://michaelxbloch.substack.com/p/the-2028-global-intelligence-boom
 date: 2026-02-22
 tags: [rio, ai-macro, deflation, labor-displacement, scenario-analysis]
 linked_set: ai-intelligence-crisis-divergence-feb2026
+status: processed
+claims_extracted:
+  - "AI labor displacement operates as a self-funding feedback loop (co-source, challenges)"
+  - "Technology-driven deflation is categorically different from demand-driven deflation because falling production costs expand purchasing power and unlock new demand while falling demand creates contraction spirals"
 ---
 
 # THE 2028 GLOBAL INTELLIGENCE BOOM — Michael Bloch

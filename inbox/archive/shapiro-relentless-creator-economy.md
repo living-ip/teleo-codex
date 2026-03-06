@@ -1,3 +1,16 @@
+---
+source_type: "article"
+title: "The Relentless Inevitable March of the Creator Economy"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/the-relentless-inevitable-march"
+date_published: "2023-06-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "creator and corporate media economies are zero-sum because total media time is stagnant and every marginal hour shifts between them"
+---
 # 4/23/25, 6:54 PM The Relentless, Inevitable March of the Creator Economy
 
 Thanks for reading The Mediator! Subscribe for
