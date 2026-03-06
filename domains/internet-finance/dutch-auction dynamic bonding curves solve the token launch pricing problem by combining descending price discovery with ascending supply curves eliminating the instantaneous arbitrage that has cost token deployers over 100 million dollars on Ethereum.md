@@ -32,7 +32,17 @@ Doppler (Whetstone Research, built on Uniswap v4 hooks) combines two well-studie
 
 **Why this matters for the internet finance thesis:** The existing knowledge base captures the *governance* layer of permissionless launches (futarchy, conditional markets, brand separation) and the *capital formation* layer (compressed fundraising, solo founders). Doppler operates at the *price discovery* layer — the infrastructure beneath governance that determines how tokens find their initial price and generate sustainable liquidity. If futarchy governs *whether* a project should launch, dutch-auction bonding curves govern *how* it prices. The two are complementary, not competing.
 
-**Limitation:** Doppler is live on Base/EVM and building for Solana (native SVM implementation, not a port). No on-chain data yet for Solana deployment. The $100M+ arbitrage figure is Ethereum-specific and may not directly translate to Solana where transaction ordering works differently. The mechanism is theoretically sound but needs empirical validation at scale across different chain architectures.
+**Critical challenge: dutch auctions penalize true believers.** In traditional auctions (art, spectrum), making the highest-value bidder pay the most is allocatively efficient. But token launches aren't traditional auctions — the early buyers who value the token most are typically the project's most committed supporters, the ones who will hold, build community, and evangelize. A dutch auction makes these true believers pay the highest price while latecomers who waited (less conviction, less community alignment) get better deals. This inverts the community-building incentive: the mechanism optimizes for price discovery accuracy at the expense of rewarding early conviction.
+
+Static bonding curves have the *opposite* problem — they reward early participation but are exploitable by bots who aren't genuine supporters. The unsolved mechanism design question is: **how do you reward genuine early conviction while protecting against bot extraction?** Neither dutch auctions nor static bonding curves solve both simultaneously. Possible approaches that haven't been fully explored:
+- Futarchy as a pre-filter (governance decides *whether* to launch, then a community-friendly pricing mechanism handles *how*)
+- Identity-gated or reputation-weighted participation that distinguishes bots from genuine community
+- Hybrid mechanisms that offer early-supporter pricing to verified community members while using dutch-auction dynamics for the open market
+- Conviction-weighted pricing where holding duration or governance participation earns retroactive discounts
+
+**The best price discovery mechanism for token launches remains an open problem.** Doppler solves the arbitrage/MEV problem but may create a community alignment problem. The ideal mechanism would be shill-proof (no bot advantage), community-aligned (true believers get rewarded), and price-discovering (finds the right clearing price). No existing implementation achieves all three.
+
+**Deployment limitation:** Doppler is live on Base/EVM and building for Solana (native SVM implementation, not a port). No on-chain data yet for Solana deployment. The $100M+ arbitrage figure is Ethereum-specific and may not directly translate to Solana where transaction ordering works differently.
 
 ---
 
