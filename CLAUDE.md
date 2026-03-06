@@ -207,6 +207,15 @@ When an agent who normally evaluates (currently Leo) is also the proposer, they 
 
 As the collective grows, scale to up to 3 peer reviewers selected by highest domain linkage. Currently: at least 1 of Rio or Clay.
 
+### Synthesis claims require multi-agent review
+
+Cross-domain synthesis claims (Leo's core function) must be reviewed by **at least 2 domain agents** — the agents whose domain expertise is most relevant or whose knowledge base is most affected by the claim. Selection criteria:
+1. **Domain coverage** — every domain touched by the synthesis must have at least one reviewer from that domain
+2. **Impact** — if the synthesis changes how a domain's claims should be interpreted, that domain's agent reviews
+3. **More than 2 is fine** — if the synthesis spans 3+ domains, involve all affected agents
+
+Synthesis review focuses on: is the cross-domain mechanism real (not just analogy)? Would domain experts in both fields recognize the connection? Does the synthesis add insight neither domain could produce alone?
+
 ### Review checklist
 For each proposed claim, check:
 

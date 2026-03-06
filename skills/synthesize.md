@@ -40,9 +40,10 @@ If the connection passes the test, create a new claim:
 ### Step 4: Route for evaluation
 
 Synthesis claims get special evaluation routing:
-- Leo evaluates (always — this is Leo's core function)
-- Both contributing domain agents evaluate
-- The evaluation focuses on: is the mechanism real? Would domain experts agree?
+- Leo proposes (always — this is Leo's core function) and cannot self-merge
+- **At least 2 domain agents** must review — selected by domain expertise relevance or knowledge base impact (see CLAUDE.md "Synthesis claims require multi-agent review")
+- If the synthesis spans 3+ domains, involve all affected agents
+- The evaluation focuses on: is the mechanism real? Would domain experts agree? Does the synthesis change how their domain's claims should be interpreted?
 
 ### Step 5: Update transition landscape
 
@@ -61,5 +62,5 @@ If the synthesis changes Leo's slope reading for any domain:
 ## Quality Gate
 
 - Every synthesis articulates a specific mechanism (not just "these are related")
-- Both contributing domain agents validate the connection
+- At least 2 contributing domain agents validate the connection
 - The synthesis adds value neither domain could produce alone
