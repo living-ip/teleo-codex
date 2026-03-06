@@ -24,6 +24,9 @@ Vida's domain spans the structural transformation of healthcare from reactive si
 - [[medical LLM benchmark performance does not translate to clinical impact because physicians with and without AI access achieve similar diagnostic accuracy in randomized trials]] — the benchmark-to-clinical gap
 - [[human-in-the-loop clinical AI degrades to worse-than-AI-alone because physicians both de-skill from reliance and introduce errors when overriding correct outputs]] — physician overrides degrade AI from 90% to 68%
 - [[healthcare AI regulation needs blank-sheet redesign because the FDA drug-and-device model built for static products cannot govern continuously learning software]] — Wachter's physician-licensing model for AI regulation
+- [[AI scribes reached 92 percent provider adoption in under 3 years because documentation is the rare healthcare workflow where AI value is immediate unambiguous and low-risk]] — fastest-adopting clinical AI category; beachhead for broader AI trust
+- [[AI-native health companies achieve 3-5x the revenue productivity of traditional health services because AI eliminates the linear scaling constraint between headcount and output]] — structural unit economics shift: $500K-1M+ ARR/FTE vs $100-200K
+- [[consumer willingness to pay out of pocket for AI-enhanced care is outpacing reimbursement creating a cash-pay adoption pathway that bypasses traditional payer gatekeeping]] — RadNet: 36% pay OOP for AI mammography, 43% higher detection
 
 ## Value-Based Care & Devoted Health
 - [[Devoted is the fastest-growing MA plan at 121 percent growth because purpose-built technology outperforms acquisition-based vertical integration during CMS tightening]] — proof of concept for purpose-built payvidor model during CMS tightening
@@ -41,6 +44,7 @@ Vida's domain spans the structural transformation of healthcare from reactive si
 - [[gene editing is shifting from ex vivo to in vivo delivery via lipid nanoparticles which will reduce curative therapy costs from millions to hundreds of thousands per treatment]] — scalability breakthrough for curative medicine
 - [[personalized mRNA cancer vaccines show sustained 49 percent reduction in melanoma recurrence after five years representing a genuinely novel therapeutic paradigm]] — mRNA platform beyond COVID
 - [[the healthcare cost curve bends up through 2035 because new curative and screening capabilities create more treatable conditions faster than prices decline]] — net cost trajectory: inflationary through transition
+- [[FDA is replacing animal testing with AI models and organ-on-chip as the default preclinical pathway which will compress drug development timelines and reduce the 90 percent clinical failure rate]] — FDA April 2025 roadmap: animal studies to become "exception" within 3-5 years
 
 ## Mental Health & Digital Therapeutics
 - [[prescription digital therapeutics failed as a business model because FDA clearance creates regulatory cost without the pricing power that justifies it for near-zero marginal cost software]] — Pear, Akili, Woebot: the DTx autopsy
@@ -54,6 +58,7 @@ Vida's domain spans the structural transformation of healthcare from reactive si
 - [[CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring]] — CMS targeting acquisition-based vertical integration
 - [[anti-payvidor legislation targets all insurer-provider integration without distinguishing acquisition-based arbitrage from purpose-built care delivery]] — structural separation bills threatening payvidor model
 - [[Kaiser Permanentes 80-year tripartite structure is the strongest precedent for purpose-built payvidor exemptions because any structural separation bill that captures Kaiser faces 12.5 million members and Californias entire healthcare infrastructure]] — Kaiser's 80-year precedent for purpose-built integration
+- [[CMS is creating AI-specific reimbursement codes which will formalize a two-speed adoption system where proven AI applications get payment parity while experimental ones remain in cash-pay limbo]] — category I/III CPT codes for AI-assisted diagnosis
 
 ## Epidemiological Transition & Risk Landscape
 - [[the epidemiological transition marks the shift from material scarcity to social disadvantage as the primary driver of health outcomes in developed nations]] — the fundamental discontinuity
