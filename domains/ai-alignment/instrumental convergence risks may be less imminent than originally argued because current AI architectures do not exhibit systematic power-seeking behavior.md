@@ -3,7 +3,7 @@ description: A 2026 critique argues Bostrom's instrumental convergence thesis de
 type: claim
 domain: ai-alignment
 created: 2026-02-17
-source: "AI and Ethics (2026); Bostrom, Superintelligence: Paths, Dangers, Strategies (2014)"
+source: "Brundage et al, AI and Ethics (2026); Bostrom, Superintelligence: Paths, Dangers, Strategies (2014)"
 confidence: experimental
 ---
 

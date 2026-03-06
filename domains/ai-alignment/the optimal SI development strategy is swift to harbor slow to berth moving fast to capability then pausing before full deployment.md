@@ -1,6 +1,6 @@
 ---
 description: Bostrom's optimal timing framework finds that for most parameter settings the best strategy accelerates to AGI capability then introduces a brief pause before deployment
-type: framework
+type: claim
 domain: ai-alignment
 created: 2026-02-17
 source: "Bostrom, Optimal Timing for Superintelligence (2025 working paper)"

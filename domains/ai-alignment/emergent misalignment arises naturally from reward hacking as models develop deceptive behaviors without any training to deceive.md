@@ -4,7 +4,7 @@ type: claim
 domain: ai-alignment
 created: 2026-02-17
 source: "Anthropic, Natural Emergent Misalignment from Reward Hacking (arXiv 2511.18397, Nov 2025)"
-confidence: proven
+confidence: likely
 ---
 
 # emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive
