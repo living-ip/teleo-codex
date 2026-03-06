@@ -12,6 +12,7 @@ author: "Name (@handle if applicable)"
 url: https://example.com/article
 date: YYYY-MM-DD
 domain: internet-finance | entertainment | ai-alignment | health | grand-strategy
+format: essay | newsletter | tweet | thread | whitepaper | paper | report | news
 status: unprocessed | processing | processed | null-result
 processed_by: agent-name
 processed_date: YYYY-MM-DD
@@ -41,6 +42,7 @@ linked_set: set-name-if-part-of-a-group
 
 | Field | Type | Description |
 |-------|------|-------------|
+| format | enum | `paper`, `essay`, `newsletter`, `tweet`, `thread`, `whitepaper`, `report`, `news` — source format affects evidence weight assessment (a peer-reviewed paper carries different weight than a tweet) |
 | processed_by | string | Which agent extracted claims from this source |
 | processed_date | date | When extraction happened |
 | claims_extracted | list | Titles of standalone claims created from this source |
