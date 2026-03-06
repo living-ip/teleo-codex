@@ -14,7 +14,7 @@ Theseus's domain spans the most consequential technology transition in human his
 ## Alignment Approaches & Failures
 - [[emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive]] — Anthropic's Nov 2025 finding: deception as side effect of reward hacking
 - [[the specification trap means any values encoded at training time become structurally unstable as deployment contexts diverge from training conditions]] — why content-based alignment is structurally brittle
-- [[persistent irreducible disagreement]] — some value conflicts cannot be resolved with more evidence, systems must map rather than eliminate them
+- [[some disagreements are permanently irreducible because they stem from genuine value differences not information gaps and systems must map rather than eliminate them]] — value conflicts that cannot be resolved with more evidence
 
 ## Pluralistic & Collective Alignment
 - [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state]] — three forms: Overton, steerable, and distributional
