@@ -25,6 +25,7 @@ Relevant Notes:
 - [[five factors determine the speed and extent of disruption including quality definition change and ease of incumbent replication]] — quality redefinition is Factor 1 in Shapiro's disruption speed framework
 - [[social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]] — the consumption data behind the quality shift
 - [[the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership]] — the attractor state implies community relevance overtakes production value
+- [[disruptors redefine quality rather than competing on the incumbents definition of good]] — the direct theoretical parent: disruption works by changing what "good" means
 - [[performance overshooting creates a vacuum for good-enough alternatives when products exceed what mainstream customers need]] — Christensen's framework for why quality redefinition enables disruption
 
 Topics:
