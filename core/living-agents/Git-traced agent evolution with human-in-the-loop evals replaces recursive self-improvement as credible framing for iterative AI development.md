@@ -1,7 +1,7 @@
 ---
 description: The mechanism of propose-review-merge is both more credible and more novel than recursive self-improvement because the throttle is the feature not a limitation
 type: insight
-domain: livingip
+domain: living-agents
 created: 2026-03-02
 source: "Boardy AI conversation with Cory, March 2026"
 confidence: likely

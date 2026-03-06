@@ -1,7 +1,7 @@
 ---
 description: Applying the Howey test to futarchy-governed investment vehicles — the two-step separation of raise from deployment, combined with market-based decision-making, structurally undermines the securities classification that depends on investor passivity
 type: analysis
-domain: livingip
+domain: internet-finance
 created: 2026-03-05
 confidence: experimental
 source: "Living Capital thesis development + Seedplex regulatory analysis, March 2026"

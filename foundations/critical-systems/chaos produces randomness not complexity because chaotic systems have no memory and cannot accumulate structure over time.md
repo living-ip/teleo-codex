@@ -1,7 +1,7 @@
 ---
 description: Bak sharply distinguishes chaos from complexity -- chaotic systems generate white noise and strange attractors in abstract phase space but not the fractals power laws and 1/f signals that characterize real-world complex systems
 type: insight
-domain: livingip
+domain: critical-systems
 created: 2026-02-16
 source: "Bak, How Nature Works (1996)"
 confidence: proven

@@ -1,7 +1,7 @@
 ---
 description: Commoditization at one stage creates proprietary profit opportunities at adjacent stages as architectures cycle between modular and integrated -- profit migrates rather than disappears
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-21
 source: "Clayton Christensen, The Innovator's Solution (2003); Ben Thompson, Stratechery"
 confidence: likely

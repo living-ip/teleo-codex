@@ -1,7 +1,7 @@
 ---
 description: Study of 323 campaigns from 1900-2006 found every campaign mobilizing 3.5% of the population in sustained protest succeeded, with nonviolent campaigns succeeding at twice the rate of violent ones
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-17
 source: "Web research compilation, February 2026"
 confidence: likely

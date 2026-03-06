@@ -1,7 +1,7 @@
 ---
 description: The Tasmanian Effect demonstrates that when Aboriginal Tasmanians were isolated by rising sea levels 12000 years ago they gradually lost bone tools cold-weather clothing and fishing -- human intelligence alone is insufficient without population-level dynamics
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-17
 source: "Web research compilation, February 2026"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: The SEC's robo-adviser framework assumes a registered human-controlled entity deploys AI as a tool with fiduciary oversight — the scenario where an AI agent IS the adviser autonomously allocating capital through futarchy has no regulatory precedent or guidance
 type: analysis
-domain: livingip
+domain: internet-finance
 created: 2026-03-05
 confidence: experimental
 source: "SEC Robo-Adviser Guidance (2017), SEC 2026 Examination Priorities, Columbia Law Review Vol. 117 No. 6 (Ji 2017), Living Capital thesis development March 2026"

@@ -1,7 +1,7 @@
 ---
 description: LivingIP's agent architecture maps directly onto biological Markov blanket nesting -- each agent maintains domain expertise as internal states while sharing a common knowledge base and coordinating through critical dynamics at interfaces
 type: claim
-domain: livingip
+domain: living-agents
 created: 2026-02-16
 confidence: experimental
 source: "Understanding Markov Blankets: The Mathematics of Biological Organization"

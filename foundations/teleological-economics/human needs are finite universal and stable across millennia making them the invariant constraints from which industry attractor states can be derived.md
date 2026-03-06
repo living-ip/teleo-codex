@@ -1,7 +1,7 @@
 ---
 description: Needs change on evolutionary timescales while technology changes on decades and industry structures on years -- this mismatch is why needs-based reasoning works for long-horizon industry prediction where trend extrapolation fails
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-18
 source: "Max-Neef Human Scale Development 1991; Deci & Ryan SDT 1985-2024; Tay & Diener Gallup 123-country study 2011; Kenrick et al evolutionary renovation of Maslow 2010; Buss 37-culture mate preference study 1989"
 confidence: likely

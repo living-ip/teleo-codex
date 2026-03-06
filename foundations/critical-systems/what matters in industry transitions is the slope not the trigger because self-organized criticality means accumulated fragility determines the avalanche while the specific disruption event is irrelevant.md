@@ -1,7 +1,7 @@
 ---
 description: SOC reframes industry analysis from predicting which technology or company will disrupt to measuring how far the current architecture sits from the attractor state -- the slope IS the fragility
 type: framework
-domain: livingip
+domain: critical-systems
 created: 2026-03-02
 confidence: likely
 tradition: "self-organized criticality, teleological investing, complexity economics"

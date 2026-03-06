@@ -1,7 +1,7 @@
 ---
 description: Rumelt's attractor state concept applied to investment -- industries have efficiency-driven "should" states that provide orientation during periods of structural change, connecting FEP attractor dynamics to practical capital allocation
 type: framework
-domain: livingip
+domain: teleological-economics
 created: 2026-02-16
 source: "Architectural Investing (now Teleological Investing) book outline; Rumelt, Good Strategy/Bad Strategy"
 confidence: likely

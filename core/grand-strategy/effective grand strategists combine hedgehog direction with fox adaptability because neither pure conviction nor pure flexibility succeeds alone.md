@@ -1,7 +1,7 @@
 ---
 description: Berlin's hedgehog-fox spectrum reinterpreted by Gaddis -- the best strategists are "foxes with compasses" who hold directional conviction AND situational adaptability simultaneously
 type: claim
-domain: livingip
+domain: grand-strategy
 created: 2026-03-05
 confidence: likely
 source: "Isaiah Berlin 'The Hedgehog and the Fox' 1953, John Lewis Gaddis 'On Grand Strategy' 2018"

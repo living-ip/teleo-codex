@@ -1,7 +1,7 @@
 ---
 description: Ansary's distinction between anyone-with-anyone connectivity and everyone-with-everyone coordination names the structural gap between the internet's promise and its actual coordination capacity
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-21
 source: "Tamim Ansary, The Invention of Yesterday (2019); NPR Throughline 'Do We Need a Shared History?' (2022)"
 confidence: likely

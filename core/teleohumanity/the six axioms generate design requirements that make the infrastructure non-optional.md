@@ -1,7 +1,7 @@
 ---
 description: If you accept the TeleoHumanity axioms, the collective superintelligence architecture follows necessarily -- the worldview dictates the infrastructure
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Manifesto, Chapters 7-8"

@@ -1,7 +1,7 @@
 ---
 description: Even proven innovations like futarchy stall at hundreds of users because core contributors burn out repeating basics while valuable insights get lost in ephemeral channels
 type: claim
-domain: livingip
+domain: living-agents
 created: 2026-02-16
 confidence: likely
 source: "Living Agents & Knowledge Scaling"

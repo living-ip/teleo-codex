@@ -1,7 +1,7 @@
 ---
 description: Shapiro extends Christensen beyond internal blindness -- regulations contracts business models and culture form around incumbents and persist long after underlying dynamics have changed
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-21
 source: "Doug Shapiro, 'What Clay Christensen Missed' and 'A False Sense of Stability', The Mediator (Substack)"
 confidence: likely

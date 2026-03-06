@@ -1,7 +1,7 @@
 ---
 description: Social choice theory formally proves that no voting rule can simultaneously satisfy fairness respect for individual preferences and alignment with diverse values without dictatorial outcomes
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-17
 source: "Conitzer et al, Social Choice for AI Alignment (arXiv 2404.10271, ICML 2024); Mishra, AI Alignment and Social Choice (arXiv 2310.16048, October 2023)"
 confidence: likely

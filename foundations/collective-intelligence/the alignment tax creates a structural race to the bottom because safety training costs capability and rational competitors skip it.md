@@ -1,7 +1,7 @@
 ---
 description: Safety post-training reduces general utility through forgetting creating competitive pressures where organizations eschew safety to gain capability advantages
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-17
 source: "AI Safety Forum discussions; multiple alignment researchers 2025"
 confidence: likely

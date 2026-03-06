@@ -1,7 +1,7 @@
 ---
 description: A 1% mortality pandemic with immediate visible universal consequences was the easiest possible coordination test and we failed comprehensively -- implying existential-scale coordination is far beyond current capacity
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Manifesto, Chapter 6"

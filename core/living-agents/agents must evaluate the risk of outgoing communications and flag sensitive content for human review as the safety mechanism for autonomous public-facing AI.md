@@ -1,7 +1,7 @@
 ---
 description: The safety architecture where every outgoing agent communication gets risk-scored and sensitive content triggers human review -- creating a graduated autonomy model where agents earn communication freedom through demonstrated judgment
 type: claim
-domain: livingip
+domain: living-agents
 created: 2026-03-03
 confidence: likely
 source: "Strategy session journal, March 2026"

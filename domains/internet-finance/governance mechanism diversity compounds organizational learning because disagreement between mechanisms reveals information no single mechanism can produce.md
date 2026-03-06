@@ -1,7 +1,7 @@
 ---
 description: Applying the diversity argument to decision-making itself -- each governance mechanism produces signal types that cannot be derived from any other mechanism, and comparing mechanism outputs generates meta-learning that compounds over time
 type: claim
-domain: livingip
+domain: internet-finance
 created: 2026-03-02
 confidence: likely
 source: "Cory Abdalla governance design writing; extension of Page diversity theorem to mechanism design; MetaDAO empirical evidence"

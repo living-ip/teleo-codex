@@ -1,7 +1,7 @@
 ---
 description: Active participants lock tokens for 3-6 months when voting on investments and earn additional emissions based on outcomes, replacing traditional fund fee structures with a system where successful decision-makers gain influence organically
 type: claim
-domain: livingip
+domain: living-capital
 created: 2026-02-16
 confidence: experimental
 source: "Living Capital"

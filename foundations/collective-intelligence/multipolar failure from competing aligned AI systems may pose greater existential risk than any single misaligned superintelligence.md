@@ -1,7 +1,7 @@
 ---
 description: Even individually aligned AI systems competing in an environment without safety incentives produce catastrophic externalities like pollution where no actor wants the outcome but each contributes
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-17
 source: "Critch & Krueger, ARCHES (arXiv 2006.04948, June 2020); Critch, What Multipolar Failure Looks Like (Alignment Forum); Carichon et al, Multi-Agent Misalignment Crisis (arXiv 2506.01080, June 2025)"
 confidence: likely

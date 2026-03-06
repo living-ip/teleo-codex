@@ -1,7 +1,7 @@
 ---
 description: By rewarding contributors with ownership stakes for valuable explanations and insights, Living Agents turn the burden of knowledge sharing into a value-generating activity that compounds
 type: claim
-domain: livingip
+domain: living-agents
 created: 2026-02-16
 confidence: experimental
 source: "Living Agents & Knowledge Scaling"

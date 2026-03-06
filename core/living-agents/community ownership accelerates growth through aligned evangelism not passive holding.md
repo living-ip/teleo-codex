@@ -1,7 +1,7 @@
 ---
 description: Empirical evidence shows projects with broad token distribution grow faster through active community support
 type: analysis
-domain: livingip
+domain: living-agents
 created: 2026-02-16
 source: "MetaDAO Launchpad"
 confidence: likely

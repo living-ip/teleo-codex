@@ -1,7 +1,7 @@
 ---
 description: Proposals that transfer ownership without creating value may pass futarchy approval if they increase the outcome metric through transfer effects
 type: tension
-domain: livingip
+domain: internet-finance
 created: 2026-02-16
 source: "Hanson, Futarchy Details (2024)"
 confidence: speculative

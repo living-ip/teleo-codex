@@ -1,7 +1,7 @@
 ---
 description: Market accuracy comes from financial penalties for error and specialist arbitrage rather than averaging crowd opinions
 type: claim
-domain: livingip
+domain: mechanisms
 created: 2026-02-16
 source: "Hanson, Shall We Vote on Values But Bet on Beliefs (2013)"
 confidence: proven

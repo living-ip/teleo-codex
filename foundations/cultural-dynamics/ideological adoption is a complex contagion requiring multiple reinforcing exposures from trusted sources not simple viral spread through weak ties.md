@@ -1,7 +1,7 @@
 ---
 description: Centola's research shows behavioral and ideological change requires clustered networks with strong ties and ~25 percent committed minority because a signal crossing a weak tie arrives without social reinforcement while clustered exposure provides it
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-17
 source: "Centola 2010 Science, Centola 2018 Science, web research compilation February 2026"
 confidence: likely

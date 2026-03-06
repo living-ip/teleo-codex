@@ -1,7 +1,7 @@
 ---
 description: Throughout history, technological and organizational capability gains have consistently expanded what societies guarantee to all people, from speech to education to healthcare
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Axioms (8-axiom version), Expansion Axiom"

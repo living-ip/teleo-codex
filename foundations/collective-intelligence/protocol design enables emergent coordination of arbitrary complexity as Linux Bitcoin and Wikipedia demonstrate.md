@@ -1,7 +1,7 @@
 ---
 description: Designed contribution protocols produce distributed coordination without central direction and the pattern transfers directly to AI governance architecture
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-17
 source: "Linux kernel governance; Nakamoto Consensus; Wikipedia stigmergy research"
 confidence: proven

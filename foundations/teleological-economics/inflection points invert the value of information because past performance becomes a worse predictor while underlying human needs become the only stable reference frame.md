@@ -1,7 +1,7 @@
 ---
 description: During stable periods historical pattern matching works but during inflection points the only reliable compass is the value landscape defined by human needs -- which is why crisis points enable better industries despite destroying existing strategies
 type: framework
-domain: livingip
+domain: teleological-economics
 source: "Architectural Investing, Ch. Crisis Points; Rumelt (Good Strategy Bad Strategy); Grove (Only the Paranoid Survive)"
 confidence: likely
 tradition: "strategic management, complexity economics, Teleological Investing"

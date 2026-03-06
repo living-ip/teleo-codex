@@ -1,7 +1,7 @@
 ---
 description: The dominant alignment paradigms share a core limitation -- human preferences are diverse distributional and context-dependent not reducible to one reward function
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-17
 source: "DPO Survey 2025 (arXiv 2503.11701)"
 confidence: likely

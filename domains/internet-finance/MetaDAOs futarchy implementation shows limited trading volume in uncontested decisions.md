@@ -1,7 +1,7 @@
 ---
 description: Real-world futarchy markets on MetaDAO demonstrate manipulation resistance but suffer from low participation when decisions are uncontroversial, dominated by a small group of sophisticated traders
 type: claim
-domain: livingip
+domain: internet-finance
 created: 2026-02-16
 confidence: proven
 source: "Governance - Meritocratic Voting + Futarchy"

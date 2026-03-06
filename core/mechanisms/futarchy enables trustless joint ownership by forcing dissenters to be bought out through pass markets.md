@@ -1,7 +1,7 @@
 ---
 description: Unlike token-voting where 51 percent controls treasury, futarchy requires supporters to buy out opponents in Pass markets
 type: claim
-domain: livingip
+domain: mechanisms
 created: 2026-02-16
 source: "MetaDAO Launchpad"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: Distributed intelligence emerging from human-AI networks owned by participants replaces the default path of a single superintelligent system controlled by one company or government
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-16
 confidence: experimental
 source: "TeleoHumanity Manifesto, Chapter 8"

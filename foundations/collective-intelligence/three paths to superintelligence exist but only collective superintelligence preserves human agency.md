@@ -1,7 +1,7 @@
 ---
 description: Speed superintelligence (faster thinking) and quality superintelligence (deeper thinking) both centralize power, while collective superintelligence emerges with humans rather than beyond them
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-16
 confidence: experimental
 source: "Leo's Path to Superintelligence"

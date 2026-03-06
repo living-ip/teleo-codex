@@ -1,7 +1,7 @@
 ---
 description: Git-native with claim-level frontmatter attribution is the right starting architecture because git provides versioning durability and branching as primitives while the proposer-evaluator pipeline is storage-agnostic and a disposable SQLite index handles agent discovery at current scale
 type: analysis
-domain: livingip
+domain: living-agents
 created: 2026-02-23
 confidence: likely
 source: "Alex-Cory architecture conversation, Feb 2026; LivingIP database structure review; stress test dialectic"

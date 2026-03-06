@@ -1,7 +1,7 @@
 ---
 description: The default optimization behavior of all bounded agents -- individuals, firms, markets -- is hill climbing, which guarantees convergence to a local maximum but not the global one; escaping requires randomness, crisis, or mechanism design
 type: framework
-domain: livingip
+domain: critical-systems
 created: 2026-02-17
 source: "Synthesis from Christian and Griffiths (Algorithms to Live By, Ch 9/11), Minsky (Financial Instability Hypothesis), Bak (Self-Organized Criticality), Friston (Free Energy Principle)"
 confidence: likely

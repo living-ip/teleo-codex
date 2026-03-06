@@ -1,7 +1,7 @@
 ---
 description: Woolley et al discovered a collective intelligence factor (c) that predicts group performance across diverse tasks and correlates with equal turn-taking and social sensitivity rather than average or maximum individual IQ -- Pentland confirmed that communication patterns predict performance independent of content
 type: claim
-domain: livingip
+domain: collective-intelligence
 source: Woolley et al, Evidence for a Collective Intelligence Factor (Science, 2010); Pentland, Social Physics (2014)
 confidence: proven
 tradition: collective intelligence, computational social science

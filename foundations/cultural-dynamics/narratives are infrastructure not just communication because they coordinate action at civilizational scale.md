@@ -1,7 +1,7 @@
 ---
 description: Shared stories from religious texts to scientific theories function as coordination mechanisms that organize collective behavior, not merely as ways to transmit information
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Axioms (8-axiom version)"

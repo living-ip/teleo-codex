@@ -1,7 +1,7 @@
 ---
 description: The trajectory of technological progress almost always outstrips customer absorption -- once the incumbents product overshoots mainstream requirements simpler cheaper alternatives cross the threshold
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-21
 source: "Clayton Christensen, The Innovator's Dilemma (1997)"
 confidence: likely

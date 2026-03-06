@@ -1,7 +1,7 @@
 ---
 description: Software makes healthcare scalable but atoms-to-bits conversion points are the defensible chokepoint because they generate irreplaceable data and compound patient trust through physical touchpoints
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-21
 confidence: likely
 source: "Zachary Werner conversation, Devoted Health Series G analysis, Function Health strategy (February 2026)"

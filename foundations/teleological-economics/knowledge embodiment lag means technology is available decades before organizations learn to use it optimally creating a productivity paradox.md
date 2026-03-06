@@ -1,7 +1,7 @@
 ---
 description: Electrification took 30 years to show productivity gains because factories had to be physically redesigned for unit drive -- a pattern repeated in every historical transition
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-17
 confidence: likely
 source: "Attractor state historical backtesting, Feb 2026"

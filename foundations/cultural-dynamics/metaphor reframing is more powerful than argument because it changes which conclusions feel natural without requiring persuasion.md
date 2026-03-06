@@ -1,7 +1,7 @@
 ---
 description: Lakoff's framing theory and Raymond's Cathedral/Bazaar show that the winning move in memetic competition is choosing the metaphor, not winning the debate within an existing frame
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-17
 source: "Web research compilation, February 2026"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: Bitcoin's HODL meme demonstrates how behavioral prescriptions that align personal benefit with protocol properties create positive feedback loops where adoption validates the meme and attracts more adoption
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-17
 source: "Web research compilation, February 2026"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: Religions, ideologies, and cults persist not because they are true but because their constituent memes form self-protecting clusters with specific defensive tricks
 type: pattern
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-16
 source: "Blackmore, The Meme Machine (1999)"
 confidence: likely

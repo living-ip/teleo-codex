@@ -1,7 +1,7 @@
 ---
 description: The growth engine -- lean on X's existing network effects for discovery and distribution, reward contributors with ownership for insights they were already sharing, and create a new job category of metaDAO analyst/KOL
 type: claim
-domain: livingip
+domain: grand-strategy
 created: 2026-02-28
 confidence: likely
 source: "LivingIP Master Plan"

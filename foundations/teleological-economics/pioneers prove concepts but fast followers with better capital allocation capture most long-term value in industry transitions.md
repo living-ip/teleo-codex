@@ -1,7 +1,7 @@
 ---
 description: In 4 of 5 historical transitions the pioneer lost to a later entrant who built scale after standards and dominant designs locked in
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-17
 confidence: likely
 source: "Attractor state historical backtesting, Feb 2026"

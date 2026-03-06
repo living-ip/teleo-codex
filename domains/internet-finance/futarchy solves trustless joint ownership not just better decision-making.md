@@ -1,7 +1,7 @@
 ---
 description: Futarchy enables multiple parties to own shares in valuable assets without requiring legal systems or trust between majority and minority holders
 type: claim
-domain: livingip
+domain: internet-finance
 created: 2026-02-16
 source: "Heavey, Futarchy as Trustless Joint Ownership (2024)"
 confidence: likely

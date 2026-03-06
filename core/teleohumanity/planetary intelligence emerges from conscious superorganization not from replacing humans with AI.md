@@ -1,7 +1,7 @@
 ---
 description: The goal is not a hive mind that erases individuality or an artificial superintelligence that replaces humans but coordination architecture where individual agency and collective capability amplify each other
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: likely
 source: "TeleoHumanity Manifesto, TeleoHumanity as World Narrative"

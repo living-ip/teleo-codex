@@ -1,7 +1,7 @@
 ---
 description: Gaddis merges Fitzgerald's 1936 formulation with Berlin's hedgehog-fox to define the cognitive requirement for grand strategy -- simultaneously holding unlimited aspirations AND awareness of limited means without paralysis
 type: claim
-domain: livingip
+domain: grand-strategy
 created: 2026-03-05
 confidence: likely
 source: "F. Scott Fitzgerald 1936, John Lewis Gaddis 'On Grand Strategy' 2018"

@@ -1,7 +1,7 @@
 ---
 description: High-trust societies form larger porous networks that accumulate more personbytes while low-trust familial societies rely on family ties and state intervention limiting their complexity ceiling
 type: claim
-domain: livingip
+domain: teleological-economics
 created: 2026-02-16
 source: "Hidalgo, Why Information Grows (2015)"
 confidence: likely

@@ -1,7 +1,7 @@
 ---
 description: McLuhan and Anderson converge on medium-determines-identity-scale, and the internets structural properties -- personalization, algorithmic curation, differential temporal experience -- produce the opposite cognitive environment from the simultaneity that enabled nation-state narratives
 type: claim
-domain: livingip
+domain: cultural-dynamics
 created: 2026-02-21
 source: "Marshall McLuhan, Understanding Media (1964); Benedict Anderson, Imagined Communities (1983); Master Narratives Theory research synthesis"
 confidence: likely

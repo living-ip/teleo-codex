@@ -1,7 +1,7 @@
 ---
 description: Every coordination breakthrough -- language, money, markets, science, democracy -- emerged through blind iteration over centuries, never through deliberate design
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-16
 confidence: likely
 source: "TeleoHumanity Manifesto, Chapter 5"

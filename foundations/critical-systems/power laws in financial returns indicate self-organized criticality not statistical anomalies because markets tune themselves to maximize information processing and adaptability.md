@@ -1,7 +1,7 @@
 ---
 description: Markets operating at the critical point between order and chaos can rapidly switch between operating regimes and access distributed information making fat tails optimal not pathological for long-term learning
 type: framework
-domain: livingip
+domain: critical-systems
 created: 2026-02-16
 source: "Teleological Investing / TeleoHumanity book"
 confidence: experimental

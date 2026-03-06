@@ -1,7 +1,7 @@
 ---
 description: Making knowledge contribution as engaging as social media and as rewarding as equity ownership creates a self-reinforcing cycle where individual benefit drives collective intelligence
 type: claim
-domain: livingip
+domain: living-agents
 created: 2026-02-16
 confidence: experimental
 source: "Living Agents & Knowledge Scaling"

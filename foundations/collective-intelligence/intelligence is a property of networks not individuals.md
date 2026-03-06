@@ -1,7 +1,7 @@
 ---
 description: Every great achievement attributed to individuals -- Einstein, Jobs, the Buddha -- was actually a synthesis of collective knowledge that no single person created or fully understood
 type: claim
-domain: livingip
+domain: collective-intelligence
 created: 2026-02-16
 confidence: proven
 source: "TeleoHumanity Manifesto, Chapter 4"

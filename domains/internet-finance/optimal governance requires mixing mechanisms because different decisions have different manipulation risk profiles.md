@@ -1,7 +1,7 @@
 ---
 description: No single governance mechanism is optimal for all decisions -- meritocratic voting for daily ops, prediction markets for medium stakes, futarchy for critical decisions creates layered manipulation resistance
 type: claim
-domain: livingip
+domain: internet-finance
 created: 2026-02-16
 confidence: likely
 source: "Governance - Meritocratic Voting + Futarchy"

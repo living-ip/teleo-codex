@@ -1,7 +1,7 @@
 ---
 description: CFTC treated Ooki DAO as an unincorporated association with general partnership liability imposing $643K penalty — strongest negative precedent for unwrapped DAOs, but the double-edged sword of governance participation creating liability may also support the active management defense
 type: claim
-domain: livingip
+domain: living-capital
 created: 2026-03-05
 confidence: proven
 source: "CFTC v. Ooki DAO (N.D. Cal. June 2023), Sarcuni v. bZx DAO (S.D. Cal. 2023)"

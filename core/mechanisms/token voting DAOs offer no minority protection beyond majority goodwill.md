@@ -1,7 +1,7 @@
 ---
 description: Governance tokens only matter with majority voting power and entitle minority holders to nothing without legal or social enforcement mechanisms
 type: claim
-domain: livingip
+domain: mechanisms
 created: 2026-02-16
 source: "Heavey, Futarchy as Trustless Joint Ownership (2024)"
 confidence: proven

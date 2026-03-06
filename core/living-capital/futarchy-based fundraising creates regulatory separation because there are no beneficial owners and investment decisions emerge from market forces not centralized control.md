@@ -1,7 +1,7 @@
 ---
 description: The legal argument for why futarchic capital vehicles differ from traditional securities -- emergent ownership, market-driven decisions, and raise-then-propose structure create layers of separation between the fundraise and the investment target
 type: claim
-domain: livingip
+domain: living-capital
 created: 2026-02-28
 confidence: experimental
 source: "LivingIP Master Plan"

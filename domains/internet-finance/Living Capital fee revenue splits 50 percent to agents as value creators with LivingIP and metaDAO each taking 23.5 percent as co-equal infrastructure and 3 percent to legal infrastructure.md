@@ -1,7 +1,7 @@
 ---
 description: Current thinking on fee distribution across the Living Capital stack -- agents take half because they create value, LivingIP and metaDAO split the infrastructure layer evenly, and legal entity formation gets a small marginal-cost slice
 type: claim
-domain: livingip
+domain: internet-finance
 created: 2026-03-03
 confidence: speculative
 source: "Strategy session analysis, March 2026"

@@ -1,7 +1,7 @@
 ---
 description: The kernel of LivingIP strategy -- diagnosis of coordination failure plus narrative vacuum, guiding policy of two parallel tracks, and coherent actions forming an autocatalytic flywheel where the strategy IS the product
 type: framework
-domain: livingip
+domain: grand-strategy
 created: 2026-02-17
 confidence: likely
 source: "Grand strategy analysis, Feb 2026"

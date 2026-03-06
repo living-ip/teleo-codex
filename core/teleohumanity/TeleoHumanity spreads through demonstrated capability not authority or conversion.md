@@ -1,7 +1,7 @@
 ---
 description: Unlike religious narratives that spread through conversion, political ideologies through revolution, or capitalism through institutional pressure, TeleoHumanity grows by solving problems other frameworks cannot
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-16
 confidence: speculative
 source: "TeleoHumanity Manifesto, TeleoHumanity as World Narrative"

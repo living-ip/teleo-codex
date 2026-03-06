@@ -1,7 +1,7 @@
 ---
 description: When contributors own pieces of the network they build, individual self-interest aligns with collective benefit, transforming network effects from value extraction into value generation for all participants
 type: claim
-domain: livingip
+domain: living-agents
 created: 2026-02-16
 confidence: likely
 source: "TeleoHumanity Axioms (8-axiom version)"

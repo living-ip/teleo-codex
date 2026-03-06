@@ -1,7 +1,7 @@
 ---
 description: The market that Living Capital enters -- massive demand for thematic impact but collapsing trust in manager-discretion allocation, with retail investors structurally excluded and young investors wanting direct influence not delegated ESG
 type: analysis
-domain: livingip
+domain: living-capital
 created: 2026-02-28
 confidence: likely
 source: "GIIN 2024/2025 surveys, Morningstar 2024/2025, Morgan Stanley Sustainable Signals 2025, Stanford 2025"

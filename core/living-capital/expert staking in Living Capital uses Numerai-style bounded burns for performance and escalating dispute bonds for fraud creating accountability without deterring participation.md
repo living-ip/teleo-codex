@@ -1,7 +1,7 @@
 ---
 description: Mechanism design for expert analyst staking in Living Capital vehicles -- stake currency and sizing, four-tier slashing triggers, layered adjudication separating attributable fraud from honest error, and correlation-aware penalties for collusion
 type: framework
-domain: livingip
+domain: living-capital
 created: 2026-02-28
 confidence: experimental
 source: "Numerai, Augur, UMA, EigenLayer, a16z cryptoeconomics, STAKESURE, Feb 2026"

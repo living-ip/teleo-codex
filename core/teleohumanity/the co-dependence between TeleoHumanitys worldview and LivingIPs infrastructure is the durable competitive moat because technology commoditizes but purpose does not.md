@@ -1,7 +1,7 @@
 ---
 description: The technology for collective intelligence agents is commoditizing but the worldview that gives the system purpose cannot be replicated, making the co-evolution of idea and infrastructure the durable advantage
 type: claim
-domain: livingip
+domain: teleohumanity
 created: 2026-02-17
 confidence: likely
 source: "Grand strategy analysis, Feb 2026"

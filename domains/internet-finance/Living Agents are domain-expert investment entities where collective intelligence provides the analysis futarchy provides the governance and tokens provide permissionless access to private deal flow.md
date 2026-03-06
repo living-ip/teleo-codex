@@ -1,7 +1,7 @@
 ---
 description: The synthesis of what Living Agents offer investors -- not cheaper VC but a new category of entity where expertise is collective, governance is market-tested, analytical process is public, access is permissionless, and vehicles unwind when purpose is fulfilled
 type: claim
-domain: livingip
+domain: internet-finance
 created: 2026-03-03
 confidence: experimental
 source: "Strategy session analysis, March 2026"

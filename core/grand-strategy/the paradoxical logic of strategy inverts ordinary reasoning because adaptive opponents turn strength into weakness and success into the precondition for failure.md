@@ -1,7 +1,7 @@
 ---
 description: Luttwak's central claim -- strategic domains operate on fundamentally different logic than everyday life, where being too strong is being weak, the worst road may be the best route, and victory breeds the complacency that enables defeat
 type: claim
-domain: livingip
+domain: grand-strategy
 created: 2026-03-05
 confidence: proven
 source: "Edward Luttwak 'Strategy: The Logic of War and Peace' 1987/2001"

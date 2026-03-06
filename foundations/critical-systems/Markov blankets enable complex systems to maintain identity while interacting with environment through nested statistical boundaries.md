@@ -1,7 +1,7 @@
 ---
 description: A Markov blanket creates conditional independence between a systems internal and external states through sensory and active boundary variables -- the mathematical basis for how systems maintain identity
 type: claim
-domain: livingip
+domain: critical-systems
 created: 2026-02-16
 confidence: proven
 source: "Understanding Markov Blankets: The Mathematics of Biological Organization"
