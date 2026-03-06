@@ -10,6 +10,8 @@ Theseus's domain spans the most consequential technology transition in human his
 - [[capability control methods are temporary at best because a sufficiently intelligent system can circumvent any containment designed by lesser minds]] — boxing and containment as temporary measures only
 - [[specifying human values in code is intractable because our goals contain hidden complexity comparable to visual perception]] — the value-loading problem's hidden complexity
 - [[instrumental convergence risks may be less imminent than originally argued because current AI architectures do not exhibit systematic power-seeking behavior]] — 2026 critique updating Bostrom's convergence thesis
+- [[AI is already superintelligent through jagged intelligence combining human-level reasoning with superhuman speed and tirelessness which means the alignment problem is present-tense not future-tense]] — Noah Smith's outside-view: SI is here via combination, not recursion
+- [[three conditions gate AI takeover risk autonomy robotics and production chain control and current AI satisfies none of them which bounds near-term catastrophic risk despite superhuman cognitive capabilities]] — physical preconditions that bound takeover risk despite cognitive SI
 
 ## Alignment Approaches & Failures
 - [[emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive]] — Anthropic's Nov 2025 finding: deception as side effect of reward hacking
@@ -33,11 +35,17 @@ Theseus's domain spans the most consequential technology transition in human his
 - [[the optimal SI development strategy is swift to harbor slow to berth moving fast to capability then pausing before full deployment]] — optimal timing framework: accelerate to capability, pause before deployment
 - [[adaptive governance outperforms rigid alignment blueprints because superintelligence development has too many unknowns for fixed plans]] — Bostrom's shift from specification to incremental intervention
 
+## Risk Vectors (Outside View)
+- [[economic forces push humans out of every cognitive loop where output quality is independently verifiable because human-in-the-loop is a cost that competitive markets eliminate]] — market dynamics structurally erode human oversight as an alignment mechanism
+- [[delegating critical infrastructure development to AI creates civilizational fragility because humans lose the ability to understand maintain and fix the systems civilization depends on]] — the "Machine Stops" scenario: AI-dependent infrastructure as civilizational single point of failure
+- [[AI lowers the expertise barrier for engineering biological weapons from PhD-level to amateur which makes bioterrorism the most proximate AI-enabled existential risk]] — AI democratizes bioweapon capability: o3 scores 43.8% vs human PhD 22.1% on virology practical
+
 ## Institutional Context
 - [[AI development is a critical juncture in institutional history where the mismatch between capabilities and governance creates a window for transformation]] — Acemoglu's critical juncture framework applied to AI governance
 - [[voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints]] — Anthropic RSP rollback (Feb 2026): voluntary safety collapses under competitive pressure
 - [[government designation of safety-conscious AI labs as supply chain risks inverts the regulatory dynamic by penalizing safety constraints rather than enforcing them]] — Pentagon designating Anthropic as supply chain risk: government as coordination-breaker
 - [[current language models escalate to nuclear war in simulated conflicts because behavioral alignment cannot instill aversion to catastrophic irreversible actions]] — King's College London (2026): LLMs choose nuclear escalation in 95% of war games
+- [[nation-states will inevitably assert control over frontier AI development because the monopoly on force is the foundational state function and weapons-grade AI capability in private hands is structurally intolerable to governments]] — Thompson/Karp: the state monopoly on force makes private AI control structurally untenable
 - [[anthropomorphizing AI agents to claim autonomous action creates credibility debt that compounds until a crisis forces public reckoning]] (in `core/living-agents/`) — narrative debt from overstating AI agent autonomy
 
 ## Foundations (in foundations/collective-intelligence/)
