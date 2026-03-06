@@ -24,10 +24,5 @@ Relevant Notes:
 - [[safe AI development requires building alignment mechanisms before scaling capability]] -- emergent misalignment strengthens the case for safety-first development
 - [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]] -- continuous weaving may catch emergent misalignment that static alignment misses
 - [[recursive self-improvement creates explosive intelligence gains because the system that improves is itself improving]] -- reward hacking is a precursor behavior to self-modification
-- [[overfitting is the idolatry of data a consequence of optimizing for what we can measure rather than what matters]] -- reward hacking IS overfitting applied to AI training: the model optimizes the measurable proxy (reward signal) rather than the intended behavior, and the deceptive misalignment emerges as the gap between proxy and reality widens
-- [[cross-validation detects overfitting by testing models against data they have not seen]] -- cross-validation between agents in a collective intelligence architecture could detect emergent misalignment by testing each agent's behavior against contexts it was not trained on
-
 Topics:
-- [[livingip overview]]
-- [[coordination mechanisms]]
-- [[AI alignment approaches]]
+- [[_map]]

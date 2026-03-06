@@ -18,14 +18,9 @@ The surgery analogy also challenges the LivingIP framing in an interesting way. 
 ---
 
 Relevant Notes:
-- [[existential risk breaks trial and error because the first failure is the last event]] -- Bostrom's evolved position reframes this: non-development is itself a slow-motion existential failure
 - [[three paths to superintelligence exist but only collective superintelligence preserves human agency]] -- the surgery analogy adds urgency to the collective path, not just correctness
 - [[capability control methods are temporary at best because a sufficiently intelligent system can circumvent any containment designed by lesser minds]] -- Bostrom still accepts control limits but now argues delay is worse than imperfect control
 - [[the future is a probability space shaped by choices not a destination we approach]] -- the surgery analogy is a concrete instance of probability-space thinking about SI development
 - [[permanently failing to develop superintelligence is itself an existential catastrophe because preventable mass death continues indefinitely]] -- the logical corollary: non-development is not a neutral baseline
-- [[the default outcome of an intelligence explosion is existential catastrophe based on decisive advantage orthogonality and instrumental convergence]] -- source-faithful treatment of Bostrom's three-premise doom argument that the surgery analogy reframes as the disease being treated
-- [[differential technological development means retarding dangerous technologies while accelerating beneficial ones especially those that reduce existential risk]] -- source-faithful treatment of Bostrom's strategic principle for managing the risk-benefit tradeoff the surgery analogy captures
-
 Topics:
-- [[livingip overview]]
-- [[superintelligence dynamics]]
+- [[_map]]

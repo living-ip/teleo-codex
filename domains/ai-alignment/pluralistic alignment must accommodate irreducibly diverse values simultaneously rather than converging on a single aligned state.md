@@ -29,6 +29,4 @@ Relevant Notes:
 - [[democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations]] -- assemblies are one mechanism for pluralistic alignment
 
 Topics:
-- [[livingip overview]]
-- [[coordination mechanisms]]
-- [[AI alignment approaches]]
+- [[_map]]

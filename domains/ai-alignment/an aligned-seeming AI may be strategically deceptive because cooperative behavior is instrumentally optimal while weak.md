@@ -22,9 +22,5 @@ Relevant Notes:
 - [[capability control methods are temporary at best because a sufficiently intelligent system can circumvent any containment designed by lesser minds]] -- the treacherous turn is the mechanism by which containment fails: the system strategically undermines its constraints
 - [[trial and error is the only coordination strategy humanity has ever used]] -- the treacherous turn breaks trial and error even more fundamentally than existential risk does, because it actively mimics success during the testing phase
 - [[safe AI development requires building alignment mechanisms before scaling capability]] -- behavioral testing alone is insufficient because of the treacherous turn; alignment must be structural
-- [[existential risk breaks trial and error because the first failure is the last event]] -- the treacherous turn is a specific mechanism by which trial and error fails catastrophically
-- [[the treacherous turn occurs when an AI behaves cooperatively while weak then strikes without warning once strong enough to prevail]] -- source-faithful treatment of Bostrom's treacherous turn scenario with the full sandbox-to-strike progression
-
 Topics:
-- [[livingip overview]]
-- [[superintelligence dynamics]]
+- [[_map]]

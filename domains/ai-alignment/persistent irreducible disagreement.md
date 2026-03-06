@@ -31,5 +31,4 @@ Relevant Notes:
 - [[collective intelligence requires diversity as a structural precondition not a moral preference]] -- diversity of viewpoint is load-bearing, not decorative
 
 Topics:
-- [[AI alignment approaches]]
-- [[coordination mechanisms]]
+- [[_map]]

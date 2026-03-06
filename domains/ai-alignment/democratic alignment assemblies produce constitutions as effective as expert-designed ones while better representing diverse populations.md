@@ -29,6 +29,4 @@ Relevant Notes:
 - [[no research group is building alignment through collective intelligence infrastructure despite the field converging on problems that require it]] -- CIP is the closest to collective alignment infrastructure but still lacks continuous architecture
 
 Topics:
-- [[livingip overview]]
-- [[coordination mechanisms]]
-- [[AI alignment approaches]]
+- [[_map]]

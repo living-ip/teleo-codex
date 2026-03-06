@@ -13,21 +13,16 @@ At the crossover point, a powerful positive feedback loop engages: the AI improv
 
 Bostrom identifies several factors that make low recalcitrance at the crossover point plausible. If human-level AI is delayed because one key insight long eludes programmers, then when the final breakthrough occurs, the AI might leapfrog from below to radically above human level without touching intermediate rungs. Hardware that is already abundant but underutilized could be immediately exploited. And unlike biological cognition, digital minds benefit from hardware advantages of seven or more orders of magnitude in computational speed, along with software advantages like duplicability, memory sharing, and editability.
 
-This connects to [[recursive improvement is the engine of human progress because we get better at getting better]] -- but with a critical difference. Human recursive improvement operates across generations and is mediated by cultural transmission. Machine recursive improvement operates in real time and is limited only by computational resources. The transition from one to the other could be abrupt.
+This connects to the broader pattern of recursive improvement in human progress -- but with a critical difference. Human recursive improvement operates across generations and is mediated by cultural transmission. Machine recursive improvement operates in real time and is limited only by computational resources. The transition from one to the other could be abrupt.
 
 ---
 
 Relevant Notes:
 - [[the first mover to superintelligence likely gains decisive strategic advantage because the gap between leader and followers accelerates during takeoff]] -- recursive self-improvement is the engine that creates decisive strategic advantage: the gap widens because improvements compound
 - [[capability control methods are temporary at best because a sufficiently intelligent system can circumvent any containment designed by lesser minds]] -- recursive improvement is why containment is temporary: the system improves faster than its constraints can be updated
-- [[recursive improvement is the engine of human progress because we get better at getting better]] -- human recursive improvement is the slow-motion precedent for the explosive AI version
 - [[technology advances exponentially but coordination mechanisms evolve linearly creating a widening gap]] -- the intelligence explosion would be a discontinuity in the already exponential trend
 - [[three paths to superintelligence exist but only collective superintelligence preserves human agency]] -- understanding takeoff dynamics is essential for choosing which path to pursue
-- [[the transition from human-level to superintelligent AI may be explosive because recursive self-improvement creates a positive feedback loop]] -- source-faithful treatment of Bostrom's intelligence explosion argument with the crossover point and positive feedback dynamics
-- [[the rate of intelligence gain equals optimization power divided by recalcitrance]] -- source-faithful treatment of Bostrom's formal framework for analyzing takeoff kinetics
-- [[a fast takeoff is more probable than a slow one because recalcitrance at the critical juncture is low while optimization power is high]] -- source-faithful treatment of Bostrom's argument for why the transition likely takes weeks or months rather than decades
 - [[Git-traced agent evolution with human-in-the-loop evals replaces recursive self-improvement as credible framing for iterative AI development]] -- reframes recursive self-improvement as governed evolution: more credible because the throttle is the feature, more novel because propose-review-merge is unexplored middle ground
 
 Topics:
-- [[livingip overview]]
-- [[superintelligence dynamics]]
+- [[_map]]

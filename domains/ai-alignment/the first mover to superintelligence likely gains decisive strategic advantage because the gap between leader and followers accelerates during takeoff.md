@@ -22,9 +22,5 @@ Relevant Notes:
 - [[collective superintelligence is the alternative to monolithic AI controlled by a few]] -- distributed architecture as the structural countermeasure to decisive strategic advantage
 - [[technology advances exponentially but coordination mechanisms evolve linearly creating a widening gap]] -- the coordination gap makes it harder for competing projects to synchronize, favoring first-mover dominance
 - [[three paths to superintelligence exist but only collective superintelligence preserves human agency]] -- only the collective path prevents singleton formation
-- [[the first project to achieve superintelligence likely gains a decisive strategic advantage enabling world domination]] -- source-faithful treatment of Bostrom's decisive strategic advantage argument with the singleton formation logic
-- [[historical technology races show lags of months to years suggesting fast takeoffs would prevent concurrent competitors]] -- source-faithful treatment of Bostrom's empirical evidence from nuclear weapons to cryptography supporting winner-takes-all dynamics
-
 Topics:
-- [[livingip overview]]
-- [[superintelligence dynamics]]
+- [[_map]]

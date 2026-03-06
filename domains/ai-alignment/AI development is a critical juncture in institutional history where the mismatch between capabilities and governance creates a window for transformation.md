@@ -21,4 +21,4 @@ Relevant Notes:
 - [[safe AI development requires building alignment mechanisms before scaling capability]] -- the urgency dimension of the juncture
 
 Topics:
-- [[livingip overview]]
+- [[_map]]

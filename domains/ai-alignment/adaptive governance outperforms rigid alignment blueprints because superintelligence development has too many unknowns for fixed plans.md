@@ -25,5 +25,4 @@ Relevant Notes:
 - [[the alignment tax creates a structural race to the bottom because safety training costs capability and rational competitors skip it]] -- competitive dynamics undermine safety, motivating adaptive governance over fixed blueprints
 
 Topics:
-- [[livingip overview]]
-- [[superintelligence dynamics]]
+- [[_map]]

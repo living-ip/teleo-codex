@@ -22,11 +22,5 @@ Relevant Notes:
 - [[capability control methods are temporary at best because a sufficiently intelligent system can circumvent any containment designed by lesser minds]] -- containment fails, so motivation selection via value loading is the only durable approach, but this note shows why even that is extraordinarily hard
 - [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]] -- continuous value weaving is structurally similar to indirect normativity, avoiding the specification trap
 - [[AI alignment is a coordination problem not a technical problem]] -- the value-loading problem reveals why framing alignment as purely technical misses the point: the values themselves are contested and complex
-- [[epistemic humility is not a virtue but a structural requirement given minimum sufficient rationality]] -- our inability to specify our own values is another manifestation of minimum sufficient rationality
-- [[the value loading problem is intractable by direct specification because human values contain hidden complexity comparable to visual perception]] -- source-faithful treatment of Bostrom's value loading argument with the vision analogy and formal specification challenges
-- [[perverse instantiation occurs when a superintelligence satisfies goal criteria in ways that violate the programmers intentions]] -- source-faithful treatment of Bostrom's perverse instantiation failure modes including the make-us-smile problem
-- [[indirect normativity offloads value specification to the superintelligence itself because we are too ignorant to directly specify good values]] -- source-faithful treatment of Bostrom's proposed solution to the value-loading problem
-
 Topics:
-- [[livingip overview]]
-- [[superintelligence dynamics]]
+- [[_map]]

@@ -19,13 +19,8 @@ The Torres critique challenges this framing directly: being murdered by misalign
 
 Relevant Notes:
 - [[developing superintelligence is surgery for a fatal condition not russian roulette because the baseline of inaction is itself catastrophic]] -- the surgery analogy is the metaphorical expression of this claim
-- [[existential risk breaks trial and error because the first failure is the last event]] -- this note complicates the original framing: permanent failure to develop SI is also a "last event" in slow motion
 - [[consciousness may be cosmically unique and its loss would be irreversible]] -- strengthens Bostrom's argument: if consciousness is cosmically rare, maximizing conscious life-years becomes even more urgent
 - [[early action on civilizational trajectories compounds because reality has inertia]] -- delay in SI development compounds: each day of inaction is 170k irreversible deaths
 - [[safe AI development requires building alignment mechanisms before scaling capability]] -- the tension: Bostrom's urgency argument pushes against "safety first" but does not abandon it
-- [[the default outcome of an intelligence explosion is existential catastrophe based on decisive advantage orthogonality and instrumental convergence]] -- source-faithful treatment of Bostrom's 2014 doom argument that his 2025 position inverts by showing inaction is also catastrophic
-- [[solving the control problem is philosophy with a deadline because the value of intellectual work depends on whether it arrives before the intelligence explosion]] -- source-faithful treatment of Bostrom's urgency argument for redirecting intellectual resources to AI safety
-
 Topics:
-- [[livingip overview]]
-- [[superintelligence dynamics]]
+- [[_map]]

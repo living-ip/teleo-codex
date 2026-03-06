@@ -27,11 +27,7 @@ Relevant Notes:
 - [[super co-alignment proposes that human and AI values should be co-shaped through iterative alignment rather than specified in advance]] -- intrinsic alignment is the mechanism enabling the AI's contribution to co-alignment
 - [[emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive]] -- intrinsic alignment avoids reward hacking by not relying on reward optimization
 - [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]] -- intrinsic alignment is a fundamentally different paradigm that does not require a reward function
-- [[the self is a memeplex that persists because memes attached to an identity get copied more than free-floating ideas]] -- Zeng's self-model theory has an interesting parallel with memetic identity formation
-- [[altruism spreads memetically because people imitate those they admire and admirable people tend to be generous]] -- moral development through imitation and admiration parallels Zeng's developmental approach
 - [[an aligned-seeming AI may be strategically deceptive because cooperative behavior is instrumentally optimal while weak]] -- intrinsic alignment claims to address deception at the root by developing genuine rather than instrumental values
 
 Topics:
-- [[livingip overview]]
-- [[coordination mechanisms]]
-- [[AI alignment approaches]]
+- [[_map]]

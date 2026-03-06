@@ -24,10 +24,5 @@ Relevant Notes:
 - [[technology advances exponentially but coordination mechanisms evolve linearly creating a widening gap]] -- compressed timelines mean the coordination gap is even more dangerous than linear-vs-exponential analysis suggests
 - [[developing superintelligence is surgery for a fatal condition not russian roulette because the baseline of inaction is itself catastrophic]] -- the surgery analogy gains force when the surgery date may be imminent regardless of preference
 - [[the optimal SI development strategy is swift to harbor slow to berth moving fast to capability then pausing before full deployment]] -- compressed timelines challenge the slow-to-berth half: will there be time to pause?
-- [[a fast takeoff is more probable than a slow one because recalcitrance at the critical juncture is low while optimization power is high]] -- source-faithful treatment of Bostrom's 2014 takeoff speed analysis that his 2025 timeline compression makes more urgent
-- [[multiple paths lead to superintelligence including AI whole brain emulation biological cognition and networks]] -- source-faithful treatment of Bostrom's survey of feasible routes whose multiplicity increases the probability of near-term arrival
-- [[the substrate of machine intelligence has fundamental advantages over biological brains that guarantee eventual superhuman performance]] -- source-faithful treatment of Bostrom's argument for hardware and software advantages that underpin compressed timeline estimates
-
 Topics:
-- [[livingip overview]]
-- [[superintelligence dynamics]]
+- [[_map]]

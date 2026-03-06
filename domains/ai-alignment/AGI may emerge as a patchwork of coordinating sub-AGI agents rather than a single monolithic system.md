@@ -30,6 +30,4 @@ Relevant Notes:
 - [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]] -- distributed architectures enable continuous value integration at multiple points
 
 Topics:
-- [[livingip overview]]
-- [[coordination mechanisms]]
-- [[AI alignment approaches]]
+- [[_map]]

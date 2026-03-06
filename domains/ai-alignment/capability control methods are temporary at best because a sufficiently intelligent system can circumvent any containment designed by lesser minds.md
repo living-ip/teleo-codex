@@ -23,5 +23,4 @@ Relevant Notes:
 - [[collective superintelligence is the alternative to monolithic AI controlled by a few]] -- distributing intelligence is itself a form of capability control that scales with the system rather than against it
 
 Topics:
-- [[livingip overview]]
-- [[superintelligence dynamics]]
+- [[_map]]

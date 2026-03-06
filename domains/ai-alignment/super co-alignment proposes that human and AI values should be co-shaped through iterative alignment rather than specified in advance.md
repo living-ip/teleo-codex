@@ -32,6 +32,4 @@ Relevant Notes:
 - [[collective superintelligence is the alternative to monolithic AI controlled by a few]] -- co-alignment at scale requires collective architecture
 
 Topics:
-- [[livingip overview]]
-- [[coordination mechanisms]]
-- [[AI alignment approaches]]
+- [[_map]]

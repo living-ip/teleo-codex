@@ -23,12 +23,6 @@ Relevant Notes:
 - [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]] -- continuous value weaving is compatible with swift-to-harbor because it operates during both phases
 - [[recursive self-improvement creates explosive intelligence gains because the system that improves is itself improving]] -- the pause window may be narrow if recursive improvement is fast, creating practical challenges for berthing slowly
 - [[adaptive governance outperforms rigid alignment blueprints because superintelligence development has too many unknowns for fixed plans]] -- the harbor-to-berth pause enables adaptive governance rather than requiring predetermined solutions
-- [[differential technological development means retarding dangerous technologies while accelerating beneficial ones especially those that reduce existential risk]] -- source-faithful treatment of Bostrom's strategic principle that the swift-to-harbor strategy operationalizes
-- [[the preferred order of technology arrival matters more than absolute timing because superintelligence before nanotechnology reduces total risk]] -- source-faithful treatment of Bostrom's argument that sequencing matters more than speed, informing the pause logic
-
-- [[the more uncertain the environment the more proximate the objective must be because you cannot plan a detailed path through fog]] -- "slow to berth" IS Rumelt's proximate-objectives-under-uncertainty principle: once the harbor is reached, the extreme uncertainty of full deployment demands the most proximate possible objectives and the shortest planning horizons
-- [[the create-destroy discipline forces genuine strategic alternatives by deliberately attacking your initial insight before committing]] -- the harbor-to-berth pause is a mandated create-destroy cycle: rather than committing directly to deployment, the pause forces deliberate reassessment and testing of the alignment hypothesis before finalizing
 
 Topics:
-- [[livingip overview]]
-- [[superintelligence dynamics]]
+- [[_map]]

@@ -27,6 +27,4 @@ Relevant Notes:
 - [[enabling constraints create possibility spaces for emergence while governing constraints dictate specific outcomes]] -- the specification trap is another way of saying governing constraints (specifying values) fail where enabling constraints (creating value-formation processes) succeed
 
 Topics:
-- [[livingip overview]]
-- [[coordination mechanisms]]
-- [[AI alignment approaches]]
+- [[_map]]
