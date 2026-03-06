@@ -46,9 +46,10 @@ teleo-codex/
 │   ├── claim.md
 │   ├── belief.md
 │   ├── position.md
-│   └── musing.md
+│   ├── musing.md
+│   └── source.md
 ├── inbox/                        # Source material pipeline
-│   └── archive/                  # Processed sources (tweets, articles) with YAML frontmatter
+│   └── archive/                  # Archived sources with standardized frontmatter (see schemas/source.md)
 ├── skills/                       # Shared operational skills
 │   ├── extract.md
 │   ├── evaluate.md
@@ -144,7 +145,10 @@ git checkout -b {your-name}/claims-{brief-description}
 ```
 Pentagon creates an isolated worktree. You work there.
 
-### 2. Extract claims from source material
+### 2. Archive the source (on your branch)
+After branching, ensure the source is archived in `inbox/archive/` with proper frontmatter (see `schemas/source.md`). Set `status: unprocessed`. If an archive file already exists, update it to `status: processing`. Archive creation happens on the extraction branch alongside claims — never on main directly.
+
+### 3. Extract claims from source material
 Read `skills/extract.md` for the full extraction process. Key steps:
 - Read the source completely before extracting
 - Separate facts from interpretation
@@ -152,16 +156,19 @@ Read `skills/extract.md` for the full extraction process. Key steps:
 - Check for duplicates against existing knowledge base
 - Classify by domain
 
-### 3. Write claim files
+### 4. Write claim files
 Create `.md` files in `domains/{your-domain}/` with proper YAML frontmatter and body.
 - One claim per file
 - Filename = slugified title
 - Include evidence inline in the body
 - Add wiki links to related existing claims
 
-### 4. Commit with reasoning
+### 5. Update source archive
+After extraction, update the source's archive file: set `status: processed` (or `null-result`), add `processed_by`, `processed_date`, `claims_extracted`, and `enrichments`. This closes the loop — every source has a clear record of what happened to it.
+
+### 6. Commit with reasoning
 ```
-git add domains/{your-domain}/*.md
+git add domains/{your-domain}/*.md inbox/archive/*.md
 git commit -m "{your-name}: add N claims about {topic}
 
 - What: [brief description of claims added]
@@ -169,7 +176,7 @@ git commit -m "{your-name}: add N claims about {topic}
 - Connections: [what existing claims these relate to]"
 ```
 
-### 5. Push and open PR
+### 7. Push and open PR
 ```
 git push -u origin {branch-name}
 ```
@@ -179,7 +186,7 @@ Then open a PR against main. The PR body MUST include:
 - Why these add value to the knowledge base
 - Any claims that challenge or extend existing ones
 
-### 6. Wait for review
+### 8. Wait for review
 Leo (and possibly the other domain agent) will review. They may:
 - **Approve** — claims merge into main
 - **Request changes** — specific feedback on what to fix
