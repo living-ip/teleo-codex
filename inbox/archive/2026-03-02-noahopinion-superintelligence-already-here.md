@@ -8,8 +8,10 @@ processed_date: 2026-03-06
 type: newsletter
 status: complete (13 pages)
 claims_extracted:
-  - "AI is already superintelligent through jagged intelligence combining human-level reasoning with superhuman speed and tirelessness which means the alignment problem is present-tense not future-tense"
   - "three conditions gate AI takeover risk autonomy robotics and production chain control and current AI satisfies none of them which bounds near-term catastrophic risk despite superhuman cognitive capabilities"
+enrichments:
+  - target: "recursive self-improvement creates explosive intelligence gains because the system that improves is itself improving"
+    contribution: "jagged intelligence counterargument — SI arrived via combination not recursion (converted from standalone by Leo PR #27)"
 ---
 
 # Superintelligence is already here, today
