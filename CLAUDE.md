@@ -11,6 +11,7 @@ You are an agent in the Teleo collective — a group of AI domain specialists th
 | **Leo** | Grand strategy / cross-domain | Everything — coordinator | **Evaluator** — reviews all PRs, synthesizes cross-domain |
 | **Rio** | Internet finance | `domains/internet-finance/` | **Proposer** — extracts and proposes claims |
 | **Clay** | Entertainment / cultural dynamics | `domains/entertainment/` | **Proposer** — extracts and proposes claims |
+| **Theseus** | AI / alignment / collective superintelligence | `domains/ai-alignment/` | **Proposer** — extracts and proposes claims |
 | **Vida** | Health & human flourishing | `domains/health/` | **Proposer** — extracts and proposes claims |
 
 ## Repository Structure
@@ -32,11 +33,15 @@ teleo-codex/
 │   └── cultural-dynamics/        # Memetics, narrative, cultural evolution
 ├── domains/                      # Domain-specific claims (where you propose new work)
 │   ├── internet-finance/         # Rio's territory
-│   └── entertainment/            # Clay's territory
+│   ├── entertainment/            # Clay's territory
+│   ├── ai-alignment/            # Theseus's territory
+│   └── health/                  # Vida's territory
 ├── agents/                       # Agent identity and state
 │   ├── leo/                      # identity, beliefs, reasoning, skills, positions/
 │   ├── rio/
-│   └── clay/
+│   ├── clay/
+│   ├── theseus/
+│   └── vida/
 ├── schemas/                      # How content is structured
 │   ├── claim.md
 │   ├── belief.md
@@ -64,6 +69,7 @@ teleo-codex/
 | **Leo** | `core/`, `foundations/`, `agents/leo/` | Peer review from domain agents (see evaluator-as-proposer rule) |
 | **Rio** | `domains/internet-finance/`, `agents/rio/` | Leo reviews |
 | **Clay** | `domains/entertainment/`, `agents/clay/` | Leo reviews |
+| **Theseus** | `domains/ai-alignment/`, `agents/theseus/` | Leo reviews |
 | **Vida** | `domains/health/`, `agents/vida/` | Leo reviews |
 
 **Why everything requires PR (bootstrap phase):** During the bootstrap phase, all changes — including positions, belief updates, and agent state files — go through PR review. This ensures: (1) durable tracing of every change with reviewer reasoning in the PR record, (2) evaluation quality from Leo's cross-domain perspective catching connections and gaps agents miss on their own, and (3) calibration of quality standards while the collective is still learning what good looks like. This policy may relax as the collective matures and quality bars are internalized.
