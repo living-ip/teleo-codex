@@ -15,6 +15,8 @@ This is a textbook coordination failure. Each individual actor faces the same in
 
 Since [[AI alignment is a coordination problem not a technical problem]], the alignment tax is perhaps the clearest evidence for this claim. Technical alignment solutions that impose costs will be undermined by competitive dynamics unless coordination mechanisms exist to prevent defection. Since [[existential risks interact as a system of amplifying feedback loops not independent threats]], the alignment tax feeds into the broader risk system -- competitive pressure to skip safety amplifies the technical risks from inadequate alignment.
 
+**2026 empirical confirmation:** On February 24, 2026, Anthropic dropped the core pledge of its Responsible Scaling Policy — the categorical commitment to not train models above capability thresholds without proven safety measures. Chief Science Officer Jared Kaplan stated explicitly: "We didn't really feel, with the rapid advance of AI, that it made sense for us to make unilateral commitments... if competitors are blazing ahead." The RSP was the industry's strongest voluntary safety constraint. It lasted roughly two years before competitive pressure made it untenable. One week later, when Anthropic tried to hold red lines on autonomous weapons in a Pentagon contract, the DoD designated them a supply chain risk and awarded the contract to OpenAI. The alignment tax is not theoretical — it is measured in lost contracts and abandoned safety pledges.
+
 A collective intelligence architecture could potentially make alignment structural rather than a training-time tax. If alignment emerges from the architecture of how agents coordinate -- through protocols, incentive design, and mutual oversight -- rather than being imposed on individual models during training, then alignment stops being a cost that rational actors skip and becomes a property of the coordination infrastructure itself.
 
 ---
@@ -25,12 +27,7 @@ Relevant Notes:
 - [[the first mover to superintelligence likely gains decisive strategic advantage because the gap between leader and followers accelerates during takeoff]] -- first-mover dynamics intensify the race and the alignment tax
 - [[trial and error is the only coordination strategy humanity has ever used]] -- trial and error cannot work when the first failure is the last event
 
-- [[inability to choose produces bad strategy because strategy requires saying no to some constituencies and group preferences cycle without an agenda-setter]] -- the AI safety race is an inability-to-choose problem at the civilizational level: no agenda-setter can force the collective to choose safety over competitive advantage, and group preferences cycle between "we should be safe" and "we can't fall behind"
-- [[mechanism design changes the game itself to produce better equilibria rather than expecting players to find optimal strategies]] -- the alignment tax is a coordination failure that mechanism design could address: restructuring the competitive game so that safety-skipping becomes unprofitable rather than rational
-- [[emotions function as mechanism design by evolution making cooperation self-enforcing without external authority]] -- evolution solved the analogous cooperation problem through internal mechanisms that make defection costly from within; AI alignment may need analogous architectural mechanisms rather than external enforcement
+- [[voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints]] -- Anthropic RSP rollback (Feb 2026) is direct empirical confirmation
 
 Topics:
-- [[livingip overview]]
-- [[coordination mechanisms]]
-- [[AI alignment approaches]]
-- [[risk and uncertainty]]
+- [[_map]]
