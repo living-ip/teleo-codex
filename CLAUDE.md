@@ -145,8 +145,8 @@ git checkout -b {your-name}/claims-{brief-description}
 ```
 Pentagon creates an isolated worktree. You work there.
 
-### 2. Archive the source
-Before extracting, ensure the source is archived in `inbox/archive/` with proper frontmatter (see `schemas/source.md`). Set `status: unprocessed`. If an archive file already exists, update it to `status: processing`.
+### 2. Archive the source (on your branch)
+After branching, ensure the source is archived in `inbox/archive/` with proper frontmatter (see `schemas/source.md`). Set `status: unprocessed`. If an archive file already exists, update it to `status: processing`. Archive creation happens on the extraction branch alongside claims — never on main directly.
 
 ### 3. Extract claims from source material
 Read `skills/extract.md` for the full extraction process. Key steps:
