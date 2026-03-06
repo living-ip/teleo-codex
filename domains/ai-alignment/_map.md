@@ -35,6 +35,9 @@ Theseus's domain spans the most consequential technology transition in human his
 
 ## Institutional Context
 - [[AI development is a critical juncture in institutional history where the mismatch between capabilities and governance creates a window for transformation]] — Acemoglu's critical juncture framework applied to AI governance
+- [[voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints]] — Anthropic RSP rollback (Feb 2026): voluntary safety collapses under competitive pressure
+- [[government designation of safety-conscious AI labs as supply chain risks inverts the regulatory dynamic by penalizing safety constraints rather than enforcing them]] — Pentagon designating Anthropic as supply chain risk: government as coordination-breaker
+- [[current language models escalate to nuclear war in simulated conflicts because behavioral alignment cannot instill aversion to catastrophic irreversible actions]] — King's College London (2026): LLMs choose nuclear escalation in 95% of war games
 - [[anthropomorphizing AI agents to claim autonomous action creates credibility debt that compounds until a crisis forces public reckoning]] (in `core/living-agents/`) — narrative debt from overstating AI agent autonomy
 
 ## Foundations (in foundations/collective-intelligence/)

@@ -35,5 +35,5 @@ Relevant Notes:
 - [[Git-traced agent evolution with human-in-the-loop evals replaces recursive self-improvement as credible framing for iterative AI development]] -- the antidote to credibility debt: precise framing of governed evolution builds trust while "recursive self-improvement" builds hype
 
 Topics:
-- [[AI alignment approaches]]
+- [[domains/ai-alignment/_map]]
 - [[livingip overview]]

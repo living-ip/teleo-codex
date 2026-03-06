@@ -31,4 +31,4 @@ Relevant Notes:
 Topics:
 - [[livingip overview]]
 - [[coordination mechanisms]]
-- [[AI alignment approaches]]
+- [[domains/ai-alignment/_map]]
