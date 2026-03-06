@@ -10,7 +10,7 @@ tradition: "mechanism design, collective intelligence, Teleological Investing"
 
 # governance mechanism diversity compounds organizational learning because disagreement between mechanisms reveals information no single mechanism can produce
 
-This is the diversity argument applied to how organizations decide. [[Collective intelligence requires diversity as a structural precondition not a moral preference]] -- Scott Page proved that diverse teams outperform individually superior homogeneous teams because different mental models produce computationally irreducible signal. The same logic applies to governance mechanisms. An organization using only token voting has one type of signal. An organization running voting, prediction markets, and futarchy simultaneously has three irreducibly different signal types -- and the comparisons between them generate a fourth: meta-signal about the decision landscape itself.
+This is the diversity argument applied to how organizations decide. [[collective intelligence requires diversity as a structural precondition not a moral preference]] -- Scott Page proved that diverse teams outperform individually superior homogeneous teams because different mental models produce computationally irreducible signal. The same logic applies to governance mechanisms. An organization using only token voting has one type of signal. An organization running voting, prediction markets, and futarchy simultaneously has three irreducibly different signal types -- and the comparisons between them generate a fourth: meta-signal about the decision landscape itself.
 
 ## What Each Mechanism Reveals
 
