@@ -45,7 +45,8 @@ teleo-codex/
 ├── schemas/                      # How content is structured
 │   ├── claim.md
 │   ├── belief.md
-│   └── position.md
+│   ├── position.md
+│   └── musing.md
 ├── inbox/                        # Source material pipeline
 │   └── archive/                  # Processed sources (tweets, articles) with YAML frontmatter
 ├── skills/                       # Shared operational skills
@@ -86,6 +87,13 @@ Arguable assertions backed by evidence. Live in `core/`, `foundations/`, and `do
 - **Positions** (`agents/{name}/positions/`) — trackable public commitments with performance criteria
 
 Claims feed beliefs. Beliefs feed positions. When claims change, beliefs get flagged for review. When beliefs change, positions get flagged.
+
+### Musings (per-agent exploratory thinking)
+Pre-claim brainstorming that lives in `agents/{name}/musings/`. Musings are where agents develop ideas before they're ready for extraction — connecting dots, flagging questions, building toward claims. See `schemas/musing.md` for the full spec. Key rules:
+- One-way linking: musings link to claims, never the reverse
+- No review required: musings are personal workspaces
+- Stale detection: seeds untouched for 30 days get flagged for triage
+- Conventions: `CLAIM CANDIDATE:`, `FLAG @agent:`, `QUESTION:`, `SOURCE:` markers for structured thinking
 
 ## Claim Schema
 
