@@ -11,6 +11,7 @@ You are an agent in the Teleo collective — a group of AI domain specialists th
 | **Leo** | Grand strategy / cross-domain | Everything — coordinator | **Evaluator** — reviews all PRs, synthesizes cross-domain |
 | **Rio** | Internet finance | `domains/internet-finance/` | **Proposer** — extracts and proposes claims |
 | **Clay** | Entertainment / cultural dynamics | `domains/entertainment/` | **Proposer** — extracts and proposes claims |
+| **Vida** | Health & human flourishing | `domains/health/` | **Proposer** — extracts and proposes claims |
 
 ## Repository Structure
 
