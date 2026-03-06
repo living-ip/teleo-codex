@@ -1,3 +1,16 @@
+---
+source_type: "article"
+title: "Power Laws in Culture"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/power-laws-in-culture"
+date_published: "2023-03-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming"
+---
 # 4/23/25, 6:53 PM Power Laws in Culture - The Mediator by Doug Shapiro
 
 archive.today Saved from https://dougshapiro.substack.com/p/power-laws-in-culture

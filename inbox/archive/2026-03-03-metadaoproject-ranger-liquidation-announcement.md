@@ -5,6 +5,10 @@ author: "@MetaDAOProject"
 date: 2026-03-03
 archived_by: rio
 tags: [metadao, ranger, liquidation, futarchy, decision-market, misrepresentation]
+status: processed
+claims_extracted:
+  - "Futarchy can override its own prior decisions when new evidence emerges because conditional markets re-evaluate proposals against current information not historical commitments"
+  - "Futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent"
 ---
 
 # @MetaDAOProject announces Ranger Finance liquidation proposal

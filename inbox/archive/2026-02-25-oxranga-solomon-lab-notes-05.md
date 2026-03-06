@@ -5,6 +5,8 @@ author: "@oxranga (Solomon Labs)"
 date: 2026-02-25
 archived_by: rio
 tags: [solomon, YaaS, yield, audit, treasury, buyback, metadao-ecosystem]
+status: unprocessed
+claims_extracted: []
 ---
 
 # Solomon Lab Notes 05 — @oxranga

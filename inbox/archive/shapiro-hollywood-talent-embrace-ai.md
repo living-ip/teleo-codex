@@ -1,3 +1,16 @@
+---
+source_type: "article"
+title: "Why Hollywood Talent Will Embrace AI"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/why-hollywood-talent-will-embrace"
+date_published: "2025-03-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "Hollywood talent will embrace AI because narrowing creative paths within the studio system leave few alternatives"
+---
 # 4/23/25, 6:55 PM Why Hollywood Talent Will Embrace Al - by Doug Shapiro
 
 archive.today Saved from https://dougshapiro.substack.com/p/why-hollywood-talent-will-embrace

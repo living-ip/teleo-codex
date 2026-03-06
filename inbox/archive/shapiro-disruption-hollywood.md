@@ -1,3 +1,16 @@
+---
+source_type: "article"
+title: "How Will the Disruption of Hollywood Play Out?"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/how-will-the-disruption-of-hollywood-play"
+date_published: "2023-07-05"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "five factors determine the speed and extent of disruption including quality definition change and ease of incumbent replication"
+---
 # How Will the "Disruption" of Hollywood Play Out?
 
 Saved from https://dougshapiro.substack.com/p/how-will-the-disruption-of-hollywood-play on 23 Apr 2025 17:53:23 UTC

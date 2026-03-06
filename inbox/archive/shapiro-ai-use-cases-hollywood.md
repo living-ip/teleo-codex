@@ -1,3 +1,17 @@
+---
+source_type: "article"
+title: "AI Use Cases in Hollywood"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/ai-use-cases-in-hollywood"
+date_published: "2023-09-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "GenAI adoption in entertainment will be gated by consumer acceptance not technology capability"
+  - "non-ATL production costs will converge with the cost of compute as AI replaces labor across the production chain"
+---
 # 4/23/25, 6:56 PM Al Use Cases in Hollywood - by Doug Shapiro - The Mediator
 
 archive.today Saved from https://dougshapiro.substack.com/p/ai-use-cases-in-hollywood

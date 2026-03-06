@@ -1,3 +1,17 @@
+---
+source_type: "analysis"
+title: "The New Entertainment Playbook - Claynosaurz"
+author: "Claynosaurz"
+url: ""
+date_published: "2025-01-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "cost-plus deals shifted economic risk from talent to streamers while misaligning creative incentives"
+  - "progressive validation through community building reduces development risk by proving audience demand before production investment"
+---
 Human beings have always been creative. This innate ability sets us apart from the rest of the animal kingdom. However, it is only in the last hundred years or so that our creativity has been leveraged to create massive industries. The creative industries, which include movies, TV shows, books, art, games, science, and social media, are among the fastest-growing and most interesting segments of our economy. 
 
 Creative industries surf the very edge of our technological capabilities. New technologies open up new mediums for artists to express their creativity with. For example, the development of motion pictures enabled a whole new art form that birthed the actors and directors we know and love. It is not just production itself but also the distribution of creative content that is significantly affected by technology. The creative industries inherent reliance on technology mean that it is constantly undergoing disruptions as technological innovation shifts the foundations on which current industry configurations rest. 

@@ -5,6 +5,12 @@ url: https://www.citriniresearch.com/p/2028gic
 date: 2026-02-22
 tags: [rio, ai-macro, labor-displacement, private-credit, financial-crisis, scenario-analysis]
 linked_set: ai-intelligence-crisis-divergence-feb2026
+status: processed
+claims_extracted:
+  - "AI labor displacement operates as a self-funding feedback loop because companies substitute AI for labor as OpEx not CapEx meaning falling aggregate demand does not slow AI adoption"
+  - "Incomplete digitization insulates economies from AI displacement contagion because without standardized software systems AI has limited targets for automation and no private credit channel to transmit losses"
+  - "Private credits permanent capital is structurally exposed to AI disruption through insurance-company funding vehicles that channel policyholder savings into PE-backed software debt"
+  - "White-collar displacement has lagged but deeper consumption impact than blue-collar because top-decile earners drive disproportionate consumer spending and their savings buffers mask the damage for quarters"
 ---
 
 # THE 2028 GLOBAL INTELLIGENCE CRISIS — Citrini Research

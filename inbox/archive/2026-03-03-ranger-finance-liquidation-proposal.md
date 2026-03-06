@@ -5,6 +5,10 @@ author: "Group of RNGR tokenholders"
 date: 2026-03-03
 archived_by: rio
 tags: [ranger, liquidation, futarchy, misrepresentation, unruggable-ICO, decision-market]
+status: processed
+claims_extracted:
+  - "Futarchy can override its own prior decisions when new evidence emerges because conditional markets re-evaluate proposals against current information not historical commitments"
+  - "Futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent"
 ---
 
 # Ranger Finance Liquidation Proposal — Full Text

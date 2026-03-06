@@ -1,3 +1,17 @@
+---
+source_type: "article"
+title: "Mediawan Kids and Family to Turn Viral NFT Brand Claynosaurz Into Animated Series"
+author: "Elsa Keslassy (Variety)"
+url: "https://variety.com/2025/tv/news/mediawan-kids-family-nft-brand-claynosaurz-animated-series-1236411731/"
+date_published: "2025-06-02"
+date_archived: "2025-06-02"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "progressive validation through community building reduces development risk by proving audience demand before production investment"
+  - "traditional media buyers now seek content with pre-existing community engagement data as risk mitigation"
+---
 # Mediawan Kids & Family to Turn Viral NFT Brand Claynosaurz Into Animated Series (EXCLUSIVE)
 
 Source: Variety

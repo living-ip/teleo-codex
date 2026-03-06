@@ -1,3 +1,17 @@
+---
+source_type: "article"
+title: "How Far Will AI Video Go?"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/how-far-will-ai-video-go"
+date_published: "2025-02-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "GenAI adoption in entertainment will be gated by consumer acceptance not technology capability"
+  - "GenAI is simultaneously sustaining and disruptive depending on whether users pursue progressive syntheticization or progressive control"
+---
 # How Far Will Al Video Go? - by Doug Shapiro - The Mediator
 
 archive.today Saved from https://dougshapiro.substack.com/p/how-far-will-ai-video-go

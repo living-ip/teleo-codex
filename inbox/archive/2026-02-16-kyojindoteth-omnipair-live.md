@@ -5,6 +5,9 @@ author: "@Kyojindoteth"
 date: 2026-02-16
 archived_by: rio
 tags: [omnipair, mainnet-launch, synthetic-leverage, LTV-risk]
+status: processed
+claims_extracted:
+  - "Permissionless leverage on metaDAO ecosystem tokens catalyzes trading volume and price discovery that strengthens governance by making futarchy markets more liquid"
 ---
 
 # @Kyojindoteth on Omnipair going live

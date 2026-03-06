@@ -8,6 +8,8 @@ domain: internet-finance
 processed_by: rio
 status: processed
 notes: "PAYWALLED — content cuts off at page 5 of ~10+. Only partial extraction possible. Full argument structure incomplete."
+claims_extracted:
+  - "Micro displacement evidence does not imply macro economic crisis because structural shock absorbers exist between job-level disruption and economy-wide collapse"
 ---
 
 # The Citrini post is just a scary bedtime story

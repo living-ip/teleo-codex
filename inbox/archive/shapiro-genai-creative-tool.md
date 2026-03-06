@@ -1,3 +1,16 @@
+---
+source_type: "article"
+title: "GenAI is Foremost a Creative Tool"
+author: "Doug Shapiro"
+url: "https://dougshapiro.substack.com/p/genai-is-foremost-a-creative-tool"
+date_published: "2024-06-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "GenAI is simultaneously sustaining and disruptive depending on whether users pursue progressive syntheticization or progressive control"
+---
 # GenAl is Foremost a Creative Tool - by Doug Shapiro
 
 Saved from https://dougshapiro.substack.com/p/genai-is-foremost-a-creative-tool

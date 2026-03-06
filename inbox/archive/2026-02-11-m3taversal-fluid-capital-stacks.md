@@ -5,6 +5,9 @@ author: "@m3taversal"
 date: 2026-02-11
 archived_by: rio
 tags: [ownership-coins, treasury-management, buybacks, token-sales, capital-formation, fluid-capital]
+status: processed
+claims_extracted:
+  - "Ownership coin treasuries should be actively managed through buybacks and token sales as continuous capital calibration not treated as static war chests"
 ---
 
 # "Fluid Capital Stacks: A New Model for Startup Funding" — @m3taversal

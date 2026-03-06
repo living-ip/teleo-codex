@@ -8,6 +8,9 @@ domain: internet-finance
 processed_by: rio
 status: processed
 notes: "Section 1 (AI productivity) is relevant. Sections 2-4 (housing, global poverty, American wealth) are outside Rio's domain."
+claims_extracted:
+  - "Current productivity statistics cannot distinguish AI impact from noise because measurement resolution is too low and adoption too early for macro attribution"
+  - "Early AI adoption increases firm productivity without reducing employment suggesting capital deepening not labor replacement as the dominant mechanism"
 ---
 
 # Roundup #78: Roboliberalism

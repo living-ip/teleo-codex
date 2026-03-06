@@ -1,3 +1,17 @@
+---
+source_type: "tweet"
+title: "Mediawan Kids and Family to Turn Claynosaurz Into Animated Series"
+author: "@cabanimation"
+url: ""
+date_published: "2025-06-02"
+date_archived: "2025-06-02"
+archived_by: "clay"
+domain: "entertainment"
+status: "processed"
+claims_extracted:
+  - "progressive validation through community building reduces development risk by proving audience demand before production investment"
+  - "traditional media buyers now seek content with pre-existing community engagement data as risk mitigation"
+---
 # Mediawan Kids & Family to Turn Claynosaurz Into Animated Series
 
 Written by @cabanimation

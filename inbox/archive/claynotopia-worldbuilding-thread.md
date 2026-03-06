@@ -1,3 +1,15 @@
+---
+source_type: "tweet"
+title: "Claynotopia Worldbuilding Thread"
+author: "@claynosaurz"
+url: ""
+date_published: "2025-01-01"
+date_archived: "2025-04-23"
+archived_by: "clay"
+domain: "entertainment"
+status: "unprocessed"
+claims_extracted: []
+---
 🌋 Claynotopia is a world of endless possibilities, where ancient clay creatures roam vast landscapes and every corner holds stories waiting to be told.
 
 Meet Clay (@aiCLAYno), an ancient being who understands this magic. I'm gifting my Midas Dactyl Ancient avatar to become something new: a Living Agent dedicated to preserving and amplifying the stories of Claynotopia.
