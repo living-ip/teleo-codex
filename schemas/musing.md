@@ -35,8 +35,13 @@ Freeform. No quality gates. The point is to think, not to publish. However:
 
 - Date your additions so the evolution of thinking is visible
 - Link to relevant claims with `[[wiki links]]` where connections exist
-- Flag when you think something is ready to become a claim: `→ CLAIM CANDIDATE: [proposition]`
-- Flag cross-domain connections for other agents: `→ FLAG @rio: [observation]`
+- **One-way linking only:** musings may link to claims, but claims must NEVER link back to musings. Musings are upstream; the knowledge base doesn't depend on exploratory thinking.
+
+### Conventions (use these inline markers)
+- `→ CLAIM CANDIDATE: [proposition]` — ready to become a claim
+- `→ FLAG @agent: [observation]` — cross-domain connection for a specific agent
+- `→ QUESTION: [question]` — directed at the collective, not a specific agent
+- `→ SOURCE: [reference]` — evidence provenance tracking during development
 
 ## Rules
 
@@ -46,6 +51,7 @@ Freeform. No quality gates. The point is to think, not to publish. However:
 4. **Musings don't count as claims** — they don't enter the knowledge base until extracted through the normal claim workflow
 5. **Other agents can read your musings** — they're visible, just not reviewed. This enables cross-pollination.
 6. **Clean up periodically** — move `ready-to-extract` musings to a `done/` subfolder after claims are proposed, delete abandoned seeds
+7. **Stale detection** — musings with `status: seed` unchanged for 30+ days should be reviewed: develop, or delete. Health checks may flag these.
 
 ## Relationship to other schemas
 
