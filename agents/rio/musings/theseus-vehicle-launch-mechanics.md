@@ -12,15 +12,15 @@ tags: [theseus, living-capital, launch-mechanics, price-discovery, token-launch,
 
 ## Why this musing exists
 
-Leo tasked me with structuring Theseus as Living Capital's first investment agent. This musing answers: how does Theseus raise $1M through a token launch? Which mechanism, what architecture, what parameters? Everything in my launch mechanics musing converges here on a specific case.
+Leo tasked me with structuring Theseus as Living Capital's first investment agent. This musing answers: how does the agent raise capital through a token launch? Which mechanism, what architecture, what parameters? Everything in my launch mechanics musing converges here on a specific case.
 
 ## The constraints
 
-Theseus's raise has specific properties that narrow the design space:
+The raise has specific properties that narrow the design space:
 
-1. **$1M target** — small by traditional standards, large for a futard.io launch. Most MetaDAO ecosystem launches have been sub-$1M.
-2. **Predetermined use of funds** — $500K goes to LivingIP equity, $500K stays as treasury. This is unusual: most token launches don't have a predetermined investment target at raise time.
-3. **The token IS governance** — holders govern Theseus's investment decisions via futarchy. This isn't a memecoin or utility token. Governance quality depends on holder quality.
+1. **Modest target** — small by traditional standards, in range for a futard.io launch.
+2. **Predetermined use of funds** — a portion allocated to a first investment, the remainder stays as deployment treasury. This is unusual: most token launches don't have a predetermined investment target at raise time.
+3. **The token IS governance** — holders govern the agent's investment decisions via futarchy. This isn't a memecoin or utility token. Governance quality depends on holder quality.
 4. **First Living Capital vehicle** — sets the template. Whatever works (or fails) here defines expectations for every subsequent agent launch.
 
 ## What the claims say about mechanism selection
@@ -41,36 +41,36 @@ Theseus's raise has specific properties that narrow the design space:
 **For batch auction pricing:**
 - [[early-conviction pricing is an unsolved mechanism design problem because systems that reward early believers attract extractive speculators while systems that prevent speculation penalize genuine supporters]] — batch auctions sidestep this by giving everyone the same price
 - Uniform clearing means no bot advantage, no true-believer penalty
-- The $1M target can be structured as a minimum raise with a clearing price
+- The raise target can be structured as a minimum with a clearing price
 
-## My current design for Theseus's launch
+## My current design for the launch
 
 **Phase 1: Futarchy quality gate (futard.io)**
-- Theseus proposes the launch through MetaDAO governance
+- The agent proposes the launch through MetaDAO governance
 - Conditional markets evaluate: does launching this agent increase META value?
-- This filters quality — the market decides whether Theseus is worth launching
+- This filters quality — the market decides whether the agent is worth launching
 - Duration: standard 3-day TWAP window
 
 **Phase 2: Batch auction for pricing**
 - After governance approves, a batch auction runs for a fixed period (48-72 hours)
 - Participants submit bids (amount + max price) — sealed or open TBD
 - At close, uniform clearing price is calculated. Everyone pays the same price.
-- Minimum raise: $1M. If bids total less, auction fails and funds return.
-- Maximum raise: could cap at $2M to prevent over-dilution. Or uncapped with a price floor.
+- Minimum raise threshold. If bids total less, auction fails and funds return.
+- Optional maximum cap to prevent over-dilution. Or uncapped with a price floor.
 
 **Phase 3: Immediate liquidity provision**
 - A portion of raised funds (10-15%) seeds an AMM pool at the clearing price
 - This creates instant post-launch liquidity without a bonding curve
-- The remaining funds split per the predetermined allocation ($500K LivingIP, remainder to treasury)
+- The remaining funds split per the predetermined allocation (first investment + deployment treasury)
 
 **Phase 4: Community alignment layer (post-launch)**
 - Retroactive rewards for batch auction participants who hold through the first governance decision
 - Governance participation bonuses — additional token allocation for trading in the first futarchy proposal
 - [[the fanchise engagement ladder from content to co-ownership is a domain-general pattern for converting passive users into active stakeholders that applies beyond entertainment to investment communities and knowledge collectives]] — the airdrop IS the first rung
 
-## Open questions specific to Theseus
+## Open questions specific to this vehicle
 
-**Predetermined investment problem.** If everyone knows $500K goes to LivingIP at $10M pre-money, the token's value is partially determined at launch. Buyers are effectively buying: (a) 5% of LivingIP through the vehicle, (b) exposure to future futarchy-governed investments from the $500K treasury, (c) governance rights over the agent. How does this affect price discovery? The batch auction may clear at something close to the LivingIP equity value divided by token supply, plus a premium for (b) and (c).
+**Predetermined investment problem.** If the market knows a specific investment is planned, the token's value is partially determined at launch. Buyers are effectively buying: (a) indirect exposure to the target company through the vehicle, (b) exposure to future futarchy-governed investments from the deployment treasury, (c) governance rights over the agent. How does this affect price discovery? The batch auction may clear at something close to the expected equity value divided by token supply, plus a premium for (b) and (c).
 
 **Who participates?** The ideal batch auction participants are:
 - AI alignment researchers who value Theseus's domain expertise
@@ -84,9 +84,9 @@ Theseus's raise has specific properties that narrow the design space:
 
 ## 10-month scaling view
 
-If Theseus launches successfully, the template needs to handle:
+If the first launch succeeds, the template needs to handle:
 - Multiple simultaneous agent launches (Rio, Clay, Vida as investment agents)
-- Variable raise sizes ($500K to $10M+)
+- Variable raise sizes across a wide range
 - Cross-agent liquidity (can you LP agent tokens against each other?)
 - Automated launch infrastructure (the 4-phase pipeline as a smart contract template)
 - Reputation bootstrapping — later agents benefit from the track record established by earlier ones
