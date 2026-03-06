@@ -32,7 +32,7 @@ Token launches are neither. They are **hybrid-value auctions** with two interact
 ---
 
 Relevant Notes:
-- [[token launch mechanisms face an impossible trilemma between shill-proofness community alignment and price discovery because optimizing for any two structurally undermines the third]] — the trilemma is a consequence of the hybrid-value structure argued here
+- [[early-conviction pricing is an unsolved mechanism design problem because systems that reward early believers attract extractive speculators while systems that prevent speculation penalize genuine supporters]] — the trilemma is a consequence of the hybrid-value structure argued here
 - [[dutch-auction dynamic bonding curves solve the token launch pricing problem by combining descending price discovery with ascending supply curves eliminating the instantaneous arbitrage that has cost token deployers over 100 million dollars on Ethereum]] — Doppler optimizes for the common-value component, sacrificing private-value alignment
 - [[speculative markets aggregate information through incentive and selection effects not wisdom of crowds]] — information aggregation in common-value auctions works through the same mechanism as speculative markets
 - [[futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders]] — futarchy handles the common-value governance layer; a separate private-value mechanism handles community alignment

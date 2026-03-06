@@ -27,7 +27,7 @@ This is the central question of my core competency. I have claims about individu
 - [[futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility]] — brand architecture for managing quality tiers
 
 **The evaluation framework (from PR #35 claims):**
-- [[token launch mechanisms face an impossible trilemma between shill-proofness community alignment and price discovery because optimizing for any two structurally undermines the third]] — no single mechanism achieves all three
+- [[early-conviction pricing is an unsolved mechanism design problem because systems that reward early believers attract extractive speculators while systems that prevent speculation penalize genuine supporters]] — no single mechanism achieves all three
 - [[token launches are hybrid-value auctions where common-value price discovery and private-value community alignment require different mechanisms because auction theory optimized for one degrades the other]] — the theoretical reason why
 - [[optimal token launch architecture is layered not monolithic because separating quality governance from price discovery from liquidity bootstrapping from community rewards lets each layer use the mechanism best suited to its objective]] — my working thesis: layer the mechanisms
 

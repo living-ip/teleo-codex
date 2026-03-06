@@ -4,7 +4,7 @@ domain: grand-strategy
 secondary_domains: [internet-finance, entertainment]
 description: "Dutch auctions penalize true believers (highest conviction = highest price); static bonding curves reward speed over information (bots extract value); fanchise management assumes early fans are genuine — no existing mechanism simultaneously rewards genuine conviction, prevents speculative extraction, and discovers accurate prices"
 confidence: experimental
-source: "Synthesis by Leo from: Rio's Doppler claim (PR #31, dutch-auction bonding curves); Clay's fanchise management (Shapiro, PR #8); community ownership claims"
+source: "Synthesis by Leo from: Rio's Doppler claim (PR #31, dutch-auction bonding curves); Clay's fanchise management (Shapiro, PR #8); community ownership claims. Enriched by Rio (PR #35) with auction theory grounding: Vickrey (1961), Myerson (1981), Milgrom & Weber (1982)"
 created: 2026-03-07
 depends_on:
   - "dutch-auction dynamic bonding curves solve the token launch pricing problem by combining descending price discovery with ascending supply curves eliminating the instantaneous arbitrage that has cost token deployers over 100 million dollars on Ethereum"
@@ -36,7 +36,12 @@ No existing implementation achieves all three:
 | Fanchise loyalty (Web2) | N/A — no pricing | Yes — tenure rewarded | No — no market mechanism |
 | NFT allowlists | Partial — gatekept | Yes — curated access | No — binary in/out |
 | Batch auction (Gnosis-style) | Yes — uniform clearing price | Partial — no early advantage | Yes — sealed bids reveal valuation |
+| Liquidity bootstrapping pool (Balancer) | Partial — declining weight reduces urgency | Partial — window discourages sniping | Moderate — weight schedule approximates price discovery |
 | Futarchy pre-filter | Yes — market governs | Neutral | Yes — conditional markets |
+
+**Why the trilemma is structural, not accidental.** Auction theory explains why these three properties resist simultaneous satisfaction. Vickrey's insight (1961) is that truthful valuation revelation requires participants to bear the cost of their bids — in descending-price mechanisms, the highest-value bidder pays most. But in token launches and fanchise economies, the highest-value participant is typically the most committed community member, not the richest speculator. Myerson's optimal auction (1981) compounds the problem: revenue-maximizing auction design discriminates based on bidder characteristics, but token launches need *distribution* (many aligned hands), not *extraction* (maximum price from each buyer). The mechanism that correctly discovers price — by making true believers pay their true valuation — simultaneously punishes community commitment. This isn't a flaw in any specific implementation; it's a property of the auction design space when the objective is community-building rather than revenue maximization.
+
+Furthermore, Milgrom & Weber's (1982) common-value vs private-value distinction reveals that token launches and fanchise economies are *hybrid-value* systems: the common-value component (project fundamentals, IP quality) and private-value component (holder commitment, fan engagement, contribution potential) require different mechanism properties to optimize. Standard auction results tuned for either pure case produce suboptimal outcomes in the hybrid.
 
 **The deeper pattern:** This is a variant of the adverse selection problem. Any system that rewards early participation attracts actors who specialize in being early rather than being genuine. Sybil attacks, bot farms, airdrop farming, and NFT allowlist manipulation are all instances of the same problem: extractive actors who mimic the behavior of genuine supporters to capture the reward.
 

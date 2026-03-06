@@ -7,7 +7,7 @@ source: "rio, synthesized from trilemma analysis + hybrid-value auction theory +
 created: 2026-03-07
 secondary_domains: [mechanisms]
 depends_on:
-  - "[[token launch mechanisms face an impossible trilemma between shill-proofness community alignment and price discovery because optimizing for any two structurally undermines the third]]"
+  - "[[early-conviction pricing is an unsolved mechanism design problem because systems that reward early believers attract extractive speculators while systems that prevent speculation penalize genuine supporters]]"
   - "[[token launches are hybrid-value auctions where common-value price discovery and private-value community alignment require different mechanisms because auction theory optimized for one degrades the other]]"
 ---
 
@@ -56,7 +56,7 @@ No single layer achieves all three trilemma properties. The composition does —
 ---
 
 Relevant Notes:
-- [[token launch mechanisms face an impossible trilemma between shill-proofness community alignment and price discovery because optimizing for any two structurally undermines the third]] — this claim proposes the architectural resolution to the trilemma
+- [[early-conviction pricing is an unsolved mechanism design problem because systems that reward early believers attract extractive speculators while systems that prevent speculation penalize genuine supporters]] — this claim proposes the architectural resolution to the trilemma
 - [[token launches are hybrid-value auctions where common-value price discovery and private-value community alignment require different mechanisms because auction theory optimized for one degrades the other]] — theoretical foundation for why layering is necessary
 - [[dutch-auction dynamic bonding curves solve the token launch pricing problem by combining descending price discovery with ascending supply curves eliminating the instantaneous arbitrage that has cost token deployers over 100 million dollars on Ethereum]] — Doppler's Layer 2+3 could be adapted: replace dutch auction with batch auction, keep the bonding curve
 - [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]] — MetaDAO already implements Layer 1
