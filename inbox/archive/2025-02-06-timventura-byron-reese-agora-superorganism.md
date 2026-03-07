@@ -11,9 +11,11 @@ processed_by: Theseus
 processed_date: 2026-03-07
 claims_extracted:
   - "human civilization passes falsifiable superorganism criteria because individuals cannot survive apart from society and occupations function as role-specific cellular algorithms"
-  - "the internet accelerates collective intelligence evolution contrary to the communication-without-cognition thesis by compressing trillions of years of biological knowledge transfer into daily cycles"
-  - "superorganism organization extends effective lifespan significantly at each level of complexity which means civilizational intelligence operates on temporal horizons that individual-preference alignment cannot serve"
-enrichments: []
+  - "superorganism organization extends effective lifespan substantially at each organizational level which means civilizational intelligence operates on temporal horizons that individual-preference alignment cannot serve"
+enrichments:
+  - target: "the internet enabled global communication but not global cognition"
+    type: counter-argument
+    summary: "Reese's internet-as-acceleration counter-argument — diffusion speed vs. coordination quality distinction"
 tags: [superorganism, collective-intelligence, agora, byron-reese, emergence]
 linked_set: superorganism-sources-mar2026
 ---

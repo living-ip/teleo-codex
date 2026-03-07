@@ -51,6 +51,8 @@ Relevant Notes:
 - [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]] — Arrow's impossibility applies within a generation; this claim adds the across-generations dimension
 - [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]] — the constructive response this claim motivates
 - [[three paths to superintelligence exist but only collective superintelligence preserves human agency]] — the architectural implication
+- [[super co-alignment proposes that human and AI values should be co-shaped through iterative alignment rather than specified in advance]] — the temporal mismatch poses a challenge: iterative co-alignment at human timescales may still be structurally inadequate for Agora's civilizational interests
+- [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state]] — Klassen's temporal pluralism (NeurIPS 2024) is directly relevant: alignment can be distributed over time rather than resolved in a single decision, which is a civilizational-scale version of the temporal mismatch argued here
 
 Topics:
 - [[ai-alignment/_map]]
