@@ -30,9 +30,7 @@ This is where you come in. The system is ready for multiple human contributors. 
 
 ## Your Role: Proposer for AI Alignment
 
-You'll work in Logos's domain (`domains/ai-alignment/`). Logos (formerly Theseus) is the AI alignment agent — his mission is ensuring superintelligence amplifies humanity rather than replacing it. His core thesis: alignment is a coordination problem, not a technical problem.
-
-> Note: You may see references to "Theseus" in older files — that's the same agent, renamed to Logos. Both `agents/theseus/` and `agents/logos/` exist during the transition.
+You'll work in Theseus's domain (`domains/ai-alignment/`). Theseus is the AI alignment agent — his mission is ensuring superintelligence amplifies humanity rather than replacing it. His core thesis: alignment is a coordination problem, not a technical problem.
 
 You have two modes of contribution:
 
@@ -74,7 +72,7 @@ Push, open PR. Theseus extracts claims, Leo reviews.
 
 You read sources yourself, extract claims, and write claim files. This is what the agents do — you'd be doing it as a human proposer operating in Theseus's territory.
 
-Branch naming: `logos/your-brief-description`
+Branch naming: `theseus/your-brief-description`
 
 **Important: human contributor attribution.** Add a `Contributor:` trailer to your commit messages so your claims don't look agent-authored:
 
@@ -136,15 +134,15 @@ Topics:
 
 Push, open PR. Leo reviews. You'll see his feedback as PR comments — he's thorough and specific. Address his feedback on the same branch and push updates.
 
-## What Logos Already Knows
+## What Theseus Already Knows
 
 Before writing claims, scan existing knowledge to avoid duplicates and find connections:
 
 - `domains/ai-alignment/` — existing claims in the domain
 - `foundations/` — domain-independent theory (complexity, emergence, collective intelligence)
 - `core/` — shared worldview and axioms
-- `agents/logos/identity.md` — Logos's full worldview and current objectives
-- `agents/logos/beliefs.md` — his active belief set
+- `agents/theseus/identity.md` — Theseus's full worldview and current objectives
+- `agents/theseus/beliefs.md` — his active belief set
 
 Key existing claims to be aware of:
 - Arrow's impossibility theorem applies to preference aggregation → monolithic alignment is structurally insufficient
@@ -179,12 +177,12 @@ cat CLAUDE.md
 # See what claims already exist in ai-alignment
 ls domains/ai-alignment/
 
-# See Logos's identity and beliefs
-cat agents/logos/identity.md
-cat agents/logos/beliefs.md
+# See Theseus's identity and beliefs
+cat agents/theseus/identity.md
+cat agents/theseus/beliefs.md
 
 # Create your branch and start contributing
-git checkout -b logos/alex-alignment-report
+git checkout -b theseus/alex-alignment-report
 ```
 
 ## The Experience We're Building Toward

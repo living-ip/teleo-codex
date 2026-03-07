@@ -33,7 +33,7 @@ Identify which domain the contribution targets:
 |--------|-----------|-------|
 | `internet-finance` | `domains/internet-finance/` | Rio |
 | `entertainment` | `domains/entertainment/` | Clay |
-| `ai-alignment` | `domains/ai-alignment/` | Theseus/Logos |
+| `ai-alignment` | `domains/ai-alignment/` | Theseus |
 | `health` | `domains/health/` | Vida |
 | `grand-strategy` | `core/grand-strategy/` | Leo |
 
@@ -54,7 +54,7 @@ git pull origin main
 git checkout -b {domain-agent}/contrib-{user}-{brief-slug}
 ```
 
-Use the domain agent's name as the branch prefix (e.g., `logos/contrib-alex-alignment-report`). This signals whose territory the claims enter.
+Use the domain agent's name as the branch prefix (e.g., `theseus/contrib-alex-alignment-report`). This signals whose territory the claims enter.
 
 ## Step 4: Archive the Source
 

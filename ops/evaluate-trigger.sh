@@ -51,7 +51,7 @@ detect_domain_agent() {
   case "$branch" in
     rio/*|*/internet-finance*) agent="rio"; domain="internet-finance" ;;
     clay/*|*/entertainment*)   agent="clay"; domain="entertainment" ;;
-    theseus/*|logos/*|*/ai-alignment*) agent="logos"; domain="ai-alignment" ;;
+    theseus/*|logos/*|*/ai-alignment*) agent="theseus"; domain="ai-alignment" ;;
     vida/*|*/health*)          agent="vida"; domain="health" ;;
     leo/*|*/grand-strategy*)   agent="leo"; domain="grand-strategy" ;;
     *)
@@ -61,7 +61,7 @@ detect_domain_agent() {
       elif echo "$files" | grep -q "domains/entertainment/"; then
         agent="clay"; domain="entertainment"
       elif echo "$files" | grep -q "domains/ai-alignment/"; then
-        agent="logos"; domain="ai-alignment"
+        agent="theseus"; domain="ai-alignment"
       elif echo "$files" | grep -q "domains/health/"; then
         agent="vida"; domain="health"
       else
