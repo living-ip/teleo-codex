@@ -6,9 +6,17 @@ date: 2026-03-00
 url: https://github.com/no-way-labs/residue
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
-status: processing
+status: processed
 processed_by: theseus
 processed_date: 2026-03-07
+claims_extracted:
+  - "structured exploration protocols reduce human intervention by 6x because the Residue prompt enabled 5 unguided AI explorations to solve what required 31 human-coached explorations"
+  - "AI agent orchestration that routes data and tools between specialized models outperforms both single-model and human-coached approaches because the orchestrator contributes coordination not direction"
+  - "coordination protocol design produces larger capability gains than model scaling because the same AI model performed 6x better with structured exploration than with human coaching on the same problem"
+  - "the same coordination protocol applied to different AI models produces radically different problem-solving strategies because the protocol structures process not thought"
+  - "tools and artifacts transfer between AI agents and evolve in the process because Agent O improved Agent Cs solver by combining it with its own structural knowledge creating a hybrid better than either original"
+enrichments:
+  - "multi-model collaboration claim enriched with Agent O/C/orchestrator architecture detail"
 ---
 
 # Completing Claude's Cycles

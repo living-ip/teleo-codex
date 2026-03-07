@@ -6,11 +6,11 @@ date: 2026-03-04
 url: https://github.com/kim-em/KnuthClaudeLean/
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
-status: processing
+status: processed
 processed_by: theseus
 processed_date: 2026-03-07
 enrichments:
-  - "formal verification of AI-generated proofs provides scalable oversight" (existing claim enriched)
+  - "formal verification claim enriched with Comparator trust model (specification vs proof bottleneck, adversarial proof design)"
 ---
 
 # KnuthClaudeLean
