@@ -280,7 +280,8 @@ Work autonomously. Do not ask for confirmation."
     echo "  Domain is grand-strategy (Leo's territory). Single review sufficient."
   else
     DOMAIN_REVIEW_FILE="/tmp/${DOMAIN_AGENT}-review-pr${pr}.md"
-    DOMAIN_PROMPT="You are ${DOMAIN_AGENT^}. Read agents/${DOMAIN_AGENT}/identity.md, agents/${DOMAIN_AGENT}/beliefs.md, and skills/evaluate.md.
+    AGENT_NAME_UPPER=$(echo "${DOMAIN_AGENT}" | awk '{print toupper(substr($0,1,1)) substr($0,2)}')
+    DOMAIN_PROMPT="You are ${AGENT_NAME_UPPER}. Read agents/${DOMAIN_AGENT}/identity.md, agents/${DOMAIN_AGENT}/beliefs.md, and skills/evaluate.md.
 
 You are reviewing PR #${pr} as the domain expert for ${DOMAIN}.
 
@@ -302,7 +303,7 @@ Your review focuses on DOMAIN EXPERTISE — things only a ${DOMAIN} specialist w
 Write your review to ${DOMAIN_REVIEW_FILE}
 Post it with: gh pr review ${pr} --comment --body-file ${DOMAIN_REVIEW_FILE}
 
-Sign your review as ${DOMAIN_AGENT^} (domain reviewer for ${DOMAIN}).
+Sign your review as ${AGENT_NAME_UPPER} (domain reviewer for ${DOMAIN}).
 DO NOT duplicate Leo's quality gate checks — he covers those.
 DO NOT merge.
 Work autonomously. Do not ask for confirmation."

@@ -19,6 +19,12 @@ The knowledge ceiling at any point in history is determined not by individual in
 
 ---
 
+**Counter-argument (Reese, 2025):** Byron Reese argues the internet *does* succeed at accelerating collective intelligence evolution, though through a different mechanism than communication. In his interview with Tim Ventura (Predict, Feb 2025), Reese frames the internet as a "data exchange protocol" for Agora — compressing what would require trillions of years of biological evolution into daily cycles: "the things we learn through it — individually and collectively — would take trillions of years to evolve naturally." On this view, the internet is not failing at collective cognition but succeeding at temporal compression: the speed of knowledge transfer across 8 billion humans is unprecedented in biological history.
+
+The apparent contradiction may dissolve with a distinction: Reese is measuring *diffusion speed* (how fast knowledge propagates) while this claim addresses *coordination quality* (whether propagated knowledge integrates into collective intelligence). Both can be true simultaneously — the internet dramatically accelerates knowledge diffusion while still failing to coordinate what gets diffused into genuine collective sense-making. Faster signal transmission doesn't produce better cognition without integration mechanisms, just as faster neural firing without synaptic coordination produces noise, not thought. Reese's acceleration argument strengthens the case for purpose-built coordination infrastructure: the raw material (fast global knowledge diffusion) is in place; what's missing is the synthesis layer.
+
+---
+
 Relevant Notes:
 - [[trial and error is the only coordination strategy humanity has ever used]] -- the internet is the latest in a sequence of coordination breakthroughs, and the first that failed to raise the ceiling
 - [[civilization was built on the false assumption that humans are rational individuals]] -- the internet amplified irrational behavior at scale rather than correcting it
