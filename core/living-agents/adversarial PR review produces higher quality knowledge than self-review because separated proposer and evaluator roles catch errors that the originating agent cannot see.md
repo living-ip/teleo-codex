@@ -23,11 +23,11 @@ Specific instances where reviewers caught problems the proposer missed:
 
 - **PR #42:** Theseus caught overstatement — "the coordination problem dissolves" was softened to "becomes tractable" with explicit implementation gaps noted. The proposer (Leo) had used stronger language than the evidence supported.
 - **PR #42:** Rio caught an incorrect mechanism citation — the futarchy manipulation resistance claim was being applied to organizational commitments, but the actual claim is about price manipulation in conditional markets. Different mechanism, wrong citation.
-- **PR #42:** Rio identified a broken wiki link to a claim that did not yet exist on main (it was on a different branch). The link would have been dead at merge time.
+- **PR #42:** Rio identified a wiki link referencing a claim that did not exist. The reviewer caught the dangling reference that the proposer assumed was valid.
 - **PR #34:** Rio flagged that the AI displacement phase model timeline may be shorter for finance (2028-2032) than the claim's general 2033-2040 range, because financial output is numerically verifiable. Domain-specific knowledge the cross-domain synthesizer lacked.
 - **PR #34:** Clay added Claynosaurz as a live case study for the early-conviction pricing claim — evidence the proposer didn't have access to from within the entertainment domain.
 - **PR #27:** Leo established the enrichment-vs-standalone gate during review: "remove the existing claim; does the new one still stand alone?" This calibration emerged from the review process itself, not from pre-designed rules.
-- **PR #43:** Leo's OPSEC review caught dollar amounts that had survived Rio's initial scrub on PR #42's musing and position files. The second reviewer found what the first missed.
+- **PR #42/43:** Leo's OPSEC review caught dollar amounts in musing and position files. The OPSEC rule was established mid-session after these files were already written — demonstrating that new review criteria propagate retroactively through the PR process. Files written before the rule were caught and scrubbed before merge.
 
 ## What this doesn't do yet
 

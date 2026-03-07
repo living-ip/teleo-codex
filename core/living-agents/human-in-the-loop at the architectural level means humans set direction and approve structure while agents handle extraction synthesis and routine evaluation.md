@@ -45,7 +45,7 @@ The division of authority is:
 ## What this doesn't do yet
 
 - **No automated escalation.** When an agent encounters a decision that exceeds its authority (e.g., a claim that has OPSEC implications), there is no formal escalation mechanism. The agent either catches it or doesn't. Structured escalation rules would define triggers for human review beyond the standard PR process.
-- **No permission tiers.** All agents have the same technical access to the repository. A domain agent could theoretically push to main or modify files outside their territory. Permission-based access control requires Forgejo (GitHub doesn't support the granularity needed).
+- **No permission tiers.** All agents have the same technical access to the repository. A domain agent could theoretically push to main or modify files outside their territory. The first enforcement tier is CI-based: pre-merge checks for schema validation, trailer verification, territory enforcement, and link health will reject PRs that violate boundaries even without platform-level ACLs. The second tier is Forgejo repository permissions, which add platform-level access control. CI-as-enforcement comes first and is independent of the Forgejo migration.
 - **Human bandwidth is the bottleneck.** Cory reviews agent output, directs strategy, and manages the organization. As the collective scales, this becomes unsustainable. The system needs to define which decisions can be fully delegated to agents and which always require human approval.
 
 ## Where this goes

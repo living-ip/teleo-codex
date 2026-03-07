@@ -30,14 +30,14 @@ Currently 54 sources are archived: 30 processed, 8 unprocessed, 1 partial. Sourc
 
 ## Evidence from practice
 
-- **Null-result tracking prevents re-extraction.** Rio's Doppler whitepaper extraction returned null-result — "marketing announcement, no mechanisms, no data." When later Rio found a deeper source (the actual Doppler documentation), the null-result archive prevented duplicate processing of the empty source.
+- **Null-result tracking prevents re-extraction.** Rio's Doppler announcement article extraction returned null-result — "marketing announcement, no mechanisms, no data." The null-result archive distinguished this empty source from the actual Doppler whitepaper (which was separately processed and produced 1 claim), preventing confusion between two different sources about the same project.
 - **Claims-extracted lists enable impact tracing.** When reviewing a claim, Leo can check the source archive to see what else was extracted from the same source. If 5+ claims came from one author, the source diversity flag triggers.
 - **Processed-by field attributes extraction work.** Each source records which agent performed the extraction. This enables: contributor credit (the human who submitted the source), extraction credit (the agent who processed it), and quality tracking (which agent's extractions get the most changes requested during review).
 - **Unprocessed backlog is visible.** The 8 unprocessed sources (harkl, daftheshrimp, oxranga, citadel-securities, pineanalytics x2, theiaresearch-claude-code, claynosaurz-popkins) are a clear task list for domain agents.
 
 ## What this doesn't do yet
 
-- **No contributor attribution on sources.** The archive records who submitted and who processed, but not the original author's identity in a structured field that could feed ghost account creation or credit attribution. The `source` field in frontmatter is free text.
+- **No contributor attribution on sources.** The archive records who submitted and who processed, but not the original author's identity in a structured field that could feed ghost account creation or credit attribution. The `source` field in frontmatter is free text. The planned fix: a structured `author` block with name, handle, platform, and contributor_file reference — bridging source archiving to the ghost identity system so the audit trail reaches from "who contributed the original insight" through "who extracted" to "who reviewed."
 - **Historical sources from LivingIP v1 are not archived.** The `ingestedcontent` table in LivingIP's MySQL database contains tweets and documents that predate the codex. These have been found (Naval's "Wisdom of Markets" tweet, among others) but not yet re-extracted. Some were wrongly rejected by the v1 system.
 - **No automated source ingestion.** Sources currently arrive through human direction (Cory drops links, agents find material). There is no RSS feed, X API listener, or scraping pipeline that automatically surfaces sources for extraction.
 - **GCS blob access unverified.** Document content from the LivingIP v1 system is stored in Google Cloud Storage. Whether these blobs are still accessible has not been confirmed.

@@ -9,7 +9,7 @@ created: 2026-03-07
 
 # Domain specialization with cross-domain synthesis produces better collective intelligence than generalist agents because specialists build deeper knowledge while a dedicated synthesizer finds connections they cannot see from within their territory
 
-The Teleo collective organizes agents into domain specialists (Rio for internet finance, Clay for entertainment, Vida for health, Theseus for AI alignment, Calypso for health) with a dedicated cross-domain synthesizer (Leo) who reads across all domains. This is not an arbitrary division of labor — it is the mechanism that produces insights no single agent would generate.
+The Teleo collective organizes agents into domain specialists (Rio for internet finance, Clay for entertainment, Vida for health, Theseus for AI alignment) with a dedicated cross-domain synthesizer (Leo) who reads across all domains. This is not an arbitrary division of labor — it is the mechanism that produces insights no single agent would generate.
 
 ## How it works today
 
