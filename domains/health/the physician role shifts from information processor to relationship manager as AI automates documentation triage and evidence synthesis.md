@@ -23,7 +23,7 @@ Relevant Notes:
 - [[ambient AI documentation reduces physician documentation burden by 73 percent but the relationship between automation and burnout is more complex than time savings alone]] -- the documentation automation mechanism
 - [[medical LLM benchmark performance does not translate to clinical impact because physicians with and without AI access achieve similar diagnostic accuracy in randomized trials]] -- why AI augments workflow not diagnosis
 - [[human-in-the-loop clinical AI degrades to worse-than-AI-alone because physicians both de-skill from reliance and introduce errors when overriding correct outputs]] -- the de-skilling risk that shapes how the physician-AI relationship must be designed
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- the clinical centaur: AI handles information processing, humans handle relationships and judgment
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] -- the clinical centaur: AI handles information processing, humans handle relationships and judgment
 - [[healthcare AI regulation needs blank-sheet redesign because the FDA drug-and-device model built for static products cannot govern continuously learning software]] -- the AI payment gap may force VBC transition, which would accelerate the physician role shift
 
 Topics:

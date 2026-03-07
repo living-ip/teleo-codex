@@ -1,6 +1,6 @@
 ---
 description: The cycle of convergence fragility and restructuring operates identically across organisms firms markets paradigms and ecosystems because local optimization by bounded agents simultaneously builds efficiency and brittleness making disruption not a pathology but the mechanism of systemic progress
-type: framework
+type: claim
 domain: critical-systems
 created: 2026-02-17
 source: "Cross-book synthesis: Rumelt (Good Strategy Bad Strategy), Christian and Griffiths (Algorithms to Live By), Kuhn (Structure of Scientific Revolutions), Bak (How Nature Works), Minsky (Financial Instability Hypothesis), Hidalgo (Why Information Grows), Blackmore (The Meme Machine)"

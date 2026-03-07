@@ -22,7 +22,7 @@ Wachter frames the challenge directly: "Humans suck at remaining vigilant over t
 ---
 
 Relevant Notes:
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- the chess centaur model does NOT generalize to clinical medicine where physician overrides degrade AI performance
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] -- the chess centaur model does NOT generalize to clinical medicine where physician overrides degrade AI performance
 - [[medical LLM benchmark performance does not translate to clinical impact because physicians with and without AI access achieve similar diagnostic accuracy in randomized trials]] -- the multi-hospital RCT found similar diagnostic accuracy with/without AI; the Stanford/Harvard study found AI alone dramatically superior
 - [[the physician role shifts from information processor to relationship manager as AI automates documentation triage and evidence synthesis]] -- if physicians degrade AI diagnostic performance, the role shift toward relationship management is not just efficient but necessary
 - [[ambient AI documentation reduces physician documentation burden by 73 percent but the relationship between automation and burnout is more complex than time savings alone]] -- documentation AI where physicians don't override outputs avoids the de-skilling problem

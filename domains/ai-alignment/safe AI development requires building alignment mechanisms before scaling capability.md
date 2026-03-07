@@ -1,7 +1,7 @@
 ---
 description: A phased safety-first strategy that starts with non-sensitive domains and builds governance, validation, and human oversight before expanding into riskier territory
 type: claim
-domain: collective-intelligence
+domain: ai-alignment
 created: 2026-02-16
 confidence: likely
 source: "AI Safety Grant Application (LivingIP)"

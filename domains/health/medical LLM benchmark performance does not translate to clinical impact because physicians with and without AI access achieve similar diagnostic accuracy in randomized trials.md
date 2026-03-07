@@ -21,7 +21,7 @@ The implication for AI deployment strategy: the highest-value clinical AI applic
 
 Relevant Notes:
 - [[human-in-the-loop clinical AI degrades to worse-than-AI-alone because physicians both de-skill from reliance and introduce errors when overriding correct outputs]] -- Stanford/Harvard study shows physician overrides degrade AI performance from 90% to 68%
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- the chess centaur model does NOT generalize cleanly to clinical medicine; interaction design matters
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] -- the chess centaur model does NOT generalize cleanly to clinical medicine; interaction design matters
 - [[OpenEvidence became the fastest-adopted clinical technology in history reaching 40 percent of US physicians daily within two years]] -- OpenEvidence succeeds as evidence retrieval, not diagnostic replacement
 
 Topics:

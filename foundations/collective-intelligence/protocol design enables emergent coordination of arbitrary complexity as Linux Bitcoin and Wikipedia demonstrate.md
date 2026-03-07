@@ -4,7 +4,7 @@ type: claim
 domain: collective-intelligence
 created: 2026-02-17
 source: "Linux kernel governance; Nakamoto Consensus; Wikipedia stigmergy research"
-confidence: proven
+confidence: likely
 ---
 
 # protocol design enables emergent coordination of arbitrary complexity as Linux Bitcoin and Wikipedia demonstrate

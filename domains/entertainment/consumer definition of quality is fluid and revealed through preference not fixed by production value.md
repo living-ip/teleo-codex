@@ -26,7 +26,7 @@ Relevant Notes:
 - [[social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]] — the consumption data behind the quality shift
 - [[the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership]] — the attractor state implies community relevance overtakes production value
 - [[disruptors redefine quality rather than competing on the incumbents definition of good]] — the direct theoretical parent: disruption works by changing what "good" means
-- [[performance overshooting creates a vacuum for good-enough alternatives when products exceed what mainstream customers need]] — Christensen's framework for why quality redefinition enables disruption
+- [[good management causes disruption because rational resource allocation systematically favors sustaining innovation over disruptive opportunities]] — Christensen's framework for why quality redefinition enables disruption (performance overshooting mechanism now consolidated here)
 
 Topics:
 - [[entertainment]]

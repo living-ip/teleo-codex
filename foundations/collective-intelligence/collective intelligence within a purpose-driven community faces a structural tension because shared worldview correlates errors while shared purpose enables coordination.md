@@ -1,6 +1,6 @@
 ---
 description: Skin-in-the-game aligns incentives toward truth but self-selection into a shared worldview may correlate errors faster than the market mechanism can correct them
-type: tension
+type: claim
 domain: collective-intelligence
 created: 2026-02-17
 confidence: likely

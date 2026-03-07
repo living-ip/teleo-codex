@@ -1,7 +1,7 @@
 ---
 description: Speed superintelligence (faster thinking) and quality superintelligence (deeper thinking) both centralize power, while collective superintelligence emerges with humans rather than beyond them
 type: claim
-domain: collective-intelligence
+domain: teleohumanity
 created: 2026-02-16
 confidence: experimental
 source: "Leo's Path to Superintelligence"
@@ -23,7 +23,7 @@ Relevant Notes:
 - [[the first mover to superintelligence likely gains decisive strategic advantage because the gap between leader and followers accelerates during takeoff]] -- the collective path is the only one that prevents singleton formation through first-mover dynamics
 - [[collective superintelligence is the alternative to monolithic AI controlled by a few]] -- provides the design specification for the collective path
 - [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]] -- explains why the collective path has a structural safety advantage
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- empirical evidence for the viability of the collective path
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] -- empirical evidence for the viability of the collective path
 - [[bostrom takes single-digit year timelines to superintelligence seriously while acknowledging decades-long alternatives remain possible]] -- compressed timelines add urgency: the collective path must be pursued now, not eventually
 - [[developing superintelligence is surgery for a fatal condition not russian roulette because the baseline of inaction is itself catastrophic]] -- Bostrom's evolved position adds urgency to all three paths, strengthening the case for the collective one
 

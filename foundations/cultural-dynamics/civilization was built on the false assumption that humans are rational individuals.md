@@ -3,7 +3,7 @@ description: Markets, democracy, science, and liberal individualism all assume r
 type: claim
 domain: cultural-dynamics
 created: 2026-02-16
-confidence: proven
+confidence: likely
 source: "TeleoHumanity Manifesto, Chapter 3"
 ---
 

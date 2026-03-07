@@ -20,7 +20,7 @@ The incumbent response is UpToDate ExpertAI (Wolters Kluwer, Q4 2025), leveragin
 ---
 
 Relevant Notes:
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- OpenEvidence is the clinical centaur: AI provides evidence synthesis, physician provides judgment
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] -- OpenEvidence is the clinical centaur: AI provides evidence synthesis, physician provides judgment
 - [[knowledge scaling bottlenecks kill revolutionary ideas before they reach critical mass]] -- OpenEvidence solved clinical knowledge scaling by making evidence retrieval instant
 
 Topics:

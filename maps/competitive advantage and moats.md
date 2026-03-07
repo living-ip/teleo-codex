@@ -5,7 +5,6 @@ Navigation hub for claims about what creates durable competitive advantage in in
 ## Why Moats Fall
 - [[good management causes disruption because rational resource allocation systematically favors sustaining innovation over disruptive opportunities]]
 - [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]]
-- [[value networks act as perceptual filters that make disruptive opportunities invisible to incumbents]]
 - [[incumbents fail to respond to visible disruption because external structures lag even when executives see the threat clearly]]
 - [[disruptors redefine quality rather than competing on the incumbents definition of good]]
 

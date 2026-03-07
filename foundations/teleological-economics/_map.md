@@ -22,9 +22,7 @@ Attractor state analysis, economic complexity, and disruption theory provide the
 ## Disruption Theory
 - [[disruptors redefine quality rather than competing on the incumbents definition of good]] — the Christensen insight
 - [[good management causes disruption because rational resource allocation systematically favors sustaining innovation over disruptive opportunities]] — the paradox
-- [[value networks act as perceptual filters that make disruptive opportunities invisible to incumbents]] — why incumbents can't see it
 - [[when profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits]] — profit migration
-- [[performance overshooting creates a vacuum for good-enough alternatives when products exceed what mainstream customers need]] — the opening for disruption
 - [[incumbents fail to respond to visible disruption because external structures lag even when executives see the threat clearly]] — structural not cognitive failure
 
 ## Economic Complexity

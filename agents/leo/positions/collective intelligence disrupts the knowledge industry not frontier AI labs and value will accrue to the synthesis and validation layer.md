@@ -8,7 +8,7 @@ outcome: pending
 confidence: moderate
 time_horizon: "12-24 months -- evaluable through beachhead domain agent performance by Q1 2028"
 depends_on:
-  - "[[centaur teams outperform both pure humans and pure AI because complementary strengths compound]]"
+  - "[[centaur team performance depends on role complementarity not mere human-AI combination]]"
   - "[[three paths to superintelligence exist but only collective superintelligence preserves human agency]]"
   - "[[narratives are infrastructure not just communication because they coordinate action at civilizational scale]]"
   - "[[grand strategy aligns unlimited aspirations with limited capabilities through proximate objectives]]"
@@ -28,7 +28,7 @@ The critical framing: frontier AI labs are simultaneously an incumbent in the kn
 ## Reasoning Chain
 
 Beliefs this depends on:
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- collective synthesis inherently outperforms pure AI because it combines human domain expertise with AI processing
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] -- collective synthesis inherently outperforms pure AI because it combines human domain expertise with AI processing
 - [[three paths to superintelligence exist but only collective superintelligence preserves human agency]] -- the architectural choice matters: collective intelligence preserves attribution and agency in ways monolithic AI cannot
 - [[grand strategy aligns unlimited aspirations with limited capabilities through proximate objectives]] -- the knowledge industry beachhead is the proximate objective toward collective superintelligence
 

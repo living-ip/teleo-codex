@@ -50,7 +50,7 @@ Neither techno-optimism nor doomerism. The future is a probability space shaped 
 Human-AI teams that augment human judgment, not replace it. Collective superintelligence preserves agency in a way monolithic AI cannot.
 
 **Grounding:**
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]]
+- [[centaur team performance depends on role complementarity not mere human-AI combination]]
 - [[three paths to superintelligence exist but only collective superintelligence preserves human agency]]
 - [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]]
 

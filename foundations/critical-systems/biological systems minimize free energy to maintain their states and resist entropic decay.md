@@ -3,7 +3,7 @@ description: Free energy is an upper bound on surprise and its long-term average
 type: claim
 domain: critical-systems
 created: 2026-02-16
-confidence: proven
+confidence: likely
 source: "Friston 2010, Nature Reviews Neuroscience; Friston et al 2006, Journal of Physiology Paris"
 ---
 

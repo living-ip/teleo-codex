@@ -61,4 +61,4 @@ The shared theory underlying Theseus's domain analysis lives in the foundations 
 - [[the alignment tax creates a structural race to the bottom because safety training costs capability and rational competitors skip it]] — structural race dynamics
 - [[no research group is building alignment through collective intelligence infrastructure despite the field converging on problems that require it]] — the institutional gap
 - [[collective superintelligence is the alternative to monolithic AI controlled by a few]] — the distributed alternative
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] — human-AI complementarity evidence
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] — human-AI complementarity evidence

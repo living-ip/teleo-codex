@@ -29,7 +29,7 @@ The deeper memetic point: synthesis shapes ideas while appearing to reflect them
 Relevant Notes:
 - [[meme propagation selects for simplicity novelty and conformity pressure rather than truth or utility]] -- synthesis that clarifies is itself memetic selection: the simplified version propagates while the original formulation fades
 - [[complex ideas propagate with higher fidelity through personal interaction than mass media because nuance requires bidirectional communication]] -- the three-beat pattern explains WHY personal interaction preserves fidelity: real-time synthesis enables correction and refinement
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- the conversational pattern IS a centaur interaction: human provides raw insight, AI provides synthesis and challenge
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] -- the conversational pattern IS a centaur interaction: human provides raw insight, AI provides synthesis and challenge
 - [[metaphor reframing is more powerful than argument because it changes which conclusions feel natural without requiring persuasion]] -- synthesis that reframes is a form of metaphor introduction: changing the vocabulary changes which conclusions feel natural
 - [[Boardy AI]] -- the AI system where this pattern was observed and analyzed
 

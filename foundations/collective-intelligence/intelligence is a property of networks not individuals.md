@@ -3,7 +3,7 @@ description: Every great achievement attributed to individuals -- Einstein, Jobs
 type: claim
 domain: collective-intelligence
 created: 2026-02-16
-confidence: proven
+confidence: likely
 source: "TeleoHumanity Manifesto, Chapter 4"
 ---
 

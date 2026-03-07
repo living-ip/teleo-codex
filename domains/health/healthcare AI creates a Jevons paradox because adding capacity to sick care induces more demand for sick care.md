@@ -26,7 +26,7 @@ Relevant Notes:
 - [[healthcare is a complex adaptive system requiring simple enabling rules not complicated management because standardized processes erode the clinical autonomy needed for value creation]] -- healthcare requires system change, not component optimization
 - [[prescription digital therapeutics failed as a business model because FDA clearance creates regulatory cost without the pricing power that justifies it for near-zero marginal cost software]] -- point solutions fail in healthcare because regulatory cost exceeds pricing power
 - [[healthcares defensible layer is where atoms become bits because physical-to-digital conversion generates the data that powers AI care while building patient trust that software alone cannot create]] -- the defensible position is at the atoms-to-bits conversion, not in AI engines alone
-- [[performance overshooting creates a vacuum for good-enough alternatives when products exceed what mainstream customers need]] -- AI diagnostic accuracy already exceeds physician performance on benchmarks, yet outcomes barely improve, suggesting the bottleneck is not accuracy but system integration
+- [[good management causes disruption because rational resource allocation systematically favors sustaining innovation over disruptive opportunities]] -- AI diagnostic accuracy already exceeds physician performance on benchmarks, yet outcomes barely improve, suggesting the bottleneck is not accuracy but system integration
 
 Topics:
 - health and wellness
