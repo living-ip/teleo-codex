@@ -84,4 +84,4 @@ Relevant Notes:
 Topics:
 - [[collective-intelligence/_map]]
 - [[teleohumanity/_map]]
-- [[ai-alignment domain]]
+- [[ai-alignment/_map]]
