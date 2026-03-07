@@ -28,7 +28,7 @@ Relevant Notes:
 - [[AI alignment is a coordination problem not a technical problem]] -- models being deployed in military contexts despite lacking judgment on catastrophic escalation is a coordination failure
 - [[scalable oversight degrades rapidly as capability gaps grow with debate achieving only 50 percent success at moderate gaps]] -- war game results suggest oversight in high-stakes military contexts would be even harder than debate experiments indicate
 - [[three paths to superintelligence exist but only collective superintelligence preserves human agency]] -- monolithic models making unilateral escalation decisions is the structural risk collective architectures avoid
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- the war games show precisely why human-in-the-loop matters: humans bring judgment about catastrophic irreversibility that models lack
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] -- the war games show precisely why human-in-the-loop matters: humans bring judgment about catastrophic irreversibility that models lack
 
 Topics:
 - [[_map]]

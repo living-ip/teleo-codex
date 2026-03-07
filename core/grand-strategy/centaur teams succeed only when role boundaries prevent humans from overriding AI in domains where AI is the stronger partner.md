@@ -7,7 +7,7 @@ confidence: experimental
 source: "Synthesis by Leo from: centaur team claim (Kasparov); HITL degradation claim (Wachter/Patil, Stanford-Harvard study); AI scribe adoption (Bessemer 2026); alignment scalable oversight claims"
 created: 2026-03-07
 depends_on:
-  - "centaur teams outperform both pure humans and pure AI because complementary strengths compound"
+  - "centaur team performance depends on role complementarity not mere human-AI combination"
   - "human-in-the-loop clinical AI degrades to worse-than-AI-alone because physicians both de-skill from reliance and introduce errors when overriding correct outputs"
   - "AI scribes reached 92 percent provider adoption in under 3 years because documentation is the rare healthcare workflow where AI value is immediate unambiguous and low-risk"
   - "scalable oversight degrades rapidly as capability gaps grow with debate achieving only 50 percent success at moderate gaps"
@@ -15,7 +15,7 @@ depends_on:
 
 # centaur teams succeed only when role boundaries prevent humans from overriding AI in domains where AI is the stronger partner
 
-The knowledge base contains a tension: centaur teams outperform both pure humans and pure AI in chess, but physicians with AI access score *worse* than AI alone in clinical diagnosis (68% vs 90%). This isn't a contradiction — it's a boundary condition that reveals when human-AI collaboration helps and when it hurts.
+The knowledge base contains a tension: centaur team performance depends on role complementarity in chess, but physicians with AI access score *worse* than AI alone in clinical diagnosis (68% vs 90%). This isn't a contradiction — it's a boundary condition that reveals when human-AI collaboration helps and when it hurts.
 
 **The evidence across domains:**
 
@@ -42,7 +42,7 @@ This is the centaur model done right: not human-verifies-AI, but human-and-AI-on
 ---
 
 Relevant Notes:
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] — the chess evidence establishing the centaur model
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] — the chess evidence establishing the centaur model
 - [[human-in-the-loop clinical AI degrades to worse-than-AI-alone because physicians both de-skill from reliance and introduce errors when overriding correct outputs]] — the clinical counter-evidence constraining when the model applies
 - [[AI scribes reached 92 percent provider adoption in under 3 years because documentation is the rare healthcare workflow where AI value is immediate unambiguous and low-risk]] — the success case with clear role boundaries
 - [[scalable oversight degrades rapidly as capability gaps grow with debate achieving only 50 percent success at moderate gaps]] — alignment oversight facing the same boundary problem

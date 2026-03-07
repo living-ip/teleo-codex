@@ -15,13 +15,13 @@ The emerging architecture runs through AI: (1) wearable captures continuous data
 
 What IS clinically integrated today: Apple Watch ECG/AFib detection (qualified as FDA Medical Device Development Tool), CGMs for diabetes, and expanding Medicare RPM codes (new CPT 99445 and 99470 in 2026 allowing billing for as few as 2-15 days of data). What is NOT integrated despite data availability: HRV trends, sleep staging, activity data, continuous SpO2 trends, strain/recovery scores, CGM data for non-diabetics.
 
-FHIR R6 (expected 2026) is the interoperability standard enabling wearable-to-EHR data exchange. But interoperability alone is insufficient -- without AI processing, more data access just creates more alert fatigue. Since [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]], the monitoring centaur is AI handling data volume while clinicians provide judgment and context.
+FHIR R6 (expected 2026) is the interoperability standard enabling wearable-to-EHR data exchange. But interoperability alone is insufficient -- without AI processing, more data access just creates more alert fatigue. Since [[centaur team performance depends on role complementarity not mere human-AI combination]], the monitoring centaur is AI handling data volume while clinicians provide judgment and context.
 
 ---
 
 Relevant Notes:
 - [[continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware]] -- the full sensor architecture this middleware enables
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- the monitoring centaur: AI handles volume, humans provide judgment
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] -- the monitoring centaur: AI handles volume, humans provide judgment
 
 Topics:
 - livingip overview

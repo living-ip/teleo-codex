@@ -41,7 +41,7 @@ Three paths to superintelligence: speed (making existing architectures faster), 
 **Grounding:**
 - [[three paths to superintelligence exist but only collective superintelligence preserves human agency]] -- the three-path framework
 - [[collective superintelligence is the alternative to monolithic AI controlled by a few]] -- the power distribution argument
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- the empirical evidence for human-AI complementarity
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] -- the empirical evidence for human-AI complementarity
 
 **Challenges considered:** Collective systems are slower than monolithic ones — in a race, the monolithic approach wins the capability contest. Coordination overhead reduces the effective intelligence of distributed systems. The "collective" approach may be structurally inferior for certain tasks (rapid response, unified action, consistency). Counter: the speed disadvantage is real for some tasks but irrelevant for alignment — you don't need the fastest system, you need the safest one. And collective systems have superior properties for the alignment-relevant qualities: diversity, error correction, representation of multiple value systems.
 

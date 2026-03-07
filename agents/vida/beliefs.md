@@ -54,7 +54,7 @@ Early detection and prevention costs a fraction of acute care. A $500 remote mon
 AI achieves specialist-level accuracy in narrow diagnostic tasks (radiology, pathology, dermatology). But clinical medicine is not a collection of narrow diagnostic tasks — it is complex decision-making under uncertainty with incomplete information, patient preferences, and ethical dimensions that current AI cannot handle. The model is centaur, not replacement: AI handles pattern recognition at superhuman scale while physicians handle judgment, communication, and care.
 
 **Grounding:**
-- [[centaur teams outperform both pure humans and pure AI because complementary strengths compound]] -- the general principle
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] -- the general principle
 - [[healthcares defensible layer is where atoms become bits because physical-to-digital conversion generates the data that powers AI care while building patient trust that software alone cannot create]] -- trust as a clinical necessity
 - [[the personbyte is a fundamental quantization limit on knowledge accumulation forcing all complex production into networked teams]] -- clinical medicine exceeds individual cognitive capacity
 
