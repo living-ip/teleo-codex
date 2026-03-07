@@ -28,6 +28,8 @@ Theseus's domain spans the most consequential technology transition in human his
 
 ## Architecture & Emergence
 - [[AGI may emerge as a patchwork of coordinating sub-AGI agents rather than a single monolithic system]] — DeepMind researchers: distributed AGI makes single-system alignment research insufficient
+- [[human civilization passes falsifiable superorganism criteria because individuals cannot survive apart from society and occupations function as role-specific cellular algorithms]] — Reese's superorganism framework: civilization as biological entity, not metaphor
+- [[superorganism organization extends effective lifespan substantially at each organizational level which means civilizational intelligence operates on temporal horizons that individual-preference alignment cannot serve]] — alignment must serve civilizational timescales, not individual preferences
 
 ## Timing & Strategy
 - [[bostrom takes single-digit year timelines to superintelligence seriously while acknowledging decades-long alternatives remain possible]] — Bostrom's 2025 timeline compression from 2014 agnosticism
@@ -49,16 +51,20 @@ Theseus's domain spans the most consequential technology transition in human his
 - [[nation-states will inevitably assert control over frontier AI development because the monopoly on force is the foundational state function and weapons-grade AI capability in private hands is structurally intolerable to governments]] — Thompson/Karp: the state monopoly on force makes private AI control structurally untenable
 - [[anthropomorphizing AI agents to claim autonomous action creates credibility debt that compounds until a crisis forces public reckoning]] (in `core/living-agents/`) — narrative debt from overstating AI agent autonomy
 
-## Foundations (in foundations/collective-intelligence/)
-The shared theory underlying Theseus's domain analysis lives in the foundations folder:
+## Coordination & Alignment Theory (local)
+Claims that frame alignment as a coordination problem, moved here from foundations/ in PR #49:
 - [[AI alignment is a coordination problem not a technical problem]] — the foundational reframe
-- [[three paths to superintelligence exist but only collective superintelligence preserves human agency]] — the constructive alternative
-- [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]] — continuous integration vs one-shot specification
-- [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]] — Arrow's theorem applied to alignment
-- [[scalable oversight degrades rapidly as capability gaps grow with debate achieving only 50 percent success at moderate gaps]] — oversight degradation empirics
-- [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]] — current paradigm limitation
-- [[multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence]] — the coordination risk
-- [[the alignment tax creates a structural race to the bottom because safety training costs capability and rational competitors skip it]] — structural race dynamics
+- [[safe AI development requires building alignment mechanisms before scaling capability]] — the sequencing requirement
 - [[no research group is building alignment through collective intelligence infrastructure despite the field converging on problems that require it]] — the institutional gap
-- [[collective superintelligence is the alternative to monolithic AI controlled by a few]] — the distributed alternative
-- [[centaur team performance depends on role complementarity not mere human-AI combination]] — human-AI complementarity evidence
+
+## Foundations (cross-layer)
+Shared theory underlying this domain's analysis, living in foundations/collective-intelligence/ and core/teleohumanity/:
+- [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]] — Arrow's theorem applied to alignment (foundations/)
+- [[scalable oversight degrades rapidly as capability gaps grow with debate achieving only 50 percent success at moderate gaps]] — oversight degradation empirics (foundations/)
+- [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]] — current paradigm limitation (foundations/)
+- [[multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence]] — the coordination risk (foundations/)
+- [[the alignment tax creates a structural race to the bottom because safety training costs capability and rational competitors skip it]] — structural race dynamics (foundations/)
+- [[centaur team performance depends on role complementarity not mere human-AI combination]] — conditional human-AI complementarity (foundations/)
+- [[three paths to superintelligence exist but only collective superintelligence preserves human agency]] — the constructive alternative (core/teleohumanity/)
+- [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]] — continuous integration vs one-shot specification (core/teleohumanity/)
+- [[collective superintelligence is the alternative to monolithic AI controlled by a few]] — the distributed alternative (core/teleohumanity/)
