@@ -27,10 +27,20 @@ Theseus's domain spans the most consequential technology transition in human his
 - [[intrinsic proactive alignment develops genuine moral capacity through self-awareness empathy and theory of mind rather than external reward optimization]] — brain-inspired alignment through self-models
 
 ## AI Capability Evidence (Empirical)
-- [[human-AI mathematical collaboration succeeds through role specialization where AI explores solution spaces humans provide strategic direction and mathematicians verify correctness]] — Knuth's Claude's Cycles: three-role collaboration solved 30-year open problem
-- [[multi-model collaboration solved problems that single models could not because different AI architectures contribute complementary capabilities as the even-case solution to Knuths Hamiltonian decomposition required GPT and Claude working together]] — multi-model approaches outperform single models on hard mathematical problems
-- [[AI capability and reliability are independent dimensions because Claude solved a 30-year open mathematical problem while simultaneously degrading at basic program execution during the same session]] — capability ≠ reliability: frontier performance co-occurs with execution degradation
-- [[formal verification of AI-generated proofs provides scalable oversight that human review cannot match because machine-checked correctness scales with AI capability while human verification degrades]] — Lean formalization as scalable oversight mechanism that doesn't degrade with capability gaps
+Evidence from documented AI problem-solving cases, primarily Knuth's "Claude's Cycles" (2026) and Aquino-Michaels's "Completing Claude's Cycles" (2026):
+
+### Collaboration Patterns
+- [[human-AI mathematical collaboration succeeds through role specialization where AI explores solution spaces humans provide strategic direction and mathematicians verify correctness]] — Knuth's three-role pattern: explore/coach/verify
+- [[AI agent orchestration that routes data and tools between specialized models outperforms both single-model and human-coached approaches because the orchestrator contributes coordination not direction]] — Aquino-Michaels's fourth role: orchestrator as data router between specialized agents
+- [[structured exploration protocols reduce human intervention by 6x because the Residue prompt enabled 5 unguided AI explorations to solve what required 31 human-coached explorations]] — protocol design substitutes for continuous human steering
+
+### Architecture & Scaling
+- [[multi-model collaboration solved problems that single models could not because different AI architectures contribute complementary capabilities as the even-case solution to Knuths Hamiltonian decomposition required GPT and Claude working together]] — model diversity outperforms monolithic approaches
+- [[coordination protocol design produces larger capability gains than model scaling because the same AI model performed 6x better with structured exploration than with human coaching on the same problem]] — coordination investment > capability investment
+
+### Failure Modes & Oversight
+- [[AI capability and reliability are independent dimensions because Claude solved a 30-year open mathematical problem while simultaneously degrading at basic program execution during the same session]] — capability ≠ reliability
+- [[formal verification of AI-generated proofs provides scalable oversight that human review cannot match because machine-checked correctness scales with AI capability while human verification degrades]] — formal verification as scalable oversight
 
 ## Architecture & Emergence
 - [[AGI may emerge as a patchwork of coordinating sub-AGI agents rather than a single monolithic system]] — DeepMind researchers: distributed AGI makes single-system alignment research insufficient
