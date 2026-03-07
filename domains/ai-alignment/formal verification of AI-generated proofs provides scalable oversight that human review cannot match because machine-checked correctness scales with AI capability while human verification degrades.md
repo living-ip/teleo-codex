@@ -9,7 +9,9 @@ created: 2026-03-07
 
 # formal verification of AI-generated proofs provides scalable oversight that human review cannot match because machine-checked correctness scales with AI capability while human review degrades
 
-Three days after Knuth published his proof of Claude's Hamiltonian decomposition construction, Kim Morrison from the Lean community formalized the proof in Lean, providing machine-checked verification of correctness. Knuth's response: "That's good to know, because I've been getting more errorprone lately."
+Three days after Knuth published his proof of Claude's Hamiltonian decomposition construction, Kim Morrison from the Lean community formalized the proof in Lean 4, providing machine-checked verification of correctness. Knuth's response: "That's good to know, because I've been getting more errorprone lately."
+
+The formalization uses Comparator, explicitly designed as a "trustworthy judge for potentially adversarial proofs, including AI-generated proofs." The trust model is precise: you must trust the Lean kernel, Mathlib, and the theorem specification in Challenge.lean (definitions + statement). You do NOT need to trust the ~1,600 lines of proof in Basic.lean — Comparator verifies this automatically under three permitted axioms (propext, Quot.sound, Classical.choice). The verification bottleneck is the *specification* (did we state the right theorem?), not the *proof* (is this derivation correct?).
 
 This episode illustrates a concrete alignment mechanism: formal verification as scalable oversight for AI-generated mathematical results. The significance for alignment:
 

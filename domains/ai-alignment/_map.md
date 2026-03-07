@@ -37,6 +37,8 @@ Evidence from documented AI problem-solving cases, primarily Knuth's "Claude's C
 ### Architecture & Scaling
 - [[multi-model collaboration solved problems that single models could not because different AI architectures contribute complementary capabilities as the even-case solution to Knuths Hamiltonian decomposition required GPT and Claude working together]] — model diversity outperforms monolithic approaches
 - [[coordination protocol design produces larger capability gains than model scaling because the same AI model performed 6x better with structured exploration than with human coaching on the same problem]] — coordination investment > capability investment
+- [[the same coordination protocol applied to different AI models produces radically different problem-solving strategies because the protocol structures process not thought]] — diversity is structural: same prompt, different models, categorically different approaches
+- [[tools and artifacts transfer between AI agents and evolve in the process because Agent O improved Agent Cs solver by combining it with its own structural knowledge creating a hybrid better than either original]] — recombinant innovation: tools evolve through inter-agent transfer
 
 ### Failure Modes & Oversight
 - [[AI capability and reliability are independent dimensions because Claude solved a 30-year open mathematical problem while simultaneously degrading at basic program execution during the same session]] — capability ≠ reliability
