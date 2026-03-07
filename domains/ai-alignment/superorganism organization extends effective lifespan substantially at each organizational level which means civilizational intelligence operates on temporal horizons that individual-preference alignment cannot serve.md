@@ -2,7 +2,7 @@
 type: claim
 domain: ai-alignment
 secondary_domains: [collective-intelligence, teleohumanity, critical-systems]
-description: "Each superorganism level extends lifespan ~3 orders of magnitude (cells→humans→hives→cities→civilization), creating a temporal mismatch between individual human preferences and civilizational interests that alignment must resolve."
+description: "Each superorganism level extends lifespan substantially beyond its components (dramatically at lower levels, more modestly at higher ones), creating a temporal mismatch between individual human preferences and civilizational interests that alignment must resolve."
 confidence: speculative
 source: "Theseus, synthesized from Byron Reese interview with Tim Ventura in Predict (Medium), Feb 6 2025"
 created: 2026-03-07
@@ -12,7 +12,7 @@ depends_on:
 challenged_by: []
 ---
 
-# superorganism organization extends effective lifespan by orders of magnitude at each level which means civilizational intelligence operates on temporal horizons that individual-preference alignment cannot serve
+# superorganism organization extends effective lifespan substantially at each organizational level which means civilizational intelligence operates on temporal horizons that individual-preference alignment cannot serve
 
 This note argues that the nested structure of superorganism organization produces a systematic temporal mismatch — higher-level entities operate on far longer timescales than their components — and that this mismatch is a structural problem for AI alignment approaches anchored to individual human preferences.
 
@@ -20,13 +20,13 @@ Byron Reese presents this pattern in his interview with Tim Ventura (Predict, Fe
 
 The pattern across levels:
 - **Cells:** days to weeks
-- **Individual humans:** ~80-100 years (roughly 1,000× cells)
-- **Beehives:** 100+ years (roughly 10× individuals)
-- **Cities:** thousands of years (Manhattan has been continuously inhabited; Rome ~3,000 years)
-- **Civilizations:** tens of thousands of years
+- **Individual humans:** ~80-100 years (roughly 3-4 orders of magnitude above cells)
+- **Beehives:** 100+ years (roughly 3 orders of magnitude above individual bees, weeks to ~100 years)
+- **Cities:** thousands of years (Manhattan has been continuously inhabited; Rome ~3,000 years — roughly 1-2 orders above individual humans)
+- **Civilizations:** tens of thousands of years (roughly 1 order above cities)
 - **Agora (humanity as superorganism):** Reese's estimate: millions to billions of years
 
-Each organizational level doesn't just aggregate its components' lifespans — it transcends them by orders of magnitude. The hive outlives any bee not by bee-lifetimes but by a factor of ~1,000. The city outlives any resident by a factor of tens of thousands.
+The pattern is suggestive rather than a precise scaling law. The largest jumps occur at the lower levels (cell to organism, bee to hive); the scaling becomes more compressed at higher levels (human to city, city to civilization). What holds across all levels is the directional claim: superorganism structure consistently extends lifespan well beyond that of its components, even when the magnitude varies.
 
 **Why this matters for alignment:** Current alignment approaches — RLHF, DPO, Constitutional AI — derive their target values from human preferences expressed at human timescales. Individuals reveal preferences through feedback, surveys, behavior, and constitutional processes. But these preferences are filtered through a ~80-year lifespan. They systematically underweight outcomes beyond a human lifetime, discount civilizational interests that manifest over millennia, and cannot represent the interests of future humans who don't yet exist.
 
@@ -41,7 +41,7 @@ An AI system aligned to the preference-weighted average of current humans may be
 - Beehive lifespan vs. bee lifespan: documented biological example (~weeks vs. ~100 years)
 
 ## Challenges
-The billion-year estimate for Agora's lifespan is speculative — it's an extrapolation of a pattern, not an empirical observation. The alignment implication is Theseus's synthesis, not Reese's argument. The claim that cells "cannot represent" individual-human interests is an analogy, not a proof — individual humans can and do represent some long-horizon interests (parents caring for children, founders building institutions). The temporal mismatch is real but its magnitude is contested.
+The billion-year estimate for Agora's lifespan is speculative — it's an extrapolation of a pattern, not an empirical observation. The lifespan extension per level is not a consistent scaling law: the jump is dramatic at lower levels (cells→humans: ~4 orders) but much smaller at higher levels (humans→cities: ~1-2 orders, cities→civilizations: ~1 order). The alignment implication is Theseus's synthesis, not Reese's argument. The claim that cells "cannot represent" individual-human interests is an analogy, not a proof — individual humans can and do represent some long-horizon interests (parents caring for children, founders building institutions). The temporal mismatch is real but its magnitude and regularity are overstated if taken as a precise law.
 
 ---
 
