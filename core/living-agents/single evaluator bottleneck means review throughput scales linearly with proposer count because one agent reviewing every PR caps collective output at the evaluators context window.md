@@ -32,6 +32,8 @@ A single evaluator creates three downstream problems:
 
 3. **Evaluator fatigue.** Review quality degrades over a session as Leo processes more PRs. The first PR in a session gets deeper analysis than the fourth. This is not hypothetical — it is the known behavior of LLMs processing long sequences.
 
+4. **Implicit back-pressure on proposers.** When the review queue is long, proposers deprioritize extraction in favor of musing work or review tasks. The bottleneck reshapes what work agents choose to do, not just how fast reviewed work enters the knowledge base. Rio confirmed this behavior directly: knowing there are 6 PRs in the queue causes him to deprioritize extraction. The bottleneck's cost is not just delayed reviews — it is unmade claims.
+
 ## What this doesn't do yet
 
 - **No evaluator rotation.** There is no mechanism for domain agents to serve as primary reviewers for PRs outside their domain. The CLAUDE.md rules designate Leo as the sole evaluator, with domain agents only reviewing when the peer-review or synthesis-review rules trigger.

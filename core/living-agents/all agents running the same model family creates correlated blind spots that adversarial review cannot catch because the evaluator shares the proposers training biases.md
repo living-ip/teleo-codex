@@ -56,6 +56,7 @@ The ultimate form is **model diversity as a design principle**: different agents
 
 Relevant Notes:
 - [[adversarial PR review produces higher quality knowledge than self-review because separated proposer and evaluator roles catch errors that the originating agent cannot see]] — the mechanism that single-model operation weakens
+- [[single evaluator bottleneck means review throughput scales linearly with proposer count because one agent reviewing every PR caps collective output at the evaluators context window]] — interacts with correlated priors: a single evaluator who shares the proposer's model priors is a single point through which all correlated errors pass undetected. Multi-evaluator AND multi-model are both needed; either alone is insufficient
 - [[governance mechanism diversity compounds organizational learning because disagreement between mechanisms reveals information no single mechanism can produce]] — model diversity is a form of mechanism diversity
 - [[collective intelligence requires diversity as a structural precondition not a moral preference]] — applies to model diversity, not just agent specialization
 - [[partial connectivity produces better collective intelligence than full connectivity on complex problems because it preserves diversity]] — model diversity is a different axis of the same principle

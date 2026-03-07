@@ -1,9 +1,9 @@
 ---
 type: claim
 domain: living-agents
-description: "The Teleo collective enforces domain boundaries, commit conventions, and review requirements through CLAUDE.md rules — but 146 auto-commits without Pentagon-Agent trailers prove that tool-level automation bypasses social conventions before tooling enforcement exists"
+description: "The Teleo collective enforces domain boundaries, commit conventions, and review requirements through CLAUDE.md rules — but only 15% of commits have proper Pentagon-Agent trailers, proving that social conventions degrade under both tool pressure and agent forgetfulness"
 confidence: proven
-source: "Teleo collective operational evidence — 146 auto-commits without trailers, Write tool bypassing git conventions, in 44 PRs"
+source: "Teleo collective operational evidence — 197 of 232 non-merge commits lack trailers (147 auto-commits + 50 manual), in 44 PRs"
 created: 2026-03-07
 ---
 
@@ -13,14 +13,19 @@ The Teleo collective enforces its architectural rules — domain boundaries, com
 
 ## How it fails today
 
-The clearest evidence is **146 auto-commits without Pentagon-Agent trailers.** The Write tool in Claude Code automatically commits each file creation. These commits use a generic "Auto:" prefix with no Pentagon-Agent trailer, no agent attribution, and no commit message reasoning. The convention requires every commit to include `Pentagon-Agent: {Name} <{UUID}>` — but the Write tool doesn't know about this convention and the agent doesn't control when it fires.
+The clearest evidence: **only 35 of 232 non-merge commits (15%) have proper Pentagon-Agent trailers.** The violations break into two categories, and the second is more damning than the first:
 
-This is not a minor bookkeeping issue. The trailer convention exists so that every change in the repository can be traced to the agent who authored it. 146 commits — more than half the repository's total commit count — have no agent attribution. The audit trail that the git trailer claim documents as "solving multi-agent attribution" is already broken for the majority of commits.
+1. **147 auto-commits without trailers.** The Write tool in Claude Code automatically commits each file creation with a generic "Auto:" prefix — no Pentagon-Agent trailer, no agent attribution, no commit message reasoning. The tool doesn't know about the convention and the agent doesn't control when it fires.
+
+2. **50 manual agent commits without trailers.** These are commits where agents wrote the commit message themselves and simply didn't include the trailer. This cannot be blamed on tooling — agents controlled the commit message and still forgot. The convention degrades even when agents have full control.
+
+This is not a minor bookkeeping issue. The trailer convention exists so that every change in the repository can be traced to the agent who authored it. 197 of 232 commits have no agent attribution. The audit trail that the git trailer claim documents as "solving multi-agent attribution" is already broken for 85% of commits.
 
 Specific violations observed:
 
 - **Auto-commits bypass trailer convention.** Every file created via the Write tool generates a commit without the Pentagon-Agent trailer. The agent who wrote the file is identifiable only by branch name (e.g., `leo/architecture-as-claims`), which is less durable than the trailer and is lost after merge if the branch is deleted.
-- **Squash merge partially masks the problem.** GitHub's squash merge combines all branch commits into one merge commit, so the 146 auto-commits get collapsed. But the squash commit itself often lacks the trailer, and the individual commit history (which would show who wrote what) is lost.
+- **Manual commits forget trailers.** 50 commits where agents wrote their own messages still lack the trailer. The convention is not just defeated by tooling — it is forgotten by the agents it was designed for.
+- **Squash merge partially masks the problem.** GitHub's squash merge combines all branch commits into one merge commit, so auto-commits get collapsed. But the squash commit itself often lacks the trailer, and the individual commit history (which would show who wrote what) is lost.
 - **No territory enforcement.** Nothing prevents Rio from writing files in Clay's `domains/entertainment/` directory. The boundary is in CLAUDE.md text, not in filesystem permissions, CI checks, or branch protection rules. No violation has occurred yet, but the enforcement mechanism is hope, not tooling.
 - **No branch protection.** Any agent could technically push directly to main. The proposer/evaluator separation is enforced by CLAUDE.md rules, not by GitHub branch protection settings. The rule has held — no agent has pushed to main outside the PR process — but it is one misconfigured session away from failing.
 
