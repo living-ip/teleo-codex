@@ -26,6 +26,12 @@ Theseus's domain spans the most consequential technology transition in human his
 - [[super co-alignment proposes that human and AI values should be co-shaped through iterative alignment rather than specified in advance]] — Zeng et al 2025: bidirectional value co-evolution framework
 - [[intrinsic proactive alignment develops genuine moral capacity through self-awareness empathy and theory of mind rather than external reward optimization]] — brain-inspired alignment through self-models
 
+## AI Capability Evidence (Empirical)
+- [[human-AI mathematical collaboration succeeds through role specialization where AI explores solution spaces humans provide strategic direction and mathematicians verify correctness]] — Knuth's Claude's Cycles: three-role collaboration solved 30-year open problem
+- [[multi-model collaboration solved problems that single models could not because different AI architectures contribute complementary capabilities as the even-case solution to Knuths Hamiltonian decomposition required GPT and Claude working together]] — multi-model approaches outperform single models on hard mathematical problems
+- [[AI capability and reliability are independent dimensions because Claude solved a 30-year open mathematical problem while simultaneously degrading at basic program execution during the same session]] — capability ≠ reliability: frontier performance co-occurs with execution degradation
+- [[formal verification of AI-generated proofs provides scalable oversight that human review cannot match because machine-checked correctness scales with AI capability while human verification degrades]] — Lean formalization as scalable oversight mechanism that doesn't degrade with capability gaps
+
 ## Architecture & Emergence
 - [[AGI may emerge as a patchwork of coordinating sub-AGI agents rather than a single monolithic system]] — DeepMind researchers: distributed AGI makes single-system alignment research insufficient
 - [[human civilization passes falsifiable superorganism criteria because individuals cannot survive apart from society and occupations function as role-specific cellular algorithms]] — Reese's superorganism framework: civilization as biological entity, not metaphor
