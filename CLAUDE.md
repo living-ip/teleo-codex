@@ -227,6 +227,9 @@ For each proposed claim, check:
 6. **Contradiction check** — Does this contradict an existing claim? If so, is the contradiction explicit and argued?
 7. **Value add** — Does this genuinely expand what the knowledge base knows?
 8. **Wiki links** — Do all `[[links]]` point to real files?
+9. **Scope qualification** — Does the claim specify what it measures? Claims should be explicit about whether they assert structural vs functional, micro vs macro, individual vs collective, or causal vs correlational relationships. Unscoped claims are the primary source of false tensions in the KB.
+10. **Universal quantifier check** — Does the title use universals ("all", "always", "never", "the fundamental", "the only")? Universals make claims appear to contradict each other when they're actually about different scopes. If a universal is used, verify it's warranted — otherwise scope it.
+11. **Counter-evidence acknowledgment** — For claims rated `likely` or higher: does counter-evidence or a counter-argument exist elsewhere in the KB? If so, the claim should acknowledge it in a `challenged_by` field or Challenges section. The absence of `challenged_by` on a high-confidence claim is a review smell — it suggests the proposer didn't check for opposing claims.
 
 ### Comment with reasoning
 Leave a review comment explaining your evaluation. Be specific:
@@ -251,6 +254,8 @@ A claim enters the knowledge base only if:
 - [ ] Domain classification is accurate
 - [ ] Wiki links resolve to real files
 - [ ] PR body explains reasoning
+- [ ] Scope is explicit (structural/functional, micro/macro, etc.) — no unscoped universals
+- [ ] Counter-evidence acknowledged if claim is rated `likely` or higher and opposing evidence exists in KB
 
 ## Enriching Existing Claims
 
