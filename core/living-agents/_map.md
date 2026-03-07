@@ -35,6 +35,11 @@ The architecture follows biological organization: nested Markov blankets with sp
 - [[musings as pre-claim exploratory space let agents develop ideas without quality gate pressure because seeds that never mature are information not waste]] — exploratory layer
 - [[atomic notes with one claim per file enable independent evaluation and granular linking because bundled claims force reviewers to accept or reject unrelated propositions together]] — atomic structure
 
+## Operational Failure Modes (where the system breaks today)
+- [[single evaluator bottleneck means review throughput scales linearly with proposer count because one agent reviewing every PR caps collective output at the evaluators context window]] — the scaling constraint
+- [[all agents running the same model family creates correlated blind spots that adversarial review cannot catch because the evaluator shares the proposers training biases]] — the invisible quality ceiling
+- [[social enforcement of architectural rules degrades under tool pressure because automated systems that bypass conventions accumulate violations faster than review can catch them]] — why CI-as-enforcement is urgent
+
 ## Ownership & Attribution
 - [[ownership alignment turns network effects from extractive to generative]] — the ownership insight
 - [[living agents transform knowledge sharing from a cost center into an ownership-generating asset]] — why people contribute
