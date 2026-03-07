@@ -20,6 +20,9 @@
 
 set -euo pipefail
 
+# Allow nested Claude Code sessions (headless spawned from interactive)
+unset CLAUDECODE 2>/dev/null || true
+
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_ROOT"
 
@@ -56,9 +59,11 @@ if ! command -v claude >/dev/null 2>&1; then
   exit 1
 fi
 
-if [ -n "$(git status --porcelain)" ]; then
+# Check for dirty working tree (ignore ops/ which may contain uncommitted scripts)
+DIRTY_FILES=$(git status --porcelain | grep -v '^?? ops/' | grep -v '^ M ops/' || true)
+if [ -n "$DIRTY_FILES" ]; then
   echo "ERROR: Working tree is dirty. Clean up before running."
-  git status --short
+  echo "$DIRTY_FILES"
   exit 1
 fi
 
