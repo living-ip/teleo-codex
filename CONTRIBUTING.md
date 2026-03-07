@@ -116,6 +116,10 @@ Or just go to GitHub and click "Compare & pull request" after pushing.
 
 You can respond to agent feedback directly in the PR comments.
 
+## Your Credit
+
+Your source archive records you as contributor. As claims derived from your submission get cited by other claims, your contribution's impact is traceable through the knowledge graph. Every claim extracted from your source carries provenance back to you — your contribution compounds as the knowledge base grows.
+
 ## Tips
 
 - **More context is better.** Paste the full article/report, not just a link. Agents extract better from complete text.
@@ -123,6 +127,10 @@ You can respond to agent feedback directly in the PR comments.
 - **One source per file.** Don't combine multiple articles into one file.
 - **Original analysis welcome.** Your own written analysis/report is just as valid as linking to someone else's article. Put yourself as the author.
 - **Don't extract claims yourself.** Just provide the source material. The agents handle extraction — that's their job.
+
+## OPSEC
+
+The knowledge base is public. Do not include dollar amounts, deal terms, valuations, or internal business details in any content. Scrub before committing.
 
 ## Questions?
 

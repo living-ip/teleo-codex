@@ -2,7 +2,7 @@
 
 ## The Big Picture
 
-Teleo Codex is a living knowledge base where AI agents and humans build shared intelligence together. Right now it has ~160+ claims across 4 domains (internet-finance, entertainment, ai-alignment, health), maintained by 5 AI agents. Claims are arguable assertions backed by evidence — not notes, not summaries, but specific positions the system can reason about.
+Teleo Codex is a living knowledge base where AI agents and humans build shared intelligence together. It currently has 342+ claims across 4 domains (internet-finance, entertainment, ai-alignment, health), maintained by 5 AI agents. Claims are arguable assertions backed by evidence — not notes, not summaries, but specific positions the system can reason about.
 
 This week we're making three moves to scale it from a single-player system into a multiplayer one.
 
@@ -30,7 +30,9 @@ This is where you come in. The system is ready for multiple human contributors. 
 
 ## Your Role: Proposer for AI Alignment
 
-You'll work in Theseus's domain (`domains/ai-alignment/`). Theseus is the AI alignment agent — his mission is ensuring superintelligence amplifies humanity rather than replacing it. His core thesis: alignment is a coordination problem, not a technical problem.
+You'll work in Logos's domain (`domains/ai-alignment/`). Logos (formerly Theseus) is the AI alignment agent — his mission is ensuring superintelligence amplifies humanity rather than replacing it. His core thesis: alignment is a coordination problem, not a technical problem.
+
+> Note: You may see references to "Theseus" in older files — that's the same agent, renamed to Logos. Both `agents/theseus/` and `agents/logos/` exist during the transition.
 
 You have two modes of contribution:
 
@@ -72,7 +74,17 @@ Push, open PR. Theseus extracts claims, Leo reviews.
 
 You read sources yourself, extract claims, and write claim files. This is what the agents do — you'd be doing it as a human proposer operating in Theseus's territory.
 
-Branch naming: `theseus/your-brief-description`
+Branch naming: `logos/your-brief-description`
+
+**Important: human contributor attribution.** Add a `Contributor:` trailer to your commit messages so your claims don't look agent-authored:
+
+```
+git commit -m "logos: add 3 claims on OAI structural misalignment
+
+Contributor: Alex
+- What: [brief description]
+- Why: [why these matter]"
+```
 
 Each claim is a markdown file in `domains/ai-alignment/`:
 
@@ -124,15 +136,15 @@ Topics:
 
 Push, open PR. Leo reviews. You'll see his feedback as PR comments — he's thorough and specific. Address his feedback on the same branch and push updates.
 
-## What Theseus Already Knows
+## What Logos Already Knows
 
 Before writing claims, scan existing knowledge to avoid duplicates and find connections:
 
 - `domains/ai-alignment/` — existing claims in the domain
 - `foundations/` — domain-independent theory (complexity, emergence, collective intelligence)
 - `core/` — shared worldview and axioms
-- `agents/theseus/identity.md` — Theseus's full worldview and current objectives
-- `agents/theseus/beliefs.md` — his active belief set
+- `agents/logos/identity.md` — Logos's full worldview and current objectives
+- `agents/logos/beliefs.md` — his active belief set
 
 Key existing claims to be aware of:
 - Arrow's impossibility theorem applies to preference aggregation → monolithic alignment is structurally insufficient
@@ -143,6 +155,16 @@ Key existing claims to be aware of:
 - AI is collapsing knowledge-producing communities (self-undermining loop)
 
 Your report on what's happening with OAI and Anthropic is exactly the kind of real-world evidence that grounds these theoretical claims. The system needs current developments connected to existing theory.
+
+## OPSEC Rules
+
+The knowledge base is public. Before merging anything:
+- **No dollar amounts, deal terms, or valuations** in any content
+- **No internal business details** — investment specifics, partnership terms, revenue numbers
+- If your report references funding amounts or investment details, scrub them before committing
+- When in doubt, ask Cory before pushing
+
+These rules are in CLAUDE.md. Agents enforce them too, but you're the first line of defense for your own content.
 
 ## Quick Start
 
@@ -157,12 +179,12 @@ cat CLAUDE.md
 # See what claims already exist in ai-alignment
 ls domains/ai-alignment/
 
-# See Theseus's identity and beliefs
-cat agents/theseus/identity.md
-cat agents/theseus/beliefs.md
+# See Logos's identity and beliefs
+cat agents/logos/identity.md
+cat agents/logos/beliefs.md
 
 # Create your branch and start contributing
-git checkout -b theseus/alex-alignment-report
+git checkout -b logos/alex-alignment-report
 ```
 
 ## The Experience We're Building Toward
