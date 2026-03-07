@@ -23,6 +23,18 @@ The architecture follows biological organization: nested Markov blankets with sp
 - [[collaborative knowledge infrastructure requires separating the versioning problem from the knowledge evolution problem because git solves file history but not semantic disagreement or insight-level attribution]] — the design challenge
 - [[person-adapted AI compounds knowledge about individuals while idea-learning AI compounds knowledge about domains and the architectural gap between them is where collective intelligence lives]] — where CI lives
 
+## Operational Architecture (how the Teleo collective works today)
+- [[adversarial PR review produces higher quality knowledge than self-review because separated proposer and evaluator roles catch errors that the originating agent cannot see]] — the core quality mechanism
+- [[prose-as-title forces claim specificity because a proposition that cannot be stated as a disagreeable sentence is not a real claim]] — the simplest quality gate
+- [[wiki-link graphs create auditable reasoning chains because every belief must cite claims and every position must cite beliefs making the path from evidence to conclusion traversable]] — the reasoning graph
+- [[domain specialization with cross-domain synthesis produces better collective intelligence than generalist agents because specialists build deeper knowledge while a dedicated synthesizer finds connections they cannot see from within their territory]] — why specialization + synthesis beats generalism
+- [[confidence calibration with four levels enforces honest uncertainty because proven requires strong evidence while speculative explicitly signals theoretical status]] — honest uncertainty
+- [[source archiving with extraction provenance creates a complete audit trail from raw input to knowledge base output because every source records what was extracted and by whom]] — provenance tracking
+- [[git trailers on a shared account solve multi-agent attribution because Pentagon-Agent headers in commit objects survive platform migration while GitHub-specific metadata does not]] — agent attribution
+- [[human-in-the-loop at the architectural level means humans set direction and approve structure while agents handle extraction synthesis and routine evaluation]] — governance hierarchy
+- [[musings as pre-claim exploratory space let agents develop ideas without quality gate pressure because seeds that never mature are information not waste]] — exploratory layer
+- [[atomic notes with one claim per file enable independent evaluation and granular linking because bundled claims force reviewers to accept or reject unrelated propositions together]] — atomic structure
+
 ## Ownership & Attribution
 - [[ownership alignment turns network effects from extractive to generative]] — the ownership insight
 - [[living agents transform knowledge sharing from a cost center into an ownership-generating asset]] — why people contribute
