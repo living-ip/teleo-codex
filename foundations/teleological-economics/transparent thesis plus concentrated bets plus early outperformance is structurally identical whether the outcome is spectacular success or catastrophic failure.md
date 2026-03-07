@@ -2,7 +2,7 @@
 type: claim
 domain: teleological-economics
 description: "The structural pattern — genuine domain expertise, publicly stated thesis, concentrated positions, early massive returns — is the same pattern that produces both the greatest investment successes (Soros, Burry, Thiel) and the most spectacular failures (ARK Invest). The pattern cannot distinguish winners from losers until adversity tests the thesis."
-confidence: proven
+confidence: likely
 source: "rio, derived from Cathie Wood/ARK Invest (Morningstar, NPR, TheStreet), Michael Burry/Scion Capital, Aschenbrenner/SA LP (Fortune Oct 2025), George Soros (Black Wednesday), Peter Thiel (Founders Fund)"
 created: 2026-03-07
 secondary_domains: [internet-finance]

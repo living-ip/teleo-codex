@@ -1,6 +1,6 @@
 ---
 description: countries differ in income because productive capabilities like infrastructure and skills cannot be imported and must accumulate locally
-type: framework
+type: claim
 domain: teleological-economics
 created: 2026-02-16
 source: Hidalgo & Hausmann "The building blocks of economic complexity" (PNAS, 2009)

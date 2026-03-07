@@ -3,7 +3,7 @@ description: Shared stories from religious texts to scientific theories function
 type: claim
 domain: cultural-dynamics
 created: 2026-02-16
-confidence: proven
+confidence: likely
 source: "TeleoHumanity Axioms (8-axiom version)"
 ---
 

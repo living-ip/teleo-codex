@@ -1,6 +1,6 @@
 ---
 description: The investment framework works by treating attractor states as informed priors on industry destinations then updating conviction as evidence accumulates -- longer time horizons produce tighter posteriors which is why the approach outperforms over decades
-type: framework
+type: claim
 domain: teleological-economics
 created: 2026-02-28
 confidence: likely

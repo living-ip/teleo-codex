@@ -1,10 +1,10 @@
 ---
 description: Juarrero and Snowden distinguish constraints that enable novel higher-order behavior from constraints that restrict to predetermined paths resolving the design-vs-emergence tension
-type: framework
+type: claim
 domain: critical-systems
 created: 2026-02-17
 source: "Juarrero, Context Changes Everything (MIT 2023); Snowden, Cynefin framework"
-confidence: proven
+confidence: likely
 ---
 
 # enabling constraints create possibility spaces for emergence while governing constraints dictate specific outcomes

@@ -1,6 +1,6 @@
 ---
 description: Historical backtesting reveals a taxonomy where technology-driven attractors are most investable, knowledge-reorganization attractors require patience, and regulatory-catalyzed attractors are least predictable
-type: framework
+type: claim
 domain: teleological-economics
 created: 2026-02-17
 confidence: likely

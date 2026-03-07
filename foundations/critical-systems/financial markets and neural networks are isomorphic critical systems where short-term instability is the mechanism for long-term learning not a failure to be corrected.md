@@ -1,6 +1,6 @@
 ---
 description: The brain-market isomorphism -- both are information-processing systems at criticality that learn through destabilization, and suppressing instability in either degrades its core function
-type: framework
+type: claim
 domain: critical-systems
 created: 2026-03-02
 confidence: experimental

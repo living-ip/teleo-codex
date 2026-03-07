@@ -3,7 +3,7 @@ description: Writing, mathematics, money, legal systems, double-blind studies, a
 type: claim
 domain: cultural-dynamics
 created: 2026-02-16
-confidence: proven
+confidence: likely
 source: "TeleoHumanity Manifesto, Minimum Sufficient Rationality"
 ---
 

@@ -1,10 +1,10 @@
 ---
 description: Objects embody imagination-derived information enabling users to access practical uses of knowledge and knowhow without possessing that knowledge themselves
-type: framework
+type: claim
 domain: teleological-economics
 created: 2026-02-16
 source: "Hidalgo, Why Information Grows (2015)"
-confidence: proven
+confidence: likely
 tradition: "complexity economics, information theory, network science"
 ---
 

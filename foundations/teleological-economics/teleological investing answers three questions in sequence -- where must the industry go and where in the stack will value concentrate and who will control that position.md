@@ -1,6 +1,6 @@
 ---
 description: The complete investment framework stacks attractor state analysis (direction) with atoms-to-bits positioning (defensibility) and bottleneck theory (capture) into a single decision sequence
-type: framework
+type: claim
 domain: teleological-economics
 created: 2026-02-21
 confidence: likely

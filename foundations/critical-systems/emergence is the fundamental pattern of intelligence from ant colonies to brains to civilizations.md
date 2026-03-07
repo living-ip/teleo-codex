@@ -3,7 +3,7 @@ description: Diverse components following local rules plus feedback loops plus s
 type: claim
 domain: critical-systems
 created: 2026-02-16
-confidence: proven
+confidence: likely
 source: "TeleoHumanity Manifesto, Chapter 4"
 ---
 

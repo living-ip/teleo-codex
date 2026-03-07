@@ -1,7 +1,7 @@
 ---
 description: Getting AI right requires simultaneous alignment across competing companies, nations, and disciplines at the speed of AI development -- no existing institution can coordinate this
 type: claim
-domain: collective-intelligence
+domain: ai-alignment
 created: 2026-02-16
 confidence: likely
 source: "TeleoHumanity Manifesto, Chapter 5"

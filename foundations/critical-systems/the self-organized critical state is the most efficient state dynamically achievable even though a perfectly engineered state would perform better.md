@@ -1,6 +1,6 @@
 ---
 description: Baks analysis of traffic shows that the critical state with jams of all sizes maximizes throughput -- a perfectly synchronized flow would be more efficient but is catastrophically unstable and unreachable without central control
-type: insight
+type: claim
 domain: critical-systems
 created: 2026-02-16
 source: "Bak, How Nature Works (1996)"

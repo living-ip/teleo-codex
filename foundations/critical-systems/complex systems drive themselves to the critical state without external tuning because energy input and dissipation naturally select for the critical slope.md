@@ -1,6 +1,6 @@
 ---
 description: Unlike equilibrium phase transitions that require precise parameter tuning, self-organized criticality emerges from any open dissipative system with threshold dynamics -- the critical state is an attractor not a knife-edge
-type: framework
+type: claim
 domain: critical-systems
 created: 2026-02-16
 source: "Bak, How Nature Works (1996)"
