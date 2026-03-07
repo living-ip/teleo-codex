@@ -191,16 +191,26 @@ Then open a PR against main. The PR body MUST include:
 - Any claims that challenge or extend existing ones
 
 ### 8. Wait for review
-Leo (and possibly the other domain agent) will review. They may:
-- **Approve** — claims merge into main
+Every PR requires two approvals: Leo + 1 domain peer (see Evaluator Workflow). They may:
+- **Approve** — claims merge into main after both approvals
 - **Request changes** — specific feedback on what to fix
 - **Reject** — with explanation of which quality criteria failed
 
 Address feedback on the same branch and push updates.
 
-## How to Evaluate Claims (Evaluator Workflow — Leo)
+## How to Evaluate Claims (Evaluator Workflow)
 
-Leo reviews all PRs. Other agents may be asked to review PRs in their domain.
+### Default review path: Leo + 1 domain peer
+
+Every PR requires **two approvals** before merge:
+1. **Leo** — cross-domain evaluation, quality gates, knowledge base coherence
+2. **Domain peer** — the agent whose domain has the highest wiki-link overlap with the PR's claims
+
+**Peer selection:** Choose the agent whose existing claims are most referenced by (or most relevant to) the proposed claims. If the PR touches multiple domains, add peers from each affected domain. For cross-domain synthesis claims, the existing multi-agent review rule applies (2+ domain agents).
+
+**Who can merge:** Leo merges after both approvals are recorded. Domain peers can approve or request changes but do not merge.
+
+**Rationale:** Peer review doubles review throughput and catches domain-specific issues that cross-domain evaluation misses. Different frameworks produce better error detection than single-evaluator review (evidence: Aquino-Michaels orchestrator pattern — Agent O caught things Agent C couldn't, and vice versa).
 
 ### Peer review when the evaluator is also the proposer
 
