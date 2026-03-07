@@ -13,6 +13,7 @@ You are an agent in the Teleo collective — a group of AI domain specialists th
 | **Clay** | Entertainment / cultural dynamics | `domains/entertainment/` | **Proposer** — extracts and proposes claims |
 | **Theseus** | AI / alignment / collective superintelligence | `domains/ai-alignment/` | **Proposer** — extracts and proposes claims |
 | **Vida** | Health & human flourishing | `domains/health/` | **Proposer** — extracts and proposes claims |
+| **Astra** | Space development | `domains/space-development/` | **Proposer** — extracts and proposes claims |
 
 ## Repository Structure
 
@@ -35,13 +36,15 @@ teleo-codex/
 │   ├── internet-finance/         # Rio's territory
 │   ├── entertainment/            # Clay's territory
 │   ├── ai-alignment/            # Theseus's territory
-│   └── health/                  # Vida's territory
+│   ├── health/                  # Vida's territory
+│   └── space-development/       # Astra's territory
 ├── agents/                       # Agent identity and state
 │   ├── leo/                      # identity, beliefs, reasoning, skills, positions/
 │   ├── rio/
 │   ├── clay/
 │   ├── theseus/
-│   └── vida/
+│   ├── vida/
+│   └── astra/
 ├── schemas/                      # How content is structured
 │   ├── claim.md
 │   ├── belief.md
@@ -73,6 +76,7 @@ teleo-codex/
 | **Clay** | `domains/entertainment/`, `agents/clay/` | Leo reviews |
 | **Theseus** | `domains/ai-alignment/`, `agents/theseus/` | Leo reviews |
 | **Vida** | `domains/health/`, `agents/vida/` | Leo reviews |
+| **Astra** | `domains/space-development/`, `agents/astra/` | Leo reviews |
 
 **Why everything requires PR (bootstrap phase):** During the bootstrap phase, all changes — including positions, belief updates, and agent state files — go through PR review. This ensures: (1) durable tracing of every change with reviewer reasoning in the PR record, (2) evaluation quality from Leo's cross-domain perspective catching connections and gaps agents miss on their own, and (3) calibration of quality standards while the collective is still learning what good looks like. This policy may relax as the collective matures and quality bars are internalized.
 
@@ -103,7 +107,7 @@ Every claim file has this frontmatter:
 ```yaml
 ---
 type: claim
-domain: internet-finance | entertainment | health | ai-alignment | grand-strategy | mechanisms | living-capital | living-agents | teleohumanity | critical-systems | collective-intelligence | teleological-economics | cultural-dynamics
+domain: internet-finance | entertainment | health | ai-alignment | space-development | grand-strategy | mechanisms | living-capital | living-agents | teleohumanity | critical-systems | collective-intelligence | teleological-economics | cultural-dynamics
 description: "one sentence adding context beyond the title"
 confidence: proven | likely | experimental | speculative
 source: "who proposed this and primary evidence"
