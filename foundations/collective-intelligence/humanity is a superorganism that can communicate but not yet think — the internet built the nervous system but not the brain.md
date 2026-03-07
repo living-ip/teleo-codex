@@ -2,10 +2,12 @@
 type: claim
 domain: collective-intelligence
 secondary_domains: [ai-alignment, grand-strategy, mechanisms]
-description: "Humanity exhibits obligate mutualism (structural interdependence) but lacks collective cognitive infrastructure — the internet provides a nervous system without a brain, and domain-specific coordination capacity varies from functional (financial markets) to absent (governance)"
+description: "Humanity meets structural superorganism criteria (interdependence, role specialization) but lacks collective cognitive infrastructure — the internet provides a nervous system without a brain, and coordination capacity varies from functional (financial markets) to absent (governance)"
 confidence: experimental
 source: "Synthesis of Reese superorganism criteria, core teleohumanity cognition-gap claims, Vida biological assessment, Rio market-cognition analysis. Minos KB audit 2026-03-07."
 created: 2026-03-07
+revised: 2026-03-07
+revision_reason: "Reframed from 'obligate mutualism' to 'superorganism' as primary term — biological precision retained as footnote, not framing. Superorganism is the useful simplification that gets people to the right mental model."
 depends_on:
   - "human civilization passes falsifiable superorganism criteria because individuals cannot survive apart from society and occupations function as role-specific cellular algorithms"
   - "the internet enabled global communication but not global cognition"
@@ -17,29 +19,29 @@ challenged_by:
   - "Scale-dependent objection: if coordination capacity varies by domain (exists in finance, absent in governance), the 'lacks collective cognition' framing is too binary — it should specify which coordination functions are missing"
 ---
 
-# Humanity is an obligate mutualism that lacks collective cognitive infrastructure — a body with a nervous system but no brain
+# humanity is a superorganism that can communicate but not yet think — the internet built the nervous system but not the brain
 
-Human civilization meets structural criteria for a superorganism — obligate interdependence, role specialization across ~10,000 occupations, information flow through speech and internet — but fails functional criteria for collective cognition. The internet provides global communication (anyone-to-anyone at near-zero cost) without providing global coordination (everyone-with-everyone shared meaning). This creates a specific architectural diagnosis: the body exists, the nervous system works, but the brain hasn't been built.
+Human civilization is a superorganism. We pass the structural tests: no individual can survive outside the division of labor, ~10,000 occupations function as role-specific behavioral algorithms, and information flows through speech and internet at global scale. The body exists. The nervous system works. But the brain hasn't been built.
 
-## The structural case (what exists)
+The internet was supposed to complete the cognitive layer. Instead it created a paradox: global communication without global cognition. We can talk to anyone but we can't think together. The same infrastructure that enables planetary information flow also enables planetary misinformation, tribal epistemology at scale, and attention economies that optimize for engagement over truth. The communication ceiling rose; the coordination ceiling didn't.
+
+## The structural case
 
 Byron Reese's falsifiable superorganism criteria (2025) identify two testable properties humanity passes:
 
-1. **Interdependence:** Individual humans cannot survive outside the division of labor. Modern survival depends entirely on accumulated social knowledge, infrastructure, and specialization. This passes the superorganism criterion that components cannot function apart from the whole.
+1. **Interdependence:** Individual humans cannot survive outside the division of labor. Modern survival depends entirely on accumulated social knowledge, infrastructure, and specialization. Components cannot function apart from the whole.
 
 2. **Role specialization:** The ~10,000 distinct occupations tracked by the Bureau of Labor Statistics function as role-specific behavioral algorithms. Bricklayers, surgeons, and software engineers follow shared protocols that enable interoperation without central coordination — analogous to bee behaviors enabling hive function.
 
-However, the "superorganism" label requires biological precision. True superorganisms (eusocial insects) exhibit colony-level homeostasis, reproductive subordination, and a unified boundary (the hive, the nest). Humanity lacks all three. The more precise biological term is **obligate mutualism** — organisms that cannot survive without their symbiotic partners, like coral and zooxanthellae. This framing preserves the key insight (structural interdependence is real and irreversible) without implying unified agency or coordinated purpose that doesn't yet exist.
+Biologically, humanity is closer to obligate mutualism than eusocial superorganism — we lack colony-level homeostasis, reproductive subordination, and a unified boundary that true superorganisms (ant colonies, bee hives) exhibit. But the coordination implications are identical: structural interdependence is real, irreversible, and the basis for everything that follows. "Superorganism" is the useful simplification; "obligate mutualism" is the precise term.
 
-## The functional gap (what's missing)
+## The functional gap
 
-The internet was the infrastructure that should have completed the superorganism's cognitive layer. Instead, it created a paradox:
-
-**Communication without cognition.** The internet enables any human to communicate with any other human instantly at near-zero cost. But communication is not cognition. The same infrastructure that enables global information flow also enables global misinformation, tribal epistemology at scale, and attention economies optimizing for engagement over truth. It raised the communication ceiling without raising the coordination ceiling.
+**Communication without cognition.** The internet enables any human to communicate with any other human instantly at near-zero cost. But communication is not cognition. It raised the communication ceiling without raising the coordination ceiling.
 
 **Differential context.** Print capitalism created "simultaneity" — thousands reading the same newspaper on the same morning — which made shared identity cognitively available for the first time (Anderson). The internet creates the structural opposite: algorithmic personalization ensures no two users encounter the same content at the same time (McLuhan). The medium structurally opposes the shared context necessary for collective cognition at scale.
 
-**Interconnection without shared meaning.** Technology gives us "anyone with anyone," but "everyone with everyone" is a different kind of problem (Ansary). Collective decision-making requires shared frameworks for what counts as evidence, shared understanding of good outcomes, shared interpretation of terms like "progress," "risk," "fair." These are narrative structures. The internet connects people across incompatible narratives at high speed without providing mechanisms for resolving narrative differences.
+**Interconnection without shared meaning.** Technology gives us "anyone with anyone," but "everyone with everyone" is a different kind of problem (Ansary). Collective decision-making requires shared frameworks for what counts as evidence, shared understanding of good outcomes, shared interpretation of terms like "progress," "risk," "fair." The internet connects people across incompatible narratives at high speed without providing mechanisms for resolving narrative differences.
 
 ## Domain-specific coordination capacity
 
@@ -61,7 +63,7 @@ The missing brain is not a single centralized processor. It's a distributed cogn
 
 ## The architectural diagnosis
 
-The body exists (obligate mutualism, structural interdependence). The nervous system works (internet, global communication, financial price signals). The brain hasn't been built (collective cognitive infrastructure for governance, knowledge synthesis, and coordinated response to existential challenges).
+The body exists (structural interdependence, irreversible). The nervous system works (internet, global communication, financial price signals). The brain hasn't been built (collective cognitive infrastructure for governance, knowledge synthesis, and coordinated response to existential challenges).
 
 This reframes the project: not building a superorganism from scratch, but building the cognitive layer for an existing one. The infrastructure need is concrete because the body already exists — a body without a brain is not merely incomplete, it is vulnerable. It can be coordinated by external forces (markets optimizing for engagement, state actors manipulating information flows) without the capacity to coordinate itself.
 
