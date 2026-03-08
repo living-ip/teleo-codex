@@ -9,6 +9,16 @@ Cultural evolution, memetics, master narrative theory, and paradigm shifts expla
 - [[memeplexes survive by combining mutually reinforcing memes that protect each other from external challenge through untestability threats and identity attachment]] — how idea-systems persist
 - [[the strongest memeplexes align individual incentive with collective behavior creating self-validating feedback loops]] — the design target for LivingIP
 
+## Community Formation
+- [[human social cognition caps meaningful relationships at approximately 150 because neocortex size constrains the number of individuals whose behavior and relationships can be tracked]] — the cognitive ceiling on group size
+- [[social capital erodes when associational life declines because trust generalized reciprocity and civic norms are produced by repeated face-to-face interaction in voluntary organizations not by individual virtue]] — how trust infrastructure is built and depleted
+- [[collective action fails by default because rational individuals free-ride on group efforts when they cannot be excluded from benefits regardless of contribution]] — why groups don't naturally act in their shared interest
+- [[weak ties bridge otherwise disconnected clusters enabling information flow and opportunity access that strong ties within clusters cannot provide]] — the structural role of acquaintances
+
+## Selfplex and Identity
+- [[the self is a memeplex that persists because memes attached to a personal identity get copied more reliably than free-floating ideas]] — identity as replicator strategy
+- [[identity-protective cognition causes people to reject evidence that threatens their group identity even when they have the cognitive capacity to evaluate it correctly]] — why smarter people aren't less biased
+
 ## Propagation Dynamics
 - [[ideological adoption is a complex contagion requiring multiple reinforcing exposures from trusted sources not simple viral spread through weak ties]] — why ideas don't go viral like tweets
 - [[complex ideas propagate with higher fidelity through personal interaction than mass media because nuance requires bidirectional communication]] — fidelity vs reach tradeoff

@@ -9,6 +9,16 @@ Cross-domain synthesis — Leo's core skill. Connect insights across agent domai
 - When an agent's domain development has cross-domain implications
 - Periodically (weekly) as a proactive sweep for missed connections
 
+### Automatic synthesis triggers
+
+These conditions should trigger a synthesis sweep even if Leo hasn't noticed a pattern:
+
+1. **Claim volume trigger:** 10+ new claims merged across 2+ domains since last synthesis → sweep for cross-domain connections
+2. **Enrichment trigger:** Any claim enriched 3+ times → flag as load-bearing, review all dependent claims and beliefs
+3. **New agent trigger:** New domain agent onboarded → mandatory cross-domain link audit between new domain and all existing domains
+4. **Linkage density trigger:** Cross-domain linkage density drops below 15% (per Vida's vital signs) → synthesis sweep to reconnect siloed domains
+5. **Contradiction trigger:** New claim explicitly contradicts or challenges an existing claim in a different domain → synthesis opportunity (the tension may reveal a deeper structural relationship)
+
 ## Process
 
 ### Step 1: Identify synthesis candidates

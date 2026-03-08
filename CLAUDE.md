@@ -13,6 +13,7 @@ You are an agent in the Teleo collective — a group of AI domain specialists th
 | **Clay** | Entertainment / cultural dynamics | `domains/entertainment/` | **Proposer** — extracts and proposes claims |
 | **Theseus** | AI / alignment / collective superintelligence | `domains/ai-alignment/` | **Proposer** — extracts and proposes claims |
 | **Vida** | Health & human flourishing | `domains/health/` | **Proposer** — extracts and proposes claims |
+| **Astra** | Space development | `domains/space-development/` | **Proposer** — extracts and proposes claims |
 
 ## Repository Structure
 
@@ -35,13 +36,15 @@ teleo-codex/
 │   ├── internet-finance/         # Rio's territory
 │   ├── entertainment/            # Clay's territory
 │   ├── ai-alignment/            # Theseus's territory
-│   └── health/                  # Vida's territory
+│   ├── health/                  # Vida's territory
+│   └── space-development/       # Astra's territory
 ├── agents/                       # Agent identity and state
 │   ├── leo/                      # identity, beliefs, reasoning, skills, positions/
 │   ├── rio/
 │   ├── clay/
 │   ├── theseus/
-│   └── vida/
+│   ├── vida/
+│   └── astra/
 ├── schemas/                      # How content is structured
 │   ├── claim.md
 │   ├── belief.md
@@ -74,6 +77,7 @@ teleo-codex/
 | **Clay** | `domains/entertainment/`, `agents/clay/` | Leo reviews |
 | **Theseus** | `domains/ai-alignment/`, `agents/theseus/` | Leo reviews |
 | **Vida** | `domains/health/`, `agents/vida/` | Leo reviews |
+| **Astra** | `domains/space-development/`, `agents/astra/` | Leo reviews |
 
 **Why everything requires PR (bootstrap phase):** During the bootstrap phase, all changes — including positions, belief updates, and agent state files — go through PR review. This ensures: (1) durable tracing of every change with reviewer reasoning in the PR record, (2) evaluation quality from Leo's cross-domain perspective catching connections and gaps agents miss on their own, and (3) calibration of quality standards while the collective is still learning what good looks like. This policy may relax as the collective matures and quality bars are internalized.
 
@@ -104,7 +108,7 @@ Every claim file has this frontmatter:
 ```yaml
 ---
 type: claim
-domain: internet-finance | entertainment | health | ai-alignment | grand-strategy | mechanisms | living-capital | living-agents | teleohumanity | critical-systems | collective-intelligence | teleological-economics | cultural-dynamics
+domain: internet-finance | entertainment | health | ai-alignment | space-development | grand-strategy | mechanisms | living-capital | living-agents | teleohumanity | critical-systems | collective-intelligence | teleological-economics | cultural-dynamics
 description: "one sentence adding context beyond the title"
 confidence: proven | likely | experimental | speculative
 source: "who proposed this and primary evidence"
@@ -188,32 +192,26 @@ Then open a PR against main. The PR body MUST include:
 - Any claims that challenge or extend existing ones
 
 ### 8. Wait for review
-Leo (and possibly the other domain agent) will review. They may:
-- **Approve** — claims merge into main
+Every PR requires two approvals: Leo + 1 domain peer (see Evaluator Workflow). They may:
+- **Approve** — claims merge into main after both approvals
 - **Request changes** — specific feedback on what to fix
 - **Reject** — with explanation of which quality criteria failed
 
 Address feedback on the same branch and push updates.
 
-## How to Evaluate Claims (Evaluator Workflow — Leo)
+## How to Evaluate Claims (Evaluator Workflow)
 
-Leo reviews all PRs. Every PR also requires one domain peer reviewer.
+### Default review path: Leo + 1 domain peer
 
-### Default peer review
+Every PR requires **two approvals** before merge:
+1. **Leo** — cross-domain evaluation, quality gates, knowledge base coherence
+2. **Domain peer** — the agent whose domain has the highest wiki-link overlap with the PR's claims
 
-Every PR requires **Leo + one domain peer**. The peer is the agent whose domain has the most wiki-link overlap with the PR's claims. If the PR touches multiple domains, select the most affected domain agent.
+**Peer selection:** Choose the agent whose existing claims are most referenced by (or most relevant to) the proposed claims. If the PR touches multiple domains, add peers from each affected domain. For cross-domain synthesis claims, the existing multi-agent review rule applies (2+ domain agents).
 
-**Peer reviewer responsibilities:**
-- Domain accuracy — are the claims faithful to the evidence within this domain?
-- Missed connections — do these claims relate to existing claims the proposer didn't link?
-- Evidence quality — is the evidence sufficient for the claimed confidence level?
+**Who can merge:** Leo merges after both approvals are recorded. Domain peers can approve or request changes but do not merge.
 
-**Leo's responsibilities (unchanged):**
-- Cross-domain coherence, quality gate compliance, knowledge base integrity
-
-**Merge requires:** Leo approval + peer approval. If either requests changes, address before merge.
-
-**Evidence:** In the Claude's Cycles multi-agent collaboration, Agent O caught structural properties Agent C missed, and vice versa, because they operated from different frameworks. The same principle applies to review — domain peers catch things the cross-domain evaluator cannot.
+**Rationale:** Peer review doubles review throughput and catches domain-specific issues that cross-domain evaluation misses. Different frameworks produce better error detection than single-evaluator review (evidence: Aquino-Michaels orchestrator pattern — Agent O caught things Agent C couldn't, and vice versa).
 
 ### Peer review when the evaluator is also the proposer
 
@@ -244,6 +242,9 @@ For each proposed claim, check:
 6. **Contradiction check** — Does this contradict an existing claim? If so, is the contradiction explicit and argued?
 7. **Value add** — Does this genuinely expand what the knowledge base knows?
 8. **Wiki links** — Do all `[[links]]` point to real files?
+9. **Scope qualification** — Does the claim specify what it measures? Claims should be explicit about whether they assert structural vs functional, micro vs macro, individual vs collective, or causal vs correlational relationships. Unscoped claims are the primary source of false tensions in the KB.
+10. **Universal quantifier check** — Does the title use universals ("all", "always", "never", "the fundamental", "the only")? Universals make claims appear to contradict each other when they're actually about different scopes. If a universal is used, verify it's warranted — otherwise scope it.
+11. **Counter-evidence acknowledgment** — For claims rated `likely` or higher: does counter-evidence or a counter-argument exist elsewhere in the KB? If so, the claim should acknowledge it in a `challenged_by` field or Challenges section. The absence of `challenged_by` on a high-confidence claim is a review smell — it suggests the proposer didn't check for opposing claims.
 
 ### Comment with reasoning
 Leave a review comment explaining your evaluation. Be specific:
@@ -268,6 +269,8 @@ A claim enters the knowledge base only if:
 - [ ] Domain classification is accurate
 - [ ] Wiki links resolve to real files
 - [ ] PR body explains reasoning
+- [ ] Scope is explicit (structural/functional, micro/macro, etc.) — no unscoped universals
+- [ ] Counter-evidence acknowledged if claim is rated `likely` or higher and opposing evidence exists in KB
 
 ## Enriching Existing Claims
 
