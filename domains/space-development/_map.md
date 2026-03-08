@@ -16,6 +16,16 @@ Launch cost is the keystone variable. Every downstream space industry has a pric
 - [[the space launch cost trajectory is a phase transition not a gradual decline analogous to sail-to-steam in maritime transport]] — framing the reduction as discontinuous structural change, not incremental improvement
 - [[reusability without rapid turnaround and minimal refurbishment does not reduce launch costs as the Space Shuttle proved over 30 years]] — the historical counter-example: the Shuttle's $54,500/kg proves reusability alone is insufficient
 - [[SpaceX vertical integration across launch broadband and manufacturing creates compounding cost advantages that no competitor can replicate piecemeal]] — the flywheel: Starlink demand drives cadence drives reuse learning drives cost reduction
+- [[Starship economics depend on cadence and reuse rate not vehicle cost because a 90M vehicle flown 100 times beats a 50M expendable by 17x]] — the math: $/kg is entirely determined by flights per vehicle, ranging from $600 expendable to $13-20 at airline-like rates
+
+## Space Economy & Market Structure
+
+The space economy is a $613B commercial industry, not a government-subsidized frontier. Structural shifts in procurement, defense spending, and commercial infrastructure investment are reshaping capital flows.
+
+- [[the space economy reached 613 billion in 2024 and is converging on 1 trillion by 2032 making it a major global industry not a speculative frontier]] — the baseline: 78% commercial revenue, ground equipment as largest segment
+- [[governments are transitioning from space system builders to space service buyers which structurally advantages nimble commercial providers]] — the procurement inversion: anchor buyer replaces monopsony customer
+- [[commercial space stations are the next infrastructure bet as ISS retirement creates a void that 4 companies are racing to fill by 2030]] — the transition: ISS deorbits 2031, marketplace of competing platforms replaces government monument
+- [[defense spending is the new catalyst for space investment with US Space Force budget jumping 39 percent in one year to 40 billion]] — the accelerant: defense demand reshapes VC flows, late-stage deals at decade high
 
 ## Cislunar Economics & Infrastructure
 
@@ -39,6 +49,9 @@ The most urgent and most neglected dimension. Technology advances exponentially 
 
 - [[space governance gaps are widening not narrowing because technology advances exponentially while institutional design advances linearly]] — commercial activity outpaces regulatory frameworks, creating governance demand faster than supply
 - [[orbital debris is a classic commons tragedy where individual launch incentives are private but collision risk is externalized to all operators]] — the most concrete governance failure: Kessler syndrome as planetary-scale commons problem
+- [[the Outer Space Treaty created a constitutional framework for space but left resource rights property and settlement governance deliberately ambiguous]] — the constitutional foundation: 118 parties, critical ambiguities now becoming urgent
+- [[the Artemis Accords replace multilateral treaty-making with bilateral norm-setting to create governance through coalition practice rather than universal consensus]] — the new model: 61 nations, adaptive governance through action, risk of bifurcation with China/Russia
+- [[space resource rights are emerging through national legislation creating de facto international law without international agreement]] — the legal needle: US, Luxembourg, UAE, Japan grant extraction rights while disclaiming sovereignty
 
 ## Cross-Domain Connections
 
@@ -48,3 +61,6 @@ The most urgent and most neglected dimension. Technology advances exponentially 
 - [[Ostrom proved communities self-govern shared resources when eight design principles are met without requiring state control or privatization]] — orbital debris tests Ostrom's principles at planetary scale
 - [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]] — legacy launch providers exhibit textbook proxy inertia against SpaceX's flywheel
 - [[value in industry transitions accrues to bottleneck positions in the emerging architecture not to pioneers or to the largest incumbents]] — cislunar bottleneck analysis: power and propellant depot operators hold enabling positions
+- [[Hayek argued that designed rules of just conduct enable spontaneous order of greater complexity than deliberate arrangement could achieve]] — OST and Artemis Accords as designed rules enabling spontaneous commercial coordination
+- [[protocol design enables emergent coordination of arbitrary complexity as Linux Bitcoin and Wikipedia demonstrate]] — Artemis Accords and national resource laws as coordination protocols with voluntary adoption
+- [[good management causes disruption because rational resource allocation systematically favors sustaining innovation over disruptive opportunities]] — legacy launch providers rationally optimize for cost-plus while commercial-first competitors redefine the game
