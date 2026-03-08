@@ -17,6 +17,7 @@ Launch cost is the keystone variable. Every downstream space industry has a pric
 - [[reusability without rapid turnaround and minimal refurbishment does not reduce launch costs as the Space Shuttle proved over 30 years]] — the historical counter-example: the Shuttle's $54,500/kg proves reusability alone is insufficient
 - [[SpaceX vertical integration across launch broadband and manufacturing creates compounding cost advantages that no competitor can replicate piecemeal]] — the flywheel: Starlink demand drives cadence drives reuse learning drives cost reduction
 - [[Starship economics depend on cadence and reuse rate not vehicle cost because a 90M vehicle flown 100 times beats a 50M expendable by 17x]] — the math: $/kg is entirely determined by flights per vehicle, ranging from $600 expendable to $13-20 at airline-like rates
+- [[mega-constellations create a demand flywheel for launch services because Starlink alone requires 40-60 launches per year for maintenance and expansion making SpaceX simultaneously its own largest customer and cost reduction engine]] — the demand engine: captive constellation demand drives the cadence that makes reuse economics work
 
 ## Space Economy & Market Structure
 
@@ -26,6 +27,8 @@ The space economy is a $613B commercial industry, not a government-subsidized fr
 - [[governments are transitioning from space system builders to space service buyers which structurally advantages nimble commercial providers]] — the procurement inversion: anchor buyer replaces monopsony customer
 - [[commercial space stations are the next infrastructure bet as ISS retirement creates a void that 4 companies are racing to fill by 2030]] — the transition: ISS deorbits 2031, marketplace of competing platforms replaces government monument
 - [[defense spending is the new catalyst for space investment with US Space Force budget jumping 39 percent in one year to 40 billion]] — the accelerant: defense demand reshapes VC flows, late-stage deals at decade high
+- [[Earth observation is the largest commercial space revenue stream generating over 100 billion annually because satellite data creates irreplaceable global monitoring capability for agriculture insurance defense and climate]] — the revenue engine: EO is the proven commercial space business, not the speculative frontier
+- [[China is the only credible peer competitor in space with comprehensive capabilities and state-directed acceleration closing the reusability gap in 5-8 years]] — the competitive landscape: full-stack national capability creating a second attractor basin
 
 ## Cislunar Economics & Infrastructure
 
@@ -36,12 +39,16 @@ The cislunar economy depends on three interdependent resource layers — power, 
 - [[orbital propellant depots are the enabling infrastructure for all deep-space operations because they break the tyranny of the rocket equation]] — the connective layer: depots break the exponential mass penalty
 - [[power is the binding constraint on all space operations because every capability from ISRU to manufacturing to life support is power-limited]] — the root constraint: power gates everything else
 - [[falling launch costs paradoxically both enable and threaten in-space resource utilization by making infrastructure affordable while competing with the end product]] — the paradox: cheap launch both enables and competes with ISRU
+- [[closed-loop life support is the binding constraint on permanent human presence beyond LEO because no system has achieved greater than 90 percent water or oxygen recycling outside of controlled terrestrial tests]] — the habitation constraint: ISS achieves ~90% water recovery but Mars requires >98%, a fundamentally different engineering regime
 
 ## In-Space Manufacturing
 
 Microgravity eliminates convection, sedimentation, and container effects. The three-tier killer app thesis identifies the products most likely to catalyze orbital infrastructure at scale.
 
+- [[microgravity eliminates convection sedimentation and container effects producing measurably superior materials across fiber optics pharmaceuticals and semiconductors]] — the physics foundation: three gravity-dependent effects whose removal produces measurably superior materials
 - [[the space manufacturing killer app sequence is pharmaceuticals now ZBLAN fiber in 3-5 years and bioprinted organs in 15-25 years each catalyzing the next tier of orbital infrastructure]] — the portfolio thesis: each product tier justifies infrastructure the next tier needs
+- [[Varda Space Industries validates commercial space manufacturing with four orbital missions 329M raised and monthly launch cadence by 2026]] — proof of concept: first repeatable commercial manufacturing pipeline (launch, process, return)
+- [[ZBLAN fiber production in microgravity achieved a 600x scaling breakthrough drawing 12km on ISS but commercial viability requires bridging from lab demonstration to factory-scale orbital production]] — tier 2 progress: physics proven, scaling demonstrated, commercial production economics uncertain
 
 ## Governance & Coordination
 
@@ -52,6 +59,7 @@ The most urgent and most neglected dimension. Technology advances exponentially 
 - [[the Outer Space Treaty created a constitutional framework for space but left resource rights property and settlement governance deliberately ambiguous]] — the constitutional foundation: 118 parties, critical ambiguities now becoming urgent
 - [[the Artemis Accords replace multilateral treaty-making with bilateral norm-setting to create governance through coalition practice rather than universal consensus]] — the new model: 61 nations, adaptive governance through action, risk of bifurcation with China/Russia
 - [[space resource rights are emerging through national legislation creating de facto international law without international agreement]] — the legal needle: US, Luxembourg, UAE, Japan grant extraction rights while disclaiming sovereignty
+- [[space settlement governance must be designed before settlements exist because retroactive governance of autonomous communities is historically impossible]] — the design window: 20-30 years before permanent settlements, historical precedent says governance imposed after autonomy is systematically rejected
 
 ## Cross-Domain Connections
 
