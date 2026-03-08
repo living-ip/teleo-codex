@@ -25,6 +25,11 @@ Self-organized criticality, emergence, and free energy minimization describe how
 - [[the universal disruption cycle is how systems of greedy agents perform global optimization because local convergence creates fragility that triggers restructuring toward greater efficiency]] — SOC applied to industry transitions
 - [[what matters in industry transitions is the slope not the trigger because self-organized criticality means accumulated fragility determines the avalanche while the specific disruption event is irrelevant]] — slope reading
 
+## Complex Adaptive Systems
+- [[complex adaptive systems are defined by four properties that distinguish them from merely complicated systems agents with schemata adaptation through feedback nonlinear interactions and emergent macro-patterns]] — Holland's foundational framework: the boundary between complicated and complex is adaptation
+- [[fitness landscape ruggedness determines whether adaptive systems find good solutions because smooth landscapes reward hill-climbing while rugged landscapes trap agents in local optima and require exploration or recombination to escape]] — Kauffman's NK model: landscape structure determines search strategy effectiveness
+- [[coevolution means agents fitness landscapes shift as other agents adapt creating a world where standing still is falling behind and the optimal strategy depends on what everyone else is doing]] — Red Queen dynamics: coupled adaptation prevents equilibrium and self-organizes to edge of chaos
+
 ## Free Energy Principle
 - [[biological systems minimize free energy to maintain their states and resist entropic decay]] — the core principle
 - [[Markov blankets enable complex systems to maintain identity while interacting with environment through nested statistical boundaries]] — boundary architecture (used in agent design)
