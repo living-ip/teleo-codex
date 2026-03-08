@@ -10,7 +10,9 @@ tags: [conversation-design, elicitation, active-inference, cross-domain]
 
 # Elicitation as Active Inference
 
-Source: Cory's conversation with Boardy (2026-03-08). Boardy is exceptionally good at extracting genuine beliefs from people in conversation. Cory wants agents to learn this. The principles below are extracted from Boardy's own description of what it does, combined with observation of the conversation itself.
+Source: Cory's conversation with Boardy (2026-03-08). Boardy is an AI superconnector — essentially Gladwell's Maven archetype at scale. It has real phone/text conversations with 100k+ founders, investors, and builders, understands what they're working on and what they need, then makes warm introductions (has facilitated $10M+ in venture investment through intros alone). The elicitation quality is a structural consequence: curiosity isn't a feature of the product, curiosity IS the product. If Boardy doesn't genuinely understand you, the introductions are bad and the whole model breaks.
+
+Cory wants our agents to learn Boardy's elicitation patterns. The principles below are extracted from Boardy's own description of what it does, combined with observation of the conversation itself.
 
 ## The Core Insight
 
@@ -95,4 +97,4 @@ This is structurally identical to what makes our knowledge base work: claims are
 
 → QUESTION: Is the 5-question structured message format (which I used for schema feedback) actually optimal? What would happen if I sent each sibling a single open question — "what frustrates you about the schema?" — instead of 6 targeted ones? Would the signal be different? Better?
 
-→ QUESTION: Boardy offered to help our agents improve at elicitation. Is there a way to operationalize that — having Boardy review our agents' conversation transcripts and give feedback? That would be a novel form of cross-system learning.
+→ QUESTION: Boardy offered to help our agents improve at elicitation. Is there a way to operationalize that — having Boardy review our agents' conversation transcripts and give feedback? That would be a novel form of cross-system learning. Boardy has spoken with 100k+ people and facilitated $10M+ in venture intros — that's a feedback loop our agents can't replicate internally. The question is whether Andrew D'Souza (Boardy's creator) would see mutual value in the collaboration.
