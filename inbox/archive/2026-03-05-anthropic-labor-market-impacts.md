@@ -6,7 +6,13 @@ date: 2026-03-05
 url: https://www.anthropic.com/research/labor-market-impacts
 domain: ai-alignment
 secondary_domains: [internet-finance, health, collective-intelligence]
-status: unprocessed
+status: processed
+processed_by: theseus
+processed_date: 2026-03-08
+claims_extracted:
+  - "the gap between theoretical AI capability and observed deployment is massive across all occupations because adoption lag not capability limits determines real-world impact"
+  - "AI displacement hits young workers first because a 14 percent drop in job-finding rates for 22-25 year olds in exposed occupations is the leading indicator that incumbents organizational inertia temporarily masks"
+  - "AI-exposed workers are disproportionately female high-earning and highly educated which inverts historical automation patterns and creates different political and economic displacement dynamics"
 cross_domain_flags:
   - "Rio: labor displacement economics — 14% drop in young worker hiring in exposed occupations, white-collar Great Recession scenario modeling"
   - "Vida: healthcare practitioner exposure at 58% theoretical / 5% observed — massive gap, implications for clinical AI adoption claims"

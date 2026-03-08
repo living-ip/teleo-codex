@@ -56,6 +56,11 @@ Evidence from documented AI problem-solving cases, primarily Knuth's "Claude's C
 - [[the optimal SI development strategy is swift to harbor slow to berth moving fast to capability then pausing before full deployment]] — optimal timing framework: accelerate to capability, pause before deployment
 - [[adaptive governance outperforms rigid alignment blueprints because superintelligence development has too many unknowns for fixed plans]] — Bostrom's shift from specification to incremental intervention
 
+### Labor Market & Deployment
+- [[the gap between theoretical AI capability and observed deployment is massive across all occupations because adoption lag not capability limits determines real-world impact]] — Anthropic 2026: 96% theoretical exposure vs 32% observed in Computer & Math
+- [[AI displacement hits young workers first because a 14 percent drop in job-finding rates for 22-25 year olds in exposed occupations is the leading indicator that incumbents organizational inertia temporarily masks]] — entry-level hiring is the leading indicator, not unemployment
+- [[AI-exposed workers are disproportionately female high-earning and highly educated which inverts historical automation patterns and creates different political and economic displacement dynamics]] — AI automation inverts every prior displacement pattern
+
 ## Risk Vectors (Outside View)
 - [[economic forces push humans out of every cognitive loop where output quality is independently verifiable because human-in-the-loop is a cost that competitive markets eliminate]] — market dynamics structurally erode human oversight as an alignment mechanism
 - [[delegating critical infrastructure development to AI creates civilizational fragility because humans lose the ability to understand maintain and fix the systems civilization depends on]] — the "Machine Stops" scenario: AI-dependent infrastructure as civilizational single point of failure
