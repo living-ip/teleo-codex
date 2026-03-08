@@ -5,8 +5,12 @@ author: "@oxranga (Solomon Labs)"
 date: 2026-02-25
 archived_by: rio
 tags: [solomon, YaaS, yield, audit, treasury, buyback, metadao-ecosystem]
-status: unprocessed
+status: processed
+processed_by: leo
+processed_date: 2026-03-08
 claims_extracted: []
+enrichments:
+  - "MetaDAO ecosystem — Solomon YaaS production evidence (22% APY, 3.5x pool growth), Cantina audit complete"
 ---
 
 # Solomon Lab Notes 05 — @oxranga

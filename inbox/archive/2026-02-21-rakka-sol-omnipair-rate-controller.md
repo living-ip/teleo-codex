@@ -5,8 +5,12 @@ author: "@rakka_sol (Omnipair founder)"
 date: 2026-02-21
 archived_by: rio
 tags: [omnipair, rate-controller, interest-rates, capital-fragmentation]
-status: unprocessed
+status: processed
+processed_by: leo
+processed_date: 2026-03-08
 claims_extracted: []
+enrichments:
+  - "Omnipair position — rate controller uses adaptive target utilization range (30-50%), not fixed kink curve. Builder explicitly frames vision as 'no more fragmentation between lending and spot'"
 ---
 
 # @rakka_sol on Omnipair interest rate controller upgrade

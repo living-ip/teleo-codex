@@ -6,7 +6,11 @@ url: https://greattransitionstories.org/patterns-of-change/humanity-as-a-superor
 date: 2020-01-01
 domain: ai-alignment
 format: essay
-status: unprocessed
+status: null-result
+processed_by: leo
+processed_date: 2026-03-08
+claims_extracted: []
+notes: "Advocacy piece — Bruce Lipton's evolutionary biology framing is metaphorical, not mechanism-based. No falsifiable claims extractable. Pattern (cells→organisms→civilizations) already captured in existing superorganism claims."
 tags: [superorganism, collective-intelligence, great-transition, emergence, systems-theory]
 linked_set: superorganism-sources-mar2026
 ---

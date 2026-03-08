@@ -6,7 +6,13 @@ url: https://www.americanscientist.org/article/the-superorganism-revolution
 date: 2022-01-01
 domain: ai-alignment
 format: essay
-status: unprocessed
+status: processed
+processed_by: leo
+processed_date: 2026-03-08
+claims_extracted: []
+enrichments:
+  - "humanity is a superorganism — microbiome evidence for keystone roles vs keystone species (functional interchangeability across species). Relevant to collective intelligence role-based architecture."
+notes: "Substantive science article about human microbiome, not human civilization. Key insight: ecosystems may have keystone ROLES rather than keystone SPECIES — the function matters, not the identity of who performs it. Parallel to agent architecture where role matters more than which specific agent fills it."
 tags: [superorganism, collective-intelligence, biology, emergence, evolution]
 linked_set: superorganism-sources-mar2026
 ---

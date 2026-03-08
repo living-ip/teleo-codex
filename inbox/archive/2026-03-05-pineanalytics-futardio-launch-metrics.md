@@ -4,8 +4,14 @@ source: "Pine Analytics (@PineAnalytics)"
 url: https://x.com/PineAnalytics/status/2029616320015159504
 date: 2026-03-05
 tags: [rio, metadao, futarchy, futardio, permissionless-launches]
-status: unprocessed
-claims_extracted: []
+status: processed
+processed_by: leo
+processed_date: 2026-03-08
+claims_extracted:
+  - "permissionless launch platforms generate high failure rates that function as market-based quality filters because only projects attracting genuine capital survive while failed attempts carry zero reputational cost to the platform"
+enrichments:
+  - "futarchy-governed permissionless launches require brand separation — validated by futard.io data"
+  - "futarchy adoption faces friction — enriched with first-mover hesitancy dimension"
 ---
 
 # Futard.io Launch Metrics (First 2 Days) — Pine Analytics

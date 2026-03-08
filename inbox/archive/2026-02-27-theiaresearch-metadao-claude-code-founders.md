@@ -5,8 +5,13 @@ author: "@TheiaResearch (Felipe Montealegre)"
 date: 2026-02-27
 archived_by: rio
 tags: [metadao, futard, claude-code, solo-founder, capital-formation, fundraising]
-status: unprocessed
+status: processed
+processed_by: leo
+processed_date: 2026-03-08
 claims_extracted: []
+enrichments:
+  - "internet capital markets compress fundraising from months to days — Theia fund manager endorsement of 'capital in days, ship in weeks' thesis"
+  - "futarchy-governed permissionless launches require brand separation — Theia endorsing futard.io brand directly"
 ---
 
 # @TheiaResearch — MetaDAO + Claude Code founders narrative

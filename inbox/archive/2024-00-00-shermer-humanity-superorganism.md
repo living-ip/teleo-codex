@@ -6,7 +6,11 @@ url: https://www.skeptic.com/michael-shermer-show/does-humanity-function-as-a-si
 date: 2024-01-01
 domain: ai-alignment
 format: essay
-status: unprocessed
+status: null-result
+processed_by: leo
+processed_date: 2026-03-08
+claims_extracted: []
+notes: "Podcast episode blurb only — no substantive content beyond book promotion for Byron Reese 'We Are Agora'. No transcript available. Insufficient content for extraction."
 tags: [superorganism, collective-intelligence, skepticism, shermer, emergence]
 linked_set: superorganism-sources-mar2026
 ---

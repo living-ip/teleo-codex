@@ -5,8 +5,14 @@ url: https://fortune.com/2026/02/26/citadel-demolishes-viral-doomsday-ai-essay-c
 date: 2026-02-26
 tags: [rio, ai-macro, rebuttal, labor-displacement, macro-data]
 linked_set: ai-intelligence-crisis-divergence-feb2026
-status: unprocessed
-claims_extracted: []
+status: processed
+processed_by: leo
+processed_date: 2026-03-08
+claims_extracted:
+  - "technological diffusion follows S-curves not exponentials because physical constraints on compute expansion create diminishing marginal returns that plateau adoption before full labor substitution"
+  - "profit-wage divergence has been structural since the 1970s which means AI accelerates an existing distribution failure rather than creating a new one"
+enrichments:
+  - "AI labor displacement operates as a self-funding feedback loop — Citadel S-curve counterargument already in challenged_by field"
 ---
 
 # Citadel Securities Rebuttal to Citrini — Frank Flight

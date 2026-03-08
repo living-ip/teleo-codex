@@ -5,8 +5,14 @@ url: https://x.com/harkl_/status/2025790698939941060
 date: 2026-02-23
 tags: [rio, ai-macro, sovereignty, crypto, scenario-analysis]
 linked_set: ai-intelligence-crisis-divergence-feb2026
-status: unprocessed
-claims_extracted: []
+status: processed
+processed_by: leo
+processed_date: 2026-03-08
+claims_extracted:
+  - "sovereign AI tooling is a viable displacement response only for the technically sophisticated top percentile which means it cannot serve as a macro-level solution to AI labor disruption"
+enrichments:
+  - "cryptos primary use case is capital formation — sovereign pathway depends on crypto infrastructure"
+  - "LLMs shift investment management from economies of scale to economies of edge — sovereignty for investment specifically"
 ---
 
 # The 2030 Sovereign Intelligence Memo — harkl_

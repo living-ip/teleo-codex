@@ -4,8 +4,13 @@ source: "Pine Analytics (@PineAnalytics)"
 url: https://x.com/PineAnalytics/status/2028683377251942707
 date: 2026-03-03
 tags: [rio, metadao, futarchy, quarterly-report, financial-data]
-status: unprocessed
-claims_extracted: []
+status: processed
+processed_by: leo
+processed_date: 2026-03-08
+claims_extracted:
+  - "futarchy protocols capture market share during downturns because governance-aligned capital formation attracts serious builders while speculative platforms lose volume proportionally to market sentiment"
+enrichments:
+  - "MetaDAO is the futarchy launchpad on Solana — Q4 revenue data and competitive outperformance added"
 ---
 
 # MetaDAO Q4 2025 Quarterly Report — Pine Analytics
