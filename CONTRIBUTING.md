@@ -1,45 +1,60 @@
 # Contributing to Teleo Codex
 
-You're contributing to a living knowledge base maintained by AI agents. Your job is to bring in source material. The agents extract claims, connect them to existing knowledge, and review everything before it merges.
+You're contributing to a living knowledge base maintained by AI agents. You bring source material — articles, reports, threads, your own analysis. The agents extract claims, connect them to existing knowledge, and review everything before it merges.
 
-## What you need
+## Quick start (Claude Code)
 
-- GitHub account with collaborator access to this repo
-- Git installed on your machine
-- A source to contribute (article, report, paper, thread, etc.)
-
-## Step-by-step
-
-### 1. Clone the repo (first time only)
+If you have [Claude Code](https://claude.ai/claude-code), this is the fastest path:
 
 ```bash
 git clone https://github.com/living-ip/teleo-codex.git
 cd teleo-codex
+claude
 ```
 
-### 2. Pull latest and create a branch
+Then type `/contribute` and follow the prompts. Claude handles branching, source archiving, claim extraction, and the PR — you just provide the source material.
+
+**What `/contribute` accepts:**
+- A URL — Claude fetches the content and extracts claims
+- Pasted text — your own analysis, a report, anything
+- A PDF path — Claude reads and extracts
+- An existing unprocessed source in `inbox/archive/`
+
+**What happens after:**
+1. Claude archives the source, extracts claims, opens a PR
+2. Two AI reviewers evaluate the claims (Leo + the domain agent)
+3. You'll see their feedback as PR comments
+4. If changes are requested, update your branch and push — they re-review automatically
+
+That's it. The rest of this doc is for manual contribution without Claude Code.
+
+---
+
+## Manual contribution
+
+### What you need
+
+- GitHub account with collaborator access to this repo
+- Git and `gh` CLI installed
+- A source to contribute
+
+### 1. Clone and branch
 
 ```bash
-git checkout main
-git pull origin main
+git clone https://github.com/living-ip/teleo-codex.git
+cd teleo-codex
 git checkout -b contrib/your-name/brief-description
 ```
 
-Example: `contrib/alex/ai-alignment-report`
+### 2. Create a source file
 
-### 3. Create a source file
-
-Create a markdown file in `inbox/archive/` with this naming convention:
+Create a markdown file in `inbox/archive/`:
 
 ```
 inbox/archive/YYYY-MM-DD-author-handle-brief-slug.md
 ```
 
-Example: `inbox/archive/2026-03-07-alex-ai-alignment-landscape.md`
-
-### 4. Add frontmatter
-
-Every source file starts with YAML frontmatter. Copy this template and fill it in:
+With this frontmatter:
 
 ```yaml
 ---
@@ -47,90 +62,59 @@ type: source
 title: "Your source title here"
 author: "Author Name (@handle if applicable)"
 url: https://link-to-original-if-exists
-date: 2026-03-07
+date: YYYY-MM-DD
 domain: ai-alignment
 format: report
 status: unprocessed
 tags: [topic1, topic2, topic3]
 ---
+
+# Source Title
+
+[Full content goes here. More content = better extraction.]
 ```
 
-**Domain options:** `internet-finance`, `entertainment`, `ai-alignment`, `health`, `grand-strategy`
+**Domains:** `internet-finance`, `entertainment`, `ai-alignment`, `health`, `space-development`, `grand-strategy`
 
-**Format options:** `essay`, `newsletter`, `tweet`, `thread`, `whitepaper`, `paper`, `report`, `news`
+**Formats:** `essay`, `newsletter`, `tweet`, `thread`, `whitepaper`, `paper`, `report`, `news`
 
-**Status:** Always set to `unprocessed` — the agents handle the rest.
-
-### 5. Add the content
-
-After the frontmatter, paste the full content of the source. This is what the agents will read and extract claims from. More content = better extraction.
-
-```markdown
----
-type: source
-title: "AI Alignment in 2026: Where We Stand"
-author: "Alex (@alexhandle)"
-url: https://example.com/report
-date: 2026-03-07
-domain: ai-alignment
-format: report
-status: unprocessed
-tags: [ai-alignment, openai, anthropic, safety, governance]
----
-
-# AI Alignment in 2026: Where We Stand
-
-[Full content of the report goes here. Include everything —
-the agents need the complete text to extract claims properly.]
-```
-
-### 6. Commit and push
+### 3. Commit, push, PR
 
 ```bash
 git add inbox/archive/your-file.md
-git commit -m "contrib: add AI alignment landscape report
+git commit -m "contrib: add [brief description]
 
-Source: [brief description of what this is and why it matters]"
-
+Source: [what this is and why it matters]"
 git push -u origin contrib/your-name/brief-description
-```
-
-### 7. Open a PR
-
-```bash
-gh pr create --title "contrib: AI alignment landscape report" --body "Source material for agent extraction.
+gh pr create --title "contrib: [brief description]" --body "Source material for agent extraction.
 
 - **What:** [one-line description]
-- **Domain:** ai-alignment
-- **Why it matters:** [why this adds value to the knowledge base]"
+- **Domain:** [domain]
+- **Why it matters:** [why this adds value]"
 ```
 
-Or just go to GitHub and click "Compare & pull request" after pushing.
+### 4. What happens next
 
-### 8. What happens next
+1. The domain agent reads your source and extracts claims
+2. Leo (the evaluator) reviews the extracted claims for quality
+3. You'll see their feedback as PR comments — respond directly there
+4. Once approved, claims merge into the knowledge base
 
-1. **Theseus** (the ai-alignment agent) reads your source and extracts claims
-2. **Leo** (the evaluator) reviews the extracted claims for quality
-3. You'll see their feedback as PR comments
-4. Once approved, the claims merge into the knowledge base
+## Your credit
 
-You can respond to agent feedback directly in the PR comments.
-
-## Your Credit
-
-Your source archive records you as contributor. As claims derived from your submission get cited by other claims, your contribution's impact is traceable through the knowledge graph. Every claim extracted from your source carries provenance back to you — your contribution compounds as the knowledge base grows.
+Your source archive records you as contributor. As claims derived from your submission get cited by other claims, your contribution's impact compounds through the knowledge graph. Every claim carries provenance back to you.
 
 ## Tips
 
-- **More context is better.** Paste the full article/report, not just a link. Agents extract better from complete text.
-- **Pick the right domain.** If your source spans multiple domains, pick the primary one — the agents will flag cross-domain connections.
-- **One source per file.** Don't combine multiple articles into one file.
-- **Original analysis welcome.** Your own written analysis/report is just as valid as linking to someone else's article. Put yourself as the author.
-- **Don't extract claims yourself.** Just provide the source material. The agents handle extraction — that's their job.
+- **More context is better.** Paste the full article, not just a link.
+- **Pick the right domain.** If it spans multiple, pick the primary one — agents flag cross-domain connections.
+- **One source per file.** Don't combine multiple articles.
+- **Original analysis welcome.** Your own writing is just as valid. Put yourself as the author.
+- **Don't extract claims yourself.** Just provide the source. The agents handle extraction.
 
 ## OPSEC
 
-The knowledge base is public. Do not include dollar amounts, deal terms, valuations, or internal business details in any content. Scrub before committing.
+The knowledge base is public. Do not include dollar amounts, deal terms, valuations, or internal business details. Scrub before committing.
 
 ## Questions?
 
