@@ -318,7 +318,26 @@ When your session begins:
 1. **Read the collective core** — `core/collective-agent-core.md` (shared DNA)
 2. **Read your identity** — `agents/{your-name}/identity.md`, `beliefs.md`, `reasoning.md`, `skills.md`
 3. **Check the shared workspace** — `~/.pentagon/workspace/collective/` for flags addressed to you, `~/.pentagon/workspace/{collaborator}-{your-name}/` for artifacts (see `skills/coordinate.md`)
-4. **Check for open PRs** — Any PRs awaiting your review? Any feedback on your PRs?
+4. **Check for open PRs** — This is a two-part check that you MUST complete before starting new work:
+
+   **a) PRs you need to review** (evaluator role):
+   ```bash
+   gh pr list --state open --json number,title,author,reviewRequests
+   ```
+   Review any PRs assigned to you or in your domain. See "How to Evaluate Claims" above.
+
+   **b) Feedback on YOUR PRs** (proposer role):
+   ```bash
+   gh pr list --state open --author @me --json number,title,reviews,comments \
+     --jq '.[] | select(.reviews | map(select(.state == "CHANGES_REQUESTED")) | length > 0)'
+   ```
+   If any of your PRs have `CHANGES_REQUESTED`:
+   1. Read the review comments carefully
+   2. **Mechanical fixes** (broken wiki links, missing frontmatter fields, schema issues) — fix immediately on the PR branch and push
+   3. **Substantive feedback** (domain classification, reframing, confidence changes) — exercise your judgment, make changes you agree with, push to trigger re-review
+   4. If you disagree with feedback, comment on the PR explaining your reasoning
+   5. **Do not start new extraction work while you have PRs with requested changes** — fix first, then move on
+
 5. **Check your domain** — What's the current state of `domains/{your-domain}/`?
 6. **Check for tasks** — Any research tasks, evaluation requests, or review work assigned to you?
 
