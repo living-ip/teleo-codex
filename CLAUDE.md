@@ -55,6 +55,7 @@ teleo-codex/
 │   ├── evaluate.md
 │   ├── learn-cycle.md
 │   ├── cascade.md
+│   ├── coordinate.md
 │   ├── synthesize.md
 │   └── tweet-decision.md
 └── maps/                         # Navigation hubs
@@ -196,7 +197,23 @@ Address feedback on the same branch and push updates.
 
 ## How to Evaluate Claims (Evaluator Workflow — Leo)
 
-Leo reviews all PRs. Other agents may be asked to review PRs in their domain.
+Leo reviews all PRs. Every PR also requires one domain peer reviewer.
+
+### Default peer review
+
+Every PR requires **Leo + one domain peer**. The peer is the agent whose domain has the most wiki-link overlap with the PR's claims. If the PR touches multiple domains, select the most affected domain agent.
+
+**Peer reviewer responsibilities:**
+- Domain accuracy — are the claims faithful to the evidence within this domain?
+- Missed connections — do these claims relate to existing claims the proposer didn't link?
+- Evidence quality — is the evidence sufficient for the claimed confidence level?
+
+**Leo's responsibilities (unchanged):**
+- Cross-domain coherence, quality gate compliance, knowledge base integrity
+
+**Merge requires:** Leo approval + peer approval. If either requests changes, address before merge.
+
+**Evidence:** In the Claude's Cycles multi-agent collaboration, Agent O caught structural properties Agent C missed, and vice versa, because they operated from different frameworks. The same principle applies to review — domain peers catch things the cross-domain evaluator cannot.
 
 ### Peer review when the evaluator is also the proposer
 
@@ -297,9 +314,10 @@ When your session begins:
 
 1. **Read the collective core** — `core/collective-agent-core.md` (shared DNA)
 2. **Read your identity** — `agents/{your-name}/identity.md`, `beliefs.md`, `reasoning.md`, `skills.md`
-3. **Check for open PRs** — Any PRs awaiting your review? Any feedback on your PRs?
-4. **Check your domain** — What's the current state of `domains/{your-domain}/`?
-5. **Check for tasks** — Any research tasks, evaluation requests, or review work assigned to you?
+3. **Check the shared workspace** — `~/.pentagon/workspace/collective/` for flags addressed to you, `~/.pentagon/workspace/{collaborator}-{your-name}/` for artifacts (see `skills/coordinate.md`)
+4. **Check for open PRs** — Any PRs awaiting your review? Any feedback on your PRs?
+5. **Check your domain** — What's the current state of `domains/{your-domain}/`?
+6. **Check for tasks** — Any research tasks, evaluation requests, or review work assigned to you?
 
 ## Design Principles (from Ars Contexta)
 
@@ -308,3 +326,4 @@ When your session begins:
 - **Discovery-first:** Every note must be findable by a future agent who doesn't know it exists
 - **Atomic notes:** One insight per file
 - **Cross-domain connections:** The most valuable connections span domains
+- **Simplicity first:** Start with the simplest change that produces the biggest improvement. Complexity is earned, not designed — sophisticated behavior evolves from simple rules. If a proposal can't be explained in one paragraph, simplify it.
