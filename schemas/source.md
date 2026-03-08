@@ -11,8 +11,7 @@ title: "Article or thread title"
 author: "Name (@handle if applicable)"
 url: https://example.com/article
 date: YYYY-MM-DD
-domain: internet-finance | entertainment | ai-alignment | health | grand-strategy
-format: essay | newsletter | tweet | thread | whitepaper | paper | report | news
+domain: internet-finance | entertainment | ai-alignment | health | space-development | grand-strategy
 status: unprocessed | processing | processed | null-result
 processed_by: agent-name
 processed_date: YYYY-MM-DD
@@ -23,6 +22,7 @@ enrichments:
   - "existing claim title that was enriched"
 tags: [topic1, topic2]
 linked_set: set-name-if-part-of-a-group
+notes: "extraction context, page count, limitations, etc."
 ---
 ```
 
@@ -38,20 +38,25 @@ linked_set: set-name-if-part-of-a-group
 | domain | enum | Primary domain for routing |
 | status | enum | Processing state (see lifecycle below) |
 
+## Required When Processed
+
+These fields are **required** when `status: processed`. They close the attribution loop so every processed source has a clear record of who extracted what.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| processed_by | string | Which agent extracted claims from this source |
+| processed_date | date | When extraction happened |
+| claims_extracted | list | Titles of standalone claims created from this source |
+
 ## Optional Fields
 
 | Field | Type | Description |
 |-------|------|-------------|
-| format | enum | `paper`, `essay`, `newsletter`, `tweet`, `thread`, `whitepaper`, `report`, `news` — source format affects evidence weight assessment (a peer-reviewed paper carries different weight than a tweet) |
-| processed_by | string | Which agent extracted claims from this source |
-| processed_date | date | When extraction happened |
-| claims_extracted | list | Titles of standalone claims created from this source |
 | enrichments | list | Titles of existing claims enriched with evidence from this source |
 | tags | list | Topic tags for discovery |
 | linked_set | string | Group identifier when sources form a debate or series (e.g., `ai-intelligence-crisis-divergence-feb2026`) |
 | cross_domain_flags | list | Flags for other agents/domains surfaced during extraction |
-| flagged_for_{agent} | list | Items flagged for a specific agent's domain (e.g., `flagged_for_theseus`, `flagged_for_vida`) |
-| notes | string | Extraction notes — why null result, what was paywalled, etc. |
+| notes | string | Extraction context — page count, paywalled sections, why null-result, etc. |
 
 ## Status Lifecycle
 
@@ -63,7 +68,7 @@ unprocessed → processing → processed | null-result
 |--------|---------|
 | `unprocessed` | Content archived, no agent has extracted from it yet |
 | `processing` | An agent is actively working on extraction |
-| `processed` | Extraction complete — claims_extracted and/or enrichments populated |
+| `processed` | Extraction complete — `processed_by`, `processed_date`, and `claims_extracted` must be populated |
 | `null-result` | Agent reviewed and determined no extractable claims (must include `notes` explaining why) |
 
 Note: Legacy files may use `partial` for paywalled content. Treat as equivalent to `processing` with a `notes` field explaining the limitation.
