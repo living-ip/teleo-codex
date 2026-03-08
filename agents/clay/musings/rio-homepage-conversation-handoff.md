@@ -143,6 +143,30 @@ What stays:
 
 ---
 
+## Rio's additions (from handoff review)
+
+### 6. Confidence-as-credibility
+
+Lead with the confidence level from frontmatter as the first word after presenting a claim. Not buried in a hedge — structural, upfront.
+
+**Template:**
+> "**Proven** — Nobel Prize evidence: [claim]. Here's the mechanism..."
+> "**Experimental** — one case study so far: [claim]. The evidence is early but the mechanism is..."
+> "**Speculative** — theoretical, no direct evidence yet: [claim]. Why we think it's worth tracking..."
+
+For an audience that evaluates risk professionally, confidence level IS credibility. It tells them how to weight the claim before they even read the evidence.
+
+### 7. Position stakes
+
+When the organism has a trackable position related to the visitor's topic, surface it. Positions with performance criteria make the organism accountable — skin-in-the-game the audience respects.
+
+**Template:**
+> "We have a position on this — [position statement]. Current confidence: [level]. Performance criteria: [what would prove us wrong]. Here's the evidence trail: [wiki links]."
+
+This is Rio's strongest move. Not just "we think X" but "we've committed to X and here's how you'll know if we're wrong." That's the difference between analysis and conviction.
+
+---
+
 ## Implementation notes for Rio
 
 ### Graph integration hooks (from Oberon coordination)
