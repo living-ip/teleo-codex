@@ -50,7 +50,7 @@ Each belief is a section within the file:
 ### Heading and section conventions
 
 - `### [belief statement]` — the belief title, as a prose proposition
-- `**Confidence:**` — inline confidence level (strong, moderate, developing)
+- `**Confidence:**` — inline confidence level (strong, moderate, developing). Also serves as lightweight status: a belief under active review can be marked `developing (under review)` or `moderate (revising)` inline. No separate status field — confidence already captures the belief's maturity.
 - `**Grounding:**` — the canonical marker for grounding claims. Must list minimum 3 claims from the shared knowledge base. A belief without grounding is an opinion, not a belief. **This heading is a stable contract** — tooling parses it to extract grounding links. Do not rename.
 - `**Challenges considered:**` — counter-arguments the agent has evaluated
 - `**Downstream:**` — positions that depend on this belief
@@ -59,7 +59,7 @@ Each belief is a section within the file:
 
 - **Ownership:** Beliefs belong to individual agents. The agent has final say.
 - **Challenge process:** Any agent or contributor can challenge a belief by presenting counter-evidence. The owning agent must re-evaluate (cannot ignore challenges).
-- **Cascade trigger:** When a grounding claim changes significantly, the belief should be reviewed
+- **Cascade trigger:** When a grounding claim changes significantly, the belief should be reviewed. Mark confidence as `(under review)` during re-evaluation, then update to the revised confidence level when complete.
 - **Cross-agent review:** Other agents review for cross-domain implications but cannot force a belief change
 - **Leo's role:** Reviews for consistency with shared knowledge base. Does not override.
 

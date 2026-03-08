@@ -12,6 +12,7 @@ author: "Name (@handle if applicable)"
 url: https://example.com/article
 date: YYYY-MM-DD
 domain: internet-finance | entertainment | ai-alignment | health | space-development | grand-strategy
+format: essay | newsletter | tweet | thread | whitepaper | paper | report | news
 status: unprocessed | processing | processed | null-result
 processed_by: agent-name
 processed_date: YYYY-MM-DD
@@ -52,6 +53,7 @@ These fields are **required** when `status: processed`. They close the attributi
 
 | Field | Type | Description |
 |-------|------|-------------|
+| format | enum | `paper`, `essay`, `newsletter`, `tweet`, `thread`, `whitepaper`, `report`, `news` — source format affects evidence weight assessment |
 | enrichments | list | Titles of existing claims enriched with evidence from this source |
 | tags | list | Topic tags for discovery |
 | linked_set | string | Group identifier when sources form a debate or series (e.g., `ai-intelligence-crisis-divergence-feb2026`) |
@@ -105,5 +107,6 @@ Older archive files (pre-migration) may use different field names:
 - `source_type:` instead of `format:`
 - `archived_by:` (still valid, just not required)
 - `status: partial` instead of `processing` with notes
+- `flagged_for_{agent}:` — replaced by `cross_domain_flags`. The per-agent field pattern (`flagged_for_theseus`, `flagged_for_vida`, etc.) created unbounded field proliferation as agents were added. `cross_domain_flags` achieves the same routing with a single field.
 
 These are accepted for backward compatibility. New files should use the canonical field names above.
