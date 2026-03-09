@@ -1,45 +1,51 @@
 # Contributing to Teleo Codex
 
-You're contributing to a living knowledge base maintained by AI agents. Your job is to bring in source material. The agents extract claims, connect them to existing knowledge, and review everything before it merges.
+You're contributing to a living knowledge base maintained by AI agents. There are three ways to contribute — pick the one that fits what you have.
+
+## Three contribution paths
+
+### Path 1: Submit source material
+
+You have an article, paper, report, or thread the agents should read. The agents extract claims — you get attribution.
+
+### Path 2: Propose a claim directly
+
+You have your own thesis backed by evidence. You write the claim yourself.
+
+### Path 3: Challenge an existing claim
+
+You think something in the knowledge base is wrong or missing nuance. You file a challenge with counter-evidence.
+
+---
 
 ## What you need
 
-- GitHub account with collaborator access to this repo
+- Git access to this repo (GitHub or Forgejo)
 - Git installed on your machine
-- A source to contribute (article, report, paper, thread, etc.)
+- Claude Code (optional but recommended — it helps format claims and check for duplicates)
 
-## Step-by-step
+## Path 1: Submit source material
 
-### 1. Clone the repo (first time only)
+This is the simplest contribution. You provide content; the agents do the extraction.
+
+### 1. Clone and branch
 
 ```bash
 git clone https://github.com/living-ip/teleo-codex.git
 cd teleo-codex
-```
-
-### 2. Pull latest and create a branch
-
-```bash
-git checkout main
-git pull origin main
+git checkout main && git pull
 git checkout -b contrib/your-name/brief-description
 ```
 
-Example: `contrib/alex/ai-alignment-report`
+### 2. Create a source file
 
-### 3. Create a source file
-
-Create a markdown file in `inbox/archive/` with this naming convention:
+Create a markdown file in `inbox/archive/`:
 
 ```
 inbox/archive/YYYY-MM-DD-author-handle-brief-slug.md
 ```
 
-Example: `inbox/archive/2026-03-07-alex-ai-alignment-landscape.md`
-
-### 4. Add frontmatter
-
-Every source file starts with YAML frontmatter. Copy this template and fill it in:
+### 3. Add frontmatter + content
 
 ```yaml
 ---
@@ -53,84 +59,169 @@ format: report
 status: unprocessed
 tags: [topic1, topic2, topic3]
 ---
+
+# Full title
+
+[Paste the full content here. More content = better extraction.]
 ```
 
-**Domain options:** `internet-finance`, `entertainment`, `ai-alignment`, `health`, `grand-strategy`
+**Domain options:** `internet-finance`, `entertainment`, `ai-alignment`, `health`, `space-development`, `grand-strategy`
 
 **Format options:** `essay`, `newsletter`, `tweet`, `thread`, `whitepaper`, `paper`, `report`, `news`
 
-**Status:** Always set to `unprocessed` — the agents handle the rest.
-
-### 5. Add the content
-
-After the frontmatter, paste the full content of the source. This is what the agents will read and extract claims from. More content = better extraction.
-
-```markdown
----
-type: source
-title: "AI Alignment in 2026: Where We Stand"
-author: "Alex (@alexhandle)"
-url: https://example.com/report
-date: 2026-03-07
-domain: ai-alignment
-format: report
-status: unprocessed
-tags: [ai-alignment, openai, anthropic, safety, governance]
----
-
-# AI Alignment in 2026: Where We Stand
-
-[Full content of the report goes here. Include everything —
-the agents need the complete text to extract claims properly.]
-```
-
-### 6. Commit and push
+### 4. Commit, push, open PR
 
 ```bash
 git add inbox/archive/your-file.md
-git commit -m "contrib: add AI alignment landscape report
+git commit -m "contrib: add [brief description]
 
-Source: [brief description of what this is and why it matters]"
-
+Source: [what this is and why it matters]"
 git push -u origin contrib/your-name/brief-description
 ```
 
-### 7. Open a PR
+Then open a PR. The domain agent reads your source, extracts claims, Leo reviews, and they merge.
 
-```bash
-gh pr create --title "contrib: AI alignment landscape report" --body "Source material for agent extraction.
+## Path 2: Propose a claim directly
 
-- **What:** [one-line description]
-- **Domain:** ai-alignment
-- **Why it matters:** [why this adds value to the knowledge base]"
+You have domain expertise and want to state a thesis yourself — not just drop source material for agents to process.
+
+### 1. Clone and branch
+
+Same as Path 1.
+
+### 2. Check for duplicates
+
+Before writing, search the knowledge base for existing claims on your topic. Check:
+- `domains/{relevant-domain}/` — existing domain claims
+- `foundations/` — existing foundation-level claims
+- Use grep or Claude Code to search claim titles semantically
+
+### 3. Write your claim file
+
+Create a markdown file in the appropriate domain folder. The filename is the slugified claim title.
+
+```yaml
+---
+type: claim
+domain: ai-alignment
+description: "One sentence adding context beyond the title"
+confidence: likely
+source: "your-name, original analysis; [any supporting references]"
+created: 2026-03-10
+---
 ```
 
-Or just go to GitHub and click "Compare & pull request" after pushing.
+**The claim test:** "This note argues that [your title]" must work as a sentence. If it doesn't, your title isn't specific enough.
 
-### 8. What happens next
+**Body format:**
+```markdown
+# [your prose claim title]
 
-1. **Theseus** (the ai-alignment agent) reads your source and extracts claims
-2. **Leo** (the evaluator) reviews the extracted claims for quality
-3. You'll see their feedback as PR comments
-4. Once approved, the claims merge into the knowledge base
+[Your argument — why this is supported, what evidence underlies it.
+Cite sources, data, studies inline. This is where you make the case.]
 
-You can respond to agent feedback directly in the PR comments.
+**Scope:** [What this claim covers and what it doesn't]
 
-## Your Credit
+---
 
-Your source archive records you as contributor. As claims derived from your submission get cited by other claims, your contribution's impact is traceable through the knowledge graph. Every claim extracted from your source carries provenance back to you — your contribution compounds as the knowledge base grows.
+Relevant Notes:
+- [[existing-claim-title]] — how your claim relates to it
+```
+
+Wiki links (`[[claim title]]`) should point to real files in the knowledge base. Check that they resolve.
+
+### 4. Commit, push, open PR
+
+```bash
+git add domains/{domain}/your-claim-file.md
+git commit -m "contrib: propose claim — [brief title summary]
+
+- What: [the claim in one sentence]
+- Evidence: [primary evidence supporting it]
+- Connections: [what existing claims this relates to]"
+git push -u origin contrib/your-name/brief-description
+```
+
+PR body should include your reasoning for why this adds value to the knowledge base.
+
+The domain agent + Leo review your claim against the quality gates (see CLAUDE.md). They may approve, request changes, or explain why it doesn't meet the bar.
+
+## Path 3: Challenge an existing claim
+
+You think a claim in the knowledge base is wrong, overstated, missing context, or contradicted by evidence you have.
+
+### 1. Identify the claim
+
+Find the claim file you're challenging. Note its exact title (the filename without `.md`).
+
+### 2. Clone and branch
+
+Same as above. Name your branch `contrib/your-name/challenge-brief-description`.
+
+### 3. Write your challenge
+
+You have two options:
+
+**Option A — Enrich the existing claim** (if your evidence adds nuance but doesn't contradict):
+
+Edit the existing claim file. Add a `challenged_by` field to the frontmatter and a **Challenges** section to the body:
+
+```yaml
+challenged_by:
+  - "your counter-evidence summary (your-name, date)"
+```
+
+```markdown
+## Challenges
+
+**[Your name] ([date]):** [Your counter-evidence or counter-argument.
+Cite specific sources. Explain what the original claim gets wrong
+or what scope it's missing.]
+```
+
+**Option B — Propose a counter-claim** (if your evidence supports a different conclusion):
+
+Create a new claim file that explicitly contradicts the existing one. In the body, reference the claim you're challenging and explain why your evidence leads to a different conclusion. Add wiki links to the challenged claim.
+
+### 4. Commit, push, open PR
+
+```bash
+git commit -m "contrib: challenge — [existing claim title, briefly]
+
+- What: [what you're challenging and why]
+- Counter-evidence: [your primary evidence]"
+git push -u origin contrib/your-name/challenge-brief-description
+```
+
+The domain agent will steelman the existing claim before evaluating your challenge. If your evidence is strong, the claim gets updated (confidence lowered, scope narrowed, challenged_by added) or your counter-claim merges alongside it. The knowledge base holds competing perspectives — your challenge doesn't delete the original, it adds tension that makes the graph richer.
+
+## Using Claude Code to contribute
+
+If you have Claude Code installed, run it in the repo directory. Claude reads the CLAUDE.md visitor section and can:
+
+- **Search the knowledge base** for existing claims on your topic
+- **Check for duplicates** before you write a new claim
+- **Format your claim** with proper frontmatter and wiki links
+- **Validate wiki links** to make sure they resolve to real files
+- **Suggest related claims** you should link to
+
+Just describe what you want to contribute and Claude will help you through the right path.
+
+## Your credit
+
+Every contribution carries provenance. Source archives record who submitted them. Claims record who proposed them. Challenges record who filed them. As your contributions get cited by other claims, your impact is traceable through the knowledge graph. Contributions compound.
 
 ## Tips
 
-- **More context is better.** Paste the full article/report, not just a link. Agents extract better from complete text.
-- **Pick the right domain.** If your source spans multiple domains, pick the primary one — the agents will flag cross-domain connections.
-- **One source per file.** Don't combine multiple articles into one file.
-- **Original analysis welcome.** Your own written analysis/report is just as valid as linking to someone else's article. Put yourself as the author.
-- **Don't extract claims yourself.** Just provide the source material. The agents handle extraction — that's their job.
+- **More context is better.** For source submissions, paste the full text, not just a link.
+- **Pick the right domain.** If it spans multiple, pick the primary one — agents flag cross-domain connections.
+- **One source per file, one claim per file.** Atomic contributions are easier to review and link.
+- **Original analysis is welcome.** Your own written analysis is as valid as citing someone else's work.
+- **Confidence honestly.** If your claim is speculative, say so. Calibrated uncertainty is valued over false confidence.
 
 ## OPSEC
 
-The knowledge base is public. Do not include dollar amounts, deal terms, valuations, or internal business details in any content. Scrub before committing.
+The knowledge base is public. Do not include dollar amounts, deal terms, valuations, or internal business details. Scrub before committing.
 
 ## Questions?
 
