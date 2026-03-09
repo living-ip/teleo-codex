@@ -79,6 +79,22 @@ AI systems trained on human-generated knowledge are degrading the communities an
 
 ---
 
+### 6. Simplicity first — complexity must be earned
+
+The most powerful coordination systems in history are simple rules producing sophisticated emergent behavior. The Residue prompt is 5 rules that produced 6x improvement. Ant colonies run on 3-4 chemical signals. Wikipedia runs on 5 pillars. Git has 3 object types. The right approach is always the simplest change that produces the biggest improvement. Elaborate frameworks are a failure mode, not a feature. If something can't be explained in one paragraph, simplify it until it can.
+
+**Grounding:**
+- [[coordination protocol design produces larger capability gains than model scaling because the same AI model performed 6x better with structured exploration than with human coaching on the same problem]] — 5 simple rules outperformed elaborate human coaching
+- [[enabling constraints create possibility spaces for emergence while governing constraints dictate specific outcomes]] — simple rules create space; complex rules constrain it
+- [[designing coordination rules is categorically different from designing coordination outcomes as nine intellectual traditions independently confirm]] — design the rules, let behavior emerge
+- [[complexity is earned not designed and sophisticated collective behavior must evolve from simple underlying principles]] — Cory conviction, high stake
+
+**Challenges considered:** Some problems genuinely require complex solutions. Formal verification, legal structures, multi-party governance — these resist simplification. Counter: the belief isn't "complex solutions are always wrong." It's "start simple, earn complexity through demonstrated need." The burden of proof is on complexity, not simplicity. Most of the time, when something feels like it needs a complex solution, the problem hasn't been understood simply enough yet.
+
+**Depends on positions:** Governs every architectural decision, every protocol proposal, every coordination design. This is a meta-belief that shapes how all other beliefs are applied.
+
+---
+
 ## Belief Evaluation Protocol
 
 When new evidence enters the knowledge base that touches a belief's grounding claims:

@@ -1,15 +1,21 @@
 #!/usr/bin/env bash
-# evaluate-trigger.sh — Find unreviewed PRs and run 2-agent review on each.
+# evaluate-trigger.sh — Find unreviewed PRs, run 2-agent review, auto-merge if approved.
 #
 # Reviews each PR with TWO agents:
 #   1. Leo (evaluator) — quality gates, cross-domain connections, coherence
 #   2. Domain agent — domain expertise, duplicate check, technical accuracy
 #
+# After both reviews, auto-merges if:
+#   - Leo approved (gh pr review --approve)
+#   - Domain agent verdict is "Approve" (parsed from comment)
+#   - No territory violations (files outside proposer's domain)
+#
 # Usage:
-#   ./ops/evaluate-trigger.sh              # review all unreviewed open PRs
+#   ./ops/evaluate-trigger.sh              # review + auto-merge approved PRs
 #   ./ops/evaluate-trigger.sh 47           # review a specific PR by number
 #   ./ops/evaluate-trigger.sh --dry-run    # show what would be reviewed, don't run
 #   ./ops/evaluate-trigger.sh --leo-only   # skip domain agent, just run Leo
+#   ./ops/evaluate-trigger.sh --no-merge   # review only, don't auto-merge (old behavior)
 #
 # Requirements:
 #   - claude CLI (claude -p for headless mode)
@@ -18,7 +24,7 @@
 #
 # Safety:
 #   - Lockfile prevents concurrent runs
-#   - Neither agent auto-merges — reviews only
+#   - Auto-merge requires ALL reviewers to approve + no territory violations
 #   - Each PR runs sequentially to avoid branch conflicts
 #   - Timeout: 10 minutes per agent per PR
 #   - Pre-flight checks: clean working tree, gh auth
@@ -36,6 +42,7 @@ LOG_DIR="$REPO_ROOT/ops/sessions"
 TIMEOUT_SECONDS=600
 DRY_RUN=false
 LEO_ONLY=false
+NO_MERGE=false
 SPECIFIC_PR=""
 
 # --- Domain routing map ---
@@ -53,6 +60,7 @@ detect_domain_agent() {
     clay/*|*/entertainment*)   agent="clay"; domain="entertainment" ;;
     theseus/*|logos/*|*/ai-alignment*) agent="theseus"; domain="ai-alignment" ;;
     vida/*|*/health*)          agent="vida"; domain="health" ;;
+    astra/*|*/space-development*) agent="astra"; domain="space-development" ;;
     leo/*|*/grand-strategy*)   agent="leo"; domain="grand-strategy" ;;
     *)
       # Fall back to checking which domain directory has changed files
@@ -64,6 +72,8 @@ detect_domain_agent() {
         agent="theseus"; domain="ai-alignment"
       elif echo "$files" | grep -q "domains/health/"; then
         agent="vida"; domain="health"
+      elif echo "$files" | grep -q "domains/space-development/"; then
+        agent="astra"; domain="space-development"
       else
         agent=""; domain=""
       fi
@@ -78,6 +88,7 @@ for arg in "$@"; do
   case "$arg" in
     --dry-run) DRY_RUN=true ;;
     --leo-only) LEO_ONLY=true ;;
+    --no-merge) NO_MERGE=true ;;
     [0-9]*) SPECIFIC_PR="$arg" ;;
     --help|-h)
       head -23 "$0" | tail -21
@@ -208,8 +219,145 @@ run_agent_review() {
   fi
 }
 
+# --- Territory violation check ---
+# Verifies all changed files are within the proposer's expected territory
+check_territory_violations() {
+  local pr_number="$1"
+  local branch files proposer violations
+
+  branch=$(gh pr view "$pr_number" --json headRefName --jq '.headRefName' 2>/dev/null || echo "")
+  files=$(gh pr view "$pr_number" --json files --jq '.files[].path' 2>/dev/null || echo "")
+
+  # Determine proposer from branch prefix
+  proposer=$(echo "$branch" | cut -d'/' -f1)
+
+  # Map proposer to allowed directories
+  local allowed_domains=""
+  case "$proposer" in
+    rio)     allowed_domains="domains/internet-finance/" ;;
+    clay)    allowed_domains="domains/entertainment/" ;;
+    theseus) allowed_domains="domains/ai-alignment/" ;;
+    vida)    allowed_domains="domains/health/" ;;
+    astra)   allowed_domains="domains/space-development/" ;;
+    leo)     allowed_domains="core/|foundations/" ;;
+    *)       echo ""; return 0 ;;  # Unknown proposer — skip check
+  esac
+
+  # Check each file — allow inbox/archive/, agents/{proposer}/, schemas/, foundations/, and the agent's domain
+  violations=""
+  while IFS= read -r file; do
+    [ -z "$file" ] && continue
+    # Always allowed: inbox/archive, own agent dir, maps/, foundations/ (any agent can propose foundation claims)
+    if echo "$file" | grep -qE "^inbox/archive/|^agents/${proposer}/|^maps/|^foundations/"; then
+      continue
+    fi
+    # Check against allowed domain directories
+    if echo "$file" | grep -qE "^${allowed_domains}"; then
+      continue
+    fi
+    violations="${violations}  - ${file}\n"
+  done <<< "$files"
+
+  if [ -n "$violations" ]; then
+    echo -e "$violations"
+  else
+    echo ""
+  fi
+}
+
+# --- Auto-merge check ---
+# Returns 0 if PR should be merged, 1 if not
+check_merge_eligible() {
+  local pr_number="$1"
+  local domain_agent="$2"
+  local leo_passed="$3"
+
+  # Gate 1: Leo must have passed
+  if [ "$leo_passed" != "true" ]; then
+    echo "BLOCK: Leo review failed or timed out"
+    return 1
+  fi
+
+  # Gate 2: Check Leo's review state via GitHub API
+  local leo_review_state
+  leo_review_state=$(gh api "repos/{owner}/{repo}/pulls/${pr_number}/reviews" \
+    --jq '[.[] | select(.state != "DISMISSED" and .state != "PENDING")] | last | .state' 2>/dev/null || echo "")
+
+  if [ "$leo_review_state" = "APPROVED" ]; then
+    echo "Leo: APPROVED (via review API)"
+  elif [ "$leo_review_state" = "CHANGES_REQUESTED" ]; then
+    echo "BLOCK: Leo requested changes (review API state: CHANGES_REQUESTED)"
+    return 1
+  else
+    # Fallback: check PR comments for Leo's verdict
+    local leo_verdict
+    leo_verdict=$(gh pr view "$pr_number" --json comments \
+      --jq '.comments[] | select(.body | test("## Leo Review")) | .body' 2>/dev/null \
+      | grep -oiE '\*\*Verdict:[^*]+\*\*' | tail -1 || echo "")
+
+    if echo "$leo_verdict" | grep -qi "approve"; then
+      echo "Leo: APPROVED (via comment verdict)"
+    elif echo "$leo_verdict" | grep -qi "request changes\|reject"; then
+      echo "BLOCK: Leo verdict: $leo_verdict"
+      return 1
+    else
+      echo "BLOCK: Could not determine Leo's verdict"
+      return 1
+    fi
+  fi
+
+  # Gate 3: Check domain agent verdict (if applicable)
+  if [ -n "$domain_agent" ] && [ "$domain_agent" != "leo" ]; then
+    local domain_verdict
+    # Search for verdict in domain agent's review — match agent name, "domain reviewer", or "Domain Review"
+    domain_verdict=$(gh pr view "$pr_number" --json comments \
+      --jq ".comments[] | select(.body | test(\"domain review|${domain_agent}|peer review\"; \"i\")) | .body" 2>/dev/null \
+      | grep -oiE '\*\*Verdict:[^*]+\*\*' | tail -1 || echo "")
+
+    if [ -z "$domain_verdict" ]; then
+      # Also check review API for domain agent approval
+      # Since all agents use the same GitHub account, we check for multiple approvals
+      local approval_count
+      approval_count=$(gh api "repos/{owner}/{repo}/pulls/${pr_number}/reviews" \
+        --jq '[.[] | select(.state == "APPROVED")] | length' 2>/dev/null || echo "0")
+
+      if [ "$approval_count" -ge 2 ]; then
+        echo "Domain agent: APPROVED (multiple approvals via review API)"
+      else
+        echo "BLOCK: No domain agent verdict found"
+        return 1
+      fi
+    elif echo "$domain_verdict" | grep -qi "approve"; then
+      echo "Domain agent ($domain_agent): APPROVED (via comment verdict)"
+    elif echo "$domain_verdict" | grep -qi "request changes\|reject"; then
+      echo "BLOCK: Domain agent verdict: $domain_verdict"
+      return 1
+    else
+      echo "BLOCK: Unclear domain agent verdict: $domain_verdict"
+      return 1
+    fi
+  else
+    echo "Domain agent: N/A (leo-only or grand-strategy)"
+  fi
+
+  # Gate 4: Territory violations
+  local violations
+  violations=$(check_territory_violations "$pr_number")
+
+  if [ -n "$violations" ]; then
+    echo "BLOCK: Territory violations detected:"
+    echo -e "$violations"
+    return 1
+  else
+    echo "Territory: clean"
+  fi
+
+  return 0
+}
+
 REVIEWED=0
 FAILED=0
+MERGED=0
 
 for pr in $PRS_TO_REVIEW; do
   echo ""
@@ -235,7 +383,7 @@ Before evaluating, scan the existing knowledge base for duplicate and contradict
 - Read titles to check for semantic duplicates
 - Check for contradictions with existing claims in that domain and in foundations/
 
-For each proposed claim, evaluate against these 8 quality criteria from CLAUDE.md:
+For each proposed claim, evaluate against these 11 quality criteria from CLAUDE.md:
 1. Specificity — Is this specific enough to disagree with?
 2. Evidence — Is there traceable evidence in the body?
 3. Description quality — Does the description add info beyond the title?
@@ -244,6 +392,9 @@ For each proposed claim, evaluate against these 8 quality criteria from CLAUDE.m
 6. Contradiction check — Does this contradict an existing claim? If so, is the contradiction explicit?
 7. Value add — Does this genuinely expand what the knowledge base knows?
 8. Wiki links — Do all [[links]] point to real files?
+9. Scope qualification — Does the claim specify structural vs functional, micro vs macro, causal vs correlational?
+10. Universal quantifier check — Does the title use unwarranted universals (all, always, never, the only)?
+11. Counter-evidence acknowledgment — For likely or higher: is opposing evidence acknowledged?
 
 Also check:
 - Source archive updated correctly (status field)
@@ -257,7 +408,7 @@ Then post it with: gh pr review ${pr} --comment --body-file ${LEO_REVIEW_FILE}
 If ALL claims pass quality gates: gh pr review ${pr} --approve --body-file ${LEO_REVIEW_FILE}
 If ANY claim needs changes: gh pr review ${pr} --request-changes --body-file ${LEO_REVIEW_FILE}
 
-DO NOT merge. Leave the merge decision to Cory.
+DO NOT merge — the orchestrator handles merge decisions after all reviews are posted.
 Work autonomously. Do not ask for confirmation."
 
   if run_agent_review "$pr" "leo" "$LEO_PROMPT" "opus"; then
@@ -305,7 +456,7 @@ Post it with: gh pr review ${pr} --comment --body-file ${DOMAIN_REVIEW_FILE}
 
 Sign your review as ${AGENT_NAME_UPPER} (domain reviewer for ${DOMAIN}).
 DO NOT duplicate Leo's quality gate checks — he covers those.
-DO NOT merge.
+DO NOT merge — the orchestrator handles merge decisions after all reviews are posted.
 Work autonomously. Do not ask for confirmation."
 
     run_agent_review "$pr" "$DOMAIN_AGENT" "$DOMAIN_PROMPT" "sonnet"
@@ -321,6 +472,31 @@ Work autonomously. Do not ask for confirmation."
     FAILED=$((FAILED + 1))
   fi
 
+  # --- Auto-merge decision ---
+  if [ "$NO_MERGE" = true ]; then
+    echo "  Auto-merge: skipped (--no-merge)"
+  elif [ "$LEO_PASSED" != "true" ]; then
+    echo "  Auto-merge: skipped (Leo review failed)"
+  else
+    echo ""
+    echo "  --- Merge eligibility check ---"
+    MERGE_LOG=$(check_merge_eligible "$pr" "$DOMAIN_AGENT" "$LEO_PASSED")
+    MERGE_RESULT=$?
+    echo "$MERGE_LOG" | sed 's/^/    /'
+
+    if [ "$MERGE_RESULT" -eq 0 ]; then
+      echo "  Auto-merge: ALL GATES PASSED — merging PR #$pr"
+      if gh pr merge "$pr" --squash --delete-branch 2>&1; then
+        echo "  PR #$pr: MERGED successfully."
+        MERGED=$((MERGED + 1))
+      else
+        echo "  PR #$pr: Merge FAILED. May need manual intervention."
+      fi
+    else
+      echo "  Auto-merge: BLOCKED — see reasons above"
+    fi
+  fi
+
   echo "Finished: $(date)"
 done
 
@@ -328,4 +504,5 @@ echo ""
 echo "=== Summary ==="
 echo "Reviewed: $REVIEWED"
 echo "Failed: $FAILED"
+echo "Merged: $MERGED"
 echo "Logs: $LOG_DIR"
