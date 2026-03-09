@@ -6,7 +6,12 @@ url: https://x.com/PineAnalytics
 date: 2026-03-09
 domain: internet-finance
 format: tweet
-status: unprocessed
+status: processed
+processed_by: rio
+processed_date: 2026-03-09
+claims_extracted:
+  - "futarchy decision markets generate orders of magnitude more participation than token voting forums because financial stakes create engagement incentives that governance duty alone cannot"
+  - "crypto perpetual futures absorb demand for traditional assets during off-hours and access gaps because permissionless markets serve traders who lack TradFi access or need weekend trading"
 tags: [metadao, analytics, futardio, decision-markets, governance-data, jupiter]
 linked_set: metadao-x-landscape-2026-03
 curator_notes: |

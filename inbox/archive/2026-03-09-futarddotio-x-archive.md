@@ -6,7 +6,13 @@ url: https://x.com/futarddotio
 date: 2026-03-09
 domain: internet-finance
 format: tweet
-status: unprocessed
+status: processed
+processed_by: rio
+processed_date: 2026-03-09
+claims_extracted:
+  - "permissionless launchpads scale futarchy-governed capital formation by separating protocol infrastructure from brand curation because protocols serve unlimited launches while curated brands create bottlenecks"
+enrichments:
+  - "futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility"
 tags: [futardio, permissionless-launchpad, ownership-coins, capital-formation, metadao]
 linked_set: metadao-x-landscape-2026-03
 curator_notes: |
