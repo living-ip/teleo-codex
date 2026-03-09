@@ -33,6 +33,10 @@ Critically, the proposal nullifies a prior 90-day restriction on buybacks/liquid
 - Market data: 97% pass, $581K volume, +9.43% TWAP spread
 - Material misrepresentation: $5B/$2M claimed vs $2B/$500K actual, activity collapse post-ICO
 - Three buyback proposals already executed in MetaDAO ecosystem (Paystream, Ranger, Turbine Cash) — liquidation is the most extreme application of the same mechanism
+- **Liquidation executed (Mar 2026):** $5M USDC distributed back to Ranger token holders — the mechanism completed its full cycle from proposal to enforcement to payout
+- **Decision market forensics (@01Resolved):** 92.41% pass-aligned, 33 unique traders, $119K decision market volume — small but decisive trader base
+- **Hurupay minimum raise failure:** Separate protection layer — when an ICO doesn't reach minimum raise threshold, all funds return automatically. Not a liquidation event but a softer enforcement mechanism. No investor lost money on a project that didn't launch.
+- **Proph3t framing (@metaproph3t X archive):** "the number one selling point of ownership coins is that they are anti-rug" — the co-founder positions enforcement as the primary value proposition, not governance quality
 
 ## Challenges
 
