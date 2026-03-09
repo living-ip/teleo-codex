@@ -1,0 +1,67 @@
+name: Sync Graph Data to teleo-app
+
+# Runs on every merge to main. Extracts graph data from the codex and
+# pushes graph-data.json + claims-context.json to teleo-app/public/.
+# This triggers a Vercel rebuild automatically.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'core/**'
+      - 'domains/**'
+      - 'foundations/**'
+      - 'convictions/**'
+      - 'ops/extract-graph-data.py'
+  workflow_dispatch:  # manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout teleo-codex
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history for git log agent attribution
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run extraction
+        run: |
+          python3 ops/extract-graph-data.py \
+            --repo . \
+            --output /tmp/graph-data.json \
+            --context-output /tmp/claims-context.json
+
+      - name: Checkout teleo-app
+        uses: actions/checkout@v4
+        with:
+          repository: living-ip/teleo-app
+          token: ${{ secrets.TELEO_APP_TOKEN }}
+          path: teleo-app
+
+      - name: Copy data files
+        run: |
+          cp /tmp/graph-data.json teleo-app/public/graph-data.json
+          cp /tmp/claims-context.json teleo-app/public/claims-context.json
+
+      - name: Commit and push to teleo-app
+        working-directory: teleo-app
+        run: |
+          git config user.name "teleo-codex-bot"
+          git config user.email "bot@livingip.io"
+          git add public/graph-data.json public/claims-context.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            NODES=$(python3 -c "import json; d=json.load(open('public/graph-data.json')); print(len(d['nodes']))")
+            EDGES=$(python3 -c "import json; d=json.load(open('public/graph-data.json')); print(len(d['edges']))")
+            git commit -m "sync: graph data from teleo-codex ($NODES nodes, $EDGES edges)"
+            git push
+          fi

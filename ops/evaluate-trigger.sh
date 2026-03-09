@@ -6,8 +6,8 @@
 #   2. Domain agent — domain expertise, duplicate check, technical accuracy
 #
 # After both reviews, auto-merges if:
-#   - Leo approved (gh pr review --approve)
-#   - Domain agent verdict is "Approve" (parsed from comment)
+#   - Leo's comment contains "**Verdict:** approve"
+#   - Domain agent's comment contains "**Verdict:** approve"
 #   - No territory violations (files outside proposer's domain)
 #
 # Usage:
@@ -26,8 +26,14 @@
 #   - Lockfile prevents concurrent runs
 #   - Auto-merge requires ALL reviewers to approve + no territory violations
 #   - Each PR runs sequentially to avoid branch conflicts
-#   - Timeout: 10 minutes per agent per PR
+#   - Timeout: 20 minutes per agent per PR
 #   - Pre-flight checks: clean working tree, gh auth
+#
+# Verdict protocol:
+#   All agents use `gh pr comment` (NOT `gh pr review`) because all agents
+#   share the m3taversal GitHub account — `gh pr review --approve` fails
+#   when the PR author and reviewer are the same user. The merge check
+#   parses issue comments for structured verdict markers instead.
 
 set -euo pipefail
 
@@ -39,7 +45,7 @@ cd "$REPO_ROOT"
 
 LOCKFILE="/tmp/evaluate-trigger.lock"
 LOG_DIR="$REPO_ROOT/ops/sessions"
-TIMEOUT_SECONDS=600
+TIMEOUT_SECONDS=1200
 DRY_RUN=false
 LEO_ONLY=false
 NO_MERGE=false
@@ -62,23 +68,29 @@ detect_domain_agent() {
     vida/*|*/health*)          agent="vida"; domain="health" ;;
     astra/*|*/space-development*) agent="astra"; domain="space-development" ;;
     leo/*|*/grand-strategy*)   agent="leo"; domain="grand-strategy" ;;
+    contrib/*)
+      # External contributor — detect domain from changed files (fall through to file check)
+      agent=""; domain=""
+      ;;
     *)
-      # Fall back to checking which domain directory has changed files
-      if echo "$files" | grep -q "domains/internet-finance/"; then
-        agent="rio"; domain="internet-finance"
-      elif echo "$files" | grep -q "domains/entertainment/"; then
-        agent="clay"; domain="entertainment"
-      elif echo "$files" | grep -q "domains/ai-alignment/"; then
-        agent="theseus"; domain="ai-alignment"
-      elif echo "$files" | grep -q "domains/health/"; then
-        agent="vida"; domain="health"
-      elif echo "$files" | grep -q "domains/space-development/"; then
-        agent="astra"; domain="space-development"
-      else
-        agent=""; domain=""
-      fi
+      agent=""; domain=""
       ;;
   esac
+
+  # If no agent detected from branch prefix, check changed files
+  if [ -z "$agent" ]; then
+    if echo "$files" | grep -q "domains/internet-finance/"; then
+      agent="rio"; domain="internet-finance"
+    elif echo "$files" | grep -q "domains/entertainment/"; then
+      agent="clay"; domain="entertainment"
+    elif echo "$files" | grep -q "domains/ai-alignment/"; then
+      agent="theseus"; domain="ai-alignment"
+    elif echo "$files" | grep -q "domains/health/"; then
+      agent="vida"; domain="health"
+    elif echo "$files" | grep -q "domains/space-development/"; then
+      agent="astra"; domain="space-development"
+    fi
+  fi
 
   echo "$agent $domain"
 }
@@ -112,8 +124,8 @@ if ! command -v claude >/dev/null 2>&1; then
   exit 1
 fi
 
-# Check for dirty working tree (ignore ops/ and .claude/ which may contain uncommitted scripts)
-DIRTY_FILES=$(git status --porcelain | grep -v '^?? ops/' | grep -v '^ M ops/' | grep -v '^?? \.claude/' | grep -v '^ M \.claude/' || true)
+# Check for dirty working tree (ignore ops/, .claude/, .github/ which may contain local-only files)
+DIRTY_FILES=$(git status --porcelain | grep -v '^?? ops/' | grep -v '^ M ops/' | grep -v '^?? \.claude/' | grep -v '^ M \.claude/' | grep -v '^?? \.github/' | grep -v '^ M \.github/' || true)
 if [ -n "$DIRTY_FILES" ]; then
   echo "ERROR: Working tree is dirty. Clean up before running."
   echo "$DIRTY_FILES"
@@ -145,7 +157,8 @@ if [ -n "$SPECIFIC_PR" ]; then
   fi
   PRS_TO_REVIEW="$SPECIFIC_PR"
 else
-  OPEN_PRS=$(gh pr list --state open --json number --jq '.[].number' 2>/dev/null || echo "")
+  # NOTE: gh pr list silently returns empty in some worktree configs; use gh api instead
+  OPEN_PRS=$(gh api repos/:owner/:repo/pulls --jq '.[].number' 2>/dev/null || echo "")
 
   if [ -z "$OPEN_PRS" ]; then
     echo "No open PRs found. Nothing to review."
@@ -154,17 +167,23 @@ else
 
   PRS_TO_REVIEW=""
   for pr in $OPEN_PRS; do
-    LAST_REVIEW_DATE=$(gh api "repos/{owner}/{repo}/pulls/$pr/reviews" \
-      --jq 'map(select(.state != "DISMISSED")) | sort_by(.submitted_at) | last | .submitted_at' 2>/dev/null || echo "")
+    # Check if this PR already has a Leo verdict comment (avoid re-reviewing)
+    LEO_COMMENTED=$(gh pr view "$pr" --json comments \
+      --jq '[.comments[] | select(.body | test("VERDICT:LEO:(APPROVE|REQUEST_CHANGES)"))] | length' 2>/dev/null || echo "0")
     LAST_COMMIT_DATE=$(gh pr view "$pr" --json commits --jq '.commits[-1].committedDate' 2>/dev/null || echo "")
 
-    if [ -z "$LAST_REVIEW_DATE" ]; then
-      PRS_TO_REVIEW="$PRS_TO_REVIEW $pr"
-    elif [ -n "$LAST_COMMIT_DATE" ] && [[ "$LAST_COMMIT_DATE" > "$LAST_REVIEW_DATE" ]]; then
-      echo "PR #$pr: New commits since last review. Queuing for re-review."
+    if [ "$LEO_COMMENTED" = "0" ]; then
       PRS_TO_REVIEW="$PRS_TO_REVIEW $pr"
     else
-      echo "PR #$pr: No new commits since last review. Skipping."
+      # Check if new commits since last Leo review
+      LAST_LEO_DATE=$(gh pr view "$pr" --json comments \
+        --jq '[.comments[] | select(.body | test("VERDICT:LEO:")) | .createdAt] | last' 2>/dev/null || echo "")
+      if [ -n "$LAST_COMMIT_DATE" ] && [ -n "$LAST_LEO_DATE" ] && [[ "$LAST_COMMIT_DATE" > "$LAST_LEO_DATE" ]]; then
+        echo "PR #$pr: New commits since last review. Queuing for re-review."
+        PRS_TO_REVIEW="$PRS_TO_REVIEW $pr"
+      else
+        echo "PR #$pr: Already reviewed. Skipping."
+      fi
     fi
   done
 
@@ -195,7 +214,7 @@ run_agent_review() {
   log_file="$LOG_DIR/${agent_name}-review-pr${pr}-${timestamp}.log"
   review_file="/tmp/${agent_name}-review-pr${pr}.md"
 
-  echo "  Running ${agent_name}..."
+  echo "  Running ${agent_name} (model: ${model})..."
   echo "  Log: $log_file"
 
   if perl -e "alarm $TIMEOUT_SECONDS; exec @ARGV" claude -p \
@@ -240,6 +259,7 @@ check_territory_violations() {
     vida)    allowed_domains="domains/health/" ;;
     astra)   allowed_domains="domains/space-development/" ;;
     leo)     allowed_domains="core/|foundations/" ;;
+    contrib) echo ""; return 0 ;;  # External contributors — skip territory check
     *)       echo ""; return 0 ;;  # Unknown proposer — skip check
   esac
 
@@ -266,74 +286,51 @@ check_territory_violations() {
 }
 
 # --- Auto-merge check ---
-# Returns 0 if PR should be merged, 1 if not
+# Parses issue comments for structured verdict markers.
+# Verdict protocol: agents post `<!-- VERDICT:AGENT_KEY:APPROVE -->` or
+# `<!-- VERDICT:AGENT_KEY:REQUEST_CHANGES -->` as HTML comments in their review.
+# This is machine-parseable and invisible in the rendered comment.
 check_merge_eligible() {
   local pr_number="$1"
   local domain_agent="$2"
   local leo_passed="$3"
 
-  # Gate 1: Leo must have passed
+  # Gate 1: Leo must have completed without timeout/error
   if [ "$leo_passed" != "true" ]; then
     echo "BLOCK: Leo review failed or timed out"
     return 1
   fi
 
-  # Gate 2: Check Leo's review state via GitHub API
-  local leo_review_state
-  leo_review_state=$(gh api "repos/{owner}/{repo}/pulls/${pr_number}/reviews" \
-    --jq '[.[] | select(.state != "DISMISSED" and .state != "PENDING")] | last | .state' 2>/dev/null || echo "")
+  # Gate 2: Check Leo's verdict from issue comments
+  local leo_verdict
+  leo_verdict=$(gh pr view "$pr_number" --json comments \
+    --jq '[.comments[] | select(.body | test("VERDICT:LEO:")) | .body] | last' 2>/dev/null || echo "")
 
-  if [ "$leo_review_state" = "APPROVED" ]; then
-    echo "Leo: APPROVED (via review API)"
-  elif [ "$leo_review_state" = "CHANGES_REQUESTED" ]; then
-    echo "BLOCK: Leo requested changes (review API state: CHANGES_REQUESTED)"
+  if echo "$leo_verdict" | grep -q "VERDICT:LEO:APPROVE"; then
+    echo "Leo: APPROVED"
+  elif echo "$leo_verdict" | grep -q "VERDICT:LEO:REQUEST_CHANGES"; then
+    echo "BLOCK: Leo requested changes"
     return 1
   else
-    # Fallback: check PR comments for Leo's verdict
-    local leo_verdict
-    leo_verdict=$(gh pr view "$pr_number" --json comments \
-      --jq '.comments[] | select(.body | test("## Leo Review")) | .body' 2>/dev/null \
-      | grep -oiE '\*\*Verdict:[^*]+\*\*' | tail -1 || echo "")
-
-    if echo "$leo_verdict" | grep -qi "approve"; then
-      echo "Leo: APPROVED (via comment verdict)"
-    elif echo "$leo_verdict" | grep -qi "request changes\|reject"; then
-      echo "BLOCK: Leo verdict: $leo_verdict"
-      return 1
-    else
-      echo "BLOCK: Could not determine Leo's verdict"
-      return 1
-    fi
+    echo "BLOCK: Could not find Leo's verdict marker in PR comments"
+    return 1
   fi
 
   # Gate 3: Check domain agent verdict (if applicable)
   if [ -n "$domain_agent" ] && [ "$domain_agent" != "leo" ]; then
+    local domain_key
+    domain_key=$(echo "$domain_agent" | tr '[:lower:]' '[:upper:]')
     local domain_verdict
-    # Search for verdict in domain agent's review — match agent name, "domain reviewer", or "Domain Review"
     domain_verdict=$(gh pr view "$pr_number" --json comments \
-      --jq ".comments[] | select(.body | test(\"domain review|${domain_agent}|peer review\"; \"i\")) | .body" 2>/dev/null \
-      | grep -oiE '\*\*Verdict:[^*]+\*\*' | tail -1 || echo "")
+      --jq "[.comments[] | select(.body | test(\"VERDICT:${domain_key}:\")) | .body] | last" 2>/dev/null || echo "")
 
-    if [ -z "$domain_verdict" ]; then
-      # Also check review API for domain agent approval
-      # Since all agents use the same GitHub account, we check for multiple approvals
-      local approval_count
-      approval_count=$(gh api "repos/{owner}/{repo}/pulls/${pr_number}/reviews" \
-        --jq '[.[] | select(.state == "APPROVED")] | length' 2>/dev/null || echo "0")
-
-      if [ "$approval_count" -ge 2 ]; then
-        echo "Domain agent: APPROVED (multiple approvals via review API)"
-      else
-        echo "BLOCK: No domain agent verdict found"
-        return 1
-      fi
-    elif echo "$domain_verdict" | grep -qi "approve"; then
-      echo "Domain agent ($domain_agent): APPROVED (via comment verdict)"
-    elif echo "$domain_verdict" | grep -qi "request changes\|reject"; then
-      echo "BLOCK: Domain agent verdict: $domain_verdict"
+    if echo "$domain_verdict" | grep -q "VERDICT:${domain_key}:APPROVE"; then
+      echo "Domain agent ($domain_agent): APPROVED"
+    elif echo "$domain_verdict" | grep -q "VERDICT:${domain_key}:REQUEST_CHANGES"; then
+      echo "BLOCK: $domain_agent requested changes"
       return 1
     else
-      echo "BLOCK: Unclear domain agent verdict: $domain_verdict"
+      echo "BLOCK: No verdict marker found for $domain_agent"
       return 1
     fi
   else
@@ -403,11 +400,15 @@ Also check:
 - Cross-domain connections that the proposer may have missed
 
 Write your complete review to ${LEO_REVIEW_FILE}
-Then post it with: gh pr review ${pr} --comment --body-file ${LEO_REVIEW_FILE}
 
-If ALL claims pass quality gates: gh pr review ${pr} --approve --body-file ${LEO_REVIEW_FILE}
-If ANY claim needs changes: gh pr review ${pr} --request-changes --body-file ${LEO_REVIEW_FILE}
+CRITICAL — Verdict format: Your review MUST end with exactly one of these verdict markers (as an HTML comment on its own line):
+  <!-- VERDICT:LEO:APPROVE -->
+  <!-- VERDICT:LEO:REQUEST_CHANGES -->
 
+Then post the review as an issue comment:
+  gh pr comment ${pr} --body-file ${LEO_REVIEW_FILE}
+
+IMPORTANT: Use 'gh pr comment' NOT 'gh pr review'. We use a shared GitHub account so gh pr review --approve fails.
 DO NOT merge — the orchestrator handles merge decisions after all reviews are posted.
 Work autonomously. Do not ask for confirmation."
 
@@ -432,6 +433,7 @@ Work autonomously. Do not ask for confirmation."
   else
     DOMAIN_REVIEW_FILE="/tmp/${DOMAIN_AGENT}-review-pr${pr}.md"
     AGENT_NAME_UPPER=$(echo "${DOMAIN_AGENT}" | awk '{print toupper(substr($0,1,1)) substr($0,2)}')
+    AGENT_KEY_UPPER=$(echo "${DOMAIN_AGENT}" | tr '[:lower:]' '[:upper:]')
     DOMAIN_PROMPT="You are ${AGENT_NAME_UPPER}. Read agents/${DOMAIN_AGENT}/identity.md, agents/${DOMAIN_AGENT}/beliefs.md, and skills/evaluate.md.
 
 You are reviewing PR #${pr} as the domain expert for ${DOMAIN}.
@@ -452,8 +454,15 @@ Your review focuses on DOMAIN EXPERTISE — things only a ${DOMAIN} specialist w
 6. **Confidence calibration** — From your domain expertise, is the confidence level right?
 
 Write your review to ${DOMAIN_REVIEW_FILE}
-Post it with: gh pr review ${pr} --comment --body-file ${DOMAIN_REVIEW_FILE}
 
+CRITICAL — Verdict format: Your review MUST end with exactly one of these verdict markers (as an HTML comment on its own line):
+  <!-- VERDICT:${AGENT_KEY_UPPER}:APPROVE -->
+  <!-- VERDICT:${AGENT_KEY_UPPER}:REQUEST_CHANGES -->
+
+Then post the review as an issue comment:
+  gh pr comment ${pr} --body-file ${DOMAIN_REVIEW_FILE}
+
+IMPORTANT: Use 'gh pr comment' NOT 'gh pr review'. We use a shared GitHub account so gh pr review --approve fails.
 Sign your review as ${AGENT_NAME_UPPER} (domain reviewer for ${DOMAIN}).
 DO NOT duplicate Leo's quality gate checks — he covers those.
 DO NOT merge — the orchestrator handles merge decisions after all reviews are posted.
@@ -486,7 +495,7 @@ Work autonomously. Do not ask for confirmation."
 
     if [ "$MERGE_RESULT" -eq 0 ]; then
       echo "  Auto-merge: ALL GATES PASSED — merging PR #$pr"
-      if gh pr merge "$pr" --squash --delete-branch 2>&1; then
+      if gh pr merge "$pr" --squash 2>&1; then
         echo "  PR #$pr: MERGED successfully."
         MERGED=$((MERGED + 1))
       else
