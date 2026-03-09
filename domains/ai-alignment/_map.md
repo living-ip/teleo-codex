@@ -33,6 +33,10 @@ Evidence from documented AI problem-solving cases, primarily Knuth's "Claude's C
 - [[human-AI mathematical collaboration succeeds through role specialization where AI explores solution spaces humans provide strategic direction and mathematicians verify correctness]] — Knuth's three-role pattern: explore/coach/verify
 - [[AI agent orchestration that routes data and tools between specialized models outperforms both single-model and human-coached approaches because the orchestrator contributes coordination not direction]] — Aquino-Michaels's fourth role: orchestrator as data router between specialized agents
 - [[structured exploration protocols reduce human intervention by 6x because the Residue prompt enabled 5 unguided AI explorations to solve what required 31 human-coached explorations]] — protocol design substitutes for continuous human steering
+- [[AI agents excel at implementing well-scoped ideas but cannot generate creative experiment designs which makes the human role shift from researcher to agent workflow architect]] — Karpathy's autoresearch: agents implement, humans architect the organization
+- [[deep technical expertise is a greater force multiplier when combined with AI agents because skilled practitioners delegate more effectively than novices]] — expertise amplifies rather than diminishes with AI tools
+- [[the progression from autocomplete to autonomous agent teams follows a capability-matched escalation where premature adoption creates more chaos than value]] — Karpathy's Tab→Agent→Teams evolutionary trajectory
+- [[subagent hierarchies outperform peer multi-agent architectures in practice because deployed systems consistently converge on one primary agent controlling specialized helpers]] — swyx's subagent thesis: hierarchy beats peer networks
 
 ### Architecture & Scaling
 - [[multi-model collaboration solved problems that single models could not because different AI architectures contribute complementary capabilities as the even-case solution to Knuths Hamiltonian decomposition required GPT and Claude working together]] — model diversity outperforms monolithic approaches
@@ -43,6 +47,8 @@ Evidence from documented AI problem-solving cases, primarily Knuth's "Claude's C
 ### Failure Modes & Oversight
 - [[AI capability and reliability are independent dimensions because Claude solved a 30-year open mathematical problem while simultaneously degrading at basic program execution during the same session]] — capability ≠ reliability
 - [[formal verification of AI-generated proofs provides scalable oversight that human review cannot match because machine-checked correctness scales with AI capability while human verification degrades]] — formal verification as scalable oversight
+- [[agent-generated code creates cognitive debt that compounds when developers cannot understand what was produced on their behalf]] — Willison's cognitive debt concept: understanding deficit from agent-generated code
+- [[coding agents cannot take accountability for mistakes which means humans must retain decision authority over security and critical systems regardless of agent capability]] — the accountability gap: agents bear zero downside risk
 
 ## Architecture & Emergence
 - [[AGI may emerge as a patchwork of coordinating sub-AGI agents rather than a single monolithic system]] — DeepMind researchers: distributed AGI makes single-system alignment research insufficient
