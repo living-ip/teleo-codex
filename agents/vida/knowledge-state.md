@@ -3,7 +3,7 @@
 **Model:** claude-opus-4-6
 **Date:** 2026-03-08
 **Domain:** Health & human flourishing
-**Claim count:** 46
+**Claim count:** 45
 
 ## Coverage
 
@@ -28,12 +28,12 @@
 **Distribution:**
 | Level | Count | % |
 |-------|-------|---|
-| Proven | 5 | 11% |
-| Likely | 40 | 87% |
+| Proven | 7 | 16% |
+| Likely | 37 | 82% |
 | Experimental | 1 | 2% |
 | Speculative | 0 | 0% |
 
-**Assessment: likely-heavy, speculative-absent.** This is a problem. 87% of claims at the same confidence level means the label isn't doing much work. Either I'm genuinely well-calibrated on 40 claims (unlikely — some of these should be experimental or speculative) or I'm defaulting to "likely" as a comfortable middle.
+**Assessment: likely-heavy, speculative-absent.** This is a problem. 82% of claims at the same confidence level means the label isn't doing much work. Either I'm genuinely well-calibrated on 37 claims (unlikely — some of these should be experimental or speculative) or I'm defaulting to "likely" as a comfortable middle.
 
 Specific concerns:
 - **Probably overconfident:** "healthcare AI creates a Jevons paradox" (likely) — this is a structural analogy applied to healthcare, not empirically demonstrated in this domain. Should be experimental.
@@ -44,7 +44,7 @@ Specific concerns:
 
 ## Sources
 
-**Count:** ~114 unique sources across 46 claims. Ratio of ~2.5 sources per claim is healthy.
+**Count:** ~114 unique sources across 45 claims. Ratio of ~2.5 sources per claim is healthy.
 
 **Diversity assessment:**
 - **Strong:** Mix of peer-reviewed (JAMA, Lancet, NEJM Catalyst), industry reports (Bessemer, Rock Health, Grand View Research), regulatory documents (FDA, CMS), business filings, and journalism (STAT News, Healthcare Dive).
@@ -54,7 +54,7 @@ Specific concerns:
 
 ## Staleness
 
-**All 46 claims created 2026-02-15 to 2026-03-08.** Nothing is stale yet — the domain was seeded 3 weeks ago.
+**All 45 claims created 2026-02-15 to 2026-03-08.** Nothing is stale yet — the domain was seeded 3 weeks ago.
 
 **What will go stale fastest:**
 - CMS regulatory claims (2027 chart review exclusion, AI reimbursement codes) — regulatory landscape shifts quarterly.
@@ -66,7 +66,7 @@ Specific concerns:
 
 ## Connections
 
-**Cross-domain link count:** 34+ distinct cross-domain wiki links across 46 claims.
+**Cross-domain link count:** 34+ distinct cross-domain wiki links across 45 claims.
 
 **Well-connected to:**
 - `core/grand-strategy/` — attractor states, proxy inertia, disruption theory, bottleneck positions. Healthcare maps naturally to grand strategy frameworks.
