@@ -8,9 +8,13 @@ date: 2026-02-24
 domain: ai-alignment
 secondary_domains: [teleological-economics]
 format: tweet
-status: unprocessed
+status: null-result
 priority: medium
 tags: [cli, agents, terminal, developer-tools, legacy-systems]
+processed_by: theseus
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Extracted single novel claim about CLI structural advantage for AI agents. No existing claims in ai-alignment domain address CLI vs GUI interface affordances for agents. The claim is specific enough to disagree with and cites concrete examples (Claude, Polymarket CLI, Github CLI). Confidence set to experimental due to single-source basis. Key facts preserved: Karpathy's examples of CLI capabilities (install, build dashboards, navigate repos, see issues/PRs/discussions/code)."
 ---
 
 ## Content
@@ -28,3 +32,11 @@ E.g ask your Claude/Codex agent to install this new Polymarket CLI and ask for a
 **Extraction hints:** Claim: legacy text-based interfaces (CLIs) are structurally more accessible to AI agents than modern GUI interfaces because they were designed for composability and programmatic interaction.
 
 **Context:** Karpathy explicitly mentions Claude and Polymarket CLI — connecting AI agents with prediction markets through terminal tools. Relevant to the Teleo stack.
+
+
+## Key Facts
+- Andrej Karpathy is @karpathy with twitter_id 33836629
+- Tweet date: 2026-02-24
+- Tweet received 11.7K likes
+- Karpathy explicitly mentions Claude and Polymarket CLI as examples
+- CLI capabilities listed: install tools, build dashboards/interfaces/logic, navigate repos, see issues/PRs/discussions/code
