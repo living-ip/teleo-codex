@@ -6,7 +6,7 @@ url: https://x.com/turbine_cash
 date: 2026-03-09
 domain: internet-finance
 format: tweet
-status: unprocessed
+status: null-result
 tags: [turbine, privacy, privacyfi, futardio, solana, metadao-ecosystem]
 linked_set: metadao-x-landscape-2026-03
 curator_notes: |
@@ -22,6 +22,10 @@ extraction_hints:
   - "TWAP buyback mechanics — connects to 01Resolved's analysis, evidence for automated treasury management"
   - "Cross-domain flag for Theseus: privacy infrastructure intersects with AI alignment (encrypted computation, data sovereignty)"
 priority: low
+processed_by: rio
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Model returned 0 claims, 0 written. Check extraction log."
 ---
 
 # @turbine_cash X Archive (March 2026)
