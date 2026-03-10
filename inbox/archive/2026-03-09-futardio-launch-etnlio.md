@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/4oiZeLhoDB9jGTFd28kJDKBYheL1Yg1XwR3qPTa69Rx9"
 date: 2026-03-09
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-10
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "First documented failed raise on Futardio platform. No new claims warranted—this is empirical evidence of existing friction claims (liquidity requirements, adoption barriers) and challenges optimistic claims about MetaDAO's product-market fit and capital formation speed. The failure is particularly notable because the project had complete documentation, clear use of funds, and a coherent product narrative, suggesting the barrier is market liquidity/participation rather than project quality or information asymmetry."
 ---
 
 ## Launch Details
@@ -61,3 +66,12 @@ The self-custody wallet market is growing rapidly as users move away from centra
 - Token mint: `64SnHgEfSdzpnmHEhh2niN8bcAjmhTyEQky2DKWBmeta`
 - Version: v0.7
 - Closed: 2026-03-10
+
+
+## Key Facts
+- Etnl.io Futardio raise: $500,000 target, $96 committed, refunding status (2026-03-09 to 2026-03-10)
+- Etnl.io product: Secure Enclave-based mobile wallet with hardware-level security
+- Etnl.io team budget: $30,000/month
+- Launch address: 4oiZeLhoDB9jGTFd28kJDKBYheL1Yg1XwR3qPTa69Rx9
+- Token: 64S, mint: 64SnHgEfSdzpnmHEhh2niN8bcAjmhTyEQky2DKWBmeta
+- Futardio platform version: v0.7
