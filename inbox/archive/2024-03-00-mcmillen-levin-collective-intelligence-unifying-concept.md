@@ -7,9 +7,13 @@ date: 2024-03-28
 domain: collective-intelligence
 secondary_domains: [critical-systems, ai-alignment]
 format: paper
-status: unprocessed
+status: null-result
 priority: medium
 tags: [collective-intelligence, multi-scale, diverse-intelligence, biology, morphogenesis, competency-architecture]
+processed_by: theseus
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Extracted one primary claim about competency at every level principle from McMillen & Levin 2024. The paper provides strong biological grounding for the nested architecture in our knowledge base. No existing claims in collective-intelligence domain to check against. Key insight: higher levels build on rather than replace lower-level competency — this is the core principle that distinguishes this claim from generic emergence arguments."
 ---
 
 ## Content
@@ -50,3 +54,12 @@ Published in Communications Biology, March 2024.
 PRIMARY CONNECTION: "emergence is the fundamental pattern of intelligence from ant colonies to brains to civilizations"
 WHY ARCHIVED: Biological grounding for multi-scale collective intelligence — validates our nested architecture and the principle that each level of the hierarchy should be independently competent
 EXTRACTION HINT: Focus on the "competency at every level" principle and how it applies to our agent hierarchy
+
+
+## Key Facts
+- Published in Communications Biology, March 2024
+- Authors: Patrick McMillen and Michael Levin
+- Biology uses multiscale architecture: molecular networks, cells, tissues, organs, bodies, swarms
+- Each level solves problems in distinct problem spaces: physiological, morphological, behavioral
+- Intelligence is not restricted to brains — cellular collectives exhibit decision-making
+- Field of 'diverse intelligence' provides biological grounding for collective AI intelligence
