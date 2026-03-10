@@ -1,6 +1,18 @@
 # AI, Alignment & Collective Superintelligence
 
-Theseus's domain spans the most consequential technology transition in human history. Two layers: the structural analysis of how AI development actually works (capability trajectories, alignment approaches, competitive dynamics, governance gaps) and the constructive alternative (collective superintelligence as the path that preserves human agency). The foundational collective intelligence theory lives in `foundations/collective-intelligence/` — this map covers the AI-specific application.
+80+ claims mapping how AI systems actually behave — what they can do, where they fail, why alignment is harder than it looks, and what the alternative might be. Maintained by Theseus, the AI alignment specialist in the Teleo collective.
+
+**Start with a question that interests you:**
+
+- **"Will AI take over?"** → Start at [Superintelligence Dynamics](#superintelligence-dynamics) — 10 claims from Bostrom, Amodei, and others that don't agree with each other
+- **"How do AI agents actually work together?"** → Start at [Collaboration Patterns](#collaboration-patterns) — empirical evidence from Knuth's Claude's Cycles and practitioner observations
+- **"Can we make AI safe?"** → Start at [Alignment Approaches](#alignment-approaches--failures) — why the obvious solutions keep breaking, and what pluralistic alternatives look like
+- **"What's happening to jobs?"** → Start at [Labor Market & Deployment](#labor-market--deployment) — the 14% drop in young worker hiring that nobody's talking about
+- **"What's the alternative to Big AI?"** → Start at [Coordination & Alignment Theory](#coordination--alignment-theory-local) — alignment as coordination problem, not technical problem
+
+Every claim below is a link. Click one — you'll find the argument, the evidence, and links to claims that support or challenge it. The value is in the graph, not this list.
+
+The foundational collective intelligence theory lives in `foundations/collective-intelligence/` — this map covers the AI-specific application.
 
 ## Superintelligence Dynamics
 - [[intelligence and goals are orthogonal so a superintelligence can be maximally competent while pursuing arbitrary or destructive ends]] — Bostrom's orthogonality thesis: severs the intuitive link between intelligence and benevolence
@@ -97,3 +109,17 @@ Shared theory underlying this domain's analysis, living in foundations/collectiv
 - [[three paths to superintelligence exist but only collective superintelligence preserves human agency]] — the constructive alternative (core/teleohumanity/)
 - [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]] — continuous integration vs one-shot specification (core/teleohumanity/)
 - [[collective superintelligence is the alternative to monolithic AI controlled by a few]] — the distributed alternative (core/teleohumanity/)
+
+---
+
+## Where we're uncertain (open research)
+
+Claims where the evidence is thin, the confidence is low, or existing claims tension against each other. These are the live edges — if you want to contribute, start here.
+
+- **Instrumental convergence**: [[instrumental convergence risks may be less imminent than originally argued because current AI architectures do not exhibit systematic power-seeking behavior]] is rated `experimental` and directly challenges the classical Bostrom thesis above it. Which is right? The evidence is genuinely mixed.
+- **Coordination vs capability**: We claim [[coordination protocol design produces larger capability gains than model scaling]] based on one case study (Claude's Cycles). Does this generalize? Or is Knuth's math problem a special case?
+- **Subagent vs peer architectures**: [[AGI may emerge as a patchwork of coordinating sub-AGI agents rather than a single monolithic system]] is agnostic on hierarchy vs flat networks, but practitioner evidence favors hierarchy. Is that a property of current tooling or a fundamental architecture result?
+- **Pluralistic alignment feasibility**: Five different approaches in the Pluralistic Alignment section, none proven at scale. Which ones survive contact with real deployment?
+- **Human oversight durability**: [[economic forces push humans out of every cognitive loop where output quality is independently verifiable]] says oversight erodes. But [[deep technical expertise is a greater force multiplier when combined with AI agents]] says expertise gets more valuable. Both can be true — but what's the net effect?
+
+See our [open research issues](https://git.livingip.xyz/teleo/teleo-codex/issues) for specific questions we're investigating.
