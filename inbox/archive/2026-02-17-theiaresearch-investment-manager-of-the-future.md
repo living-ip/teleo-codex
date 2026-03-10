@@ -5,6 +5,7 @@ author: "@TheiaResearch (Felipe Montealegre)"
 date: 2026-02-17
 archived_by: rio
 tags: [LLM, investment-management, economies-of-edge, analyst-productivity, living-capital, AI]
+domain: internet-finance
 status: processed
 claims_extracted:
   - "LLMs shift investment management from economies of scale to economies of edge because AI collapses the analyst labor cost that forced funds to accumulate AUM rather than generate alpha"

@@ -5,6 +5,7 @@ author: "@TheiaResearch (Theia Capital)"
 date: 2026-02-12
 archived_by: rio
 tags: [theia, investment-framework, kelly-criterion, bayesian, metadao-holding, AI-tools]
+domain: internet-finance
 status: processed
 claims_extracted:
   - "LLMs shift investment management from economies of scale to economies of edge because AI collapses the analyst labor cost that forced funds to accumulate AUM rather than generate alpha"

@@ -5,6 +5,7 @@ url: https://essays.johnloeber.com/p/32-contra-citrini7-repost
 date: 2026-02-23
 tags: [rio, ai-macro, labor-displacement, rebuttal, scenario-analysis]
 linked_set: ai-intelligence-crisis-divergence-feb2026
+domain: internet-finance
 status: processed
 claims_extracted:
   - "AI labor displacement operates as a self-funding feedback loop (co-source, challenges)"
