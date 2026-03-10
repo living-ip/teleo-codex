@@ -7,9 +7,14 @@ date: 2011-06-01
 domain: health
 secondary_domains: []
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [medicare-advantage, medicare-history, political-economy, risk-adjustment, payment-formula, hmo]
+processed_by: vida
+processed_date: 2026-03-10
+enrichments_applied: ["CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md", "value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md", "the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness.md", "Devoted is the fastest growing MA plan at 121 percent growth because purpose built technology outperforms acquisition based vertical integration during CMS tightening.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two major claims about MA's policy-contingent growth and the ideological shift in MMA 2003. Enriched four existing claims with historical context about payment policy cycles, risk-bearing incentives, attractor state misalignment, and Devoted's growth in context of quality bonuses. The BBA 1997-MMA 2003 crash-and-rescue cycle is the key extractable insight—it demonstrates that MA viability depends on above-FFS payments, not market efficiency or consumer preference. The ideological reframing from cost containment to market accommodation explains why overpayments have been sustained for two decades despite consistent evidence of inefficiency."
 ---
 
 ## Content
@@ -70,3 +75,17 @@ The MMA 2003 was the decisive inflection: shifted from cost-containment framing 
 PRIMARY CONNECTION: [[the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness]]
 WHY ARCHIVED: Essential historical context — you can't evaluate where MA is going without understanding the political economy of how it got here.
 EXTRACTION HINT: The 1997-2003 crash-and-rescue cycle is the most extractable insight. It demonstrates that MA's growth is policy-contingent, not demand-driven.
+
+
+## Key Facts
+- 1966: Private plans part of Medicare since inception
+- 1972: Social Security Amendments authorized capitation payments for Parts A and B
+- 1976: Medicare began demonstration projects with HMOs
+- 1982 TEFRA: established risk-contract HMOs with prospective monthly capitation
+- 1985: TEFRA rules fully implemented; enrollment at 2.8% of beneficiaries
+- 1997 BBA: Medicare trustees projected Part A trust fund zero balance within 5 years
+- 1999-2003: Plans dropped from 407 to 285; enrollment fell from 6.3M to 4.9M (30% decline)
+- 2003 MMA: Payments jumped 11% average between 2003-2004
+- 2010: MA penetration at 24% (10.8M enrollees)
+- 2024: MA penetration at 54% (32.8M enrollees)
+- Current MA overpayments estimated at $84B/year (2024)
