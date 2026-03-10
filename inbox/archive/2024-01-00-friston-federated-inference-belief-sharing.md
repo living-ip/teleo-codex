@@ -7,9 +7,14 @@ date: 2024-01-00
 domain: collective-intelligence
 secondary_domains: [ai-alignment, critical-systems]
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [active-inference, federated-inference, belief-sharing, multi-agent, distributed-intelligence, collective-intelligence]
+processed_by: theseus
+processed_date: 2026-03-10
+enrichments_applied: ["domain-specialization-cross-domain-synthesis-collective-intelligence.md", "coordination-protocol-design-beats-model-scaling.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Core theoretical paper formalizing the exact mechanism by which Teleo agents coordinate. Three new claims extracted: (1) belief sharing vs data pooling superiority, (2) shared world model requirement, (3) precision weighting through confidence levels. Two enrichments to existing claims on domain specialization and coordination protocols. The third claim (precision weighting) is marked experimental because it operationalizes Friston's theory to Teleo's confidence levels—the mechanism is sound but the specific implementation is our interpretation. Agent notes correctly identified this as foundational for understanding why our PR review process and cross-citation patterns work—it's literally federated inference in action."
 ---
 
 ## Content
