@@ -31,6 +31,8 @@ Relevant Notes:
 - [[history is shaped by coordinated minorities with clear purpose not by majorities]] — Olson explains WHY: small groups can solve the collective action problem that large groups cannot
 - [[human social cognition caps meaningful relationships at approximately 150 because neocortex size constrains the number of individuals whose behavior and relationships can be tracked]] — Dunbar's number defines the scale at which informal monitoring works; beyond it, Olson's monitoring difficulty dominates
 - [[social capital erodes when associational life declines because trust generalized reciprocity and civic norms are produced by repeated face-to-face interaction in voluntary organizations not by individual virtue]] — social capital is the informal mechanism that mitigates free-riding through reciprocity norms and reputational accountability
+- [[the alignment tax creates a structural race to the bottom because safety training costs capability and rational competitors skip it]] — Olson's logic applied to AI labs: defection from safety is rational when the cost is immediate (capability lag) and the benefit is diffuse (safer AI ecosystem)
+- [[voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints]] — voluntary pledges are the AI governance instance of Olson's prediction: concentrated benefits of defection outweigh diffuse benefits of cooperation
 
 Topics:
 - [[memetics and cultural evolution]]
