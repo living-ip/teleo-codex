@@ -7,9 +7,13 @@ date: 2021-03-00
 domain: ai-alignment
 secondary_domains: [collective-intelligence, critical-systems]
 format: paper
-status: unprocessed
+status: null-result
 priority: medium
 tags: [active-inference, reinforcement-learning, expected-free-energy, epistemic-value, exploration-exploitation, comparison]
+processed_by: theseus
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Model returned 0 claims, 0 written. Check extraction log."
 ---
 
 ## Content
