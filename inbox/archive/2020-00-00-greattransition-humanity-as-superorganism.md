@@ -6,9 +6,14 @@ url: https://greattransitionstories.org/patterns-of-change/humanity-as-a-superor
 date: 2020-01-01
 domain: ai-alignment
 format: essay
-status: unprocessed
+status: null-result
 tags: [superorganism, collective-intelligence, great-transition, emergence, systems-theory]
 linked_set: superorganism-sources-mar2026
+processed_by: theseus
+processed_date: 2026-03-10
+enrichments_applied: ["human-civilization-passes-falsifiable-superorganism-criteria-because-individuals-cannot-survive-apart-from-society-and-occupations-function-as-role-specific-cellular-algorithms.md"]
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Source is philosophical/interpretive essay rather than empirical research. The core claims about humanity as superorganism are already represented in existing knowledge base claims. This source provides additional framing evidence from Bruce Lipton's biological work that extends the existing superorganism claim - specifically the 50 trillion cell analogy and the pattern-of-evolution observation. No new novel claims identified that aren't already covered by existing ai-alignment domain claims about superorganism properties."
 ---
 
 # Humanity as a Superorganism
@@ -105,3 +110,11 @@ In “The Evolution of the Butterfly,” Dr. Bruce Lipton narrates the process o
 
 [Privacy Policy](http://greattransitionstories.org/privacy-policy/) | Copyleft ©, 2012 - 2021
 [Scroll up](https://greattransitionstories.org/patterns-of-change/humanity-as-a-superorganism/#)
+
+
+## Key Facts
+- Bruce Lipton describes human body as 'community of 50 trillion specialized amoeba-like cells'
+- Human evolution progressed: individuals → hunter-gatherer communities → tribes → city-states → nations
+- Lipton describes humanity as 'a multicellular superorganism comprised of seven billion human cells'
+- Evolution follows 'repetitive pattern of organisms evolving into communities of organisms, which then evolve into the creation of the next higher level of organisms'
+- Source is from Great Transition Stories, published 2020-01-01
