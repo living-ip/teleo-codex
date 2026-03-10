@@ -6,9 +6,13 @@ url: https://www.skeptic.com/michael-shermer-show/does-humanity-function-as-a-si
 date: 2024-01-01
 domain: ai-alignment
 format: essay
-status: unprocessed
+status: null-result
 tags: [superorganism, collective-intelligence, skepticism, shermer, emergence]
 linked_set: superorganism-sources-mar2026
+processed_by: theseus
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Source is a podcast episode summary/promotional page with no substantive content - only episode description, guest bio, and topic list. No transcript or detailed arguments present. The full episode content (which would contain the actual discussion between Shermer and Reese) is not available in this source file. Cannot extract evidence or claims from promotional metadata alone."
 ---
 
 # Does Humanity Function as a Single Superorganism?
