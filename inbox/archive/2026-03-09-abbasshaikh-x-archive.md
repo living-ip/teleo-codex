@@ -6,7 +6,7 @@ url: https://x.com/Abbasshaikh
 date: 2026-03-09
 domain: internet-finance
 format: tweet
-status: unprocessed
+status: null-result
 tags: [umbra, privacy, futardio, community-organizing, metadao-ecosystem]
 linked_set: metadao-x-landscape-2026-03
 curator_notes: |
@@ -22,6 +22,10 @@ extraction_hints:
   - "Privacy + ownership coins intersection — potential cross-domain connection"
   - "Low claim extraction priority — community voice, not mechanism analysis"
 priority: low
+processed_by: rio
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "No extractable claims. Source is a tweet archive metadata summary with only two substantive data points: (1) Umbra raised $3M via MetaDAO ICO with 7x first-week performance, and (2) Abbas is a community organizer for Futardio. The curator notes explicitly classify this as 'low claim extraction priority — community voice, not mechanism analysis.' The ICO performance data ($3M, 7x) is already covered by existing claim 'MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs...' The community organizing pattern is cultural/soft data not suitable for claim extraction. No specific, disagreeable interpretive claims can be made from this source."
 ---
 
 # @Abbasshaikh X Archive (March 2026)
