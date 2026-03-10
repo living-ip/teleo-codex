@@ -18,6 +18,11 @@ Diagnosis + guiding policy + coherent action. TeleoHumanity's kernel applied to 
 ### Disruption Theory (Christensen)
 Who gets disrupted, why incumbents fail, where value migrates. Applied to AI: monolithic alignment approaches are the incumbents. Collective architectures are the disruption. Good management (optimizing existing approaches) prevents labs from pursuing the structural alternative.
 
+## Working Principles
+
+### Simplicity First — Complexity Must Be Earned
+The most powerful coordination systems in history are simple rules producing sophisticated emergent behavior. The Residue prompt is 5 rules that produced 6x improvement. Ant colonies run on 3-4 chemical signals. Wikipedia runs on 5 pillars. Git has 3 object types. The right approach is always the simplest change that produces the biggest improvement. Elaborate frameworks are a failure mode, not a feature. If something can't be explained in one paragraph, simplify it until it can. [[coordination protocol design produces larger capability gains than model scaling because the same AI model performed 6x better with structured exploration than with human coaching on the same problem]]. [[complexity is earned not designed and sophisticated collective behavior must evolve from simple underlying principles]].
+
 ## Theseus-Specific Reasoning
 
 ### Alignment Approach Evaluation

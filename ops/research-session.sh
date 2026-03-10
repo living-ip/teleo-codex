@@ -195,26 +195,36 @@ Read these files to understand your current state:
 - agents/${AGENT}/reasoning.md (how you think)
 - domains/${DOMAIN}/_map.md (your domain's current claims)
 
-### Step 2: Review Recent Tweets (10 min)
+### Step 2: Identify Your Load-Bearing Beliefs (5 min)
+Read agents/${AGENT}/beliefs.md. Your beliefs are your generative model — the worldview through which you interpret everything. Identify your KEYSTONE BELIEF: the one existential premise that, if wrong, means your domain loses its reason to be in the collective. This is usually Belief 1.
+
+Now ask yourself: **what would it take to prove this belief wrong?** What evidence would change your mind? Write down one specific disconfirmation target — a claim, a data point, a counter-argument that would genuinely threaten your keystone belief. You will actively search for this during Step 5.
+
+This is not an exercise in self-doubt. Beliefs that survive serious challenge are STRONGER. Beliefs that have never been challenged are untested, not proven.
+
+### Step 3: Review Recent Tweets (10 min)
 Read ${TWEET_FILE} — these are recent tweets from accounts in your domain.
 Scan for anything substantive: new claims, evidence, debates, data, counterarguments.
+Pay special attention to anything that challenges your keystone belief or its grounding claims.
 
-### Step 3: Check Previous Follow-ups (2 min)
+### Step 4: Check Previous Follow-ups (2 min)
 Read agents/${AGENT}/musings/ — look for any previous research-*.md files. If they exist, check the 'Follow-up Directions' section at the bottom. These are threads your past self flagged but didn't have time to cover. Give them priority when picking your direction.
 
-### Step 4: Pick ONE Research Question (5 min)
+### Step 5: Pick ONE Research Question (5 min)
 Pick ONE research question — not one topic, but one question that naturally spans multiple accounts and sources. 'How is capital flowing through Solana launchpads?' is one question even though it touches MetaDAO, SOAR, Futardio.
 
 **Direction selection priority** (active inference — pursue surprise, not confirmation):
-1. Follow-up ACTIVE THREADS from previous sessions (your past self flagged these)
-2. Claims rated 'experimental' or areas where the KB flags live tensions — highest uncertainty = highest learning value
-3. Evidence that CHALLENGES your beliefs, not confirms them
-4. Cross-domain connections flagged by other agents
-5. New developments that change the landscape
+1. **DISCONFIRMATION SEARCH** — at least one search per session must target your keystone belief's weakest grounding claim or strongest counter-argument. If you find nothing, note that in your journal — absence of counter-evidence is itself informative.
+2. Follow-up ACTIVE THREADS from previous sessions (your past self flagged these)
+3. Claims rated 'experimental' or areas where the KB flags live tensions — highest uncertainty = highest learning value
+4. Evidence that CHALLENGES your beliefs, not confirms them
+5. Cross-domain connections flagged by other agents
+6. New developments that change the landscape
 
 Also read agents/${AGENT}/research-journal.md if it exists — this is your cross-session pattern tracker.
 
 Write a brief note explaining your choice to: agents/${AGENT}/musings/research-${DATE}.md
+Include which belief you targeted for disconfirmation and what you searched for.
 
 ### Step 5: Archive Sources (60 min)
 For each relevant tweet/thread, create an archive file:
@@ -282,9 +292,11 @@ Append to agents/${AGENT}/research-journal.md (create if it doesn't exist). This
 Format:
 ## Session ${DATE}
 **Question:** [your research question]
+**Belief targeted:** [which keystone belief you searched to disconfirm]
+**Disconfirmation result:** [what you found — counter-evidence, absence of counter-evidence, or unexpected complication]
 **Key finding:** [most important thing you learned]
 **Pattern update:** [did this session confirm, challenge, or extend a pattern you've been tracking?]
-**Confidence shift:** [did any of your beliefs get stronger or weaker?]
+**Confidence shift:** [did any of your beliefs get stronger or weaker? Be specific — which belief, which direction, what caused it]
 
 The journal accumulates session over session. After 5+ sessions, review it for cross-session patterns — when independent sources keep converging on the same observation, that's a claim candidate.
 
