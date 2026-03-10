@@ -7,9 +7,14 @@ date: 2025-02-03
 domain: health
 secondary_domains: []
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [medicare-advantage, upcoding, risk-adjustment, coding-intensity, market-dynamics, plan-variation]
+processed_by: vida
+processed_date: 2025-02-03
+enrichments_applied: ["CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md", "Devoted is the fastest-growing MA plan at 121 percent growth because purpose-built technology outperforms acquisition-based vertical integration during CMS tightening.md", "four competing payer-provider models are converging toward value-based care with vertical integration dominant today but aligned partnership potentially more durable.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted one novel claim about upcoding as competitive advantage mechanism—this framing was not present in existing KB claims. The insight that honest coding creates competitive disadvantage is the key contribution. Applied three enrichments to existing claims about CMS policy, Devoted growth, and payer-provider models. The competitive dynamics framing transforms upcoding from a fraud/waste issue into a market structure issue, which connects to broader KB themes about payment misalignment and vertical integration."
 ---
 
 ## Content
@@ -58,3 +63,10 @@ tags: [medicare-advantage, upcoding, risk-adjustment, coding-intensity, market-d
 PRIMARY CONNECTION: [[CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring]]
 WHY ARCHIVED: The competitive dynamics framing adds a dimension the KB doesn't have — it's not just about how much upcoding costs, but how upcoding shapes market structure.
 EXTRACTION HINT: The "honest plans can't compete" insight is the most extractable claim. It connects upcoding to market concentration (UHG/Humana duopoly).
+
+
+## Key Facts
+- CMS overpaid MA by $50 billion (13%) in 2024 due to upcoding
+- 15-percentage-point variation in coding intensity among 8 largest MAOs
+- 10 MAOs have coding intensity more than 20% higher than traditional Medicare levels
+- MedPAC recommendations: exclude diagnoses from health risk assessments, use two years' claims data for risk score calculation, implement plan-level coding intensity adjustment
