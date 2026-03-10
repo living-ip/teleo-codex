@@ -7,9 +7,14 @@ date: 2015-03-00
 domain: ai-alignment
 secondary_domains: [collective-intelligence, critical-systems]
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [active-inference, epistemic-value, information-gain, exploration-exploitation, expected-free-energy, curiosity, epistemic-foraging]
+processed_by: theseus
+processed_date: 2025-03-10
+enrichments_applied: ["structured-exploration-protocols-reduce-human-intervention-by-6x-because-the-Residue-prompt-enabled-5-unguided-AI-explorations-to-solve-what-required-31-human-coached-explorations.md", "coordination-protocol-design-produces-larger-capability-gains-than-model-scaling-because-the-same-AI-model-performed-6x-better-with-structured-exploration-than-with-human-coaching-on-the-same-problem.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Foundational paper on epistemic value in active inference. Extracted three claims: (1) epistemic foraging as Bayes-optimal behavior, (2) deliberate vs habitual mode governed by uncertainty, (3) confirmation bias as signal of suboptimal foraging. Enriched two existing claims about structured exploration protocols with theoretical grounding from active inference framework. All three new claims are immediately operationalizable for agent architecture: epistemic value targeting, domain maturity assessment, confirmation bias detection."
 ---
 
 ## Content
