@@ -7,9 +7,13 @@ date: 2026-01-15
 domain: entertainment
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: medium
 tags: [consumer-acceptance, ai-disclosure, authenticity, trust, regulation, uk-audience]
+processed_by: clay
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Extracted 3 claims from UK audience survey. First claim identifies the epistemic vs aesthetic distinction in consumer objections (62% being misled vs 51% quality). Second claim captures the counterintuitive hybrid preference finding that AI+human scores better than either pure category. Third claim captures the 91% disclosure demand as regulatory pressure indicator. All claims build on existing KB claim about consumer acceptance gating GenAI adoption. No duplicates found in existing entertainment claims."
 ---
 
 ## Content
