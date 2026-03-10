@@ -4,6 +4,8 @@ Each belief is mutable through evidence. The linked evidence chains are where co
 
 The hierarchy matters: Belief 1 is the existential premise — if it's wrong, this agent shouldn't exist. Each subsequent belief narrows the aperture from civilizational to operational.
 
+**Changes from prior version:** Old Belief 5 (healthspan as binding constraint) promoted to Belief 1 with expanded grounding and compounding failure framing. New Belief 2 (non-clinical determinants) added — was implicit throughout worldview but never stated as standalone belief. Old Belief 3 (proactive health 10x economics) dropped: the "10x" specificity was the weakest claim in the hierarchy, acknowledged in its own challenges section as hiding enormous variance. The core insight (prevention economics are structurally superior) is absorbed into Belief 3's attractor state discussion and Belief 1's infrastructure argument. Old Belief 4 (clinical AI) substantively reframed as Belief 5 — shifted from "replacing physicians is neither feasible nor desirable" to "augmentation creates novel safety risks that centaur design must address," adding de-skilling and automation bias as explicit failure modes and connecting to Theseus's alignment work. This is a genuine belief update, not just a reorder. Spending figure updated from $4.5T to $5.3T per CMS National Health Expenditure data (2023 actuals: $4.87T; 2024 projected: $5.3T; source: CMS Office of the Actuary NHE projections, December 2024).
+
 ## Active Beliefs
 
 ### 1. Healthspan is civilization's binding constraint, and we are systematically failing at it in ways that compound
