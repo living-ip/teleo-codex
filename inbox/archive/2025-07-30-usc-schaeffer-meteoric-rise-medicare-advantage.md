@@ -7,9 +7,14 @@ date: 2025-07-30
 domain: health
 secondary_domains: []
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [medicare-advantage, enrollment-growth, beneficiary-savings, health-affairs, political-economy]
+processed_by: vida
+processed_date: 2025-07-30
+enrichments_applied: ["value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md", "CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md", "four competing payer-provider models are converging toward value-based care with vertical integration dominant today but aligned partnership potentially more durable.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) the political economy lock-in mechanism that makes MA reform impossible despite overpayments, and (2) the structural reversal of Medicare's enrollment default. Both are novel propositions not covered in existing claims. Applied three enrichments to existing claims about value-based care transitions, CMS reform efforts, and payer-provider models. The political economy insight (concentrated benefit/diffuse cost) is the key extractable mechanism—it explains MA persistence better than policy analysis alone. This source provides the essential counter-narrative to the overpayment critique by quantifying genuine beneficiary value."
 ---
 
 ## Content
@@ -54,3 +59,13 @@ tags: [medicare-advantage, enrollment-growth, beneficiary-savings, health-affair
 PRIMARY CONNECTION: [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]]
 WHY ARCHIVED: Essential counter-narrative — completes the picture by showing why MA persists despite overpayments. The beneficiary savings are real, not just industry PR.
 EXTRACTION HINT: The political lock-in mechanism (concentrated benefit/diffuse cost) is the most extractable insight — it explains the political economy of MA reform better than any policy analysis.
+
+
+## Key Facts
+- Medicare enrollment: 80% traditional Medicare (2006) → 54% MA (2025)
+- 33 million beneficiaries in MA as of 2025
+- Typical MA enrollee saves 18-24% on out-of-pocket costs vs traditional Medicare
+- Average beneficiary savings: ~$140/month
+- 98%+ of MA enrollees in zero-premium MA-PD plans
+- Annual MA overpayments: $84 billion (approximately 20% above FFS equivalent)
+- MA includes dental, vision, hearing benefits not covered in traditional Medicare
