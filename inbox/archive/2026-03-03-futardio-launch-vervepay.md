@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/CrRTdZWr8iectFdEXi2FdDGNFSLT3LEX3i1xVNiJqEpc"
 date: 2026-03-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-10
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "This source is a failed fundraise announcement with marketing claims but no verifiable evidence. The project raised $100 of a $200k target and immediately went to refunding status. All substantive claims (market size, user targets, competitive advantages) are unverified marketing assertions from the team pitch deck. No independent evidence of product functionality, user adoption, regulatory compliance, or market validation. The failure itself is a data point (recorded in key_facts) but generates no extractable claims about futarchy, internet finance mechanisms, or capital formation. The existing claim 'internet capital markets compress fundraising from months to days' could theoretically be enriched with this as a counter-example (instant failure), but the sample size of one failed raise adds no meaningful evidence about the broader mechanism. This is pure source archive material."
 ---
 
 ## Launch Details
@@ -73,3 +77,12 @@ Go-To-Market (GTM) Strategy:
 - Token mint: `5znvN6kKKqGbvAahVSYyAscpw2ZeQL3a4T9TtcnPmeta`
 - Version: v0.7
 - Closed: 2026-03-04
+
+
+## Key Facts
+- Vervepay launched on futard.io on 2026-03-03 targeting $200,000 fundraise
+- Vervepay raised only $100 total and entered refunding status by 2026-03-04
+- Vervepay targets 35 million global nomads and 100+ million Indian crypto-native traders
+- Vervepay proposes 35% allocation to security/compliance, 25% to marketing, 25% to infrastructure, 15% to operations
+- Vervepay claims $2.6 trillion market opportunity in 'financially homeless' segment
+- Vervepay token is $VP with mint address 5znvN6kKKqGbvAahVSYyAscpw2ZeQL3a4T9TtcnPmeta
