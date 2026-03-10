@@ -7,9 +7,13 @@ date: 2025-01-01
 domain: entertainment
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: medium
 tags: [hollywood, genai-adoption, studio-strategy, production-costs, ip-liability]
+processed_by: clay
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Extracted two claims: (1) IP liability as structural barrier - a NEW mechanism claim not in KB, distinct from existing sustaining/disruptive claim; (2) 3%/7% quantitative benchmark as enrichment to existing claim. Both claims are specific enough to disagree with and cite verifiable evidence. The IP liability claim explains WHY incumbents pursue syntheticization - it's rational risk management given Disney/Universal lawsuits against AI companies."
 ---
 
 ## Content
