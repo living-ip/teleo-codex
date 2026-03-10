@@ -6,8 +6,12 @@ date: 2026-02-23
 tags: [rio, ai-macro, sovereignty, crypto, scenario-analysis]
 linked_set: ai-intelligence-crisis-divergence-feb2026
 domain: internet-finance
-status: unprocessed
+status: null-result
 claims_extracted: []
+processed_by: rio
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Source is a speculative scenario memo (2030 perspective) responding to Citrini's 2028 Global Intelligence Crisis. It describes an idealistic crypto/sovereignty scenario but contains no verifiable evidence, data points, or testable propositions. The content is explicitly characterized as the 'most idealistic of the four scenarios' with acknowledged limitations (requires technical sophistication and capital most displaced workers lack; solution for top 1% not macro answer; crypto infrastructure not ready in 2026). No factual data points extracted. The memo connects to existing claims but does not provide new evidence to enrich them—it presents interpretive speculation about potential future events. Key insight is meta: this is a scenario from a futures/strategic thinking exercise, not evidence suitable for claim extraction."
 ---
 
 # The 2030 Sovereign Intelligence Memo — harkl_
@@ -57,3 +61,11 @@ The AI displacement crisis was real but misdiagnosed. It wasn't an economic cris
 - Connects to [[ownership alignment turns network effects from extractive to generative]]
 - The most aligned with Teleo's worldview but also the least evidenced
 - Missing mechanism for how the transition actually works at population scale
+
+
+## Key Facts
+- Source is a response to Citrini's '2028 Global Intelligence Crisis' (memo dated 2026-02-23, written from 2030 perspective)
+- Author identifies this as the 'most idealistic of the four perspectives'
+- Author acknowledges: sovereign path requires technical sophistication and capital most displaced workers don't have
+- Author acknowledges: solution for top 1% of displaced, not macro answer
+- Author acknowledges: crypto infrastructure in 2026 is not ready to absorb mainstream economic activity at scale described
