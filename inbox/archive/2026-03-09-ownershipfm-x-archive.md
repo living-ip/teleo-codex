@@ -6,7 +6,7 @@ url: https://x.com/ownershipfm
 date: 2026-03-09
 domain: internet-finance
 format: tweet
-status: unprocessed
+status: null-result
 tags: [ownership-podcast, media, futarchy, metadao, community-media]
 linked_set: metadao-x-landscape-2026-03
 curator_notes: |
@@ -22,6 +22,10 @@ extraction_hints:
   - "Cultural artifact for landscape musing — register, tone, community identity signals"
   - "Low standalone claim priority — primarily amplification and discussion facilitation"
 priority: low
+processed_by: rio
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Source is an X archive summary with no specific tweets, quotes, or detailed content. Curator notes explicitly classify this as low extraction priority - primarily amplification and discussion facilitation rather than original analysis. Contains only metadata about the account (40 MetaDAO references, 34% noise, general topic categories) which are facts about the account rather than extractable claims. No specific evidence or arguable propositions present in the source material itself."
 ---
 
 # @ownershipfm X Archive (March 2026)
@@ -42,3 +46,12 @@ priority: low
 ## Noise Filtered Out
 - 34% noise — event promotion, scheduling, casual engagement
 - Content is primarily facilitative rather than analytical
+
+
+## Key Facts
+- @ownershipfm is the primary media outlet for MetaDAO/futarchy ecosystem
+- Account contains 40 direct MetaDAO references - highest of any account in the network
+- Hosted by 8bitpenis, produced by Blockformer, powered by MetaDAO
+- Content format is podcast/spaces - episode promotion and live discussion summaries
+- Tone: earnest, community-building, technically accessible
+- 34% of content is noise - event promotion, scheduling, casual engagement
