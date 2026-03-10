@@ -7,9 +7,14 @@ date: 2025-12-01
 domain: entertainment
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: medium
 tags: [ai-consumer-products, video-generation, retention, chatgpt, sora, google-veo]
+processed_by: clay
+processed_date: 2026-03-10
+enrichments_applied: ["gen-ai-adoption-in-entertainment-will-be-gated-by-consumer-acceptance-not-technology-capability.md"]
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "The Sora 8% D30 retention is the critical data point from this source. It directly confirms the consumer acceptance binding constraint claim. All other data points are factual/verifiable and don't constitute new claims. The 'white space for founders' insight is interpretive but too vague to extract as a standalone claim — it's a strategic observation, not a specific arguable proposition."
 ---
 
 ## Content
@@ -53,3 +58,13 @@ a16z's annual consumer AI landscape report documents adoption patterns across ma
 PRIMARY CONNECTION: `GenAI adoption in entertainment will be gated by consumer acceptance not technology capability`
 WHY ARCHIVED: Sora's 8% D30 retention is quantitative evidence that even among early adopters, AI video creation doesn't form habits. This validates the consumer acceptance binding constraint claim and specifically situates it as a demand/use-case problem, not a quality problem.
 EXTRACTION HINT: Focus on Sora retention as a specific, quantifiable evidence point. Distinguish this from passive consumption of AI content — this is about consumer CREATION using AI tools, which is a different behavior than acceptance of AI-generated content.
+
+
+## Key Facts
+- ChatGPT: 800-900 million weekly active users, 36% daily-to-monthly ratio
+- Gemini: 21% daily-to-monthly ratio, 155% YoY desktop user growth
+- Gemini Pro subscriptions: 300% YoY growth vs ChatGPT 155%
+- Fewer than 10% of ChatGPT weekly users visited another major model provider (winner-take-most dynamics)
+- Google Nano Banana: 200 million images in first week, 10 million new users
+- Veo 3: First model combining visual AND audio generation in one model
+- Sora standalone app: 12 million downloads, below 8% day-30 retention (benchmark for top apps is 30%+)
