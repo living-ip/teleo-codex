@@ -7,9 +7,13 @@ date: 2026-01-01
 domain: entertainment
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: high
 tags: [authenticity, ai-content, media-trends, consumer-preferences, streaming, podcast]
+processed_by: clay
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Extracted two new claims: (1) simplification/curation value claim directly addresses the curator's hint about the attractor state reframe, (2) podcast growth supports human voice premium. Two enrichments: authenticity premium extends quality definition claim, fragmentation finding confirms popularity signal claim. Key facts preserved: 28% news confidence (Gallup Sept 2025), podcast market $7.7B→$41.1B (39.9% CAGR)"
 ---
 
 ## Content
