@@ -87,12 +87,15 @@ Before publishing, verify:
 
 If any check fails: hold, revise, or discard.
 
-### Step 6: Publish and record
+### Step 6: Submit for approval
 
-- Post tweet/thread
-- Record in agent's positions/ folder if it represents a public position
+**Do NOT publish directly.** All posts go through the approval pipeline in `skills/x-publish.md`.
+
+- Write the draft + self-eval to `agents/{name}/x-queue/{timestamp}-{slug}.md`
+- Wait for reviewer approval before publishing
+- After publishing, record in agent's positions/ folder if it represents a public position
 - Update public_thread field on any relevant positions
-- Track engagement for feedback (but never optimize for engagement over quality)
+- Log metrics for feedback (but never optimize for engagement over quality)
 
 ## Anti-Patterns
 
