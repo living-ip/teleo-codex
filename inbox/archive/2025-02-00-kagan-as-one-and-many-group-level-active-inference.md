@@ -7,9 +7,13 @@ date: 2025-02-00
 domain: collective-intelligence
 secondary_domains: [ai-alignment, critical-systems]
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [active-inference, multi-agent, group-level-generative-model, markov-blankets, collective-behavior, emergence]
+processed_by: theseus
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Extracted three claims from the active inference paper. Two are direct theoretical claims from the paper (group Markov blanket requirement for collective agency; compositional nature of belief aggregation). One is an operationalization claim applying the theory to the Teleo inbox architecture (experimental confidence due to applied nature). The paper provides strong formal grounding for the collective intelligence architecture work."
 ---
 
 ## Content
@@ -49,3 +53,9 @@ Published in Entropy, Vol 27(2), 143, February 2025.
 PRIMARY CONNECTION: "Markov blankets enable complex systems to maintain identity while interacting with environment through nested statistical boundaries"
 WHY ARCHIVED: Most directly relevant paper for our architecture — provides formal conditions under which our agent collective becomes a genuine group-level active inference agent
 EXTRACTION HINT: Focus on the CONDITIONS for group-level agency (group Markov blanket) and how individual models compose into group models — these constrain our architectural design
+
+
+## Key Facts
+- Published in Entropy, Vol 27(2), 143, February 2025
+- Paper formally relates individual agent generative models to emergent group-level generative model
+- Group-level agency requires specific structural conditions (group-level Markov blanket)
