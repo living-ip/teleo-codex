@@ -7,10 +7,15 @@ date: 2025-08-01
 domain: entertainment
 secondary_domains: [internet-finance]
 format: report
-status: unprocessed
+status: null-result
 priority: high
 tags: [community-owned-ip, pudgy-penguins, web3-entertainment, franchise, revenue, phygital]
 flagged_for_rio: ["web3 franchise monetization model and token economics relevant to internet finance domain"]
+processed_by: clay
+processed_date: 2026-03-10
+enrichments_applied: ["fanchise-management-is-a-stack-of-increasing-fan-engagement-from-content-extensions-through-co-creation-and-co-ownership.md", "progressive-validation-through-community-building-reduces-development-risk-by-proving-audience-demand-before-production-investment.md"]
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Three new claims extracted: (1) mainstream-first acquisition strategy as distinct model, (2) DreamWorks partnership as traditional entertainment validation signal, (3) commercial scale evidence for community-owned IP competing with traditional franchises. Two enrichments to existing claims on fanchise stack and progressive validation. Key factual data preserved in source archive."
 ---
 
 ## Content
@@ -69,3 +74,18 @@ PENGU token airdropped to 6M+ wallets — broad distribution as community buildi
 PRIMARY CONNECTION: `community ownership accelerates growth through aligned evangelism not passive holding`
 WHY ARCHIVED: Pudgy Penguins at $50M revenue + DreamWorks partnership is the strongest current evidence that community-owned IP can compete with traditional franchise models at commercial scale. The "mainstream first, Web3 second" strategy is a specific new model.
 EXTRACTION HINT: Focus on (1) the commercial scale data as evidence for the community-beats-budget thesis, (2) the mainstream-to-Web3 acquisition funnel as a distinct strategic model, (3) the DreamWorks signal as traditional entertainment validation.
+
+
+## Key Facts
+- 2025 revenue target: $50M
+- 2026 revenue projection: $120M
+- IPO target: by 2027
+- 200 billion total content views across all platforms
+- 300 million daily views (community-generated content)
+- 2M+ physical product units sold
+- 10,000+ retail locations including 3,100 Walmart stores
+- $13M+ retail phygital sales
+- Pudgy Party: 500K+ downloads in first 2 weeks
+- DreamWorks Animation partnership announced October 2025
+- Vibes TCG: 4 million cards moved
+- PENGU token airdropped to 6M+ wallets
