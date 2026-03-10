@@ -7,9 +7,14 @@ date: 2025-03-01
 domain: entertainment
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: medium
 tags: [ai-studios, independent-film, production-costs, narrative-craft, democratization]
+processed_by: clay
+processed_date: 2026-03-10
+enrichments_applied: ["non ATL production costs will converge with the cost of compute as AI replaces labor across the production chain.md", "five factors determine the speed and extent of disruption including quality definition change and ease of incumbent replication.md"]
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Extracted two claims: (1) the 5-person staffing model enabling 3:1 production leverage, supported by specific cost data from Secret Level and Staircase Studios; (2) the storytelling-as-moat consensus from founders, which directly contradicts the tech-bottleneck narrative. Both claims are supported by primary source evidence and are specific enough to disagree with. Key facts preserved: 65+ studios since 2022, 30+ launched in 2024/early 2025, no commercial outcome data."
 ---
 
 ## Content
@@ -66,3 +71,14 @@ Rachel Joy Victor (co-founder): *"Story is dead, long live the story."*
 PRIMARY CONNECTION: `GenAI is simultaneously sustaining and disruptive depending on whether users pursue progressive syntheticization or progressive control`
 WHY ARCHIVED: The 65 AI studio proliferation is direct evidence that the "progressive control" (independent, AI-first) path exists and is scaling. The storytelling-as-moat finding is the key nuance — technology democratizes production but doesn't democratize narrative craft.
 EXTRACTION HINT: The extractor should focus on the storytelling-as-moat consensus as a potential new claim. The absence of commercial outcomes data is important to preserve — don't infer commercial success from production efficiency.
+
+
+## Key Facts
+- 65+ AI-centric film studios launched globally since 2022 (FBRC March 2025)
+- 30+ AI studios launched in 2024 and early 2025
+- Nearly 70% of AI studios operate with 5 or fewer staff
+- Secret Level: $10M budgets yielding $30M production values (3:1 ratio)
+- Staircase Studios: near-studio-quality movies for under $500K
+- AI studios report 20-30% cost reductions
+- Post-production timelines compressed from months to weeks
+- No audience reception data or specific commercial outcomes in report
