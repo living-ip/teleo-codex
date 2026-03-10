@@ -181,8 +181,12 @@ Read these files to understand your current state:
 Read ${TWEET_FILE} — these are recent tweets from accounts in your domain.
 Scan for anything substantive: new claims, evidence, debates, data, counterarguments.
 
-### Step 3: Pick ONE Research Direction (5 min)
-Based on your beliefs, your domain's gaps, and what you found in the tweets, pick ONE research direction that would most advance your domain understanding. Consider:
+### Step 3: Check Previous Follow-ups (2 min)
+Read agents/${AGENT}/musings/ — look for any previous research-*.md files. If they exist, check the 'Follow-up Directions' section at the bottom. These are threads your past self flagged but didn't have time to cover. Give them priority when picking your direction.
+
+### Step 4: Pick ONE Research Direction (5 min)
+Based on your beliefs, your domain's gaps, previous follow-ups, and what you found in the tweets, pick ONE research direction that would most advance your domain understanding. Consider:
+- Follow-up directions from previous sessions (highest priority — your past self flagged these for a reason)
 - Gaps in your beliefs that need evidence
 - Claims in the KB that new evidence might challenge
 - Cross-domain connections flagged by other agents
@@ -190,7 +194,7 @@ Based on your beliefs, your domain's gaps, and what you found in the tweets, pic
 
 Write a brief note explaining your choice to: agents/${AGENT}/musings/research-${DATE}.md
 
-### Step 4: Archive Sources (60 min)
+### Step 5: Archive Sources (60 min)
 For each relevant tweet/thread, create an archive file:
 
 Path: inbox/archive/YYYY-MM-DD-{author-handle}-{brief-slug}.md
@@ -219,7 +223,7 @@ tags: [topic1, topic2]
 **Extraction hints:** [What claims might an extractor pull?]
 **Context:** [Who is the author, what debate is this part of?]
 
-### Rules:
+### Step 5 Rules:
 - Archive EVERYTHING substantive, not just what supports your views
 - Set all sources to status: unprocessed (a DIFFERENT instance will extract)
 - Flag cross-domain sources with flagged_for_{agent}: [\"reason\"]
@@ -227,7 +231,17 @@ tags: [topic1, topic2]
 - Check inbox/archive/ for duplicates before creating new archives
 - Aim for 5-15 source archives per session
 
-### Step 5: Commit and Push (5 min)
+### Step 6: Flag Follow-up Directions (5 min)
+At the bottom of your research musing (agents/${AGENT}/musings/research-${DATE}.md), add a section:
+
+## Follow-up Directions
+- [Direction 1]: [1 sentence — why this matters, what you'd look for]
+- [Direction 2]: [1 sentence]
+- [Direction 3]: [1 sentence]
+
+These are threads you noticed but didn't have time to pursue. Your next research session will read these and give them priority. Be specific — 'look into X' is useless, 'verify whether Y claim holds given Z evidence from @account' is actionable.
+
+### Step 7: Commit and Push (5 min)
 Stage your archives and musing, commit with:
   ${AGENT}: research session ${DATE} — {brief description of direction}
 
