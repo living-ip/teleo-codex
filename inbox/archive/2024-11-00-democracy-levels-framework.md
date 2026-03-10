@@ -7,9 +7,14 @@ date: 2024-11-01
 domain: ai-alignment
 secondary_domains: [mechanisms, collective-intelligence]
 format: paper
-status: unprocessed
+status: null-result
 priority: medium
 tags: [democratic-AI, governance, framework, levels, pluralistic-alignment, ICML-2025]
+processed_by: theseus
+processed_date: 2024-11-01
+enrichments_applied: ["pluralistic-alignment-must-accommodate-irreducibly-diverse-values-simultaneously-rather-than-converging-on-a-single-aligned-state.md", "democratic-alignment-assemblies-produce-constitutions-as-effective-as-expert-designed-ones-while-better-representing-diverse-populations.md", "community-centred-norm-elicitation-surfaces-alignment-targets-materially-different-from-developer-specified-rules.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Limited extraction due to abstract-only access. Primary value is framework existence and ICML acceptance as institutional legitimation signal. Full paper access would enable extraction of specific level definitions and operationalization criteria. Classified as experimental confidence due to position paper status - framework represents emerging thinking requiring empirical validation."
 ---
 
 ## Content
@@ -52,3 +57,9 @@ Note: Full paper content not fully accessible. Summary based on abstract and sea
 PRIMARY CONNECTION: [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state]]
 WHY ARCHIVED: Provides a structured framework for evaluating democratic AI maturity — useful for positioning our own approach
 EXTRACTION HINT: The level definitions are the key extraction target if full paper becomes accessible. The ICML acceptance itself is evidence worth noting.
+
+
+## Key Facts
+- Democracy Levels framework accepted to ICML 2025 position paper track
+- Framework resources available at democracylevels.org
+- Meta Community Forums and Anthropic Collective Constitutional AI cited as real-world examples
