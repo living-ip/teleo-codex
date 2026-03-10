@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/6hjjscmjd2iEiycvcjymMqiRqXgzmi74hzMk4y7t267S"
 date: 2026-02-25
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-02-25
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "This is a satirical/joke fundraise pitch written from the perspective of a 9-year-old. While it launched on the futard.io platform (a real MetaDAO futarchy implementation), the project itself ('Turtle Cove') is clearly not a serious venture - it raised only $3 toward a $69,420 goal and went to refunding status. The source contains no extractable claims about futarchy, internet finance mechanisms, or governance. It's a data point showing that futard.io permits permissionless launches (including non-serious ones), which confirms existing claims about permissionless capital formation, but adds no new evidence beyond what's already captured. The humor and obvious unseriousness make this unsuitable for claim extraction. Preserved as archive record of platform activity."
 ---
 
 ## Launch Details
@@ -143,3 +147,13 @@ Thank you for reading this. My bedtime is 8:30 so please send offers before then
 - Token mint: `4xs5J7EW26k9yv96pxssPVdQo3HLiuLKcpncG3Gbmeta`
 - Version: v0.7
 - Closed: 2026-02-26
+
+
+## Key Facts
+- Turtle Cove fundraise launched on futard.io 2026-02-25
+- Funding target: $69,420.00
+- Total committed: $3.00
+- Status: Refunding
+- Launch closed 2026-02-26
+- Token: 4xs
+- Proposed tokenomics: 1M $SHELL tokens, 60% turtle budget, 25% infrastructure, 10% snacks, 5% emergency fund
