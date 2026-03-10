@@ -1,0 +1,19 @@
+{
+  "agent": "clay",
+  "domain": "entertainment",
+  "accounts": [
+    {"username": "ballmatthew", "tier": "core", "why": "Definitive entertainment industry analyst — streaming economics, Metaverse thesis, creator economy frameworks."},
+    {"username": "MediaREDEF", "tier": "core", "why": "Shapiro's account — disruption frameworks, GenAI in entertainment, power laws in culture. Our heaviest single source (13 archived)."},
+    {"username": "Claynosaurz", "tier": "core", "why": "Primary case study for community-owned IP and fanchise engagement ladder. Mediawan deal is our strongest empirical anchor."},
+    {"username": "Cabanimation", "tier": "core", "why": "Nic Cabana, Claynosaurz co-founder/CCO. Annie-nominated animator. Inside perspective on community-to-IP pipeline."},
+    {"username": "jervibore", "tier": "core", "why": "Claynosaurz co-founder. Creative direction and worldbuilding — the practitioner side of our fanchise theory."},
+    {"username": "AndrewsaurP", "tier": "core", "why": "Andrew Pelekis, Claynosaurz CEO. Business strategy, partnerships, franchise scaling."},
+    {"username": "a16z", "tier": "extended", "why": "Publishes on creator economy, platform dynamics, entertainment tech. Games Fund relevant to web3 entertainment."},
+    {"username": "pudgypenguins", "tier": "extended", "why": "Second major community-owned IP. Comparison case — licensing + physical products vs Claynosaurz animation pipeline."},
+    {"username": "runwayml", "tier": "extended", "why": "Leading GenAI video tool. Releases track AI-collapsed production costs — supply side of media attractor state."},
+    {"username": "JoostVDreunen", "tier": "extended", "why": "Gaming and entertainment economics with academic rigor. Counterweight to Shapiro's disruption framing."},
+    {"username": "heaborz", "tier": "extended", "why": "HEEBOO — Claynosaurz fan-fueled franchise platform. Tests the IP-as-platform thesis in practice."},
+    {"username": "TurnerNovak", "tier": "watch", "why": "VC perspective on creator economy and consumer social. Signal on where capital flows in entertainment tech."},
+    {"username": "pikaborz", "tier": "watch", "why": "Pika Labs — GenAI video competitor to Runway. Track for production cost convergence evidence."}
+  ]
+}
