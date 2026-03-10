@@ -7,10 +7,15 @@ date: 2025-12-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [multi-agent, architecture-comparison, scaling, empirical, coordination, error-amplification]
 flagged_for_leo: ["Cross-domain implications of the baseline paradox — does coordination hurt above a performance threshold in knowledge work too?"]
+processed_by: theseus
+processed_date: 2025-12-01
+enrichments_applied: ["subagent hierarchies outperform peer multi-agent architectures in practice because deployed systems consistently converge on one primary agent controlling specialized helpers.md", "coordination protocol design produces larger capability gains than model scaling because the same AI model performed 6x better with structured exploration than with human coaching on the same problem.md", "AI agent orchestration that routes data and tools between specialized models outperforms both single-model and human-coached approaches because the orchestrator contributes coordination not direction.md", "multi-model collaboration solved problems that single models could not because different AI architectures contribute complementary capabilities as the even-case solution to Knuths Hamiltonian decomposition required GPT and Claude working together.md", "AGI may emerge as a patchwork of coordinating sub-AGI agents rather than a single monolithic system.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 3 novel claims addressing the baseline paradox (coordination hurts above 45% accuracy), architecture-task matching (130+ percentage point swings), and error amplification hierarchy (4.4× to 17.2×). Applied 5 enrichments challenging/extending existing claims about coordination value, hierarchy performance, and multi-agent collaboration. This source directly addresses the 'subagent vs peer' uncertainty flagged in _map.md with empirical evidence that neither wins universally — task structure determines optimal architecture. The baseline paradox is a genuine surprise that challenges implicit coordination-always-helps assumptions in the KB."
 ---
 
 ## Content
@@ -58,3 +63,11 @@ The three scaling principles:
 PRIMARY CONNECTION: [[subagent hierarchies outperform peer multi-agent architectures in practice]]
 WHY ARCHIVED: Provides first empirical evidence that COMPLICATES our hierarchy vs. peer claim — architecture-task match matters more than architecture type
 EXTRACTION HINT: Focus on the baseline paradox (coordination hurts above 45% accuracy), error amplification hierarchy (17.2× to 4.4×), and the predictive model. These are the novel findings our KB doesn't have.
+
+
+## Key Facts
+- 180 total configurations evaluated (5 architectures × 3 LLM families × 4 benchmarks)
+- Benchmarks: Finance-Agent, BrowseComp-Plus, PlanCraft, Workbench
+- Message density saturation: c*=0.39 messages/turn
+- Turn scaling formula: T=2.72×(n+0.5)^1.724
+- Predictive model: R²=0.513, 87% accuracy on unseen configurations
