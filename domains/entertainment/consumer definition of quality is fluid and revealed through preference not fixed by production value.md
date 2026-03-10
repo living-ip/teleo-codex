@@ -19,6 +19,12 @@ Mr. Beast's average video (~100M views in the first week, 20 minutes long) would
 
 This is more dangerous for incumbents than simple cost competition because they cannot defend on their own terms. When quality is redefined, the incumbent's accumulated advantages in the old quality attributes become less relevant, and defending the old definition becomes a losing strategy.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-01-multiple-human-made-premium-brand-positioning]] | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
+
+The 2026 emergence of 'human-made' as a premium market label provides concrete evidence that quality definition now explicitly includes provenance and human creation as consumer-valued attributes distinct from production value. WordStream reports that 'the human-made label will be a selling point that content marketers use to signal the quality of their creation.' EY notes consumers want 'human-led storytelling, emotional connection, and credible reporting,' indicating quality now encompasses verifiable human authorship. PrismHaus reports brands using 'Human-Made' labels see higher conversion rates, demonstrating consumer preference reveals this new quality dimension through revealed preference (higher engagement/purchase). This extends the original claim by showing that quality definition has shifted to include verifiable human provenance as a distinct dimension orthogonal to traditional production metrics (cinematography, sound design, editing, etc.).
+
 ---
 
 Relevant Notes:

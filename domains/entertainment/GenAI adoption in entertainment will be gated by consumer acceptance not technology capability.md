@@ -21,6 +21,12 @@ The implication is that disruption won't arrive as a single moment when AI "matc
 
 Shapiro's 2030 scenario paints a plausible picture: three of the top 10 most popular shows in the U.S. are distributed on YouTube and TikTok for free; YouTube exceeds 20% share of viewing; the distinction between "professionally-produced" and "creator" content becomes even less meaningful to consumers. This doesn't require crossing the uncanny valley — it requires consumer acceptance of synthetic content in enough contexts to shift the market.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-01-01-multiple-human-made-premium-brand-positioning]] | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
+
+The emergence of 'human-made' as a premium label in 2026 provides concrete evidence of consumer resistance shaping market positioning and adoption patterns. Brands are actively differentiating on human creation and achieving higher conversion rates (PrismHaus), demonstrating consumer preference is creating market segmentation between human-made and AI-generated content. Monigle's framing that brands are 'forced to prove they're human' indicates consumer skepticism is driving strategic responses—companies are not adopting AI at maximum capability but instead positioning human creation as premium. This confirms that adoption is gated by consumer acceptance (skepticism about AI content) rather than capability (AI technology is clearly capable of generating content). The market is segmenting on acceptance, not on what's technically possible.
+
 ---
 
 Relevant Notes:

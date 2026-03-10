@@ -284,6 +284,12 @@ Entertainment is the domain where TeleoHumanity eats its own cooking.
 
 **Attractor type:** Technology-driven (AI cost collapse) with knowledge-reorganization elements (IP-as-platform requires institutional restructuring).
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-01-multiple-human-made-premium-brand-positioning]] | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
+
+The crystallization of 'human-made' as a premium label adds a new dimension to the scarcity analysis: not just community and ownership, but verifiable human provenance becomes scarce and valuable as AI content becomes abundant. EY's guidance that companies must 'keep what people see and feel recognizably human—authentic faces, genuine stories and shared cultural moments' to build 'deeper trust and stronger brand value' suggests human provenance is becoming a distinct scarce complement alongside community and ownership. As production costs collapse toward compute costs (per the non-ATL production costs claim), the ability to credibly signal human creation becomes a scarce resource that differentiates content. Community-owned IP may have structural advantage in signaling this provenance because ownership structure itself communicates human creation, while corporate content must construct proof through external verification. This extends the attractor claim by identifying human provenance as an additional scarce complement that becomes valuable in the AI-abundant, community-filtered media landscape.
+
 ---
 
 Relevant Notes:

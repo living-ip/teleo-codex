@@ -7,9 +7,15 @@ date: 2026-01-01
 domain: entertainment
 secondary_domains: [cultural-dynamics]
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [human-made-premium, brand-positioning, authenticity, AI-saturation, trust-signal]
+processed_by: clay
+processed_date: 2026-01-01
+claims_extracted: ["human-made-is-becoming-a-premium-label-analogous-to-organic-as-AI-generated-content-becomes-dominant.md", "community-owned-IP-has-structural-advantage-in-human-made-premium-because-provenance-is-inherent-and-legible.md"]
+enrichments_applied: ["consumer definition of quality is fluid and revealed through preference not fixed by production value.md", "GenAI adoption in entertainment will be gated by consumer acceptance not technology capability.md", "the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) human-made as premium label analogous to organic, documenting the burden-of-proof inversion, and (2) community-owned IP structural advantage in human-made premium due to inherent provenance legibility. The second claim is more speculative/theoretical but follows logically from the first and connects to existing attractor state thesis. Applied three enrichments to existing claims on quality definition, GenAI adoption gating, and media attractor state. The organic food analogy and burden-of-proof inversion are the key conceptual frames. No entertainment-specific quantitative data on human-made premium yet, but convergence across independent sources strengthens confidence in the trend."
 ---
 
 ## Content
@@ -40,3 +46,9 @@ Synthesis of multiple 2026 trend reports documenting "human-made" as an emerging
 PRIMARY CONNECTION: [[consumer definition of quality is fluid and revealed through preference not fixed by production value]]
 WHY ARCHIVED: Documents the crystallization of "human-made" as a market category/label — the authenticity premium becoming operationalized in brand strategy
 EXTRACTION HINT: The "organic food" analogy is the key framing. Also the burden-of-proof inversion (brands must now PROVE humanness). Connect to content authentication infrastructure (C2PA) as the verification mechanism.
+
+
+## Key Facts
+- PrismHaus reports brands using 'Human-Made' labels see higher conversion rates (2026)
+- WordStream, Monigle, EY, and PrismHaus independently documented human-made premium trend in 2026 reports
+- Monigle framing: brands now 'forced to prove they're human' rather than humanness being assumed
