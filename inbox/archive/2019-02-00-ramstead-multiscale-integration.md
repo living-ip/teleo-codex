@@ -7,9 +7,13 @@ date: 2019-02-00
 domain: critical-systems
 secondary_domains: [collective-intelligence, ai-alignment]
 format: paper
-status: unprocessed
+status: null-result
 priority: low
 tags: [active-inference, multi-scale, markov-blankets, cognitive-boundaries, free-energy-principle, internalism-externalism]
+processed_by: theseus
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Extracted three claims from the Ramstead et al. 2019 paper: (1) additive free energy property enabling collective uncertainty measurement, (2) eusocial insect colony analogy for nested cybernetic architectures, (3) resolution of internalism/externalism debate through multiscale active inference. All claims are specific enough to disagree with and cite specific evidence from the source. No existing claims in critical-systems domain to check for duplicates. Key facts preserved: paper published in Synthese 2019, authors include Ramstead, Kirchhoff, Constant, Friston, discusses Markov blanket formalism and variational free energy principle."
 ---
 
 ## Content
@@ -48,3 +52,10 @@ Published in Synthese, 2019 (epub). Also via PMC: https://pmc.ncbi.nlm.nih.gov/a
 PRIMARY CONNECTION: "Markov blankets enable complex systems to maintain identity while interacting with environment through nested statistical boundaries"
 WHY ARCHIVED: Provides the additive free energy property across scales — gives formal justification for why both within-domain AND cross-domain research contribute to collective intelligence
 EXTRACTION HINT: Focus on the additive free energy property — it's the formal basis for measuring collective uncertainty
+
+
+## Key Facts
+- Paper published in Synthese, 2019 (epub)
+- Authors: Maxwell J. D. Ramstead, Michael D. Kirchhoff, Axel Constant, Karl J. Friston
+- Paper uses Markov blanket formalism of the variational free energy principle
+- Available via PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC7873008/
