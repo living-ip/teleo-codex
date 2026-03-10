@@ -6,7 +6,7 @@ url: https://x.com/ranger_finance
 date: 2026-03-09
 domain: internet-finance
 format: tweet
-status: unprocessed
+status: null-result
 tags: [ranger, metadao-ecosystem, vaults, yield, liquidation, governance]
 linked_set: metadao-x-landscape-2026-03
 curator_notes: |
@@ -24,6 +24,11 @@ extraction_hints:
   - "Enrichment target: 'futarchy-governed liquidation is the enforcement mechanism' — Ranger is THE case study"
   - "Potential new claim: futarchy governance forces strategic focus by making underperformance visible and actionable"
 priority: medium
+processed_by: rio
+processed_date: 2026-03-10
+enrichments_applied: ["futarchy-governed-liquidation-is-the-enforcement-mechanism-that-makes-unruggable-icos-credible-because-investors-can-force-full-treasury-return-when-teams-materially-represent.md"]
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Ranger case study confirms existing claim about futarchy-governed liquidation as enforcement mechanism. This is the first real-world enforcement event in MetaDAO, making the abstract claim concrete. Vault performance data ($1.13M all-time, $17.7K weekly) and strategic pivot under governance pressure are factual data points, not novel claims. Build-A-Bear hackathon ($1M seed) is ecosystem development activity, not relevant to existing claims."
 ---
 
 # @ranger_finance X Archive (March 2026)
@@ -48,3 +53,10 @@ priority: medium
 ## Noise Filtered Out
 - 32% noise — promotional content, community engagement, event reminders
 - Lowest substantive ratio among builder tier accounts
+
+
+## Key Facts
+- Ranger Earn: 9 active vaults, $17.7K weekly depositor payouts, $1.13M+ all-time
+- Build-A-Bear Hackathon: $1M seed funding in prizes
+- First futarchy-governed liquidation in MetaDAO: $5M USDC returned to token holders
+- Ranger pivoted from perps/spot trading to vault-only yield strategy under futarchy governance
