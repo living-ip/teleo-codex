@@ -25,6 +25,12 @@ As Claynosaurz creator Nicholas Cabana describes: they "flipped the traditional 
 
 This is the lean startup model applied to entertainment IP incubation — build, measure, learn — with NFTs and $CLAY tokens providing the financing mechanism and community ownership providing the engagement incentive.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-20-claynosaurz-mediawan-animated-series-update]] | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
+
+Claynosaurz built 450M+ views, 200M+ impressions, and 530K+ subscribers before securing Mediawan co-production deal for 39-episode animated series. The community metrics preceded the production investment, demonstrating progressive validation in practice. Founders (former VFX artists at Sony Pictures, Animal Logic, Framestore) used community building to de-risk the pitch to traditional studio partner, validating the thesis that audience demand proven through community metrics reduces perceived development risk.
+
 ---
 
 Relevant Notes:

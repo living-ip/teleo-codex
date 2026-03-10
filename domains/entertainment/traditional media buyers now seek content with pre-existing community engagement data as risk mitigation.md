@@ -22,6 +22,12 @@ This creates a new development pathway: creators who build community first and p
 
 If this pattern scales, it inverts the traditional greenlight process: instead of studios deciding what audiences want (top-down), communities demonstrate what they want and studios follow (bottom-up). This is consistent with the broader attractor state of community-filtered IP.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-20-claynosaurz-mediawan-animated-series-update]] | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
+
+Mediawan Kids & Family (major European studio group) partnered with Claynosaurz for 39-episode animated series after Claynosaurz demonstrated 450M+ views, 200M+ impressions, and 530K+ online community subscribers across digital platforms. This validates the risk mitigation thesis — the studio chose to co-produce based on proven community engagement metrics rather than traditional development process. Founders (former VFX artists at Sony Pictures, Animal Logic, Framestore) used community building to de-risk the pitch to traditional studio partner.
+
 ---
 
 Relevant Notes:

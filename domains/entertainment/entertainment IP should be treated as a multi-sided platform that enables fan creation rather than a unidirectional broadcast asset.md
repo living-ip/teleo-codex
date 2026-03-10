@@ -17,6 +17,12 @@ This framework directly validates the community-owned IP model. When fans are no
 
 The IP-as-platform model also illuminates why since [[information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming]], community-driven content creation generates more cascade surface area. Every fan-created piece is a potential entry point for new audience members, and each piece carries the community's endorsement. Traditional IP generates cascades only through its official releases. Platform IP generates cascades continuously through its community.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-20-claynosaurz-mediawan-animated-series-update]] | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
+
+Claynosaurz production model treats IP as multi-sided platform by: (1) sharing storyboards and scripts with community during production (enabling creative input), (2) featuring community members' owned collectibles within episodes (enabling asset integration), and (3) explicitly framing approach as 'collaborate with emerging talent from the creator economy and develop original transmedia projects that expand the Claynosaurz universe beyond the screen.' This implements the platform model within a professional co-production with Mediawan, demonstrating that multi-sided platform approach is viable at scale with traditional studio partners, not just independent creator context.
+
 ---
 
 Relevant Notes:
