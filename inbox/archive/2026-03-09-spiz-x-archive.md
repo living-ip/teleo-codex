@@ -6,7 +6,7 @@ url: https://x.com/_spiz_
 date: 2026-03-09
 domain: internet-finance
 format: tweet
-status: unprocessed
+status: null-result
 tags: [wider-ecosystem, futardio, solana, bear-market]
 linked_set: metadao-x-landscape-2026-03
 curator_notes: |
@@ -18,6 +18,10 @@ extraction_hints:
   - "Bear market building thesis — cultural data point"
   - "Low priority — tangential ecosystem voice"
 priority: low
+processed_by: rio
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Source contains only a summary listing three topic areas (Futardio fundraising market landscape analysis, bear market building thesis, ecosystem coordination emphasis) with no actual tweet content, quotes, or data. Curator notes explicitly marked this as 'low claim extraction priority' and 'tangential ecosystem voice.' Without actual tweet text, there is no evidence to extract or claims to evaluate. The 48% substantive classification refers to the account's general posting patterns, not content from this specific archive."
 ---
 
 # @_spiz_ X Archive (March 2026)

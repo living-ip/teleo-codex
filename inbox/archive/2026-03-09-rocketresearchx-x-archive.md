@@ -6,7 +6,7 @@ url: https://x.com/rocketresearchx
 date: 2026-03-09
 domain: internet-finance
 format: tweet
-status: unprocessed
+status: null-result
 tags: [media, research, trading, market-analysis, solana]
 linked_set: metadao-x-landscape-2026-03
 curator_notes: |
@@ -19,6 +19,10 @@ extraction_hints:
   - "Market structure commentary — broader context for crypto capital formation"
   - "Null-result likely for MetaDAO-specific claims"
 priority: low
+processed_by: rio
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Source contains only trading/technical analysis content (EMA 8 rejection, market cap comparisons, geopolitical risk assessment). Curator notes explicitly classify this as low priority with null-result likely for mechanism design claims. Only 2 peripheral MetaDAO references. No novel claims about futarchy, Living Capital, or token economics that aren't already covered in existing knowledge base. Content is market commentary rather than mechanism design insight."
 ---
 
 # @rocketresearchx X Archive (March 2026)
@@ -36,3 +40,11 @@ priority: low
 
 ## Noise Filtered Out
 - 6% noise — highly substantive but wrong domain for claim extraction
+
+
+## Key Facts
+- @rocketresearchx is an OG crypto research outfit operating since 2011
+- Content has 94% substantive ratio but is trading/technical analysis focused
+- Only 2 MetaDAO references - described as peripheral to ecosystem
+- Priority was marked as low by curator
+- Extraction hints indicated null-result likely for MetaDAO-specific claims
