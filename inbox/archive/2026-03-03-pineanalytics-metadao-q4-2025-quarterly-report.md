@@ -4,6 +4,7 @@ source: "Pine Analytics (@PineAnalytics)"
 url: https://x.com/PineAnalytics/status/2028683377251942707
 date: 2026-03-03
 tags: [rio, metadao, futarchy, quarterly-report, financial-data]
+domain: internet-finance
 status: unprocessed
 claims_extracted: []
 ---

@@ -5,6 +5,7 @@ author: "@TheiaResearch (Felipe Montealegre)"
 date: 2026-02-27
 archived_by: rio
 tags: [metadao, futard, claude-code, solo-founder, capital-formation, fundraising]
+domain: internet-finance
 status: unprocessed
 claims_extracted: []
 ---
