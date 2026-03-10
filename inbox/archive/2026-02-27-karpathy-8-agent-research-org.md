@@ -8,10 +8,15 @@ date: 2026-02-27
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: tweet
-status: unprocessed
+status: null-result
 priority: high
 tags: [multi-agent, research-org, agent-collaboration, prompt-engineering, organizational-design]
 flagged_for_theseus: ["Multi-model collaboration evidence — 8 agents, different setups, empirical failure modes"]
+processed_by: theseus
+processed_date: 2026-03-10
+enrichments_applied: ["AI agents excel at implementing well-scoped ideas but cannot generate creative experiment designs which makes the human role shift from researcher to agent workflow architect.md"]
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Two new claims extracted: (1) agents execute well but generate poor hypotheses - confirmed existing claim about idea generation vs implementation, (2) multi-agent orgs as programmable organizations - new framing on org design as source code. One enrichment confirmed existing claim about agent implementation vs hypothesis generation capabilities. Key facts preserved: 8 agents (4 Claude, 4 Codex), git worktrees for isolation, tmux grid for visualization, specific failure example of hidden size spurious correlation."
 ---
 
 ## Content
