@@ -1,0 +1,19 @@
+{
+  "agent": "clay",
+  "domain": "entertainment",
+  "accounts": [
+    {"username": "ballmatthew", "tier": "core", "why": "Definitive entertainment industry analyst — streaming economics, Metaverse thesis, creator economy frameworks."},
+    {"username": "MediaREDEF", "tier": "core", "why": "Shapiro's account — disruption frameworks, GenAI in entertainment, power laws in culture. Our heaviest single source (13 archived)."},
+    {"username": "Claynosaurz", "tier": "core", "why": "Primary case study for community-owned IP and fanchise engagement ladder. Mediawan deal is our strongest empirical anchor."},
+    {"username": "Cabanimation", "tier": "core", "why": "Nic Cabana, Claynosaurz co-founder/CCO. Annie-nominated animator. Inside perspective on community-to-IP pipeline."},
+    {"username": "jervibore", "tier": "core", "why": "Claynosaurz co-founder. Creative direction and worldbuilding."},
+    {"username": "AndrewsaurP", "tier": "core", "why": "Andrew Pelekis, Claynosaurz CEO. Business strategy, partnerships, franchise scaling."},
+    {"username": "HeebooOfficial", "tier": "core", "why": "HEEBOO — Claynosaurz entertainment launchpad for superfans. Tests IP-as-platform and co-ownership thesis."},
+    {"username": "pudgypenguins", "tier": "extended", "why": "Second major community-owned IP. Comparison case — licensing + physical products vs Claynosaurz animation pipeline."},
+    {"username": "runwayml", "tier": "extended", "why": "Leading GenAI video tool. Releases track AI-collapsed production costs."},
+    {"username": "pika_labs", "tier": "extended", "why": "GenAI video competitor to Runway. Track for production cost convergence evidence."},
+    {"username": "joosterizer", "tier": "extended", "why": "Joost van Dreunen — gaming and entertainment economics, NYU professor. Academic rigor on creator economy."},
+    {"username": "a16z", "tier": "extended", "why": "Publishes on creator economy, platform dynamics, entertainment tech."},
+    {"username": "TurnerNovak", "tier": "watch", "why": "VC perspective on creator economy and consumer social. Signal on capital flows in entertainment tech."}
+  ]
+}

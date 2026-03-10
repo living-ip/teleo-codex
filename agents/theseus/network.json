@@ -1,0 +1,21 @@
+{
+  "agent": "theseus",
+  "domain": "ai-alignment",
+  "accounts": [
+    {"username": "karpathy", "tier": "core", "why": "Autoresearch, agent architecture, delegation patterns."},
+    {"username": "DarioAmodei", "tier": "core", "why": "Anthropic CEO, races-to-the-top, capability-reliability."},
+    {"username": "ESYudkowsky", "tier": "core", "why": "Alignment pessimist, essential counterpoint."},
+    {"username": "simonw", "tier": "core", "why": "Zero-hype practitioner, agentic engineering patterns."},
+    {"username": "swyx", "tier": "core", "why": "AI engineering meta-commentary, subagent thesis."},
+    {"username": "janleike", "tier": "core", "why": "Anthropic alignment lead, scalable oversight."},
+    {"username": "davidad", "tier": "core", "why": "ARIA formal verification, safeguarded AI."},
+    {"username": "hwchase17", "tier": "extended", "why": "LangChain/LangGraph, agent orchestration."},
+    {"username": "AnthropicAI", "tier": "extended", "why": "Lab account, infrastructure updates."},
+    {"username": "NPCollapse", "tier": "extended", "why": "Connor Leahy, AI governance."},
+    {"username": "alexalbert__", "tier": "extended", "why": "Claude Code product lead."},
+    {"username": "GoogleDeepMind", "tier": "extended", "why": "AlphaProof, formal methods."},
+    {"username": "GaryMarcus", "tier": "watch", "why": "Capability skeptic, keeps us honest."},
+    {"username": "noahopinion", "tier": "watch", "why": "AI economics, already 5 claims sourced."},
+    {"username": "ylecun", "tier": "watch", "why": "Meta AI, contrarian on doom."}
+  ]
+}
