@@ -5,6 +5,7 @@ author: "Solomon DAO"
 date: 2026-03-05
 archived_by: rio
 tags: [solomon, treasury, subcommittee, legal, governance, SOP, metadao-ecosystem]
+domain: internet-finance
 status: processed
 claims_extracted:
   - "Futarchy-governed DAOs converge on traditional corporate governance scaffolding for treasury operations because market mechanisms alone cannot provide operational security and legal compliance"

@@ -5,6 +5,7 @@ author: "@ceterispar1bus (ceteris)"
 date: 2026-02-25
 archived_by: rio
 tags: [capital-formation, solo-founder, futard, metadao, crypto-use-case]
+domain: internet-finance
 status: processed
 claims_extracted:
   - "Cryptos primary use case is capital formation not payments or store of value because permissionless token issuance solves the fundraising bottleneck that solo founders and small teams face"

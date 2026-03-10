@@ -5,6 +5,7 @@ author: "@MetaDAOProject"
 date: 2026-03-03
 archived_by: rio
 tags: [metadao, ranger, liquidation, futarchy, decision-market, misrepresentation]
+domain: internet-finance
 status: processed
 claims_extracted:
   - "Futarchy can override its own prior decisions when new evidence emerges because conditional markets re-evaluate proposals against current information not historical commitments"

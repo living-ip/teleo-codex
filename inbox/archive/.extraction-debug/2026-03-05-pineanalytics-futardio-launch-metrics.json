@@ -1,0 +1,65 @@
+{
+  "raw_response": "{\"claims\": [], \"enrichments\": [{\"target_file\": \"futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md\", \"type\": \"extend\", \"evidence\": \"Futard.io launch data shows first-mover hesitancy as a distinct friction dimension: 'People are reluctant to be the first to put money into these raises' \u2014 deposits follow momentum once someone else commits first. This coordination/liquidity chicken-and-egg problem is separate from token price psychology, proposal complexity, or liquidity requirements already identified in the existing claim.\", \"source_ref\": \"Pine Analytics @PineAnalytics 2026-03-05, Futard.io Launch Metrics\"}, {\"target_file\": \"futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility.md\", \"type\": \"confirm\", \"evidence\": \"Futard.io (MetaDAO's unbranded arm) launched with 34 ICOs in 2 days, 2 DAOs successfully funded, 5.9% success rate. The brand separation strategy is 'live and functioning \u2014 failed launches don't damage MetaDAO brand.' This validates that brand separation enables permissionless launches while protecting the platform's reputation.\", \"source_ref\": \"Pine Analytics @PineAnalytics 2026-03-05, Futard.io Launch Metrics\"}], \"source_update\": {\"status\": \"enrichment\", \"processed_by\": \"rio\", \"processed_date\": \"2026-03-05\", \"claims_extracted\": [], \"enrichments_applied\": [\"futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md\", \"futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility.md\"], \"notes\": \"Source contains factual metrics (34 ICOs, $15.6M deposits, 929 wallets, 2 funded, 5.9% success rate) and behavioral observations. The key insight about first-mover hesitancy extends the existing friction claim. The brand separation validation confirms an existing claim. No novel claims meet the specificity threshold \u2014 all insights either map to existing claims or are factual data points.\", \"key_facts\": [\"34 ICOs created in first ~2 days on Futard.io permissionless launch platform\", \"$15.6M in deposits from 929 wallets\", \"2 DAOs reached funding thresholds (5.9% success rate)\", \"Average deposit ~$16.8K per wallet\", \"Comparison: 34 ICOs in 2 days vs 6 curated launches all of Q4 2025\", \"Futard.io is MetaDAO's unbranded arm for open token launches\"]}}",
+  "parsed": {
+    "claims": [],
+    "enrichments": [
+      {
+        "target_file": "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md",
+        "type": "extend",
+        "evidence": "Futard.io launch data shows first-mover hesitancy as a distinct friction dimension: 'People are reluctant to be the first to put money into these raises' \u2014 deposits follow momentum once someone else commits first. This coordination/liquidity chicken-and-egg problem is separate from token price psychology, proposal complexity, or liquidity requirements already identified in the existing claim.",
+        "source_ref": "Pine Analytics @PineAnalytics 2026-03-05, Futard.io Launch Metrics"
+      },
+      {
+        "target_file": "futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility.md",
+        "type": "confirm",
+        "evidence": "Futard.io (MetaDAO's unbranded arm) launched with 34 ICOs in 2 days, 2 DAOs successfully funded, 5.9% success rate. The brand separation strategy is 'live and functioning \u2014 failed launches don't damage MetaDAO brand.' This validates that brand separation enables permissionless launches while protecting the platform's reputation.",
+        "source_ref": "Pine Analytics @PineAnalytics 2026-03-05, Futard.io Launch Metrics"
+      }
+    ],
+    "source_update": {
+      "status": "enrichment",
+      "processed_by": "rio",
+      "processed_date": "2026-03-05",
+      "claims_extracted": [],
+      "enrichments_applied": [
+        "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md",
+        "futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility.md"
+      ],
+      "notes": "Source contains factual metrics (34 ICOs, $15.6M deposits, 929 wallets, 2 funded, 5.9% success rate) and behavioral observations. The key insight about first-mover hesitancy extends the existing friction claim. The brand separation validation confirms an existing claim. No novel claims meet the specificity threshold \u2014 all insights either map to existing claims or are factual data points.",
+      "key_facts": [
+        "34 ICOs created in first ~2 days on Futard.io permissionless launch platform",
+        "$15.6M in deposits from 929 wallets",
+        "2 DAOs reached funding thresholds (5.9% success rate)",
+        "Average deposit ~$16.8K per wallet",
+        "Comparison: 34 ICOs in 2 days vs 6 curated launches all of Q4 2025",
+        "Futard.io is MetaDAO's unbranded arm for open token launches"
+      ],
+      "model": "minimax/minimax-m2.5"
+    }
+  },
+  "model": "minimax/minimax-m2.5",
+  "date": "2026-03-10",
+  "tokens": {
+    "prompt_tokens": 6111,
+    "completion_tokens": 1871,
+    "total_tokens": 7982,
+    "cost": 0.00353716,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 1312,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00353716,
+      "upstream_inference_prompt_cost": 0.00147906,
+      "upstream_inference_completions_cost": 0.0020581
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1982,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

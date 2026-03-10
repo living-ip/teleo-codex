@@ -5,6 +5,7 @@ url: https://www.citriniresearch.com/p/2028gic
 date: 2026-02-22
 tags: [rio, ai-macro, labor-displacement, private-credit, financial-crisis, scenario-analysis]
 linked_set: ai-intelligence-crisis-divergence-feb2026
+domain: internet-finance
 status: processed
 claims_extracted:
   - "AI labor displacement operates as a self-funding feedback loop because companies substitute AI for labor as OpEx not CapEx meaning falling aggregate demand does not slow AI adoption"

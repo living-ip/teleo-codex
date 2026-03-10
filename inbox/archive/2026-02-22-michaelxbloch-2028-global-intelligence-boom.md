@@ -5,6 +5,7 @@ url: https://michaelxbloch.substack.com/p/the-2028-global-intelligence-boom
 date: 2026-02-22
 tags: [rio, ai-macro, deflation, labor-displacement, scenario-analysis]
 linked_set: ai-intelligence-crisis-divergence-feb2026
+domain: internet-finance
 status: processed
 claims_extracted:
   - "AI labor displacement operates as a self-funding feedback loop (co-source, challenges)"
