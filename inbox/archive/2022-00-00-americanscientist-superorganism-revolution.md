@@ -6,9 +6,14 @@ url: https://www.americanscientist.org/article/the-superorganism-revolution
 date: 2022-01-01
 domain: ai-alignment
 format: essay
-status: unprocessed
+status: null-result
 tags: [superorganism, collective-intelligence, biology, emergence, evolution]
 linked_set: superorganism-sources-mar2026
+processed_by: theseus
+processed_date: 2026-03-10
+enrichments_applied: ["superorganism-organization-extends-effective-lifespan-substantially-at-each-organizational-level-which-means-civilizational-intelligence-operates-on-temporal-horizons-that-individual-preference-alignment-cannot-serve.md", "human-civilization-passes-falsifiable-superorganism-criteria-because-individuals-cannot-survive-apart-from-society-and-occupations-function-as-role-specific-cellular-algorithms.md"]
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "This American Scientist article on the human microbiome provides rich evidence supporting two existing superorganism-related claims. The key insight is that the microbiome represents a biological superorganism where 300 trillion bacterial cells function as an integrated unit with functional specialization, demonstrating the superorganism principle at the microbial level. The evidence about bacterial generation times (hours/minutes) creating 'deep time' within a single human lifetime directly supports the claim about temporal horizon extension through superorganism organization."
 ---
 
 # The Superorganism Revolution
@@ -204,3 +209,15 @@ Share this selection
 [](https://www.americanscientist.org/article/the-superorganism-revolution#)
 [](https://www.americanscientist.org/article/the-superorganism-revolution# "Previous")[](https://www.americanscientist.org/article/the-superorganism-revolution# "Next")
 [](https://www.americanscientist.org/article/the-superorganism-revolution# "Close")[](https://www.americanscientist.org/article/the-superorganism-revolution#)[](https://www.americanscientist.org/article/the-superorganism-revolution#)[](https://www.americanscientist.org/article/the-superorganism-revolution# "Pause Slideshow")[](https://www.americanscientist.org/article/the-superorganism-revolution# "Play Slideshow")
+
+
+## Key Facts
+- Human microbiome contains approximately 100 trillion bacteria
+- Each person has 37 trillion eukaryotic cells combined with 300 trillion bacterial cells
+- Human genome has 20,000 protein-coding genes; microbiome has approximately 2 million bacterial genes
+- Lower gut may house more than 30,000 different bacterial strains
+- Bacterial generation times are measured in hours or minutes
+- One human lifetime may encompass a million bacterial generations
+- The Human Microbiome Project demonstrated antibiotic use severely disrupts the microbiome
+- Infants delivered by C-section exhibit distinct microbiome from those passing through birth canal
+- Horizontal gene transfer enables bacteria to acquire functional genetic information rapidly
