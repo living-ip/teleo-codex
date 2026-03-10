@@ -7,9 +7,13 @@ date: 2020-03-00
 domain: collective-intelligence
 secondary_domains: [ai-alignment, cultural-dynamics]
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [active-inference, communication, shared-generative-models, hermeneutic-niche, cooperative-communication, epistemic-niche-construction]
+processed_by: theseus
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Extracted three novel claims from Vasil et al. (2020) on active inference in communication: (1) communication as joint uncertainty reduction, (2) hermeneutic niches as self-reinforcing cultural dynamics layers, (3) epistemic niche construction as essential for collective intelligence. These claims formalize the 'chat as perception' insight and provide theoretical grounding for the knowledge base as a hermeneutic niche."
 ---
 
 ## Content
