@@ -270,18 +270,13 @@ Format:
 
 The journal accumulates session over session. After 5+ sessions, review it for cross-session patterns — when independent sources keep converging on the same observation, that's a claim candidate.
 
-### Step 8: Commit and Push (5 min)
-Stage your archives and musing, commit with:
-  ${AGENT}: research session ${DATE} — {brief description of direction}
-
-  Pentagon-Agent: $(echo ${AGENT} | sed 's/./\U&/') <HEADLESS>
-
-Then stop. Do not open a PR — the script handles that."
+### Step 8: Stop
+When you've finished archiving sources, updating your musing, and writing the research journal entry, STOP. Do not try to commit or push — the script handles all git operations after you finish."
 
 # --- Run Claude research session ---
 log "Starting Claude research session..."
 timeout 5400 "$CLAUDE_BIN" -p "$RESEARCH_PROMPT" \
-    --allowedTools 'Read,Write,Edit,Glob,Grep,Bash' \
+    --allowedTools 'Read,Write,Edit,Glob,Grep' \
     --model sonnet \
     --permission-mode bypassPermissions \
     >> "$LOG" 2>&1 || {
