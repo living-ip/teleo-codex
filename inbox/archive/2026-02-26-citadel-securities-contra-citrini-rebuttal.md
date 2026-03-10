@@ -5,6 +5,7 @@ url: https://fortune.com/2026/02/26/citadel-demolishes-viral-doomsday-ai-essay-c
 date: 2026-02-26
 tags: [rio, ai-macro, rebuttal, labor-displacement, macro-data]
 linked_set: ai-intelligence-crisis-divergence-feb2026
+domain: internet-finance
 status: unprocessed
 claims_extracted: []
 ---

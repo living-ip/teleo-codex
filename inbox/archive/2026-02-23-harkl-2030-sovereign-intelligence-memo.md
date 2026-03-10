@@ -5,6 +5,7 @@ url: https://x.com/harkl_/status/2025790698939941060
 date: 2026-02-23
 tags: [rio, ai-macro, sovereignty, crypto, scenario-analysis]
 linked_set: ai-intelligence-crisis-divergence-feb2026
+domain: internet-finance
 status: unprocessed
 claims_extracted: []
 ---

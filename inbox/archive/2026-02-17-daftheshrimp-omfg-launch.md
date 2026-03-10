@@ -5,6 +5,7 @@ author: "@daftheshrimp"
 date: 2026-02-17
 archived_by: rio
 tags: [omnipair, OMFG, community-sentiment, launch]
+domain: internet-finance
 status: unprocessed
 claims_extracted: []
 ---
