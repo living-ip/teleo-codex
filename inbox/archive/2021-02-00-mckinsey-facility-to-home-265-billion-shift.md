@@ -1,0 +1,56 @@
+---
+type: source
+title: "From Facility to Home: How Healthcare Could Shift by 2025 ($265 Billion Care Migration)"
+author: "McKinsey & Company"
+url: https://www.mckinsey.com/industries/healthcare/our-insights/from-facility-to-home-how-healthcare-could-shift-by-2025
+date: 2021-02-01
+domain: health
+secondary_domains: []
+format: report
+status: unprocessed
+priority: medium
+tags: [home-health, hospital-at-home, care-delivery, facility-shift, mckinsey, senior-care]
+---
+
+## Content
+
+### Core Projection
+
+- Up to **$265 billion** in care services (25% of total Medicare cost of care) could shift from facilities to home by 2025
+- Represents **3-4x increase** in cost of care delivered at home vs. current baseline
+- Without reduction in quality or access
+
+### Services That Can Shift Home
+
+**Already feasible:** Primary care, outpatient-specialist consults, hospice, outpatient behavioral health
+**Stitchable capabilities:** Dialysis, post-acute care, long-term care, infusions
+
+### Cost Evidence
+
+- Johns Hopkins hospital-at-home: **19-30% savings** vs. in-hospital care
+- Home care for heart failure patients: **52% lower costs** (from systematic review)
+- RPM-enabled chronic disease management: significant reduction in avoidable hospitalizations
+
+### Demand Signal
+
+- 16% of 65+ respondents more likely to receive home health post-pandemic (McKinsey Consumer Health Insights, June 2021)
+- 94% of Medicare beneficiaries prefer home-based post-acute care
+- COVID catalyzed telehealth adoption → permanent shift in care delivery expectations
+
+### Enabling Technology Stack
+
+- Remote patient monitoring: $29B → $138B (2024-2033), 19% CAGR
+- AI in RPM: $2B → $8.4B (2024-2030), 27.5% CAGR
+- Home healthcare: fastest-growing RPM end-use segment (25.3% CAGR)
+- 71M Americans expected to use RPM by 2025
+
+## Agent Notes
+**Why this matters:** The $265B facility-to-home shift is the care delivery equivalent of the VBC payment transition. If the attractor state is prevention-first care, the physical infrastructure of that care is the home, not the hospital. This connects the payment model (MA/VBC), the technology (RPM/telehealth), and the care site (home) into a single transition narrative.
+**What surprised me:** The 3-4x increase required. Current home-based care serves ~$65B of the potential $265B. The gap between current and projected home care capacity is as large as the VBC payment transition gap.
+**KB connections:** [[continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware]], [[healthcares defensible layer is where atoms become bits because physical-to-digital conversion generates the data that powers AI care while building patient trust that software alone cannot create]]
+**Extraction hints:** The $265B number is well-known; the more extractable insight is the enabling technology stack that makes it possible — RPM + AI middleware + home health workforce.
+
+## Curator Notes
+PRIMARY CONNECTION: [[continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware]]
+WHY ARCHIVED: Connects the care delivery transition to the technology layer the KB already describes. Grounds the atoms-to-bits thesis in senior care economics.
+EXTRACTION HINT: The technology-enabling-care-site-shift narrative is more extractable than the dollar figure alone.
