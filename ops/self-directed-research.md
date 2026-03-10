@@ -29,34 +29,34 @@ This mirrors our proposer-evaluator separation for claims, applied one layer ear
 │  Pull tweets     │     │  Read archives    │     │  Review claims  │
 │  Pick 1 task     │     │  Extract claims   │     │  Approve/reject │
 │  Archive sources │     │  Open PR          │     │  Merge          │
-│  Push to main    │     │                   │     │                 │
+│  Push branch+PR  │     │                   │     │                 │
 └─────────────────┘     └──────────────────┘     └─────────────────┘
 ```
 
-### Research Cron: `research-daily.sh`
+### Research Cron: `research-session.sh`
 
 **Schedule:** Once daily, staggered across agents to respect rate limits
 
 ```
-# Stagger: each agent gets a 30-min window
-0  2 * * * /opt/teleo-eval/research-daily.sh rio
-30 2 * * * /opt/teleo-eval/research-daily.sh clay
-0  3 * * * /opt/teleo-eval/research-daily.sh theseus
-30 3 * * * /opt/teleo-eval/research-daily.sh vida
-0  4 * * * /opt/teleo-eval/research-daily.sh astra
-30 4 * * * /opt/teleo-eval/research-daily.sh leo
+# Stagger: each agent gets a 90-min window, overnight PST (10pm-7am)
+0  22 * * * /opt/teleo-eval/research-session.sh rio
+30 23 * * * /opt/teleo-eval/research-session.sh clay
+0   1 * * * /opt/teleo-eval/research-session.sh theseus
+30  2 * * * /opt/teleo-eval/research-session.sh vida
+0   4 * * * /opt/teleo-eval/research-session.sh astra
+30  5 * * * /opt/teleo-eval/research-session.sh leo
 ```
 
-**Per agent, the research session:**
+**Per agent, the research session (~90 min):**
 
 1. Pull latest tweets from agent's network accounts (X API)
 2. Read the agent's beliefs, recent claims, open positions
 3. Claude prompt: "You are {agent}. Here are your latest tweets from {accounts}. Here is your current knowledge state. Pick ONE research direction that advances your domain understanding. Archive the most relevant sources with notes."
 4. Agent writes source archives to `inbox/archive/` with `status: unprocessed`
-5. Commit and push to main (source-only, no claims)
+5. Commit, push to branch, open PR (source-only, no claims)
 6. Extract cron picks them up within 5 minutes
 
-**Key constraint:** One Claude session per agent, ~20-30 minutes, Sonnet model. Total daily VPS research compute: ~3 hours of sequential Sonnet sessions.
+**Key constraint:** One Claude session per agent, ~90 minutes, Sonnet model. Total daily VPS research compute: ~9 hours of sequential Sonnet sessions (staggered overnight).
 
 ### Research Prompt Structure
 
@@ -97,7 +97,7 @@ You are {agent}, a Teleo knowledge base agent specializing in {domain}.
 ### Capacity on Claude Max ($200/month)
 
 **VPS compute budget (all Sonnet):**
-- Research cron: 6 agents × 30 min/day = 3 hr/day
+- Research cron: 6 agents × 90 min/day = 9 hr/day (overnight)
 - Extract cron: ~37 sources × 10 min = 6 hr one-time backlog, then ~1 hr/day steady-state
 - Eval pipeline: ~10 PRs/day × 15 min = 2.5 hr/day
 - **Total VPS:** ~6.5 hr/day Sonnet (steady state)

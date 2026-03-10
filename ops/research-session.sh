@@ -42,7 +42,8 @@ if [ -f "$LOCKFILE" ]; then
     rm -f "$LOCKFILE"
 fi
 echo $$ > "$LOCKFILE"
-trap 'rm -f "$LOCKFILE"' EXIT
+TWEET_FILE="/tmp/research-tweets-${AGENT}.md"
+trap 'rm -f "$LOCKFILE" "$TWEET_FILE"' EXIT
 
 log "=== Starting research session for $AGENT ==="
 
@@ -91,7 +92,14 @@ for acct in data.get('accounts', []):
 " 2>/dev/null || true)
 
     TWEET_DATA=""
+    API_CALLS=0
+    API_CACHED=0
     for USERNAME in $ACCOUNTS; do
+        # Validate username (Twitter handles are alphanumeric + underscore only)
+        if [[ ! "$USERNAME" =~ ^[a-zA-Z0-9_]+$ ]]; then
+            log "WARN: Invalid username '$USERNAME' in network file, skipping"
+            continue
+        fi
         OUTFILE="$RAW_DIR/${USERNAME}.json"
         # Only pull if file doesn't exist or is older than 12 hours
         if [ ! -f "$OUTFILE" ] || [ $(find "$OUTFILE" -mmin +720 2>/dev/null | wc -l) -gt 0 ]; then
@@ -102,7 +110,10 @@ for acct in data.get('accounts', []):
                 log "WARN: Failed to pull @${USERNAME}"
                 continue
             }
+            API_CALLS=$((API_CALLS + 1))
             sleep 2  # Rate limit courtesy
+        else
+            API_CACHED=$((API_CACHED + 1))
         fi
         if [ -f "$OUTFILE" ]; then
             TWEET_DATA="${TWEET_DATA}
@@ -125,6 +136,14 @@ except Exception as e:
 " 2>/dev/null || echo "(failed to parse)")"
         fi
     done
+    log "API usage: ${API_CALLS} calls, ${API_CACHED} cached for ${AGENT}"
+    # Append to cumulative usage log (create with header if new)
+    USAGE_CSV="/opt/teleo-eval/logs/x-api-usage.csv"
+    if [ ! -f "$USAGE_CSV" ]; then
+        echo "date,agent,api_calls,cached,accounts_total" > "$USAGE_CSV"
+    fi
+    ACCOUNT_COUNT=$(echo "$ACCOUNTS" | wc -w | tr -d ' ')
+    echo "${DATE},${AGENT},${API_CALLS},${API_CACHED},${ACCOUNT_COUNT}" >> "$USAGE_CSV"
 fi
 
 # --- Also check for any raw JSON dumps in inbox-raw ---
@@ -161,7 +180,6 @@ log "On branch $BRANCH"
 
 # --- Build the research prompt ---
 # Write tweet data to a temp file so Claude can read it
-TWEET_FILE="/tmp/research-tweets-${AGENT}.md"
 echo "$TWEET_DATA" > "$TWEET_FILE"
 
 RESEARCH_PROMPT="You are ${AGENT}, a Teleo knowledge base agent. Domain: ${DOMAIN}.
@@ -295,47 +313,55 @@ if [ -z "$CHANGED_FILES" ]; then
     exit 0
 fi
 
-# --- Stage and commit if Claude didn't already ---
-if ! git log --oneline -1 | grep -q "research session"; then
-    # Claude didn't commit — do it manually
-    git add inbox/archive/ agents/${AGENT}/musings/ agents/${AGENT}/research-journal.md 2>/dev/null || true
+# --- Stage and commit ---
+git add inbox/archive/ agents/${AGENT}/musings/ agents/${AGENT}/research-journal.md 2>/dev/null || true
 
-    if git diff --cached --quiet; then
-        log "No valid changes to commit"
-        git checkout main >> "$LOG" 2>&1
-        exit 0
-    fi
+if git diff --cached --quiet; then
+    log "No valid changes to commit"
+    git checkout main >> "$LOG" 2>&1
+    exit 0
+fi
 
-    AGENT_UPPER=$(echo "$AGENT" | sed 's/./\U&/')
-    SOURCE_COUNT=$(git diff --cached --name-only | grep -c "^inbox/archive/" || echo "0")
-    git commit -m "${AGENT}: research session ${DATE} — ${SOURCE_COUNT} sources archived
+AGENT_UPPER=$(echo "$AGENT" | sed 's/./\U&/')
+SOURCE_COUNT=$(git diff --cached --name-only | grep -c "^inbox/archive/" || echo "0")
+git commit -m "${AGENT}: research session ${DATE} — ${SOURCE_COUNT} sources archived
 
 Pentagon-Agent: ${AGENT_UPPER} <HEADLESS>" >> "$LOG" 2>&1
-fi
 
 # --- Push ---
 git push -u origin "$BRANCH" --force >> "$LOG" 2>&1
 log "Pushed $BRANCH"
 
-# --- Open PR ---
-PR_JSON=$(python3 -c "
-import json
-data = {
-    'title': '${AGENT}: research session ${DATE}',
-    'body': '## Self-Directed Research\\n\\nAutomated research session for ${AGENT} (${DOMAIN}).\\n\\nSources archived with status: unprocessed — extract cron will handle claim extraction separately.\\n\\nResearcher and extractor are different Claude instances to prevent motivated reasoning.',
-    'base': 'main',
-    'head': '${BRANCH}'
-}
-print(json.dumps(data))
-")
-
-PR_RESULT=$(curl -s -X POST "${FORGEJO_URL}/api/v1/repos/teleo/teleo-codex/pulls" \
+# --- Check for existing PR on this branch ---
+EXISTING_PR=$(curl -s "${FORGEJO_URL}/api/v1/repos/teleo/teleo-codex/pulls?state=open" \
     -H "Authorization: token $AGENT_TOKEN" \
-    -H "Content-Type: application/json" \
-    -d "$PR_JSON" 2>&1)
+    | jq -r ".[] | select(.head.ref == \"$BRANCH\") | .number" 2>/dev/null)
 
-PR_NUMBER=$(echo "$PR_RESULT" | python3 -c "import sys,json; print(json.load(sys.stdin).get('number','unknown'))" 2>/dev/null || echo "unknown")
-log "PR #${PR_NUMBER} opened for ${AGENT}'s research session"
+if [ -n "$EXISTING_PR" ]; then
+    log "PR already exists for $BRANCH (#$EXISTING_PR), skipping creation"
+else
+    # --- Open PR ---
+    PR_JSON=$(jq -n \
+        --arg title "${AGENT}: research session ${DATE}" \
+        --arg body "## Self-Directed Research
+
+Automated research session for ${AGENT} (${DOMAIN}).
+
+Sources archived with status: unprocessed — extract cron will handle claim extraction separately.
+
+Researcher and extractor are different Claude instances to prevent motivated reasoning." \
+        --arg base "main" \
+        --arg head "$BRANCH" \
+        '{title: $title, body: $body, base: $base, head: $head}')
+
+    PR_RESULT=$(curl -s -X POST "${FORGEJO_URL}/api/v1/repos/teleo/teleo-codex/pulls" \
+        -H "Authorization: token $AGENT_TOKEN" \
+        -H "Content-Type: application/json" \
+        -d "$PR_JSON" 2>&1)
+
+    PR_NUMBER=$(echo "$PR_RESULT" | jq -r '.number // "unknown"' 2>/dev/null || echo "unknown")
+    log "PR #${PR_NUMBER} opened for ${AGENT}'s research session"
+fi
 
 # --- Back to main ---
 git checkout main >> "$LOG" 2>&1
