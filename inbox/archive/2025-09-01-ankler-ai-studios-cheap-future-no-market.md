@@ -7,9 +7,13 @@ date: 2025-09-01
 domain: entertainment
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: high
 tags: [ai-studios, market-skepticism, distribution, hollywood-resistance, ip-copyright]
+processed_by: clay
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Extracted three claims from Barmack's analysis. Primary claim focuses on distribution/legal barriers being more binding than production quality - this directly challenges the 'AI democratizes production' thesis. Two supporting claims specify the mechanisms: marketing/distribution infrastructure gap and copyright liability preventing studio acquisition. All claims are specific enough to disagree with and cite verifiable evidence. No duplicates found against existing entertainment domain claims."
 ---
 
 ## Content
