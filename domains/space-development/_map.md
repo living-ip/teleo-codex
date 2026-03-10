@@ -1,5 +1,5 @@
 ---
-description: Launch economics, in-space manufacturing, asteroid mining, habitation architecture, and governance frameworks shaping the cislunar economy through 2056
+description: Launch economics, megastructure launch infrastructure, in-space manufacturing, asteroid mining, habitation architecture, and governance frameworks shaping the cislunar economy through 2056
 type: moc
 ---
 
@@ -36,6 +36,16 @@ The cislunar economy depends on three interdependent resource layers — power, 
 - [[orbital propellant depots are the enabling infrastructure for all deep-space operations because they break the tyranny of the rocket equation]] — the connective layer: depots break the exponential mass penalty
 - [[power is the binding constraint on all space operations because every capability from ISRU to manufacturing to life support is power-limited]] — the root constraint: power gates everything else
 - [[falling launch costs paradoxically both enable and threaten in-space resource utilization by making infrastructure affordable while competing with the end product]] — the paradox: cheap launch both enables and competes with ISRU
+
+## Megastructure Launch Infrastructure
+
+Chemical rockets are bootstrapping technology constrained by the Tsiolkovsky rocket equation. The post-Starship endgame is infrastructure that bypasses the rocket equation entirely, converting launch from a propellant problem to an electricity problem — making [[power is the binding constraint on all space operations because every capability from ISRU to manufacturing to life support is power-limited]] the new keystone constraint. Three concepts form an economic bootstrapping sequence where each stage's cost reduction generates demand and capital for the next. All remain speculative — none have been prototyped at any scale.
+
+- [[skyhooks require no new physics and reduce required rocket delta-v by 40-70 percent using rotating momentum exchange]] — the near-term entry point: proven orbital mechanics, buildable with Starship-class capacity, though tether materials and debris risk are non-trivial engineering challenges
+- [[Lofstrom loops convert launch economics from a propellant problem to an electricity problem at a theoretical operating cost of roughly 3 dollars per kg]] — the qualitative shift: electromagnetic acceleration replaces chemical propulsion, with operating cost dominated by electricity (theoretical, from Lofstrom's 1985 analyses)
+- [[the megastructure launch sequence from skyhooks to Lofstrom loops to orbital rings may be economically self-bootstrapping if each stage generates sufficient returns to fund the next]] — the developmental logic: economic sequencing (capital and demand), not technological dependency (the three systems share no hardware or engineering techniques)
+
+Key research frontier questions: tether material limits and debris survivability (skyhooks), pellet stream stability and atmospheric sheath design (Lofstrom loops), orbital construction bootstrapping and planetary-scale governance (orbital rings). Relationship to propellant depots: megastructures address Earth-to-orbit; [[orbital propellant depots are the enabling infrastructure for all deep-space operations because they break the tyranny of the rocket equation]] remains critical for in-space operations — the two approaches are complementary across different mission profiles.
 
 ## In-Space Manufacturing
 

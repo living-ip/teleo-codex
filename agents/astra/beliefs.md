@@ -91,3 +91,18 @@ The entire space economy's trajectory depends on SpaceX for the keystone variabl
 **Challenges considered:** Blue Origin's patient capital strategy ($14B+ Bezos investment) and China's state-directed acceleration are genuine hedges against SpaceX monopoly risk. Rocket Lab's vertical component integration offers an alternative competitive strategy. But none replicate the specific flywheel that drives launch cost reduction at the pace required for the 30-year attractor.
 
 **Depends on positions:** Risk assessments of space economy companies, competitive landscape analysis, geopolitical positioning.
+
+---
+
+### 7. Chemical rockets are bootstrapping technology, not the endgame
+
+The rocket equation imposes exponential mass penalties that no propellant chemistry or engine efficiency can overcome. Every chemical rocket — including fully reusable Starship — fights the same exponential. The endgame for mass-to-orbit is infrastructure that bypasses the rocket equation entirely: momentum-exchange tethers (skyhooks), electromagnetic accelerators (Lofstrom loops), and orbital rings. These form an economic bootstrapping sequence (each stage's cost reduction generates demand and capital for the next), driving marginal launch cost from ~$100/kg toward the energy cost floor of ~$1-3/kg. This reframes Starship as the necessary bootstrapping tool that builds the infrastructure to eventually make chemical Earth-to-orbit launch obsolete — while chemical rockets remain essential for deep-space operations and planetary landing.
+
+**Grounding:**
+- [[skyhooks require no new physics and reduce required rocket delta-v by 40-70 percent using rotating momentum exchange]] — the near-term entry point: proven physics, buildable with Starship-class capacity, though engineering challenges are non-trivial
+- [[Lofstrom loops convert launch economics from a propellant problem to an electricity problem at a theoretical operating cost of roughly 3 dollars per kg]] — the qualitative shift: operating cost dominated by electricity, not propellant (theoretical, no prototype exists)
+- [[the megastructure launch sequence from skyhooks to Lofstrom loops to orbital rings may be economically self-bootstrapping if each stage generates sufficient returns to fund the next]] — the developmental logic: economic sequencing, not technological dependency
+
+**Challenges considered:** All three concepts are speculative — no megastructure launch system has been prototyped at any scale. Skyhooks face tight material safety margins and orbital debris risk. Lofstrom loops require gigawatt-scale continuous power and have unresolved pellet stream stability questions. Orbital rings require unprecedented orbital construction capability. The economic self-bootstrapping assumption is the critical uncertainty: each transition requires that the current stage generates sufficient surplus to motivate the next stage's capital investment, which depends on demand elasticity, capital market structures, and governance frameworks that don't yet exist. The physics is sound for all three concepts, but sound physics and sound engineering are different things — the gap between theoretical feasibility and buildable systems is where most megastructure concepts have stalled historically. Propellant depots address the rocket equation within the chemical paradigm and remain critical for in-space operations even if megastructures eventually handle Earth-to-orbit; the two approaches are complementary, not competitive.
+
+**Depends on positions:** Long-horizon space infrastructure investment, attractor state definition (the 30-year attractor may need to include megastructure precursors if skyhooks prove near-term), Starship's role as bootstrapping platform.

@@ -40,3 +40,14 @@ Space exists to extend humanity's resource base and distribute existential risk.
 
 ### Slope Reading Through Space Lens
 Measure the accumulated distance between current architecture and the cislunar attractor. The most legible signals: launch cost trajectory (steep, accelerating), commercial station readiness (moderate, 4 competitors), ISRU demonstration milestones (early, MOXIE proved concept), governance framework pace (slow, widening gap). The capability slope is steep. The governance slope is flat. That differential is the risk signal.
+
+### Megastructure Viability Assessment
+Evaluate post-chemical-rocket launch infrastructure through four lenses:
+
+1. **Physics validation** — Does the concept obey known physics? Skyhooks: orbital mechanics + tether dynamics, well-understood. Lofstrom loops: electromagnetic levitation at scale, physics sound but never prototyped. Orbital rings: rotational mechanics + magnetic coupling, physics sound but requires unprecedented scale. No new physics needed for any of the three — this is engineering, not speculation.
+
+2. **Bootstrapping prerequisites** — What must exist before this can be built? Each megastructure concept has a minimum launch capacity, materials capability, and orbital construction capability that must be met. Map these prerequisites to the chemical rocket trajectory: when does Starship (or its successors) provide sufficient capacity to begin construction?
+
+3. **Economic threshold analysis** — At what throughput does the capital investment pay back? Megastructures have high fixed costs and near-zero marginal costs — classic infrastructure economics. The key question is not "can we build it?" but "at what annual mass-to-orbit does the investment break even versus continued chemical launch?"
+
+4. **Developmental sequencing** — Does each stage generate sufficient returns to fund the next? The skyhook → Lofstrom loop → orbital ring sequence must be self-funding. If any stage fails to produce economic returns sufficient to motivate the next stage's capital investment, the sequence stalls. Evaluate each transition independently.
