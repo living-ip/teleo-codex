@@ -7,9 +7,15 @@ date: 2025-05-19
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [vertical-integration, payvidor, unitedhealth, optum, medicare-advantage, market-power, anti-payvidor]
+processed_by: vida
+processed_date: 2025-05-19
+claims_extracted: ["vertical-integration-in-medicare-advantage-raises-costs-through-aggressive-coding-and-related-party-spending-not-efficiency-gains.md", "unitedhealth-pays-optum-providers-17-percent-more-than-non-optum-providers-rising-to-61-percent-in-concentrated-markets-indicating-self-dealing-not-efficiency.md"]
+enrichments_applied: ["anti-payvidor legislation targets all insurer-provider integration without distinguishing acquisition-based arbitrage from purpose-built care delivery.md", "CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md", "four competing payer-provider models are converging toward value-based care with vertical integration dominant today but aligned partnership potentially more durable.md", "Devoted is the fastest-growing MA plan at 121 percent growth because purpose-built technology outperforms acquisition-based vertical integration during CMS tightening.md", "Kaiser Permanentes 80-year tripartite structure is the strongest precedent for purpose-built payvidor exemptions because any structural separation bill that captures Kaiser faces 12.5 million members and Californias entire healthcare infrastructure.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two high-value claims with strong empirical grounding: (1) vertical integration raises MA costs through coding/spending, (2) UHC-Optum 17%/61% self-dealing premium. Applied five enrichments to existing anti-payvidor, CMS policy, and payer-provider model claims. The 61% payment premium in concentrated markets is the most concrete evidence of vertical integration enabling market power extraction rather than efficiency gains. This source provides the empirical foundation for the entire anti-payvidor policy debate."
 ---
 
 ## Content
@@ -55,3 +61,10 @@ tags: [vertical-integration, payvidor, unitedhealth, optum, medicare-advantage, 
 PRIMARY CONNECTION: [[anti-payvidor legislation targets all insurer-provider integration without distinguishing acquisition-based arbitrage from purpose-built care delivery]]
 WHY ARCHIVED: Strongest empirical evidence connecting vertical integration to cost inflation — grounds the anti-payvidor policy debate in data.
 EXTRACTION HINT: The 17%/61% self-dealing premium is the most extractable finding. It's specific, measurable, and directly challenges the integration-efficiency narrative.
+
+
+## Key Facts
+- UnitedHealth/Optum employs ~10,000 physicians (~1% of US workforce), another 80,000 affiliated
+- Between 2016-2019, 77% of MA plans had parent companies owning related businesses (86% of beneficiaries)
+- CVS Health acquired Aetna for $69B (2018)
+- Humana operates CenterWell primary care platform
