@@ -7,9 +7,14 @@ date: 2026-02-01
 domain: ai-alignment
 secondary_domains: [grand-strategy]
 format: report
-status: unprocessed
+status: enrichment
 priority: high
 tags: [Anthropic, RSP, safety-pledge, competitive-pressure, institutional-failure, voluntary-commitments]
+processed_by: theseus
+processed_date: 2026-03-10
+enrichments_applied: ["voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints.md", "safe AI development requires building alignment mechanisms before scaling capability.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Primary enrichment source for voluntary-safety-pledges claim. Anthropic's RSP rollback is the strongest empirical validation of the competitive pressure mechanism—the 'safety lab' itself explicitly acknowledging the structural trade-off. Also provides counter-evidence to alignment-before-scaling claim by demonstrating capability-first pattern even at safety-focused orgs. No new claims extracted; this is pure enrichment of existing theoretical claims with real-world institutional failure data."
 ---
 
 ## Content
@@ -40,3 +45,9 @@ This is the highest-profile case of a voluntary AI safety commitment collapsing 
 PRIMARY CONNECTION: [[voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints]]
 WHY ARCHIVED: Strongest possible enrichment evidence for existing claim — the "safety lab" itself rolls back its flagship pledge and explicitly acknowledges competitive pressure as the cause
 EXTRACTION HINT: This is an ENRICHMENT source, not a new claim. Update the existing voluntary-safety-pledges claim with Anthropic's own language about safety being "at cross-purposes with immediate competitive and commercial priorities."
+
+
+## Key Facts
+- Anthropic committed to RSP in 2023 requiring pre-training safety guarantees
+- Anthropic rolled back RSP in February 2026
+- New RSP language explicitly acknowledges safety is 'at cross-purposes with immediate competitive and commercial priorities'

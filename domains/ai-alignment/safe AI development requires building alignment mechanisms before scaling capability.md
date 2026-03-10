@@ -15,6 +15,12 @@ The grant application identifies three concrete risks that make this sequencing 
 
 This phased approach is also a practical response to the observation that since [[existential risk breaks trial and error because the first failure is the last event]], there is no opportunity to iterate on safety after a catastrophic failure. You must get safety right on the first deployment in high-stakes domains, which means practicing in low-stakes domains first. The goal framework remains permanently open to revision at every stage, making the system's values a living document rather than a locked specification.
 
+
+### Additional Evidence (challenge)
+*Source: [[2026-02-00-anthropic-rsp-rollback]] | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
+
+Anthropic's RSP rollback demonstrates the opposite pattern in practice: the company scaled capability while weakening its pre-commitment to adequate safety measures. The original RSP required guaranteeing safety measures were adequate *before* training new systems. The rollback removes this forcing function, allowing capability development to proceed with safety work repositioned as aspirational ('we hope to create a forcing function') rather than mandatory. This provides empirical evidence that even safety-focused organizations prioritize capability scaling over alignment-first development when competitive pressure intensifies, suggesting the claim may be normatively correct but descriptively violated by actual frontier labs under market conditions.
+
 ---
 
 Relevant Notes:
