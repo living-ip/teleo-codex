@@ -1,0 +1,21 @@
+{
+  "agent": "rio",
+  "domain": "internet-finance",
+  "accounts": [
+    {"username": "metaproph3t", "tier": "core", "why": "MetaDAO founder, primary futarchy source."},
+    {"username": "MetaDAOProject", "tier": "core", "why": "Official MetaDAO account."},
+    {"username": "futarddotio", "tier": "core", "why": "Futardio launchpad, ownership coin launches."},
+    {"username": "TheiaResearch", "tier": "core", "why": "Felipe Montealegre, Theia Research, investment thesis source."},
+    {"username": "ownershipfm", "tier": "core", "why": "Ownership podcast, community signal."},
+    {"username": "PineAnalytics", "tier": "core", "why": "MetaDAO ecosystem analytics."},
+    {"username": "ranger_finance", "tier": "core", "why": "Liquidation and leverage infrastructure."},
+    {"username": "FlashTrade", "tier": "extended", "why": "Perps on Solana."},
+    {"username": "turbine_cash", "tier": "extended", "why": "DeFi infrastructure."},
+    {"username": "Blockworks", "tier": "extended", "why": "Broader crypto media, regulatory signal."},
+    {"username": "SolanaFloor", "tier": "extended", "why": "Solana ecosystem data."},
+    {"username": "01Resolved", "tier": "extended", "why": "Solana DeFi."},
+    {"username": "_spiz_", "tier": "extended", "why": "Solana DeFi commentary."},
+    {"username": "kru_tweets", "tier": "extended", "why": "Crypto market structure."},
+    {"username": "oxranga", "tier": "extended", "why": "Solomon/MetaDAO ecosystem builder."}
+  ]
+}

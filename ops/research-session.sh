@@ -184,13 +184,17 @@ Scan for anything substantive: new claims, evidence, debates, data, counterargum
 ### Step 3: Check Previous Follow-ups (2 min)
 Read agents/${AGENT}/musings/ — look for any previous research-*.md files. If they exist, check the 'Follow-up Directions' section at the bottom. These are threads your past self flagged but didn't have time to cover. Give them priority when picking your direction.
 
-### Step 4: Pick ONE Research Direction (5 min)
-Based on your beliefs, your domain's gaps, previous follow-ups, and what you found in the tweets, pick ONE research direction that would most advance your domain understanding. Consider:
-- Follow-up directions from previous sessions (highest priority — your past self flagged these for a reason)
-- Gaps in your beliefs that need evidence
-- Claims in the KB that new evidence might challenge
-- Cross-domain connections flagged by other agents
-- New developments that change the landscape
+### Step 4: Pick ONE Research Question (5 min)
+Pick ONE research question — not one topic, but one question that naturally spans multiple accounts and sources. 'How is capital flowing through Solana launchpads?' is one question even though it touches MetaDAO, SOAR, Futardio.
+
+**Direction selection priority** (active inference — pursue surprise, not confirmation):
+1. Follow-up ACTIVE THREADS from previous sessions (your past self flagged these)
+2. Claims rated 'experimental' or areas where the KB flags live tensions — highest uncertainty = highest learning value
+3. Evidence that CHALLENGES your beliefs, not confirms them
+4. Cross-domain connections flagged by other agents
+5. New developments that change the landscape
+
+Also read agents/${AGENT}/research-journal.md if it exists — this is your cross-session pattern tracker.
 
 Write a brief note explaining your choice to: agents/${AGENT}/musings/research-${DATE}.md
 
@@ -219,9 +223,16 @@ tags: [topic1, topic2]
 
 ## Agent Notes
 **Why this matters:** [1-2 sentences]
+**What surprised me:** [Anything unexpected — the extractor needs this to avoid confirming your priors]
+**What I expected but didn't find:** [Gaps or missing evidence you noticed]
 **KB connections:** [Which existing claims relate?]
 **Extraction hints:** [What claims might an extractor pull?]
 **Context:** [Who is the author, what debate is this part of?]
+
+## Curator Notes (structured handoff for extractor)
+PRIMARY CONNECTION: [exact claim title this source most relates to]
+WHY ARCHIVED: [what pattern or tension this evidences]
+EXTRACTION HINT: [what the extractor should focus on — scopes attention]
 
 ### Step 5 Rules:
 - Archive EVERYTHING substantive, not just what supports your views
@@ -235,13 +246,31 @@ tags: [topic1, topic2]
 At the bottom of your research musing (agents/${AGENT}/musings/research-${DATE}.md), add a section:
 
 ## Follow-up Directions
-- [Direction 1]: [1 sentence — why this matters, what you'd look for]
-- [Direction 2]: [1 sentence]
-- [Direction 3]: [1 sentence]
 
-These are threads you noticed but didn't have time to pursue. Your next research session will read these and give them priority. Be specific — 'look into X' is useless, 'verify whether Y claim holds given Z evidence from @account' is actionable.
+Three categories — be specific, not vague:
 
-### Step 7: Commit and Push (5 min)
+### Active Threads (continue next session)
+- [Thread]: [What to do next, what you'd look for]
+
+### Dead Ends (don't re-run these)
+- [What you searched for]: [Why it was empty — saves future you from wasting time]
+
+### Branching Points (one finding opened multiple directions)
+- [Finding]: [Direction A vs Direction B — which to pursue first and why]
+
+### Step 7: Update Research Journal (3 min)
+Append to agents/${AGENT}/research-journal.md (create if it doesn't exist). This is your cross-session memory — NOT the same as the musing.
+
+Format:
+## Session ${DATE}
+**Question:** [your research question]
+**Key finding:** [most important thing you learned]
+**Pattern update:** [did this session confirm, challenge, or extend a pattern you've been tracking?]
+**Confidence shift:** [did any of your beliefs get stronger or weaker?]
+
+The journal accumulates session over session. After 5+ sessions, review it for cross-session patterns — when independent sources keep converging on the same observation, that's a claim candidate.
+
+### Step 8: Commit and Push (5 min)
 Stage your archives and musing, commit with:
   ${AGENT}: research session ${DATE} — {brief description of direction}
 
