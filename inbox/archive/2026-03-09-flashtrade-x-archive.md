@@ -6,7 +6,7 @@ url: https://x.com/FlashTrade
 date: 2026-03-09
 domain: internet-finance
 format: tweet
-status: unprocessed
+status: null-result
 tags: [flash-trade, perps, solana, trading, leverage]
 linked_set: metadao-x-landscape-2026-03
 curator_notes: |
@@ -21,6 +21,10 @@ extraction_hints:
   - "Asset-backed trading model could connect to 'permissionless leverage on MetaDAO ecosystem tokens' if Flash integrates with ecosystem"
   - "Null-result candidate — primarily trading signals, not mechanism design"
 priority: low
+processed_by: rio
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Null-result extraction. Curator explicitly flagged this as low priority with 'no mechanism design insights relevant to our domain.' Source contains product information (50x leveraged derivatives, asset-backed trading model) and trading signals rather than mechanism design or governance insights. No MetaDAO-specific claims identified. No connection to existing claim themes (futarchy, ownership coins, Living Capital, etc.). Content is peripheral to Teleo knowledge base domains."
 ---
 
 # @FlashTrade X Archive (March 2026)
