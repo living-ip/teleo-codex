@@ -7,11 +7,17 @@ date: 2025-01-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence, mechanisms]
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [democratic-alignment, RLCF, pluralistic-alignment, community-feedback, Taiwan, civic-AI]
 flagged_for_rio: ["RLCF as market-like mechanism — rewards for bridging-based consensus similar to prediction market properties"]
 flagged_for_clay: ["Community Notes model as narrative infrastructure — how does bridging-based consensus shape public discourse?"]
+processed_by: theseus
+processed_date: 2025-01-01
+claims_extracted: ["reinforcement-learning-from-community-feedback-rewards-bridging-consensus-across-disagreeing-groups-which-may-sidestep-preference-aggregation-impossibility.md", "top-down-corporate-alignment-is-structurally-insufficient-because-cultural-distance-from-training-distribution-degrades-value-alignment.md", "the-six-pack-of-care-integrates-industry-norms-market-design-and-community-scale-assistants-as-a-democratic-alignment-framework.md"]
+enrichments_applied: ["pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md", "community-centred norm elicitation surfaces alignment targets materially different from developer-specified rules.md", "democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations.md", "AI alignment is a coordination problem not a technical problem.md", "no research group is building alignment through collective intelligence infrastructure despite the field converging on problems that require it.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 3 new claims focused on RLCF mechanism, cultural distance degradation, and 6-Pack framework. Applied 5 enrichments to existing claims. The RLCF mechanism is the highest-value extraction—it's a concrete technical alternative to RLHF with at-scale precedent (Community Notes) and may sidestep Arrow's impossibility theorem by finding bridging consensus rather than aggregating preferences. The Taiwan civic AI precedent significantly strengthens existing claims about democratic alignment. One enrichment challenges an existing claim about no research groups building collective intelligence infrastructure—Taiwan is actively doing this."
 ---
 
 ## Content
@@ -56,3 +62,11 @@ Key quote: "We, the people, are the alignment system we have been waiting for."
 PRIMARY CONNECTION: [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]]
 WHY ARCHIVED: Proposes RLCF as a concrete technical alternative that may structurally handle preference diversity by rewarding bridging consensus rather than aggregating preferences
 EXTRACTION HINT: Focus on RLCF mechanism (bridging consensus vs. majority rule), the cultural distance finding, and the 6-Pack framework. The Arrow's theorem workaround angle is the highest-value extraction.
+
+
+## Key Facts
+- Audrey Tang is Taiwan's cyber ambassador, first digital minister, and 2025 Right Livelihood Laureate
+- Taiwan sent 200,000 random texts to citizens for AI deepfake fraud input
+- 447-person representative assembly deliberated solutions
+- Community Notes (Twitter/X) surfaces notes only when rated helpful by people with differing views
+- RLCF is implemented through platforms like Polis
