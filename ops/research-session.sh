@@ -303,7 +303,7 @@ fi
 # --- Stage and commit if Claude didn't already ---
 if ! git log --oneline -1 | grep -q "research session"; then
     # Claude didn't commit — do it manually
-    git add inbox/archive/ agents/${AGENT}/musings/ 2>/dev/null || true
+    git add inbox/archive/ agents/${AGENT}/musings/ agents/${AGENT}/research-journal.md 2>/dev/null || true
 
     if git diff --cached --quiet; then
         log "No valid changes to commit"
