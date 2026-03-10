@@ -7,9 +7,15 @@ date: 2014-01-01
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: processed
 priority: medium
 tags: [pace, capitated-care, nursing-home, cost-effectiveness, mortality, outcomes-evidence]
+processed_by: vida
+processed_date: 2026-03-10
+claims_extracted: ["pace-restructures-costs-from-acute-to-chronic-spending-without-reducing-total-expenditure-challenging-prevention-saves-money-narrative.md", "pace-demonstrates-integrated-care-averts-institutionalization-through-community-based-delivery-not-cost-reduction.md"]
+enrichments_applied: ["the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness.md", "value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two related claims about PACE's cost restructuring (not reduction) and institutionalization avoidance. Primary insight: PACE challenges the 'prevention saves money' narrative by showing integrated care redistributes costs rather than eliminating them. The value is quality/preference (community vs. institution), not economics. Flagged enrichments for healthcare attractor state (challenge) and value-based care payment boundary (extension). This is honest evidence that complicates prevention-first economics while supporting prevention-first outcomes."
 ---
 
 ## Content
@@ -58,3 +64,11 @@ tags: [pace, capitated-care, nursing-home, cost-effectiveness, mortality, outcom
 PRIMARY CONNECTION: [[the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness]]
 WHY ARCHIVED: Honest evidence that complicates the "prevention saves money" narrative. PACE works, but not primarily through cost reduction.
 EXTRACTION HINT: The cost-restructuring (not cost-reduction) finding is the most honest and extractable insight.
+
+
+## Key Facts
+- PACE study covered 8 states with 250+ new enrollees during 2006-2008
+- Comparison groups: nursing home entrants AND HCBS waiver enrollees
+- Medicare costs significantly lower only in first 6 months after PACE enrollment
+- Medicaid costs significantly higher under PACE than FFS Medicaid
+- Nursing home utilization significantly lower across ALL measures for PACE enrollees
