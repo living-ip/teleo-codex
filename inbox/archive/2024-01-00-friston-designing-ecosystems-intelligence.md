@@ -7,9 +7,13 @@ date: 2024-01-00
 domain: ai-alignment
 secondary_domains: [collective-intelligence, critical-systems]
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [active-inference, free-energy-principle, multi-agent, collective-intelligence, shared-intelligence, ecosystems-of-intelligence]
+processed_by: theseus
+processed_date: 2026-03-10
+extraction_model: "minimax/minimax-m2.5"
+extraction_notes: "Three novel claims extracted from Friston et al. 2024 paper. These provide first-principles theoretical grounding for the collective intelligence architecture: (1) shared generative models enable coordination without negotiation, (2) curiosity/uncertainty resolution is the fundamental drive vs reward maximization, (3) message passing on factor graphs is the operational substrate. No existing claims duplicate these specific theoretical propositions — they extend beyond current claims about coordination protocols and multi-agent collaboration by providing the active inference foundation."
 ---
 
 ## Content
@@ -62,3 +66,14 @@ Intelligence is understood as the capacity to accumulate evidence for a generati
 PRIMARY CONNECTION: "biological systems minimize free energy to maintain their states and resist entropic decay"
 WHY ARCHIVED: The definitive paper connecting active inference to multi-agent AI ecosystem design — provides first-principles justification for our entire collective architecture
 EXTRACTION HINT: Focus on the operational design principles: shared generative models, message passing, curiosity-driven coordination. These map directly to our claim graph, wiki links, and uncertainty-directed research.
+
+
+## Key Facts
+- Paper published in Collective Intelligence, Vol 3(1), 2024
+- Available on arXiv: 2212.01354
+- Authors include Karl J. Friston, Maxwell JD Ramstead, and 17 others
+- Active inference is presented as a "physics of intelligence"
+- Intelligence = capacity to accumulate evidence for a generative model (self-evidencing)
+- Self-evidencing = maximizing Bayesian model evidence via belief updating
+- Operationalizes via variational message passing or belief propagation on factor graph
+- Proposes shared hyper-spatial modeling language for belief convergence
