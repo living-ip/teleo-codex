@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/4gaJ8bi1gpNEx6xSSsepjVBM6GXqTDfLbiUbzXbARHW
 date: 2024-12-02
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-12-02
+claims_extracted: ["dean-list-dao-treasury-stablecoin-conversion-increased-survival-probability-from-50-to-90-percent.md", "futarchy-treasury-de-risking-signals-financial-prudence-increasing-fdv-5-to-20-percent.md"]
+enrichments_applied: ["MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "futarchy-governed DAOs converge on traditional corporate governance scaffolding for treasury operations because market mechanisms alone cannot provide operational security and legal compliance.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two experimental claims about futarchy-governed treasury management. First claim documents specific survival probability modeling (50% to 90%). Second claim captures FDV impact of treasury de-risking (5-20% increase). Both claims are experimental confidence because they're based on single DAO case with self-reported modeling assumptions. Enriched two existing claims with operational treasury governance evidence."
 ---
 
 ## Proposal Details
@@ -122,3 +128,12 @@ This strategy ensures financial stability while signaling prudence to investors,
 - Autocrat version: 0.3
 - Completed: 2024-12-05
 - Ended: 2024-12-05
+
+
+## Key Facts
+- Dean's List DAO proposal 5 passed on 2024-12-05
+- Proposal account: 4gaJ8bi1gpNEx6xSSsepjVBM6GXqTDfLbiUbzXbARHW1
+- DAO account: 9TKh2yav4WpSNkFV2cLybrWZETBWZBkQ6WB6qV9Nt9dJ
+- Autocrat version: 0.3
+- Treasury value: $75,000-$87,000 at $350 SOL (excluding DEAN tokens)
+- Proposal categories: DAO, Treasury

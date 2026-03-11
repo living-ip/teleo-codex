@@ -37,6 +37,12 @@ The contrast with Ranger is instructive. Ranger's liquidation shows futarchy han
 - The subcommittee model introduces trusted roles that could recentralize power over time, undermining the trustless property that makes futarchy valuable
 - Since [[Ooki DAO proved that DAOs without legal wrappers face general partnership liability making entity structure a prerequisite for any futarchy-governed vehicle]], some of this scaffolding is legally required rather than a failure of market mechanisms
 
+
+### Additional Evidence (extend)
+*Source: [[2024-12-02-futardio-proposal-approve-deans-list-treasury-management]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) Dean's List DAO used futarchy to govern a specific treasury de-risking decision (converting $75,000-$87,000 from SOL/SPL tokens to stablecoins), suggesting futarchy can handle operational treasury decisions directly rather than only meta-governance. However, the proposal relied on traditional financial modeling (survival probability estimates, FDV projections) as inputs to the market mechanism, and the decision itself (asset class conversion) is a standard treasury operation. This supports the claim that futarchy-governed treasury operations still depend on traditional financial frameworks—the market mechanism prices the outcome of conventional treasury analysis rather than replacing it.
+
 ---
 
 Relevant Notes:

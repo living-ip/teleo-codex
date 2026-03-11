@@ -53,6 +53,12 @@ Autocrat is MetaDAO's core governance program on Solana -- the on-chain implemen
 
 **Limitations.** [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- when proposals are clearly good or clearly bad, few traders participate because the expected profit from trading in a consensus market is near zero. This is a structural feature, not a bug: contested decisions get more participation precisely because they're uncertain, which is when you most need information aggregation. But it does mean uncontested proposals can pass or fail with very thin markets, making the TWAP potentially noisy.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-12-02-futardio-proposal-approve-deans-list-treasury-management]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) Dean's List DAO (IslandDAO) used Autocrat v0.3 (proposal 5, account 4gaJ8bi1gpNEx6xSSsepjVBM6GXqTDfLbiUbzXbARHW1) for a material treasury operations decision on 2024-12-02: converting $75,000-$87,000 from volatile SOL/SPL tokens to stablecoins. The proposal required TWAP >3% FDV increase and passed on 2024-12-05 with market-estimated 5-20% FDV impact ($525,000-$600,000 range from $500,000 baseline). This demonstrates Autocrat being used for operational treasury decisions beyond governance meta-decisions, with conditional markets pricing the impact of risk reduction on DAO valuation.
+
 ---
 
 Relevant Notes:
