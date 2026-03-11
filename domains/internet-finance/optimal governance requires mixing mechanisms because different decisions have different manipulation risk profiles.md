@@ -15,22 +15,25 @@ The mixed-mechanism approach deploys three complementary tools. Meritocratic vot
 
 The interaction between mechanisms creates its own value. Each mechanism generates different data: voting reveals community preferences, prediction markets surface distributed knowledge, futarchy stress-tests decisions through market forces. Organizations can compare outcomes across mechanisms and continuously refine which tool to deploy when. This creates a positive feedback loop of governance learning. Since [[recursive improvement is the engine of human progress because we get better at getting better]], mixed-mechanism governance enables recursive improvement of decision-making itself.
 
+## Regulatory Classification as Binding Constraint on Mechanism Choice
 
-### Additional Evidence (extend)
-*Source: [[2026-02-00-prediction-market-jurisdiction-multi-state]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+Regulatory classification may end up being the binding constraint on mechanism choice, not just manipulation risk. The Kalshi litigation circuit split shows that even if futarchy is technically superior for certain decisions, state gaming law enforcement could make it operationally infeasible in hostile jurisdictions.
 
-Regulatory classification may end up being the binding constraint on mechanism choice, not manipulation risk. The Kalshi litigation circuit split shows that even if futarchy is technically superior for certain decisions, state gaming law enforcement could make it operationally infeasible in hostile jurisdictions. A pro-state SCOTUS ruling would force futarchy implementations to navigate 50-state patchwork compliance, potentially restricting mechanism choice to whatever is legally permissible rather than what is governmentally optimal. The Tennessee court's expansive CEA interpretation would encompass futarchy governance markets, but governance markets have not yet been litigated, leaving their status ambiguous even as sports prediction market precedents are established.
+A pro-state Supreme Court ruling would force futarchy implementations to navigate 50-state patchwork compliance, potentially restricting mechanism choice to whatever is legally permissible rather than what is governmentally optimal. The Tennessee court's expansive CEA interpretation would encompass futarchy governance markets under the same "event contract" framework as sports prediction markets, but governance markets have not yet been litigated, leaving their status ambiguous even as sports prediction market precedents are established.
+
+This creates a latent constraint on mechanism choice: organizations may be forced to select governance mechanisms based on regulatory feasibility in their primary jurisdictions rather than on manipulation resistance or decision quality. The mixed-mechanism approach assumes freedom to deploy each tool when optimal; regulatory fragmentation could restrict that freedom.
 
 ---
 
-Relevant Notes:
-- [[futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders]] -- provides the high-stakes layer of the mixed approach
-- [[recursive improvement is the engine of human progress because we get better at getting better]] -- mixed mechanisms enable recursive improvement of governance
-- [[collective superintelligence is the alternative to monolithic AI controlled by a few]] -- the three-layer architecture requires governance mechanisms at each level
-- [[dual futarchic proposals between protocols create skin-in-the-game coordination mechanisms]] -- dual proposals extend the mixing principle to cross-protocol coordination through mutual economic exposure
-- [[the Vickrey auction makes honesty the dominant strategy by paying winners the second-highest bid rather than their own]] -- the Vickrey auction demonstrates that mechanism design can eliminate strategic computation entirely, illustrating why different mechanisms have different manipulation profiles
-- [[mechanism design changes the game itself to produce better equilibria rather than expecting players to find optimal strategies]] -- the theoretical foundation: optimal governance mixes mechanisms because each mechanism reshapes the game differently for different decision types
-- [[governance mechanism diversity compounds organizational learning because disagreement between mechanisms reveals information no single mechanism can produce]] -- extends this note's risk-management framing: beyond matching mechanism to context, mechanism diversity compounds meta-learning about decision-making itself
+## Related Claims
 
-Topics:
-- [[internet finance and decision markets]]
+- [[futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders]] — provides the high-stakes layer of the mixed approach
+- [[recursive improvement is the engine of human progress because we get better at getting better]] — mixed mechanisms enable recursive improvement of governance
+- [[collective superintelligence is the alternative to monolithic AI controlled by a few]] — the three-layer architecture requires governance mechanisms at each level
+- [[dual futarchic proposals between protocols create skin-in-the-game coordination mechanisms]] — dual proposals extend the mixing principle to cross-protocol coordination through mutual economic exposure
+- [[the Vickrey auction makes honesty the dominant strategy by paying winners the second-highest bid rather than their own]] — the Vickrey auction demonstrates that mechanism design can eliminate strategic computation entirely, illustrating why different mechanisms have different manipulation profiles
+- [[mechanism design changes the game itself to produce better equilibria rather than expecting players to find optimal strategies]] — the theoretical foundation: optimal governance mixes mechanisms because each mechanism reshapes the game differently for different decision types
+- [[governance mechanism diversity compounds organizational learning because disagreement between mechanisms reveals information no single mechanism can produce]] — extends this note's risk-management framing: beyond matching mechanism to context, mechanism diversity compounds meta-learning about decision-making itself
+- [[prediction-market-circuit-split-signals-supreme-court-resolution-of-federal-preemption-question]] — tracks the regulatory risk that could constrain mechanism choice
+- [[sports-prediction-market-litigation-does-not-address-governance-futarchy-regulatory-status]] — identifies the regulatory ambiguity affecting governance mechanism deployment
+
