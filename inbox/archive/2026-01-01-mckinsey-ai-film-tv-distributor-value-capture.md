@@ -7,9 +7,14 @@ date: 2026-01-01
 domain: entertainment
 secondary_domains: [ai-alignment]
 format: report
-status: unprocessed
+status: null-result
 priority: high
 tags: [ai-entertainment, value-capture, distribution, mckinsey, producers-vs-distributors]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership.md", "when profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits.md", "non-ATL production costs will converge with the cost of compute as AI replaces labor across the production chain.md", "media disruption follows two sequential phases as distribution moats fall first and creation moats fall second.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted one claim about distributor structural advantage in AI value capture. This is the key challenge to the community-owned attractor state model—McKinsey provides strong evidence that concentration dynamics favor incumbents even during production disruption. However, as curator notes indicate, McKinsey's blind spot is that it models optimization within existing producer-distributor structure, not structural dissolution through community IP. The claim is framed to acknowledge this limitation explicitly in the Challenges section. Four enrichments applied: one challenge to attractor state (distributor capture threatens community model), three confirms/extends to value chain conservation, production cost convergence, and media disruption phases."
 ---
 
 ## Content
@@ -46,3 +51,11 @@ McKinsey report on AI's impact on film and TV production (January 2026, 20+ indu
 PRIMARY CONNECTION: when profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits
 WHY ARCHIVED: Key CHALLENGE to attractor state model — if distributor concentration captures AI value regardless, community-owned configuration is weaker than modeled. But the model's blind spot (no community IP analysis) is itself informative.
 EXTRACTION HINT: The extractable claim is about the structural dynamics (84% concentration, fragmented producers), NOT the prediction (distributors will capture value). The prediction depends on structural assumptions that community IP challenges.
+
+
+## Key Facts
+- Seven distributors account for ~84% of US content spend (McKinsey 2026)
+- ~$60 billion revenue redistribution projected within 5 years of mass AI adoption
+- ~$10 billion of forecast US original content spend addressable by AI in 2030
+- 35% content spend contraction documented in previous digital transition
+- McKinsey analysis based on 20+ industry leader interviews (January 2026)
