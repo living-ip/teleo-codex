@@ -1,36 +1,23 @@
 ---
 type: claim
-claim_type: factual
-confidence: medium
-domains:
-  - internet-finance
-  - governance
-tags:
-  - futarchy
-  - distribution
-  - dao
+domain: internet-finance
+description: A rejected MetaDAO proposal suggested that a futarchy-governed memecoin launchpad could distribute adoption by allocating 10% of each launched token's supply to DAOs implementing futarchy governance.
+confidence: speculative
+source: inbox/archive/2024-08-14-futardio-proposal-develop-memecoin-launchpad.md
+created: 2024-08-14
 ---
 
-# Proposed futarchy-governed memecoin launchpad would create distribution channel for futarchy adoption through token allocation to DAOs
+A rejected MetaDAO proposal for "Futardio," a futarchy-governed memecoin launchpad, included a mechanism to allocate "10% of tokens allocated to DAOs that implement futarchy governance" from each launched memecoin. This distribution mechanism was proposed as a way to create adoption incentives for futarchy governance systems.
 
-A proposal for a [[futarchy]]-governed memecoin launchpad included a mechanism to distribute tokens to DAOs that adopt [[futarchy]] governance, creating a potential distribution channel for futarchy adoption.
+The proposal's rejection by MetaDAO's futarchy markets suggests the conditional market predicted negative expected value for this approach, though this could reflect execution risk, timing concerns, or other factors beyond the distribution mechanism itself.
 
 ## Evidence
 
-The Futardio proposal specified: "10% of tokens allocated to DAOs that implement futarchy governance, creating a distribution channel for futarchy adoption."
+- The Futardio proposal specified token allocation to futarchy-implementing DAOs as part of its launch mechanism design
+- MetaDAO's conditional futarchy market rejected the proposal, indicating predicted negative outcomes
+- The proposal was never implemented, so the distribution channel mechanism remains untested
 
-Source: [[2024-08-14-futardio-proposal-develop-memecoin-launchpad]]
+## Counter-evidence
 
-## Extensions
-
-### [[metadao-is-the-futarchy-launchpad]]
-
-The proposal's failure via [[futarchy]] vote suggests the market determined the expected value of this distribution strategy was negative, rather than validating it as an effective approach to futarchy adoption.
-
-### [[futarchy-as-hyperstructure-requires-credible-neutrality]]
-
-The proposal's token distribution mechanism demonstrates how [[hyperstructure]] protocols can use token incentives to bootstrap network effects while maintaining credible neutrality through governance.
-
-### [[mixed-mechanism-governance-allows-futarchy-to-govern-its-own-adoption]]
-
-The proposal itself was evaluated using [[futarchy]], demonstrating recursive application of the governance mechanism to decisions about its own expansion.
+- Market rejection doesn't necessarily validate concerns about the distribution mechanism specifically—futarchy markets can reject proposals for reasons including insufficient liquidity, execution risk, timing, or other factors unrelated to the core thesis
+- No empirical data exists on whether such token allocations would actually drive futarchy adoption
