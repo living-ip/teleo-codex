@@ -7,9 +7,15 @@ date: 2025-12-00
 domain: internet-finance
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: high
 tags: [metadao, futarchy, ownership-coins, revenue, ICO, quarterly-report]
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["metadao-achieved-profitability-in-q4-2025-with-2-51m-protocol-fees-from-futarchy-amm-and-meteora-lp-revenue.md", "metadao-governance-proposal-volume-increased-17-5x-from-205k-to-3-6m-in-q4-2025-as-ecosystem-expanded-from-2-to-8-protocols.md", "metadao-ico-activity-accelerated-to-6-launches-raising-18-7m-in-q4-2025-while-competitor-metaplex-genesis-declined-to-3-launches-raising-5-4m.md", "metadao-non-meta-futarchy-ecosystem-grew-to-69m-marketcap-with-40-7m-organic-appreciation-beyond-ico-capital-indicating-post-launch-value-retention.md"]
+enrichments_applied: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md", "ownership coins primary value proposition is investor protection not governance quality because anti-rug enforcement through market-governed liquidation creates credible exit guarantees that no amount of decision optimization can match.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Four new claims extracted focusing on (1) profitability/revenue model validation, (2) governance engagement scaling, (3) counter-cyclical growth as PMF evidence, (4) post-launch value retention. Primary enrichment target was the limited-engagement claim, which Q4 data directly challenges with 17.5x proposal volume increase. Counter-cyclical growth pattern is strong evidence for ownership coin thesis. Revenue model diversity (AMM + LP fees) validates futarchy platform economics."
 ---
 
 ## Content
@@ -63,3 +69,20 @@ Pine Analytics Q4 2025 quarterly report for MetaDAO. Key metrics:
 PRIMARY CONNECTION: [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]]
 WHY ARCHIVED: Q4 2025 data shows 17.5x proposal volume increase, contradicting the "limited engagement" claim. Counter-cyclical growth pattern is strong evidence for ownership coin thesis.
 EXTRACTION HINT: Focus on (1) proposal volume scaling as evidence against limited engagement, (2) counter-cyclical growth as product-market fit evidence, (3) revenue model validation (first profitable quarter).
+
+
+## Key Facts
+- MetaDAO Q4 2025 protocol fees: $2.51M (54% futarchy AMM, 46% Meteora LP)
+- Operating expenses: ~$783K/quarter burn rate
+- Cost of revenue: ~12% of revenue stream
+- Balance sheet equity: $16.5M (up from $4M Q3)
+- Token sale: $10M raised from OTC sale of 2M META tokens
+- Runway: 15+ quarters at current burn
+- Q4 ICO launches: 6 projects, $18.7M raised
+- Governance proposal volume: $3.6M (up from $205K Q3)
+- Protocol count: 8 active futarchy implementations (up from 2)
+- Total futarchy marketcap: $219M
+- Non-META futarchy marketcap: $69M
+- Net non-META appreciation: $40.7M
+- Crypto marketcap Q4 decline: 25% ($4T → $2.98T)
+- Metaplex Genesis Q4: 3 launches, $5.4M (down from 5/$7.53M Q3)

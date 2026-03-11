@@ -42,6 +42,12 @@ Proph3t's other framing reinforces this: he distinguishes "market oversight" fro
 
 Futardio cult's $11.4M raise against $50,000 target with stated use of funds for 'fan merch, token listings, private events/partys' (consumption rather than productive investment) tests whether futarchy's anti-rug mechanisms provide credible investor protection even when projects explicitly commit to non-productive spending. The 22,706% oversubscription suggests market confidence in futarchy-governed liquidation rights extends beyond traditional venture scenarios to purely speculative assets where fundamental value analysis is minimal, indicating investor protection mechanisms are the primary value driver regardless of governance quality or asset type.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-12-00-pine-analytics-metadao-q4-2025-report]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(confirm) MetaDAO's non-META futarchy ecosystem reached $69M marketcap with $40.7M in organic price appreciation beyond ICO capital raised, suggesting that tokens launched through futarchy-governed ICOs retain value post-launch rather than experiencing typical token launch platform collapse. The platform's counter-cyclical growth (6 launches/$18.7M in Q4 2025 during 25% market decline, while competitor declined) indicates that investor protection mechanisms attract capital independent of speculative market conditions. This supports the thesis that credible exit guarantees and anti-rug enforcement drive adoption more than governance optimization.
+
 ---
 
 Relevant Notes:

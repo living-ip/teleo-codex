@@ -23,6 +23,12 @@ This evidence has direct implications for governance design. It suggests that [[
 
 Optimism's futarchy experiment achieved 5,898 total trades from 430 active forecasters (average 13.6 transactions per person) over 21 days, with 88.6% being first-time Optimism governance participants. This suggests futarchy CAN attract substantial engagement when implemented at scale with proper incentives, contradicting the limited-volume pattern observed in MetaDAO. Key differences: Optimism used play money (lower barrier to entry), had institutional backing (Uniswap Foundation co-sponsor), and involved grant selection (clearer stakes) rather than protocol governance decisions. The participation breadth (10 countries, 4 continents, 36 new users/day) suggests the limited-volume finding may be specific to MetaDAO's implementation or use case rather than a structural futarchy limitation.
 
+
+### Additional Evidence (challenge)
+*Source: [[2025-12-00-pine-analytics-metadao-q4-2025-report]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(challenge) Q4 2025 data shows governance proposal volume increased 17.5x from $205K in Q3 to $3.6M in Q4 as the ecosystem expanded from 2 to 8 active futarchy protocols. This superlinear scaling (4x protocol growth → 17.5x volume growth) occurred during a 25% crypto market contraction, suggesting that futarchy engagement scales with ecosystem density rather than being inherently limited. The $3.6M in proposal volume represents meaningful capital at risk in governance decisions. However, this aggregate data does not reveal whether individual uncontested decisions still show low trading volume—most volume may concentrate in a few contested proposals. Requires decision-level data to fully resolve.
+
 ---
 
 Relevant Notes:
