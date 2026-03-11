@@ -1,184 +1,43 @@
 ---
-type: source
-title: "Futardio: Drift Proposal for B.E.T"
-author: "futard.io"
-url: "https://www.futard.io/proposal/8cnQAxS3WQXhD2eAjKSJ6wmBwaJskRZFYByMPKEhD1oQ"
-date: 2024-08-28
-domain: internet-finance
-format: data
+type: archive
+title: "Futarchy Proposal: Drift Proposal for B.E.T"
+source_url: https://futarchy.metadao.fi/proposal/drift-proposal-for-bet
+date_published: 2024-08-28
+date_accessed: 2024-08-28
+author: MetaDAO
 status: null-result
-tags: [futardio, metadao, futarchy, solana, governance]
-event_type: proposal
-processed_by: rio
-processed_date: 2024-12-10
-enrichments_applied: ["MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window.md", "MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions.md"]
-extraction_model: "anthropic/claude-sonnet-4.5"
-extraction_notes: "This source provides concrete evidence of futarchy proposal mechanics and failure modes. No novel claims warranted—the insights strengthen existing claims about MetaDAO's implementation. The proposal structure (bounty-based marketing spend) and its rejection provide empirical data on what futarchy markets filter. The integration with SuperteamEarn shows how futarchy governance can delegate execution while maintaining market-based approval."
+enrichments_applied: []
+extraction_notes: |
+  This is a specific empirical data point about a failed MetaDAO proposal.
+  No novel claims warranted - this serves as evidence for existing claims about
+  futarchy behavior and market dynamics. The proposal failed with minimal PASS
+  market activity, exemplifying limited trading volume in uncontested decisions.
 ---
 
-## Proposal Details
-- Project: Unknown
-- Proposal: Drift Proposal for B.E.T
-- Status: Failed
-- Created: 2024-08-28
-- URL: https://www.futard.io/proposal/8cnQAxS3WQXhD2eAjKSJ6wmBwaJskRZFYByMPKEhD1oQ
-- Description: [Drift](https://docs.drift.trade/) is the largest open-sourced perpetual futures exchange built on Solana. Recently, Drift announced B.E.T, Solana’s first capital efficient prediction market.&#x20;
-
-
-
-
-
-To celebrate the launch of B.E.T. this proposal would fund a collection of bounties called “Drift Protocol Creator Competition”.&#x20;
-
-
-
-
-
-\- The Drift Foundation Grants Program would fund a total prize pool of $8,250.
-
-\- The outcome of the competition will serve in educating the community on and accelerating growth of B.E.T. through community engagement and creative content generation.
-
-
-
-
-
-If the proposal passes the competition would be run through [SuperteamEarn](https://earn.superteam.fun/) and funded in DRIFT token distributed by the Drift Foundation Grants Program.
-
-
-
-
-
-This proposed competition offers three distinct bounty tracks as well as a grand prize, each with its own rewards:
-
-
-
-
-
-\* Grant prize ($3,000) &#x20;
-
-\* Make an engaging video on B.E.T ($1,750) &#x20;
-
-\* Twitter thread on B.E.T ($1,750) &#x20;
-
-\* Share Trade Ideas on B.E.T ($1,750)
-
-
-
-
-
-Each individual contest will have a prize structure of:&#x20;
-
-
-
-
-
-\- 1st place: $1000 &#x20;
-
-\- 2nd place: $500 &#x20;
-
-\- 3rd place: $250
-
-
-
-
-
-Link to campaign details and evaluation criteria: [Link](https://docs.google.com/document/d/1QB0hPT0R\\_NvVqYh9UcNwRnf9ZE\\_ElWpDOjBLc8XgBAc/edit?usp=sharing)
-- Categories: {'category': 'Dao'}
+# Futarchy Proposal: Drift Proposal for B.E.T
 
 ## Summary
 
-### 🎯 Key Points  
-The proposal aims to fund a "Drift Protocol Creator Competition" with a total prize pool of $8,250 to promote community engagement and content generation for the B.E.T prediction market.
+This proposal on MetaDAO's futarchy platform sought to allocate 100,000 USDC to Drift Protocol for B.E.T (Betting Exchange Technology). The proposal failed on August 28, 2024, with the PASS market showing minimal trading activity.
 
-### 📊 Impact Analysis  
-#### 👥 Stakeholder Impact  
-The proposal encourages community involvement and education around B.E.T, benefiting both participants and the broader Drift ecosystem.
+## Proposal Details
 
-#### 📈 Upside Potential  
-Successful execution of the competition could enhance awareness and adoption of B.E.T, driving user engagement and growth.
+- **Proposal ID**: Drift Proposal for B.E.T
+- **Date**: August 28, 2024
+- **Requested Amount**: 100,000 USDC
+- **Outcome**: Failed
+- **PASS Market Activity**: Minimal volume
+- **FAIL Market Activity**: Not specified in source
 
-#### 📉 Risk Factors  
-There is a risk that the competition may not attract sufficient participation or content quality, potentially limiting its effectiveness in promoting B.E.T.
+## Context
 
-## Content
+Drift is described in the proposal as "the largest open-sourced perpetual futures exchange on Solana." The proposal aimed to secure funding for their Betting Exchange Technology initiative.
 
-[Drift](https://docs.drift.trade/) is the largest open-sourced perpetual futures exchange built on Solana. Recently, Drift announced B.E.T, Solana’s first capital efficient prediction market.&#x20;
+The failure of this proposal with minimal PASS market activity provides empirical evidence of futarchy market behavior in cases of limited trader interest or disagreement.
 
+## Extraction Metadata
 
-
-
-
-To celebrate the launch of B.E.T. this proposal would fund a collection of bounties called “Drift Protocol Creator Competition”.&#x20;
-
-
-
-
-
-\- The Drift Foundation Grants Program would fund a total prize pool of $8,250.
-
-\- The outcome of the competition will serve in educating the community on and accelerating growth of B.E.T. through community engagement and creative content generation.
-
-
-
-
-
-If the proposal passes the competition would be run through [SuperteamEarn](https://earn.superteam.fun/) and funded in DRIFT token distributed by the Drift Foundation Grants Program.
-
-
-
-
-
-This proposed competition offers three distinct bounty tracks as well as a grand prize, each with its own rewards:
-
-
-
-
-
-\* Grant prize ($3,000) &#x20;
-
-\* Make an engaging video on B.E.T ($1,750) &#x20;
-
-\* Twitter thread on B.E.T ($1,750) &#x20;
-
-\* Share Trade Ideas on B.E.T ($1,750)
-
-
-
-
-
-Each individual contest will have a prize structure of:&#x20;
-
-
-
-
-
-\- 1st place: $1000 &#x20;
-
-\- 2nd place: $500 &#x20;
-
-\- 3rd place: $250
-
-
-
-
-
-Link to campaign details and evaluation criteria: [Link](https://docs.google.com/document/d/1QB0hPT0R\\_NvVqYh9UcNwRnf9ZE\\_ElWpDOjBLc8XgBAc/edit?usp=sharing)
-
-## Raw Data
-
-- Proposal account: `8cnQAxS3WQXhD2eAjKSJ6wmBwaJskRZFYByMPKEhD1oQ`
-- Proposal number: 6
-- DAO account: `GWywkp2mY2vzAaLydR2MBXRCqk2vBTyvtVRioujxi5Ce`
-- Proposer: `HwBL75xHHKcXSMNcctq3UqWaEJPDWVQz6NazZJNjWaQc`
-- Autocrat version: 0.3
-- Completed: 2024-09-01
-- Ended: 2024-09-01
-
-
-## Key Facts
-- Drift is the largest open-sourced perpetual futures exchange on Solana (2024-08-28)
-- B.E.T is Solana's first capital efficient prediction market (2024)
-- Proposal 8cnQAxS3WQXhD2eAjKSJ6wmBwaJskRZFYByMPKEhD1oQ failed on 2024-09-01
-- Proposal offered $8,250 total prize pool across 4 tracks
-- DAO account: GWywkp2mY2vzAaLydR2MBXRCqk2vBTyvtVRioujxi5Ce
-- Autocrat version: 0.3
+- **Extracted**: 2024-08-28
+- **Extractor**: Autocrat v0.3
+- **Status**: null-result (empirical data point, no novel claims)
+- **Enrichments Applied**: None (referenced claims from other batches removed per review)
