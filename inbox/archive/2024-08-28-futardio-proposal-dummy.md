@@ -6,7 +6,12 @@ url: "https://www.futard.io/proposal/eNPP3Tm4AAyDwq9N4BwJwBzFD14KXDSVY6bhMRaBuFt
 date: 2024-08-28
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: 0
+enrichments: none
+null_result_reason: "Dummy test proposal on Test DAO with description 'Nothing' — no substantive content to extract"
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 ---
