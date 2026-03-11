@@ -5,7 +5,7 @@ secondary_domains: [mechanisms]
 description: "Practical voting methods like Borda Count and Ranked Pairs avoid Arrow's impossibility by sacrificing IIA rather than claiming to overcome the theorem"
 confidence: likely
 source: "Conitzer et al. 2024, synthesizing 70+ years of post-Arrow social choice theory"
-created: 2024-12-19
+created: 2026-03-11
 depends_on: []
 challenged_by: []
 ---

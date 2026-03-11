@@ -5,7 +5,7 @@ secondary_domains: [mechanisms]
 description: "RLCHF variants aggregate evaluator rankings via social choice functions or model individual preferences with evaluator features before reward model training"
 confidence: experimental
 source: "Conitzer et al. 2024 proposing RLCHF as formalization of collective feedback aggregation"
-created: 2024-12-19
+created: 2026-03-11
 depends_on: ["rlhf-is-implicit-social-choice-without-normative-scrutiny.md"]
 challenged_by: []
 ---
@@ -36,12 +36,13 @@ Key advantages:
 - **Representativeness**: Formal sampling methods replace convenience samples
 - **Context-sensitivity**: Features-based variant can adapt to different user populations
 
-This formalizes what Audrey Tang's RLCF (Reinforcement Learning from Collective Feedback) implements in practice, though Conitzer et al. do not cite Tang's work directly.
+This formalizes what Audrey Tang's RLCF (Reinforcement Learning from Collective Feedback) implements in practice, though Conitzer et al. do not cite Tang's work directly. The Conitzer formalization adds explicit social choice theory grounding that Tang's work implies but does not formalize.
 
 Open questions:
 - How to select the appropriate social welfare function for a given deployment context
 - Whether features-based models can capture value differences that don't correlate with measurable features
 - Computational cost of training multiple preference models vs. single reward model
+- Whether RLCHF variants preserve the independence-of-clones property that makes them preferable to simple averaging
 
 ---
 
