@@ -7,9 +7,14 @@ date: 2026-03-01
 domain: entertainment
 secondary_domains: [cultural-dynamics]
 format: report
-status: unprocessed
+status: null-result
 priority: medium
 tags: [UGC, user-generated-content, trust-metrics, engagement-data, community-content]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["community ownership accelerates growth through aligned evangelism not passive holding.md", "community-owned-IP-has-structural-advantage-in-human-made-premium-because-provenance-is-inherent-and-legible.md", "information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming.md", "entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims quantifying community content engagement premium (6.9x-10x) and peer trust advantage (92%). Four enrichments to existing entertainment/community ownership claims. Source is marketing-focused UGC data, not entertainment IP specific — claims scoped accordingly. Archive.com has platform bias toward UGC value. The magnitude of engagement differential (order of magnitude, not marginal) is the key insight. Trust mechanism (community provenance as authenticity signal) connects to existing claims about community-owned IP advantages."
 ---
 
 ## Content
@@ -54,3 +59,22 @@ Compilation of statistics comparing user-generated content (UGC) performance aga
 PRIMARY CONNECTION: [[community ownership accelerates growth through aligned evangelism not passive holding]]
 WHY ARCHIVED: Quantifies the engagement premium for community/user content vs corporate content — the trust mechanism underlying community-owned IP advantage
 EXTRACTION HINT: Focus on the MAGNITUDE of engagement difference (6.9x, 10x) and the TRUST mechanism (92% trust peers over brands). Scope carefully — these are marketing metrics, not entertainment IP metrics directly.
+
+
+## Key Facts
+- UGC posts generate 6.9x more engagement than brand-generated content (average across platforms)
+- YouTube UGC videos receive 10x more views than brand content
+- Instagram UGC earns 70% more engagement than brand content
+- TikTok UGC is 22% more effective than brand-created content
+- UGC-based ads achieve 4x higher click-through rates
+- 92% of consumers trust peer recommendations over brand messages
+- Shoppers 2.5x more likely to view UGC as authentic vs brand content
+- 60% of consumers identify UGC as the most authentic marketing content
+- 84% of consumers trust brands MORE when they feature UGC
+- 85% of consumers find UGC more influential than brand photos/videos
+- 79% say UGC influences purchasing decisions
+- 40% of shoppers won't purchase without UGC on product pages
+- Product pages with UGC convert 74% higher
+- UGC increases revenue per visitor by 154%
+- UGC platform implementations deliver 400% ROI
+- Social campaigns with UGC achieve 50% higher engagement rates
