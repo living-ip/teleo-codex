@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/H6xSaDsnq9yUKpoLi3svozYGkRKbfKm4peX98CzDtmqp"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["areal-finance-unifies-rwa-liquidity-through-single-appreciating-token.md", "rwa-yield-pass-through-dex-combines-swap-fees-embedded-yield-and-protocol-incentives.md", "ai-agent-portfolio-management-requires-protocol-architecture-designed-for-autonomous-operation.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 3 claims from Areal Finance pitch deck: unified RWA liquidity thesis, yield pass-through DEX architecture, and AI agent-first protocol design. All claims rated experimental or speculative due to single pilot, unverified market positioning, and failed fundraise. Applied 3 enrichments confirming futarchy adoption friction and platform reputational risk. Source is primarily marketing/pitch material, not technical documentation or independent analysis."
 ---
 
 ## Launch Details
@@ -149,3 +155,12 @@ This capitalization is sufficient to reach the next milestone. After delivering 
 - Token mint: `6JARfNXrJ6oCUtX9e8CJFMU5iAj4twXuRJ5pYqmDmeta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- Areal Finance completed vehicle tokenization pilot in Dubai (full cycle)
+- Areal Finance pre-seed raise: $50,000 hard cap, 80% to DAO treasury, 20% to DEX liquidity
+- futard.io launch 2026-03-05: $1,350 committed of $50,000 target (2.7%)
+- Launch status: Refunding (closed 2026-03-06)
+- Token: 6JA, mint address 6JARfNXrJ6oCUtX9e8CJFMU5iAj4twXuRJ5pYqmDmeta
+- Runway: 6-8 months at current burn rate with $50k raise
