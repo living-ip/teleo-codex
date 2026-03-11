@@ -7,9 +7,15 @@ date: 2026-02-01
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [cms, medicare-advantage, 2027-rates, chart-review-exclusion, star-ratings, V28, risk-adjustment]
+processed_by: vida
+processed_date: 2026-03-11
+claims_extracted: ["cms-2027-advance-notice-creates-structural-inflection-for-ma-through-chart-review-exclusion-v28-completion-and-flat-rates.md", "cms-exploring-ai-powered-risk-adjustment-to-detect-upcoding-patterns-across-population-scale-data.md"]
+enrichments_applied: ["CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md", "Devoted is the fastest-growing MA plan at 121 percent growth because purpose-built technology outperforms acquisition-based vertical integration during CMS tightening.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) 2027 as structural inflection year through convergence of three reforms, rated 'likely' because it's based on official CMS policy with clear economic mechanisms and industry response; (2) AI-powered risk adjustment exploration, rated 'speculative' because CMS has only signaled exploration without technical details or timeline. Enriched two existing claims with implementation details and confirmation of structural dynamics. The BBA 1997 parallel is the key analytical frame—will 2027 trigger exits or differentiation?"
 ---
 
 ## Content
@@ -55,3 +61,10 @@ tags: [cms, medicare-advantage, 2027-rates, chart-review-exclusion, star-ratings
 PRIMARY CONNECTION: [[CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring]]
 WHY ARCHIVED: Updates and deepens the existing KB claim with the full 2027 reform package context.
 EXTRACTION HINT: The parallel to BBA 1997 is the key analytical frame — will 2027 trigger plan exits or differentiation?
+
+
+## Key Facts
+- V28 phase-in completes in 2026, with 2027 recalibration using 2023 diagnoses and 2024 expenditures
+- CKD Stage 3B and 3 now have separate coefficients in V28 (previously constrained to same value)
+- New depression screening and follow-up measure begins 2027 measurement year, affects 2029 ratings
+- CMS exploring timeline compression to reduce current 2-year lag between measurement and payment

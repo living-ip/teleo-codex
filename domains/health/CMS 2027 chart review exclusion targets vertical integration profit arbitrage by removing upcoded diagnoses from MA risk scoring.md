@@ -34,6 +34,12 @@ The broader 2027 rate environment compounds the pressure into a three-pronged sq
 
 This is a proxy inertia story. Since [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]], the incumbents who built their MA economics around coding optimization will struggle to shift toward genuine quality competition. The plans that never relied on coding arbitrage (Devoted, Alignment, Kaiser) are better positioned.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-01-cms-2027-advance-notice-ma-rates]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The 2027 Advance Notice provides full implementation details and broader reform context: CMS proposes excluding ALL diagnoses from unlinked chart review records (not tied to documented service), with diagnoses from chart reviews allowed only if tied to actual medical encounter. Projected savings exceed $7 billion in 2027. This is explicitly described as 'the most targeted reform to date against retrospective code-mining.' Critically, the chart review exclusion does not operate in isolation. It coincides with V28 completion (2026 is final phase-in year, 2027 recalibration uses 2023 diagnoses and 2024 expenditures) and flat baseline rates providing no growth cushion. This three-way convergence creates the first sustained compression of MA economics since BBA 1997, with industry warning of benefit cuts and market exits. Purpose-built MA plans with lower coding intensity are explicitly positioned as better-positioned to survive than acquisition-based vertical integration models.
+
 ---
 
 Relevant Notes:

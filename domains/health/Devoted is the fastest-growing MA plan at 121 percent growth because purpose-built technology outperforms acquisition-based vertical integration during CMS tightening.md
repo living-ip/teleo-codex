@@ -23,6 +23,12 @@ Devoted was built from scratch on the Orinoco platform — a unified AI-native o
 
 Since [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]], UnitedHealth's $9 billion annual technology spend directed at optimizing existing infrastructure (consolidating 18 EMRs, AI scribing within legacy workflows) rather than rebuilding around prevention is textbook proxy inertia. The margin from coding arbitrage rationally prevents pursuit of the purpose-built alternative.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-01-cms-2027-advance-notice-ma-rates]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The 2027 Advance Notice confirms the structural advantage thesis of purpose-built plans during regulatory tightening. Industry response to the combined chart review exclusion, V28 completion, and flat rates shows insurers warning of benefit cuts and market exits. The notice explicitly states that 'purpose-built MA plans (lower coding intensity, genuine care delivery) are better positioned than acquisition-based plans' to survive the compression. This validates the Devoted growth thesis: as CMS tightens coding enforcement and removes the arbitrage opportunities that acquisition-based vertical integration models depend on, purpose-built plans with genuine care delivery infrastructure and lower coding intensity should outperform. The 2027 reforms represent the regulatory environment intensifying exactly as the Devoted thesis predicts.
+
 ---
 
 Relevant Notes:
