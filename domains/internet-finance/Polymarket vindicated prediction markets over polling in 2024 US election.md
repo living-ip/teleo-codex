@@ -16,6 +16,12 @@ The demonstration mattered because it moved prediction markets from theoretical 
 
 This empirical proof connects to [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]]—even small, illiquid markets can provide value if the underlying mechanism is sound. Polymarket proved the mechanism works at scale; MetaDAO is proving it works even when small.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-00-prediction-market-jurisdiction-multi-state]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Polymarket's 2024 election success triggered a regulatory backlash that escalated to multi-state litigation and likely Supreme Court review. As of February 2026, five major court rulings have produced a circuit split on whether the Commodity Exchange Act preempts state gaming laws for prediction markets. Tennessee federal court ruled pro-Kalshi (sports contracts are swaps under CEA exclusive jurisdiction, conflict preemption applies). Nevada state, Massachusetts state, Maryland federal, and Nevada federal courts ruled pro-state (CFTC compliance doesn't preempt state gaming laws). Holland & Knight explicitly states SCOTUS review 'may be necessary.' 36 states filed amicus briefs opposing federal preemption. The vindication of prediction markets' accuracy created the political and commercial stakes that drove this regulatory confrontation.
+
 ---
 
 Relevant Notes:

@@ -7,9 +7,15 @@ date: 2026-02-00
 domain: internet-finance
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: high
 tags: [prediction-markets, regulation, kalshi, jurisdiction, supreme-court, cftc, state-gaming]
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["prediction-market-circuit-split-signals-supreme-court-resolution-of-federal-preemption-question.md", "sports-prediction-market-litigation-does-not-address-governance-futarchy-regulatory-status.md"]
+enrichments_applied: ["Polymarket vindicated prediction markets over polling in 2024 US election.md", "optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Two new claims extracted: (1) circuit split signals SCOTUS review likely, (2) sports litigation leaves governance futarchy status unaddressed. Three enrichments: extends Polymarket vindication with regulatory backlash context, extends optimal governance mixing with regulatory constraint angle, challenges futarchy regulatory separation with untested gaming law vulnerability. The curator's hint about the gap between sports and governance markets was the key insight—all current litigation is sports-focused, leaving futarchy in regulatory ambiguity even as precedents are set."
 ---
 
 ## Content
@@ -52,3 +58,13 @@ tags: [prediction-markets, regulation, kalshi, jurisdiction, supreme-court, cftc
 PRIMARY CONNECTION: [[Polymarket vindicated prediction markets over polling in 2024 US election]]
 WHY ARCHIVED: Circuit split virtually guarantees SCOTUS involvement. The outcome determines futarchy's regulatory viability. Multiple independent legal analyses converge on this assessment.
 EXTRACTION HINT: Focus on circuit split as signal for SCOTUS, and the gap between sports prediction market litigation and governance prediction market implications.
+
+
+## Key Facts
+- Tennessee federal court ruled pro-Kalshi on Feb 19, 2026
+- Nevada state court ruled pro-state (rejected federal court removal)
+- Massachusetts state court issued preliminary injunction (Jan 2026)
+- Maryland federal court ruled CEA preemption doesn't encompass state gambling laws
+- 36 states filed amicus briefs opposing federal preemption in Fourth Circuit
+- CFTC signals imminent rulemaking on prediction markets (Sidley Austin Feb 2026)
+- Multiple law firms (Holland & Knight, Epstein Becker Green, Sidley Austin, Stinson) published convergent analysis in Feb 2026

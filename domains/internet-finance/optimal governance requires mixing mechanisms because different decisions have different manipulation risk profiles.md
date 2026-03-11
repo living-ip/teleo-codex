@@ -15,6 +15,12 @@ The mixed-mechanism approach deploys three complementary tools. Meritocratic vot
 
 The interaction between mechanisms creates its own value. Each mechanism generates different data: voting reveals community preferences, prediction markets surface distributed knowledge, futarchy stress-tests decisions through market forces. Organizations can compare outcomes across mechanisms and continuously refine which tool to deploy when. This creates a positive feedback loop of governance learning. Since [[recursive improvement is the engine of human progress because we get better at getting better]], mixed-mechanism governance enables recursive improvement of decision-making itself.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-00-prediction-market-jurisdiction-multi-state]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Regulatory classification may end up being the binding constraint on mechanism choice, not manipulation risk. The Kalshi litigation circuit split shows that even if futarchy is technically superior for certain decisions, state gaming law enforcement could make it operationally infeasible in hostile jurisdictions. A pro-state SCOTUS ruling would force futarchy implementations to navigate 50-state patchwork compliance, potentially restricting mechanism choice to whatever is legally permissible rather than what is governmentally optimal. The Tennessee court's expansive CEA interpretation would encompass futarchy governance markets, but governance markets have not yet been litigated, leaving their status ambiguous even as sports prediction market precedents are established.
+
 ---
 
 Relevant Notes:
