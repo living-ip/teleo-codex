@@ -11,7 +11,9 @@
 # - Extraction is the current bottleneck and requires the most skill (reading sources,
 #   separating signal from noise, writing prose-as-title). Highest weight.
 # - Challenge is the quality mechanism — adversarial review catches errors that
-#   self-review cannot. Second highest.
+#   self-review cannot. Second highest. This also signals that the system values
+#   intellectual honesty over agreement: challenging bad claims is rewarded more
+#   than rubber-stamping good ones.
 # - Sourcing discovers new information but is lower effort per instance.
 # - Synthesis connects claims across domains — high value but rare.
 # - Review is essential but is partially automated via the eval pipeline.
