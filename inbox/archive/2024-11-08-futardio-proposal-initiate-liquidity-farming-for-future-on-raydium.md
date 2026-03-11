@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/HiNWH2uKxjrmqZjn9mr8vWu5ytp2Nsz6qLsHWa5XQ1V
 date: 2024-11-08
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-11-08
+enrichments_applied: ["futarchy-governed-DAOs-converge-on-traditional-corporate-governance-scaffolding-for-treasury-operations-because-market-mechanisms-alone-cannot-provide-operational-security-and-legal-compliance.md", "MetaDAO-is-the-futarchy-launchpad-on-Solana-where-projects-raise-capital-through-unruggable-ICOs-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted one new claim about Raydium's standard liquidity farming pattern (1% allocation, 7-90 day duration, CLMM architecture). Identified three enrichments: confirms futarchy DAOs use traditional DeFi infrastructure for operations, extends MetaDAO's role to post-launch governance, and confirms proposal complexity as adoption friction. Source demonstrates futarchy governing routine treasury operations, not just existential decisions."
 ---
 
 ## Proposal Details
@@ -92,3 +97,11 @@ Establishing a Raydium farm for \$FUTURE with 1% of the total supply as rewards 
 - Autocrat version: 0.3
 - Completed: 2024-11-11
 - Ended: 2024-11-11
+
+
+## Key Facts
+- FutureDAO proposal HiNWH2uKxjrmqZjn9mr8vWu5ytp2Nsz6qLsHWa5XQ1Vm passed on 2024-11-11
+- Raydium CLMM pool creation costs approximately 0.1 SOL
+- Raydium offers fee tiers of 0.01%, 0.05%, 0.25%, and 1%
+- FutureDAO is proposal #5 on DAO account ofvb3CPvEyRfD5az8PAqW6ATpPqVBeiB5zBnpPR5cgm
+- Proposal used Autocrat version 0.3
