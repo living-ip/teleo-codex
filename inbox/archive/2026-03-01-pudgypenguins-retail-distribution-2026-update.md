@@ -6,7 +6,7 @@ url: https://coinstats.app/ai/a/investment-analysis-pudgy-penguins
 date: 2026-03-01
 domain: entertainment
 secondary_domains: [internet-finance]
-format: analysis
+format: report
 status: null-result
 priority: high
 tags: [pudgy-penguins, retail-distribution, phygital, community-ip, ipo, web3-entertainment]
