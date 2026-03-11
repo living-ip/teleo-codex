@@ -38,6 +38,12 @@ Three credible voices arrived at this framing independently in February 2026: @c
 - Permissionless capital formation without investor protection is how scams scale — since [[futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent]], the protection mechanisms are still early and unproven at scale
 - The "solo founder" era may be temporary — as AI tools mature, team formation may re-emerge as the bottleneck shifts from building to distribution
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-01-01-futardio-launch-mycorealms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MycoRealms demonstrates permissionless capital formation for physical infrastructure: two-person team (blockchain developer + mushroom farmer) raising $125,000 USDC in 72 hours with no gatekeepers, no accreditation requirements, no geographic restrictions. Traditional agriculture financing would require bank loans (collateral requirements, credit history, multi-month approval), VC funding (network access, pitch process, equity dilution), or grants (application process, government approval, restricted use). Futardio enables direct public fundraising with automatic treasury deployment and market-governed spending — solving the fundraising bottleneck for a project that would struggle in traditional capital markets. Team has 5+ years operational experience but lacks traditional finance network access.
+
 ---
 
 Relevant Notes:

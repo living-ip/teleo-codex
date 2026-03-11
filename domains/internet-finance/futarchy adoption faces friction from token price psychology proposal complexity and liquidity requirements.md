@@ -22,6 +22,12 @@ The Hurupay raise on MetaDAO (Feb 2026) provides direct evidence of these compou
 
 Yet [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] suggests these barriers might be solvable through better tooling, token splits, and proposal templates rather than fundamental mechanism changes. The observation that [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]] implies futarchy could focus on high-stakes decisions where the benefits justify the complexity.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-01-futardio-launch-mycorealms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MycoRealms implementation reveals operational friction points: monthly $10,000 allowance creates baseline operations budget, but any expenditure beyond this requires futarchy proposal and market approval. First post-raise proposal will be $50,000 CAPEX withdrawal — a large binary decision that may face liquidity challenges in decision markets. Team must balance operational needs (construction timelines, vendor commitments, seasonal agricultural constraints) against market approval uncertainty. This creates tension between real-world operational requirements (fixed deadlines, vendor deposits, material procurement) and futarchy's market-based approval process, suggesting futarchy may face adoption friction in domains with hard operational deadlines.
+
 ---
 
 Relevant Notes:

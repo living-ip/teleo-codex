@@ -64,6 +64,12 @@ Raises include: Ranger ($6M minimum, uncapped), Solomon ($102.9M committed, $8M 
 
 **Three-tier dispute resolution:** Protocol decisions via futarchy (on-chain), technical disputes via review panel, legal disputes via JAMS arbitration (Cayman Islands). The layered approach means on-chain governance handles day-to-day decisions while legal mechanisms provide fallback. Since [[MetaDAOs three-layer legal hierarchy separates formation agreements from contractual relationships from regulatory armor with each layer using different enforcement mechanisms]], the governance and legal structures are designed to work together.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-01-futardio-launch-mycorealms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MycoRealms launch on Futardio demonstrates MetaDAO platform capabilities in production: $125,000 USDC raise with 72-hour permissionless window, automatic treasury deployment if target reached, full refunds if target missed. Launch structure includes 10M ICO tokens (62.9% of supply), 2.9M tokens for liquidity provision (2M on Futarchy AMM, 900K on Meteora pool), with 20% of funds raised ($25K) paired with LP tokens. First physical infrastructure project (mushroom farm) using the platform, extending futarchy governance from digital to real-world operations with measurable outcomes (temperature, humidity, CO2, yield).
+
 ---
 
 Relevant Notes:
