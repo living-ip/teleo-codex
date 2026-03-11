@@ -6,7 +6,7 @@ url: https://x.com/rocketresearchx
 date: 2026-03-09
 domain: internet-finance
 format: tweet
-status: null-result
+status: unprocessed
 last_attempted: 2026-03-11
 tags: [media, research, trading, market-analysis, solana]
 linked_set: metadao-x-landscape-2026-03
