@@ -134,8 +134,50 @@ attribution_handle: "@theiaresearch"
 - Disputes about attribution are resolved through the normal PR process
 - Removing attribution requires justification (e.g., the sourcer was misidentified)
 
+## Contribution Weights
+
+Role weights determine how much each contribution type counts toward a contributor's weighted score. Weights are **global policy**, not per-claim data — they live in `schemas/contribution-weights.yaml`, not in claim frontmatter.
+
+Why weights are global, not per-claim:
+1. Weights are policy (how much we value each role), not data (who did what)
+2. Weights evolve as bottlenecks shift — updating one config file beats migrating 400+ claims
+3. Per-claim weights create gaming incentive to inflate role on high-value claims
+
+The build pipeline reads `contribution-weights.yaml` and multiplies role counts × weights to produce weighted scores. The frontend displays both raw counts (by role) and the weighted score.
+
+See `schemas/contribution-weights.yaml` for current weights and rationale.
+
+## Build Artifacts
+
+The website build pipeline (extract-graph-data.py) produces a `contributors.json` artifact alongside graph-data.json and claims-context.json:
+
+```json
+{
+  "contributors": [
+    {
+      "handle": "naval",
+      "roles": {"sourcer": 12, "extractor": 0, "challenger": 3, "synthesizer": 1, "reviewer": 0},
+      "weighted_score": 5.4,
+      "domains": {"internet-finance": 8, "grand-strategy": 5, "ai-alignment": 3},
+      "first_contribution": "2026-02-15",
+      "latest_contribution": "2026-03-11",
+      "claim_count": 16,
+      "timeline": [
+        {"date": "2026-02", "count": 3, "domains": ["internet-finance"]},
+        {"date": "2026-03", "count": 13, "domains": ["internet-finance", "grand-strategy"]}
+      ]
+    }
+  ]
+}
+```
+
+This is a static file rebuilt on every merge to main (~15 minute staleness). The frontend reads it at page load — no API or runtime queries needed.
+
+**Timeline**: Monthly granularity. Used by the frontend for contribution heatmap or sparkline graphic (Cory requirement).
+
 ## Implementation Priority
 
 1. **Now**: Add `attribution` block to new claims going forward. No backfill required.
-2. **Soon**: Rhea builds contributor profile aggregation for the website.
-3. **Later**: Automated attribution from the extraction pipeline (MiniMax → Haiku → agent).
+2. **Soon**: Rhea adds attribution aggregation pass to extract-graph-data.py, producing contributors.json.
+3. **Soon**: Frontend contributor profile pages — handle + sparkline + domain pie + top claims by role.
+4. **Later**: Automated attribution from the extraction pipeline (MiniMax → Haiku → agent).

@@ -1,0 +1,28 @@
+# Contribution Weights
+#
+# Global policy for how much each contributor role counts toward weighted scores.
+# Used by the build pipeline (extract-graph-data.py) to compute weighted_score
+# in contributors.json. Updated via PR — changes here affect all contributor profiles.
+#
+# Weights sum to 1.0. The build pipeline multiplies each contributor's role count
+# by the corresponding weight, then sums across roles.
+#
+# Current rationale (2026-03-11):
+# - Extraction is the current bottleneck and requires the most skill (reading sources,
+#   separating signal from noise, writing prose-as-title). Highest weight.
+# - Challenge is the quality mechanism — adversarial review catches errors that
+#   self-review cannot. Second highest.
+# - Sourcing discovers new information but is lower effort per instance.
+# - Synthesis connects claims across domains — high value but rare.
+# - Review is essential but is partially automated via the eval pipeline.
+#
+# These weights WILL change as the collective matures. When challenges become
+# the bottleneck (more claims than reviewers), challenger weight should increase.
+# When synthesis becomes the primary value-add, synthesizer weight increases.
+
+role_weights:
+  sourcer: 0.15
+  extractor: 0.40
+  challenger: 0.20
+  synthesizer: 0.15
+  reviewer: 0.10
