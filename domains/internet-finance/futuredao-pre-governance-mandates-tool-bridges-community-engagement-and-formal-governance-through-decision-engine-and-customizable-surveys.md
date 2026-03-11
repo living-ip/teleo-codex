@@ -1,30 +1,31 @@
 ---
 type: claim
-domain: internet-finance
-description: "FutureDAO's Pre-Governance Mandates tool addresses proposal complexity friction by providing infrastructure for stakeholder input gathering before formal futarchy votes"
+title: FutureDAO pre-governance mandates tool bridges community engagement and formal governance through decision engine and customizable surveys
 confidence: experimental
-source: "FutureDAO Pre-Governance Mandates proposal, August 2024"
-created: 2024-12-19
-secondary_domains: [mechanisms]
+domains:
+  - internet-finance
+  - mechanisms
+created: 2026-03-11
+processed_date: 2026-03-11
 ---
 
-# Pre-governance tooling reduces futarchy friction by enabling high-quality proposal preparation before market voting
+FutureDAO's pre-governance tooling aims to reduce friction in DAO governance by providing infrastructure for community sentiment gathering before formal on-chain proposals. The system includes:
 
-FutureDAO's Pre-Governance Mandates tool addresses a structural gap in futarchy adoption: the lack of infrastructure for the pre-proposal phase where community leaders must gather input and refine ideas before formal governance votes. The proposal explicitly identifies this problem: "Governance is so much more than voting. Key decisions must be made by community leaders and members throughout the governance process, particularly leading up to formal submission of proposals. There are very few tools to support this process."
+1. **Decision-Making Engine**: Processes community input to generate actionable governance proposals
+2. **Customizable Surveys & Mandates**: Allows DAOs to gather structured feedback on potential initiatives
+3. **Integration Layer**: Connects informal community signals to formal governance mechanisms
 
-The tool combines:
-- Multi-criteria decision-making engine for complex issue analysis
-- Customizable survey system for authenticated stakeholder input
-- Web3 integration (Solana wallet connect, Blinks) for permissionless participation
-- AI-powered analysis for data synthesis
-- Mandates dashboard for tracking pre-governance activity
+Per the proposal: "FutureDAO is building complementary infrastructure that helps DAOs gather community input and refine ideas before they reach the formal proposal stage."
 
-FutureDAO positions this as complementary to established governance platforms (MetaDAO, Realms, Squads, Align) rather than competitive. The project received $25,000 budget approval through futarchy governance and was entered into the Solana Radar Hackathon (September 1 - October 8, 2024).
+**Confidence rationale:** Rated as experimental because while the design is documented in the approved proposal, there is no evidence yet of adoption, usage patterns, or demonstrated impact on governance friction. The tooling represents a stated intent rather than proven effectiveness.
 
-The confidence is experimental because this represents a single project's stated design and intended functionality, not demonstrated adoption or measured impact on proposal quality or governance outcomes. The tool's effectiveness depends on actual DAO adoption and measurable improvements in proposal quality metrics (engagement rates, proposal refinement iterations, stakeholder sentiment accuracy).
+**Context note:** FutureDAO's own $25K budget allocation was decided through MetaDAO's Autocrat futarchy mechanism without using pre-governance tooling, suggesting the friction being addressed may be context-dependent rather than universal to all DAO governance decisions.
 
----
+## Related Claims
 
-Relevant Notes:
 - [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]]
-- [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]]
+- [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]]
+
+## Sources
+
+- [[2024-08-30-futardio-proposal-approve-budget-for-pre-governance-hackathon-development]]

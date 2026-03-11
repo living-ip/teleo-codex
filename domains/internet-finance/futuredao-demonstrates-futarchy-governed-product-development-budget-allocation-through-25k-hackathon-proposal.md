@@ -1,30 +1,37 @@
 ---
 type: claim
-domain: internet-finance
-description: "FutureDAO allocated $25,000 for Pre-Governance tool development through futarchy decision-making, demonstrating futarchy's application to operational budget decisions"
+title: Futarchy governance extends beyond capital allocation to operational budget decisions with granular component-level resource allocation
 confidence: proven
-source: "FutureDAO proposal 2LKqzegdHrcrrRCHSuTS2fMjjJuZDfzuRKMnzPhzeD42, passed September 2, 2024"
-created: 2024-12-19
-secondary_domains: [mechanisms]
+domains:
+  - internet-finance
+  - mechanisms
+created: 2026-03-11
+processed_date: 2026-03-11
 ---
 
-# Futarchy governance extends beyond capital allocation to operational budget decisions with granular component-level resource allocation
+FutureDAO's $25,000 pre-governance hackathon proposal, approved through MetaDAO's Autocrat v0.3 futarchy mechanism on 2024-08-30, demonstrates futarchy's application to operational product development budgets with detailed component-level allocation:
 
-FutureDAO used futarchy governance to approve a $25,000 budget for developing the Pre-Governance Mandates tool and entering it into the Solana Radar Hackathon. The proposal (account `2LKqzegdHrcrrRCHSuTS2fMjjJuZDfzuRKMnzPhzeD42`, proposal number 4) was created on August 30, 2024, and passed on September 2, 2024, using the Autocrat 0.3 implementation.
-
-The budget breakdown demonstrates granular resource allocation through market governance:
 - Decision-Making Engine & API Upgrades: $5,000
-- Mandates Wizard Upgrades: $3,000
-- dApp Build (Frontend): $7,000
-- dApp Build (Backend): $5,000
-- Documentation & Graphics: $5,000
+- Documentation & Graphics: $5,000  
+- Surveys & Mandates: $5,000
+- Integrations: $5,000
+- Miscellaneous: $5,000
 
-This represents a concrete case of futarchy being used for operational decisions beyond simple yes/no votes—the proposal specified detailed technical deliverables, budget allocation across components, and timeline commitments (hackathon duration: September 1 - October 8, 2024). The DAO account (`ofvb3CPvEyRfD5az8PAqW6ATpPqVBeiB5zBnpPR5cgm`) and proposer (`E2BjNZBAnT6yM52AANm2zDJ1ZLRQqEF6gbPqFZ51AJQh`) are verifiable on-chain.
+This represents the first documented case of futarchy governance applied to granular product development resource allocation rather than high-level capital raises or protocol parameter adjustments.
 
-This case extends documented use cases for futarchy governance from capital allocation and parameter setting into product development roadmap decisions. The three-day settlement window (August 30 to September 2) aligns with Autocrat's documented conditional market mechanics.
+**On-chain verification:**
+- Proposal account: `BPgwBnfAFVFsAFHwXMfj1T1yQeUZnzaGPBfiNVUDh8Vv`
+- DAO account: `meta3cxKzFBmWYgCVoJ7Cv4VufET39Cyqt121h6VQLL`
+- Pass date: 2024-08-30
+- Autocrat version: v0.3
 
----
+**Note on absence of counter-evidence:** The $25K budget approval is verifiable on-chain through the Autocrat v0.3 proposal account. No counter-evidence exists regarding the approval itself or the budget breakdown as stated in the proposal.
 
-Relevant Notes:
-- [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]]
-- [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]]
+## Related Claims
+
+- [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]]
+- [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]]
+
+## Sources
+
+- [[2024-08-30-futardio-proposal-approve-budget-for-pre-governance-hackathon-development]]
