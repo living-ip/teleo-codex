@@ -7,9 +7,14 @@ date: 2025-03-13
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: high
 tags: [medicare-advantage, risk-adjustment, overpayment, coding-intensity, favorable-selection, medpac]
+processed_by: vida
+processed_date: 2025-03-13
+enrichments_applied: ["value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md", "CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md", "healthcares defensible layer is where atoms become bits because physical-to-digital conversion generates the data that powers AI care while building patient trust that software alone cannot create.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three new claims extracted covering the dual-mechanism overpayment structure, the inadequacy of current coding adjustment, and the underappreciated role of favorable selection. Three enrichments applied: extending the VBC payment boundary claim with empirical foundation, confirming the chart review arbitrage claim with specific dollar figures, and extending the atoms-to-bits defensibility claim with the dark mirror case of physical touchpoints enabling digital extraction. This is the authoritative source on MA's structural economics—MedPAC is the statutory advisory body to Congress, making this the most credible data available."
 ---
 
 ## Content
@@ -59,3 +64,13 @@ tags: [medicare-advantage, risk-adjustment, overpayment, coding-intensity, favor
 PRIMARY CONNECTION: [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]]
 WHY ARCHIVED: Fills critical gap — KB has claims about VBC transition mechanics but no grounded data on the scale of MA's financial gaming. This is the empirical foundation.
 EXTRACTION HINT: Focus on the structural economics (not individual fraud cases) — the $84B overpayment is a feature of the system design, not bad actors.
+
+
+## Key Facts
+- MA plans will receive $538 billion total in 2025
+- Current CMS coding intensity adjustment: 5.9%
+- Of 44 HHS OIG managed care audits since 2017, 42 focused on diagnosis coding
+- CBO estimates reducing MA benchmarks could save $489 billion
+- HI Trust Fund impact from coding intensity: $260B over 10 years
+- HI Trust Fund impact from favorable selection: $250B over 10 years
+- Beneficiary premium impact from both mechanisms: $220B over 10 years ($110B each)
