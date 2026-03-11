@@ -38,6 +38,12 @@ This represents a scarcity inversion: as AI-generated content becomes abundant a
 - **Verification infrastructure immature**: C2PA content authentication is emerging but not yet widely deployed; risk of label dilution or fraud if verification mechanisms remain weak
 - **Incumbent response unknown**: Corporate brands may develop effective transparency and verification mechanisms that close the credibility gap with community-owned IP
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-01-01-koinsights-authenticity-premium-ai-rejection]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The 'organic' analogy is validated by the moral disgust reaction documented in the Journal of Business Research study. Just as organic food commands a premium based on production method rather than blind taste tests, human-made content commands a premium based on authorship provenance. The McDonald's Netherlands Christmas ad demonstrates the premium in action: consumers rejected AI involvement in a culturally significant, emotionally meaningful context (Christmas) with comments like 'ruined my Christmas spirit' and dismissals of 'AI slop.' The campaign was pulled despite high production quality (10 people working full-time for five weeks), proving the premium is about method, not output. The Deloitte 2024 survey showing 70% concern about AI deception suggests the premium is driven by trust and values, not quality detection—exactly parallel to organic food's premium, which persists even when blind taste tests show no difference.
+
 ---
 
 Relevant Notes:

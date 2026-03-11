@@ -25,6 +25,12 @@ This is more dangerous for incumbents than simple cost competition because they 
 
 The 2026 emergence of 'human-made' as a premium market label provides concrete evidence that quality definition now explicitly includes provenance and human creation as consumer-valued attributes distinct from production value. WordStream reports that 'the human-made label will be a selling point that content marketers use to signal the quality of their creation.' EY notes consumers want 'human-led storytelling, emotional connection, and credible reporting,' indicating quality now encompasses verifiable human authorship. PrismHaus reports brands using 'Human-Made' labels see higher conversion rates, demonstrating consumer preference reveals this new quality dimension through revealed preference (higher engagement/purchase). This extends the original claim by showing that quality definition has shifted to include verifiable human provenance as a distinct dimension orthogonal to traditional production metrics (cinematography, sound design, editing, etc.).
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-01-koinsights-authenticity-premium-ai-rejection]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Quality is being redefined to include provenance as a dimension. Approximately half of consumers now believe they can recognize AI-written content, and many disengage when brands rely heavily on it in emotionally meaningful contexts. However, the Journal of Business Research study shows the rejection occurs even when content is identical—consumers shown the same content with different authorship labels reacted negatively to the AI-labeled versions. This means 'quality' now includes 'who made it' as a component, not just 'how good is the output.' The authenticity premium is consumers paying for human authorship independent of output characteristics. This is a redefinition of quality from production value (craft, polish, technical execution) to provenance (authorship source, human involvement).
+
 ---
 
 Relevant Notes:

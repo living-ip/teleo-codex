@@ -27,6 +27,12 @@ Shapiro's 2030 scenario paints a plausible picture: three of the top 10 most pop
 
 The emergence of 'human-made' as a premium label in 2026 provides concrete evidence of consumer resistance shaping market positioning and adoption patterns. Brands are actively differentiating on human creation and achieving higher conversion rates (PrismHaus), demonstrating consumer preference is creating market segmentation between human-made and AI-generated content. Monigle's framing that brands are 'forced to prove they're human' indicates consumer skepticism is driving strategic responses—companies are not adopting AI at maximum capability but instead positioning human creation as premium. This confirms that adoption is gated by consumer acceptance (skepticism about AI content) rather than capability (AI technology is clearly capable of generating content). The market is segmenting on acceptance, not on what's technically possible.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-01-koinsights-authenticity-premium-ai-rejection]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The binding constraint mechanism is more specific than 'consumer acceptance'—it's a values-based rejection rooted in moral disgust, not quality detection. The Journal of Business Research found that when consumers believe emotional marketing communications are written by AI rather than humans, they judge them as less authentic, feel moral disgust, and show weaker engagement and purchase intentions—even when content is identical. This controlled experiment proves the rejection is triggered by authorship provenance, not output characteristics. The Nuremberg Institute for Market Decisions (2025) confirmed that simply labeling an ad as AI-generated lowers ad attitudes and purchase intent. The Deloitte 2024 Connected Consumer Survey found 70% of consumers concerned AI content will be used to deceive them, indicating epistemic anxiety rather than aesthetic judgment. The McDonald's Netherlands Christmas ad case study demonstrates real-world impact: campaign pulled after backlash despite involving 10 people working full-time for five weeks, with consumer comments like 'ruined my Christmas spirit.' Contexts where rejection is strongest: high emotional stakes (holidays, grief, celebration), cultural significance, visible human craft, and trust-requiring contexts. This suggests the adoption ceiling is set by values alignment, not technological capability.
+
 ---
 
 Relevant Notes:

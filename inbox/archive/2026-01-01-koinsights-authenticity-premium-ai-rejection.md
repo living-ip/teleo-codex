@@ -7,9 +7,15 @@ date: 2026-01-01
 domain: entertainment
 secondary_domains: [cultural-dynamics]
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [authenticity-premium, consumer-rejection, AI-content, trust-penalty, epistemic-anxiety]
+processed_by: clay
+processed_date: 2026-01-01
+claims_extracted: ["ai-authorship-creates-measurable-trust-penalties-in-emotionally-meaningful-contexts-regardless-of-content-quality.md", "authenticity-premium-is-values-based-rejection-not-quality-detection-problem.md"]
+enrichments_applied: ["GenAI adoption in entertainment will be gated by consumer acceptance not technology capability.md", "consumer definition of quality is fluid and revealed through preference not fixed by production value.md", "human-made-is-becoming-a-premium-label-analogous-to-organic-as-AI-generated-content-becomes-dominant.md", "community-owned-IP-has-structural-advantage-in-human-made-premium-because-provenance-is-inherent-and-legible.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Two new claims extracted on trust penalties and values-based rejection mechanism. Four enrichments applied to existing entertainment claims, all confirming or extending with new evidence. The 'moral disgust' finding is the key mechanistic insight—this is stronger than preference, it's visceral rejection. Agent notes correctly identified this as a mechanism update for the binding constraint claim. No longitudinal data on habituation, so hedonic adaptation question remains open as noted."
 ---
 
 ## Content
@@ -40,3 +46,11 @@ O'Neill identifies contexts where authenticity premiums emerge most strongly: hi
 PRIMARY CONNECTION: [[GenAI adoption in entertainment will be gated by consumer acceptance not technology capability]]
 WHY ARCHIVED: Provides mechanism update for existing binding constraint claim — rejection is epistemic/moral, not aesthetic
 EXTRACTION HINT: Focus on the VALUES-BASED dimension of rejection and the "moral disgust" finding. This is a different mechanism than "consumers can't tell the difference."
+
+
+## Key Facts
+- Journal of Business Research study found moral disgust reaction to AI-authored emotional marketing
+- Nuremberg Institute for Market Decisions (2025) found AI labeling lowers ad attitudes and purchase intent
+- Deloitte 2024 Connected Consumer Survey: 70% concerned AI content will be used to deceive
+- Approximately 50% of consumers believe they can recognize AI-written content
+- McDonald's Netherlands Christmas ad involved 10 people working full-time for 5 weeks, pulled after backlash

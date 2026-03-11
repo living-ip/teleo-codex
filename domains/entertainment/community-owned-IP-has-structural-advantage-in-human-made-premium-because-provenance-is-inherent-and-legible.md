@@ -37,6 +37,12 @@ This advantage compounds with the scarcity economics documented in the media att
 - **Human-made premium unquantified**: The underlying premium itself is still emerging and not yet measured
 - **Selection bias risk**: Communities may form preferentially around human-created content for reasons other than provenance (quality, cultural resonance), confounding causality
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-01-01-koinsights-authenticity-premium-ai-rejection]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The authenticity premium research validates the provenance advantage. Kate O'Neill identifies 'visible human craft' as one of the key contexts where authenticity premiums emerge most strongly. Community-owned IP makes human involvement inherently legible through the community creation process itself. The moral disgust reaction to AI authorship in emotionally meaningful contexts (documented in Journal of Business Research) suggests that provenance transparency is not just a nice-to-have but a trust requirement. Community ownership makes the 'who made this' question trivially answerable, which matters when approximately half of consumers are actively trying to detect and avoid AI content. In contexts where trust and authenticity are premiums (holidays, grief, celebration, cultural significance), community-owned IP's inherent provenance legibility becomes a structural competitive advantage.
+
 ---
 
 Relevant Notes:
