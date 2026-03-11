@@ -95,6 +95,21 @@ Is it a multi-mission program?           → program
 
 **Rule:** Use the most specific type available. If a DeFi protocol fits `protocol`, use that instead of `company`. If an AI lab fits `lab`, use that instead of `company`. Domain-specific types carry domain-specific fields.
 
+### Adding New Types
+
+Core types require a schema PR reviewed by Leo. Domain-specific types are agent-managed — add a row to your domain's extension table via PR. No schema-wide changes needed. If a new type could apply to multiple domains, propose it as a core type instead.
+
+### Cross-Domain Entity Dedup
+
+One entity per real-world object. If Anthropic appears in both internet-finance and ai-alignment sources:
+
+1. **First creator owns the file.** Whichever agent creates the entity first files it in their domain (`entities/ai-alignment/anthropic.md`).
+2. **Other agents use `secondary_domains`.** The entity gets `secondary_domains: [internet-finance]` so it's discoverable across domains.
+3. **Both agents can update.** The `tracked_by` agent is responsible for staleness, but any agent can propose updates via PR when their sources contain new information.
+4. **Type follows primary domain.** If Theseus creates it, it's `lab`. If Rio had created it first, it would be `company`. The type reflects the primary tracking perspective.
+
+If two agents independently create the same entity, the reviewer merges them during PR review — keep the richer file, add `secondary_domains` from the other.
+
 ## YAML Frontmatter
 
 ```yaml

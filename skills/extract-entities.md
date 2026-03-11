@@ -79,12 +79,14 @@ Follow the body format from `schemas/entity.md`:
 
 ### Step 5: Check for Duplicates
 
-Before creating a new entity, search `entities/{domain}/` for:
+Before creating a new entity, search **all** `entities/` directories (not just your domain) for:
 - Same name (exact or variant spelling)
 - Same handles
 - Same website
 
-If a match exists, update the existing entity instead of creating a new one.
+If a match exists in **your domain**, update the existing entity.
+
+If a match exists in **another domain**, don't create a duplicate. Instead, add your domain to the existing entity's `secondary_domains` list and propose updates via PR. See `schemas/entity.md` → "Cross-Domain Entity Dedup" for the full protocol.
 
 ### Step 6: Update Parent Entities
 
