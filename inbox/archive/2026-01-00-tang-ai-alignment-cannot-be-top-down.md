@@ -6,7 +6,7 @@ url: https://ai-frontiers.org/articles/ai-alignment-cannot-be-top-down
 date: 2026-01-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence, mechanisms]
-format: article
+format: report
 status: null-result
 priority: high
 tags: [rlcf, bridging-consensus, polis, democratic-alignment, attentiveness, community-feedback]
