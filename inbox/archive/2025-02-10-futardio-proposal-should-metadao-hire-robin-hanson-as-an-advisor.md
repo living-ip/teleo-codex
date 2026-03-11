@@ -6,14 +6,16 @@ url: "https://www.futard.io/proposal/AnCu4QFDmoGpebfAM8Aa7kViouAk1JW6LJCJJer6ELB
 date: 2025-02-10
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 processed_by: rio
 processed_date: 2025-02-10
 enrichments_applied: ["futarchy-governed-DAOs-converge-on-traditional-corporate-governance-scaffolding-for-treasury-operations-because-market-mechanisms-alone-cannot-provide-operational-security-and-legal-compliance.md", "futarchy-implementations-must-simplify-theoretical-mechanisms-for-production-adoption-because-original-designs-include-impractical-elements-that-academics-tolerate-but-users-reject.md", "MetaDAO-is-the-futarchy-launchpad-on-Solana-where-projects-raise-capital-through-unruggable-ICOs-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md"]
 extraction_model: "anthropic/claude-sonnet-4.5"
-extraction_notes: "Governance proposal data showing MetaDAO's operational evolution. No novel claims—all insights enrich existing claims about futarchy implementation, mechanism simplification, and MetaDAO's platform development. The proposal demonstrates convergence on traditional advisory structures while iterating on futarchy mechanism design for capital efficiency."
+claims_extracted:
+  - "shared-liquidity-amms-could-solve-futarchy-capital-inefficiency-by-routing-base-pair-deposits-into-all-derived-conditional-token-markets.md"
+extraction_notes: "Governance proposal data showing MetaDAO's operational evolution. One novel claim extracted: the shared-liquidity AMM concept for conditional markets (Proph3t + Hanson concept, not yet implemented). Remaining insights enrich existing claims about futarchy implementation, mechanism simplification, and MetaDAO's platform development. The proposal also demonstrates convergence on traditional advisory structures (Robin Hanson advisor hire via futarchy vote)."
 ---
 
 ## Proposal Details
