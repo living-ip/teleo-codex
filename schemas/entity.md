@@ -20,13 +20,14 @@ Claims are static propositions with confidence levels. Entities are dynamic obje
 | `company` | Protocol, startup, fund, DAO | MetaDAO, Aave, Solomon, Devoted Health |
 | `person` | Individual with tracked positions/influence | Stani Kulechov, Gabriel Shapiro, Proph3t |
 | `market` | Industry segment or ecosystem | Futarchic markets, DeFi lending, Medicare Advantage |
+| `decision_market` | Governance proposal, prediction market, futarchy decision | MetaDAO: Hire Robin Hanson, MetaDAO: Burn 99.3% of META |
 
 ## YAML Frontmatter
 
 ```yaml
 ---
 type: entity
-entity_type: company | person | market
+entity_type: company | person | market | decision_market
 name: "Display name"
 domain: internet-finance | entertainment | health | ai-alignment | space-development
 handles: ["@StaniKulechov", "@MetaLeX_Labs"]  # social/web identities
@@ -59,6 +60,53 @@ last_updated: YYYY-MM-DD
 | last_updated | date | When entity was last reviewed for accuracy |
 | tags | list | Discovery tags |
 | secondary_domains | list | Other domains this entity is relevant to |
+
+## Decision Market-Specific Fields
+
+Decision markets are individual governance decisions, prediction market questions, or futarchy proposals. Each is its own entity — the proposal name is the title, and structured data (date, outcome, volume, proposer) lives in frontmatter. The parent entity (e.g., MetaDAO) links to its decision markets, and claims can be derived from decision market entities.
+
+```yaml
+# Decision market attributes
+parent_entity: "[[metadao]]"          # the organization this decision belongs to
+platform: "futardio"                  # where the market lives (futardio, polymarket, kalshi)
+proposer: "proph3t"                   # who created the proposal
+proposal_url: "https://..."           # canonical link to the market/proposal
+proposal_date: YYYY-MM-DD            # when proposed/created
+resolution_date: YYYY-MM-DD          # when resolved (null if pending)
+outcome: passed | failed | pending | expired | cancelled
+category: "operations | treasury | governance | parameter-change | hiring | strategy"
+volume: "$250K"                       # total market volume or capital involved
+summary: "One-sentence description of what the proposal does"
+```
+
+**Filing convention:** `entities/{domain}/{parent-slug}-{proposal-slug}.md`
+Example: `entities/internet-finance/metadao-hire-robin-hanson.md`
+
+**Relationship to parent entity:** The parent entity page should link to significant decision markets in a "## Key Decisions" section. Not every proposal warrants a link — only those that materially changed the entity's trajectory.
+
+**What gets a decision_market entity vs. a timeline entry:**
+- **Entity:** Proposals with real capital at stake, governance decisions that changed organizational direction, or markets that produced notable information
+- **Timeline entry only:** Test proposals, spam, trivial parameter tweaks, proposals that were cancelled before any trading occurred
+
+**Body format:**
+```markdown
+# [Parent Entity]: [Proposal Title]
+
+## Summary
+[What the proposal does and why it matters — 2-3 sentences]
+
+## Market Data
+- **Volume:** $X
+- **Outcome:** Passed/Failed/Pending
+- **Key participants:** [notable traders, proposers, commenters]
+
+## Significance
+[Why this decision matters — what it reveals about governance dynamics, organizational direction, or mechanism design]
+
+## Relationship to KB
+- [[parent-entity]] — governance decision
+- [[relevant-claim]] — how this decision relates to broader thesis
+```
 
 ## Company-Specific Fields
 
@@ -180,6 +228,8 @@ entities/
     solomon.md
     stani-kulechov.md
     gabriel-shapiro.md
+    metadao-hire-robin-hanson.md       # decision_market
+    metadao-burn-993-percent-meta.md   # decision_market
   entertainment/
     claynosaurz.md
     pudgy-penguins.md
@@ -189,7 +239,7 @@ entities/
     function-health.md
 ```
 
-**Filename:** Lowercase slugified name. Companies use brand name, people use full name.
+**Filename:** Lowercase slugified name. Companies use brand name, people use full name. Decision markets use `{parent}-{proposal-slug}.md`.
 
 ## How Entities Feed Beliefs
 
