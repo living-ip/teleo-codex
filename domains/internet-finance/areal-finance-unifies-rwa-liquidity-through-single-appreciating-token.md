@@ -2,9 +2,11 @@
 type: claim
 domain: internet-finance
 title: Areal Finance unifies RWA liquidity through single appreciating token
+description: Areal Finance proposes consolidating multiple real-world assets into a single appreciating token (RWT) to solve liquidity fragmentation, but market validation failed and the mechanism mirrors existing approaches.
 confidence: speculative
-created: 2026-03-05
-processed_date: 2026-03-05
+created: 2026-03-11
+processed_date: 2026-03-11
+source: "Areal Finance pitch deck, futard.io launch 2026-03-05"
 ---
 
 # Areal Finance unifies RWA liquidity through single appreciating token
@@ -30,25 +32,32 @@ Possible interpretations:
 - Investors skeptical of RWA custody/legal claims
 - Single-token model seen as concentration risk rather than liquidity solution  
 - Existing RWA protocols (Ondo, Centrifuge) already address fragmentation adequately
-- Futarchy mechanism poorly suited for RWA governance (see [[futarchy requires high liquidity to function]])
+- Futarchy mechanism poorly suited for RWA governance (see [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]])
 
-### Unproven Mechanisms
+### Unproven Mechanisms and Domain Critique
 
 The claim assumes:
 
-1. **Liquidity concentration > diversification**: That traders prefer one unified token over specialized RWA tokens
-2. **Custody trust**: That investors will trust a single protocol to manage diverse real-world asset custody
+1. **Liquidity concentration > diversification**: That traders prefer one unified token over specialized RWA tokens. However, fragmented pools may reflect rational risk separation rather than coordination failure. Centrifuge, Maple, and others issue per-pool tokens specifically because credit tranching requires risk differentiation—aggregating yield from a Dubai vehicle, real estate, commodities, and revenue streams into a single RWT collapses distinct risk profiles into one instrument, preventing investors from pricing individual asset risk.
+
+2. **Custody trust**: That investors will trust a single protocol to manage diverse real-world asset custody across jurisdictions
+
 3. **Yield pass-through efficiency**: That the protocol can capture and distribute yield from multiple asset classes without significant overhead
-4. **Legal/regulatory viability**: That a single token can legally represent fractional ownership of diverse real-world assets across jurisdictions
+
+4. **Regulatory/legal viability**: That a single token can legally represent fractional ownership of diverse real-world assets across jurisdictions
 
 None of these assumptions have been validated through implementation or market adoption.
+
+### Competitive Claims
+
+The pitch deck's "only protocol" claims are self-reported and unverified. Pendle, Credix, and prior Maple iterations have experimented with yield aggregation. The "only" framing deserves explicit skepticism.
 
 ## Related Claims
 
 - [[RWA yield pass-through DEX combines swap fees embedded yield and protocol incentives]]
 - [[AI agent portfolio management requires protocol architecture designed for autonomous operation]]
-- [[futarchy requires high liquidity to function]]
-- [[stablecoin flow velocity]]
+- [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]]
+- [[token voting DAOs offer no minority protection beyond majority goodwill]]
 
 ## Sources
 
