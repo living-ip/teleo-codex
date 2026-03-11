@@ -27,6 +27,12 @@ The space manufacturing economy will not be built on a single product. It will b
 
 Each tier depends on unproven assumptions. Pharma depends on some polymorphs being truly inaccessible at 1g — advanced terrestrial crystallization techniques are improving. ZBLAN depends on the optical quality advantage being 10-100x rather than 2-3x — if the advantage is only marginal, the economics don't justify orbital production. Bioprinting timelines are measured in decades and depend on biological breakthroughs that may take longer than projected. The portfolio structure partially hedges this — each tier independently justifies infrastructure that de-risks the next — but if Tier 1 fails to demonstrate repeatable commercial returns, the entire sequence stalls. Confidence is experimental rather than likely because the thesis is conceptually sound but only Tier 1 has operational evidence (Varda's four missions), and even that is pre-revenue.
 
+
+### Additional Evidence (challenge)
+*Source: [[2026-01-29-varda-w5-reentry-success]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+**Temporal overlap evidence (2026-01-29):** Varda opened a 10,000 sq ft biologics lab in El Segundo in 2026 specifically for monoclonal antibody processing, which is a complex biologics capability that straddles the pharmaceutical and bioprinting tiers. This suggests the tier boundaries may be more overlapping than strictly sequential—companies may develop capabilities across multiple tiers simultaneously rather than waiting for one to mature before starting the next. The economic logic (each tier funds the next through revenue) may still hold, but the temporal execution appears to be overlapping development rather than strict succession. Varda's AFRL Prometheus contract provides government revenue to fund biologics R&D without waiting for pharmaceutical revenue to scale first, enabling parallel tier development. However, this is based on announced intent and lab opening, not demonstrated orbital biologics processing, so the claim remains speculative.
+
 ---
 
 Relevant Notes:

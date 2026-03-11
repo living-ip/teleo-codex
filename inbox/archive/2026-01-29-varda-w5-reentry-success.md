@@ -7,10 +7,16 @@ date: 2026-01-29
 domain: space-development
 secondary_domains: [health]
 format: article
-status: unprocessed
+status: processed
 priority: high
 tags: [varda, space-manufacturing, pharmaceutical, reentry, vertical-integration, afrl]
 flagged_for_vida: ["Varda advancing biologics (monoclonal antibodies) processing in space — health implications"]
+processed_by: astra
+processed_date: 2026-01-29
+claims_extracted: ["varda-space-biologics-development-blurs-three-tier-manufacturing-sequence.md", "varda-vertical-integration-reduces-space-manufacturing-access-costs.md"]
+enrichments_applied: ["the space manufacturing killer app sequence is pharmaceuticals now ZBLAN fiber in 3-5 years and bioprinted organs in 15-25 years each catalyzing the next tier of orbital infrastructure.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Two new claims extracted: (1) biologics development blurring the three-tier sequence, (2) vertical integration reducing access costs. Two enrichments: updating Varda claim from 4 to 5 missions with new vertical integration details, and challenging the three-tier sequence claim with evidence of overlapping tier development. Agent notes correctly identified the tier-blurring as the key analytical insight."
 ---
 
 ## Content
@@ -45,3 +51,11 @@ Key milestones:
 PRIMARY CONNECTION: [[Varda Space Industries validates commercial space manufacturing with four orbital missions 329M raised and monthly launch cadence by 2026]]
 WHY ARCHIVED: Existing KB claim is outdated (4 missions → 5, biologics development starting) — needs factual update and analysis of tier-blurring
 EXTRACTION HINT: Update mission count. Extract biologics development as evidence that the three-tier sequence is overlapping, not strictly sequential.
+
+
+## Key Facts
+- W-5 mission launched Nov 28, 2025 on Transporter-15, returned Jan 29, 2026 after 9 weeks in orbit
+- W-5 carried U.S. Navy payload, landed at Koonibba Test Range, South Australia
+- Varda raised $329M total ($187M Series C)
+- Varda opened Huntsville, AL office in addition to El Segundo HQ
+- FAA Part 450 vehicle operator license is first-ever granted for reentry vehicles
