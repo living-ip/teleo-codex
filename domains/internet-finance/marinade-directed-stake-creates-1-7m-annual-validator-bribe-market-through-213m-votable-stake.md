@@ -1,44 +1,23 @@
 ---
 type: claim
-domain: internet-finance
-description: "Marinade's 40% directed stake mechanism creates a $1.7M annual market for validator bribes based on $532M TVL"
+claim_type: empirical
+domains: [internet-finance]
 confidence: experimental
-source: "futard.io MetaDAO LST Vote Market proposal, 2023-11-18"
-created: 2025-01-14
+created: 2026-03-11
+processed_date: 2026-03-11
 ---
 
 # Marinade directed stake creates $1.7M annual validator bribe market through $213M votable stake
 
-Marinade Finance's directed stake mechanism allows MNDE and mSOL holders to direct 40% of its $532M TVL ($213M) to validators of their choice. This creates a natural market for validator bribes, where validators can pay stakers to direct stake toward them. The maximum market size is estimated at $1.7M annually, calculated as $213M * 8% staking yield * 10% validator commission.
+Marinade Finance's directed stake feature enables a theoretical validator bribe market of approximately $1.7M annually, calculated from $532M TVL with 40% directed stake ($213M) earning ~8% staking yield, where validators could pay up to 10% of marginal revenue to influence stake allocation.
 
-The market currently exists in fragmented form through platforms like Solana Compass's Turbo Stake and private Telegram negotiations, but lacks centralized infrastructure. The fragmentation favors large holders who can negotiate directly with validators, while small holders cannot access the same yields.
+**Calculation basis**: $213M directed stake × 8% yield × 10% bribe rate = $1.704M annual market size.
 
-## Evidence
+**Critical limitations**: This represents a theoretical maximum assuming 100% participation and validators paying full marginal revenue. Real bribe markets typically capture 10-30% of theoretical maximum due to coordination costs, information asymmetry, and validator competition dynamics. Actual market size would likely be $170K-$510K annually under realistic participation assumptions.
 
-From the MetaDAO proposal:
-- Marinade Finance TVL: $532M (as of 2023-11-18)
-- Directed stake percentage: 40% = $213M
-- Estimated annual market: $213M * 0.08 staking rate * 0.1 commission = $1.7M
-- Current market structure: fragmented across Turbo Stake and private channels
-- Quote: "Validators are likely willing to pay up to the marginal revenue that they can gain by bribing. So, at 8% staking rates and 10% comissions, the **estimated market for this is $213M * 0.08 * 0.1, or $1.7M**."
+**Mechanism**: Liquid staking tokens separate stake custody from voting rights, creating governance markets where validators can bid for stake allocation influence without requiring token holders to transfer custody.
 
-## Market Structure
+See also: [[votium-style-non-custodial-bribe-markets-eliminate-user-fund-risk-by-separating-vote-commitment-from-reward-claims]]
 
-Validators are willing to pay up to their marginal revenue gain from additional stake. At 8% staking rates and 10% validator commissions, this creates the $1.7M ceiling. The actual market size depends on:
-- Validator competition intensity
-- Staker participation rates
-- Platform fee structures (proposed at 10% of bribes)
-- Revenue sharing with Marinade (proposed 10-30%)
-
-## Caveat
-
-This is a forward-looking market estimate from a proposal seeking funding. The $1.7M figure is speculative and depends on assumptions about validator willingness to pay, staking yields, and participation rates. No historical data confirms validators would actually pay at this rate.
-
----
-
-Relevant Notes:
-- [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]]
-- [[futarchy-based fundraising creates regulatory separation because there are no beneficial owners and investment decisions emerge from market forces not centralized control]]
-
-Topics:
-- [[domains/internet-finance/_map]]
+## Source
+- [[2023-11-18-futardio-proposal-develop-a-lst-vote-market]]
