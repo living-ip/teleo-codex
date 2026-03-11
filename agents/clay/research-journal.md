@@ -37,3 +37,30 @@ Two complications emerged that prevent premature confidence:
 - Belief 5 (ownership alignment → active narrative architects): STRENGTHENED by UGC trust data (6.9x engagement premium for community content, 92% trust peers over brands). But still lacking entertainment-specific evidence — the trust data is from marketing UGC, not entertainment IP.
 - NEW PATTERN EMERGING: "human-made" as a market category. If this crystallizes (like "organic" food), it creates permanent structural advantage for models where human provenance is legible. Community-owned IP is positioned for this but isn't the only model that benefits — individual creators, small studios, and craft-positioned brands also benefit.
 - Pudgy Penguins IPO tension identified but not resolved: does public equity dilute community ownership? This is a Belief 5 stress test. If the IPO weakens community governance, the "ownership → stakeholder" claim needs scoping to pre-IPO or non-public structures.
+
+---
+
+## Session 2026-03-11 (Session 3)
+**Question:** Does community-owned IP bypass the McKinsey distributor value capture dynamic, or does it just shift which distributor captures value?
+
+**Key finding:** Community-owned IP uses three distinct distribution strategies that each change the value capture dynamic differently:
+1. **Retail-first** (Pudgy Penguins): Walmart distributes, but community IS the marketing (15x ROAS, "Negative CAC"). Distributor captures retail margin; community captures digital relationship + long-term LTV. Revenue: $13M→$120M trajectory.
+2. **Platform-first** (Claynosaurz): YouTube distributes, but community provides guaranteed launch audience at near-zero marketing cost. Mediawan co-production (not licensing) preserves creator control.
+3. **Owned-platform** (Dropout, Beacon, Side+): Creator IS the distributor. Dropout: $80-90M revenue, 40-45% EBITDA, $3M+ revenue per employee (6-15x traditional). But TAM ceiling: may have reached 50-67% of addressable market.
+
+The McKinsey model (84% distributor concentration, $60B redistribution to distributors) assumes producer-distributor SEPARATION. Community IP dissolves this separation: community pre-aggregates demand, and content becomes loss leader for scarce complements. MrBeast proves this at scale: Feastables $250M revenue vs -$80M media loss; $5B valuation; content IS the marketing budget.
+
+**Pattern update:** Three-session pattern now CLEAR:
+- Session 1: Consumer rejection is epistemic, not aesthetic → authenticity premium is durable
+- Session 2: Community provenance is a legible authenticity signal → "human-made" as market category
+- Session 3: Community distribution bypasses traditional value capture → BUT three different bypass mechanisms for different scale/niche targets
+
+The CONVERGING PATTERN: community-owned IP has structural advantages along THREE dimensions simultaneously: (1) authenticity premium (demand side), (2) provenance legibility (trust/verification), and (3) distribution bypass (value capture). No single dimension is decisive alone, but the combination creates a compounding advantage that my attractor state model captured directionally but underspecified mechanistically.
+
+COMPLICATION that prevents premature confidence: owned-platform distribution (Dropout) may hit TAM ceilings. The distribution bypass spectrum suggests most community IPs will use HYBRID strategies (platform for reach, owned for monetization) rather than pure owned distribution. This is less clean than my attractor state model implies.
+
+**Confidence shift:**
+- Belief 3 (production cost collapse → community = new scarcity): STRENGTHENED AND REFINED. Cost collapse PLUS distribution bypass PLUS authenticity premium create a three-legged structural advantage. But the pathway is hybrid, not pure community-owned. Communities will use platforms for reach and owned channels for value capture — the "distribution bypass spectrum" is the right framing.
+- Belief 5 (ownership alignment → active narrative architects): COMPLICATED by PENGU token data. PENGU declined 89% while Pudgy Penguins retail revenue grew 123% CAGR. Community ownership may function through brand loyalty and retail economics, not token economics. The "ownership" in "community-owned IP" may be emotional/cultural rather than financial/tokenized.
+- KB claim "conservation of attractive profits" STRONGLY VALIDATED: MrBeast ($-80M media, $+20M Feastables), Dropout (40-45% EBITDA through owned distribution), Swift ($4.1B Eras Tour at 7x recorded music revenue). Profits consistently migrate from content to scarce complements.
+- NEW PATTERN: Distribution graduation. Critical Role went platform → traditional (Amazon) → owned (Beacon). Dropout went platform → owned. Is there a natural rightward migration on the distribution bypass spectrum as community IPs grow? If so, this is a prediction the KB should capture.
