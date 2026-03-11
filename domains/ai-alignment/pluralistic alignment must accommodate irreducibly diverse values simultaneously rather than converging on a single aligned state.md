@@ -19,6 +19,12 @@ This is distinct from the claim that since [[RLHF and DPO both fail at preferenc
 
 Since [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]], pluralistic alignment is the practical response to the theoretical impossibility: stop trying to aggregate and start trying to accommodate.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-02-00-chakraborty-maxmin-rlhf]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MaxMin-RLHF provides constructive implementation: learns mixture of reward models via EM clustering, then applies egalitarian MaxMin objective (maximize minimum group utility). At Tulu2-7B scale, achieved 56.67% win rate across both majority and minority groups vs. single-reward's 70.4%/42% split. Critically, minority improvement (33% boost) came without majority degradation, suggesting compatibility rather than zero-sum tradeoff. This demonstrates pluralistic alignment is not just normatively desirable but empirically achievable through appropriate aggregation mechanisms.
+
 ---
 
 Relevant Notes:

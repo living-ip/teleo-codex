@@ -7,9 +7,15 @@ date: 2024-02-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: processed
 priority: high
 tags: [maxmin-rlhf, egalitarian-alignment, diverse-preferences, social-choice, reward-mixture, impossibility-result]
+processed_by: theseus
+processed_date: 2024-02-14
+claims_extracted: ["single-reward-rlhf-cannot-align-models-with-diverse-human-preferences.md", "maxmin-rlhf-applies-egalitarian-social-choice-to-alignment-by-maximizing-minimum-group-utility.md", "maxmin-alignment-improves-minority-group-performance-without-compromising-majority-outcomes.md"]
+enrichments_applied: ["pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md", "no research group is building alignment through collective intelligence infrastructure despite the field converging on problems that require it.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three new claims extracted: (1) formal impossibility of single-reward RLHF under preference diversity, (2) MaxMin-RLHF as egalitarian social choice mechanism, (3) Pareto improvement results suggesting value-on-table rather than zero-sum tradeoffs. Three enrichments: confirms existing preference diversity failure claim with formal proof, extends pluralistic alignment claim with constructive mechanism, challenges 'no research group' claim with counterexample. Key contribution: first constructive mechanism addressing single-reward impossibility while demonstrating empirical minority improvement without majority compromise."
 ---
 
 ## Content

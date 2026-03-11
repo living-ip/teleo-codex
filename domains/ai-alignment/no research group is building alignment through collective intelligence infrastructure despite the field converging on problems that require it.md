@@ -17,6 +17,12 @@ This gap is remarkable because the field's own findings point toward collective 
 
 The alignment field has converged on a problem they cannot solve with their current paradigm (single-model alignment), and the alternative paradigm (collective alignment through distributed architecture) has barely been explored. This is the opening for the TeleoHumanity thesis -- not as philosophical speculation but as practical infrastructure that addresses problems the alignment community has identified but cannot solve within their current framework.
 
+
+### Additional Evidence (challenge)
+*Source: [[2024-02-00-chakraborty-maxmin-rlhf]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MaxMin-RLHF applies social choice theory (Sen's Egalitarian principle) to alignment via mixture-of-rewards and MaxMin optimization. Published at ICML 2024 by multi-institutional team (Chakraborty, Qiu, Yuan, Koppel, Manocha, Huang, Bedi, Wang). While not full collective intelligence infrastructure, it demonstrates active research translating social choice mechanisms into alignment practice. The claim that 'no research group' is doing this work may be overstated—though the broader point about infrastructure gaps (lack of systemic, long-term coordination mechanisms) likely remains valid.
+
 ---
 
 Relevant Notes:
