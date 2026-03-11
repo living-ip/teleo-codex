@@ -34,6 +34,12 @@ Mediawan Kids & Family (major European studio group) partnered with Claynosaurz 
 
 The shift extends beyond seeking pre-existing engagement data. Brands are now forming 'long-term joint ventures where formats, audiences and revenue are shared' with creators, indicating evolution from data-seeking risk mitigation to co-ownership of audience relationships. The most sophisticated creators operate as 'small media companies, with audience data, formats, distribution strategies and commercial leads,' suggesting brands now seek co-ownership of the entire audience infrastructure, not just access to engagement metrics.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-10-01-variety-claynosaurz-creator-led-transmedia]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Claynosaurz's distribution strategy explicitly positions community data as the value proposition for traditional buyers: launch on YouTube first to generate engagement metrics, then sell to TV/streaming buyers with proven performance data. The nearly 1 billion social views serve as pre-existing community engagement data that de-risks the content for downstream buyers. This confirms the claim that buyers seek community data, and extends it by showing creators can generate that data through platform-first distribution before approaching buyers.
+
 ---
 
 Relevant Notes:

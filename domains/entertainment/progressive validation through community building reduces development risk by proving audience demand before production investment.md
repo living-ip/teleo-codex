@@ -31,6 +31,12 @@ This is the lean startup model applied to entertainment IP incubation — build,
 
 Claynosaurz built 450M+ views, 200M+ impressions, and 530K+ subscribers before securing Mediawan co-production deal for 39-episode animated series. The community metrics preceded the production investment, demonstrating progressive validation in practice. Founders (former VFX artists at Sony Pictures, Animal Logic, Framestore) used community building to de-risk the pitch to traditional studio partner, validating the thesis that audience demand proven through community metrics reduces perceived development risk.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-10-01-variety-claynosaurz-creator-led-transmedia]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Claynosaurz demonstrates progressive validation through community-first development: nearly 1 billion social views generated before the 39-episode animated series production. Nic Cabana explicitly stated that community pre-existence 'guarantees launch audience,' directly confirming the risk-reduction mechanism. The Method Animation co-production partnership suggests that professional studios are willing to partner based on validated community demand rather than requiring traditional development/pilot processes.
+
 ---
 
 Relevant Notes:
