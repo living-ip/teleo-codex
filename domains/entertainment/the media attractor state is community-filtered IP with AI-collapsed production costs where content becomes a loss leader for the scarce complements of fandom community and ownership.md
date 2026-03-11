@@ -290,6 +290,12 @@ Entertainment is the domain where TeleoHumanity eats its own cooking.
 
 The crystallization of 'human-made' as a premium label adds a new dimension to the scarcity analysis: not just community and ownership, but verifiable human provenance becomes scarce and valuable as AI content becomes abundant. EY's guidance that companies must 'keep what people see and feel recognizably human—authentic faces, genuine stories and shared cultural moments' to build 'deeper trust and stronger brand value' suggests human provenance is becoming a distinct scarce complement alongside community and ownership. As production costs collapse toward compute costs (per the non-ATL production costs claim), the ability to credibly signal human creation becomes a scarce resource that differentiates content. Community-owned IP may have structural advantage in signaling this provenance because ownership structure itself communicates human creation, while corporate content must construct proof through external verification. This extends the attractor claim by identifying human provenance as an additional scarce complement that becomes valuable in the AI-abundant, community-filtered media landscape.
 
+
+### Additional Evidence (challenge)
+*Source: [[2026-01-01-mckinsey-ai-film-tv-production-future]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+McKinsey's analysis represents how traditional media/entertainment executives understand AI disruption and reveals a significant blind spot: the report frames AI impact entirely within incumbent industry structure with no mention of community-owned models, creator economy, community IP, or Web3 alternatives. The analysis assumes current market structure persists (platform consolidation, traditional distribution) and concludes distributors will capture most AI-driven value. This challenges the attractor state claim by showing that industry incumbents are not planning for or expecting community-owned models to emerge as the dominant form. However, this may represent the limitation of McKinsey's interview base (studio executives, traditional producers) rather than evidence against the attractor state — incumbents typically don't see the disruption coming. The absence of community models in incumbent planning may actually be evidence that such models represent a genuine alternative attractor not yet visible to traditional industry players.
+
 ---
 
 Relevant Notes:

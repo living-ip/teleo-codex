@@ -17,6 +17,12 @@ This two-phase structure is a powerful application of [[when profits disappear a
 
 The two-moat framework has cross-domain implications. In healthcare, distribution (insurance networks, hospital systems) was the first moat to face pressure, while creation (clinical expertise, care delivery) has remained protected. In knowledge work, [[collective intelligence disrupts the knowledge industry not frontier AI labs because the unserved job is collective synthesis with attribution and frontier models are the substrate not the competitor]] describes a similar two-phase dynamic: first distribution of knowledge was democratized (internet/search), now creation of knowledge is being disrupted (AI), and value migrates to synthesis and validation.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-01-mckinsey-ai-film-tv-production-future]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+McKinsey's analysis adds a critical third-order effect to the two-phase model: even as creation costs fall (phase two), distributors can recapture the value through structural market dynamics. Three factors enable this: (1) crowded producer market creates competitive pressure preventing producers from retaining efficiency gains, (2) consolidating buyer landscape gives distributors monopsony power, (3) budget transparency makes cost reductions visible to buyers who demand lower production budgets. This means production cost collapse alone does not shift power to creators/communities — it requires distribution alternatives as well. The $60B projected revenue redistribution flows primarily to distributors despite producers making the technology investments. This extends the two-phase model by showing that phase two (creation moat collapse) does not automatically result in power shifting to creators; value capture depends on whether alternative distribution architectures emerge.
+
 ---
 
 Relevant Notes:

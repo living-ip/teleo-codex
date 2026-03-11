@@ -7,9 +7,15 @@ date: 2026-01-01
 domain: entertainment
 secondary_domains: [teleological-economics]
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [AI-production, value-redistribution, cost-collapse, disruption-economics, film-industry]
+processed_by: clay
+processed_date: 2026-03-11
+claims_extracted: ["historical-entertainment-technology-transitions-consistently-produce-35-percent-revenue-contraction-for-incumbents-within-five-years.md", "ai-driven-production-efficiencies-accrue-primarily-to-distributors-not-producers-because-of-structural-market-dynamics.md", "production-workflow-shift-from-fix-it-in-post-to-fix-it-in-pre-reallocates-value-across-production-houses-vfx-providers-and-distributors.md"]
+enrichments_applied: ["non-ATL production costs will converge with the cost of compute as AI replaces labor across the production chain.md", "media disruption follows two sequential phases as distribution moats fall first and creation moats fall second.md", "the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted three claims: (1) 35% contraction pattern across historical transitions, (2) distributor value capture from AI efficiencies, (3) workflow shift from post to pre. The distributor value capture finding is the most important — it directly challenges the 'AI democratizes creation' narrative and shows that production cost collapse alone doesn't shift power without distribution alternatives. Enriched three existing claims with confirming/extending/challenging evidence. McKinsey's complete omission of community-owned models represents the incumbent blind spot — they're planning for AI within existing industry structure."
 ---
 
 ## Content
@@ -52,3 +58,12 @@ Three major technology shifts each resulted in ~35% revenue contraction for incu
 PRIMARY CONNECTION: [[non-ATL production costs will converge with the cost of compute as AI replaces labor across the production chain]]
 WHY ARCHIVED: Authoritative financial projections ($60B redistribution, 35% contraction pattern) and the COUNTER-FINDING that distributors, not producers, capture most AI value
 EXTRACTION HINT: The distributor value capture finding is the most important — it complicates the "AI democratizes creation" narrative. Also: the 35% contraction pattern is a strong historical regularity worth claiming.
+
+
+## Key Facts
+- $10B of forecast US original content spend addressable by AI in 2030 (~20% of original content spend)
+- $60B annual revenue redistribution within five years of mass AI adoption
+- $13.2B projected decline in US TV/film distribution revenues if open platforms captured additional 5% of viewing hours
+- $7.5B partial offset from increased open-platform revenues in same scenario
+- Current state: Single-digit productivity improvement in some use cases
+- AI-generated output not yet at quality level to drive meaningful disruption in premium production

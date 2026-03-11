@@ -23,6 +23,12 @@ If non-ATL costs fall to thousands or millions rather than hundreds of millions,
 
 A concrete early signal: a 9-person team reportedly produced an animated film for ~$700K. The trajectory is from $200M to potentially $1M or less for competitive content, with the timeline gated by consumer acceptance rather than technology capability.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-01-01-mckinsey-ai-film-tv-production-future]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+McKinsey projects $10B of forecast US original content spend addressable by AI in 2030, representing approximately 20% of original content spend. This is the most authoritative financial projection to date of AI's addressable production cost impact from a mainstream industry source. The report is based on interviews with 20+ studio executives, producers, AI innovators, and academics, providing industry consensus validation of the cost convergence thesis. However, the report notes that current AI-generated output is not yet at quality level to drive meaningful disruption in premium production, indicating the convergence is projected rather than realized. The $10B figure represents the addressable spend where AI can meaningfully replace labor, not total production spend.
+
 ---
 
 Relevant Notes:
