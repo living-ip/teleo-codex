@@ -19,6 +19,12 @@ Since [[democratic alignment assemblies produce constitutions as effective as ex
 
 Since [[collective intelligence requires diversity as a structural precondition not a moral preference]], community-centred norm elicitation is a concrete mechanism for ensuring the structural diversity that collective alignment requires. Without it, alignment defaults to the values of whichever demographic builds the systems.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-06-00-li-scaling-human-judgment-community-notes-llms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The RLCF architecture makes community-centered norm elicitation operational by separating generation (AI) from evaluation (community). The bridging algorithm specifically selects for norms that cross partisan divides, not developer preferences. Li et al. show this produces different content than either expert-written notes or single-constituency optimization would generate. The intercept score (c_j in the matrix factorization) is a quantitative measure of cross-community agreement, making 'materially different' measurable rather than qualitative. This demonstrates that community-centered evaluation produces alignment targets that diverge from what centralized developers would specify.
+
 ---
 
 Relevant Notes:

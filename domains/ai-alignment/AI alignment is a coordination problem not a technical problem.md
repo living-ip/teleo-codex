@@ -21,6 +21,12 @@ Dario Amodei describes AI as "so powerful, such a glittering prize, that it is v
 
 Since [[the internet enabled global communication but not global cognition]], the coordination infrastructure needed doesn't exist yet. This is why [[collective superintelligence is the alternative to monolithic AI controlled by a few]] -- it solves alignment through architecture rather than attempting governance from outside the system.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-06-00-li-scaling-human-judgment-community-notes-llms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The RLCF architecture explicitly treats alignment as coordination: the technical components (LLM generation, matrix factorization) serve a coordination function (aggregating diverse human judgments into collective decisions about what content surfaces). Li et al. frame the challenge as 'scaling human judgment' not 'training better models'—the AI is infrastructure for human coordination, not a substitute for it. The bridging algorithm is a coordination mechanism that makes cross-partisan agreement the selection criterion. This confirms that alignment problems are fundamentally about coordinating multiple stakeholders' values, not about engineering better reward functions.
+
 ---
 
 Relevant Notes:

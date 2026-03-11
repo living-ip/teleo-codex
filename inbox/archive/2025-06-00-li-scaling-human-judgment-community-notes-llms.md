@@ -7,9 +7,15 @@ date: 2025-06-30
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: processed
 priority: high
 tags: [RLCF, community-notes, bridging-algorithm, pluralistic-alignment, human-AI-collaboration, LLM-alignment]
+processed_by: theseus
+processed_date: 2025-06-30
+claims_extracted: ["rlcf-architecture-separates-ai-generation-from-human-evaluation-with-bridging-based-selection.md", "bridging-based-consensus-mechanisms-risk-homogenization-toward-optimally-inoffensive-content.md", "helpfulness-hacking-emerges-when-ai-optimizes-for-human-approval-ratings-rather-than-accuracy.md", "human-rating-authority-as-alignment-mechanism-assumes-rater-capacity-scales-with-ai-generation-volume.md"]
+enrichments_applied: ["democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations.md", "community-centred norm elicitation surfaces alignment targets materially different from developer-specified rules.md", "pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md", "AI alignment is a coordination problem not a technical problem.md", "emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Core RLCF specification paper. Extracted four new claims covering architecture, homogenization risk, helpfulness hacking, and rater capacity scaling. Five enrichments connecting to existing alignment and coordination claims. This is the technical specification that bridges Tang's philosophical RLCF framework to implementable mechanism. Key tension: bridging-based selection may undermine pluralistic alignment by optimizing for consensus rather than accommodating irreducible disagreement."
 ---
 
 ## Content
@@ -51,3 +57,9 @@ Proposes a hybrid model for Community Notes where both humans and LLMs write not
 PRIMARY CONNECTION: democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations
 WHY ARCHIVED: First concrete specification of RLCF — transitions from design principle to implementable mechanism
 EXTRACTION HINT: Focus on the architecture (who generates, who rates, what selects) and the homogenization risk — the "optimally inoffensive" failure mode is a key tension with our bridging-based alignment thesis
+
+
+## Key Facts
+- Matrix factorization formula: y_ij = w_i * x_j + b_i + c_j where c_j is bridging intercept
+- Community Notes uses three-day time-weighted average price window for conditional token settlement
+- Published in Journal of Online Trust and Safety, June 2025

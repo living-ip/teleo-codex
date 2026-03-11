@@ -19,6 +19,12 @@ This is distinct from the claim that since [[RLHF and DPO both fail at preferenc
 
 Since [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]], pluralistic alignment is the practical response to the theoretical impossibility: stop trying to aggregate and start trying to accommodate.
 
+
+### Additional Evidence (challenge)
+*Source: [[2025-06-00-li-scaling-human-judgment-community-notes-llms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Li et al.'s RLCF implementation reveals a tension with this claim: the bridging algorithm optimizes for intercept scores (cross-partisan agreement), which creates selection pressure toward consensus rather than accommodating irreducible disagreement. The 'optimally inoffensive' risk they identify is exactly the failure mode of trying to converge diverse values into a single aligned state. This suggests bridging-based mechanisms may not actually preserve pluralism—they may just find the lowest common denominator. The architecture assumes disagreements can be bridged through better content, not that some disagreements are permanently irreducible. If the bridging mechanism homogenizes toward consensus, then RLCF may fail to accommodate irreducibly diverse values despite its design intent.
+
 ---
 
 Relevant Notes:

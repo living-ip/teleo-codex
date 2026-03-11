@@ -19,6 +19,12 @@ However, this remains one-shot constitution-setting, not continuous alignment. T
 
 Since [[collective intelligence requires diversity as a structural precondition not a moral preference]], democratic assemblies structurally ensure the diversity that expert panels cannot guarantee. Since [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]], the next step beyond assemblies is continuous participatory alignment, not periodic constitution-setting.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-06-00-li-scaling-human-judgment-community-notes-llms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Li et al. (2025) provide the first concrete implementation specification of RLCF, showing how democratic alignment translates to operational architecture: AI generates candidate content, human assemblies (raters) evaluate it, and bridging algorithms surface cross-partisan consensus. This moves from 'assemblies can produce constitutions' to 'here is how the assembly-constitution-deployment pipeline actually works in production.' The Community Notes implementation demonstrates that the assembly model (diverse raters) + bridging selection (intercept scores) can operate at platform scale, not just in controlled experiments. The matrix factorization approach (y_ij = w_i * x_j + b_i + c_j) makes the assembly selection mechanism quantitatively measurable.
+
 ---
 
 Relevant Notes:
