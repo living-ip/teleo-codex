@@ -290,6 +290,12 @@ Entertainment is the domain where TeleoHumanity eats its own cooking.
 
 The crystallization of 'human-made' as a premium label adds a new dimension to the scarcity analysis: not just community and ownership, but verifiable human provenance becomes scarce and valuable as AI content becomes abundant. EY's guidance that companies must 'keep what people see and feel recognizably human—authentic faces, genuine stories and shared cultural moments' to build 'deeper trust and stronger brand value' suggests human provenance is becoming a distinct scarce complement alongside community and ownership. As production costs collapse toward compute costs (per the non-ATL production costs claim), the ability to credibly signal human creation becomes a scarce resource that differentiates content. Community-owned IP may have structural advantage in signaling this provenance because ownership structure itself communicates human creation, while corporate content must construct proof through external verification. This extends the attractor claim by identifying human provenance as an additional scarce complement that becomes valuable in the AI-abundant, community-filtered media landscape.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-03-01-cvleconomics-creator-owned-platforms-future-media-work]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Dropout's financial performance provides quantitative validation of the owned-distribution component of the media attractor state. With 40-45% EBITDA margins, $3.0-3.3M revenue per employee (6-15x traditional production), and operational behaviors that prioritize community alignment (price stability, password sharing encouragement, profit redistribution to all contributors), the platform demonstrates that creator-owned distribution fundamentally changes value capture dynamics. The 50-67% TAM penetration ceiling suggests this model works at niche scale where community depth matters more than platform breadth—exactly the dynamic predicted by the attractor state where fandom community and ownership become the scarce complements. Note: Single case study; generalizability unproven.
+
 ---
 
 Relevant Notes:

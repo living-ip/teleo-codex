@@ -7,9 +7,15 @@ date: 2026-03-01
 domain: entertainment
 secondary_domains: [internet-finance]
 format: article
-status: unprocessed
+status: processed
 priority: high
 tags: [creator-economy, owned-distribution, dropout, platform-economics, value-capture]
+processed_by: clay
+processed_date: 2026-03-11
+claims_extracted: ["creator-owned-platforms-achieve-40-45-percent-EBITDA-margins-and-3-million-revenue-per-employee-versus-traditional-media-200-500K.md", "creator-owned-distribution-reaches-TAM-ceiling-at-50-67-percent-penetration-creating-structural-scaling-constraint.md", "creator-ownership-enables-sustainability-oriented-operations-including-price-stability-password-sharing-and-profit-redistribution.md"]
+enrichments_applied: ["the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership.md", "media disruption follows two sequential phases as distribution moats fall first and creation moats fall second.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Strongest quantitative evidence for owned-distribution economics in entertainment domain. Three claims extracted focusing on: (1) financial performance differential vs traditional media, (2) TAM ceiling constraint, (3) ownership-enabled operational behaviors. Three enrichments applied to existing attractor state and value chain claims. All claims rated experimental due to single-case-study limitation despite strong quantitative data. Missing: comparison data with YouTube-dependent creators at similar audience scale, which would strengthen the platform-dependent vs owned-distribution comparison."
 ---
 
 ## Content
@@ -50,3 +56,12 @@ Analysis of creator-owned streaming platforms vs platform-dependent distribution
 PRIMARY CONNECTION: the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership
 WHY ARCHIVED: Strongest quantitative evidence that owned-platform distribution fundamentally changes value capture dynamics — not just marginal improvement but 20-40x ARPU premium
 EXTRACTION HINT: Focus on the structural economics comparison (revenue per employee, EBITDA margins, ARPU differential) rather than the Dropout-specific narrative. The TAM ceiling finding is equally important — it suggests owned distribution works at niche scale but may not generalize.
+
+
+## Key Facts
+- Dropout subscriber base: Over 1 million (2026)
+- Dropout revenue: $80-90 million estimated (2026)
+- Dropout EBITDA margins: 40-45% (2026)
+- Dropout employees: 40 full-time (2026)
+- Dropout revenue per employee: $3.0-3.3 million vs traditional production $200-500K
+- Dropout TAM penetration: 50-67% of global addressable market (CVL Economics estimate)

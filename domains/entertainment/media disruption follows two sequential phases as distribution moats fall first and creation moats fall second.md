@@ -17,6 +17,12 @@ This two-phase structure is a powerful application of [[when profits disappear a
 
 The two-moat framework has cross-domain implications. In healthcare, distribution (insurance networks, hospital systems) was the first moat to face pressure, while creation (clinical expertise, care delivery) has remained protected. In knowledge work, [[collective intelligence disrupts the knowledge industry not frontier AI labs because the unserved job is collective synthesis with attribution and frontier models are the substrate not the competitor]] describes a similar two-phase dynamic: first distribution of knowledge was democratized (internet/search), now creation of knowledge is being disrupted (AI), and value migrates to synthesis and validation.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-01-cvleconomics-creator-owned-platforms-future-media-work]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Dropout represents the distribution moat collapse phase with quantified economics: $3.0-3.3M revenue per employee (6-15x traditional) and 40-45% EBITDA margins demonstrate that owned-distribution eliminates the value extraction of traditional distributor intermediaries. However, the 50-67% TAM penetration ceiling suggests owned-distribution works at niche scale, which may limit how completely this phase disrupts platform-scale distribution. The model optimizes for depth (community alignment, margin efficiency) rather than breadth (TAM expansion), creating a bifurcated landscape rather than complete replacement of platform distribution. This suggests the distribution moat collapse may be partial rather than total—owned-distribution captures value from niche audiences while platform distribution retains scale advantages. Note: Single case study; TAM ceiling estimate lacks disclosed methodology.
+
 ---
 
 Relevant Notes:
