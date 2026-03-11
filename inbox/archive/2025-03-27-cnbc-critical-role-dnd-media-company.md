@@ -6,10 +6,15 @@ url: https://www.cnbc.com/2025/03/27/critical-role-d-and-d-media-company.html
 date: 2025-03-27
 domain: entertainment
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: low
 tags: [critical-role, community-ip, creator-media-company, beacon, tabletop-rpg]
+processed_by: clay
+processed_date: 2025-03-27
+enrichments_applied: ["progressive validation through community building reduces development risk by proving audience demand before production investment.md", "traditional media buyers now seek content with pre-existing community engagement data as risk mitigation.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted one new claim about distribution graduation pattern (platform → traditional → owned) as additive layering strategy. Two enrichments confirming progressive validation and traditional buyer risk mitigation. Key limitation: single case study with no revenue breakdown, so economic superiority of owned distribution cannot be assessed. Confidence capped at experimental due to N=1 evidence base."
 ---
 
 ## Content
@@ -40,3 +45,10 @@ CNBC profile of Critical Role's evolution from a D&D livestream to a media compa
 PRIMARY CONNECTION: progressive validation through community building reduces development risk by proving audience demand before production investment
 WHY ARCHIVED: Evidences the "graduation" pattern in distribution — community IPs may naturally migrate from platform-dependent to owned distribution as they grow. This is Direction B from Session 3 follow-ups.
 EXTRACTION HINT: The graduation trajectory (platform → traditional → owned) is the key pattern. Individual Critical Role details are less important.
+
+
+## Key Facts
+- Critical Role launched Beacon streaming platform in May 2024
+- Legend of Vox Machina animated series distributed via Amazon
+- Critical Role maintains simultaneous free distribution on YouTube/Twitch alongside Beacon
+- Critical Role revenue sources include merchandise, live shows, publishing, and multiple distribution channels (specific breakdown not provided)
