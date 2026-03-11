@@ -53,6 +53,12 @@ Autocrat is MetaDAO's core governance program on Solana -- the on-chain implemen
 
 **Limitations.** [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- when proposals are clearly good or clearly bad, few traders participate because the expected profit from trading in a consensus market is near zero. This is a structural feature, not a bug: contested decisions get more participation precisely because they're uncertain, which is when you most need information aggregation. But it does mean uncontested proposals can pass or fail with very thin markets, making the TWAP potentially noisy.
 
+
+### Additional Evidence (confirm)
+*Source: [[2023-12-03-futardio-proposal-migrate-autocrat-program-to-v01]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The Autocrat v0.1 migration proposal (2023-12-03) confirms the three-day settlement window is a deliberate design choice for operational velocity. The proposer made proposal duration configurable and explicitly set the default to 3 days 'to allow for quicker feedback loops,' indicating this was a tuned parameter based on deployment experience rather than an arbitrary technical constant. The proposal migrated 990,000 META, 10,025 USDC, and 5.5 SOL to the new program version, confirming this was a significant protocol upgrade.
+
 ---
 
 Relevant Notes:

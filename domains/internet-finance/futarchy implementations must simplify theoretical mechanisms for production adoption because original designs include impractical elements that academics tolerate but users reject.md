@@ -35,6 +35,12 @@ This pattern is general. Since [[futarchy adoption faces friction from token pri
 - MetaDAO's current scale ($219M total futarchy marketcap) may be too small to attract sophisticated attacks that the removed mechanisms were designed to prevent
 - Hanson might argue that MetaDAO's version isn't really futarchy at all — just conditional prediction markets used for governance, which is a narrower claim
 
+
+### Additional Evidence (extend)
+*Source: [[2023-12-03-futardio-proposal-migrate-autocrat-program-to-v01]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The Autocrat v0.1 upgrade demonstrates production futarchy simplification through two mechanisms: (1) Making proposal duration configurable rather than fixed, allowing operators to tune feedback velocity based on market conditions; (2) Accepting counterparty risk from non-verifiable builds due to tooling constraints. The proposer stated: 'Unfortunately, for reasons I can't get into, I was unable to build this new program with solana-verifiable-build.' This shows production futarchy faces operational constraints (verifiable build tooling, deployment security) that theoretical designs don't address. The proposer acknowledged this gap and committed to verifiable builds for future versions, indicating the team recognized this as a temporary simplification rather than a permanent design choice.
+
 ---
 
 Relevant Notes:

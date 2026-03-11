@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/AkLsnieYpCU2UsSqUNrbMrQNi9bvdnjxx75mZbJns9z
 date: 2023-12-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-01-15
+claims_extracted: ["metadao-autocrat-v01-reduced-proposal-duration-to-three-days-enabling-faster-governance-iteration.md"]
+enrichments_applied: ["MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "futarchy implementations must simplify theoretical mechanisms for production adoption because original designs include impractical elements that academics tolerate but users reject.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Single proposal data point. Main extractable claim is the 3-day duration change as a design choice for faster iteration. Enrichments focus on confirming the 3-day TWAP window, extending the simplification-for-production claim with verifiable build constraints, and challenging the corporate scaffolding claim with evidence of programmatic treasury migration (though with security caveats)."
 ---
 
 ## Proposal Details
@@ -63,3 +69,11 @@ For future versions, I should always be able to use verifiable builds.
 - Autocrat version: 0
 - Completed: 2023-12-13
 - Ended: 2023-12-13
+
+
+## Key Facts
+- MetaDAO Autocrat v0.1 proposal created 2023-12-03, passed and completed 2023-12-13
+- Treasury migration: 990,000 META, 10,025 USDC, 5.5 SOL from v0 to v0.1 program
+- Proposal account: AkLsnieYpCU2UsSqUNrbMrQNi9bvdnjxx75mZbJns9zi
+- Code changes: github.com/metaDAOproject/meta-dao/pull/36/files
+- Deployment used non-verifiable build due to unspecified constraints
