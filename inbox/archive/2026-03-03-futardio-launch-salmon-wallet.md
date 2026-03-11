@@ -6,7 +6,7 @@ url: "https://www.futard.io/launch/Aakx1gdDoNQYqiv5uoqdXx56mGr6AbZh73SWpxHrk2qF"
 date: 2026-03-03
 domain: internet-finance
 format: data
-status: null-result
+status: entity-data
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
 processed_by: rio
