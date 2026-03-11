@@ -15,6 +15,12 @@ The mixed-mechanism approach deploys three complementary tools. Meritocratic vot
 
 The interaction between mechanisms creates its own value. Each mechanism generates different data: voting reveals community preferences, prediction markets surface distributed knowledge, futarchy stress-tests decisions through market forces. Organizations can compare outcomes across mechanisms and continuously refine which tool to deploy when. This creates a positive feedback loop of governance learning. Since [[recursive improvement is the engine of human progress because we get better at getting better]], mixed-mechanism governance enables recursive improvement of decision-making itself.
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-08-14-futardio-proposal-develop-memecoin-launchpad]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MetaDAO used futarchy to decide whether to build futardio, demonstrating recursive application of the governance mechanism to strategic direction decisions. The proposal stated: 'We are not sure whether it makes sense for MetaDAO to release such a platform. There are potential advantages and potential pitfalls. So we are putting this decision up to the market.' This shows MetaDAO treating futarchy as the appropriate mechanism for strategic direction decisions with uncertain payoffs and competing tradeoffs, while presumably using other mechanisms (direct team execution) for operational decisions. The proposal explicitly listed tradeoffs (distribution benefits vs reputational risks) that required market aggregation rather than expert judgment, validating the principle that different decision types require different mechanisms.
+
 ---
 
 Relevant Notes:

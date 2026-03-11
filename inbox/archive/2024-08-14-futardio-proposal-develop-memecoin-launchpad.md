@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/J57DcV2yQGiDpSetQHui6Piwjwsbet2ozXVPG77kTvT
 date: 2024-08-14
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-08-14
+claims_extracted: ["futarchy-governed-memecoin-launchpad-creates-distribution-channel-for-futarchy-adoption-through-token-allocation-to-daos.md", "memecoin-launchpad-with-bootstrapping-token-represents-market-opening-for-pump-fun-competitors.md"]
+enrichments_applied: ["futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two new claims about futarchy distribution strategy and memecoin launchpad market dynamics. Applied four enrichments confirming/extending existing claims about reputational risk, MetaDAO's adoption challenges, futarchy friction points, and mechanism mixing. The proposal's failure is itself significant evidence—revealed preference against this distribution strategy. Confidence levels kept experimental/speculative given single failed proposal as evidence base."
 ---
 
 ## Proposal Details
@@ -124,3 +130,16 @@ This would all be left to the discretion of the team building it, but they would
 - Autocrat version: 0.3
 - Completed: 2024-08-18
 - Ended: 2024-08-18
+
+
+## Key Facts
+- Futardio proposal number: 5
+- Proposal created: 2024-08-14
+- Proposal completed: 2024-08-18
+- Proposal status: Failed
+- Proposed funding: $100k grant over 6 months
+- Proposed launch timeline: Q3 2024
+- Proposed token: $FUTA
+- Token distribution: points owners + MetaDAO only
+- Points conversion window: max 180 days
+- Deployment target: immutable on IPFS or Arweave

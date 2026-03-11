@@ -32,6 +32,12 @@ The implication for Living Capital: since [[agents create dozens of proposals bu
 - The "reputational liability" framing assumes MetaDAO's brand is the primary draw — but if futarchy governance itself is the value, the brand is secondary
 - Two-tier systems tend to become de facto caste systems where the lower tier never graduates to the upper tier
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-08-14-futardio-proposal-develop-memecoin-launchpad]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The futardio proposal explicitly identified reputational risk as a core concern: 'Makes futarchy look less serious' and 'May make it harder to sell DeFi DAOs / non-crypto organizations' and 'May make it harder to recruit contributors.' The proposal acknowledged that associating futarchy with memecoin launches could damage MetaDAO's ability to attract serious institutional users and quality contributors. The market's rejection of the proposal (vote failed 2024-08-18) suggests this reputational concern was validated—the conditional markets determined that the reputational damage outweighed the distribution benefits. This provides empirical evidence that brand separation concerns are not merely theoretical but material enough to influence strategic decisions.
+
 ---
 
 Relevant Notes:

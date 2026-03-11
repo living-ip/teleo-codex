@@ -34,6 +34,12 @@ MycoRealms implementation reveals operational friction points: monthly $10,000 a
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-08-14-futardio-proposal-develop-memecoin-launchpad]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The futardio proposal identified a specific adoption friction: the mismatch between futarchy's ideal use-cases and available users. The proposal argued that 'memecoin holders only want the price of the token to increase' making them ideal futarchy users because there's 'no question of maybe the market knows what's the best short-term action, but not the best long-term action.' This implies that futarchy faces adoption challenges with organizations that have multi-objective functions or long-term versus short-term tradeoffs. The proposal's failure suggests even this 'ideal' use-case wasn't compelling enough to overcome the reputational and focus costs, indicating adoption friction extends beyond mechanism complexity to include organizational fit and brand alignment concerns.
+
 ---
 
 Relevant Notes:
