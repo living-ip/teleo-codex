@@ -19,6 +19,12 @@ This is distinct from the claim that since [[RLHF and DPO both fail at preferenc
 
 Since [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]], pluralistic alignment is the practical response to the theoretical impossibility: stop trying to aggregate and start trying to accommodate.
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-04-00-conitzer-social-choice-guide-alignment]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Conitzer et al. (2024) explicitly endorse the 'pluralism option' as a structural alternative to single-system alignment. They argue that when values are genuinely incompatible (not just diverse), creating multiple AI systems aligned to different value clusters is superior to forcing consensus through aggregation. This is presented not as a fallback or compromise but as a legitimate design choice that preserves value pluralism and makes conflicts explicit rather than hiding them in aggregation functions. The paper positions this as working within Arrow's impossibility theorem rather than trying to overcome it—accepting that some value conflicts cannot be aggregated away.
+
 ---
 
 Relevant Notes:

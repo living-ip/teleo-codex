@@ -21,6 +21,12 @@ The correct response is to map the disagreement rather than eliminate it. Identi
 
 [[Collective intelligence within a purpose-driven community faces a structural tension because shared worldview correlates errors while shared purpose enables coordination]]. Persistent irreducible disagreement is actually a safeguard here -- it prevents the correlated error problem by maintaining genuine diversity of perspective within a coordinated community. The independence-coherence tradeoff is managed not by eliminating disagreement but by channeling it productively.
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-04-00-conitzer-social-choice-guide-alignment]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Conitzer et al. (2024) build on this foundation by proposing that when disagreements are irreducible, the optimal response is pluralistic alignment—creating multiple AI systems reflecting incompatible values rather than forcing aggregation. They explicitly distinguish between disagreements that stem from information gaps (resolvable through deliberation and better information) and those that stem from fundamental value differences (requiring pluralistic accommodation). The paper argues that Arrow's impossibility theorem is not a bug but a feature: it reveals that some value conflicts cannot and should not be aggregated away. This supports the claim that systems must map irreducible disagreements rather than eliminate them.
+
 ---
 
 Relevant Notes:

@@ -21,6 +21,12 @@ Dario Amodei describes AI as "so powerful, such a glittering prize, that it is v
 
 Since [[the internet enabled global communication but not global cognition]], the coordination infrastructure needed doesn't exist yet. This is why [[collective superintelligence is the alternative to monolithic AI controlled by a few]] -- it solves alignment through architecture rather than attempting governance from outside the system.
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-04-00-conitzer-social-choice-guide-alignment]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Conitzer et al. (2024) demonstrate that alignment is fundamentally a coordination problem by showing that every RLHF system makes social choice decisions: which humans provide input, what feedback format is used, how preferences are aggregated, and how aggregated preferences are deployed. These are coordination questions—who gets a voice, how are conflicts resolved, whose values prevail—not purely technical questions. The paper argues that treating these as engineering decisions rather than normative choices is the core failure of current alignment approaches. Social choice theory provides 70+ years of rigorous work on exactly these coordination problems, suggesting the field should import coordination mechanisms rather than reinventing them.
+
 ---
 
 Relevant Notes:

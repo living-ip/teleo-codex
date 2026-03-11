@@ -7,10 +7,16 @@ date: 2024-04-01
 domain: ai-alignment
 secondary_domains: [mechanisms, collective-intelligence]
 format: paper
-status: unprocessed
+status: processed
 priority: high
 tags: [social-choice, rlhf, rlchf, evaluator-selection, mechanism-design, pluralism, arrow-workaround]
 flagged_for_rio: ["Social welfare functions as governance mechanisms — direct parallel to futarchy/prediction market design"]
+processed_by: theseus
+processed_date: 2024-04-01
+claims_extracted: ["rlhf-is-implicit-social-choice-without-normative-scrutiny.md", "post-arrow-social-choice-mechanisms-work-by-weakening-independence-of-irrelevant-alternatives.md", "pluralistic-alignment-creates-multiple-ai-systems-reflecting-incompatible-values-rather-than-forcing-consensus.md", "rlchf-aggregates-collective-human-feedback-through-formal-social-welfare-functions-before-training.md"]
+enrichments_applied: ["pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md", "AI alignment is a coordination problem not a technical problem.md", "some disagreements are permanently irreducible because they stem from genuine value differences not information gaps and systems must map rather than eliminate them.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Definitive position paper connecting social choice theory to AI alignment. Four new claims extracted covering RLHF as implicit social choice, post-Arrow mechanisms, pluralistic alignment, and RLCHF formalization. Five enrichments to existing claims. Notable gap: no engagement with Community Notes bridging algorithm or Audrey Tang's RLCF despite conceptual overlap. The pluralism option is the closest mainstream alignment has come to endorsing collective superintelligence architecture."
 ---
 
 ## Content
@@ -57,3 +63,10 @@ Position paper at ICML 2024. Major cross-institutional collaboration including S
 PRIMARY CONNECTION: [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]]
 WHY ARCHIVED: The definitive paper connecting social choice theory to AI alignment — post-Arrow mechanisms as constructive workarounds to impossibility
 EXTRACTION HINT: Three extractable claims: (1) RLHF is implicit social choice, (2) post-Arrow mechanisms work by weakening IIA, (3) the pluralism option — multiple aligned systems rather than one
+
+
+## Key Facts
+- ICML 2024 position paper with 12 co-authors including Stuart Russell (Berkeley CHAI) and Nathan Lambert
+- Paper proposes two RLCHF variants: aggregated rankings and features-based preference modeling
+- Recommends specific voting methods: Borda Count, Instant Runoff, Ranked Pairs
+- Identifies four social choice questions in RLHF: evaluator selection, feedback format, aggregation method, deployment strategy
