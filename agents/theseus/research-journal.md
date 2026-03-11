@@ -106,3 +106,36 @@ NEW PATTERN:
 **Sources archived:** 13 sources (7 high priority, 5 medium, 1 low). Key: Tang RLCF framework, RLHF trilemma (NeurIPS 2025), MaxMin-RLHF (ICML 2024), Qiu representative social choice (NeurIPS 2024), Conitzer/Russell social choice for alignment (ICML 2024), Community Notes bridging algorithm, CIP year in review, pluralistic values trade-offs, differentiable social choice survey.
 
 **Cross-session pattern (3 sessions):** Session 1 → theoretical grounding (active inference). Session 2 → empirical landscape (alignment gap bifurcating). Session 3 → constructive mechanisms (bridging, MaxMin, pluralism). The progression: WHAT our architecture should look like → WHERE the field is → HOW specific mechanisms navigate impossibility. Next session should address: WHICH mechanism does our architecture implement, and can we prove it formally?
+
+## Session 2026-03-11 (Pluralistic Alignment Mechanisms in Practice)
+
+**Question:** What concrete mechanisms now exist for pluralistic alignment beyond the impossibility results, what empirical evidence shows whether they work with diverse populations, and does AI's homogenization effect threaten the upstream diversity these mechanisms depend on?
+
+**Key finding:** The field has undergone a phase transition from impossibility diagnosis to mechanism engineering. At least seven concrete mechanisms now exist for pluralistic alignment (PAL, MixDPO, EM-DPO, RLCF/Community Notes, MaxMin-RLHF, Collective CAI, pluralism option), with three having formal properties and empirical results. PAL achieves 36% better accuracy for unseen users with 100× fewer parameters. MixDPO adapts to heterogeneity automatically with 1.02× overhead. The RLCF specification is now concrete: AI generates content, humans rate it, bridging algorithm selects what crosses ideological divides.
+
+But the critical complication: AI homogenization threatens the upstream diversity these mechanisms depend on. The relationship between AI integration and collective intelligence follows inverted-U curves across at least four dimensions (connectivity, cognitive diversity, AI exposure, coordination returns). The Google/MIT baseline paradox (coordination hurts above 45% accuracy) may be a special case of this broader inverted-U pattern.
+
+**Pattern update:**
+
+STRENGTHENED:
+- The impossibility → mechanism design transition pattern (now confirmed across four sessions). This IS the defining development in alignment 2024-2026.
+- Belief #2 (monolithic alignment insufficient) — now has FOUR independent impossibility traditions (social choice, complexity theory, multi-objective optimization, intelligence measurement) AND constructive workarounds. The belief is mature.
+- "Diversity is functionally superior" — PAL's 36% improvement for unseen users, MixDPO's self-adaptive behavior, and Doshi & Hauser's diversity paradox all independently confirm.
+
+COMPLICATED:
+- The assumption that AI-enhanced collective intelligence automatically preserves diversity. The inverted-U finding means there's an optimal level of AI integration, and exceeding it DEGRADES collective intelligence through homogenization, skill atrophy, and motivation erosion. Our architecture needs to be designed for the peak, not for maximum AI integration.
+- AI homogenization may create a self-undermining loop for pluralistic alignment: AI erodes the diversity of input that pluralistic mechanisms need to function. This mirrors our existing claim about AI collapsing knowledge-producing communities — same structural dynamic, different domain.
+
+NEW PATTERN:
+- **The inverted-U as unifying framework.** Four independent dimensions show inverted-U relationships between AI integration and performance. This may be the generalization our KB is missing — a claim that unifies the baseline paradox, the CI review findings, the homogenization evidence, and the architectural design question into a single formal relationship. If we can characterize what determines the peak, we have a design principle for our collective architecture.
+
+**Confidence shift:**
+- "Pluralistic alignment has concrete mechanisms" — moved from experimental to likely. Seven mechanisms, three with formal results.
+- "AI homogenization threatens pluralistic alignment" — NEW, likely, based on convergent evidence from multiple studies.
+- "Inverted-U describes AI-CI relationship" — NEW, experimental, based on review evidence but needs formal characterization.
+- "RLCF has a concrete specification" — moved from speculative to experimental. The Community Notes + LLM paper provides the closest specification.
+- "Arrow's impossibility extends to intelligence measurement" — NEW, likely, based on AGI 2025 formal proof.
+
+**Sources archived:** 12 sources (6 high priority, 6 medium). Key: PAL (ICLR 2025), MixDPO (Jan 2026), Community Notes + LLM RLCF paper (arxiv 2506.24118), EM-DPO (EAAMO 2025), AI-Enhanced CI review (Patterns 2024), Doshi & Hauser diversity paradox, Arrowian impossibility of intelligence measures (AGI 2025), formal Arrow's proof (PLOS One 2026), homogenization of creative diversity, pluralistic values operationalization study, Brookings CI physics piece, multi-agent paradox coverage.
+
+**Cross-session pattern (4 sessions):** Session 1 → theoretical grounding (active inference). Session 2 → empirical landscape (alignment gap bifurcating). Session 3 → constructive mechanisms (bridging, MaxMin, pluralism). Session 4 → mechanism engineering + complication (concrete mechanisms exist BUT homogenization threatens their inputs). The progression: WHAT → WHERE → HOW → BUT ALSO. Next session should address: the inverted-U formal characterization — what determines the peak of AI-CI integration, and how do we design our architecture to sit there?
