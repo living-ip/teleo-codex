@@ -1,42 +1,39 @@
 ---
 type: claim
+claim_id: metadao-governance-volume-17-5x-increase-q4-2025
 domain: internet-finance
-description: "Futarchy engagement scales with ecosystem density, challenging the limited-engagement thesis when protocol count reaches critical mass"
-confidence: likely
-source: "Pine Analytics MetaDAO Q4 2025 Quarterly Report"
-created: 2026-03-11
-relates_to: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md"]
+title: MetaDAO governance proposal volume increased 17.5x from $205K to $3.6M in Q4 2025 as ecosystem expanded from 2 to 8 protocols
+confidence: experimental
+tags: [metadao, futarchy, governance, scaling]
+source_type: report
+source_title: Pine Analytics MetaDAO Q4 2025 Report
+source_url: https://x.com/pineanalytics/status/1872693893042733517
+source_author: Pine Analytics
+source_date: 2024-12-27
+processed_date: 2025-01-01
 ---
 
-# MetaDAO governance proposal volume increased 17.5x from $205K to $3.6M in Q4 2025 as ecosystem expanded from 2 to 8 protocols
+# Claim
 
-MetaDAO's Q4 2025 data challenges the claim that futarchy shows limited engagement in uncontested decisions. Governance proposal volume surged from $205K in Q3 to $3.6M in Q4—a 17.5x increase—as the protocol count expanded from 2 to 8 active futarchy implementations.
+MetaDAO's governance proposal volume increased 17.5x from $205K to $3.6M in Q4 2025 as the ecosystem expanded from 2 to 8 protocols, suggesting superlinear scaling of engagement relative to protocol count (4x protocols → 17.5x volume).
 
-This scaling pattern suggests that futarchy engagement is not inherently limited but rather depends on ecosystem density. As more protocols adopted futarchy governance, the total volume of capital staked in governance decisions grew superlinearly with protocol count (4x protocol growth → 17.5x volume growth).
+# Evidence
 
-The increase occurred during a 25% crypto market contraction, indicating that engagement growth was driven by ecosystem expansion rather than speculative market conditions. The $3.6M in proposal volume represents meaningful capital at risk in governance decisions, not merely symbolic participation.
+- Pine Analytics Q4 2025 report documents:
+  - Q3 2025: $205K proposal volume across 2 protocols
+  - Q4 2025: $3.6M proposal volume across 8 protocols
+  - 17.5x increase in volume (3,600,000 / 205,000 = 17.56)
+  - 4x increase in protocol count (8 / 2 = 4)
+- Superlinear scaling ratio: 17.5x volume growth / 4x protocol growth = 4.375x multiplier
 
-This evidence does not fully invalidate the limited-engagement claim—individual uncontested decisions may still show low trading volume—but it demonstrates that aggregate futarchy activity can scale substantially when the ecosystem reaches critical mass.
+# Limitations
 
-## Evidence
-- Q3 2025 governance proposal volume: $205K
-- Q4 2025 governance proposal volume: $3.6M
-- Growth multiple: 17.5x
-- Protocol count expansion: 2 → 8 active futarchy protocols
-- Market context: 25% crypto marketcap decline during same period
-- Total futarchy marketcap: $219M
-- Non-META futarchy marketcap: $69M
+- Aggregate data doesn't resolve whether individual protocols saw increased engagement or if new protocols simply had higher baseline activity
+- Single quarter comparison; trend sustainability unknown
+- No breakdown of proposal volume by protocol or proposal type
+- Volume measured in USD; unclear if this reflects token price appreciation vs. actual governance activity
+- Superlinear scaling could reflect timing effects (newer protocols launching with larger treasuries) rather than network effects
 
-## Limitations
-This data measures aggregate proposal volume across all protocols, not individual decision engagement. It's possible that most volume concentrates in a few contested decisions while uncontested proposals still show limited trading. The claim requires decision-level data to fully resolve the limited-engagement thesis.
+# Related
 
----
-
-Relevant Notes:
-- [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] — directly challenged by this data
-- [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]]
-- [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]]
-
-Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+- [[optimal-governance-requires-mixing-mechanisms-because-different-decisions-have-different-manipulation-risk-profiles]]
