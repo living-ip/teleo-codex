@@ -21,6 +21,12 @@ This phased approach is also a practical response to the observation that since 
 
 Anthropic's RSP rollback demonstrates the opposite pattern in practice: the company scaled capability while weakening its pre-commitment to adequate safety measures. The original RSP required guaranteeing safety measures were adequate *before* training new systems. The rollback removes this forcing function, allowing capability development to proceed with safety work repositioned as aspirational ('we hope to create a forcing function') rather than mandatory. This provides empirical evidence that even safety-focused organizations prioritize capability scaling over alignment-first development when competitive pressure intensifies, suggesting the claim may be normatively correct but descriptively violated by actual frontier labs under market conditions.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-00-yamamoto-full-formal-arrow-impossibility]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Arrow's impossibility theorem now has a full formal representation using proof calculus in formal logic (Yamamoto, PLOS One, February 2026). This provides machine-checkable verification of the theorem's validity, strengthening the mathematical foundation underlying claims that universal alignment is impossible. The formal proof complements existing computer-aided proofs (AAAI 2008) and simplified proofs via Condorcet's paradox with a complete logical derivation revealing the global structure of the social welfare function central to the theorem.
+
 ---
 
 Relevant Notes:
