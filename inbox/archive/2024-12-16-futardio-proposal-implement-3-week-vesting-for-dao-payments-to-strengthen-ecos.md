@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/C2Up9wYYJM1A94fgJz17e3Xsr8jft2qYMwrR6s4ckaK
 date: 2024-12-16
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["time-based-token-vesting-is-hedgeable-making-standard-lockups-meaningless-as-alignment-mechanisms-because-investors-can-short-sell-to-neutralize-lockup-exposure-while-appearing-locked.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Governance proposal with detailed tokenomics modeling. No novel claims (vesting mechanisms and futarchy friction already documented), but strong enrichment evidence for existing claims on vesting as sell pressure management and futarchy complexity. Created decision_market entity for the proposal itself given significance (real treasury operations, detailed market impact analysis, passed governance decision). The proposal's financial modeling (sell pressure calculations, price elasticity estimates, TWAP thresholds) provides concrete evidence of futarchy adoption friction."
 ---
 
 ## Proposal Details
@@ -176,3 +181,12 @@ For the proposal to fail: < 533.500 USDC MCAP
 - Autocrat version: 0.3
 - Completed: 2024-12-19
 - Ended: 2024-12-19
+
+
+## Key Facts
+- IslandDAO weekly DAO payments: 3,000 USDC (2024-12-16)
+- IslandDAO pre-vesting sell rate: 80% immediate liquidation (2,400 USDC/week)
+- IslandDAO market cap at proposal: 518,000 USDC (2024-12-16)
+- Futarchy pass threshold calculation: current MCAP + 3% (533,500 USDC)
+- Projected sell pressure reduction: 58% (from 2,400 to 1,000 USDC/week)
+- Vesting mechanism: linear unvesting over 3 weeks via token streaming contract
