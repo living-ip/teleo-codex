@@ -17,6 +17,12 @@ This framework maps directly onto the web3 entertainment model. NFTs and digital
 
 The fanchise management stack also explains why since [[value flows to whichever resources are scarce and disruption shifts which resources are scarce making resource-scarcity analysis the core strategic framework]], superfans are the scarce resource. Superfans represent fans who have progressed to levels 4-6 -- they spend disproportionately more, evangelize more effectively, and create more content. Cultivating superfans is not a marketing tactic but a strategic imperative because they are the scarcity that filters infinite content into discoverable signal.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-20-claynosaurz-mediawan-animated-series-update]] | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
+
+Claynosaurz-Mediawan production implements the co-creation layer through three specific mechanisms: (1) sharing storyboards with community during pre-production, (2) sharing script portions during writing, and (3) featuring holders' digital collectibles within series episodes. This occurs within a professional co-production with Mediawan Kids & Family (39 episodes × 7 minutes), demonstrating co-creation at scale beyond independent creator projects. The team explicitly frames this as 'involving community at every stage' of production, positioning co-creation as a production methodology rather than post-hoc engagement.
+
 ---
 
 Relevant Notes:
