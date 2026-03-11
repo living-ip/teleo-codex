@@ -7,7 +7,13 @@ date: 2026-01-01
 domain: ai-alignment
 secondary_domains: []
 format: paper
-status: unprocessed
+status: processed
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted:
+  - "modeling preference sensitivity as a learned distribution rather than a fixed scalar resolves DPO diversity failures without demographic labels or explicit user modeling"
+  - "the variance of a learned preference sensitivity distribution diagnoses dataset heterogeneity and collapses to fixed-parameter behavior when preferences are homogeneous"
+enrichments: []
 priority: high
 tags: [pluralistic-alignment, DPO, preference-strength, distributional-modeling, heterogeneity]
 ---
