@@ -6,10 +6,15 @@ url: https://www.yahoo.com/entertainment/tv/articles/changing-game-dropout-broke
 date: 2025-12-01
 domain: entertainment
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: high
 tags: [dropout, sam-reich, owned-platform, creative-freedom, subscription-model, storytelling-quality]
+processed_by: clay
+processed_date: 2025-12-01
+enrichments_applied: ["the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership.md", "fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership.md", "human-made-is-becoming-a-premium-label-analogous-to-organic-as-AI-generated-content-becomes-dominant.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three new claims extracted focusing on revenue model → creative freedom mechanism. Primary insight: Dropout challenges the content-as-loss-leader attractor state by making subscription revenue primary. The key distinction is optimization function: ad-supported → brand-safe reach, subscription → distinctive retention. Enriched three existing claims with confirming/challenging evidence. Classified advertiser-safety censorship as 'likely' (not 'experimental') because pattern is well-documented across YouTube creators beyond Dropout."
 ---
 
 ## Content
@@ -39,3 +44,11 @@ Key details:
 PRIMARY CONNECTION: [[the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership]]
 WHY ARCHIVED: Dropout COMPLICATES the loss-leader model — subscription-based content is BOTH the product and the community builder. Revenue model determines creative output.
 EXTRACTION HINT: The key insight is revenue model → creative freedom. Ad-supported → brand-safe → shallow. Subscription → distinctive → deep. The complement type determines the optimization function of content.
+
+
+## Key Facts
+- Dropout has 1M+ subscribers (as of 2025-12-01)
+- Dropout base tier: $5.99/month
+- Dropout Superfan tier: $129.99/year
+- Dropout revenue: $80-90M on 40-45% margins (estimated)
+- Dropout hired new heads of production and marketing in 2026, expanding development team
