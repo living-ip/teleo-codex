@@ -6,7 +6,7 @@ url: "https://www.futard.io/proposal/7FY4dgYDX8xxwCczrgstUwuNEC9NMV1DWXz31rMnGNT
 date: 2025-02-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 processed_by: rio
@@ -14,6 +14,10 @@ processed_date: 2025-02-03
 enrichments_applied: ["futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability-because-failed-projects-on-a-curated-platform-damage-the-platforms-credibility.md", "MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window.md", "MetaDAO-is-the-futarchy-launchpad-on-Solana-where-projects-raise-capital-through-unruggable-ICOs-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md"]
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "This source documents a live futarchy governance event but contains no novel claims. The proposal itself (logo change) is trivial and explicitly educational. The value is in demonstrating futarchy adoption by Sanctum and providing concrete timeline/process data that enriches existing claims about MetaDAO's infrastructure and futarchy's use cases. No arguable propositions extracted—all insights strengthen existing claims about futarchy implementation and adoption patterns."
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Educational governance proposal with no novel claims. Source demonstrates Sanctum's futarchy adoption and provides concrete timeline data for MetaDAO's Autocrat v0.3 implementation. Created decision_market entity for the proposal and new parent entity for Sanctum. No arguable propositions extracted—all value is in documenting the governance event and platform adoption pattern."
 ---
 
 ## Proposal Details
@@ -74,3 +78,11 @@ edited logo per CW
 - Proposal account: 7FY4dgYDX8xxwCczrgstUwuNEC9NMV1DWXz31rMnGNTv
 - Used Autocrat version 0.3
 - Temporary logo change for one week post-vote
+
+
+## Key Facts
+- Sanctum CLOUD-0 proposal used 3-day deliberation + 3-day voting timeline (2025-02-03 to 2025-02-06)
+- Proposal account: 7FY4dgYDX8xxwCczrgstUwuNEC9NMV1DWXz31rMnGNTv
+- DAO account: 5n61x4BeVvvRMcYBMaorhu1MaZDViYw6HghE8gwLCvPR
+- Used Autocrat version 0.3
+- Proposer: proPaC9tVZEsmgDtNhx15e7nSpoojtPD3H9h4GqSqB2
