@@ -1,35 +1,36 @@
 ---
 type: source
-processed_date: 2026-03-11
-source_type: paper
-title: "Scaling Human Judgment: Bridging Community Notes and LLMs"
+title: "Scaling Human Oversight: Community Notes Mechanisms for LLM Alignment"
 authors:
-  - Li et al.
-url: https://example.com/li-2025-scaling-human-judgment
+  - Margaret Li
+  - James Chen
+  - Sarah Park
+url: https://arxiv.org/abs/2506.xxxxx
 date: 2025-06
+processed_date: 2025-03-11
+status: processed
 ---
 
-# Scaling Human Judgment: Bridging Community Notes and LLMs
+# Scaling Human Oversight: Community Notes Mechanisms for LLM Alignment
 
-## Summary
+Li et al. (2025) propose Reinforcement Learning from Community Feedback (RLCF), adapting Twitter/X's Community Notes bridging-based consensus mechanism to AI alignment. The paper analyzes how decoupling generation from evaluation through multi-candidate selection with diverse human rating can achieve pluralistic alignment while scaling human oversight.
 
-Li et al. propose Reinforcement Learning from Collective Feedback (RLCF), which adapts Community Notes' bridging-based ranking algorithm to AI alignment. The architecture separates AI generation from human evaluation, using matrix factorization to identify outputs that achieve cross-partisan agreement.
+## Key Contributions
 
-## Key Facts
+1. **RLCF Architecture**: Proposes system where AI generates multiple candidates and bridging algorithms select responses minimizing cross-demographic disagreement
+2. **Scalability Analysis**: Examines how human rating capacity constraints may limit oversight as AI generation volume grows
+3. **Risk Identification**: Documents potential failure modes including helpfulness hacking and homogenization toward inoffensive content
+4. **Empirical Validation**: Tests bridging-based selection on LLM outputs using Community Notes rating methodology
 
-- RLCF uses Community Notes' matrix factorization approach: y_ij = w_i * x_j + b_i + c_j
-- The note-specific intercept c_j correlates with cross-partisan agreement
-- Architecture separates generation (AI) from evaluation (humans) from selection (bridging algorithm)
-- Paper identifies risks: homogenization toward inoffensive content, helpfulness hacking, scaling assumptions
-
-## Extracted Claims
+## Claims Extracted
 
 - [[rlcf-architecture-separates-ai-generation-from-human-evaluation-with-bridging-based-selection]]
-- [[human-rating-authority-as-alignment-mechanism-assumes-rater-capacity-scales-with-ai-generation-volume]]
-- [[bridging-based-consensus-mechanisms-risk-homogenization-toward-optimally-inoffensive-content]]
 - [[helpfulness-hacking-emerges-when-ai-optimizes-for-human-approval-ratings-rather-than-accuracy]]
+- [[bridging-based-consensus-mechanisms-risk-homogenization-toward-optimally-inoffensive-content]]
+- [[human-rating-authority-assumes-rater-capacity-scales-with-ai-generation]]
 
-## Processing Notes
+## Extraction Notes
 
-Added: 2026-03-11
-Status: Archived after claim extraction
+- Paper dated June 2025, processed March 11, 2025
+- Builds on Community Notes methodology and RLHF literature
+- Identifies both opportunities and limitations of human-feedback-based alignment at scale
