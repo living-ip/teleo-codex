@@ -23,6 +23,12 @@ This empirical reality anchors several theoretical claims. Since [[media disrupt
 
 The 48% vs 41% creator-vs-traditional split for under-35 news consumption provides direct evidence of the zero-sum dynamic. Total news consumption time is fixed; creators gaining 48% means traditional channels lost that share. The £190B global creator economy valuation and 171% YoY growth in influencer marketing investment ($37B US ad spend by end 2025) demonstrate sustained macro capital reallocation from traditional to creator distribution channels.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-03-10-bloomberg-mrbeast-feastables-more-money-than-youtube]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MrBeast's model suggests the creator economy may not just compete with corporate media for attention—it may structurally outcompete on cost. Creator-owned CPG brands acquire customers at zero marginal cost through content, while traditional brands spend 10-15% of revenue on advertising. If creators can build profitable businesses (Feastables: $250M revenue, $20M+ profit) by treating content as a loss leader, they can sustain content production even when media itself is unprofitable (MrBeast media: $-80M in 2024). This creates a cost structure advantage that corporate media cannot match: creators subsidize content through adjacent businesses, while corporate media must monetize content directly. The zero-sum competition may be asymmetric—creators have a structural cost advantage that lets them underprice or outspend corporate media on content quality, shifting the competitive dynamic from attention-share to cost-per-acquisition.
+
 ---
 
 Relevant Notes:

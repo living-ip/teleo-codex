@@ -290,6 +290,12 @@ Entertainment is the domain where TeleoHumanity eats its own cooking.
 
 The crystallization of 'human-made' as a premium label adds a new dimension to the scarcity analysis: not just community and ownership, but verifiable human provenance becomes scarce and valuable as AI content becomes abundant. EY's guidance that companies must 'keep what people see and feel recognizably human—authentic faces, genuine stories and shared cultural moments' to build 'deeper trust and stronger brand value' suggests human provenance is becoming a distinct scarce complement alongside community and ownership. As production costs collapse toward compute costs (per the non-ATL production costs claim), the ability to credibly signal human creation becomes a scarce resource that differentiates content. Community-owned IP may have structural advantage in signaling this provenance because ownership structure itself communicates human creation, while corporate content must construct proof through external verification. This extends the attractor claim by identifying human provenance as an additional scarce complement that becomes valuable in the AI-abundant, community-filtered media landscape.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-03-10-bloomberg-mrbeast-feastables-more-money-than-youtube]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MrBeast's Beast Industries provides the strongest real-world evidence of the content-as-loss-leader attractor state at $500M+ scale. The media business (YouTube + Amazon Prime) lost $80M in 2024 while generating similar revenue to Feastables ($250M). Content is literally a loss leader—it loses money but creates the audience that makes adjacent businesses profitable. Feastables generated $20M+ profit with zero advertising spend because the content IS the advertising. By 2026, media is projected to be only 1/5 of total sales ($288M YouTube vs $520M Feastables in 2025), confirming that content's role is audience acquisition, not direct monetization. This is the attractor state operational at scale: content becomes the marketing budget, and profits emerge from the scarce complements (brand trust, retail distribution partnerships, community engagement).
+
 ---
 
 Relevant Notes:
