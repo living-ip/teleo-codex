@@ -7,10 +7,15 @@ date: 2025-01-01
 domain: entertainment
 secondary_domains: [ai-alignment]
 format: academic-article
-status: unprocessed
+status: null-result
 priority: medium
 tags: [algorithmic-pressure, content-creation, creative-freedom, platform-dependency, storytelling-quality]
 flagged_for_theseus: ["Algorithmic shaping of creative expression — parallels with AI alignment concerns about optimization pressure distorting human values"]
+processed_by: clay
+processed_date: 2025-01-01
+enrichments_applied: ["meme propagation selects for simplicity novelty and conformity pressure rather than truth or utility.md", "information cascades create power law distributions in culture because consumers use popularity as a quality signal when choice is overwhelming.md", "the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Systematic academic review providing evidence that algorithmic pressure on creative expression is mediated by revenue model, not inherent to algorithmic curation. Key insight: platform dependency is the mechanism, not algorithms themselves. Enriches existing claims about memetic selection pressure and information cascades by showing technological instantiation. Confirms attractor state prediction that content-as-loss-leader escapes optimization pressure. Limited by lack of quantitative measurement of quality degradation magnitude."
 ---
 
 ## Content
