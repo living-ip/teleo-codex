@@ -7,9 +7,14 @@ date: 2026-03-01
 domain: entertainment
 secondary_domains: [internet-finance]
 format: analysis
-status: unprocessed
+status: null-result
 priority: high
 tags: [pudgy-penguins, retail-distribution, phygital, community-ip, ipo, web3-entertainment]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["community ownership accelerates growth through aligned evangelism not passive holding.md", "the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership.md", "entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three new claims extracted focusing on phygital distribution model, token/brand value decoupling, and retail-first Web3 adoption funnel. Three enrichments to existing community ownership and media attractor claims. The PENGU token decline vs retail growth divergence is the critical signal — suggests community ownership mechanisms may be cultural/behavioral rather than financial. The 2027 IPO will be the key test of whether community governance can coexist with public equity structure."
 ---
 
 ## Content
@@ -58,3 +63,16 @@ Aggregated from multiple March 2026 sources on Pudgy Penguins' performance and s
 PRIMARY CONNECTION: community ownership accelerates growth through aligned evangelism not passive holding
 WHY ARCHIVED: Most complete current data on retail-first distribution bypass strategy. The PENGU token decline vs retail growth divergence is a critical signal about which ownership mechanisms actually work.
 EXTRACTION HINT: The token price decline is NOT a failure of the community thesis — it's a REFINEMENT. Community ownership may function through brand loyalty and retail economics rather than token economics. This is a significant scoping insight for Belief 5.
+
+
+## Key Facts
+- 10,000+ retail locations including 3,100 Walmart stores (2026)
+- 2M+ toy units sold by early 2026
+- Revenue: $13M (2024) → $50-60M (2025) → $120M (2026 target)
+- Vibes TCG: 4M cards moved by early 2026
+- Valentine's Day campaign: $50K daily retail sales, 15x ROAS
+- PENGU token: launched $0.037 (Dec 2024), peaked $0.0574, currently $0.0064-0.0071 (88.92% decline)
+- 65.1 billion GIPHY views (2x Disney's nearest competitor)
+- DreamWorks Kung Fu Panda crossover partnership
+- 2027 IPO target announced
+- SEC-acknowledged Pengu ETF filing
