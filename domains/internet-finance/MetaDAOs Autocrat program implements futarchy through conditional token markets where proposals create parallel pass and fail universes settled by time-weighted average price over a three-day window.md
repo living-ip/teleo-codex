@@ -53,6 +53,12 @@ Autocrat is MetaDAO's core governance program on Solana -- the on-chain implemen
 
 **Limitations.** [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- when proposals are clearly good or clearly bad, few traders participate because the expected profit from trading in a consensus market is near zero. This is a structural feature, not a bug: contested decisions get more participation precisely because they're uncertain, which is when you most need information aggregation. But it does mean uncontested proposals can pass or fail with very thin markets, making the TWAP potentially noisy.
 
+
+### Additional Evidence (challenge)
+*Source: [[2023-11-18-futardio-proposal-develop-a-lst-vote-market]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The LST Vote Market proposal provides a concrete example of Autocrat in action with raw data: proposal account 9RisXkQCFLt7NA29vt5aWatcnU8SkyBgS95HxXhwXhW, proposal number 0, DAO account 3wDJ5g73ABaDsL1qofF5jJqEJU4RnRQrvzRLkSnFc5di, using Autocrat version 0. The proposal was created 2023-11-18, ended 2023-11-29, and completed 2023-11-29. This represents an 11-day evaluation period rather than the 3-day TWAP window mentioned in the existing claim. This may indicate Autocrat's actual implementation uses longer settlement windows than the theoretical 3-day period, or that the 3-day window is for market settlement while proposal evaluation extends longer.
+
 ---
 
 Relevant Notes:

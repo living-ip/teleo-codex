@@ -34,6 +34,12 @@ MycoRealms implementation reveals operational friction points: monthly $10,000 a
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
+
+### Additional Evidence (confirm)
+*Source: [[2023-11-18-futardio-proposal-develop-a-lst-vote-market]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The LST Vote Market proposal explicitly acknowledges complexity as a barrier to rational futarchy participation. The proposal states: 'As with any financial projections, these results are highly speculative and sensitive to assumptions. Market participants are encouraged to make their own assumptions and to price the proposal accordingly.' The proposal includes detailed financial modeling requiring sophisticated analysis: market size estimation ($213M * 0.08 * 0.1 = $1.7M), revenue projections ($150k-170k annually), SaaS valuation multiples (7.8x), and probability-weighted value calculations (70% execution probability * $10.5M enterprise value - $700k dilution cost). This complexity is presented as necessary for proper futarchy pricing but implicitly confirms that participants must perform non-trivial financial analysis to vote rationally. The proposal's own acknowledgment that 'market participants are encouraged to make their own assumptions' suggests the proposers recognize that many participants may lack the sophistication to independently verify the analysis.
+
 ---
 
 Relevant Notes:

@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/9RisXkQCFLt7NA29vt5aWatcnU8SkyBgS95HxXhwXhW
 date: 2023-11-18
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2025-01-14
+claims_extracted: ["marinade-directed-stake-creates-1-7m-annual-validator-bribe-market-through-213m-votable-stake.md", "votium-style-non-custodial-bribe-markets-eliminate-user-fund-risk-by-separating-vote-commitment-from-reward-claims.md", "metadao-3000-meta-funding-request-values-meta-between-1-and-100-dollars-per-token.md", "metadao-targets-legitimacy-through-profitable-products-not-governance-innovation-because-new-organizational-models-require-proof-of-viability.md"]
+enrichments_applied: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md", "MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 4 claims about Marinade's validator bribe market structure, Votium's non-custodial architecture, MetaDAO's META token valuation, and MetaDAO's legitimacy-through-products strategy. Enriched 3 existing claims with evidence about Autocrat implementation details, proposal complexity, and execution outcomes. The proposal provides concrete data on LST market size and futarchy governance in practice."
 ---
 
 ## Proposal Details
@@ -140,3 +146,13 @@ The Meta-DAO is still figuring out how to properly incentivize performance, so w
 - Autocrat version: 0
 - Completed: 2023-11-29
 - Ended: 2023-11-29
+
+
+## Key Facts
+- Marinade Finance TVL: $532M (2023-11-18)
+- Marinade directed stake: 40% of TVL = $213M
+- Proposal account: 9RisXkQCFLt7NA29vt5aWatcnU8SkyBgS95HxXhwXhW
+- Proposal status: Passed, completed 2023-11-29
+- Autocrat version: 0
+- Contributors: Proph3t (smart contracts), marie (UI/UX), nicovrg (Marinade BD)
+- Votium operates on Ethereum as veCRV bribe market
