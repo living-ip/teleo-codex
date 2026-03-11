@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/BnfFejPpykmTtM5TyNEySgRCctRizmrZe9Bbe8V1UTo
 date: 2025-01-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2025-01-03
+claims_extracted: ["theia-demonstrates-concentrated-illiquid-token-strategy-with-two-to-four-year-hold-periods-acquired-through-structured-deals-at-illiquidity-premiums.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "publishing investment analysis openly before raising capital inverts hedge fund secrecy because transparency attracts domain-expert LPs who can independently verify the thesis.md", "time-based token vesting is hedgeable making standard lockups meaningless as alignment mechanisms because investors can short-sell to neutralize lockup exposure while appearing locked.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted one new claim about Theia's concentrated illiquid token fund strategy, which represents a novel approach to crypto fund management. Applied four enrichments: MetaDAO platform validation, futarchy friction confirmation, public research model confirmation, and token lockup hedgeability extension. The proposal's failure despite strong terms provides valuable evidence about futarchy adoption challenges. Key insight: Theia demonstrates how liquid tokens can be acquired and held like private equity through structured deals with lockups and discounts, challenging the assumption that token liquidity requires liquid trading strategies."
 ---
 
 ## Proposal Details
@@ -91,3 +97,12 @@ MetaDAO is one of the most exciting ideas in the Internet Financial System and g
 - Autocrat version: 0.3
 - Completed: 2025-01-06
 - Ended: 2025-01-06
+
+
+## Key Facts
+- Theia proposed acquiring 609 META tokens at $1,149.425 per token ($700,000 total) with 6-month lock
+- Proposal valued MetaDAO at $24M FDV (upper end of $10M-$25M seed range)
+- 12.7% discount to spot price as of 1/3/25
+- Proposal failed, completed 2025-01-06
+- Theia describes itself as onchain liquid token fund manager focused on Internet Financial System
+- Theia caps fund size, maintains concentrated portfolio, holds 2-4 year investment horizons
