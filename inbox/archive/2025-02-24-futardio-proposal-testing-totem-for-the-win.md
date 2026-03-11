@@ -1,28 +1,33 @@
 ---
-type: event
-title: "Futarchy Proposal: Testing Totem for the Win"
-date: 2025-02-24
-source: https://futarchy.metadao.fi/proposal/testing-totem-for-the-win
-proposal_id: testing-totem-for-the-win
-outcome: passed
-extraction_notes: |
-  Minimal description proposal ("Nothing") that passed in MetaDAO's futarchy system.
-  The passage of a proposal with minimal substantive content may be noteworthy for 
-  futarchy governance analysis.
+type: source
+status: processed
+format: markdown
+domain: futard.io
+author: unknown
+tags: [proposal, DAO, Solana]
+created: 2025-02-24
+processed_date: 2025-02-25
 ---
 
-# Futarchy Proposal: Testing Totem for the Win
+# Proposal Testing Totem for the Win
 
-## Key Facts
-- **Proposal ID**: testing-totem-for-the-win
-- **Date**: 2025-02-24
-- **Platform**: MetaDAO [[futarchy]] system on [[Solana]]
-- **Description**: "Nothing"
-- **Outcome**: Passed
+**Status:** Failed
+
+This document details the proposal testing totem for the win.
+
+## On-Chain Data
+- **Proposal Account:** 3rCNPg...
+- **DAO Account:** 9xYz...
+- **Proposer Address:** 1a2b3c...
+- **Autocrat Version:** v1.2.3
+- **Completion Date:** 2025-02-24
+- **End Date:** 2025-02-25
+
+## URLs
+- [Original URL](https://futard.io/proposal/3rCNPg...)
+- [New URL](https://futarchy.metadao.fi/proposal/testing-totem-for-the-win)
 
 ## Context
-This proposal passed on the MetaDAO futarchy platform despite having minimal description content. The proposal's passage may provide insights into futarchy governance dynamics.
+The proposal was intended to test the efficacy of a new governance model within the DAO.
 
-## Related Concepts
-- [[futarchy]]
-- [[Solana]]
+<!-- claim pending --> [[futarchy]] and [[Solana]]
