@@ -42,6 +42,12 @@ Since [[futarchy solves trustless joint ownership not just better decision-makin
 3. **Governance participation should be documented** — on-chain evidence of broad market participation strengthens the active management defense
 4. **Anti-evasion framing matters** — lead with "this is better governance" not "this avoids regulation"
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-08-31-futardio-proposal-enter-services-agreement-with-organization-technology-llc]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MetaDAO's creation of Organization Technology LLC (Proposal 6, passed 2024-09-03) four weeks after completing its strategic partnership demonstrates that even established futarchy DAOs require legal entity wrappers for operations. The explicit IP ownership retention in MetaDAO LLC and the prohibition on the services entity encumbering the DAO demonstrate careful legal structuring to avoid general partnership liability while maintaining DAO sovereignty. The agreement's governance-controlled termination rights and material change approval requirements show how entity wrappers can provide legal protection without surrendering DAO control.
+
 ---
 
 Relevant Notes:

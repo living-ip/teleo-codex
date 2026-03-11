@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/53EDms4zPkp4khbwBT3eXWhMALiMwssg7f5zckq22tH
 date: 2024-08-31
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-08-31
+claims_extracted: ["metadao-uses-us-entity-wrapper-for-contributor-payments-while-retaining-ip-ownership-in-dao.md"]
+enrichments_applied: ["Ooki DAO proved that DAOs without legal wrappers face general partnership liability making entity structure a prerequisite for any futarchy-governed vehicle.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Primary extraction: MetaDAO's entity wrapper structure for operations. Three enrichments confirm existing claims about DAO legal scaffolding and MetaDAO's operational maturity. Source is governance proposal with legal agreement, making confidence level 'proven' appropriate."
 ---
 
 ## Proposal Details
@@ -78,3 +84,12 @@ If any significant material expense is to be assessed or significant changes to 
 - Autocrat version: 0.3
 - Completed: 2024-09-03
 - Ended: 2024-09-03
+
+
+## Key Facts
+- MetaDAO Proposal 6 passed 2024-09-03
+- Organization Technology LLC services agreement annualized burn: $1.378M
+- First disbursement: September 1, 2024
+- Proposal account: 53EDms4zPkp4khbwBT3eXWhMALiMwssg7f5zckq22tH5
+- Authors: Nallok, Proph3t
+- Agreement includes 30-day termination notice or immediate termination for material breach
