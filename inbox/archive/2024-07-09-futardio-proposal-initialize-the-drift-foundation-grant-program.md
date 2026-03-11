@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/xU6tQoDh3Py4MfAY3YPwKnNLt7zYDiNHv8nA1qKnxVM
 date: 2024-07-09
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-07-09
+claims_extracted: ["drift-foundation-grants-program-uses-decision-council-for-small-grants-and-futarchy-for-large-grants-creating-tiered-governance-by-stake-size.md", "drift-grants-program-compensates-zero-initially-to-test-workload-requirements-before-committing-to-ongoing-payment-structure.md"]
+enrichments_applied: ["MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md", "optimal-governance-requires-mixing-mechanisms-because-different-decisions-have-different-manipulation-risk-profiles.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims about tiered governance structure and zero-compensation trial design. Enriched three existing claims about futarchy adoption friction and mechanism mixing. Source is a governance proposal with explicit experimental design for testing grant program structure."
 ---
 
 ## Proposal Details
@@ -139,3 +145,14 @@ In both scenarios the team would be responsible for fulfilling the grant commitm
 - Autocrat version: 0.3
 - Completed: 2024-07-13
 - Ended: 2024-07-13
+
+
+## Key Facts
+- Drift Foundation Grant Program proposal passed 2024-07-09, completed 2024-07-13
+- Initial allocation: 100,000 DRIFT (~$40,000)
+- Timeframe: 2 months (July 1 - August 31, 2024)
+- Decision Council: 3 members (Spidey, Maskara, James), 2/3 multisig
+- Analyst: Squid from Drift ecosystem team
+- Grant threshold: <10k DRIFT to council, >10k DRIFT to futarchy
+- Proposal account: xU6tQoDh3Py4MfAY3YPwKnNLt7zYDiNHv8nA1qKnxVM
+- DAO account: 5vVCYQHPd8o3pGejYWzKZtnUSdLjXzDZcjZQxiFumXXx
