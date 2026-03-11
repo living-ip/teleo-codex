@@ -1,47 +1,28 @@
 ---
 type: inbox
 status: processed
-processed_date: 2025-01-10
-source: https://dao.metadao.fi/dao/META/proposal/GJUxcNsWa5QLnRKFqFmvGNcAYLSYJqHXAZa3Aq8Zpump
-tags:
-  - futarchy
-  - memecoin
-  - governance
-  - proposal
+processed_date: 2025-01-23
+source: https://dao.metadao.fi/proposal/futardio
 ---
 
-# Futardio Proposal: Develop Memecoin Launchpad
+# FUTARDIO Proposal: Develop Memecoin Launchpad
 
-## Proposal Details
+A proposal submitted to MetaDAO on August 14, 2024 to develop a futarchy-governed memecoin launchpad.
 
-**Proposer**: futarchy.eth  
-**Amount Requested**: $100,000 USDC  
-**Proposal Date**: 2024-08-14  
-**Vote Conclusion**: 2024-08-18 (Failed)
+## Key Details
+- Platform name: FUTARDIO
+- Governance mechanism: Futarchy
+- Token distribution: 10% to DAOs, 0.5% to FUTARDIO holders
+- Funding requested: $100,000
+- Timeline: 6 months
+- Vote outcome: Failed on August 18, 2024
 
-## Summary
+## Market Positioning
+The proposal argued there was "an opening in the market for a pump.fun with a token" and positioned the platform as a hyperstructure.
 
-Proposal to develop "Futardio," a memecoin launchpad governed by futarchy. The platform would allow DAOs to launch memecoins with 10% allocated to MetaDAO and 10% to the launching DAO.
-
-## Key Features
-
-- Futarchy-governed launchpad for memecoins
-- 10% token allocation to MetaDAO per launch
-- 10% token allocation to launching DAO
-- Bootstrapping token (FUTARDIO) to capture platform value
-- Designed to compete with pump.fun
-
-## Rationale from Proposal
-
-- "There is a market opening for pump.fun competitors. pump.fun does not have a bootstrapping token."
-- Creates distribution channel for futarchy adoption
-- Generates revenue for MetaDAO through token allocations
-
-## Outcome
-
-The proposal failed when the vote concluded on 2024-08-18.
+## Distribution Strategy
+The proposal framed token allocation as solving futarchy's adoption problem: "Futarchy has a distribution problem. DAOs don't want to adopt it because it's unproven, and it's unproven because DAOs don't want to adopt it. This proposal solves that problem by giving DAOs a financial incentive to try futarchy."
 
 ## Claims Extracted
-
-- [[futarchy-governed-memecoin-launchpad-creates-distribution-channel-for-futarchy-adoption-through-token-allocation-to-daos]]
-- [[memecoin-launchpad-with-bootstrapping-token-represents-market-opening-for-pump-fun-competitors]]
+- [[proposed-futarchy-governed-memecoin-launchpad-would-create-distribution-channel-for-futarchy-adoption-through-token-allocation-to-daos]]
+- [[proposed-memecoin-launchpad-with-bootstrapping-token-suggested-market-opening-for-pump-fun-competitors]]

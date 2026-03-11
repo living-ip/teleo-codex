@@ -1,48 +1,23 @@
 ---
 type: claim
-claim_id: proposed-memecoin-launchpad-with-bootstrapping-token-suggested-market-opening-for-pump-fun-competitors
-title: Proposed memecoin launchpad with bootstrapping token suggested market opening for pump.fun competitors
-description: MetaDAO's proposal #5 for FUTARDIO argued that pump.fun's dominance could be challenged by competitors offering a bootstrapping token, as evidenced by the proposal's market positioning strategy
-domains:
-  - internet-finance
+claim: proposed-memecoin-launchpad-with-bootstrapping-token-suggested-market-opening-for-pump-fun-competitors
+description: A 2024 proposal for a memecoin launchpad argued that pump.fun's market dominance could be challenged by a competitor with its own bootstrapping token, citing an apparent market opening.
 tags:
-  - memecoin
-  - pump.fun
-  - FUTARDIO
-  - MetaDAO
-  - market-competition
-confidence: high
-status: active
-created: 2025-01-22
-processed_date: 2025-01-22
+  - topic/memecoins
+  - topic/market-competition
+  - topic/tokenomics
+  - org/metadao
+  - platform/pump-fun
+source: https://dao.metadao.fi/proposal/futardio
+confidence: medium
+date_published: 2024-08-14
+date_added: 2025-01-23
 ---
 
-# Claim
+A proposal submitted to MetaDAO on August 14, 2024 argued that despite pump.fun's dominance in the memecoin launchpad market, there was an opportunity for competitors that offered their own bootstrapping token.
 
-MetaDAO's proposal #5 for FUTARDIO argued that [[pump.fun]]'s dominance in the memecoin launchpad market could be challenged by competitors offering a bootstrapping token. The proposal positioned FUTARDIO as a [[pump.fun]] competitor on [[Solana]] that would use token allocations (0.5% to FUTARDIO holders, 10% to DAOs) as a competitive differentiator.
+The proposal stated: "Despite pump.fun's dominance, there appears to be an opening in the market for a pump.fun with a token." It positioned the proposed platform as a "[[hyperstructure]]" - a crypto protocol that can run indefinitely with minimal maintenance.
 
-# Evidence
+The proposal suggested that a launchpad with its own token (FUTARDIO in this case) could differentiate itself through token-based incentives, including allocating 10% of launched tokens to DAOs and 0.5% to the platform's token holders.
 
-## Supporting Evidence
-
-### Proposal identified bootstrapping token as competitive advantage
-
-Source: [[2024-08-14-futardio-proposal-develop-memecoin-launchpad]]
-
-The FUTARDIO proposal explicitly positioned the platform as a [[pump.fun]] competitor, arguing that offering a bootstrapping token (FUTARDIO) with value accrual from launched memecoins would create a competitive moat. The proposal required $100k funding and 6 months development time.
-
-### Market structure suggested openness to competition
-
-Source: [[2024-08-14-futardio-proposal-develop-memecoin-launchpad]]
-
-The proposal's framing implied that [[pump.fun]]'s market position was not insurmountable and that differentiated offerings could capture market share. The [[hyperstructure]] model with token incentives was presented as a viable alternative approach.
-
-### Related claim on distribution mechanism
-
-See: [[proposed-futarchy-governed-memecoin-launchpad-would-create-distribution-channel-for-futarchy-adoption-through-token-allocation-to-daos]]
-
-The same proposal also focused on using token allocations as a distribution channel for futarchy adoption among DAOs.
-
-# Counterevidence
-
-None identified.
+This market analysis was part of a proposal that ultimately failed its vote on August 18, 2024, so the competitive hypothesis was never tested in practice.
