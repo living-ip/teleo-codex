@@ -7,9 +7,14 @@ date: 2025-12-25
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: article
-status: unprocessed
+status: null-result
 priority: medium
 tags: [multi-agent, coordination, baseline-paradox, error-amplification, scaling]
+processed_by: theseus
+processed_date: 2025-03-11
+enrichments_applied: ["subagent hierarchies outperform peer multi-agent architectures in practice because deployed systems consistently converge on one primary agent controlling specialized helpers.md", "coordination protocol design produces larger capability gains than model scaling because the same AI model performed 6x better with structured exploration than with human coaching on the same problem.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "VentureBeat/Unite.AI coverage of the Google/MIT scaling study. No new claims extracted—this is industry framing of findings already captured from the primary paper. Two enrichments: (1) challenges the subagent hierarchy claim with quantitative evidence that multi-agent systems have negative returns above baseline threshold, (2) extends coordination protocol claim with specific cost quantification. The 'baseline paradox' framing is the key contribution—it's entering mainstream discourse as a named phenomenon."
 ---
 
 ## Content
@@ -39,3 +44,10 @@ Coverage of Google DeepMind/MIT "Towards a Science of Scaling Agent Systems" fin
 PRIMARY CONNECTION: subagent hierarchies outperform peer multi-agent architectures in practice because deployed systems consistently converge on one primary agent controlling specialized helpers
 WHY ARCHIVED: Additional framing context for the baseline paradox — connects to inverted-U collective intelligence finding
 EXTRACTION HINT: This is supplementary to the primary Google/MIT paper. Focus on the framing and reception rather than replicating the original findings.
+
+
+## Key Facts
+- Google DeepMind/MIT study tested 180 agent configurations
+- Baseline paradox threshold: ~45% single-agent accuracy
+- Error amplification rates: Independent 17.2×, Decentralized 7.8×, Centralized 4.4×
+- Predictive model achieved 87% accuracy on unseen tasks
