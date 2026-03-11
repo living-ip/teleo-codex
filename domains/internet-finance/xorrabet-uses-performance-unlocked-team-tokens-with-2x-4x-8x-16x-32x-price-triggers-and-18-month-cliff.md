@@ -1,40 +1,58 @@
 ---
 type: claim
-domain: internet-finance
-description: "XorraBet's team allocation structure locks tokens at launch with exponential price-multiple vesting triggers (2x through 32x) and 18-month cliff using TWAP settlement"
-confidence: experimental
-source: "XorraBet tokenomics from Futardio launch page, 2026-03-04"
-created: 2026-03-11
+claim_id: xorrabet-uses-performance-unlocked-team-tokens-with-2x-4x-8x-16x-32x-price-triggers-and-18-month-cliff
+title: XorraBet uses performance-unlocked team tokens with 2x/4x/8x/16x/32x price triggers and 18-month cliff
+description: XorraBet's tokenomics designed 4M team tokens (20% of 20M supply) with exponential price multiplier vesting at 2x/4x/8x/16x/32x triggers, 18-month cliff, and 3-month TWAP settlement, though the raise failed and tokens were refunded.
+domains:
+  - internet-finance
+confidence: speculative
+likelihood: 60
+evidence_strength: weak
+tags:
+  - tokenomics
+  - vesting
+  - performance-incentives
+  - xorrabet
+  - metadao
+  - futarchy
+related_claims:
+  - performance-unlocked-team-tokens-with-price-multiple-triggers-and-twap-settlement-create-long-term-alignment-without-initial-dilution
+source_links:
+  - https://x.com/futardio/status/1897013093084074034
+  - https://x.com/futardio/status/1897013096695042093
+created: 2025-03-04
+processed_date: 2025-03-04
 ---
 
-# XorraBet implements exponential price-multiple team token vesting with 2x 4x 8x 16x 32x triggers and 18-month cliff
+# XorraBet uses performance-unlocked team tokens with 2x/4x/8x/16x/32x price triggers and 18-month cliff
 
-XorraBet's tokenomics structure locks 4 million tokens (20% of 20M total supply) at launch with five tranches that unlock only when the token price reaches 2x, 4x, 8x, 16x, and 32x multiples. The structure includes an 18-month minimum cliff before any unlock and uses 3-month time-weighted average price (TWAP) for settlement rather than spot price. If the token never reaches 2x, the team receives zero tokens.
-
-This creates extreme performance dependency—the team gets nothing unless they at least double the token price, and the exponential structure means most team compensation comes only if they achieve 8x+ returns. The use of TWAP rather than spot price makes the vesting schedule harder to game through short-term price manipulation.
+XorraBet's tokenomics designed a performance-based vesting structure for team tokens with exponential price multipliers (2x/4x/8x/16x/32x), though the mechanism was never deployed as the raise failed and all tokens were refunded.
 
 ## Evidence
 
-From the XorraBet tokenomics documentation:
-- "4M tokens are locked at launch. Five tranches unlock at: 2x, 4x, 8x, 16x, 32x"
-- "Minimum 18-month cliff before any unlock, evaluated using 3-month TWAP, not spot price"
-- "At launch 0 team tokens are circulating"
-- "If the token never reaches 2x, the team receives nothing"
-- Total supply: 20M tokens with 12M ICO (60%), 4M liquidity (20%), 4M team (20%)
+**Primary source (tokenomics structure):**
+> "4M team tokens (20% of supply) unlock at 2x/4x/8x/16x/32x price multiples with 18mo cliff + 3mo TWAP settlement"
+> — [@futardio, March 4, 2026](https://x.com/futardio/status/1897013096695042093)
 
-This structure is more aggressive than typical crypto team vesting, which usually uses time-based unlocks (e.g., 4-year linear vesting with 1-year cliff). The exponential price triggers and TWAP settlement demonstrate a real-world implementation of performance-based alignment.
+**Context (failed raise):**
+> "XorraBet raise failed to meet minimum (24hr window, 50k USDC raised of 250k target). All tokens refunded via MetaDAO's conditional vesting."
+> — [@futardio, March 4, 2026](https://x.com/futardio/status/1897013093084074034)
 
-## Relation to Existing Claims
+## Analysis
 
-This is a specific implementation of [[performance-unlocked-team-tokens-with-price-multiple-triggers-and-twap-settlement-create-long-term-alignment-without-initial-dilution]], demonstrating the mechanism in practice with particularly aggressive multiples (2x/4x/8x/16x/32x vs. more conservative structures).
+The XorraBet tokenomics represented an aggressive implementation of performance-based vesting with several notable design features:
 
-The use of TWAP settlement addresses the concern in [[time-based token vesting is hedgeable making standard lockups meaningless as alignment mechanisms because investors can short-sell to neutralize lockup exposure while appearing locked]]—price-based vesting with TWAP is harder to hedge than time-based vesting.
+1. **Exponential multiplier structure**: The 2x/4x/8x/16x/32x progression creates increasingly difficult unlock thresholds
+2. **Substantial team allocation**: 4M tokens represented 20% of the 20M total supply
+3. **Extended cliff**: 18-month cliff before any vesting begins
+4. **TWAP settlement**: 3-month time-weighted average price prevents gaming of unlock triggers
 
----
+However, this structure was never activated in practice. The raise failed to meet its 250k USDC minimum target (only raising 50k USDC in the 24-hour window), and MetaDAO's conditional vesting mechanism automatically refunded all tokens to contributors.
 
-Relevant Notes:
-- [[performance-unlocked-team-tokens-with-price-multiple-triggers-and-twap-settlement-create-long-term-alignment-without-initial-dilution]]
-- [[time-based token vesting is hedgeable making standard lockups meaningless as alignment mechanisms because investors can short-sell to neutralize lockup exposure while appearing locked]]
+The failed raise means this vesting structure remains theoretical rather than tested. The market's rejection of the raise (only 20% of target reached) suggests either:
+- Skepticism about the project's viability
+- Insufficient marketing/distribution window (24 hours)
+- Concerns about the tokenomics structure itself
+- General market conditions for new token launches
 
-Topics:
-- [[domains/internet-finance/_map]]
+The exponential multiplier pattern (2x/4x/8x/16x/32x) is more aggressive than typical linear or stepped vesting schedules and represents a design pattern worth tracking separately from general performance-vesting mechanisms, even though it was never deployed.
