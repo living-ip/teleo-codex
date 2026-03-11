@@ -21,6 +21,12 @@ The structural point is about threat proximity. AI takeover requires autonomy, r
 
 **Anthropic's own measurements confirm substantial uplift (mid-2025).** Dario Amodei reports that as of mid-2025, Anthropic's internal measurements show LLMs "doubling or tripling the likelihood of success" for bioweapon development across several relevant areas. Models are "likely now approaching the point where, without safeguards, they could be useful in enabling someone with a STEM degree but not specifically a biology degree to go through the whole process of producing a bioweapon." This is the end-to-end capability threshold — not just answering questions but providing interactive walk-through guidance spanning weeks or months, similar to tech support for complex procedures. Anthropic responded by elevating Claude Opus 4 and subsequent models to ASL-3 (AI Safety Level 3) protections. The gene synthesis supply chain is also failing: an MIT study found 36 out of 38 gene synthesis providers fulfilled orders containing the 1918 influenza sequence without flagging it. Amodei also raises the "mirror life" extinction scenario — left-handed biological organisms that would be indigestible to all existing life on Earth and could "proliferate in an uncontrollable way." A 2024 Stanford report assessed mirror life could "plausibly be created in the next one to few decades," and sufficiently powerful AI could accelerate this timeline dramatically. (Source: Dario Amodei, "The Adolescence of Technology," darioamodei.com, 2026.)
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-00-international-ai-safety-report-2026]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The International AI Safety Report 2026 (multi-government committee, February 2026) confirms that 'biological/chemical weapons information accessible through AI systems' is a documented malicious use risk. While the report does not specify the expertise level required (PhD vs amateur), it categorizes bio/chem weapons information access alongside AI-generated persuasion and cyberattack capabilities as confirmed malicious use risks, giving institutional multi-government validation to the bioterrorism concern.
+
 ---
 
 Relevant Notes:
