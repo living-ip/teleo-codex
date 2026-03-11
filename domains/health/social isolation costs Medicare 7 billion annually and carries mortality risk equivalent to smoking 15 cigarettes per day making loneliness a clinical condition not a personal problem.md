@@ -17,6 +17,12 @@ The structural challenge: there is no equivalent to the NHS link worker role in 
 
 Loneliness exists at the intersection of clinical medicine and social infrastructure. It cannot be treated with medication or therapy alone -- it requires community-level intervention that the healthcare system is not designed to deliver.
 
+
+### Additional Evidence (extend)
+*Source: [[2021-02-00-pmc-japan-ltci-past-present-future]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Japan's LTCI system addresses social isolation through integrated service delivery that combines medical care with social and welfare services. The system's structure—offering both facility-based and home-based care with beneficiary choice—creates formal touchpoints that reduce isolation for the 5+ million elderly receiving benefits. This represents a structural intervention at the care delivery level, not just a clinical screening program. The US lacks this infrastructure: Medicare covers acute care but not the social/welfare integration that LTCI provides, leaving social isolation interventions as add-ons rather than core system features. Japan's approach suggests that mandatory universal LTCI could be the infrastructure layer that makes social isolation interventions scalable and sustainable.
+
 ---
 
 Relevant Notes:

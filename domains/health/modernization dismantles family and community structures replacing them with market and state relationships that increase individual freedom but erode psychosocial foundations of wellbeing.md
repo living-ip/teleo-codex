@@ -25,6 +25,12 @@ The most troubling signal is that the largest increase in suicide rates has occu
 
 Progress should mean happier, healthier populations, not merely more material possessions. Since [[Americas declining life expectancy is driven by deaths of despair concentrated in populations and regions most damaged by economic restructuring since the 1980s]], the US reversal in life expectancy is the empirical confirmation that modernization without psychosocial infrastructure produces net harm past a critical threshold.
 
+
+### Additional Evidence (confirm)
+*Source: [[2021-02-00-pmc-japan-ltci-past-present-future]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Japan's LTCI system explicitly shifted long-term care burden from family caregiving to social solidarity through mandatory insurance. The system's stated goal was to relieve families of caregiving burden by socializing the cost and delivery of long-term care. This represents a deliberate policy choice to replace family-based care (community structure) with state-organized insurance and market-provided services. The US comparison is stark: $870B in unpaid family labor annually substitutes for the social insurance mechanism Japan implemented. This confirms the modernization dynamic—Japan chose to formalize and socialize care through state/market mechanisms, while the US maintains reliance on informal family structures that extract enormous opportunity costs.
+
 ---
 
 Relevant Notes:

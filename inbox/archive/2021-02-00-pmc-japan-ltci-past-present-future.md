@@ -7,9 +7,15 @@ date: 2021-02-01
 domain: health
 secondary_domains: []
 format: paper
-status: unprocessed
+status: processed
 priority: high
 tags: [japan, long-term-care, ltci, aging, demographics, international-comparison, caregiver]
+processed_by: vida
+processed_date: 2026-03-11
+claims_extracted: ["japan-ltci-proves-mandatory-universal-long-term-care-insurance-is-viable-at-national-scale.md", "us-long-term-care-financing-gap-is-the-largest-unaddressed-structural-problem-in-american-healthcare.md", "japans-20-year-demographic-lead-makes-ltci-the-clearest-preview-of-us-long-term-care-challenges.md"]
+enrichments_applied: ["pace-demonstrates-integrated-care-averts-institutionalization-through-community-based-delivery-not-cost-reduction.md", "modernization dismantles family and community structures replacing them with market and state relationships that increase individual freedom but erode psychosocial foundations of wellbeing.md", "social isolation costs Medicare 7 billion annually and carries mortality risk equivalent to smoking 15 cigarettes per day making loneliness a clinical condition not a personal problem.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted three claims establishing Japan LTCI as existence proof of mandatory universal long-term care insurance, the US financing gap as largest structural healthcare problem, and Japan's demographic lead as preview of US challenges. Enriched three existing claims with Japan comparison data. Primary extraction frame: structural comparison between Japan's mandatory universal LTCI and US reliance on unpaid family labor ($870B annually). All three claims rated 'likely' or 'proven' based on 25 years of operational evidence at national scale."
 ---
 
 ## Content
@@ -69,3 +75,13 @@ tags: [japan, long-term-care, ltci, aging, demographics, international-compariso
 PRIMARY CONNECTION: [[social isolation costs Medicare 7 billion annually and carries mortality risk equivalent to smoking 15 cigarettes per day making loneliness a clinical condition not a personal problem]]
 WHY ARCHIVED: Japan's LTCI directly addresses the care infrastructure gap the US relies on unpaid family labor to fill.
 EXTRACTION HINT: The US vs. Japan structural comparison — mandatory universal LTCI vs. $870B in unpaid family labor — is the most powerful extraction frame.
+
+
+## Key Facts
+- Japan LTCI implemented April 1, 2000
+- Two insured categories: Category 1 (65+), Category 2 (40-64, specified diseases only)
+- Financing: 50% premiums + 50% taxes (25% national, 12.5% prefecture, 12.5% municipal)
+- 7 care level tiers from 'support required' to 'long-term care level 5'
+- 5+ million beneficiaries as of 2015 (~17% of 65+ population)
+- Japan 28.4% of population 65+ (2019), expected plateau ~40% (2040-2050)
+- 6 million aged 85+ currently → 10 million by 2040

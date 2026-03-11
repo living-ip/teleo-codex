@@ -32,6 +32,12 @@ Some evidence indicates lower mortality rates among PACE enrollees, suggesting q
 - Study covered 8 states, 250+ enrollees during 2006-2008
 - Matched comparison groups: nursing home entrants AND HCBS waiver enrollees
 
+
+### Additional Evidence (extend)
+*Source: [[2021-02-00-pmc-japan-ltci-past-present-future]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Japan's LTCI system provides an international scale comparison for PACE's integrated care model. LTCI covers 5+ million beneficiaries (~17% of Japan's 65+ population) through both facility-based and home-based services chosen by beneficiary, demonstrating that integrated medical + social + welfare services can operate at national scale. The US equivalent coverage would be ~11.4M people vs. PACE's current ~90K enrollment, showing PACE operates at <1% of the scale that Japan proves is viable. Japan's mandatory universal model shifted burden from family caregiving to social solidarity while maintaining beneficiary choice of care setting—the same goals PACE pursues but at 100x larger scale.
+
 ---
 
 Relevant Notes:
