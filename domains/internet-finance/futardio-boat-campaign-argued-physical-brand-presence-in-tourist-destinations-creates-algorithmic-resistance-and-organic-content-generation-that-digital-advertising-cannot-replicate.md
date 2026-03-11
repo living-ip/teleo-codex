@@ -1,33 +1,37 @@
 ---
 type: claim
 claim_type: hypothesis
-confidence: hypothesis
+confidence: experimental
 tags:
   - futarchy
   - marketing
   - physical-infrastructure
-  - content-generation
+  - metadao
   - futardio
-domain:
-  - internet-finance
+source_type: primary
+source_date: 2026-03-05
+processed_date: 2026-03-06
 ---
 
 # Futardio Boat campaign argued physical brand presence in tourist destinations creates algorithmic resistance and organic content generation that digital advertising cannot replicate
 
-The Futardio Boat campaign's value proposition centered on physical brand presence in high-traffic tourist areas (Amsterdam canals) as superior to digital advertising. The campaign argued that physical installations create "algorithmic resistance" (visibility independent of platform algorithms) and generate organic user-generated content that amplifies brand reach beyond paid media.
+The Futardio Boat campaign proposal to MetaDAO argued that a branded canal boat in Amsterdam would create marketing value through physical presence in high-traffic tourist areas, generating organic social media content and brand visibility that resists algorithmic filtering. The proposal emphasized that physical infrastructure creates "real-world touchpoints" that digital advertising cannot achieve.
 
-The campaign entered "Refunding" status after one day, though it's unclear whether this was due to futarchy market rejection of the proposal, failure to meet minimum participation thresholds, or other technical factors. The actual amount raised before refunding is not documented.
+The campaign entered refunding status one day after launch (March 5-6, 2026), though it's unclear whether this resulted from market rejection of the marketing thesis, failure to meet participation thresholds, or other factors.
+
+## Evidence
+
+- Campaign proposal emphasized "algorithmic resistance" as key value proposition
+- Positioned physical presence as superior to digital advertising for organic content generation
+- Targeted Amsterdam canals as high-visibility tourist destination
+- Campaign entered refunding March 6, 2026, one day after March 5 launch
 
 ## Enrichments
 
-### Futarchy adoption may face friction when evaluating proposals where ROI is indirect or brand-focused
+### Related to [[metadao-uses-conditional-markets-futarchy-for-treasury-allocation-decisions]]
 
-The Futardio Boat campaign's rapid entry into refunding status (within one day) may suggest challenges in using futarchy mechanisms to evaluate proposals with indirect, brand-focused returns rather than direct revenue generation. However, the campaign's brief duration means we lack evidence of whether conditional markets were created, what market prices indicated, or whether refunding resulted from market evaluation versus participation thresholds. Physical infrastructure projects like [[myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-mushroom-cultivation-facility-raise]] may provide better comparison data for futarchy's ability to evaluate tangible asset proposals.
+This represents MetaDAO's second Futardio-branded campaign, following the successful $11M meme coin launch. The campaign proposed €150,000 for 24-month runway at ~€5,000/month burn, but entered refunding after one day. The different outcomes between the two Futardio campaigns may suggest differences in proposal type or market conditions rather than brand recognition.
 
-Confidence: hypothesis (based on single refunded campaign with limited operational data)
+### Related to [[futarchy-governance-may-create-friction-for-proposals-with-long-term-indirect-effects-that-resist-quantification]]
 
-### Physical marketing infrastructure proposals may test futarchy's price discovery mechanisms differently than digital projects
-
-The Futardio Boat campaign represented an unusual proposal type for futarchy governance: physical marketing infrastructure with brand-building rather than direct revenue goals. The campaign's entry into refunding status after one day raises questions about whether futarchy's price discovery mechanisms engaged with the proposal, though the brief timeline means conditional markets may not have had time to form or reflect meaningful evaluation. Comparison with [[myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-mushroom-cultivation-facility-raise]] and digital infrastructure projects could clarify whether physical asset proposals face distinct evaluation challenges.
-
-Confidence: hypothesis (insufficient data on market formation and evaluation process)
+The immediate refunding (launched March 5, refunding March 6, 2026) occurred with a proposal emphasizing long-term brand value and organic content generation—effects difficult to quantify in advance. However, refunding can result from multiple causes including participation thresholds, so the evidence is insufficient to determine whether futarchy markets specifically rejected the marketing ROI thesis or if the campaign failed for other reasons.
