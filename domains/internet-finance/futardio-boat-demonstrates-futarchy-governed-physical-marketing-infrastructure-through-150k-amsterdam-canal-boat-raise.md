@@ -1,24 +1,27 @@
 ---
 type: claim
-claim_id: futardio-boat-demonstrates
-domain: internet-finance
-title: Futardio Boat demonstrates futarchy-governed physical marketing infrastructure through $150k Amsterdam canal boat raise
-status: refunded
+claim_type: experimental
 confidence: experimental
-created: 2026-03-05
-processed_date: 2026-03-05
-source: https://x.com/futardio/status/1897673828374679806
+tags:
+  - futarchy
+  - physical-infrastructure
+  - marketing
+  - futardio
+  - amsterdam
+domain:
+  - internet-finance
 ---
 
-# Futardio Boat demonstrates futarchy-governed physical marketing infrastructure through $150k Amsterdam canal boat raise
+# Futardio Boat demonstrates futarchy-governed physical marketing infrastructure through €150k Amsterdam canal boat campaign
 
-Futardio launched a futarchy-governed fundraising campaign to purchase an Amsterdam canal boat for $150,000 to serve as a physical marketing platform. The campaign proposed generating $5,000/month in revenue through boat tours and event hosting while providing continuous brand presence in a high-traffic tourist area.
+The Futardio Boat campaign represented an attempt to use futarchy governance mechanisms to fund physical marketing infrastructure—specifically, a branded canal boat in Amsterdam's tourist areas. The campaign had a €150,000 funding target and entered "Refunding" status after one day of operation.
 
-The campaign was refunded after failing to attract sufficient participation. It remains unclear whether conditional futarchy markets were created to evaluate the proposal, or if the campaign simply failed to reach minimum fundraising thresholds before market mechanisms could be invoked.
+The "Refunding" status indicates the campaign did not proceed, though the specific cause is unclear. In futarchy ICO mechanisms, refunding can occur when conditional markets reject a proposal OR when minimum participation thresholds aren't met. The actual amount raised before refunding is not documented, making it difficult to determine whether the campaign engaged futarchy's market evaluation mechanisms or failed to achieve minimum participation levels.
 
-This represents an attempt to apply futarchy governance to physical infrastructure acquisition, though the refunded status means we cannot determine whether futarchy markets actually evaluated and rejected the proposal, or if the campaign failed due to lack of participation before governance mechanisms engaged.
+## Enrichments
 
-## Related Claims
+### Futarchy governance mechanisms may face challenges evaluating physical infrastructure with indirect ROI
 
-- [[futardio-boat-campaign-argued-physical-brand-presence-in-tourist-destinations-creates-algorithmic-resistance-and-organic-content-generation-that-digital-advertising-cannot-replicate]]
-- [[mycorealms-demonstrates-futarchy-governed-physical-infrastructure-through-mushroom-farm-raise]]
+The Futardio Boat campaign's entry into refunding status after one day raises questions about futarchy's applicability to physical infrastructure projects with brand-focused rather than direct revenue returns. However, the brief campaign duration means we lack critical data: whether conditional markets were created, what market prices indicated if they existed, and whether refunding resulted from market rejection versus technical or participation thresholds. Physical infrastructure projects like [[myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-mushroom-cultivation-facility-raise]] may provide comparison points, while [[optimism-futarchy-demonstrates-governance-by-prediction-markets-through-10m-retro-funding-experiment]] shows futarchy application in different contexts.
+
+Confidence: hypothesis (single campaign with insufficient operational data)
