@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/4h248CdXdeWtxWnHxEPqa5ruYZaEwXRZPyDFYnndbzpR"
 date: 2025-10-20
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2025-10-20
+enrichments_applied: ["internet-capital-markets-compress-fundraising-from-months-to-days-because-permissionless-raises-eliminate-gatekeepers-while-futarchy-replaces-due-diligence-bottlenecks-with-real-time-market-pricing.md", "MetaDAO-is-the-futarchy-launchpad-on-Solana-where-projects-raise-capital-through-unruggable-ICOs-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted one novel claim about LST-based privacy mixers solving opportunity cost paradox. Enriched two existing claims with fundraising speed and platform scope evidence. Source is primarily a launch announcement with project description - limited technical detail but strong market signal via oversubscription. Confidence capped at experimental due to single-source evidence and lack of post-launch usage data."
 ---
 
 ## Launch Details
@@ -59,3 +64,16 @@ Token CA: [`ZKFHiLAfAFMTcDAuCtjNW54VzpERvoe7PBF9mYgmeta`](https://jup.ag/tokens/
 - Version: v0.6
 - Final raise: $969,420.00
 - Closed: 2025-10-24
+
+
+## Key Facts
+- ZKLSOL funding target: $300,000
+- ZKLSOL total committed: $14,886,359 (49x oversubscription)
+- ZKLSOL final raise: $969,420
+- Launch date: 2025-10-20
+- Close date: 2025-10-24
+- Token: ZKFG
+- Token mint: ZKFHiLAfAFMTcDAuCtjNW54VzpERvoe7PBF9mYgmeta
+- Platform: futard.io v0.6
+- Devnet app: app.zklsol.org
+- Documentation: docs.zklsol.org
