@@ -1,7 +1,7 @@
 ---
 type: claim
 title: Pluralistic Alignment Must Accommodate Irreducibly Diverse Values Simultaneously Rather Than Converging on a Single Aligned State
-description: Standard alignment procedures (RLHF, DPO) reduce distributional pluralism by forcing convergence to a single model, but pluralistic alignment preserves diverse viewpoints through ensemble structures, temporal negotiation, and adaptive policy selection
+description: Standard alignment procedures reduce distributional pluralism by forcing convergence to a single model, but pluralistic alignment preserves diverse viewpoints through ensemble structures, temporal negotiation, and adaptive policy selection
 confidence: likely
 created: 2026-03-11
 processed_date: 2026-03-11
@@ -23,11 +23,11 @@ Klassen et al (NeurIPS 2024) add the temporal dimension. In sequential decision-
 
 Harland et al (NeurIPS 2024) propose the technical mechanism: Multi-Objective RL with post-learning policy selection adjustment that dynamically adapts to diverse and shifting user preferences, making alignment itself adaptive rather than fixed.
 
-**EM-DPO enrichment (extend)**: The EM-DPO paper provides a concrete implementation of distributional pluralism through latent preference type discovery. Rather than treating preference diversity as noise to average out, EM-DPO uses Expectation-Maximization to identify K distinct preference clusters from binary comparison data, then trains separate models for each type. This operationalizes the principle that diverse values should be accommodated structurally (through model ensembles) rather than collapsed into consensus.
+**EM-DPO enrichment (extend)**: The EM-DPO paper provides a concrete implementation of distributional pluralism through latent preference type discovery. Rather than treating preference diversity as noise to average out, EM-DPO uses Expectation-Maximization to identify K distinct preference clusters from binary comparison data, then trains separate models for each type. This operationalizes the principle that diverse values should be accommodated structurally (through model ensembles) rather than collapsed into consensus. The MinMax Regret aggregation strategy then ensures no preference group experiences catastrophic dissatisfaction at deployment time.
 
 **Relevant Notes:**
 - [[binary-preference-comparisons-cannot-identify-latent-preference-types-making-pairwise-RLHF-structurally-blind-to-diversity]] — describes the technical failure mode
 - [[egalitarian-aggregation-through-minmax-regret-bounds-worst-case-preference-group-dissatisfaction-in-pluralistic-AI-deployment]] — MinMax Regret is a technical instantiation of this principle
-- [[democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations]] — assemblies are one mechanism for pluralistic alignment
+- [[democratic-alignment-assemblies-produce-constitutions-as-effective-as-expert-designed-ones-while-better-representing-diverse-populations]] — assemblies are one mechanism for pluralistic alignment
 
 **Topics:** AI alignment, preference diversity, value pluralism, multi-objective optimization
