@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/GmNzSXzQ3q6UCVRpBf8PkvEqoo454Qr6twWc9zuzJzBa"
 date: 2026-03-04
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability-because-failed-projects-on-a-curated-platform-damage-the-platforms-credibility.md", "myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-125k-mushroom-farm-raise-with-market-controlled-capex-deployment.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "First documented consumer food business futarchy raise. Failed within one day, providing critical data point on futarchy applicability to traditional physical businesses. Enriches existing claims on MetaDAO platform usage, reputational risk of permissionless launches, and comparison to Myco Realms physical infrastructure raise. Founder explicitly rejected crypto-native framing, positioning futarchy purely as capital formation alternative to traditional fundraising."
 ---
 
 ## Launch Details
@@ -114,3 +119,14 @@ If that's you, welcome. Let's make crêpes.
 - Token mint: `8XqLC3q6ju8Mxd33Zj92pEZsVwbbvqFd7JUbPLXSmeta`
 - Version: v0.7
 - Closed: 2026-03-05
+
+
+## Key Facts
+- Pli Crêperie Ambulante launched on futard.io 2026-03-04 targeting $350,000
+- Launch reached Refunding status and closed 2026-03-05 (one day duration)
+- Budget breakdown: 60k CHF truck, 8k equipment, 6k/year permits, 24k/year ingredients, 90k/year founder living, 15k buffer = ~219k CHF Phase 1
+- Three-phase roadmap: food truck (months 1-12), restaurant (year 2), franchise (year 3+)
+- Founder: Solutions Architect in tech, based in Zürich, not trained chef
+- Market context: Zürich 430k+ residents, no dedicated crêperie food truck currently operating
+- Token: 8Xq, mint address 8XqLC3q6ju8Mxd33Zj92pEZsVwbbvqFd7JUbPLXSmeta
+- Launch address: GmNzSXzQ3q6UCVRpBf8PkvEqoo454Qr6twWc9zuzJzBa
