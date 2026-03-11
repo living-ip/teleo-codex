@@ -7,10 +7,16 @@ date: 2026-03-01
 domain: entertainment
 secondary_domains: [ai-alignment]
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [EU-AI-Act, content-labeling, regulation, creative-exemption, entertainment-impact, transparency]
 flagged_for_theseus: ["AI transparency regulation as alignment mechanism — mandatory labeling may structurally advantage human-created content"]
+processed_by: clay
+processed_date: 2026-03-11
+claims_extracted: ["eu-ai-act-article-50-creative-exemption-makes-entertainment-authenticity-premium-market-driven-not-regulation-driven.md", "ai-content-labeling-regulation-creates-structural-advantage-for-human-made-content-in-non-entertainment-sectors.md"]
+enrichments_applied: ["GenAI adoption in entertainment will be gated by consumer acceptance not technology capability.md", "human-made-is-becoming-a-premium-label-analogous-to-organic-as-AI-generated-content-becomes-dominant.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims focusing on the regulatory asymmetry between entertainment (creative exemption) and other sectors (mandatory labeling). The key insight is that regulation creates different competitive dynamics by sector: market-driven authenticity premium in entertainment versus regulation-driven advantage for human-made content in news/marketing. Enriched two existing entertainment claims with the regulatory context. No evidence found on how entertainment companies are actually preparing for compliance, which is notable given the 5-month timeline."
 ---
 
 ## Content
@@ -41,3 +47,12 @@ Synthesis of multiple sources on EU AI Act Article 50 transparency requirements 
 PRIMARY CONNECTION: [[GenAI adoption in entertainment will be gated by consumer acceptance not technology capability]]
 WHY ARCHIVED: The creative content carve-out is a SURPRISE — it means entertainment's authenticity premium is market-driven not regulation-driven, unlike other sectors
 EXTRACTION HINT: Focus on the ASYMMETRY between entertainment (lighter requirements) and other sectors (stricter). The creative exemption complicates a simple "regulation drives human-made premium" story.
+
+
+## Key Facts
+- EU AI Act Article 50 effective date: August 2, 2026
+- California AI Transparency Act (SB 942, AB 853) effective date: August 2, 2026 (delayed from January 1, 2026)
+- EU penalties: up to EUR 15M or 3% of worldwide annual turnover
+- Code of Practice timeline: finalized May-June 2026
+- Dual labeling requirement: machine-readable (all synthetic content) + human-visible (deepfakes and public interest content)
+- Affected sectors: media, entertainment, digital marketing, technology platforms, e-commerce

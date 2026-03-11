@@ -27,6 +27,12 @@ Shapiro's 2030 scenario paints a plausible picture: three of the top 10 most pop
 
 The emergence of 'human-made' as a premium label in 2026 provides concrete evidence of consumer resistance shaping market positioning and adoption patterns. Brands are actively differentiating on human creation and achieving higher conversion rates (PrismHaus), demonstrating consumer preference is creating market segmentation between human-made and AI-generated content. Monigle's framing that brands are 'forced to prove they're human' indicates consumer skepticism is driving strategic responses—companies are not adopting AI at maximum capability but instead positioning human creation as premium. This confirms that adoption is gated by consumer acceptance (skepticism about AI content) rather than capability (AI technology is clearly capable of generating content). The market is segmenting on acceptance, not on what's technically possible.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-08-02-eu-ai-act-creative-content-labeling]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+EU AI Act Article 50 (effective August 2, 2026) provides empirical support for this claim through regulatory design. The creative content carve-out explicitly exempts 'evidently artistic, creative, satirical, or fictional' content from the strictest AI disclosure requirements, while news and marketing face mandatory human-visible labeling. This regulatory asymmetry reveals policymaker recognition that entertainment adoption is indeed gated by consumer acceptance rather than capability constraints. If adoption were capability-gated, regulation would apply uniformly across sectors. Instead, regulators explicitly lighter-touch entertainment, implying they expect market forces (consumer preference) to determine adoption speed, not technology availability or regulatory mandate. The creative exemption confirms that consumer acceptance, not regulation or capability, remains the binding constraint for GenAI adoption in entertainment specifically.
+
 ---
 
 Relevant Notes:

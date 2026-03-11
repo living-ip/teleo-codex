@@ -38,6 +38,12 @@ This represents a scarcity inversion: as AI-generated content becomes abundant a
 - **Verification infrastructure immature**: C2PA content authentication is emerging but not yet widely deployed; risk of label dilution or fraud if verification mechanisms remain weak
 - **Incumbent response unknown**: Corporate brands may develop effective transparency and verification mechanisms that close the credibility gap with community-owned IP
 
+
+### Additional Evidence (extend)
+*Source: [[2026-08-02-eu-ai-act-creative-content-labeling]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Regulation is accelerating the human-made premium in non-entertainment sectors but NOT in entertainment, creating sector-specific divergence. EU AI Act Article 50 and California AI Transparency Act (both effective August 2, 2026) require explicit labeling of AI-generated news and marketing content, making synthetic origin salient to consumers at the point of consumption. This regulatory labeling mechanism creates structural advantage for human-made content in these sectors independent of quality—similar to how 'organic' labeling creates premium for non-synthetic food. However, creative/artistic/fictional content is explicitly exempted from strictest labeling requirements, meaning the 'organic' analogy holds differently by sector: in news/marketing, regulation mandates the label and creates the premium; in entertainment, market forces alone determine whether consumers value the distinction. Penalties reach EUR 15M or 3% of worldwide turnover, making this a binding constraint where it applies. This means the human-made premium will emerge faster and stronger in regulated sectors (news, marketing) than in entertainment, where consumer preference must drive adoption without regulatory scaffolding.
+
 ---
 
 Relevant Notes:
