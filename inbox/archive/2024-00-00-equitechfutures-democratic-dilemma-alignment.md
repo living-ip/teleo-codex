@@ -7,9 +7,14 @@ date: 2024-01-01
 domain: ai-alignment
 secondary_domains: [mechanisms]
 format: article
-status: unprocessed
+status: null-result
 priority: low
 tags: [arrows-theorem, social-choice, alignment-dilemma, democratic-alignment]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["AI alignment is a coordination problem not a technical problem.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Accessible explainer of Arrow's impossibility theorem applied to AI alignment. No novel claims — this is a synthesis of existing technical results (Conitzer, Qiu papers) presented for broader audience. Primary value is as additional citation/framing for existing coordination problem claim. Curator correctly flagged as reference material rather than primary source."
 ---
 
 ## Content
