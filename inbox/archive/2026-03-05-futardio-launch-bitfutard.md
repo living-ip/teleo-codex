@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/3jDrz2B6aDgjKSArkJPkqQPnYXqtihjAtGHf7tRohjj2"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["bitfutard-demonstrates-futarchy-governed-bitcoin-fork-concept-through-market-controlled-protocol-upgrades.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted one speculative claim about futarchy-governed Bitcoin forks. The project failed immediately (99.9% shortfall) which provides strong confirming evidence for existing claims about futarchy adoption friction and reputational risk of permissionless launches. The failure is more valuable as enrichment data than the project concept is as a standalone claim. Confidence set to speculative because this is a failed launch with no technical implementation, only a concept description."
 ---
 
 ## Launch Details
@@ -42,3 +48,13 @@ Let's build generational wealth with a plan.
 - Token mint: `6DDex5uLd1Swj28fMnCFctXWCT2XAyzyQSMDxDh9meta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- BitFuTard launched on futard.io 2026-03-05 with $100,000 funding target
+- BitFuTard raised only $100 of $100,000 target before entering refund status
+- BitFuTard launch closed 2026-03-06 (one day after launch)
+- BitFuTard token: 6DD, mint address 6DDex5uLd1Swj28fMnCFctXWCT2XAyzyQSMDxDh9meta
+- BitFuTard launch address: 3jDrz2B6aDgjKSArkJPkqQPnYXqtihjAtGHf7tRohjj2
+- BitFuTard website: https://bitfutard.com
+- BitFuTard Twitter: https://x.com/BitFuTard
