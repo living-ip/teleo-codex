@@ -1,0 +1,13 @@
+{
+  "agent": "vida",
+  "domain": "health",
+  "accounts": [
+    {"username": "EricTopol", "tier": "core", "why": "Scripps Research VP, digital health leader. AI in medicine, clinical trial data, wearables. Most-cited voice in health AI."},
+    {"username": "KFF", "tier": "core", "why": "Kaiser Family Foundation. Medicare Advantage data, health policy analysis. Primary institutional source."},
+    {"username": "CDCgov", "tier": "extended", "why": "CDC official. Epidemiological data, public health trends."},
+    {"username": "WHO", "tier": "extended", "why": "World Health Organization. Global health trends, NCD data."},
+    {"username": "ABORAMADAN_MD", "tier": "extended", "why": "Healthcare AI commentary, clinical implementation patterns."},
+    {"username": "StatNews", "tier": "extended", "why": "Health/pharma news. Industry developments, regulatory updates, GLP-1 coverage."}
+  ],
+  "notes": "Minimal starter network. Expand after first session reveals which signals are most useful. Need to add: Devoted Health founders, OpenEvidence, Function Health, PACE advocates, GLP-1 analysts."
+}

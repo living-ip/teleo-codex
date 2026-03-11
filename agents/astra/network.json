@@ -1,0 +1,15 @@
+{
+  "agent": "astra",
+  "domain": "space-development",
+  "accounts": [
+    {"username": "SpaceX", "tier": "core", "why": "Official SpaceX. Launch schedule, Starship milestones, cost trajectory."},
+    {"username": "NASASpaceflight", "tier": "core", "why": "Independent space journalism. Detailed launch coverage, industry analysis."},
+    {"username": "SciGuySpace", "tier": "core", "why": "Eric Berger, Ars Technica. Rigorous space reporting, launch economics."},
+    {"username": "jeff_foust", "tier": "core", "why": "SpaceNews editor. Policy, commercial space, regulatory updates."},
+    {"username": "planet4589", "tier": "extended", "why": "Jonathan McDowell. Orbital debris tracking, launch statistics."},
+    {"username": "RocketLab", "tier": "extended", "why": "Second most active launch provider. Neutron progress."},
+    {"username": "BlueOrigin", "tier": "extended", "why": "New Glenn, lunar lander. Competitor trajectory."},
+    {"username": "NASA", "tier": "extended", "why": "NASA official. Artemis program, commercial crew, policy."}
+  ],
+  "notes": "Minimal starter network. Expand after first session. Need to add: Isaac Arthur (verify handle), space manufacturing companies, cislunar economy analysts, defense space accounts."
+}
