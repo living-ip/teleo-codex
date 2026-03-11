@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/4WnHCy8swMZ67B1DBDdx9WUag5RP4EYUvsvqi68VoyQR"
 date: 2026-02-22
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy-based fundraising creates regulatory separation because there are no beneficial owners and investment decisions emerge from market forces not centralized control.md", "futarchy-governed-meme-coins-attract-speculative-capital-at-scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Single infrastructure project ICO on MetaDAO. Primary extraction: implementation details of futarchy-governed fair launch structure. Key enrichment: failed fundraise provides counterpoint to meme coin success pattern, suggesting market segmentation between speculative and utility projects. Confidence capped at experimental due to single case and lack of comparative data on why fundraise failed."
 ---
 
 ## Launch Details
@@ -77,3 +82,14 @@ This ICO is the ownership layer. Token holders become co-governors of Salmon's t
 - Token mint: `2LR1NTuTT4X9EX5sEQ34QfnBBxdFzsgQomL1FZXumeta`
 - Version: v0.7
 - Closed: 2026-02-23
+
+
+## Key Facts
+- Salmon Wallet ICO launched 2026-02-22 on MetaDAO (launch address: 4WnHCy8swMZ67B1DBDdx9WUag5RP4EYUvsvqi68VoyQR)
+- Funding target: $350,000
+- Status: Refunding (as of 2026-02-23)
+- Token: 2LR (mint: 2LR1NTuTT4X9EX5sEQ34QfnBBxdFzsgQomL1FZXumeta)
+- Platform version: v0.7
+- Salmon Wallet has been building open-source since 2022
+- Project website: https://salmonwallet.io/
+- Project Twitter: https://x.com/salmonwallet
