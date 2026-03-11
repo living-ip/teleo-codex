@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/512ifHxPFoZa2GUHXi4mLUvJkFfBcZp4E7d1A7Y6EpGG"
 date: 2026-02-28
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent.md", "MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) Salmon Wallet's futarchy launch mechanics and refunding outcome as experimental evidence of futarchy-governed capital formation, (2) Team's values-based positioning as speculative marketing narrative. Applied three enrichments to existing MetaDAO/futarchy claims with concrete evidence of liquidation mechanism executing and potential trading volume data point. Key facts preserved include technical identifiers, funding history, and timeline. The refunding outcome is particularly significant as real-world evidence of futarchy governance rejecting a project despite meeting nominal funding threshold."
 ---
 
 ## Launch Details
@@ -198,3 +203,13 @@ Secondary:
 - Token mint: `HuPqHaa7rx4Nrd9MuboiU2hb67X2pSSqUqdcdBufmeta`
 - Version: v0.7
 - Closed: 2026-03-01
+
+
+## Key Facts
+- Salmon Wallet launch address: 512ifHxPFoZa2GUHXi4mLUvJkFfBcZp4E7d1A7Y6EpGG
+- Token: HuP (HuP), mint: HuPqHaa7rx4Nrd9MuboiU2hb67X2pSSqUqdcdBufmeta
+- Minimum raise: $375,000, Monthly burn: $25,000
+- Bootstrapped funding 2022: $80k, Grants: Serum $2.5k + Eclipse $40k
+- Listed on Solana wallet adapter since 2022
+- Launched 2026-02-28, closed 2026-03-01, status: Refunding
+- Platform: futard.io v0.7
