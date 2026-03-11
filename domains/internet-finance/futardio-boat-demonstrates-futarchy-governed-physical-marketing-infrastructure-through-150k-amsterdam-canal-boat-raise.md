@@ -1,57 +1,67 @@
 ---
 type: claim
-domain: internet-finance
-description: "Futarchy governance applied to physical marketing infrastructure reveals market difficulty pricing long-term, indirect ROI outcomes compared to financial assets"
+claim_id: futardio-boat
+title: Futardio Boat demonstrates futarchy-governed physical marketing infrastructure through €150K Amsterdam canal boat raise
+description: Futardio launched a futarchy-governed fundraise for a €150,000 branded canal boat in Amsterdam as marketing infrastructure, with €120,000 additional operational costs (€5,000/month for 24 months). The campaign refunded all participants, though participation levels and whether conditional markets were created remain unclear.
+domains:
+  - internet-finance
+  - marketing
+tags:
+  - futarchy
+  - physical-infrastructure
+  - brand-marketing
+  - fundraising
+  - amsterdam
 confidence: experimental
-source: "Futardio Boat campaign launch and refunding (futard.io, 2026-03-05 to 2026-03-06)"
-created: 2026-03-11
-enrichments:
-  - "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale"
-  - "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements"
-  - "futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility"
+status: refunded
+created: 2026-03-05
+processed_date: 2025-03-10
+source:
+  - inbox/archive/2026-03-05-futardio-launch-futardio-boat.md
 ---
 
-# Futarchy governance applied to physical marketing infrastructure reveals market difficulty pricing long-term, indirect ROI outcomes compared to financial assets
+# Futardio Boat demonstrates futarchy-governed physical marketing infrastructure through €150K Amsterdam canal boat raise
 
-The Futardio Boat campaign represents a test case for applying futarchy governance beyond financial asset management into physical infrastructure operations. The project proposed raising €150,000 to lease and operate a fully-wrapped electric canal boat on Amsterdam's waterways for 24 months, with all expenditures beyond €5,000/month requiring governance proposals on the futard.io platform.
+Futardio launched a futarchy-governed fundraising campaign for physical marketing infrastructure: a €150,000 branded canal boat to operate in Amsterdam's canals. The campaign included €120,000 in operational costs (€5,000/month maintenance for 24 months), totaling €270,000 in planned capital deployment.
 
-The campaign structure demonstrates futarchy's extension into operational management: community token holders would propose changes to operations, content strategy, or event programming, with conditional markets determining whether proposals increase platform value. This creates market-based accountability for marketing spend that traditional advertising lacks.
+The campaign refunded all participants, though critical details about the refunding remain unclear:
+- Amount raised before refunding (if any)
+- Whether conditional futarchy markets were created to evaluate the proposal
+- Whether refunding resulted from zero participation, below-threshold participation, or active market rejection through conditional pricing
 
-However, the campaign entered "Refunding" status within one day (launched March 5, 2026; refunding by March 6), suggesting futarchy markets rejected the value proposition. The rapid failure reveals a specific friction point: futarchy markets struggle to price proposals where ROI is indirect, long-term, and non-financial.
-
-The campaign's marketing thesis required markets to evaluate whether persistent physical brand presence in a 20M+ annual visitor location would generate sufficient organic content and credibility signaling to justify €150,000 capital and €5,000/month operational costs over 24 months. This outcome cannot be directly measured in token price impact. The immediate refunding suggests futarchy markets defaulted to rejection when faced with uncertain marketing ROI rather than attempting to price it through conditional markets.
-
-This is distinct from documented futarchy friction points (token price psychology, proposal complexity, liquidity requirements). It reveals a fundamental challenge: futarchy excels at relative selection between options with clear, measurable outcomes (e.g., "which product feature increases user retention?") but struggles with absolute prediction of long-term, indirect effects (e.g., "does this marketing campaign increase brand value enough to justify cost?").
+These details are essential for interpreting whether this represents futarchy's pricing mechanism evaluating and rejecting the proposal, or simply lack of investor interest in the project category.
 
 ## Evidence
 
-- Campaign targeted €150,000 for 24-month operational runway at ~€5,000/month burn rate
-- Expenditures beyond monthly allowance explicitly required governance proposals: "Any expenditure beyond €5,000/month requires a governance proposal on the futard.io platform"
-- Campaign status changed from "live" to "Refunding" within one day (2026-03-05 to 2026-03-06)
-- Campaign materials positioned physical marketing as superior to digital: "Most web3 projects burn money on ads that disappear the moment you stop paying. Banners get blocked. Influencer posts get scrolled past."
-- Amsterdam canals receive 20M+ annual tourist visits (campaign materials)
-- Planned content engine included daily TikTok/Instagram reels, monthly supporter events, podcast recordings—all dependent on boat operation succeeding
-- Campaign explicitly acknowledged reputational risk: "No comparable web3 platform has claimed this kind of consistent physical presence in Amsterdam"
+- Campaign announced March 5, 2026 with detailed operational planning
+- Target: €150,000 boat acquisition + €120,000 operational budget (24 months × €5,000/month)
+- Marketing thesis: Physical brand presence in tourist destination (20+ million annual Amsterdam visitors) would generate organic social media content
+- Status: Refunded (participation levels and mechanism details unknown)
 
-## Interpretation
+## Enrichments
 
-The one-day refunding timeline suggests futarchy markets either:
-1. Lacked sufficient liquidity to price a non-financial proposal
-2. Defaulted to rejection when unable to model marketing ROI to token price
-3. Viewed operational complexity of managing physical infrastructure as unacceptable risk
-4. Recognized that failed physical infrastructure creates more visible reputational damage than failed digital projects
+### Futarchy Mechanism Ambiguity
 
-The campaign failure does not prove physical marketing is ineffective—it demonstrates that futarchy's price discovery mechanism works better for financial outcomes with clear causal chains to token value than for marketing outcomes with long, noisy causal chains.
+The "market rejection" interpretation assumes conditional futarchy markets were created and priced the proposal negatively. However, if this was a standard fundraise that simply didn't attract capital, that's evidence about investor appetite for marketing infrastructure, not evidence about futarchy's pricing mechanism effectiveness.
 
----
+Without knowing whether conditional markets existed, we cannot determine if this case demonstrates:
+1. Futarchy markets successfully pricing out negative-EV marketing spend
+2. Futarchy struggling to price indirect marketing value
+3. General lack of interest in physical marketing infrastructure as an investment category
 
-Relevant Notes:
-- [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]]
-- [[futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility]]
-- [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]]
-- [[futarchy-excels-at-relative-selection-but-fails-at-absolute-prediction-because-ordinal-ranking-works-while-cardinal-estimation-requires-calibration]]
-- [[myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-125k-mushroom-farm-raise-with-market-controlled-capex-deployment]]
+### Contrast with Productive Infrastructure
 
-Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+The refunding contrasts sharply with [[myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-125k-mushroom-farm-raise-with-market-controlled-capex-deployment]], which successfully raised €125,000 for productive infrastructure (mushroom farm) with measurable revenue potential. This suggests futarchy markets may differentiate between:
+- Productive infrastructure with direct revenue attribution
+- Marketing infrastructure with indirect, difficult-to-quantify value
+
+However, this interpretation requires confirmation that both campaigns used similar futarchy mechanisms.
+
+### Operational Cost Structure
+
+The €120,000 operational budget (€5,000/month for 24 months) represents 44% of total capital requirements (€120K / €270K). This high operational cost ratio may have contributed to market skepticism, as it requires sustained capital deployment beyond initial acquisition with unclear ROI measurement.
+
+## Related Claims
+
+- [[physical-brand-presence-algorithmic-resistance]] - The marketing thesis underlying this campaign
+- [[myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-125k-mushroom-farm-raise-with-market-controlled-capex-deployment]] - Successful physical infrastructure raise for comparison
