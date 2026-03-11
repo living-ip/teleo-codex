@@ -7,9 +7,14 @@ date: 2023-10-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: null-result
 priority: medium
 tags: [collective-constitutional-ai, polis, democratic-alignment, public-input, constitution-design]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations.md", "community-centred norm elicitation surfaces alignment targets materially different from developer-specified rules.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Curator correctly identified the 'desired behavior vs harm avoidance' asymmetry as novel claim material. The experiment provides strong empirical evidence for existing democratic alignment claims. No follow-up performance data available—Anthropic ran the experiment but did not publish outcome evaluation comparing publicly-constituted vs expert-constituted model behavior. This is the first frontier lab deployment of democratic alignment (2023), setting precedent for CIP's subsequent work."
 ---
 
 ## Content
@@ -50,3 +55,11 @@ Anthropic and CIP collaborated on one of the first instances where members of th
 PRIMARY CONNECTION: [[democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations]]
 WHY ARCHIVED: Foundational empirical evidence for democratic alignment — supports existing claims with Anthropic deployment data
 EXTRACTION HINT: The "desired behavior vs harm avoidance" asymmetry between public and expert constitutions could be a novel claim
+
+
+## Key Facts
+- ~1,000 U.S. adults participated (representative sample across age, gender, income, geography)
+- 1,127 statements contributed to Polis platform
+- 38,252 votes cast (average 34 votes/person)
+- ~50% overlap between expert and public constitutions in concepts/values
+- Polis identified two separate opinion groups despite high consensus on most statements
