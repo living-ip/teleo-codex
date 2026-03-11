@@ -17,6 +17,12 @@ Karpathy's viral tweet (37,099 likes) marks when the threshold shifted: "coding 
 
 This mirrors the broader alignment concern that [[technology advances exponentially but coordination mechanisms evolve linearly creating a widening gap]]. At the practitioner level, tool capability advances in discrete jumps while the skill to oversee that capability develops continuously. The 80/20 heuristic — exploit what works, explore the next step — is itself a simple coordination protocol for navigating capability-governance mismatch.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-25-karpathy-programming-changed-december]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+December 2025 may represent the empirical threshold where autonomous coding agents crossed from 'premature adoption' (chaos-inducing) to 'capability-matched' (value-creating) deployment. Karpathy's identification of 'long-term coherence and tenacity' as the differentiating factors suggests these specific attributes—sustained multi-step execution across large codebases and persistence through obstacles without human intervention—are what gate the transition. Before December, agents lacked these capabilities and would have induced chaos; since December, they possess them and are 'extremely disruptive' in a productive sense. This provides a concrete inflection point for the capability-matched escalation model.
+
 ---
 
 Relevant Notes:
