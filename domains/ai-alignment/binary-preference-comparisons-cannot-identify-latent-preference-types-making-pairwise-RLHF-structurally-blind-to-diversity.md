@@ -1,20 +1,20 @@
 ---
 type: claim
-title: Binary Preference Comparisons Cannot Identify Latent Preference Types, Making Pairwise RLHF Structurally Blind to Diversity
-description: Binary preference comparisons lack the information structure to identify latent preference types, making standard pairwise RLHF and DPO methods incapable of detecting or preserving preference diversity
+title: Standard Pairwise RLHF Collapses Latent Preference Types Because Single-Reward-Function Training Cannot Recover Diversity That Binary Comparisons Encode
+description: Binary preference comparisons contain information about preference diversity, but standard RLHF and DPO methods using single reward models structurally collapse this information, making them incapable of detecting or preserving preference heterogeneity
 confidence: experimental
 created: 2026-03-11
 processed_date: 2026-03-11
 source: "EM-DPO Heterogeneous Preferences Extraction (2025-00-00-em-dpo-heterogeneous-preferences-extraction)"
 ---
 
-# Binary Preference Comparisons Cannot Identify Latent Preference Types, Making Pairwise RLHF Structurally Blind to Diversity
+# Standard Pairwise RLHF Collapses Latent Preference Types Because Single-Reward-Function Training Cannot Recover Diversity That Binary Comparisons Encode
 
-Standard RLHF and DPO methods train on binary preference comparisons (response A > response B), which contain insufficient information to identify or distinguish between latent preference types. The EM-DPO paper demonstrates this through formal identifiability analysis showing that the same binary ranking data is consistent with multiple distinct preference structures.
+Standard RLHF and DPO methods train on binary preference comparisons (response A > response B), but their single-reward-function architecture prevents them from identifying or distinguishing between latent preference types. The EM-DPO paper demonstrates through formal identifiability analysis that binary ranking data contains sufficient information to recover preference diversity, but standard training procedures structurally collapse it.
 
 **The information loss mechanism:**
 
-1. **Collection-level collapse**: Binary comparisons discard the underlying preference type information. Two annotators with fundamentally different value systems (e.g., one prioritizing safety, another prioritizing capability) may produce identical binary rankings on the same response pair, making their preferences indistinguishable in the training data.
+1. **Collection-level collapse**: Binary comparisons discard the underlying preference type information during aggregation. Two annotators with fundamentally different value systems (e.g., one prioritizing safety, another prioritizing capability) may produce identical binary rankings on the same response pair, making their preferences indistinguishable in pooled training data.
 
 2. **Model-level aggregation**: A reward model trained on binary comparisons learns a single scalar function that averages across preference types rather than identifying them. The Bradley-Terry model used in standard DPO assumes a single latent reward function, structurally preventing the model from distinguishing "annotator prefers safety" from "annotator prefers capability" when both lead to the same ranking.
 

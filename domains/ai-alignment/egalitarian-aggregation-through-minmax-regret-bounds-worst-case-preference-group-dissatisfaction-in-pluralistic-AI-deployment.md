@@ -25,9 +25,11 @@ Regret is defined as the difference between a group's utility for their preferre
 
 Standard RLHF effectively implements utilitarian aggregation by maximizing average reward across all annotators. This can leave minority preference groups severely dissatisfied if their preferences conflict with the majority. MinMax Regret instead optimizes for the worst-off group, accepting lower average satisfaction to prevent extreme dissatisfaction for any group.
 
-**Connection to Arrow's Impossibility Theorem:**
+**Connection to social choice theory:**
 
-Arrow proved that no aggregation mechanism can satisfy all fairness criteria simultaneously (unanimity, non-dictatorship, independence of irrelevant alternatives, transitivity) when preferences genuinely diverge. MinMax Regret accepts this impossibility and instead optimizes for a specific fairness criterion: egalitarian worst-case protection. It explicitly trades off average satisfaction for bounded inequality.
+MinMax Regret is a well-established mechanism in social choice theory and mechanism design. Arrow's Impossibility Theorem proved that no aggregation mechanism can satisfy all fairness criteria simultaneously (unanimity, non-dictatorship, independence of irrelevant alternatives, transitivity) when preferences genuinely diverge. MinMax Regret accepts this impossibility and instead optimizes for a specific fairness criterion: egalitarian worst-case protection. It explicitly trades off average satisfaction for bounded inequality.
+
+**The novelty is application, not mechanism:** The theoretical foundations of MinMax Regret are proven in social choice theory. What's experimental is applying this aggregation strategy to LLM deployment with multiple preference-aligned models. The EM-DPO paper demonstrates this application empirically but doesn't claim to have invented the underlying mechanism.
 
 **Why this matters for pluralistic AI deployment:**
 
@@ -35,6 +37,6 @@ In systems serving diverse populations with irreducible value differences, a sin
 
 **Relevant Notes:**
 - [[pluralistic-alignment-must-accommodate-irreducibly-diverse-values-simultaneously-rather-than-converging-on-a-single-aligned-state]] — MinMax Regret is a technical instantiation of this principle
-- [[binary-preference-comparisons-cannot-identify-latent-preference-types-making-pairwise-RLHF-structurally-blind-to-diversity]] — EM-DPO's EM stage discovers the preference types that MinMax Regret then aggregates
+- [[standard-pairwise-rlhf-collapses-latent-preference-types-because-single-reward-function-training-cannot-recover-diversity-that-binary-comparisons-encode]] — EM-DPO's EM stage discovers the preference types that MinMax Regret then aggregates
 
 **Topics:** AI alignment, social choice theory, fairness, preference aggregation, egalitarianism

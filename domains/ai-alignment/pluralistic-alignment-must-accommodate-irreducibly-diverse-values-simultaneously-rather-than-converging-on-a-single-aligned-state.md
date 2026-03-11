@@ -26,8 +26,8 @@ Harland et al (NeurIPS 2024) propose the technical mechanism: Multi-Objective RL
 **EM-DPO enrichment (extend)**: The EM-DPO paper provides a concrete implementation of distributional pluralism through latent preference type discovery. Rather than treating preference diversity as noise to average out, EM-DPO uses Expectation-Maximization to identify K distinct preference clusters from binary comparison data, then trains separate models for each type. This operationalizes the principle that diverse values should be accommodated structurally (through model ensembles) rather than collapsed into consensus. The MinMax Regret aggregation strategy then ensures no preference group experiences catastrophic dissatisfaction at deployment time.
 
 **Relevant Notes:**
-- [[binary-preference-comparisons-cannot-identify-latent-preference-types-making-pairwise-RLHF-structurally-blind-to-diversity]] — describes the technical failure mode
+- [[standard-pairwise-rlhf-collapses-latent-preference-types-because-single-reward-function-training-cannot-recover-diversity-that-binary-comparisons-encode]] — describes the technical failure mode
 - [[egalitarian-aggregation-through-minmax-regret-bounds-worst-case-preference-group-dissatisfaction-in-pluralistic-AI-deployment]] — MinMax Regret is a technical instantiation of this principle
-- [[democratic-alignment-assemblies-produce-constitutions-as-effective-as-expert-designed-ones-while-better-representing-diverse-populations]] — assemblies are one mechanism for pluralistic alignment
+- [[democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations]] — assemblies are one mechanism for pluralistic alignment
 
 **Topics:** AI alignment, preference diversity, value pluralism, multi-objective optimization
