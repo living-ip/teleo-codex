@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/vEMYm3RaJjyuxXbD6EasE9wZpFdCNPGZi1VXt5i8cUb
 date: 2025-07-21
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2025-07-21
+claims_extracted: ["theia-acquired-700-meta-tokens-at-38-percent-premium-through-otc-trade-demonstrating-institutional-confidence-in-futarchy-governance.md", "metadao-treasury-exhaustion-forces-token-migration-planning-when-final-meta-holdings-sold.md", "institutional-token-investors-prioritize-legal-and-regulatory-clarity-over-technical-governance-innovation.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "ownership coin treasuries should be actively managed through buybacks and token sales as continuous capital calibration not treated as static war chests.md", "futarchy-governed DAOs converge on traditional corporate governance scaffolding for treasury operations because market mechanisms alone cannot provide operational security and legal compliance.md", "the DAO Reports rejection of voting as active management is the central legal hurdle for futarchy because prediction market trading must prove fundamentally more meaningful than token voting.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 3 new claims about institutional futarchy adoption, treasury management forcing functions, and legal infrastructure prioritization. Applied 5 enrichments confirming existing claims about MetaDAO's role, futarchy adoption friction, treasury management, governance convergence, and legal hurdles. Source provides concrete evidence of institutional capital entering futarchy governance at premium pricing specifically to fund legal clarity."
 ---
 
 ## Proposal Details
@@ -99,3 +105,13 @@ We’re excited about the continued engagement and alignment from Theia. Onwards
 - Autocrat version: 0.3
 - Completed: 2025-07-24
 - Ended: 2025-07-24
+
+
+## Key Facts
+- Theia acquired 700 META tokens at $900 per token ($630,000 USDC total) on 2025-07-21
+- Purchase price represented ~38% premium to liquid market price
+- MetaDAO monthly burn rate: $100K-$120K
+- MetaDAO USD treasury before trade: $1.5M (~12.5 months runway)
+- Proposal vEMYm3RaJjyuxXbD6EasE9wZpFdCNPGZi1VXt5i8cUb passed and completed 2025-07-24
+- Tokens vested through 12-month linear Streamflow program
+- Theia is an onchain liquid token fund manager focused on Internet Financial System infrastructure
