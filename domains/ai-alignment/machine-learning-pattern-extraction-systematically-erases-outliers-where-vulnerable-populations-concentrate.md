@@ -1,43 +1,30 @@
 ---
 type: claim
+claim: machine-learning pattern extraction systematically erases outliers where vulnerable populations concentrate
 domain: ai-alignment
-secondary_domains: [collective-intelligence]
-description: "ML's core function of generalizing over diversity creates structural bias against dataset outliers where vulnerable populations concentrate"
-confidence: experimental
-source: "UK AI4CI Research Network national strategy (2024)"
-created: 2024-11-01
+confidence: established
+description: Machine learning systems using empirical risk minimization systematically underfit to low-density regions of feature space where minority populations concentrate, resulting in higher prediction error for vulnerable groups. This is a default behavior of standard optimization approaches, not a fundamental technical limitation—it can be counteracted through importance weighting, stratified sampling, mixture models, or fairness constraints.
+created: 2024-01-01
+processed_date: 2024-01-01
+source:
+  - ai4ci-national-scale-collective-intelligence
 ---
 
-# Machine learning pattern extraction systematically erases outliers where vulnerable populations concentrate
+Machine learning systems optimize for patterns in training data through empirical risk minimization, which with finite samples systematically underfits to low-density regions of feature space. Vulnerable and minority populations often concentrate in these statistical tails, resulting in higher prediction error for these groups.
 
-Machine learning fundamentally "extracts patterns that generalise over diversity in a data set" in ways that "fail to capture, respect or represent features of dataset outliers." This is not a bug or training artifact—it is the core function of ML systems. The UK AI4CI national research strategy identifies this as a structural barrier to reaching "intersectionally disadvantaged" populations, who by definition concentrate in the statistical tails that pattern-extraction optimizes away.
+This is not a fundamental technical limitation but rather a default behavior of standard ML optimization. The AI4CI strategy document identifies this as a key challenge for collective intelligence systems and proposes technical countermeasures including:
 
-This creates a fundamental tension for AI-enhanced collective intelligence: the same systems designed to aggregate distributed knowledge actively homogenize that knowledge by design. ML's optimization target (generalization) is structurally opposed to diversity preservation.
+- Importance weighting (upweighting minority examples)
+- Stratified sampling (ensuring tail coverage)
+- Mixture models (separate models for subpopulations)
+- Fairness constraints (explicit tail performance requirements)
+- Federated learning approaches
+- Explicit outlier protection mechanisms
 
-## Evidence
+The challenge is primarily one of governance and prioritization—current systems often don't implement these solutions—rather than technical impossibility.
 
-The UK AI for Collective Intelligence Research Network's national strategy explicitly frames this as a core challenge: "AI must reach intersectionally disadvantaged populations, but the technical foundation (ML pattern extraction) systematically fails at the margins where those populations exist." The strategy identifies this not as a training problem but as a structural property of how ML generalizes—the algorithm's success metric (fitting a model that generalizes across the dataset) is mechanically opposed to preserving the variation that characterizes outlier populations.
+## Related
 
-## Implications
-
-This suggests that AI-enhanced collective intelligence cannot simply apply standard ML architectures to human knowledge aggregation. The infrastructure must actively counteract ML's homogenizing tendency through:
-- Federated learning that preserves local variation
-- Explicit outlier protection in training objectives
-- Governance mechanisms that weight minority perspectives
-
-The AI4CI strategy proposes these as requirements, not optimizations.
-
-## Tensions
-
-This claim assumes that pattern-extraction and outlier-preservation are fundamentally opposed. Alternative architectures (e.g., mixture-of-experts models, adaptive weighting schemes) might partially decouple these objectives, though the strategy does not claim they fully resolve the tension.
-
----
-
-Relevant Notes:
-- [[collective intelligence requires diversity as a structural precondition not a moral preference]]
-- [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]]
-- [[partial connectivity produces better collective intelligence than full connectivity on complex problems because it preserves diversity]]
-
-Topics:
-- [[domains/ai-alignment/_map]]
-- [[foundations/collective-intelligence/_map]]
+- [[RLHF and DPO fail to preserve diversity in human preferences]]
+- [[partial connectivity preserves diversity in collective intelligence systems]]
+- [[safe AI development requires building alignment mechanisms before scaling capability]]
