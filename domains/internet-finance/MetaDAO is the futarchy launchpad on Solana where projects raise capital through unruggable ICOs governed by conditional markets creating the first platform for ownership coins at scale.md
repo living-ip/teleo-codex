@@ -70,6 +70,12 @@ Raises include: Ranger ($6M minimum, uncapped), Solomon ($102.9M committed, $8M 
 
 MycoRealms launch on Futardio demonstrates MetaDAO platform capabilities in production: $125,000 USDC raise with 72-hour permissionless window, automatic treasury deployment if target reached, full refunds if target missed. Launch structure includes 10M ICO tokens (62.9% of supply), 2.9M tokens for liquidity provision (2M on Futarchy AMM, 900K on Meteora pool), with 20% of funds raised ($25K) paired with LP tokens. First physical infrastructure project (mushroom farm) using the platform, extending futarchy governance from digital to real-world operations with measurable outcomes (temperature, humidity, CO2, yield).
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-03-futardio-launch-futardio-cult]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform supports purely speculative meme coin launches, not just productive ventures. The project raised $11,402,898 against a $50,000 target in under 24 hours (22,706% oversubscription) with stated fund use for 'fan merch, token listings, private events/partys'—consumption rather than productive infrastructure. This extends MetaDAO's demonstrated use cases beyond productive infrastructure (Myco Realms mushroom farm, $125K) to governance-enhanced speculative tokens, suggesting futarchy's anti-rug mechanisms appeal across asset classes.
+
 ---
 
 Relevant Notes:
