@@ -7,9 +7,14 @@ date: 2025-04-01
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: medium
 tags: [risk-adjustment, false-claims-act, doj, oig, enforcement, upcoding, medicare-advantage]
+processed_by: vida
+processed_date: 2025-04-15
+enrichments_applied: ["CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Primary extraction: bipartisan political convergence on MA reform as a novel claim. The enforcement statistics enrich the existing CMS 2027 chart review claim by confirming systemic upcoding across the industry. Agent notes correctly identified the bipartisan framing as the key insight—rare in healthcare policy and signals durable reform pressure."
 ---
 
 ## Content
@@ -43,3 +48,10 @@ tags: [risk-adjustment, false-claims-act, doj, oig, enforcement, upcoding, medic
 PRIMARY CONNECTION: [[CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring]]
 WHY ARCHIVED: Enforcement context complements the policy/regulatory sources — shows both regulatory and legal paths converging on risk adjustment reform.
 EXTRACTION HINT: Focus on the bipartisan enforcement convergence, not individual cases.
+
+
+## Key Facts
+- 42 of 44 HHS OIG managed care audits since 2017 focused on diagnosis coding
+- 70% of diagnosis codes found unsupported by medical records in OIG audits
+- No UPCODE Act reintroduced March 2025 with bipartisan support
+- New CMS administrator confirmed April 3, 2025, prioritizes upcoding enforcement
