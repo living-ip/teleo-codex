@@ -15,6 +15,12 @@ Three structural advantages explain why social video is eating professional cont
 
 This is the empirical anchor for the entire "second disruption" thesis. Since [[media disruption follows two sequential phases as distribution moats fall first and creation moats fall second]], social video is the clearest evidence that the second phase is already well underway. The 25% figure is not a plateau -- it is a waypoint. Since [[GenAI is simultaneously sustaining and disruptive depending on whether users pursue progressive syntheticization or progressive control]], GenAI tools will supercharge social video creators (progressive control) even faster than they improve studio production (progressive syntheticization) because the feedback loop is tighter and the cost of experimentation is lower.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-01-ctam-creators-consumers-trust-media-2026]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+CTAM 2026 extends this claim from consumption to discovery: 66% of users discover new content through short-form clips or highlights, using these as entry points to longer-form programming. Short-form formats don't just capture viewing time; they control the discovery funnel that determines what content enters audience consideration sets. This means the same dopamine-optimized formats that drive consumption time also drive distribution power through discovery control. Discovery through creator-mediated short-form channels means community and creator networks control effective distribution regardless of who owns traditional infrastructure.
+
 ---
 
 Relevant Notes:

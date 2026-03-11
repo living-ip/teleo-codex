@@ -7,9 +7,15 @@ date: 2026-02-01
 domain: entertainment
 secondary_domains: [cultural-dynamics]
 format: report
-status: unprocessed
+status: processed
 priority: medium
 tags: [creator-economy, trust, content-discovery, fan-engagement, media-2026]
+processed_by: clay
+processed_date: 2026-03-11
+claims_extracted: ["short-form-creator-content-is-primary-discovery-channel-with-66-percent-finding-new-content-through-clips-not-traditional-marketing.md", "creators-excel-at-community-building-through-direct-interaction-and-ongoing-dialogue-beyond-passive-viewing.md"]
+enrichments_applied: ["social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns.md", "creator and corporate media economies are zero-sum because total media time is stagnant and every marginal hour shifts between them.md", "creators-became-primary-distribution-layer-for-under-35-news-consumption-by-2025-surpassing-traditional-channels.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Two new claims extracted: (1) 66% discovery through short-form creator content establishes creators as primary discovery channel, shifting distribution power; (2) Creator community-building advantage through direct interaction and participatory engagement. Three enrichments: extends social video claim to discovery layer, confirms zero-sum creator/corporate competition, extends creator-as-distribution beyond news to entertainment broadly. Source credibility high—this is the cable industry establishment acknowledging creator primacy, not advocacy. Confidence limited by lack of methodology details and quantitative engagement comparisons."
 ---
 
 ## Content
@@ -38,3 +44,9 @@ CTAM analysis of how creators and community content are reshaping media trust dy
 PRIMARY CONNECTION: [[social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]]
 WHY ARCHIVED: The 66% discovery statistic extends the social video claim from consumption to DISCOVERY — community/creator channels now control how audiences find content
 EXTRACTION HINT: The discovery-as-distribution mechanism is the key claim. If community controls discovery, community controls distribution.
+
+
+## Key Facts
+- CTAM represents cable/telecommunications industry (incumbent perspective)
+- AMC Networks and BritBox cited as examples of fan-first activation strategies
+- CTAM frames successful strategies as requiring 'testing, learning, and adapting' rather than top-down commissioning

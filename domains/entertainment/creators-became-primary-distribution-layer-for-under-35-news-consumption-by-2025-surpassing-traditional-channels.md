@@ -37,6 +37,12 @@ If this pattern extends to entertainment (likely, given entertainment is inheren
 
 The "small media companies" framing is significant—creators now operate with audience data, format strategies, distribution capabilities, and commercial infrastructure previously exclusive to media companies.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-01-ctam-creators-consumers-trust-media-2026]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+CTAM 2026 extends the creator-as-distribution pattern beyond news to entertainment broadly. With 66% of users discovering content through creator-mediated short-form channels, creators function as the primary distribution layer across content categories, not just news. The mechanism is identical: creators control discovery, discovery determines what enters consideration sets, therefore creators control effective distribution regardless of underlying infrastructure ownership. This suggests the pattern identified in news consumption (creators as primary distribution layer) is structural to media broadly, not category-specific.
+
 ---
 
 Relevant Notes:

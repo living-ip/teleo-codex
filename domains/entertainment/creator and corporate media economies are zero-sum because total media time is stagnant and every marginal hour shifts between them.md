@@ -23,6 +23,12 @@ This empirical reality anchors several theoretical claims. Since [[media disrupt
 
 The 48% vs 41% creator-vs-traditional split for under-35 news consumption provides direct evidence of the zero-sum dynamic. Total news consumption time is fixed; creators gaining 48% means traditional channels lost that share. The £190B global creator economy valuation and 171% YoY growth in influencer marketing investment ($37B US ad spend by end 2025) demonstrate sustained macro capital reallocation from traditional to creator distribution channels.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-01-ctam-creators-consumers-trust-media-2026]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+CTAM's strategic framing explicitly positions creators and traditional media as competing for the same discovery attention. Their recommendation that traditional media must 'meet audiences where discovery happens' by collaborating with creators acknowledges that the discovery layer is now creator-controlled territory. The cable/telecommunications industry association advising incumbents to adapt to creator primacy confirms the zero-sum competitive dynamic—this is the establishment recognizing the shift, not creator advocates claiming it. CTAM frames the strategic imperative as 'testing, learning, and adapting' because 'the era of top-down content commissioning is ending,' indicating structural displacement rather than coexistence.
+
 ---
 
 Relevant Notes:
