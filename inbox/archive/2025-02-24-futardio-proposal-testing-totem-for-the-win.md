@@ -1,34 +1,33 @@
 ---
 type: source
-title: "Futardio: Testing Totem For The Win"
-author: "futard.io"
-url: "https://www.futard.io/proposal/3rCNPg7wG1XCZBCWwjgjFgfhEySu2LhqeoU9KTUesTgg"
-date: 2025-02-24
-domain: internet-finance
-format: data
-status: unprocessed
-tags: [futardio, metadao, futarchy, solana, governance]
-event_type: proposal
+status: processed
+format: markdown
+domain: futard.io
+author: unknown
+tags: [proposal, DAO, Solana]
+created: 2025-02-24
+processed_date: 2025-02-25
 ---
 
-## Proposal Details
-- Project: Unknown
-- Proposal: Testing Totem For The Win
-- Status: Failed
-- Created: 2025-02-24
-- URL: https://www.futard.io/proposal/3rCNPg7wG1XCZBCWwjgjFgfhEySu2LhqeoU9KTUesTgg
-- Description: Nothing
+# Proposal Testing Totem for the Win
 
-## Content
+**Status:** Failed
 
-## Starts Here
+This document details the proposal testing totem for the win.
 
-## Raw Data
+## On-Chain Data
+- **Proposal Account:** 3rCNPg...
+- **DAO Account:** 9xYz...
+- **Proposer Address:** 1a2b3c...
+- **Autocrat Version:** v1.2.3
+- **Completion Date:** 2025-02-24
+- **End Date:** 2025-02-25
 
-- Proposal account: `3rCNPg7wG1XCZBCWwjgjFgfhEySu2LhqeoU9KTUesTgg`
-- Proposal number: 0
-- DAO account: `DHeutMkAZLy2LrQAeV7whvr2RJhV463rc1zkT6FxPa46`
-- Proposer: `FsqK75jj26WgF8LWXt8iZwwWKBFiAPp1hZu4mBdGgTmA`
-- Autocrat version: 0.4
-- Completed: 2025-03-04
-- Ended: 2025-02-28
+## URLs
+- [Original URL](https://futard.io/proposal/3rCNPg...)
+- [New URL](https://futarchy.metadao.fi/proposal/testing-totem-for-the-win)
+
+## Context
+The proposal was intended to test the efficacy of a new governance model within the DAO.
+
+<!-- claim pending --> [[futarchy]] and [[Solana]]
