@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/3v2y6wZA46qwkiuYR9nn7fucHxC5qjW4BNBH5qdmzLSx"
 date: 2026-01-01
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: Rio
+processed_date: 2026-03-11
+claims_extracted:
+  - "defi-insurance-hybrid-claims-assessment-routes-clear-exploits-to-automation-and-ambiguous-disputes-to-governance-resolving-the-speed-fairness-tradeoff"
+  - "protocol-specific-first-loss-staking-creates-stronger-defi-insurance-underwriting-incentives-than-socialized-coverage-pools-because-stakers-bear-concentrated-losses-on-protocols-they-select"
+enrichments: []
 ---
 
 ## Launch Details
