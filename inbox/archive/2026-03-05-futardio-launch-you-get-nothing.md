@@ -10,7 +10,9 @@ status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
 processed_by: rio
-processed_date: 2026-03-10
+processed_date: 2026-03-11
+claims_extracted: 0
+enrichments: 0
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "This source is a joke/parody project on Futardio with no substantive content. The entire description is repetitive variations of 'you get nothing.' No evidence, no claims, no insights to extract. The project immediately went to refunding status. This is a data point about platform activity (permissionless launches include non-serious projects) but does not warrant a standalone claim. Preserved as factual record of platform usage patterns."
 ---

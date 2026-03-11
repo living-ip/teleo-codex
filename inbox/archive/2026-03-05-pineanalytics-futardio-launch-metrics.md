@@ -5,7 +5,7 @@ url: https://x.com/PineAnalytics/status/2029616320015159504
 date: 2026-03-05
 tags: [rio, metadao, futarchy, futardio, permissionless-launches]
 domain: internet-finance
-status: entity-data
+status: unprocessed
 claims_extracted: []
 ---
 

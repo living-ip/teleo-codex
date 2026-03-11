@@ -8,6 +8,7 @@ domain: collective-intelligence
 secondary_domains: [ai-alignment, cultural-dynamics]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [active-inference, communication, shared-generative-models, hermeneutic-niche, cooperative-communication, epistemic-niche-construction]
 processed_by: theseus

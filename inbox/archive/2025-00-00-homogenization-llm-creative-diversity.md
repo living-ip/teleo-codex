@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [cultural-dynamics, collective-intelligence]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [homogenization, LLM, creative-diversity, empirical, scale-effects]
 flagged_for_clay: ["direct implications for AI in creative industries"]

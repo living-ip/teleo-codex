@@ -8,6 +8,7 @@ domain: health
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [devoted-health, alignment-healthcare, clover-health, medicare-advantage, startup, purpose-built, technology-platform]
 processed_by: vida

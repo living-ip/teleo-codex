@@ -6,10 +6,16 @@ url: https://www.nasaspaceflight.com/2026/01/starship-foundations-2026/
 date: 2026-01-00
 domain: space-development
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [starship, spacex, raptor-3, v3, reusability, launch-cost]
+processed_by: astra
+processed_date: 2026-03-11
+enrichments_applied: ["Starship achieving routine operations at sub-100 dollars per kg is the single largest enabling condition for the entire space industrial economy.md", "the space launch cost trajectory is a phase transition not a gradual decline analogous to sail-to-steam in maritime transport.md", "Starship economics depend on cadence and reuse rate not vehicle cost because a 90M vehicle flown 100 times beats a 50M expendable by 17x.md", "launch cost reduction is the keystone variable that unlocks every downstream space industry at specific price thresholds.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 2 new claims focused on V3 capability jump and Raptor 3 maturity. Applied 4 enrichments to existing space-development claims with concrete V3 specifications and flight test results. V3 represents the largest single capability increase in Starship history and crosses the 100t payload threshold identified as enabling condition for space industrial economy. Key insight: 40,000+ seconds of Raptor 3 test time before first flight indicates mature rather than experimental technology."
 ---
 
 ## Content
@@ -39,3 +45,12 @@ Elon Musk stated Feb 2026: "highly confident that the V3 design will achieve ful
 PRIMARY CONNECTION: [[Starship achieving routine operations at sub-100 dollars per kg is the single largest enabling condition for the entire space industrial economy]]
 WHY ARCHIVED: V3 represents a concrete step toward the sub-$100/kg threshold — tripling payload capacity while targeting full reusability
 EXTRACTION HINT: Focus on the V3 capability jump (35t → 100t) as evidence for the phase transition framing; extract the Raptor 3 specs as evidence for cost reduction trajectory
+
+
+## Key Facts
+- Raptor 3: ~280 tonnes thrust per engine, ~2,425 lbs lighter than Raptor 2, 40,000+ seconds test time (March 2026)
+- V3 payload: 100+ metric tonnes to LEO (vs V2's ~35t)
+- Flight 12: Booster 19 (first Block 3 Super Heavy) + Ship 39 (first V3 upper stage), estimated early April 2026
+- Flight 10 (Aug 2025): booster landing burn succeeded, engine issue prevented catch, ship deployed 8 Starlink simulators
+- Flight 11 (Oct 2025): booster upgraded landing burn successful, ship dynamic banking maneuver successful, both splashed down
+- Infrastructure: new Starship pad at KSC LC-39A, SLC-37 at Cape Canaveral approved for conversion to Starship complex with two pads

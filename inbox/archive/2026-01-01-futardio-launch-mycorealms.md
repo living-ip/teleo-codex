@@ -6,15 +6,9 @@ url: "https://www.futard.io/launch/zwVfLheTvbXN5Vn2tZxTc8KaaVnLoBFgbZzskdFnPUb"
 date: 2026-01-01
 domain: internet-finance
 format: data
-status: processed
+status: unprocessed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
-processed_by: rio
-processed_date: 2026-01-01
-claims_extracted: ["myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-125k-mushroom-farm-raise-with-market-controlled-capex-deployment.md", "performance-unlocked-team-tokens-with-price-multiple-triggers-and-twap-settlement-create-long-term-alignment-without-initial-dilution.md"]
-enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent.md", "cryptos primary use case is capital formation not payments or store of value because permissionless token issuance solves the fundraising bottleneck that solo founders and small teams face.md"]
-extraction_model: "anthropic/claude-sonnet-4.5"
-extraction_notes: "First futarchy-governed physical infrastructure project. Two new claims extracted: (1) futarchy governance of real-world operations with measurable variables, (2) performance-unlocked team tokens with price-multiple triggers. Five enrichments applied to existing internet-finance claims around MetaDAO platform capabilities, fundraising compression, futarchy friction, unruggable ICOs, and crypto capital formation. Source demonstrates futarchy extending from digital governance to physical operations — significant test case for mechanism viability beyond pure software/financial applications."
 ---
 
 ## Launch Details

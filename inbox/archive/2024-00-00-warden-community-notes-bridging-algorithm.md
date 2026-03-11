@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [mechanisms, collective-intelligence]
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [community-notes, bridging-algorithm, matrix-factorization, polarity-factors, consensus-mechanism]
 flagged_for_rio: ["Community Notes bridging algorithm as mechanism design — matrix factorization for consensus is novel governance mechanism"]

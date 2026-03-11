@@ -6,10 +6,15 @@ url: https://www.blueorigin.com/news/new-glenn-launches-nasa-escapade-lands-full
 date: 2025-11-13
 domain: space-development
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: high
 tags: [blue-origin, new-glenn, reusability, booster-landing, mars, escapade, competition]
+processed_by: astra
+processed_date: 2026-03-11
+enrichments_applied: ["SpaceX vertical integration across launch broadband and manufacturing creates compounding cost advantages that no competitor can replicate piecemeal.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) Blue Origin's rapid achievement of booster landing demonstrates technology diffusion beyond SpaceX, and (2) patient capital as alternative path to reusability without vertical integration flywheel. Flagged enrichment challenging the SpaceX unreplicable advantages claim—Blue Origin achieved technical capability parity without the Starlink demand flywheel, though economic efficiency remains unproven. Key context: This is the strongest evidence to date that SpaceX single-player dependency in reusable launch is eroding. The 'second attempt' timeline is particularly significant—suggests fundamental engineering is now well-understood across industry."
 ---
 
 ## Content
@@ -37,3 +42,13 @@ The same booster was planned for reuse on the NG-3 mission, targeted for late Fe
 PRIMARY CONNECTION: [[SpaceX vertical integration across launch broadband and manufacturing creates compounding cost advantages that no competitor can replicate piecemeal]]
 WHY ARCHIVED: Challenges the single-player dependency thesis — Blue Origin is now a demonstrated reusable launch provider without the Starlink flywheel
 EXTRACTION HINT: Focus on whether "no competitor can replicate piecemeal" still holds — Blue Origin replicated the booster landing capability without the demand flywheel, suggesting the flywheel claim may overstate the barrier
+
+
+## Key Facts
+- New Glenn NG-2 mission launched November 13, 2025
+- NG-2 deployed NASA ESCAPADE twin spacecraft to Mars transfer orbit (arrival September 2027)
+- Booster 'Never Tell Me the Odds' landed on Landing Platform Vessel Jacklyn, 375 miles offshore Atlantic
+- NG-1 (January 2025) reached orbit but booster failed to land
+- Blue Origin is second company after SpaceX to both deploy spacecraft to orbit and land booster
+- Blue Origin has received $14B+ investment from Jeff Bezos
+- Same booster planned for reuse on NG-3 mission (targeted late February 2026)

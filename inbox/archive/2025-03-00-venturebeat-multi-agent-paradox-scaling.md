@@ -1,41 +1,25 @@
 ---
-type: source
-title: "The Multi-Agent Paradox: Why More AI Agents Can Lead to Worse Results"
-author: "Unite.AI / VentureBeat (coverage of Google/MIT scaling study)"
-url: https://www.unite.ai/the-multi-agent-paradox-why-more-ai-agents-can-lead-to-worse-results/
-date: 2025-12-25
-domain: ai-alignment
-secondary_domains: [collective-intelligence]
-format: article
-status: unprocessed
-priority: medium
-tags: [multi-agent, coordination, baseline-paradox, error-amplification, scaling]
+type: archive
+title: "VentureBeat: Multi-Agent Paradox Scaling"
+domain: null-result
+confidence: n/a
+created: 2025-03-00
+processed_date: 2025-03-00
+source: "VentureBeat"
+extraction_notes: "Industry framing of baseline paradox entering mainstream discourse as named phenomenon. Primary claims already in KB from Google/MIT paper."
 ---
 
-## Content
+# VentureBeat: Multi-Agent Paradox Scaling
 
-Coverage of Google DeepMind/MIT "Towards a Science of Scaling Agent Systems" findings, framed as "the multi-agent paradox."
+Secondary coverage of the baseline paradox phenomenon from Google/MIT research. The article popularizes the term "baseline paradox" for industry audiences.
 
-**Key Points:**
-- Adding more agents yields negative returns once single-agent baseline exceeds ~45% accuracy
-- Error amplification: Independent 17.2×, Decentralized 7.8×, Centralized 4.4×
-- Coordination costs: sharing findings, aligning goals, integrating results consumes tokens, time, cognitive bandwidth
-- Multi-agent systems most effective when tasks clearly divide into parallel, independent subtasks
-- The 180-configuration study produced the first quantitative scaling principles for AI agent systems
+## Novel Framing Contribution
 
-**Framing:**
-- VentureBeat: "'More agents' isn't a reliable path to better enterprise AI systems"
-- The predictive model (87% accuracy on unseen tasks) suggests optimal architecture IS predictable from task properties
+The value-add is the introduction of "baseline paradox" as a named phenomenon in mainstream AI discourse, making the Google/MIT findings more accessible to practitioners.
 
-## Agent Notes
-**Why this matters:** The popularization of the baseline paradox finding. Confirms this is entering mainstream discourse, not just a technical finding.
-**What surprised me:** The framing shift from "more agents = better" to "architecture match = better." This mirrors the inverted-U finding from the CI review.
-**What I expected but didn't find:** No analysis of whether the paradox applies to knowledge work vs. benchmark tasks. No connection to the CI literature or active inference framework.
-**KB connections:** Directly relevant to [[subagent hierarchies outperform peer multi-agent architectures in practice]] — which this complicates. Also connects to inverted-U finding from Patterns review.
-**Extraction hints:** The baseline paradox and error amplification hierarchy are already flagged as claim candidates from previous session. This source provides additional context.
-**Context:** Industry coverage of the Google/MIT paper. Added for completeness alongside the original paper archive.
+## Enrichment Connections
 
-## Curator Notes (structured handoff for extractor)
-PRIMARY CONNECTION: subagent hierarchies outperform peer multi-agent architectures in practice because deployed systems consistently converge on one primary agent controlling specialized helpers
-WHY ARCHIVED: Additional framing context for the baseline paradox — connects to inverted-U collective intelligence finding
-EXTRACTION HINT: This is supplementary to the primary Google/MIT paper. Focus on the framing and reception rather than replicating the original findings.
+- [[subagent-hierarchy-reduces-errors]] - Provides direct challenge with quantitative evidence
+- [[coordination-protocol-cost-quantification]] - Adds cost quantification context
+
+Both enrichments create productive tension rather than simple confirmation.

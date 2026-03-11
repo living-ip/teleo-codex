@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [collective-intelligence, mechanisms]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [social-choice, representative-alignment, arrows-theorem, privilege-graphs, learning-theory, generalization]
 flagged_for_rio: ["Social choice mechanisms as prediction market analogues — preference aggregation parallels"]

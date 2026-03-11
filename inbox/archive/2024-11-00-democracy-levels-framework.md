@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [mechanisms, collective-intelligence]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [democratic-AI, governance, framework, levels, pluralistic-alignment, ICML-2025]
 processed_by: theseus

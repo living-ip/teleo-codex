@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: [cultural-dynamics]
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [UGC, user-generated-content, trust-metrics, engagement-data, community-content]
 processed_by: clay

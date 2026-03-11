@@ -8,6 +8,7 @@ domain: health
 secondary_domains: []
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [medicare-advantage, medicare-history, political-economy, risk-adjustment, payment-formula, hmo]
 processed_by: vida

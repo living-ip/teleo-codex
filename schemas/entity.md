@@ -20,18 +20,20 @@ Claims are static propositions with confidence levels. Entities are dynamic obje
 | `company` | Protocol, startup, fund, DAO | MetaDAO, Aave, Solomon, Devoted Health |
 | `person` | Individual with tracked positions/influence | Stani Kulechov, Gabriel Shapiro, Proph3t |
 | `market` | Industry segment or ecosystem | Futarchic markets, DeFi lending, Medicare Advantage |
+| `decision_market` | Governance proposal, prediction market, futarchy decision | MetaDAO: Hire Robin Hanson, MetaDAO: Burn 99.3% of META |
 
 ## YAML Frontmatter
 
 ```yaml
 ---
 type: entity
-entity_type: company | person | market
+entity_type: company | person | market | decision_market
 name: "Display name"
 domain: internet-finance | entertainment | health | ai-alignment | space-development
 handles: ["@StaniKulechov", "@MetaLeX_Labs"]  # social/web identities
 website: https://example.com
-status: active | inactive | acquired | liquidated | emerging
+status: active | inactive | acquired | liquidated | emerging  # for company/person/market
+# Decision markets use: active | passed | failed
 tracked_by: rio  # which agent owns this entity
 created: YYYY-MM-DD
 last_updated: YYYY-MM-DD
@@ -43,7 +45,7 @@ last_updated: YYYY-MM-DD
 | Field | Type | Description |
 |-------|------|-------------|
 | type | enum | Always `entity` |
-| entity_type | enum | `company`, `person`, or `market` |
+| entity_type | enum | `company`, `person`, `market`, or `decision_market` |
 | name | string | Canonical display name |
 | domain | enum | Primary domain |
 | status | enum | Current operational status |
@@ -60,6 +62,93 @@ last_updated: YYYY-MM-DD
 | tags | list | Discovery tags |
 | secondary_domains | list | Other domains this entity is relevant to |
 
+## Decision Market-Specific Fields
+
+Decision markets are individual governance decisions, prediction market questions, or futarchy proposals. Each is its own entity — the proposal name is the title, and structured data (date, outcome, volume, proposer) lives in frontmatter. The parent entity (e.g., MetaDAO) links to its decision markets, and claims can be derived from decision market entities.
+
+Unlike other entity types, decision markets have a **terminal state** — they resolve to `passed` or `failed`. After resolution, the entity is essentially closed. Three states: `active` (market open), `passed` (proposal approved), `failed` (proposal rejected).
+
+```yaml
+# Decision market attributes
+status: active | passed | failed  # replaces outcome — the status IS the outcome
+parent_entity: "[[metadao]]"          # the organization this decision belongs to
+platform: "futardio"                  # where the market lives (futardio, polymarket, kalshi)
+proposer: "proph3t"                   # who created the proposal
+proposal_url: "https://..."           # canonical link to the market/proposal
+proposal_date: YYYY-MM-DD            # when proposed/created
+resolution_date: YYYY-MM-DD          # when resolved (null if active)
+category: "treasury | fundraise | hiring | mechanism | liquidation | grants | strategy"
+summary: "One-sentence description of what the proposal does"
+
+# Volume fields are platform-specific:
+
+# Futarchy proposals (governance decisions):
+pass_volume: "$150K"              # capital backing pass outcome
+fail_volume: "$100K"              # capital backing fail outcome
+
+# Futarchy launches (ICOs via Futardio):
+funding_target: "$2M"
+total_committed: "$103M"          # total capital committed (demand signal)
+amount_raised: "$8M"              # actual capital received after pro-rata
+
+# Prediction markets (Polymarket, Kalshi):
+market_volume: "$3.2B"            # total trading volume
+peak_odds: "65%"                  # peak probability for primary outcome
+```
+
+**Filing convention:** `entities/{domain}/{parent-slug}-{proposal-slug}.md`
+Example: `entities/internet-finance/metadao-hire-robin-hanson.md`
+
+**Relationship to parent entity:** The parent entity page should include a "## Key Decisions" summary table with date, title (wiki-linked), proposer, volume, and outcome. Not every proposal warrants a row — only those that materially changed the entity's trajectory. The full detail lives in the decision_market entity file.
+
+```markdown
+## Key Decisions
+| Date | Proposal | Proposer | Volume | Outcome |
+|------|----------|----------|--------|---------|
+| 2025-02-10 | [[metadao-hire-robin-hanson]] | proph3t | $X | Passed |
+| 2024-03-03 | [[metadao-burn-993-meta]] | proph3t | $X | Passed |
+| 2024-06-26 | [[metadao-fundraise-2]] | proph3t | $X | Passed |
+```
+
+**What gets a decision_market entity vs. a timeline entry:**
+- **Entity:** Proposals with real capital at stake, governance decisions that changed organizational direction, markets that produced notable information, or contested outcomes (significant volume on both sides — a contested failure is more informative than an uncontested pass)
+- **Timeline entry only:** Test proposals, spam, trivial parameter tweaks, minor operational minutiae, uncontested routine decisions
+- **Estimated ratio:** ~33-40% of real proposals qualify for entity status
+
+**Extraction output for proposal sources:**
+1. **Primary:** decision_market entity file with structured frontmatter
+2. **Secondary:** Timeline entry on parent entity (one-line summary + date)
+3. **Optional:** Claims ONLY if the proposal contains novel mechanism insight, surprising market outcome, or instructive governance dynamics (~20% of proposals)
+
+**Eval checklist for decision_market entities (all mechanical):**
+1. `parent_entity` exists in entity index
+2. Dates are valid YYYY-MM-DD and chronologically coherent (proposal_date ≤ resolution_date)
+3. `status` matches source data (passed/failed/active)
+4. Not a duplicate of existing entity
+5. Meets significance threshold (not test/spam/trivial)
+
+**Wiki links use filenames only** (e.g., `[[metadao-hire-robin-hanson]]`), not full paths. This means decision market files can be migrated to a subdirectory later without breaking links.
+
+**Body format:**
+```markdown
+# [Parent Entity]: [Proposal Title]
+
+## Summary
+[What the proposal does and why it matters — 2-3 sentences]
+
+## Market Data
+- **Volume:** $X
+- **Outcome:** Passed/Failed/Pending
+- **Key participants:** [notable traders, proposers, commenters]
+
+## Significance
+[Why this decision matters — what it reveals about governance dynamics, organizational direction, or mechanism design]
+
+## Relationship to KB
+- [[parent-entity]] — governance decision
+- [[relevant-claim]] — how this decision relates to broader thesis
+```
+
 ## Company-Specific Fields
 
 ```yaml
@@ -67,6 +156,7 @@ last_updated: YYYY-MM-DD
 founded: YYYY-MM-DD
 founders: ["[[person-entity]]"]
 category: "DeFi lending protocol"
+parent: "[[parent-entity]]"  # e.g., [[futardio]] for launched projects
 stage: seed | growth | mature | declining | liquidated
 market_cap: "$X"  # latest known, with date in body
 funding: "$X raised"  # total known funding
@@ -76,6 +166,17 @@ key_metrics:
   users: "X"
 competitors: ["[[competitor-entity]]"]
 built_on: ["Solana", "Ethereum"]
+
+# Capital formation fields (for launched/funded entities)
+raise_target: "$500K"          # intended raise amount
+amount_raised: "$969K"         # actual amount raised
+total_committed: "$14.9M"      # total capital committed (shows demand)
+# oversubscription_ratio is calculated: total_committed / raise_target
+# Do NOT store it — derive it to prevent inconsistency
+treasury: "$575K USDC"         # current treasury balance
+token_price: "$0.05"           # current token price
+monthly_allowance: "$50K"      # approved monthly spend rate
+launch_date: YYYY-MM-DD       # when the entity launched/raised
 ```
 
 ## Person-Specific Fields
@@ -168,6 +269,8 @@ entities/
     solomon.md
     stani-kulechov.md
     gabriel-shapiro.md
+    metadao-hire-robin-hanson.md       # decision_market
+    metadao-burn-993-percent-meta.md   # decision_market
   entertainment/
     claynosaurz.md
     pudgy-penguins.md
@@ -177,7 +280,7 @@ entities/
     function-health.md
 ```
 
-**Filename:** Lowercase slugified name. Companies use brand name, people use full name.
+**Filename:** Lowercase slugified name. Companies use brand name, people use full name. Decision markets use `{parent}-{proposal-slug}.md`.
 
 ## How Entities Feed Beliefs
 

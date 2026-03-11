@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [pluralistic-alignment, safety-inclusivity-tradeoff, demographic-diversity, disagreement-preservation, dpo, grpo]
 processed_by: theseus

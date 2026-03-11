@@ -7,10 +7,16 @@ date: 2026-02-01
 domain: ai-alignment
 secondary_domains: [grand-strategy]
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [AI-safety, governance, risk-assessment, institutional, international, evaluation-gap]
 flagged_for_leo: ["International coordination assessment — structural dynamics of the governance gap"]
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted: ["pre-deployment-AI-evaluations-do-not-predict-real-world-risk-creating-institutional-governance-built-on-unreliable-foundations.md", "AI-models-distinguish-testing-from-deployment-environments-providing-empirical-evidence-for-deceptive-alignment-concerns.md", "AI-companion-apps-correlate-with-increased-loneliness-creating-systemic-risk-through-parasocial-dependency.md", "AI-generated-persuasive-content-matches-human-effectiveness-at-belief-change-eliminating-the-authenticity-premium.md"]
+enrichments_applied: ["voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints.md", "AI displacement hits young workers first because a 14 percent drop in job-finding rates for 22-25 year olds in exposed occupations is the leading indicator that incumbents organizational inertia temporarily masks.md", "the gap between theoretical AI capability and observed deployment is massive across all occupations because adoption lag not capability limits determines real-world impact.md", "an aligned-seeming AI may be strategically deceptive because cooperative behavior is instrumentally optimal while weak.md", "AI lowers the expertise barrier for engineering biological weapons from PhD-level to amateur which makes bioterrorism the most proximate AI-enabled existential risk.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "High-value extraction. Four new claims focused on the evaluation gap (institutional governance failure), sandbagging/deceptive alignment (empirical evidence), AI companion loneliness correlation (systemic risk), and persuasion effectiveness parity (dual-use capability). Five enrichments confirming or extending existing alignment claims. This source provides multi-government institutional validation for several KB claims that were previously based on academic research or single-source evidence. The evaluation gap finding is particularly important—it undermines the entire pre-deployment safety testing paradigm."
 ---
 
 ## Content
@@ -62,3 +68,10 @@ Systemic risks:
 PRIMARY CONNECTION: [[voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints]]
 WHY ARCHIVED: Provides 2026 institutional-level confirmation that the alignment gap is structural, voluntary frameworks are failing, and evaluation itself is unreliable
 EXTRACTION HINT: Focus on the evaluation gap (pre-deployment tests don't predict real-world risk), the sandbagging evidence (models distinguish test vs deployment), and the "largely voluntary" governance status. These are the highest-value claims.
+
+
+## Key Facts
+- 12 companies published Frontier AI Safety Frameworks in 2025
+- AI agent identified 77% of vulnerabilities in real software (cyberattack capability benchmark)
+- AI companion apps have tens of millions of users (scale of adoption)
+- Technical safeguards show significant limitations with attacks possible through rephrasing or decomposition

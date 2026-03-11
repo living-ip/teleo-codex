@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/4mgSftMwb86RKe4P73b7iY1YzyNwGPtW8EmyGJyACykG"
 date: 2026-03-07
 domain: internet-finance
 format: data
-status: entity-data
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["areal-demonstrates-rwa-tokenization-with-vehicle-pilot-achieving-26-percent-apy-through-carsharing-revenue.md", "areal-proposes-unified-rwa-liquidity-through-index-token-aggregating-yield-across-project-tokens.md", "areal-targets-smb-rwa-tokenization-as-underserved-market-versus-equity-and-large-financial-instruments.md"]
+enrichments_applied: ["futardio-cult-raised-11-4-million-in-one-day-through-futarchy-governed-meme-coin-launch.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 3 claims about RWA tokenization mechanisms and market positioning. Created Areal entity (failed Futardio launch provides important counterpoint to CULT success). Enriched existing futarchy claims with failure case data. Source is primarily pitch/marketing material so confidence levels are experimental/speculative. Vehicle pilot has real performance data (experimental), but index token and SMB market claims are unproven (speculative/likely)."
 ---
 
 ## Launch Details
@@ -212,3 +218,12 @@ The developer behind this project has approached Areal with the intent to **laun
 - Token mint: `DMLd86Niss9nKWJyr6jTY1FAfe437yzk7kEeNLfmmeta`
 - Version: v0.7
 - Closed: 2026-03-08
+
+
+## Key Facts
+- Areal pilot: 2023 Mini Cooper, $25K raised from 120 participants, ~26% APY (2025-09)
+- Areal Futardio launch: $50K target, $11,654 raised (23.3%), REFUNDING status (2026-03-07 to 2026-03-08)
+- Areal token: DML, mint address DMLd86Niss9nKWJyr6jTY1FAfe437yzk7kEeNLfmmeta
+- Areal next project: Capsule hotel Koh Phangan, ~100 units at $50K/unit, projected 21.15% ROI (in preparation)
+- Areal revenue model: 1% RWT emission fee, 5% yield cut, 0.25% swap fee, 0.25% reward distribution fee
+- Areal sustainability target: ~$500K treasury capitalization reaches break-even on yield alone

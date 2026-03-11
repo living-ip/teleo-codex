@@ -6,10 +6,16 @@ url: https://spacenews.com/china-to-debut-reusable-long-march-10-derived-rocket-
 date: 2026-01-00
 domain: space-development
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [china, long-march-10b, reusability, state-directed, competition, timeline]
+processed_by: astra
+processed_date: 2026-03-11
+enrichments_applied: ["China is the only credible peer competitor in space with comprehensive capabilities and state-directed acceleration closing the reusability gap in 5-8 years.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Primary extraction updates the China reusability timeline claim with concrete April 2026 debut date, challenging the '5-8 year' projection. Secondary claim captures the state+commercial parallel development structure as evidence of ecosystem depth. Combined with the February 11 sea landing source (referenced in curator notes), this provides comprehensive update on China's reusable rocket progress. No cost-per-kg data available, so economic competitiveness claims remain unsubstantiated."
 ---
 
 ## Content
@@ -42,3 +48,12 @@ The broader Chinese reusable rocket ecosystem includes:
 PRIMARY CONNECTION: [[China is the only credible peer competitor in space with comprehensive capabilities and state-directed acceleration closing the reusability gap in 5-8 years]]
 WHY ARCHIVED: Complements the sea landing source — provides the operational vehicle timeline and specs for China's reusable rocket program
 EXTRACTION HINT: Use together with the Feb 11 sea landing source to build the case for revising the "5-8 year" timeline claim
+
+
+## Key Facts
+- Long March 10B first flight scheduled no earlier than April 5, 2026
+- Long March 10 first stage successful controlled sea splashdown February 11, 2026
+- LM-10B payload capacity: 11,000 kg to 900 km altitude at 50° inclination
+- Recovery method: sea-based cable/net catching system on dedicated ship
+- Long March 9 super-heavy lift first flight planned for 2033
+- Chinese commercial reusable rocket companies: iSpace, Landspace, Galactic Energy

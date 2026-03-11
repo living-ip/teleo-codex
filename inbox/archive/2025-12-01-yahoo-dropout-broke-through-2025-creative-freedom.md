@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [dropout, sam-reich, owned-platform, creative-freedom, subscription-model, storytelling-quality]
 processed_by: clay

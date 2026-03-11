@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/5jK8akFVVkM9JAJKps6M9eECCBoSLM7meR2Kf5Kc47f7"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: entity-data
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["tridash-implements-60-second-prediction-markets-as-multiplayer-game-mechanics-compressing-resolution-time-from-days-to-seconds.md", "house-mode-betting-against-protocol-enables-prediction-markets-to-function-with-uneven-liquidity-by-having-the-platform-take-counterparty-risk.md"]
+enrichments_applied: ["MetaDAO-is-the-futarchy-launchpad-on-Solana-where-projects-raise-capital-through-unruggable-ICOs-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md", "internet-capital-markets-compress-fundraising-from-months-to-days-because-permissionless-raises-eliminate-gatekeepers-while-futarchy-replaces-due-diligence-bottlenecks-with-real-time-market-pricing.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Source is a failed futard.io launch for a prediction market game. Extracted two claims about ultra-short-duration prediction markets and house mode liquidity provision. Applied three enrichments to existing MetaDAO/futarchy claims with concrete evidence of platform usage, liquidity friction, and fundraising speed. The failure mode is as informative as success would have been—demonstrates both the speed of internet capital markets and the liquidity challenges facing prediction market adoption."
 ---
 
 ## Launch Details
@@ -156,3 +162,13 @@ Website: https://tridash.xyz
 - Token mint: `P2vLq4msQViYT28eNYm9k7xGefR55zxtg5e5r1Bmeta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- TriDash launched on futard.io 2026-03-05 seeking $50,000
+- TriDash raised $1,740 total before entering refund status
+- TriDash closed 2026-03-06 (approximately 24-hour fundraise window)
+- TriDash estimated monthly burn: ~$8,000 ($5k dev, $1k house liquidity, $1k infrastructure, $1k growth)
+- TriDash minimum raise would have provided 5-6 months runway
+- TriDash token: P2v, mint address P2vLq4msQViYT28eNYm9k7xGefR55zxtg5e5r1Bmeta
+- TriDash built on Solana with 60-second round resolution

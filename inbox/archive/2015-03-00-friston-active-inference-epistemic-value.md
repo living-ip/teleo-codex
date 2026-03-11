@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [collective-intelligence, critical-systems]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [active-inference, epistemic-value, information-gain, exploration-exploitation, expected-free-energy, curiosity, epistemic-foraging]
 processed_by: theseus

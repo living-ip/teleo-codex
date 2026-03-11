@@ -20,6 +20,12 @@ This means aggregate unemployment figures will systematically understate AI disp
 
 The authors provide a benchmark: during the 2007-2009 financial crisis, unemployment doubled from 5% to 10%. A comparable doubling in the top quartile of AI-exposed occupations (from 3% to 6%) would be detectable in their framework. It hasn't happened yet — but the young worker signal suggests the leading edge may already be here.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-00-international-ai-safety-report-2026]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The International AI Safety Report 2026 (multi-government committee, February 2026) provides additional evidence of early-career displacement: 'Early evidence of declining demand for early-career workers in some AI-exposed occupations, such as writing.' This confirms the pattern identified in the existing claim but extends it beyond the 22-25 age bracket to 'early-career workers' more broadly, and identifies writing as a specific exposed occupation. The report categorizes this under 'systemic risks,' indicating institutional recognition that this is not a temporary adjustment but a structural shift in labor demand.
+
 ---
 
 Relevant Notes:

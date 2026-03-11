@@ -8,6 +8,7 @@ domain: health
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [medicare-advantage, risk-adjustment, overpayment, coding-intensity, favorable-selection, medpac]
 processed_by: vida

@@ -7,6 +7,7 @@ date: 2020-01-01
 domain: ai-alignment
 format: essay
 status: null-result
+last_attempted: 2026-03-11
 tags: [superorganism, collective-intelligence, great-transition, emergence, systems-theory]
 linked_set: superorganism-sources-mar2026
 processed_by: theseus

@@ -6,10 +6,15 @@ url: https://www.prototypingchina.com/2026/03/10/china-builds-rocket-catching-sh
 date: 2026-03-10
 domain: space-development
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: medium
 tags: [china, recovery-infrastructure, rocket-catching, ling-hang-zhe, reusability]
+processed_by: astra
+processed_date: 2026-03-11
+enrichments_applied: ["China is the only credible peer competitor in space with comprehensive capabilities and state-directed acceleration closing the reusability gap in 5-8 years.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) Ling Hang Zhe as signal of operational vs experimental commitment, (2) three divergent recovery paradigms as evidence of convergent capability. Enriched existing China space competitor claim with concrete infrastructure evidence. Source provides strong evidence that reusability solutions are diversifying rather than converging on SpaceX's specific approach."
 ---
 
 ## Content
@@ -39,3 +44,10 @@ This is the first ship in the world built solely to catch rockets with a net/cab
 PRIMARY CONNECTION: [[China is the only credible peer competitor in space with comprehensive capabilities and state-directed acceleration closing the reusability gap in 5-8 years]]
 WHY ARCHIVED: Purpose-built recovery infrastructure as evidence of operational (not experimental) Chinese reusability commitment
 EXTRACTION HINT: Three divergent recovery paradigms (tower catch, propulsive ship landing, cable-net catch) as evidence that reusability is a convergent capability, not a SpaceX-specific innovation
+
+
+## Key Facts
+- Ling Hang Zhe: 25,000-ton displacement, 472 feet (144m) long
+- Ship entered sea trials February 2026 with recovery gantry and cable systems installed
+- First ship in the world built solely to catch rockets with net/cable system
+- Three active recovery paradigms: SpaceX tower catch (Mechazilla), Blue Origin propulsive ship landing (Jacklyn), China cable-net ship catch (Ling Hang Zhe)

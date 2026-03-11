@@ -27,6 +27,12 @@ The timing is revealing: Anthropic dropped its safety pledge the same week the P
 
 Anthropic, widely considered the most safety-focused frontier AI lab, rolled back its Responsible Scaling Policy (RSP) in February 2026. The original 2023 RSP committed to never training an AI system unless the company could guarantee in advance that safety measures were adequate. The new RSP explicitly acknowledges the structural dynamic: safety work 'requires collaboration (and in some cases sacrifices) from multiple parts of the company and can be at cross-purposes with immediate competitive and commercial priorities.' This represents the highest-profile case of a voluntary AI safety commitment collapsing under competitive pressure. Anthropic's own language confirms the mechanism: safety is a competitive cost ('sacrifices') that conflicts with commercial imperatives ('at cross-purposes'). Notably, no alternative coordination mechanism was proposed—they weakened the commitment without proposing what would make it sustainable (industry-wide agreements, regulatory requirements, market mechanisms). This is particularly significant because Anthropic is the organization most publicly committed to safety governance, making their rollback empirical validation that even safety-prioritizing institutions cannot sustain unilateral commitments under competitive pressure.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-00-international-ai-safety-report-2026]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The International AI Safety Report 2026 (multi-government committee, February 2026) confirms that risk management remains 'largely voluntary' as of early 2026. While 12 companies published Frontier AI Safety Frameworks in 2025, these remain voluntary commitments without binding legal requirements. The report notes that 'a small number of regulatory regimes beginning to formalize risk management as legal requirements,' but the dominant governance mode is still voluntary pledges. This provides multi-government institutional confirmation that the structural race-to-the-bottom predicted by the alignment tax is actually occurring—voluntary frameworks are not transitioning to binding requirements at the pace needed to prevent competitive pressure from eroding safety commitments.
+
 ---
 
 Relevant Notes:

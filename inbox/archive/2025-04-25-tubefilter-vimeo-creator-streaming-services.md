@@ -7,7 +7,14 @@ date: 2025-04-25
 domain: entertainment
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
+processed_by: clay
+processed_date: 2026-03-11
+claims_extracted:
+  - creator-owned-streaming-infrastructure-has-reached-commercial-scale-with-430M-annual-creator-revenue-across-13M-subscribers
+  - established-creators-generate-more-revenue-from-owned-streaming-subscriptions-than-from-equivalent-social-platform-ad-revenue
+  - creator-owned-direct-subscription-platforms-produce-qualitatively-different-audience-relationships-than-algorithmic-social-platforms-because-subscribers-choose-deliberately
+enrichments: []
 priority: high
 tags: [creator-economy, owned-distribution, vimeo, platform-infrastructure, dropout, sidemen, try-guys]
 ---

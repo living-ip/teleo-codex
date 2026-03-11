@@ -11,9 +11,13 @@ last_updated: 2026-03-11
 founded: 2025-11-14
 founders: ["Ranga (@oxranga)"]
 category: "Futardio-launched ownership coin with active futarchy governance (Solana)"
+parent: "[[futardio]]"
 stage: early
 key_metrics:
   raise: "$8M raised ($103M committed — 13x oversubscription)"
+  treasury: "$6.1M USDC"
+  token_price: "$0.55"
+  monthly_allowance: "$100K"
   governance: "Active futarchy governance + treasury subcommittee (DP-00001)"
 competitors: []
 built_on: ["Solana", "MetaDAO Autocrat"]

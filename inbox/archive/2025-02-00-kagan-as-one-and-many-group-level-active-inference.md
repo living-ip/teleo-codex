@@ -8,6 +8,7 @@ domain: collective-intelligence
 secondary_domains: [ai-alignment, critical-systems]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [active-inference, multi-agent, group-level-generative-model, markov-blankets, collective-behavior, emergence]
 processed_by: theseus

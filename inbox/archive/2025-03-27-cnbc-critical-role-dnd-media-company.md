@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: low
 tags: [critical-role, community-ip, creator-media-company, beacon, tabletop-rpg]
 processed_by: clay

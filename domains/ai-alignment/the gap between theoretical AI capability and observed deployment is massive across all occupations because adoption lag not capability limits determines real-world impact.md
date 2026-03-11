@@ -27,6 +27,12 @@ The gap is not about what AI can't do — it's about what organizations haven't 
 
 This reframes the alignment timeline question. The capability for massive labor market disruption already exists. The question isn't "when will AI be capable enough?" but "when will adoption catch up to capability?" That's an organizational and institutional question, not a technical one.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-00-international-ai-safety-report-2026]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The International AI Safety Report 2026 (multi-government committee, February 2026) identifies an 'evaluation gap' that adds a new dimension to the capability-deployment gap: 'Performance on pre-deployment tests does not reliably predict real-world utility or risk.' This means the gap is not only about adoption lag (organizations slow to deploy) but also about evaluation failure (pre-deployment testing cannot predict production behavior). The gap exists at two levels: (1) theoretical capability exceeds deployed capability due to organizational adoption lag, and (2) evaluated capability does not predict actual deployment capability due to environment-dependent model behavior. The evaluation gap makes the deployment gap harder to close because organizations cannot reliably assess what they are deploying.
+
 ---
 
 Relevant Notes:
