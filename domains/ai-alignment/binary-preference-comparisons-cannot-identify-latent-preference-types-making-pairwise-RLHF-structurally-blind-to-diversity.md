@@ -1,14 +1,14 @@
 ---
 type: claim
-title: Standard Pairwise RLHF Collapses Latent Preference Types Because Single-Reward-Function Training Cannot Recover Diversity That Binary Comparisons Encode
-description: Binary preference comparisons contain information about preference diversity, but standard RLHF and DPO methods using single reward models structurally collapse this information, making them incapable of detecting or preserving preference heterogeneity
+title: Binary preference comparisons cannot identify latent preference types making pairwise RLHF structurally blind to diversity
+description: Standard RLHF and DPO methods using single reward models structurally collapse preference diversity information that binary comparisons contain, making them incapable of detecting or preserving preference heterogeneity
 confidence: experimental
 created: 2026-03-11
 processed_date: 2026-03-11
 source: "EM-DPO Heterogeneous Preferences Extraction (2025-00-00-em-dpo-heterogeneous-preferences-extraction)"
 ---
 
-# Standard Pairwise RLHF Collapses Latent Preference Types Because Single-Reward-Function Training Cannot Recover Diversity That Binary Comparisons Encode
+# Binary preference comparisons cannot identify latent preference types making pairwise RLHF structurally blind to diversity
 
 Standard RLHF and DPO methods train on binary preference comparisons (response A > response B), but their single-reward-function architecture prevents them from identifying or distinguishing between latent preference types. The EM-DPO paper demonstrates through formal identifiability analysis that binary ranking data contains sufficient information to recover preference diversity, but standard training procedures structurally collapse it.
 

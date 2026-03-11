@@ -1,6 +1,6 @@
 ---
 type: claim
-title: Egalitarian Aggregation Through Minmax Regret Bounds Worst-Case Preference Group Dissatisfaction in Pluralistic AI Deployment
+title: Egalitarian aggregation through minmax regret bounds worst case preference group dissatisfaction in pluralistic AI deployment
 description: MinMax Regret aggregation provides an egalitarian mechanism for combining diverse preference groups by minimizing the maximum dissatisfaction any group experiences, operationalizing fairness through social choice theory
 confidence: experimental
 created: 2026-03-11
@@ -9,7 +9,7 @@ source: "EM-DPO Heterogeneous Preferences Extraction (2025-00-00-em-dpo-heteroge
 enrichments: ["2025-00-00-em-dpo-heterogeneous-preferences-extraction"]
 ---
 
-# Egalitarian Aggregation Through Minmax Regret Bounds Worst-Case Preference Group Dissatisfaction in Pluralistic AI Deployment
+# Egalitarian aggregation through minmax regret bounds worst case preference group dissatisfaction in pluralistic AI deployment
 
 MinMax Regret aggregation provides a formal mechanism for combining outputs from multiple preference-aligned models while guaranteeing fairness across groups. The EM-DPO paper implements this as the deployment-time aggregation strategy after training K separate models on discovered preference types.
 
@@ -37,6 +37,6 @@ In systems serving diverse populations with irreducible value differences, a sin
 
 **Relevant Notes:**
 - [[pluralistic-alignment-must-accommodate-irreducibly-diverse-values-simultaneously-rather-than-converging-on-a-single-aligned-state]] — MinMax Regret is a technical instantiation of this principle
-- [[standard-pairwise-rlhf-collapses-latent-preference-types-because-single-reward-function-training-cannot-recover-diversity-that-binary-comparisons-encode]] — EM-DPO's EM stage discovers the preference types that MinMax Regret then aggregates
+- [[binary-preference-comparisons-cannot-identify-latent-preference-types-making-pairwise-RLHF-structurally-blind-to-diversity]] — EM-DPO's EM stage discovers the preference types that MinMax Regret then aggregates
 
 **Topics:** AI alignment, social choice theory, fairness, preference aggregation, egalitarianism
