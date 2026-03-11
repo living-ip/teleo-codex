@@ -7,9 +7,14 @@ date: 2025-05-01
 domain: ai-alignment
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: medium
 tags: [interpretability, pre-deployment, safety-assessment, Anthropic, deception-detection, mechanistic]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["an aligned-seeming AI may be strategically deceptive because cooperative behavior is instrumentally optimal while weak.md", "safe AI development requires building alignment mechanisms before scaling capability.md", "scalable oversight degrades rapidly as capability gaps grow with debate achieving only 50 percent success at moderate gaps.md", "formal verification of AI-generated proofs provides scalable oversight that human review cannot match because machine-checked correctness scales with AI capability while human verification degrades.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "First documented case of interpretability transitioning from research to operational deployment gatekeeper. Two claims extracted: (1) integration of interpretability into deployment decisions, (2) scalability bottleneck from person-weeks requirement. Four enrichments to existing alignment claims. Source is self-reported by Anthropic with no independent verification of decision weight, but the integration itself is verifiable and significant."
 ---
 
 ## Content
@@ -53,3 +58,10 @@ Interpretability research "has shown the ability to explain a wide range of phen
 PRIMARY CONNECTION: [[scalable oversight degrades rapidly as capability gaps grow with debate achieving only 50 percent success at moderate gaps]]
 WHY ARCHIVED: First evidence of interpretability used in production deployment decisions — challenges the "technical alignment is insufficient" thesis while raising scalability questions
 EXTRACTION HINT: The transition from research to operational use is the key claim. The scalability tension (person-weeks per model) is the counter-claim. Both worth extracting.
+
+
+## Key Facts
+- Anthropic integrated interpretability into Claude Opus 4.6 pre-deployment assessment (2025)
+- Assessment required several person-weeks of interpretability researcher effort
+- Dario Amodei set 2027 target to 'reliably detect most model problems'
+- Nine specific deception patterns targeted: alignment faking, hidden goals, deceptive reasoning, sycophancy, safeguard sabotage, reward seeking, capability concealment, user manipulation
