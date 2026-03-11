@@ -7,9 +7,14 @@ date: 2024-02-05
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: medium
 tags: [devoted-health, alignment-healthcare, clover-health, medicare-advantage, startup, purpose-built, technology-platform]
+processed_by: vida
+processed_date: 2024-02-05
+enrichments_applied: ["Devoted is the fastest-growing MA plan at 121 percent growth because purpose-built technology outperforms acquisition-based vertical integration during CMS tightening.md", "CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted one new claim on the competitive mechanism by which CMS reforms restructure MA market toward purpose-built plans. Enriched existing Devoted claim with competitive landscape context and persistent losses caveat. Confirmed CMS chart review exclusion claim with evidence of differential coding practices. The key insight is the market transition mechanism (incumbents exit → purpose-built captures) rather than individual company analysis. Devoted's persistent losses are the critical empirical check on the structural thesis—purpose-built advantage is compelling but economically unproven at scale."
 ---
 
 ## Content
@@ -59,3 +64,11 @@ tags: [devoted-health, alignment-healthcare, clover-health, medicare-advantage, 
 PRIMARY CONNECTION: [[Devoted is the fastest-growing MA plan at 121 percent growth because purpose-built technology outperforms acquisition-based vertical integration during CMS tightening]]
 WHY ARCHIVED: Grounds the existing Devoted claim with competitive landscape context.
 EXTRACTION HINT: Focus on the structural differentiation (tech stack, coding practices, CMS positioning), not individual company analysis.
+
+
+## Key Facts
+- Devoted Health founded 2017, operates in AZ, FL, IL, OH, TX
+- Devoted raised $1.15B Series D
+- Devoted more than doubled membership 2021→2022
+- Alignment Healthcare founded 2013, operates in 38 markets across AZ, CA, NV, NC
+- Clover Health achieved 25% membership growth 2021→2022
