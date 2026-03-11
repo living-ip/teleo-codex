@@ -1,43 +1,69 @@
 ---
 type: claim
+claim_id: production-workflow-shift-from-fix-it-in-post-to-fix-it-in-pre-reallocates-value-across-production-houses-vfx-providers-and-distributors
+title: Production workflow shift from "fix it in post" to "fix it in pre" reallocates value across production houses, VFX providers, and distributors
+description: AI-enabled pre-production tools (virtual production, real-time rendering, generative previsualization) may shift entertainment production from post-production correction to pre-production optimization, potentially reducing VFX provider revenue while increasing production house and distributor value capture
 domain: entertainment
-description: "AI enables quality control earlier in production process, shifting when and where value is captured across the production chain"
 confidence: speculative
-source: "McKinsey & Company report (Jan 2026) on AI production workflow changes"
-created: 2026-03-11
-secondary_domains: [teleological-economics]
+tags: [workflow, vfx, pre-production, post-production, value-reallocation]
+date_claimed: 2026-01-01
+source:
+  type: report
+  title: "Lights, camera, action! Capturing value from generative AI in film and TV production"
+  authors: [McKinsey & Company]
+  date: 2025-12-18
+  url: https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/lights-camera-action-capturing-value-from-generative-ai-in-film-and-tv-production
+created: 2025-01-01
+processed_date: 2025-01-01
 ---
 
-# Production workflow shift from fix it in post to fix it in pre reallocates value across production houses VFX providers and distributors
+## Claim
 
-McKinsey identifies a fundamental workflow transformation in entertainment production driven by AI capabilities: the shift from "fix it in post" to "fix it in pre." This means quality control, creative iteration, and problem-solving move earlier in the production process rather than being deferred to post-production.
+AI-enabled production tools may enable a workflow shift from "fix it in post" (correcting issues in post-production) to "fix it in pre" (optimizing decisions before filming). This potential transition could reallocate value across the production chain:
 
-This workflow change reallocates value pools across three key players:
+- **VFX providers**: Positioned to lose value as post-production correction work decreases
+- **Production houses**: Positioned to gain value through better pre-production planning and on-set efficiency
+- **Distributors**: Positioned to gain value through reduced overall production costs and faster turnaround
 
-1. **Production houses**: Positioned to gain value by catching and solving problems earlier when they're cheaper to fix
-2. **VFX providers**: Positioned to lose value as fewer problems require post-production correction and AI handles routine VFX work
-3. **Distributors**: Positioned to gain value through reduced overall production costs and faster iteration cycles
+The shift would be enabled by technologies like virtual production environments, real-time rendering, and generative AI previsualization tools that allow creative decisions to be tested and optimized before expensive filming begins.
 
-The shift is enabled by AI tools that allow real-time visualization, virtual production, and rapid iteration during pre-production and principal photography. What previously required expensive post-production fixes can now be addressed during planning or on-set.
+## Context
 
-This represents a structural change in where value is created and captured in the production chain, not just a productivity improvement. The timing of when problems are solved determines who captures the value from solving them.
+This represents speculation about future workflow evolution based on emerging technology capabilities, not observed industry-wide transition. The McKinsey report discusses these technologies' potential but does not provide evidence that the workflow shift is actually occurring at scale or that value reallocation has happened.
+
+The claim's confidence level (speculative) appropriately reflects this forward-looking nature, though the claim body should be read as projection rather than observed phenomenon.
 
 ## Evidence
 
-- McKinsey report (Jan 2026) identifying "fix it in post" → "fix it in pre" as a key workflow transformation
-- Report notes this reallocates value pools across production houses, VFX providers, and distributors
-- B5 Studios' Sean Bailey quoted saying "every single piece" of the workflow from ideation to distribution will be significantly disrupted
+The McKinsey report discusses AI capabilities in pre-production:
+- Virtual production environments that allow real-time visualization of scenes
+- Generative AI tools for rapid previsualization and storyboarding
+- Real-time rendering that enables creative iteration before filming
+
+However, the report does not provide:
+- Evidence that "fix it in pre" workflows are replacing "fix it in post" at industry scale
+- Data on actual value reallocation between production houses, VFX providers, and distributors
+- Case studies of productions that have completed this workflow transition
+- Financial impact measurements on VFX provider revenue
+
+The claim is based on logical inference about technology capabilities rather than observed workflow transformation.
 
 ## Challenges
 
-The claim is based on industry executive interviews and projections, not observed outcomes. The report explicitly notes that current AI-generated output is not yet at quality level to drive meaningful disruption in premium production, meaning this workflow shift is anticipated rather than realized. The specific mechanisms of value reallocation are not quantified. The claim assumes the workflow shift will occur as described, but this is contingent on AI quality reaching premium production standards.
+- **Speculative projection, not observed transition**: The McKinsey report does not demonstrate that this workflow shift is actually happening or that value has reallocated as described. This is a hypothesis about future evolution.
+- **VFX provider adaptation**: The claim assumes VFX providers cannot adapt to offer pre-production services, but many are already expanding into virtual production and previsualization.
+- **Workflow inertia**: Entertainment production has strong institutional practices and union structures that may resist workflow reorganization even when technology enables it.
+- **Quality requirements**: Premium production may still require extensive post-production work regardless of pre-production optimization, limiting the shift's magnitude.
+- **Technology maturity**: Current AI tools may not yet be reliable enough for production-critical pre-production decisions.
 
----
+## Enrichments
 
-Relevant Notes:
-- [[non-ATL production costs will converge with the cost of compute as AI replaces labor across the production chain]]
-- [[value in industry transitions accrues to bottleneck positions in the emerging architecture not to pioneers or to the largest incumbents]]
-- [[when profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits]]
+### Related Claims
+- [[ai-driven-production-efficiencies-accrue-primarily-to-distributors-not-producers-because-of-structural-market-dynamics]] - Broader pattern of value capture by distributors
+- [[historical-entertainment-technology-transitions-consistently-produce-35-percent-revenue-contraction-for-incumbents-within-five-years]] - Historical pattern that VFX providers might follow
 
-Topics:
-- [[domains/entertainment/_map]]
+### Theoretical Connections
+- [[proxy-inertia-is-the-most-reliable-predictor-of-incumbent-failure]] - VFX providers' potential inability to adapt to pre-production workflow
+
+### Counter-Evidence
+<!-- claim pending -->
