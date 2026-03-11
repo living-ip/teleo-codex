@@ -30,3 +30,8 @@ The "experimental" confidence reflects the single data point and confounded caus
 - [[domains/governance/futarchy-adoption-faces-reputational-liability-from-association-with-failed-projects]] (test) — Meme coin association creates the exact reputational risk this claim anticipated
 
 **Source**: [[inbox/archive/2026-03-03-futardio-launch-futardio-cult]]
+
+### Additional Evidence (extend)
+*Source: [[2026-03-07-futardio-launch-areal]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(challenge) Areal launched on Futardio 2026-03-07 with a $50,000 funding target but only raised $11,654 before entering REFUNDING status by 2026-03-08. This represents a failed futarchy-governed launch on the same platform, contrasting sharply with CULT's $11.4M success. The variance suggests futarchy-governed launches have high outcome variance and that mechanism quality alone does not guarantee capital formation success. Market participants still evaluate project fundamentals, team credibility, and business model viability regardless of governance structure.
