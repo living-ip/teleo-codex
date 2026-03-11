@@ -7,9 +7,14 @@ date: 2026-01-29
 domain: internet-finance
 secondary_domains: []
 format: article
-status: unprocessed
+status: null-result
 priority: high
 tags: [dcia, regulation, cftc, digital-commodities, senate, market-structure]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy-based fundraising creates regulatory separation because there are no beneficial owners and investment decisions emerge from market forces not centralized control.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy-governed entities are structurally not securities because prediction market participation replaces the concentrated promoter effort that the Howey test requires.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) CFTC exclusive jurisdiction as enabling framework for futarchy, (2) software developer protections. Enriched three existing futarchy regulatory claims with concrete legislative pathway. Party-line vote and reconciliation requirements create timeline uncertainty but framework is structurally favorable for futarchy governance models."
 ---
 
 ## Content
@@ -50,3 +55,11 @@ The Senate Agriculture Committee advanced S. 3755, the Digital Commodity Interme
 PRIMARY CONNECTION: [[Internet finance is an industry transition from traditional finance where the attractor state replaces intermediaries with programmable coordination and market-tested governance]]
 WHY ARCHIVED: CFTC exclusive jurisdiction framework directly enables futarchy governance by providing single federal regulatory path. Software developer protections also relevant for open-source futarchy infrastructure.
 EXTRACTION HINT: Focus on how CFTC jurisdiction creates a favorable regulatory environment for futarchy-governed tokens vs. the 50-state alternative.
+
+
+## Key Facts
+- Senate Agriculture Committee advanced S. 3755 on January 29, 2026 (party-line vote)
+- CFTC rulemaking deadline: 18 months from enactment
+- Bill requires CFTC-SEC coordination on inter-agency rulemakings
+- Reconciliation required with Senate Banking Committee draft and House CLARITY Act
+- Key legislative disagreement: stablecoin yield/rewards treatment
