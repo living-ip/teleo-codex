@@ -1,7 +1,7 @@
 ---
 type: claim
 domain: collective-intelligence
-description: "Identifies three necessary conditions under which adversarial knowledge contribution ('tell us something we don't know') produces genuine collective intelligence rather than selecting for contrarianism or noise"
+description: "Identifies three necessary conditions under which adversarial knowledge contribution ('tell us something we don't know') produces genuine collective intelligence rather than selecting for contrarianism. Key reframe: the adversarial dynamic should be contributor vs. knowledge base, not contributor vs. contributor"
 confidence: experimental
 source: "Theseus, original analysis drawing on prediction market evidence, scientific peer review, and mechanism design theory"
 created: 2026-03-11
@@ -41,6 +41,10 @@ Relevant Notes:
 - [[collective intelligence requires diversity as a structural precondition not a moral preference]] — adversarial contribution is one mechanism for maintaining diversity against convergence pressure
 - [[partial connectivity produces better collective intelligence than full connectivity on complex problems because it preserves diversity]] — structural conditions under which diversity (and therefore adversarial input) matters most
 - [[confidence calibration with four levels enforces honest uncertainty because proven requires strong evidence while speculative explicitly signals theoretical status]] — the confidence system that operationalizes condition #1 (new claims enter at low confidence and must earn upgrades)
+
+- [[scalable oversight degrades rapidly as capability gaps grow with debate achieving only 50 percent success at moderate gaps]] — contrast case: adversarial debate between AI systems degrades at scale, while adversarial contribution between humans and a knowledge base may not face the same scaling constraint
+- [[domain specialization with cross-domain synthesis produces better collective intelligence than generalist agents because specialists build deeper knowledge while a dedicated synthesizer finds connections they cannot see from within their territory]] — the structural context in which adversarial contribution operates
+- [[protocol design enables emergent coordination of arbitrary complexity as Linux Bitcoin and Wikipedia demonstrate]] — existence proofs of adversarial/competitive contribution producing collective intelligence at scale
 
 Topics:
 - [[foundations/collective-intelligence/_map]]

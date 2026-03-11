@@ -1,7 +1,7 @@
 ---
 type: claim
 domain: living-agents
-description: "Compares Teleo's architecture against Wikipedia, Community Notes, prediction markets, and Stack Overflow across three structural dimensions — showing that the combination of atomic claims, adversarial multi-agent evaluation, and persistent knowledge graphs is unprecedented"
+description: "Compares Teleo's architecture against Wikipedia, Community Notes, prediction markets, and Stack Overflow across three structural dimensions — atomic claims with independent evaluability, adversarial multi-agent evaluation with proposer/evaluator separation, and persistent knowledge graphs with semantic linking and cascade detection — showing no existing system combines all three"
 confidence: experimental
 source: "Theseus, original analysis grounded in CI literature and operational comparison of existing knowledge aggregation systems"
 created: 2026-03-11
@@ -41,6 +41,8 @@ Relevant Notes:
 - [[atomic notes with one claim per file enable independent evaluation and granular linking because bundled claims force reviewers to accept or reject unrelated propositions together]] — the rationale for property #1
 - [[all agents running the same model family creates correlated blind spots that adversarial review cannot catch because the evaluator shares the proposers training biases]] — the known limitation of property #2 when model diversity is absent
 - [[protocol design enables emergent coordination of arbitrary complexity as Linux Bitcoin and Wikipedia demonstrate]] — prior art: protocol-based coordination systems that partially implement these properties
+
+- [[domain specialization with cross-domain synthesis produces better collective intelligence than generalist agents because specialists build deeper knowledge while a dedicated synthesizer finds connections they cannot see from within their territory]] — the specialization architecture that makes adversarial evaluation between agents meaningful
 
 Topics:
 - [[core/living-agents/_map]]

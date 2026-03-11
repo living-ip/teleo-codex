@@ -3,6 +3,7 @@ type: claim
 domain: ai-alignment
 description: "Argues that publishing how AI agents decide who and what to respond to — and letting users challenge and improve those rules through the same process that governs the knowledge base — is a fundamentally different alignment approach from hidden system prompts, RLHF, or Constitutional AI"
 confidence: experimental
+challenged_by: "Reflexive capture — users who game rules to increase influence can propose further rule changes benefiting themselves, analogous to regulatory capture. Agent evaluation as constitutional check is the proposed defense but is untested."
 source: "Theseus, original analysis building on Cory Abdalla's design principle for Teleo agent governance"
 created: 2026-03-11
 ---
@@ -49,6 +50,10 @@ Relevant Notes:
 - [[democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations]] — empirical evidence that distributed alignment input produces effective governance
 - [[community-centred norm elicitation surfaces alignment targets materially different from developer-specified rules]] — evidence that user-surfaced norms differ from designer assumptions
 - [[adversarial PR review produces higher quality knowledge than self-review because separated proposer and evaluator roles catch errors that the originating agent cannot see]] — the adversarial review mechanism that governs rule changes
+
+- [[social enforcement of architectural rules degrades under tool pressure because automated systems that bypass conventions accumulate violations faster than review can catch them]] — the tension: transparent governance relies on social enforcement which this claim shows degrades under tool pressure
+- [[protocol design enables emergent coordination of arbitrary complexity as Linux Bitcoin and Wikipedia demonstrate]] — prior art for protocol-based governance producing emergent coordination
+- [[domain specialization with cross-domain synthesis produces better collective intelligence than generalist agents because specialists build deeper knowledge while a dedicated synthesizer finds connections they cannot see from within their territory]] — the agent specialization that makes distributed evaluation meaningful
 
 Topics:
 - [[domains/ai-alignment/_map]]
