@@ -7,9 +7,15 @@ date: 2025-01-01
 domain: ai-alignment
 secondary_domains: []
 format: paper
-status: unprocessed
+status: processed
 priority: medium
 tags: [pluralistic-alignment, EM-algorithm, preference-clustering, ensemble-LLM, fairness]
+processed_by: theseus
+processed_date: 2025-01-16
+claims_extracted: ["binary-preference-comparisons-cannot-identify-latent-preference-types-making-pairwise-RLHF-structurally-blind-to-diversity.md", "egalitarian-aggregation-through-minmax-regret-ensures-no-preference-group-is-severely-underserved-in-pluralistic-AI-deployment.md"]
+enrichments_applied: ["pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md", "some disagreements are permanently irreducible because they stem from genuine value differences not information gaps and systems must map rather than eliminate them.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two novel claims: (1) formal insufficiency of binary comparisons for preference identification — this is a fundamental limitation not previously captured in KB, (2) egalitarian aggregation as pluralistic deployment strategy — specific mechanism design connecting social choice theory to AI alignment. Three enrichments strengthen existing pluralistic alignment claims with concrete technical mechanisms. The binary comparison insufficiency is the most significant contribution — it explains why ALL existing pairwise RLHF/DPO is structurally limited, not just poorly implemented."
 ---
 
 ## Content
@@ -39,3 +45,11 @@ EM-DPO uses expectation-maximization to simultaneously uncover latent user prefe
 PRIMARY CONNECTION: RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values
 WHY ARCHIVED: The binary-comparison insufficiency claim is a novel formal result that strengthens the case against standard alignment approaches
 EXTRACTION HINT: Focus on the formal insufficiency of binary comparisons and the EM + egalitarian aggregation combination
+
+
+## Key Facts
+- EM-DPO uses expectation-maximization to discover latent preference types
+- MMRA based on egalitarian social choice theory (min-max regret fairness criterion)
+- Paper presented at EAAMO 2025 (Equity and Access in Algorithms, Mechanisms, and Optimization)
+- No head-to-head comparison with PAL or MixDPO included in paper
+- No deployment results beyond benchmarks reported

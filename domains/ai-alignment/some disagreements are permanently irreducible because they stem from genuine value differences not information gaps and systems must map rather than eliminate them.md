@@ -21,6 +21,12 @@ The correct response is to map the disagreement rather than eliminate it. Identi
 
 [[Collective intelligence within a purpose-driven community faces a structural tension because shared worldview correlates errors while shared purpose enables coordination]]. Persistent irreducible disagreement is actually a safeguard here -- it prevents the correlated error problem by maintaining genuine diversity of perspective within a coordinated community. The independence-coherence tradeoff is managed not by eliminating disagreement but by channeling it productively.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-00-00-em-dpo-heterogeneous-preferences]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(confirm) The MinMax Regret Aggregation mechanism explicitly maps preference diversity into system structure (ensemble of type-specific models) rather than attempting to resolve it through consensus or optimization. The egalitarian aggregation criterion (minimize maximum regret across groups) operationalizes the assumption that preference differences are permanent features of the deployment context, not temporary conflicts to be eliminated through better information or algorithmic refinement.
+
 ---
 
 Relevant Notes:

@@ -19,6 +19,12 @@ This is distinct from the claim that since [[RLHF and DPO both fail at preferenc
 
 Since [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]], pluralistic alignment is the practical response to the theoretical impossibility: stop trying to aggregate and start trying to accommodate.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-00-00-em-dpo-heterogeneous-preferences]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(confirm) EM-DPO provides a concrete instantiation of simultaneous value accommodation through a three-stage mechanism: (1) EM algorithm discovers K latent preference types from ranking data, (2) trains K separate LLMs each optimized for one type, (3) MinMax Regret Aggregation combines outputs at inference using egalitarian social choice theory. This demonstrates that pluralistic alignment can be operationalized through ensemble structure rather than forcing convergence to a single model or reward function.
+
 ---
 
 Relevant Notes:
