@@ -1,46 +1,55 @@
 ---
 type: claim
 domain: internet-finance
-description: "DEX architecture where LPs earn three simultaneous revenue streams instead of swap fees alone"
+title: RWA yield pass-through DEX combines swap fees embedded yield and protocol incentives
 confidence: speculative
-source: "Areal Finance pitch deck, futard.io launch 2026-03-05"
-created: 2026-03-11
+created: 2026-03-05
+processed_date: 2026-03-05
 ---
 
-# RWA yield pass-through DEX architecture claims to combine swap fees embedded yield and protocol incentives into triple revenue stream for liquidity providers
+# RWA yield pass-through DEX combines swap fees embedded yield and protocol incentives
 
-Areal Finance proposes a DEX architecture where liquidity providers earn three simultaneous revenue streams: traditional swap fees, embedded yield from the RWT token itself (which appreciates as underlying RWA projects generate revenue), and protocol incentives. This differs from standard AMM designs where LPs earn only swap fees and optional liquidity mining rewards.
-
-The claimed mechanism: RWT is designed as an appreciating asset — as real-world assets generate yield (rent, interest, revenue share), that value accrues to RWT holders. LPs providing RWT liquidity would therefore earn:
-1. Swap fees from trading activity
-2. Continuous yield appreciation from holding RWT in the pool
-3. Protocol incentives (ARL token emissions)
-
-This addresses a structural problem in RWA-specific DEXs: standard AMMs create opportunity cost for yield-bearing assets. LPs must choose between earning swap fees (by providing liquidity) or earning underlying yield (by holding). Areal's architecture claims to eliminate this tradeoff.
+Areal Finance proposes a DEX model where liquidity providers earn three simultaneous yield streams: traditional swap fees, embedded yield from appreciating RWA tokens, and protocol incentives. The pitch deck claims this creates superior LP economics compared to standard DEXs.
 
 ## Evidence
 
-**Stated design:**
-- "Yield pass-through DEX — LPs earn swap fees + embedded token yield + protocol incentives" (pitch deck)
-- Native DEX receives 20% of $50k raise ($10,000) for initial liquidity
-- Roadmap includes concentrated liquidity pools (Q3-Q4 2026)
+### Proposed Mechanism
 
-## Unproven Mechanisms
+The March 2026 pitch deck describes:
 
-**No implementation evidence:** This DEX architecture has not been implemented or tested. The claim that LPs can earn "embedded token yield" while providing liquidity depends on:
-- RWT actually appreciating (requires RWA projects generating real yield)
-- Pool design that doesn't dilute yield through impermanent loss
-- Sufficient trading volume to generate meaningful swap fees
+- **Swap fees**: Standard AMM trading fees from RWT/stablecoin pairs
+- **Embedded yield**: LPs holding RWT in pools benefit from token appreciation as underlying RWAs generate yield
+- **Protocol incentives**: Additional RWT emissions to bootstrap liquidity
 
-**Liquidity bootstrapping problem:** $10,000 initial DEX liquidity is insufficient for meaningful trading activity. The triple revenue stream only matters if there's enough volume to generate material swap fees and enough RWT appreciation to make embedded yield significant.
+However, the "embedded yield" component is mechanically just holding an appreciating asset in a liquidity pool—this is the standard consequence of providing liquidity with any yield-bearing token, not novel architecture. If RWT appreciates due to underlying yield, LPs holding RWT in pools benefit, but this is not a protocol innovation; it's basic asset economics.
 
-**Impermanent loss unresolved:** If RWT appreciates significantly, LPs suffer impermanent loss relative to holding RWT directly. The pitch deck does not address whether the "triple revenue stream" overcomes this structural disadvantage.
+### Unproven Mechanisms
 
----
+The claim assumes:
 
-Relevant Notes:
-- [[stablecoin flow velocity is a better predictor of DeFi protocol health than static TVL because flows measure capital utilization while TVL only measures capital parked]]
-- [[optimal token launch architecture is layered not monolithic because separating quality governance from price discovery from liquidity bootstrapping from community rewards lets each layer use the mechanism best suited to its objective]]
+1. **Impermanent loss mitigation**: That RWT appreciation offsets IL from price divergence with stablecoin pairs (unproven for RWA volatility profiles)
+2. **Yield capture efficiency**: That LPs can capture embedded yield without withdrawing from pools (true for rebase/appreciation tokens, but not unique to Areal)
+3. **Sustainable incentives**: That protocol emissions can bootstrap liquidity without diluting RWT value
+4. **Competitive advantage**: That triple-yield model attracts more liquidity than existing RWA protocols
 
-Topics:
-- [[domains/internet-finance/_map]]
+The pitch deck provides no technical specification for how yield pass-through works beyond standard appreciation mechanics. There is no evidence of actual innovation beyond marketing positioning.
+
+### Market Validation
+
+The failed futarchy raise ($1,350 of $50,000 target, 2.7%) suggests investors are skeptical of the value proposition. Possible interpretations:
+
+- Triple-yield claim seen as marketing rather than technical innovation
+- Concerns about impermanent loss with RWA volatility
+- Existing yield-bearing token DEXs (e.g., stETH pools) already provide similar economics
+- RWA custody/legal risks outweigh yield benefits
+
+## Related Claims
+
+- [[Areal Finance unifies RWA liquidity through single appreciating token]]
+- [[AI agent portfolio management requires protocol architecture designed for autonomous operation]]
+- [[futarchy requires high liquidity to function]]
+
+## Sources
+
+- Areal Finance pitch deck, futard.io launch 2026-03-05 (self-reported marketing material)
+- Futarchy launch results, March 5, 2026
