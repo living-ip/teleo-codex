@@ -2,7 +2,7 @@
 type: claim
 domain: ai-alignment
 secondary_domains: [mechanisms, collective-intelligence]
-description: "Current RLHF implementations make social choice decisions about evaluator selection and preference aggregation without applying formal social choice theory"
+description: "Current RLHF implementations make social choice decisions about evaluator selection and preference aggregation without applying formal social choice theory or normative scrutiny"
 confidence: likely
 source: "Conitzer et al. 2024 ICML position paper, multi-institutional collaboration including Stuart Russell"
 created: 2026-03-11

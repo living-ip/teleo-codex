@@ -29,7 +29,7 @@ This differs from the existing claim that [[pluralistic alignment must accommoda
 
 This aligns with the broader collective superintelligence thesis: rather than a single monolithic AI controlled by whoever wins the alignment race, a diverse ecosystem of aligned systems preserves human agency and value pluralism.
 
-**Open tension with multipolar risk**: [[multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence]] raises a genuine structural concern. The pluralistic approach assumes user-selected systems reflecting chosen values, which differs from competing labs racing to deploy incompatible systems. However, the multipolar failure dynamics remain a legitimate challenge: whether multiple aligned systems can coordinate without reproducing competitive failure modes is an open question that this claim does not fully resolve.
+**Open tension with multipolar risk**: [[multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence.md]] raises a genuine structural concern. The pluralistic approach assumes user-selected systems reflecting chosen values, which differs from competing labs racing to deploy incompatible systems. However, the multipolar failure dynamics remain a legitimate challenge: whether multiple aligned systems can coordinate without reproducing competitive failure modes is an open question that this claim does not fully resolve.
 
 Practical implementation challenges:
 - How to identify genuine value incompatibility vs. resolvable disagreement
@@ -47,7 +47,7 @@ Relevant Notes:
 - [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state]]
 - [[persistent irreducible disagreement.md]]
 - [[AI alignment is a coordination problem not a technical problem]]
-- [[multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence]]
+- [[multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence.md]]
 
 Topics:
 - [[domains/ai-alignment/_map]]
