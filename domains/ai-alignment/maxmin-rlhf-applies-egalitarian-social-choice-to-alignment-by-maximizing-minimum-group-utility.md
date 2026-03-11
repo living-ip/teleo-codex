@@ -1,55 +1,29 @@
 ---
 type: claim
-domain: ai-alignment
-secondary_domains: ["collective-intelligence"]
-description: "MaxMin-RLHF learns mixture of reward models via EM clustering then optimizes worst-off group following Sen's Egalitarian principle from social choice theory"
+claim_type: empirical
 confidence: experimental
-source: "Chakraborty et al. (2024) MaxMin-RLHF, ICML 2024"
-created: 2024-02-14
-depends_on: ["single-reward-rlhf-cannot-align-models-with-diverse-human-preferences"]
+tags:
+  - ai-alignment
+  - rlhf
+  - social-choice-theory
+  - fairness
+source:
+  - "[[2024-02-00-chakraborty-maxmin-rlhf]]"
 ---
 
-# MaxMin-RLHF applies egalitarian social choice theory to alignment by maximizing the minimum utility across preference groups
+MaxMin RLHF applies egalitarian social choice to alignment by maximizing minimum group utility.
 
-MaxMin-RLHF reframes alignment as a fairness problem rather than an averaging problem, directly applying Sen's Egalitarian principle from social choice theory: "society should focus on maximizing the minimum utility of all individuals."
+Chakraborty et al. (2024) propose MaxMin RLHF, which explicitly incorporates Rawlsian maximin principles into reinforcement learning from human feedback:
 
-The mechanism has two components:
+**Core mechanism**:
+1. **Group-specific reward models**: Train separate reward models for each preference group
+2. **EM Algorithm for Reward Mixture**: Iteratively clusters humans based on preference compatibility (operates unsupervised without requiring pre-labeled group membership)
+3. **Maximin optimization**: During RL training, optimize for max(min(R₁(y), R₂(y), ...)) where Rᵢ is the reward from group i
 
-1. **EM Algorithm for Reward Mixture**: Iteratively clusters humans based on preference compatibility and updates subpopulation-specific reward functions until convergence. This learns a mixture of reward models rather than a single aggregate.
+This directly implements the egalitarian social choice rule: improve outcomes for the worst-off group. Unlike utilitarian aggregation (averaging rewards), MaxMin creates incentives to satisfy minority preferences.
 
-2. **MaxMin Objective**: Optimizes for the worst-off preference group rather than average utility. This is a direct application of the Egalitarian rule to AI alignment.
+**Key theoretical connection**: MaxMin explicitly chooses one social choice rule (egalitarian/Rawlsian) rather than attempting to escape Arrow's impossibility theorem. It accepts that no aggregation method satisfies all desirable properties and makes a normative choice about which properties to prioritize.
 
-## Evidence
+**Scale limitations**: Validated on GPT-2 and Tulu2-7B (1-2 orders of magnitude smaller than frontier models). Behavior at GPT-4/Claude-3 scale remains unknown.
 
-**Tulu2-7B implementation with 10:1 majority:minority ratio:**
-- MaxMin-RLHF: 56.67% win rate across both majority and minority groups
-- Single-reward RLHF: 70.4% (majority) / 42% (minority) split
-- Result: ~16% average improvement, ~33% boost specifically for minority groups
-
-**GPT-2 scale qualitative results:**
-- Single RLHF satisfied positive sentiment (majority) but ignored conciseness (minority)
-- MaxMin satisfied both simultaneously—not through compromise but through discovering that the constraints were compatible
-
-## Limitations
-
-Assumes discrete, identifiable subpopulations. Requires specifying number of clusters beforehand. EM algorithm assumes clustering is feasible with preference data alone, which may not hold for continuous or overlapping preference distributions.
-
-No comparison with other social choice mechanisms (Borda count, approval voting, etc.). The egalitarian principle is one approach among many—optimality depends on which fairness axioms you accept.
-
-## Relationship to Coordination Theory
-
-This is a constructive mechanism that accepts Arrow's impossibility constraints but optimizes for a specific social choice objective. It doesn't escape [[designing coordination rules is categorically different from designing coordination outcomes as nine intellectual traditions independently confirm]]—it chooses egalitarianism as the rule and accepts whatever outcomes emerge.
-
-Relates to [[collective intelligence requires diversity as a structural precondition not a moral preference]] by treating preference diversity as input to preserve rather than noise to eliminate.
-
----
-
-Relevant Notes:
-- [[single-reward-rlhf-cannot-align-models-with-diverse-human-preferences]]
-- [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state]]
-- [[designing coordination rules is categorically different from designing coordination outcomes as nine intellectual traditions independently confirm]]
-- [[collective intelligence requires diversity as a structural precondition not a moral preference]]
-
-Topics:
-- [[domains/ai-alignment/_map]]
-- [[foundations/collective-intelligence/_map]]
+Related: [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]], [[maxmin-alignment-improves-minority-group-performance-without-compromising-majority-outcomes]], [[single-reward-rlhf-cannot-align-models-with-diverse-human-preferences]]
