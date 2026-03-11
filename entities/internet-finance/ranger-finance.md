@@ -15,7 +15,7 @@ key_metrics:
   raise: "$6M+ (39% of RNGR supply at ~$15M FDV)"
   projected_volume: "$5B (actual: ~$2B — 60% below)"
   projected_revenue: "$2M (actual: ~$500K — 75% below)"
-  liquidation_value: "$0.75-$0.82 per token (estimated)"
+  liquidation_recovery: "90%+ from ICO price"
 competitors: ["Jupiter", "Drift"]
 built_on: ["Solana", "Hyperliquid"]
 tags: ["perps", "aggregation", "metadao-ecosystem", "liquidation", "futarchy-enforcement"]
@@ -32,7 +32,7 @@ Perps aggregator and DEX aggregation platform on Solana/Hyperliquid. Three produ
   - Material misrepresentations before fundraise: projected $5B volume and $2M revenue; actual was ~$2B volume (60% below) and ~$500K revenue (75% below)
   - Activity dropped 90%+ post-ICO
   - Most "users" were reportedly token farmers, not legitimate platform participants
-- **Liquidation terms**: Pull all RNGR and USDC from the Futarchy AMM, return treasury funds to tokenholders (excluding unvested/protocol-owned), estimated $0.75-$0.82 per token. IP and infrastructure return to Glint House PTE LTD.
+- **Liquidation terms**: Pull all RNGR and USDC from the Futarchy AMM, return treasury funds to tokenholders (excluding unvested/protocol-owned). Recovery estimated at 90%+ from ICO price — strong investor protection outcome. IP and infrastructure return to Glint House PTE LTD.
 - **Post-liquidation pivot**: Shifted to focus exclusively on vaults product, suspending perp aggregation and spot trading. Running "Build-A-Bear Hackathon" with up to $1M in vault TVL seed funding. All-time $1.13M+ paid to Ranger Earn depositors.
 
 ## Timeline
@@ -46,7 +46,7 @@ Ranger is THE test case for futarchy-governed enforcement. The system is working
 
 Key questions this case answers:
 1. Does futarchy enforcement actually work? (Yes — liquidation proposal passed)
-2. Do investors get meaningful recovery? ($0.75-$0.82 per token = 75-82% recovery)
+2. Do investors get meaningful recovery? (90%+ from ICO price — strong outcome)
 3. Does the threat of liquidation create accountability? (Evidence: team pivoted to vaults before liquidation completed)
 
 ## Relationship to KB

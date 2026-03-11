@@ -22,6 +22,7 @@ Governance is converging on a hybrid model: founder-led execution constrained by
 Evidence: convergent evolution from opposite directions. Futarchy-native projects (MetaDAO, Solomon) started decentralized and added corporate scaffolding. Traditional DAOs (Aave) started with voting and are moving toward founder-led execution with market constraints.
 
 **Key claim dependencies:**
+<!-- claims pending — exist on rio/stani-dao-critique (PR #196) and rio/market-brain-thesis (PR #157), will resolve on merge -->
 - [[DAO governance degenerates into political capture because proposal processes select for coalition-building skill over operational competence and the resulting bureaucracy creates structural speed disadvantages against focused competitors]] — the failure mode driving adoption of alternatives
 - [[the post-DAO governance model is founder-led execution constrained by onchain transparency and token holder fire-ability where accountability comes from verifiable performance not voting on operational decisions]] — the destination both paths are converging toward
 - [[decision markets fail in three systematic categories where legitimacy thin information or herding dynamics make voting or deliberation structurally superior]] — the boundary conditions that scope this thesis
@@ -61,7 +62,7 @@ Evidence: convergent evolution from opposite directions. Futarchy-native project
 
 | Entity | What Happened | When | Lesson |
 |--------|--------------|------|--------|
-| [[ranger-finance]] | Liquidation proposal passed via futarchy. $6M raised, volume 60% below projections, revenue 75% below. Estimated $0.75-$0.82/token recovery. | 2026-03 | Futarchy-governed liquidation IS the enforcement mechanism — system working as designed. ~75-82% investor recovery. |
+| [[ranger-finance]] | Liquidation proposal passed via futarchy. $6M raised, volume 60% below projections, revenue 75% below. 90%+ recovery from ICO price. | 2026-03 | Futarchy-governed liquidation IS the enforcement mechanism — system working as designed. 90%+ investor recovery validates unruggable ICO promise. |
 | MycoRealms (v1) | First launch failed, relaunched | 2025-2026 | Low relaunch cost (~$90) enables iteration — failure is not permanent |
 
 ## Competitive Dynamics
