@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/5YA1NbUJWmGLorWtpTzBMfsMFLKa37oxb7pHwH7wSz9
 date: 2024-11-18
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-11-18
+claims_extracted: ["ore-token-reduced-supply-cap-from-21m-to-5m-and-adopted-10-percent-annual-emission-decay-making-it-4.2x-more-scarce-than-bitcoin-at-full-dilution.md", "gradual-annual-emission-decay-provides-smoother-token-distribution-than-periodic-halvings-because-10-percent-yearly-reduction-avoids-supply-shock-volatility.md"]
+enrichments_applied: ["futarchy-can-override-its-own-prior-decisions-when-new-evidence-emerges-because-conditional-markets-re-evaluate-proposals-against-current-information-not-historical-commitments.md", "MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window.md", "MetaDAO-is-the-futarchy-launchpad-on-Solana-where-projects-raise-capital-through-unruggable-ICOs-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims about ORE's tokenomics evolution and emission model. First claim (proven confidence) documents the specific supply reduction and its scarcity implications vs Bitcoin. Second claim (experimental confidence) argues for gradual decay advantages over periodic halvings — this is more speculative as it lacks empirical validation. Three enrichments confirm existing claims about futarchy's ability to override decisions, Autocrat's implementation, and MetaDAO's platform role. Source demonstrates futarchy governing high-stakes tokenomics changes post-launch, not just initial parameters."
 ---
 
 ## Proposal Details
@@ -87,3 +93,12 @@ To discuss this proposal, join the Discord and let your voice be heard.
 - Autocrat version: 0.3
 - Completed: 2024-11-22
 - Ended: 2024-11-22
+
+
+## Key Facts
+- ORE proposal 5YA1NbUJWmGLorWtpTzBMfsMFLKa37oxb7pHwH7wSz9L passed 2024-11-22
+- ORE launched April 2024 with uncapped supply and 1 ORE/min linear emissions
+- ORE v2 introduced 21m token cap
+- Proposal used Autocrat version 0.3
+- DAO account: 7XoddQu6HtEeHZowzCEwKiFJg4zR3BXUqMygvwPwSB1D
+- Proposer: proPaC9tVZEsmgDtNhx15e7nSpoojtPD3H9h4GqSqB2
