@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/95HNkVuqzStFe7B6Aw32sgkbwkHEyEsA818izKKTz776"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims about Ludex AI's text-to-game technology and market positioning. Both rated experimental/speculative due to reliance on self-reported capabilities in fundraising pitch. The rapid fundraise rejection (launch to refunding in 1 day) is notable and enriches existing futarchy friction claims. Primary domain is entertainment (AI-generated games) with secondary internet-finance relevance (futarchy fundraising mechanism). No independent verification of technical claims available."
 ---
 
 ## Launch Details
@@ -99,3 +104,13 @@ Anyone with an idea should be able to create a game.
 - Token mint: `5RvHLcrw9UvfJo3qwbWxMTGyrktHLdfKBaoumAammeta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- Ludex AI fundraise target: $500,000 (2026-03-05)
+- Fundraise status: Refunding (2026-03-06)
+- Launch address: 95HNkVuqzStFe7B6Aw32sgkbwkHEyEsA818izKKTz776
+- Token: 5Rv, mint: 5RvHLcrw9UvfJo3qwbWxMTGyrktHLdfKBaoumAammeta
+- Partnerships: Noah AI (early access), Incentiv Network (blockchain infrastructure), ChainGPT (NFT generation)
+- Website: https://www.ludexai.io/
+- Twitter: https://x.com/LudexAI_io
