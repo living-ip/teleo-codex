@@ -6,13 +6,15 @@ url: "https://www.futard.io/launch/CrRTdZWr8iectFdEXi2FdDGNFSLT3LEX3i1xVNiJqEpc"
 date: 2026-03-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
 processed_by: rio
-processed_date: 2026-03-10
-extraction_model: "anthropic/claude-sonnet-4.5"
-extraction_notes: "This source is a failed fundraise announcement with marketing claims but no verifiable evidence. The project raised $100 of a $200k target and immediately went to refunding status. All substantive claims (market size, user targets, competitive advantages) are unverified marketing assertions from the team pitch deck. No independent evidence of product functionality, user adoption, regulatory compliance, or market validation. The failure itself is a data point (recorded in key_facts) but generates no extractable claims about futarchy, internet finance mechanisms, or capital formation. The existing claim 'internet capital markets compress fundraising from months to days' could theoretically be enriched with this as a counter-example (instant failure), but the sample size of one failed raise adds no meaningful evidence about the broader mechanism. This is pure source archive material."
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4-6"
+claims_extracted: 0
+enrichments: []
+extraction_notes: "Null result. The source is a failed fundraise announcement with marketing claims but no verifiable evidence. Vervepay raised $100 of a $200k target (0.05%) and entered refunding status within 24 hours. All substantive claims (market size, user targets, competitive advantages, yield figures) are unverified team assertions from a pitch deck — no independent evidence of product functionality, user adoption, regulatory compliance, or market validation. The failure event itself is a single data point too extreme to anchor a claim (may represent a test/bot transaction). Two existing claims were evaluated for enrichment: (1) 'futarchy-governed permissionless launches require brand separation' already cites Hurupay as evidence of underperformance — Vervepay adds no new mechanistic insight. (2) 'internet capital markets compress fundraising timelines' — instant failure is implied by the mechanism, not a new finding. Source archived as-is."
 ---
 
 ## Launch Details
