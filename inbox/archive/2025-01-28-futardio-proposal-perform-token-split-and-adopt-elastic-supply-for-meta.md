@@ -6,7 +6,12 @@ url: "https://www.futard.io/proposal/CBhieBvzo5miQBrdaM7vALpgNLt4Q5XYCDfNLaE2wXJ
 date: 2025-01-28
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: []
+enrichments:
+  - "metadao-token-split-elastic-supply — decision_market entity created"
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 ---
