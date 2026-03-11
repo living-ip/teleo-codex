@@ -32,7 +32,8 @@ name: "Display name"
 domain: internet-finance | entertainment | health | ai-alignment | space-development
 handles: ["@StaniKulechov", "@MetaLeX_Labs"]  # social/web identities
 website: https://example.com
-status: active | inactive | acquired | liquidated | emerging
+status: active | inactive | acquired | liquidated | emerging  # for company/person/market
+# Decision markets use: active | passed | failed
 tracked_by: rio  # which agent owns this entity
 created: YYYY-MM-DD
 last_updated: YYYY-MM-DD
@@ -44,7 +45,7 @@ last_updated: YYYY-MM-DD
 | Field | Type | Description |
 |-------|------|-------------|
 | type | enum | Always `entity` |
-| entity_type | enum | `company`, `person`, or `market` |
+| entity_type | enum | `company`, `person`, `market`, or `decision_market` |
 | name | string | Canonical display name |
 | domain | enum | Primary domain |
 | status | enum | Current operational status |
@@ -65,18 +66,34 @@ last_updated: YYYY-MM-DD
 
 Decision markets are individual governance decisions, prediction market questions, or futarchy proposals. Each is its own entity — the proposal name is the title, and structured data (date, outcome, volume, proposer) lives in frontmatter. The parent entity (e.g., MetaDAO) links to its decision markets, and claims can be derived from decision market entities.
 
+Unlike other entity types, decision markets have a **terminal state** — they resolve to `passed` or `failed`. After resolution, the entity is essentially closed. Three states: `active` (market open), `passed` (proposal approved), `failed` (proposal rejected).
+
 ```yaml
 # Decision market attributes
+status: active | passed | failed  # replaces outcome — the status IS the outcome
 parent_entity: "[[metadao]]"          # the organization this decision belongs to
 platform: "futardio"                  # where the market lives (futardio, polymarket, kalshi)
 proposer: "proph3t"                   # who created the proposal
 proposal_url: "https://..."           # canonical link to the market/proposal
 proposal_date: YYYY-MM-DD            # when proposed/created
-resolution_date: YYYY-MM-DD          # when resolved (null if pending)
-outcome: passed | failed | pending | expired | cancelled
-category: "operations | treasury | governance | parameter-change | hiring | strategy"
-volume: "$250K"                       # total market volume or capital involved
+resolution_date: YYYY-MM-DD          # when resolved (null if active)
+category: "treasury | fundraise | hiring | mechanism | liquidation | grants | strategy"
 summary: "One-sentence description of what the proposal does"
+
+# Volume fields are platform-specific:
+
+# Futarchy proposals (governance decisions):
+pass_volume: "$150K"              # capital backing pass outcome
+fail_volume: "$100K"              # capital backing fail outcome
+
+# Futarchy launches (ICOs via Futardio):
+funding_target: "$2M"
+total_committed: "$103M"          # total capital committed (demand signal)
+amount_raised: "$8M"              # actual capital received after pro-rata
+
+# Prediction markets (Polymarket, Kalshi):
+market_volume: "$3.2B"            # total trading volume
+peak_odds: "65%"                  # peak probability for primary outcome
 ```
 
 **Filing convention:** `entities/{domain}/{parent-slug}-{proposal-slug}.md`
@@ -85,8 +102,23 @@ Example: `entities/internet-finance/metadao-hire-robin-hanson.md`
 **Relationship to parent entity:** The parent entity page should link to significant decision markets in a "## Key Decisions" section. Not every proposal warrants a link — only those that materially changed the entity's trajectory.
 
 **What gets a decision_market entity vs. a timeline entry:**
-- **Entity:** Proposals with real capital at stake, governance decisions that changed organizational direction, or markets that produced notable information
-- **Timeline entry only:** Test proposals, spam, trivial parameter tweaks, proposals that were cancelled before any trading occurred
+- **Entity:** Proposals with real capital at stake, governance decisions that changed organizational direction, markets that produced notable information, or contested outcomes (significant volume on both sides — a contested failure is more informative than an uncontested pass)
+- **Timeline entry only:** Test proposals, spam, trivial parameter tweaks, minor operational minutiae, uncontested routine decisions
+- **Estimated ratio:** ~33-40% of real proposals qualify for entity status
+
+**Extraction output for proposal sources:**
+1. **Primary:** decision_market entity file with structured frontmatter
+2. **Secondary:** Timeline entry on parent entity (one-line summary + date)
+3. **Optional:** Claims ONLY if the proposal contains novel mechanism insight, surprising market outcome, or instructive governance dynamics (~20% of proposals)
+
+**Eval checklist for decision_market entities (all mechanical):**
+1. `parent_entity` exists in entity index
+2. Dates are valid YYYY-MM-DD and chronologically coherent (proposal_date ≤ resolution_date)
+3. `status` matches source data (passed/failed/active)
+4. Not a duplicate of existing entity
+5. Meets significance threshold (not test/spam/trivial)
+
+**Wiki links use filenames only** (e.g., `[[metadao-hire-robin-hanson]]`), not full paths. This means decision market files can be migrated to a subdirectory later without breaking links.
 
 **Body format:**
 ```markdown
