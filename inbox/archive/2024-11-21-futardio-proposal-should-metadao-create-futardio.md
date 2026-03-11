@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/zN9Uft1zEsh9h7Wspeg5bTNirBBvtBTaJ6i5KcEnbAb
 date: 2024-11-21
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-12-08
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "No new claims extracted. Source is a minimal failed proposal with insufficient detail to generate standalone claims. However, the failure pattern provides valuable counter-evidence for existing claims about MetaDAO's futarchy implementation. The proposal's minimal justification and subsequent rejection demonstrates both quality filtering and potential participation barriers in futarchy governance. No trading volume or market participation data disclosed in source material, limiting analysis of the decision mechanism's actual operation."
 ---
 
 ## Proposal Details
@@ -48,3 +53,12 @@ Futardio is a great idea and needs to happen
 - Autocrat version: 0.3
 - Completed: 2024-11-25
 - Ended: 2024-11-25
+
+
+## Key Facts
+- Futardio proposal (#15) created 2024-11-21, failed 2024-11-25
+- Proposal account: zN9Uft1zEsh9h7Wspeg5bTNirBBvtBTaJ6i5KcEnbAb
+- Categorized as 'Program' level proposal
+- Proposal description: single sentence ('Futardio is a great idea and needs to happen')
+- DAO account: GWywkp2mY2vzAaLydR2MBXRCqk2vBTyvtVRioujxi5Ce
+- Autocrat version: 0.3
