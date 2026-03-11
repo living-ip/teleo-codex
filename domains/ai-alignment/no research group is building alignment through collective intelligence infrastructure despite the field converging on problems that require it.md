@@ -17,6 +17,12 @@ This gap is remarkable because the field's own findings point toward collective 
 
 The alignment field has converged on a problem they cannot solve with their current paradigm (single-model alignment), and the alternative paradigm (collective alignment through distributed architecture) has barely been explored. This is the opening for the TeleoHumanity thesis -- not as philosophical speculation but as practical infrastructure that addresses problems the alignment community has identified but cannot solve within their current framework.
 
+
+### Additional Evidence (challenge)
+*Source: [[2024-11-00-ai4ci-national-scale-collective-intelligence]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The UK AI for Collective Intelligence Research Network represents a direct institutional counterexample to this claim. Backed by UKRI/EPSRC, the network is building national-scale CI infrastructure with explicit attention to alignment-relevant properties: the strategy requires systems to 'incorporate user values' rather than imposing predetermined priorities, and mandates that AI agents 'consider and communicate broader collective implications.' The technical infrastructure (secure data repositories, federated learning architectures, real-time integration, foundation models) is paired with governance infrastructure (FAIR principles, trustworthiness assessment, regulatory sandboxes, trans-national governance) that operationalizes alignment concerns at the infrastructure level. While not explicitly framed as 'alignment research,' this represents exactly the kind of institutional infrastructure building that the original claim suggests is absent—a research group (the UK AI4CI network) is building alignment mechanisms (value incorporation, transparency, accountability) through collective intelligence infrastructure (federated learning, multi-level decision support). This partially challenges the claim by demonstrating at least one national-scale research group doing exactly this work.
+
 ---
 
 Relevant Notes:

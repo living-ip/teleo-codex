@@ -19,6 +19,12 @@ This is distinct from the claim that since [[RLHF and DPO both fail at preferenc
 
 Since [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]], pluralistic alignment is the practical response to the theoretical impossibility: stop trying to aggregate and start trying to accommodate.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-11-00-ai4ci-national-scale-collective-intelligence]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The AI4CI strategy operationalizes pluralistic alignment at national scale by requiring that systems 'incorporate user values' (plural) rather than imposing predetermined priorities. The infrastructure design (federated learning, distributed data repositories, multi-level decision support) is explicitly structured to preserve value diversity rather than aggregate toward consensus. The seven trust properties include both 'value alignment' and 'fairness' as distinct requirements—suggesting that alignment means respecting diverse values, not converging on shared ones. Notably, the strategy frames this as a technical requirement, not a governance preference: federated learning architectures preserve local values by design, and the strategy requires that AI agents 'consider and communicate broader collective implications' rather than optimize for a single objective function. This extends the theoretical case for pluralistic alignment with a concrete institutional implementation strategy at national scale.
+
 ---
 
 Relevant Notes:
