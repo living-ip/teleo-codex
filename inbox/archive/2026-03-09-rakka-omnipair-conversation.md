@@ -1,7 +1,7 @@
 ---
 type: source
 source_type: voicenote-transcript
-author: "Cory Abdalla & Rakka (OmniPair founder)"
+author: "m3taversal & Rakka (OmniPair founder)"
 title: "OmniPair deep dive — mechanism design, competitive position, ecosystem strategy"
 date: 2026-03-09
 ingested: 2026-03-11
