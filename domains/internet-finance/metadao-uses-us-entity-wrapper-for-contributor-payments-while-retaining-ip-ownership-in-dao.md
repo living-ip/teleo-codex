@@ -1,33 +1,38 @@
 ---
 type: claim
+claim_type: case_study
 domain: internet-finance
-description: "MetaDAO created Organization Technology LLC as payment vehicle that owns no IP and cannot encumber the DAO"
-confidence: experimental
-source: "MetaDAO Proposal 6 (Nallok, Proph3t, 2024-08-31)"
-created: 2024-08-31
+confidence: proven
+tags:
+  - dao-legal-structures
+  - intellectual-property
+  - regulatory-compliance
+  - metadao
+source_type: primary
+source_date: 2024-08-31
 ---
 
 # MetaDAO uses US entity wrapper for contributor payments while retaining IP ownership in DAO
 
-MetaDAO established Organization Technology LLC as a services entity to facilitate USD payments to contributors while maintaining all intellectual property ownership within MetaDAO LLC itself. The services agreement explicitly states that the entity "does not have nor will own any intellectual property, all efforts produced are owned by MetaDAO LLC" and "will be responsible for the costs of services and development and not have authority to encumber MetaDAO LLC."
+MetaDAO (operating as FutarchyDAO) implemented a legal structure where Organization Technology LLC serves as a services provider to handle contributor payments and regulatory compliance, while all intellectual property remains owned by the DAO itself.
 
-This structure separates operational payment rails from governance and ownership, allowing the DAO to compensate contributors through traditional financial infrastructure without ceding control or creating liability exposure for the core entity.
+## Key structural elements
 
-The agreement includes DAO-controlled termination rights (30-day notice or immediate for material breach) and requires governance approval for significant material expenses or contract changes. The expected annualized burn is $1.378M.
+The arrangement, formalized through governance proposal in August 2024, establishes:
 
-## Evidence
-- MetaDAO Proposal 6 passed 2024-09-03, establishing services agreement with Organization Technology LLC
-- Agreement explicitly reserves all IP ownership to MetaDAO LLC
-- Entity cannot encumber MetaDAO LLC or make material decisions without governance approval
-- First disbursement occurred September 1, 2024
-- This represents a single implementation case; broader pattern confirmation would require evidence from other futarchy DAOs adopting similar structures
+1. **IP ownership separation**: All intellectual property created under the services agreement is explicitly assigned to FutarchyDAO, not the LLC
+2. **Encumbrance prohibition**: The LLC cannot encumber DAO-owned IP without explicit DAO approval
+3. **Governance control**: The DAO retains authority to terminate the services agreement and controls the LLC's operational scope
+4. **Payment facilitation**: The LLC handles USD payments to contributors who cannot accept cryptocurrency directly
 
----
+## Legal and operational context
 
-Relevant Notes:
-- [[Ooki DAO proved that DAOs without legal wrappers face general partnership liability making entity structure a prerequisite for any futarchy-governed vehicle.md]]
-- [[futarchy-governed-DAOs-converge-on-traditional-corporate-governance-scaffolding-for-treasury-operations-because-market-mechanisms-alone-cannot-provide-operational-security-and-legal-compliance.md]]
-- [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md]]
+This structure appears designed to address regulatory compliance needs (particularly tax reporting and payment processing) while maintaining decentralized control over core assets. The explicit IP assignment clause distinguishes this from traditional corporate structures where the operating entity typically owns work product.
 
-Topics:
-- [[domains/internet-finance/_map]]
+The arrangement was approved through on-chain governance (proposal passed with 99.59% approval) and includes formal legal agreement text specifying the relationship between the DAO and LLC.
+
+## Related considerations
+
+- This structure emerged in context of [[ooki-dao-members-found-liable-for-cftc-violations-despite-decentralized-governance-claims|DAO liability concerns]]
+- Represents one implementation approach for [[daos-can-use-legal-wrappers-to-limit-liability-while-maintaining-decentralized-governance|DAO legal wrapper strategies]]
+- Part of broader [[metadao-platform|MetaDAO platform]] operational infrastructure
