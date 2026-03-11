@@ -17,6 +17,12 @@ The projected trajectory is stark: the creator media economy is expected to exce
 
 This empirical reality anchors several theoretical claims. Since [[media disruption follows two sequential phases as distribution moats fall first and creation moats fall second]], the $250B creator economy IS the second phase in progress -- not a theoretical future but a measurable present. Since [[social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns]], social video is the primary distribution channel through which the creator economy competes. Since [[GenAI is simultaneously sustaining and disruptive depending on whether users pursue progressive syntheticization or progressive control]], GenAI tools will accelerate creator economy growth because they disproportionately benefit independent creators who lack studio production resources.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-12-16-exchangewire-creator-economy-2026-community-credibility]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The 48% vs 41% creator-vs-traditional split for under-35 news consumption provides direct evidence of the zero-sum dynamic. Total news consumption time is fixed; creators gaining 48% means traditional channels lost that share. The £190B global creator economy valuation and 171% YoY growth in influencer marketing investment ($37B US ad spend by end 2025) demonstrate sustained macro capital reallocation from traditional to creator distribution channels.
+
 ---
 
 Relevant Notes:

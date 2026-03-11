@@ -28,6 +28,12 @@ If this pattern scales, it inverts the traditional greenlight process: instead o
 
 Mediawan Kids & Family (major European studio group) partnered with Claynosaurz for 39-episode animated series after Claynosaurz demonstrated 450M+ views, 200M+ impressions, and 530K+ online community subscribers across digital platforms. This validates the risk mitigation thesis — the studio chose to co-produce based on proven community engagement metrics rather than traditional development process. Founders (former VFX artists at Sony Pictures, Animal Logic, Framestore) used community building to de-risk the pitch to traditional studio partner.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-12-16-exchangewire-creator-economy-2026-community-credibility]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The shift extends beyond seeking pre-existing engagement data. Brands are now forming 'long-term joint ventures where formats, audiences and revenue are shared' with creators, indicating evolution from data-seeking risk mitigation to co-ownership of audience relationships. The most sophisticated creators operate as 'small media companies, with audience data, formats, distribution strategies and commercial leads,' suggesting brands now seek co-ownership of the entire audience infrastructure, not just access to engagement metrics.
+
 ---
 
 Relevant Notes:
