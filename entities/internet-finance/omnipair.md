@@ -3,7 +3,7 @@ type: entity
 entity_type: company
 name: "OmniPair"
 domain: internet-finance
-handles: ["@omnaborsa"]
+handles: ["@omnipair"]
 website: https://omnipair.com
 status: active
 tracked_by: rio
@@ -14,7 +14,9 @@ founders: ["[[rakka]]"]
 category: "Combined AMM + lending protocol (Solana)"
 stage: seed
 market_cap: "$2-3M (as of ~2026-02-25)"
-funding: "Self-funded / community"
+ico_raise: "$1.1M (July 2025 via MetaDAO)"
+token_performance: "OMFG up ~480% since ICO"
+funding: "ICO via MetaDAO"
 key_metrics:
   tvl: "$250-300K (~3 weeks post-launch)"
   volume_tvl_ratio: "~0.8x monthly, trending toward 1x"

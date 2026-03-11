@@ -14,8 +14,16 @@ founders: ["[[proph3t]]"]
 category: "Futarchy governance protocol + ownership coin launchpad (Solana)"
 stage: growth
 key_metrics:
-  ecosystem_launches: "12+ (via Futardio)"
+  meta_price: "~$3.78 (March 2026)"
+  market_cap: "~$85.7M"
+  ecosystem_market_cap: "$219M total ($69M non-META)"
+  total_revenue: "$3.1M+ (Q4 2025: $2.51M — 54% Futarchy AMM, 46% Meteora LP)"
+  total_equity: "$16.5M (up from $4M in Q3 2025)"
+  runway: "15+ quarters at ~$783K/quarter burn"
+  icos_facilitated: "8 on MetaDAO proper (through Dec 2025), raising $25.6M total"
+  ecosystem_launches: "45 (via Futardio)"
   futarchic_amm_lp_share: "~20% of each project's token supply"
+  proposal_volume: "$3.6M Q4 2025 (up from $205K in Q3)"
 competitors: ["[[snapshot]]", "[[tally]]"]
 built_on: ["Solana"]
 tags: ["futarchy", "decision-markets", "ownership-coins", "governance", "launchpad"]
@@ -30,8 +38,9 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **Autocrat**: Conditional token markets for governance decisions. Proposals create pass/fail universes; TWAP settlement over 3 days.
 - **Futardio**: Unruggable ICO launch platform. Projects raise capital through the MetaDAO ecosystem with futarchy-governed accountability. Replaced the original uncapped pro-rata mechanism that caused massive overbidding (Umbra: $155M committed for $3M raise = 50x oversubscription; Solomon: $103M committed for $8M = 13x).
 - **Futarchic AMM**: Custom-built AMM for decision market trading. No fees for external LPs — all fees go to the protocol. ~20% of each project's token supply is in the Futarchic AMM LP. LP cannot be withdrawn during active markets.
-- **Ecosystem**: 12+ projects launched (Solomon, MycoRealms, Ranger, Dean's List, Umbra, and Futardio-era launches)
-- **Treasury**: Active management via subcommittee proposals (see Solomon DP-00001)
+- **Financial**: $85.7M market cap, $219M ecosystem market cap ($69M non-META). Total revenue $3.1M+ (Q4 2025 alone: $2.51M). Total equity $16.5M, 15+ quarters runway.
+- **Ecosystem**: 8 curated ICOs raising $25.6M total (through Dec 2025) + 45 permissionless Futardio launches
+- **Treasury**: Active management via subcommittee proposals (see Solomon DP-00001). Omnibus proposal migrated ~90% of META liquidity into Futarchy AMM and burned ~60K META.
 - **Known limitation**: Limited trading volume in uncontested decisions — when community consensus is obvious, conditional markets add little information
 
 ## Timeline

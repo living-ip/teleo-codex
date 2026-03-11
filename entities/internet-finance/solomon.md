@@ -3,7 +3,7 @@ type: entity
 entity_type: company
 name: "Solomon"
 domain: internet-finance
-handles: ["@oxranga"]
+handles: ["@solomon_labs"]
 status: active
 tracked_by: rio
 created: 2026-03-11
@@ -26,8 +26,10 @@ tags: ["ownership-coins", "futarchy", "treasury-management", "metadao-ecosystem"
 One of the first successful Futardio launches. Raised $8M through the pro-rata mechanism ($103M committed = 13x oversubscription). Notable for implementing structured treasury management through futarchy — the treasury subcommittee proposal (DP-00001) established operational governance scaffolding on top of futarchy's market-based decision mechanism.
 
 ## Current State
-- **Governance**: Active futarchy governance through MetaDAO Autocrat. Treasury subcommittee proposal (DP-00001) created operational structure for treasury management.
-- **Treasury**: Actively managed through buybacks and strategic allocations
+- **Product**: USDv — yield-bearing stablecoin. YaaS (Yield-as-a-Service) streams yield to approved USDv holders, LP positions, and treasury balances without wrappers or vaults.
+- **Governance**: Active futarchy governance through MetaDAO Autocrat. Treasury subcommittee proposal (DP-00001) passed March 9, 2026 (cleared 1.5% TWAP threshold by +2.22%). Moves up to $150K USDC into segregated legal budget, nominates 4 subcommittee designates.
+- **Treasury**: Actively managed through buybacks and strategic allocations. DP-00001 is step 1 of 3: (1) legal/pre-formation, (2) SOLO buyback framework, (3) treasury account activation.
+- **YaaS status**: Closed beta — LP volume crossed $1M, OroGold GOLD/USDv pool delivering 59.6% APY. First deployment drove +22.05% LP APY with 3.5x pool growth.
 - **Significance**: Test case for whether futarchy-governed organizations converge on traditional corporate governance scaffolding for operations
 
 ## Timeline
