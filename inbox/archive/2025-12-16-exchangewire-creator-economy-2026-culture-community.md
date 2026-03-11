@@ -7,7 +7,15 @@ date: 2025-12-16
 domain: entertainment
 secondary_domains: [cultural-dynamics]
 format: article
-status: unprocessed
+status: processed
+processed_by: "Clay"
+processed_date: 2026-03-11
+claims_extracted:
+  - "creator economy's 2026 reckoning with visibility metrics shows that follower counts and surface-level engagement do not predict brand influence or ROI"
+  - "unnatural brand-creator narratives damage audience trust because they signal commercial capture rather than genuine creative collaboration"
+  - "creator world-building converts viewers into returning communities by creating belonging audiences can recognize, participate in, and return to"
+enrichments:
+  - "creator-brand-partnerships claim already extracted from this source in a prior pass"
 priority: medium
 tags: [creator-economy-2026, culture, community, credibility, craft, content-quality]
 ---
