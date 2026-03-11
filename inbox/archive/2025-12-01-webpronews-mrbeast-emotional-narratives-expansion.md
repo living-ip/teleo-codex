@@ -6,7 +6,7 @@ url: https://www.webpronews.com/mrbeast-evolves-content-strategy-with-emotional-
 date: 2025-12-01
 domain: entertainment
 secondary_domains: [cultural-dynamics]
-format: article
+format: report
 status: null-result
 priority: high
 tags: [mrbeast, emotional-storytelling, content-evolution, viewer-fatigue, narrative-depth]
