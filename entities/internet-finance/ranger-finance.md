@@ -10,9 +10,13 @@ created: 2026-03-11
 last_updated: 2026-03-11
 founded: 2026-01-06
 category: "Perps aggregator / DEX aggregation (Solana/Hyperliquid)"
+parent: "[[futardio]]"
 stage: declining
 key_metrics:
-  raise: "$6M+ (39% of RNGR supply at ~$15M FDV)"
+  raise: "$8M raised ($86.4M committed — 14x oversubscription)"
+  treasury: "$3.25M USDC (pre-liquidation)"
+  token_price: "$0.48"
+  monthly_allowance: "$250K"
   projected_volume: "$5B (actual: ~$2B — 60% below)"
   projected_revenue: "$2M (actual: ~$500K — 75% below)"
   liquidation_recovery: "90%+ from ICO price"

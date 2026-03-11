@@ -24,7 +24,9 @@ Modular Solana protocol unifying peer-to-peer lending, leveraged liquidity provi
 
 ## Current State
 - **Raised**: $750K final (target $550K, $6.1M committed — 11x oversubscribed)
-- **Token**: PAYS (mint: PAYZP1W3UmdEsNLJwmH61TNqACYJTvhXy8SCN4Tmeta)
+- **Treasury**: $241K USDC remaining
+- **Token**: PAYS (mint: PAYZP1W3UmdEsNLJwmH61TNqACYJTvhXy8SCN4Tmeta), price: $0.04
+- **Monthly allowance**: $33.5K
 - **Launch mechanism**: Futardio v0.6 (pro-rata)
 
 ## Timeline

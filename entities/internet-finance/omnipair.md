@@ -12,9 +12,12 @@ last_updated: 2026-03-11
 founded: 2025-01-01
 founders: ["[[rakka]]"]
 category: "Combined AMM + lending protocol (Solana)"
+parent: "[[futardio]]"
 stage: seed
 market_cap: "$2-3M (as of ~2026-02-25)"
 ico_raise: "$1.1M (July 2025 via MetaDAO)"
+treasury: "$550K USDC"
+token_price: "$0.46"
 token_performance: "OMFG up ~480% since ICO"
 funding: "ICO via MetaDAO"
 key_metrics:

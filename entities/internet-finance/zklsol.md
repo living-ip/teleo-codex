@@ -23,8 +23,10 @@ tags: ["privacy", "lst", "defi", "futardio-launch", "ownership-coin"]
 Zero-Knowledge Liquid Staking on Solana. Privacy mixer that converts deposited SOL to LST during the mixing period, so users earn staking yield while waiting for privacy — solving the opportunity cost paradox of traditional mixers.
 
 ## Current State
-- **Raised**: Target $300K, $14.9M committed (50x oversubscribed)
-- **Token**: ZKLSOL (mint: ZKFHiLAfAFMTcDAuCtjNW54VzpERvoe7PBF9mYgmeta)
+- **Raised**: $969K final (target $300K, $14.9M committed — 50x oversubscribed)
+- **Treasury**: $575K USDC remaining
+- **Token**: ZKLSOL (mint: ZKFHiLAfAFMTcDAuCtjNW54VzpERvoe7PBF9mYgmeta), price: $0.05
+- **Monthly allowance**: $50K
 - **Launch mechanism**: Futardio v0.6 (pro-rata)
 
 ## Timeline

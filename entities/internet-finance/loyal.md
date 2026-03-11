@@ -25,7 +25,9 @@ Open source, decentralized, censorship-resistant intelligence protocol. Private 
 
 ## Current State
 - **Raised**: $2.5M final (target $500K, $75.9M committed — 152x oversubscribed)
-- **Token**: LOYAL (mint: LYLikzBQtpa9ZgVrJsqYGQpR3cC1WMJrBHaXGrQmeta)
+- **Treasury**: $260K USDC remaining
+- **Token**: LOYAL (mint: LYLikzBQtpa9ZgVrJsqYGQpR3cC1WMJrBHaXGrQmeta), price: $0.14
+- **Monthly allowance**: $60K
 - **Launch mechanism**: Futardio v0.6 (pro-rata)
 
 ## Timeline

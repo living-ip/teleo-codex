@@ -24,7 +24,9 @@ Privacy protocol for confidential swaps and transfers on Solana, built on Arcium
 
 ## Current State
 - **Raised**: $3M final (target $750K, $154.9M committed — 207x oversubscribed)
-- **Token**: UMBRA (mint: PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta)
+- **Treasury**: $1.99M USDC remaining
+- **Token**: UMBRA (mint: PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta), price: $0.83
+- **Monthly allowance**: $100K
 - **Launch mechanism**: Futardio v0.6 (pro-rata, pre-unruggable ICO)
 
 ## Timeline
