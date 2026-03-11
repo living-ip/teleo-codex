@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/8cnQAxS3WQXhD2eAjKSJ6wmBwaJskRZFYByMPKEhD1o
 date: 2024-08-28
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-12-10
+enrichments_applied: ["MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window.md", "MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "This source provides concrete evidence of futarchy proposal mechanics and failure modes. No novel claims warranted—the insights strengthen existing claims about MetaDAO's implementation. The proposal structure (bounty-based marketing spend) and its rejection provide empirical data on what futarchy markets filter. The integration with SuperteamEarn shows how futarchy governance can delegate execution while maintaining market-based approval."
 ---
 
 ## Proposal Details
@@ -168,3 +173,12 @@ Link to campaign details and evaluation criteria: [Link](https://docs.google.com
 - Autocrat version: 0.3
 - Completed: 2024-09-01
 - Ended: 2024-09-01
+
+
+## Key Facts
+- Drift is the largest open-sourced perpetual futures exchange on Solana (2024-08-28)
+- B.E.T is Solana's first capital efficient prediction market (2024)
+- Proposal 8cnQAxS3WQXhD2eAjKSJ6wmBwaJskRZFYByMPKEhD1oQ failed on 2024-09-01
+- Proposal offered $8,250 total prize pool across 4 tracks
+- DAO account: GWywkp2mY2vzAaLydR2MBXRCqk2vBTyvtVRioujxi5Ce
+- Autocrat version: 0.3
