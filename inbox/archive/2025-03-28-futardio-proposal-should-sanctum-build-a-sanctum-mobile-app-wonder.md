@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/2frDGSg1frwBeh3bc6R7XKR2wckyMTt6pGXLGLPgoot
 date: 2025-03-28
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2025-03-28
+claims_extracted: ["sanctum-wonder-mobile-app-proposal-failed-futarchy-vote-march-2025.md", "consumer-crypto-apps-compete-on-delightful-ux-for-yield-and-participation-not-trading-volume-because-mainstream-users-want-earning-and-belonging-not-speculation.md"]
+enrichments_applied: ["MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) Sanctum's Wonder proposal as a test case for futarchy governing strategic product decisions beyond treasury operations, and (2) the consumer crypto app thesis that mainstream users want yield/participation not speculation. Added three enrichments to existing futarchy claims about Autocrat implementation, adoption friction, and trading volume. The proposal failure creates a natural experiment in futarchy's scope: can it govern founder vision on product strategy, or should it be limited to treasury/operations? Key tension: team conviction + market comps vs. token holder preference for core business focus."
 ---
 
 ## Proposal Details
@@ -107,3 +113,12 @@ The Sanctum core team reserves the right to change details of the prospective fe
 - Autocrat version: 0.3
 - Completed: 2025-03-31
 - Ended: 2025-03-31
+
+
+## Key Facts
+- Sanctum Wonder proposal 2frDGSg1frwBeh3bc6R7XKR2wckyMTt6pGXLGLPgoota created 2025-03-28, failed 2025-03-31
+- Phantom raised at $3B valuation (January 2025)
+- Jupiter trades at $1.7B market cap, $6.2B FDV
+- MetaMask generated $320M in swap fees
+- Consensys valued at $2.3B in secondary markets
+- Sanctum safeguards over $1B in funds
