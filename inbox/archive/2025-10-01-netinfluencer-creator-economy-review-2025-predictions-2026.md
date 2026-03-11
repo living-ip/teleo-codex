@@ -7,9 +7,14 @@ date: 2025-10-01
 domain: entertainment
 secondary_domains: []
 format: survey-article
-status: unprocessed
+status: null-result
 priority: medium
 tags: [creator-economy-2026, industry-survey, content-quality, revenue-diversification, storytelling]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["creator-brand-partnerships-shifting-from-transactional-campaigns-to-long-term-joint-ventures-with-shared-formats-audiences-and-revenue.md", "creator and corporate media economies are zero-sum because total media time is stagnant and every marginal hour shifts between them.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Strong quantitative evidence (189% income premium) for revenue diversification thesis. Survey methodology (77 professionals) provides industry consensus but not rigorous academic validation. The causal mechanism (diversification → independence → creative freedom → quality) is directional but correlation-based. 2026 predictions are forward-looking sentiment, rated experimental."
 ---
 
 ## Content
@@ -44,3 +49,10 @@ Also from related sources:
 PRIMARY CONNECTION: [[value flows to whichever resources are scarce and disruption shifts which resources are scarce making resource-scarcity analysis the core strategic framework]]
 WHY ARCHIVED: Quantitative evidence (189% income premium) that revenue diversification enables creative and economic independence from platform algorithms
 EXTRACTION HINT: The 189% premium is the headline number. The mechanism chain: diversified revenue → freedom from platform metrics → creative independence → deeper content → stronger audience relationship → higher LTV.
+
+
+## Key Facts
+- 88% of top creators use owned websites (2025)
+- 75% of top creators have membership communities (2025)
+- Top creators maintain 7+ revenue streams vs 2 for low earners (2025)
+- Nearly 50% of creators prefer ongoing partnerships over one-off campaigns (2025)
