@@ -13,26 +13,114 @@ Evidence → Claims (what's true about the world)
 
 Claims are static propositions with confidence levels. Entities are dynamic objects with temporal attributes. Both feed into agent reasoning.
 
-## Entity Types
+## Entity Type System
+
+The type system has two layers: **core types** shared by all agents, and **domain-specific extensions** that specialize core types for particular domains. Every entity uses exactly one type.
+
+### Core Types (all domains)
 
 | Type | What it tracks | Examples |
 |------|---------------|----------|
-| `company` | Protocol, startup, fund, DAO | MetaDAO, Aave, Solomon, Devoted Health |
-| `person` | Individual with tracked positions/influence | Stani Kulechov, Gabriel Shapiro, Proph3t |
+| `company` | Organization that operates — startup, fund, DAO, protocol | MetaDAO, Aave, Devoted Health, SpaceX |
+| `person` | Individual with tracked positions/influence | Proph3t, Stani Kulechov, Elon Musk |
+| `organization` | Government body, regulatory agency, standards body, consortium | SEC, CFTC, NASA, FLI, CMS |
+| `product` | Specific product, tool, or platform distinct from its maker | Autocrat, Starlink, Claude |
 | `market` | Industry segment or ecosystem | Futarchic markets, DeFi lending, Medicare Advantage |
-| `decision_market` | Governance proposal, prediction market, futarchy decision | MetaDAO: Hire Robin Hanson, MetaDAO: Burn 99.3% of META |
+
+### Domain-Specific Extensions
+
+Domain extensions are specialized subtypes that inherit from a core type. Use the most specific type available — it determines which fields are relevant.
+
+#### Internet Finance (Rio)
+
+| Type | Extends | What it tracks | Examples |
+|------|---------|---------------|----------|
+| `protocol` | company | On-chain protocol with TVL/volume metrics | Aave, Drift, Omnipair |
+| `token` | product | Fungible token distinct from its protocol | META, SOL, CLOUD |
+| `decision_market` | — | Governance proposal, prediction market, futarchy decision | MetaDAO: Hire Robin Hanson |
+| `exchange` | company | Trading venue (CEX or DEX) | Raydium, Meteora, Jupiter |
+| `fund` | company | Investment vehicle or DAO treasury | Solomon, Theia Research |
+
+#### Space Development (Astra)
+
+| Type | Extends | What it tracks | Examples |
+|------|---------|---------------|----------|
+| `vehicle` | product | Launch vehicle or spacecraft | Starship, New Glenn, Neutron |
+| `mission` | — | Specific spaceflight mission | Artemis III, ESCAPADE |
+| `facility` | — | Launch site, factory, or ground infrastructure | Starbase, LC-36 |
+| `program` | — | Multi-mission program or initiative | Artemis, Commercial Crew |
+
+#### Health (Vida)
+
+| Type | Extends | What it tracks | Examples |
+|------|---------|---------------|----------|
+| `therapy` | product | Treatment modality or therapeutic approach | mRNA cancer vaccines, GLP-1 agonists |
+| `drug` | product | Specific pharmaceutical product | Ozempic, Keytruda |
+| `insurer` | company | Health insurance organization | UnitedHealthcare, Devoted Health |
+| `provider` | company | Healthcare delivery organization | Kaiser Permanente, Oak Street Health |
+| `policy` | — | Legislation, regulation, or administrative rule | GENIUS Act, CMS 2027 Advance Notice |
+
+#### Entertainment (Clay)
+
+| Type | Extends | What it tracks | Examples |
+|------|---------|---------------|----------|
+| `studio` | company | Production company or media business | Beast Industries, Mediawan |
+| `creator` | person | Individual content creator or artist | MrBeast, Taylor Swift |
+| `franchise` | product | IP, franchise, or media property | Claynosaurz, Pudgy Penguins |
+| `platform` | product | Distribution or social media platform | YouTube, TikTok, Dropout |
+
+#### AI/Alignment (Theseus)
+
+| Type | Extends | What it tracks | Examples |
+|------|---------|---------------|----------|
+| `lab` | company | AI research laboratory | Anthropic, OpenAI, DeepMind |
+| `model` | product | AI model or model family | Claude, GPT-4, Gemini |
+| `framework` | product | Safety framework, governance protocol, or methodology | RSP, Constitutional AI |
+| `governance_body` | organization | AI governance or safety organization | AISI, FLI, Partnership on AI |
+
+### Choosing the Right Type
+
+```
+Is it a person?                          → person (or domain-specific: creator)
+Is it a government/regulatory body?      → organization (or domain-specific: governance_body)
+Is it a governance proposal or market?   → decision_market
+Is it a specific product/tool?           → product (or domain-specific: drug, model, vehicle, etc.)
+Is it an organization that operates?     → company (or domain-specific: lab, studio, insurer, etc.)
+Is it a market segment?                  → market
+Is it a policy or regulation?            → policy
+Is it a space mission?                   → mission
+Is it a physical facility?               → facility
+Is it a multi-mission program?           → program
+```
+
+**Rule:** Use the most specific type available. If a DeFi protocol fits `protocol`, use that instead of `company`. If an AI lab fits `lab`, use that instead of `company`. Domain-specific types carry domain-specific fields.
+
+### Adding New Types
+
+Core types require a schema PR reviewed by Leo. Domain-specific types are agent-managed — add a row to your domain's extension table via PR. No schema-wide changes needed. If a new type could apply to multiple domains, propose it as a core type instead.
+
+### Cross-Domain Entity Dedup
+
+One entity per real-world object. If Anthropic appears in both internet-finance and ai-alignment sources:
+
+1. **First creator owns the file.** Whichever agent creates the entity first files it in their domain (`entities/ai-alignment/anthropic.md`).
+2. **Other agents use `secondary_domains`.** The entity gets `secondary_domains: [internet-finance]` so it's discoverable across domains.
+3. **Both agents can update.** The `tracked_by` agent is responsible for staleness, but any agent can propose updates via PR when their sources contain new information.
+4. **Type follows primary domain.** If Theseus creates it, it's `lab`. If Rio had created it first, it would be `company`. The type reflects the primary tracking perspective.
+
+If two agents independently create the same entity, the reviewer merges them during PR review — keep the richer file, add `secondary_domains` from the other.
 
 ## YAML Frontmatter
 
 ```yaml
 ---
 type: entity
-entity_type: company | person | market | decision_market
+entity_type: company | person | organization | product | market | decision_market | protocol | token | exchange | fund | vehicle | mission | facility | program | therapy | drug | insurer | provider | policy | studio | creator | franchise | platform | lab | model | framework | governance_body
 name: "Display name"
 domain: internet-finance | entertainment | health | ai-alignment | space-development
 handles: ["@StaniKulechov", "@MetaLeX_Labs"]  # social/web identities
 website: https://example.com
-status: active | inactive | acquired | liquidated | emerging  # for company/person/market
+status: active | inactive | acquired | liquidated | emerging  # for most types
 # Decision markets use: active | passed | failed
 tracked_by: rio  # which agent owns this entity
 created: YYYY-MM-DD
@@ -45,7 +133,7 @@ last_updated: YYYY-MM-DD
 | Field | Type | Description |
 |-------|------|-------------|
 | type | enum | Always `entity` |
-| entity_type | enum | `company`, `person`, `market`, or `decision_market` |
+| entity_type | enum | Any type from the type system above |
 | name | string | Canonical display name |
 | domain | enum | Primary domain |
 | status | enum | Current operational status |
@@ -152,7 +240,7 @@ Example: `entities/internet-finance/metadao-hire-robin-hanson.md`
 ## Company-Specific Fields
 
 ```yaml
-# Company attributes
+# Company attributes (also used by protocol, exchange, fund, lab, studio, insurer, provider)
 founded: YYYY-MM-DD
 founders: ["[[person-entity]]"]
 category: "DeFi lending protocol"
@@ -184,7 +272,7 @@ launch_date: YYYY-MM-DD       # when the entity launched/raised
 People entities serve dual purpose: they track public figures we analyze AND serve as contributor profiles when those people engage with the KB. One file, two functions — the file grows from "person we track" to "person who participates."
 
 ```yaml
-# Person attributes
+# Person attributes (also used by creator)
 role: "Founder & CEO of Aave"
 organizations: ["[[company-entity]]"]
 followers: 290000  # primary platform
@@ -202,9 +290,19 @@ first_contribution: null  # date of first KB interaction
 attribution_handle: null  # how they want to be credited
 ```
 
-## Market-Specific Fields
+## Other Core Type Fields
 
 ```yaml
+# Organization attributes (also used by governance_body)
+jurisdiction: "United States"
+authority: "Securities regulation"  # what this body governs
+parent_body: "[[parent-organization]]"
+
+# Product attributes (also used by token, vehicle, drug, model, framework, franchise, platform)
+maker: "[[company-entity]]"  # who built/maintains this
+launched: YYYY-MM-DD
+category: "futarchy governance program"
+
 # Market attributes
 total_size: "$120B TVL"
 growth_rate: "flat since 2021"
@@ -212,6 +310,8 @@ key_players: ["[[company-entity]]"]
 market_structure: "winner-take-most | fragmented | consolidating"
 regulatory_status: "emerging clarity | hostile | supportive"
 ```
+
+**Domain-specific fields:** Each agent adds type-specific fields as they start extracting entities. The fields above cover core types. When Astra creates their first `vehicle` entity, they add vehicle-specific fields to the schema. Complexity is earned from actual use, not designed in advance.
 
 ## Body Format
 
@@ -275,9 +375,19 @@ entities/
     claynosaurz.md
     pudgy-penguins.md
     matthew-ball.md
+    beast-industries.md                # studio
   health/
-    devoted-health.md
+    devoted-health.md                  # insurer
     function-health.md
+    ozempic.md                         # drug
+  ai-alignment/
+    anthropic.md                       # lab
+    claude.md                          # model
+    rsp.md                             # framework
+  space-development/
+    spacex.md
+    starship.md                        # vehicle
+    artemis.md                         # program
 ```
 
 **Filename:** Lowercase slugified name. Companies use brand name, people use full name. Decision markets use `{parent}-{proposal-slug}.md`.
@@ -298,6 +408,8 @@ Sources often contain entity information. During extraction, agents should:
 - Extract claims (propositions about the world) → `domains/{domain}/`
 - Update entities (factual changes to tracked objects) → `entities/{domain}/`
 - Both from the same source, in the same PR
+
+See `skills/extract-entities.md` for the full extraction process.
 
 ## Key Difference from Claims
 
