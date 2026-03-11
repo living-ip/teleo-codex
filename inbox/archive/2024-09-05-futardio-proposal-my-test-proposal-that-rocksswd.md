@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/evGundfgMRZWCYsGF7GMKcgh6LjxDTFrvWRAhxiQS8h
 date: 2024-09-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-09-05
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "This is a test proposal on futard.io with no substantive content. The proposal ('I Need Stir Fry on Friday') is a mock governance submission about establishing a community stir-fry tradition. It contains no evidence, data, or arguable claims relevant to Teleo domains. The proposal failed and appears to be a platform functionality test rather than a genuine governance proposal. No extractable claims or enrichments."
 ---
 
 ## Proposal Details
@@ -125,3 +129,10 @@ Thank you for supporting **"I Need Stir Fry on Friday"**! With your help, we can
 - Autocrat version: 0.3
 - Completed: 2024-09-13
 - Ended: 2024-09-09
+
+
+## Key Facts
+- Proposal evGundfgMRZWCYsGF7GMKcgh6LjxDTFrvWRAhxiQS8h on futard.io failed (2024-09-05 to 2024-09-09)
+- Proposal was categorized under Treasury and DAO
+- Proposal number 12 on DAO account GWywkp2mY2vzAaLydR2MBXRCqk2vBTyvtVRioujxi5Ce
+- Used Autocrat version 0.3
