@@ -1,23 +1,26 @@
 ---
 type: claim
-claim: proposed-memecoin-launchpad-with-bootstrapping-token-suggested-market-opening-for-pump-fun-competitors
-description: A 2024 proposal for a memecoin launchpad argued that pump.fun's market dominance could be challenged by a competitor with its own bootstrapping token, citing an apparent market opening.
+claim_type: factual
+confidence: low
+domains:
+  - internet-finance
+  - governance
 tags:
-  - topic/memecoins
-  - topic/market-competition
-  - topic/tokenomics
-  - org/metadao
-  - platform/pump-fun
-source: https://dao.metadao.fi/proposal/futardio
-confidence: medium
-date_published: 2024-08-14
-date_added: 2025-01-23
+  - futarchy
+  - memecoin
+  - market-analysis
 ---
 
-A proposal submitted to MetaDAO on August 14, 2024 argued that despite pump.fun's dominance in the memecoin launchpad market, there was an opportunity for competitors that offered their own bootstrapping token.
+# Proposed memecoin launchpad with bootstrapping token suggested market opening for pump.fun competitors
 
-The proposal stated: "Despite pump.fun's dominance, there appears to be an opening in the market for a pump.fun with a token." It positioned the proposed platform as a "[[hyperstructure]]" - a crypto protocol that can run indefinitely with minimal maintenance.
+A proposal for a [[futarchy]]-governed memecoin launchpad argued there was a market opening for [[pump.fun]] competitors in August 2024, based on the hypothesis that offering a bootstrapping token to incentivize early adopters could differentiate from pump.fun's pure fee model.
 
-The proposal suggested that a launchpad with its own token (FUTARDIO in this case) could differentiate itself through token-based incentives, including allocating 10% of launched tokens to DAOs and 0.5% to the platform's token holders.
+## Evidence
 
-This market analysis was part of a proposal that ultimately failed its vote on August 18, 2024, so the competitive hypothesis was never tested in practice.
+The Futardio proposal stated: "There appears to be an opening in the market for a pump.fun competitor that offers a bootstrapping token to incentivize early adopters, rather than relying solely on fee revenue."
+
+Source: [[2024-08-14-futardio-proposal-develop-memecoin-launchpad]]
+
+## Context
+
+This claim reflects the proposer's market hypothesis from August 2024. The proposal was rejected via [[futarchy]] vote, and market conditions may have changed substantially in the 18+ months since the proposal was made.

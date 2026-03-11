@@ -1,23 +1,36 @@
 ---
 type: claim
-claim: proposed-futarchy-governed-memecoin-launchpad-would-create-distribution-channel-for-futarchy-adoption-through-token-allocation-to-daos
-description: A 2024 proposal for a futarchy-governed memecoin launchpad included a distribution strategy allocating 10% of launched tokens to DAOs and 0.5% to FUTARDIO holders, designed to create incentives for DAO adoption of futarchy governance.
+claim_type: factual
+confidence: medium
+domains:
+  - internet-finance
+  - governance
 tags:
-  - topic/futarchy
-  - topic/governance
-  - topic/memecoins
-  - topic/daos
-  - org/metadao
-source: https://dao.metadao.fi/proposal/futardio
-confidence: high
-date_published: 2024-08-14
-date_added: 2025-01-23
+  - futarchy
+  - distribution
+  - dao
 ---
 
-A proposal submitted to MetaDAO on August 14, 2024 outlined a futarchy-governed memecoin launchpad with a specific token distribution strategy designed to promote futarchy adoption. The proposal specified that 10% of tokens from each launched memecoin would be allocated to DAOs, with an additional 0.5% going to FUTARDIO token holders.
+# Proposed futarchy-governed memecoin launchpad would create distribution channel for futarchy adoption through token allocation to DAOs
 
-The proposal explicitly framed this distribution mechanism as a solution to futarchy's adoption challenge: "Futarchy has a distribution problem. DAOs don't want to adopt it because it's unproven, and it's unproven because DAOs don't want to adopt it. This proposal solves that problem by giving DAOs a financial incentive to try futarchy."
+A proposal for a [[futarchy]]-governed memecoin launchpad included a mechanism to distribute tokens to DAOs that adopt [[futarchy]] governance, creating a potential distribution channel for futarchy adoption.
 
-The launchpad itself would be governed using futarchy, with FUTARDIO serving as the governance token. The proposal requested $100,000 in funding for a 6-month development timeline.
+## Evidence
 
-The proposal was put to a vote and failed on August 18, 2024, meaning the platform was never built and the distribution strategy was never implemented.
+The Futardio proposal specified: "10% of tokens allocated to DAOs that implement futarchy governance, creating a distribution channel for futarchy adoption."
+
+Source: [[2024-08-14-futardio-proposal-develop-memecoin-launchpad]]
+
+## Extensions
+
+### [[metadao-is-the-futarchy-launchpad]]
+
+The proposal's failure via [[futarchy]] vote suggests the market determined the expected value of this distribution strategy was negative, rather than validating it as an effective approach to futarchy adoption.
+
+### [[futarchy-as-hyperstructure-requires-credible-neutrality]]
+
+The proposal's token distribution mechanism demonstrates how [[hyperstructure]] protocols can use token incentives to bootstrap network effects while maintaining credible neutrality through governance.
+
+### [[mixed-mechanism-governance-allows-futarchy-to-govern-its-own-adoption]]
+
+The proposal itself was evaluated using [[futarchy]], demonstrating recursive application of the governance mechanism to decisions about its own expansion.
