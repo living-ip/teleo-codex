@@ -6,7 +6,12 @@ url: "https://www.futard.io/proposal/HXohDRKtDcXNKnWysjyjK8S5SvBe76J5o4NdcF4jj96
 date: 2024-03-28
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: []
+enrichments:
+  - "metadao-migrate-autocrat-v02 — decision_market entity created"
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 ---

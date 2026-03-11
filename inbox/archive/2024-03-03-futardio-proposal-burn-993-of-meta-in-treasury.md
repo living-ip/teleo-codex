@@ -6,7 +6,12 @@ url: "https://www.futard.io/proposal/ELwCkHt1U9VBpUFJ7qGoVMatEwLSr1HYj9q9t8JQ1Nc
 date: 2024-03-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: []
+enrichments:
+  - "metadao-burn-993-percent-meta — decision_market entity created"
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 ---

@@ -37,6 +37,7 @@ challenged_by: []  # list of counter-evidence or counter-claims
 | depends_on | list | Evidence and claims this builds on (the reasoning chain) |
 | challenged_by | list | Counter-evidence or counter-claims (disagreement tracking) |
 | secondary_domains | list | Other domains this claim is relevant to |
+| attribution | object | Role-specific contributor tracking — see `schemas/attribution.md` |
 
 ## Governance
 

@@ -53,6 +53,20 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **2026-03** — Ranger liquidation proposal; treasury subcommittee formation
 - **2026-03** — Pine Analytics Q4 2025 quarterly report published
 
+## Key Decisions
+| Date | Proposal | Proposer | Category | Outcome |
+|------|----------|----------|----------|---------|
+| 2024-03-03 | [[metadao-burn-993-percent-meta]] | doctor.sol & rar3 | Treasury | Passed |
+| 2024-03-13 | [[metadao-develop-faas]] | 0xNallok | Strategy | Passed |
+| 2024-03-28 | [[metadao-migrate-autocrat-v02]] | HenryE & Proph3t | Mechanism | Passed |
+| 2024-05-27 | [[metadao-compensation-proph3t-nallok]] | Proph3t & Nallok | Hiring | Passed |
+| 2024-06-26 | [[metadao-fundraise-2]] | Proph3t | Fundraise | Passed |
+| 2024-11-21 | [[metadao-create-futardio]] | unknown | Strategy | Failed |
+| 2025-01-28 | [[metadao-token-split-elastic-supply]] | @aradtski | Mechanism | Failed |
+| 2025-02-10 | [[metadao-hire-robin-hanson]] | Proph3t | Hiring | Passed |
+| 2025-02-26 | [[metadao-release-launchpad]] | Proph3t & Kollan | Strategy | Passed |
+| 2025-08-07 | [[metadao-migrate-meta-token]] | Proph3t & Kollan | Mechanism | Passed |
+
 ## Competitive Position
 - **First mover** in futarchy-governed organizations at scale
 - **No direct competitor** for conditional-market governance on Solana

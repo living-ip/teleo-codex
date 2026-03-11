@@ -6,7 +6,12 @@ url: "https://www.futard.io/proposal/BgHv9GutbnsXZLZQHqPL8BbGWwtcaRDWx82aeRMNmJb
 date: 2024-05-27
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: []
+enrichments:
+  - "metadao-compensation-proph3t-nallok — decision_market entity created"
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 ---

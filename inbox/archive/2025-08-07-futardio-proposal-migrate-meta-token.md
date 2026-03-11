@@ -14,6 +14,7 @@ claims_extracted:
 enrichments:
   - "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements — META 1:1000 split confirms token split as solution for unit bias"
   - "MetaDAOs Autocrat program — v0.5 program address auToUr3CQza3D4qreT6Std2MTomfzvrEeCC5qh7ivW5 adds to on-chain program details"
+  - "metadao-migrate-meta-token — decision_market entity created"
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 ---
