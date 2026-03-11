@@ -41,6 +41,12 @@ This structure is untested in practice. Key risks:
 - 18-month cliff may be too long for early-stage projects with high burn rates, creating team retention risk
 - No precedent for whether TWAP-based triggers actually prevent manipulation in low-liquidity token markets
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-03-04-futardio-launch-xorrabet]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+XorraBet implemented an aggressive version of this mechanism: 4M tokens (20% of supply) locked at launch with five tranches unlocking at 2x, 4x, 8x, 16x, and 32x price multiples, 18-month minimum cliff, and 3-month TWAP settlement. The structure explicitly states 'If the token never reaches 2x, the team receives nothing' and 'At launch 0 team tokens are circulating.' This is a real-world implementation demonstrating that teams are willing to accept zero compensation unless they achieve at least 2x returns, with most upside coming only at 8x+ multiples. The use of TWAP rather than spot price makes the vesting schedule resistant to short-term price manipulation.
+
 ---
 
 Relevant Notes:

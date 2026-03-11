@@ -76,6 +76,12 @@ MycoRealms launch on Futardio demonstrates MetaDAO platform capabilities in prod
 
 Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform supports purely speculative meme coin launches, not just productive ventures. The project raised $11,402,898 against a $50,000 target in under 24 hours (22,706% oversubscription) with stated fund use for 'fan merch, token listings, private events/partys'—consumption rather than productive infrastructure. This extends MetaDAO's demonstrated use cases beyond productive infrastructure (Myco Realms mushroom farm, $125K) to governance-enhanced speculative tokens, suggesting futarchy's anti-rug mechanisms appeal across asset classes.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-04-futardio-launch-xorrabet]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+XorraBet attempted to raise $410,000 USDC through Futardio (MetaDAO's launch platform) on 2026-03-04 with a 24-hour fundraise window. The project combined prediction markets, sports betting, and xStocks trading infrastructure. The raise failed to meet its target and shows 'Refunding' status, demonstrating that MetaDAO's unruggable ICO mechanism includes automatic full refunds when targets are not met within the specified window. This is a concrete example of the platform's credible commitment mechanism in action—the team cannot access partial funding if the market doesn't validate the full raise target. The failed raise also demonstrates that the futarchy mechanism enforces discipline: projects that don't attract sufficient market confidence receive zero capital, not partial funding.
+
 ---
 
 Relevant Notes:

@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/24fzAzy51sUFSnRf4qpTqSrrugiKcJ8uVh2TSnQrDdoY"
 date: 2026-03-04
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["xorrabet-combines-prediction-markets-sports-betting-and-xstocks-trading-in-unified-liquidity-ecosystem.md", "xorrabet-targets-166-billion-global-online-gambling-market-by-combining-crypto-advantages-with-ai-trading.md", "xorrabet-uses-performance-unlocked-team-tokens-with-2x-4x-8x-16x-32x-price-triggers-and-18-month-cliff.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy-based fundraising creates regulatory separation because there are no beneficial owners and investment decisions emerge from market forces not centralized control.md", "performance-unlocked-team-tokens-with-price-multiple-triggers-and-twap-settlement-create-long-term-alignment-without-initial-dilution.md", "internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Failed futarchy-governed raise for unified betting platform. Primary value: (1) concrete example of MetaDAO refund mechanism in action, (2) aggressive performance-based team vesting structure (2x/4x/8x/16x/32x with 18mo cliff), (3) demonstrates market rejection of betting platform pitch despite claimed $166B TAM. Most claims are speculative (pitch rhetoric) but tokenomics and governance structure are experimental (documented design). Enrichments focus on validating existing claims about futarchy fundraising mechanics and performance-based vesting."
 ---
 
 ## Launch Details
@@ -413,4 +419,14 @@ This aligns **protocol decisions with token holder incentives**.
 - Token: Fom (Fom)
 - Token mint: `FomAXpkLuZRXg4RHf8Rzedr4LjaeNTNhrDphChuQmeta`
 - Version: v0.7
+- Closed: 2026-03-05
+
+
+## Key Facts
+- XorraBet raised $410,000 USDC target on Futardio 2026-03-04
+- Raise status: Refunding (target not met within 24-hour window)
+- Token: Fom (FomAXpkLuZRXg4RHf8Rzedr4LjaeNTNhrDphChuQmeta)
+- Total supply: 20M tokens (12M ICO 60%, 4M liquidity 20%, 4M team 20%)
+- Team: Zabizas (15+ years design, 7+ frontend/UX, 6+ crypto), Nino (10+ years React/TypeScript)
+- 12-month runway targeting $350K spend at $29K/month average burn
 - Closed: 2026-03-05

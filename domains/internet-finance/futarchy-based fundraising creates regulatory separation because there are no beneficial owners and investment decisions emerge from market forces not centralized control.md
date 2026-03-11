@@ -25,6 +25,12 @@ Since [[decision markets make majority theft unprofitable through conditional to
 
 **The timing dependency.** Since [[anti-payvidor legislation targets all insurer-provider integration without distinguishing acquisition-based arbitrage from purpose-built care delivery]], the regulatory environment for Devoted specifically adds complexity. Public perception of crypto at the time of the raise matters. Companies need to understand that having a publicly trading proxy for their value is a double-edged sword.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-04-futardio-launch-xorrabet]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+XorraBet's fundraise structure demonstrates the regulatory separation mechanism in practice. The project's governance documentation states: 'the team cannot access the treasury directly' and 'All major capital expenditures will be proposed and executed through futarchy governance.' The team operates on a fixed $29K monthly allowance with all spending above that requiring futarchy proposals. This creates structural separation between capital raise and capital deployment—the team cannot unilaterally spend investor funds, only the market can authorize expenditures through pass/fail conditional trading. The treasury is governed by conditional markets where traders vote with capital on whether spending proposals create value, not by token holders voting on governance proposals.
+
 ---
 
 Relevant Notes:
