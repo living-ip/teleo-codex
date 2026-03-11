@@ -99,7 +99,16 @@ peak_odds: "65%"                  # peak probability for primary outcome
 **Filing convention:** `entities/{domain}/{parent-slug}-{proposal-slug}.md`
 Example: `entities/internet-finance/metadao-hire-robin-hanson.md`
 
-**Relationship to parent entity:** The parent entity page should link to significant decision markets in a "## Key Decisions" section. Not every proposal warrants a link — only those that materially changed the entity's trajectory.
+**Relationship to parent entity:** The parent entity page should include a "## Key Decisions" summary table with date, title (wiki-linked), proposer, volume, and outcome. Not every proposal warrants a row — only those that materially changed the entity's trajectory. The full detail lives in the decision_market entity file.
+
+```markdown
+## Key Decisions
+| Date | Proposal | Proposer | Volume | Outcome |
+|------|----------|----------|--------|---------|
+| 2025-02-10 | [[metadao-hire-robin-hanson]] | proph3t | $X | Passed |
+| 2024-03-03 | [[metadao-burn-993-meta]] | proph3t | $X | Passed |
+| 2024-06-26 | [[metadao-fundraise-2]] | proph3t | $X | Passed |
+```
 
 **What gets a decision_market entity vs. a timeline entry:**
 - **Entity:** Proposals with real capital at stake, governance decisions that changed organizational direction, markets that produced notable information, or contested outcomes (significant volume on both sides — a contested failure is more informative than an uncontested pass)
