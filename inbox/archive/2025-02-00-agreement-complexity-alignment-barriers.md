@@ -7,7 +7,15 @@ date: 2025-02-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: processed
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted:
+  - "alignment impossibility is convergently proven by three independent mathematical traditions suggesting it reflects structural properties of the problem not limitations of current methods"
+  - "reward hacking is globally inevitable in large task spaces because finite training samples cannot achieve statistical coverage of rare high-loss states"
+  - "consensus-driven objective reduction provides a practical escape from alignment intractability by narrowing the objective space rather than attempting full preference coverage"
+enrichments:
+  - "foundations/collective-intelligence/universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective — third independent confirmation from multi-objective optimization tradition"
 priority: high
 tags: [impossibility-result, agreement-complexity, reward-hacking, multi-objective, safety-critical-slices]
 ---
