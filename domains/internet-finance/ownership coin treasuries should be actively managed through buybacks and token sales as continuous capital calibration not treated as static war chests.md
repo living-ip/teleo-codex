@@ -34,6 +34,12 @@ The deeper connection: since [[Living Capital vehicles are agentically managed S
 - "Continuous calibration" may be indistinguishable from insider trading without robust disclosure mechanisms
 - Since [[futarchy-governed entities are structurally not securities because prediction market participation replaces the concentrated promoter effort that the Howey test requires]], active treasury management by a team could re-introduce the "efforts of others" prong that the structural argument depends on eliminating
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-25-oxranga-solomon-lab-notes-05]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Solomon Labs announced "upcoming treasury deployment proposals and $SOLO buyback initiatives" as part of their treasury strategy, providing a concrete example of active treasury management adoption in the MetaDAO ecosystem. This follows YaaS revenue generation (22% APY yields, 3.5x pool growth), suggesting buybacks funded by protocol revenue rather than static treasury drawdown. While still in announcement phase, this demonstrates the active treasury management thesis being adopted by MetaDAO projects in production.
+
 ---
 
 Relevant Notes:
