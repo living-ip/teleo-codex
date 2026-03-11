@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/87ZWGbregxaa7TMD3TgYg6n2ADdTN1vqXpVCtSvKjEjw"
 date: 2026-03-04
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["irich-combines-link-in-bio-with-solana-blinks-and-dex-referrals-to-monetize-social-traffic-through-embedded-transactions.md", "richnames-nft-username-pricing-uses-character-length-tiers-from-500-sol-for-single-characters-to-0-01-sol-for-10-plus-characters.md", "irich-fundraise-failed-with-255-dollars-of-100000-dollar-target-committed-before-refunding.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 3 claims from failed futarchy fundraise pitch. Primary value is as empirical data point on MetaDAO platform rejection mechanisms and futarchy-governed capital formation. Product claims are experimental confidence due to single-source self-reported pitch deck with no independent validation. Fundraise failure is proven fact. Enriched 3 existing claims with new evidence on futarchy adoption friction, timeline compression, and platform rejection mechanisms."
 ---
 
 ## Launch Details
@@ -135,3 +141,16 @@ Richnames NFT usernames generate immediate revenue from Day 1. Pricing follows a
 - Token mint: `852igHkfJvy8XVDxBVCnunDxCudTtiYVT7LErBxymeta`
 - Version: v0.7
 - Closed: 2026-03-05
+
+
+## Key Facts
+- i.rich launch address: 87ZWGbregxaa7TMD3TgYg6n2ADdTN1vqXpVCtSvKjEjw
+- i.rich token: 852 (852)
+- i.rich token mint: 852igHkfJvy8XVDxBVCnunDxCudTtiYVT7LErBxymeta
+- Futard.io platform version: v0.7
+- i.rich website: https://i.rich
+- i.rich Twitter: https://x.com/idotrich
+- i.rich Telegram: https://t.me/i_dot_rich
+- Team burn rate: $10,000/month ($5k team, $2k infrastructure, $3k marketing)
+- Planned runway: 10 months
+- Q1 2026 milestones completed: Jupiter & Raydium Swap Integration, Richnames Smart Contract (Devnet), SNS Support, Dynamic Link Parsing Engine

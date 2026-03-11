@@ -34,6 +34,12 @@ MycoRealms implementation reveals operational friction points: monthly $10,000 a
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-03-04-futardio-launch-irich]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(confirm) i.rich pitch deck reveals complexity barriers in futarchy-governed fundraising: the team produced a 7-section pitch document including executive summary, product overview, competitive analysis, detailed roadmap, use of funds breakdown, revenue model, and 'launchpad strategic insights' section. This is comparable to traditional VC pitch deck requirements, suggesting futarchy has not eliminated proposal complexity despite theoretically replacing due diligence with market mechanisms. The failed raise ($255 of $100,000) may indicate either that liquidity requirements were not met or that the complexity of the proposal itself created barriers to market participation. The one-day closure suggests insufficient market engagement to generate meaningful trading volume, which could reflect either low liquidity or low confidence in the proposal's ability to increase token value.
+
 ---
 
 Relevant Notes:
