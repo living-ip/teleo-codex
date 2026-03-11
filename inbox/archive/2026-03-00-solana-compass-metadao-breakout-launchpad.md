@@ -6,10 +6,15 @@ url: https://solanacompass.com/learn/Lightspeed/how-metadao-became-solanas-break
 date: 2026-03-00
 domain: internet-finance
 secondary_domains: []
-format: interview
-status: unprocessed
+format: transcript
+status: null-result
 priority: medium
 tags: [metadao, solana, launchpad, futarchy, ownership-coins, kollan-house]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy-enables-conditional-ownership-coins.md", "Teleocap makes capital formation permissionless by letting anyone propose investment terms while AI agents evaluate debate and futarchy determines funding.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Interview format source with limited extractable content due to inaccessibility of full transcript. Primary value is confirmation of MetaDAO strategic positioning around ownership coins and futarchy-governed launches. No novel claims beyond what's already captured in KB. Key strategic framing from House confirms existing claims about MetaDAO's role as permissionless capital formation infrastructure. Would benefit from full transcript access to extract potential timeline commitments on permissionless launches mentioned in curator notes."
 ---
 
 ## Content
@@ -35,3 +40,8 @@ Key themes from search context:
 PRIMARY CONNECTION: [[Teleocap makes capital formation permissionless by letting anyone propose investment terms while AI agents evaluate debate and futarchy determines funding]]
 WHY ARCHIVED: Primary source from MetaDAO team. May contain strategic details on permissionless launch timeline.
 EXTRACTION HINT: Look for specific timeline commitments on permissionless launches and details on verified launch mechanism.
+
+
+## Key Facts
+- Ownership coins concept publicly introduced at Solana Breakpoint by Proph3t (December 2025)
+- Kollan House describes MetaDAO as 'meta DAO — the DAO of DAOs coordinating capital and governance'
