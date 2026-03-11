@@ -53,6 +53,7 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **2026-03** — Ranger liquidation proposal; treasury subcommittee formation
 - **2026-03** — Pine Analytics Q4 2025 quarterly report published
 
+- **2024-02-18** — [[metadao-otc-trade-pantera-capital]] failed: Pantera Capital's $50,000 OTC purchase proposal rejected by futarchy markets
 ## Key Decisions
 | Date | Proposal | Proposer | Category | Outcome |
 |------|----------|----------|----------|---------|

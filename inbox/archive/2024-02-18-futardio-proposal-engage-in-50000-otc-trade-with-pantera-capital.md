@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/H59VHchVsy8UVLotZLs7YaFv2FqTH5HAeXc4Y48kxie
 date: 2024-02-18
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Proposal entity extraction. No novel claims - this is factual governance event data. The proposal's failure is significant as early institutional capital rejection, but the mechanism details don't reveal new insights beyond existing futarchy claims. Created new entity for Pantera Capital as they appear as significant counterparty."
 ---
 
 ## Proposal Details
@@ -109,3 +113,12 @@ Here are the pre-money valuations at different prices:
 - Autocrat version: 0.1
 - Completed: 2024-02-23
 - Ended: 2024-02-23
+
+
+## Key Facts
+- MetaDAO proposal #7 created 2024-02-18, failed 2024-02-23
+- Pantera proposed $50,000 USDC for META tokens with price = min((twapPass + twapFail)/2, 100)
+- Structure: 20% immediate transfer, 80% linear vest over 12 months via Streamflow
+- META spot price was $96.93 on 2024-02-17 with 14,530 circulating supply
+- Multisig signers: Pantera (2 addresses), 0xNallok, MetaProph3t, Dodecahedr0x, Durden, Blockchainfixesthis
+- Proposal rationale cited Pantera's interest in futarchy governance testing and Solana ecosystem exposure
