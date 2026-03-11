@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/AnCu4QFDmoGpebfAM8Aa7kViouAk1JW6LJCJJer6ELB
 date: 2025-02-10
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2025-02-10
+enrichments_applied: ["futarchy-governed-DAOs-converge-on-traditional-corporate-governance-scaffolding-for-treasury-operations-because-market-mechanisms-alone-cannot-provide-operational-security-and-legal-compliance.md", "futarchy-implementations-must-simplify-theoretical-mechanisms-for-production-adoption-because-original-designs-include-impractical-elements-that-academics-tolerate-but-users-reject.md", "MetaDAO-is-the-futarchy-launchpad-on-Solana-where-projects-raise-capital-through-unruggable-ICOs-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Governance proposal data showing MetaDAO's operational evolution. No novel claims—all insights enrich existing claims about futarchy implementation, mechanism simplification, and MetaDAO's platform development. The proposal demonstrates convergence on traditional advisory structures while iterating on futarchy mechanism design for capital efficiency."
 ---
 
 ## Proposal Details
@@ -76,3 +81,11 @@ Either Robin, MetaDAO, or Proph3t and Kollan in unanimous agreement would be abl
 - Autocrat version: 0.3
 - Completed: 2025-02-13
 - Ended: 2025-02-13
+
+
+## Key Facts
+- MetaDAO Proposal 12 passed on 2025-02-13 to hire Robin Hanson as advisor
+- Compensation: 0.1% supply (20.9 META) vested over 2 years
+- Proposal account: AnCu4QFDmoGpebfAM8Aa7kViouAk1JW6LJCJJer6ELBF
+- Autocrat version: 0.3
+- Early termination clause allows Robin, MetaDAO, or Proph3t+Kollan unanimous agreement to cancel
