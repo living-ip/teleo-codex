@@ -53,6 +53,12 @@ Autocrat is MetaDAO's core governance program on Solana -- the on-chain implemen
 
 **Limitations.** [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- when proposals are clearly good or clearly bad, few traders participate because the expected profit from trading in a consensus market is near zero. This is a structural feature, not a bug: contested decisions get more participation precisely because they're uncertain, which is when you most need information aggregation. But it does mean uncontested proposals can pass or fail with very thin markets, making the TWAP potentially noisy.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-02-04-futardio-proposal-should-a-percentage-of-sam-bids-route-to-mnde-stakers]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Marinade's MIP.5 proposal used Autocrat version 0.3 for futarchy governance, with proposal account DnDiyjAcmS3BNmNEJa2ydEbd6DgnddpkyVXJfngdRTzF completing on 2025-02-07. The proposal routed SAM bid percentages to MNDE stakers, representing a treasury/revenue allocation decision made through conditional markets. This demonstrates Autocrat's use beyond simple binary decisions, extending to complex revenue-sharing mechanism design.
+
 ---
 
 Relevant Notes:

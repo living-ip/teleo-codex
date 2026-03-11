@@ -37,6 +37,12 @@ The contrast with Ranger is instructive. Ranger's liquidation shows futarchy han
 - The subcommittee model introduces trusted roles that could recentralize power over time, undermining the trustless property that makes futarchy valuable
 - Since [[Ooki DAO proved that DAOs without legal wrappers face general partnership liability making entity structure a prerequisite for any futarchy-governed vehicle]], some of this scaffolding is legally required rather than a failure of market mechanisms
 
+
+### Additional Evidence (extend)
+*Source: [[2025-02-04-futardio-proposal-should-a-percentage-of-sam-bids-route-to-mnde-stakers]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Marinade's MIP.5 demonstrates futarchy governance extending beyond treasury operations into protocol mechanism design. The proposal didn't just allocate existing treasury funds but established an ongoing revenue-routing mechanism from SAM bids to stakers. However, implementation still required 'development and implementation' post-approval, indicating futarchy handles the decision while traditional execution follows. This suggests futarchy's scope may be broader than treasury-only operations, covering protocol economics and incentive design, but still relies on off-chain execution infrastructure.
+
 ---
 
 Relevant Notes:
