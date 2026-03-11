@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/53ppyvNpFw8n1snUNz6KqRYXxxqFEXnDrnKb4ippX8Sy"
 date: 2026-02-25
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Single launch example demonstrating full unruggable ICO structure (DAO LLC, futarchy treasury, performance vesting) applied to AI companion product. Low funding target and immediate refunding status suggests test deployment or failed minimum raise. Provides concrete implementation evidence for MetaDAO governance architecture and raises question about brand separation strategy for failed launches."
 ---
 
 ## Launch Details
@@ -85,3 +90,12 @@ This is the only kind of raise that makes sense for a product designed to last a
 - Token mint: `5eaktMQvr6PGNaLkRNjjJFgWP33ANfCbUEQDMVgQmeta`
 - Version: v0.7
 - Closed: 2026-02-25
+
+
+## Key Facts
+- Fancy Cats launch address: 53ppyvNpFw8n1snUNz6KqRYXxxqFEXnDrnKb4ippX8Sy
+- Token: 5ea, mint: 5eaktMQvr6PGNaLkRNjjJFgWP33ANfCbUEQDMVgQmeta
+- Funding target: $100.00, Status: Refunding
+- Launch date: 2026-02-25, Closed: 2026-02-25
+- Platform version: v0.7
+- Project website: https://meow.aol
