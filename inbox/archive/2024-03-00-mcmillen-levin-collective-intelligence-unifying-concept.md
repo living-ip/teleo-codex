@@ -8,6 +8,7 @@ domain: collective-intelligence
 secondary_domains: [critical-systems, ai-alignment]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [collective-intelligence, multi-scale, diverse-intelligence, biology, morphogenesis, competency-architecture]
 processed_by: theseus

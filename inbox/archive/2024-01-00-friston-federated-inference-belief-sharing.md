@@ -8,6 +8,7 @@ domain: collective-intelligence
 secondary_domains: [ai-alignment, critical-systems]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [active-inference, federated-inference, belief-sharing, multi-agent, distributed-intelligence, collective-intelligence]
 processed_by: theseus

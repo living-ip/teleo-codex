@@ -8,6 +8,7 @@ domain: space-development
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [starship, spacex, raptor-3, v3, reusability, launch-cost]
 processed_by: astra

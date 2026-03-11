@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [federated-rlhf, preference-aggregation, pluralistic-alignment, ppo, adaptive-weighting]
 processed_by: theseus

@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: []
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [pluralistic-alignment, personalization, survey, taxonomy, RLHF, DPO]
 processed_by: theseus

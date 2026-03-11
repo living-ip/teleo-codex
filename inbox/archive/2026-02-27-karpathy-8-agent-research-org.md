@@ -9,6 +9,7 @@ domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: tweet
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [multi-agent, research-org, agent-collaboration, prompt-engineering, organizational-design]
 flagged_for_theseus: ["Multi-model collaboration evidence — 8 agents, different setups, empirical failure modes"]

@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [collective-intelligence, mechanisms]
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [democratic-alignment, evaluation, pluralistic, global-dialogues, weval, samiksha, empirical-results]
 processed_by: theseus

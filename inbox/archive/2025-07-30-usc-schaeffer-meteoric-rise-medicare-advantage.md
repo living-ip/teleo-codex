@@ -8,6 +8,7 @@ domain: health
 secondary_domains: []
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [medicare-advantage, enrollment-growth, beneficiary-savings, health-affairs, political-economy]
 processed_by: vida

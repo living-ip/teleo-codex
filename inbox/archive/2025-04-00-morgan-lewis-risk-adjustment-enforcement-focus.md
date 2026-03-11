@@ -8,6 +8,7 @@ domain: health
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [risk-adjustment, false-claims-act, doj, oig, enforcement, upcoding, medicare-advantage]
 processed_by: vida

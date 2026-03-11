@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [collective-intelligence, critical-systems]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [active-inference, reinforcement-learning, expected-free-energy, epistemic-value, exploration-exploitation, comparison]
 processed_by: theseus

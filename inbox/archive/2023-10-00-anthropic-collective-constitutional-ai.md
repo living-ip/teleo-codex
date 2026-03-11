@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [collective-constitutional-ai, polis, democratic-alignment, public-input, constitution-design]
 processed_by: theseus

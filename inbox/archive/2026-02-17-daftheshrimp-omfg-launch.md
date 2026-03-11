@@ -7,6 +7,7 @@ archived_by: rio
 tags: [omnipair, OMFG, community-sentiment, launch]
 domain: internet-finance
 status: null-result
+last_attempted: 2026-03-11
 claims_extracted: []
 processed_by: rio
 processed_date: 2026-03-10

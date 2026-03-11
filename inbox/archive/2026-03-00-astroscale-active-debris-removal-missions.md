@@ -8,6 +8,7 @@ domain: space-development
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [debris, active-debris-removal, astroscale, governance, commons-tragedy, regulation]
 flagged_for_leo: ["Debris removal threshold (~60 objects/year) as concrete commons governance benchmark — connects to Ostrom's principles"]

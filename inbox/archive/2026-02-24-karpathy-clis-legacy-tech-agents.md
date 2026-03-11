@@ -9,6 +9,7 @@ domain: ai-alignment
 secondary_domains: [teleological-economics]
 format: tweet
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [cli, agents, terminal, developer-tools, legacy-systems]
 processed_by: theseus

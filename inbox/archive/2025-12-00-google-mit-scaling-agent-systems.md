@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [multi-agent, architecture-comparison, scaling, empirical, coordination, error-amplification]
 flagged_for_leo: ["Cross-domain implications of the baseline paradox — does coordination hurt above a performance threshold in knowledge work too?"]

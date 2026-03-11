@@ -8,6 +8,7 @@ domain: critical-systems
 secondary_domains: [collective-intelligence, ai-alignment]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: low
 tags: [active-inference, multi-scale, markov-blankets, cognitive-boundaries, free-energy-principle, internalism-externalism]
 processed_by: theseus

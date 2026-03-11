@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [hybrid-AI-human, creative-workflows, production-efficiency, entertainment-AI]
 processed_by: clay

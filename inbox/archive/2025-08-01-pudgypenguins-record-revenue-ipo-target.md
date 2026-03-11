@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: [internet-finance]
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [community-owned-ip, pudgy-penguins, web3-entertainment, franchise, revenue, phygital]
 flagged_for_rio: ["web3 franchise monetization model and token economics relevant to internet finance domain"]

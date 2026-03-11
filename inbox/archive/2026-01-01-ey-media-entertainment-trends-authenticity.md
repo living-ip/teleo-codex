@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [authenticity, ai-content, media-trends, consumer-preferences, streaming, podcast]
 processed_by: clay

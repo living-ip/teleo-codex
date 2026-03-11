@@ -8,6 +8,7 @@ domain: health
 secondary_domains: []
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [medicare-advantage, upcoding, risk-adjustment, coding-intensity, market-dynamics, plan-variation]
 processed_by: vida

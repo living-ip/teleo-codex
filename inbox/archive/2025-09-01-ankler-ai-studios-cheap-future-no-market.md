@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [ai-studios, market-skepticism, distribution, hollywood-resistance, ip-copyright]
 processed_by: clay

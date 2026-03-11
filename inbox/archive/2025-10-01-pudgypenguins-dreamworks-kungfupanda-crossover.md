@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: [internet-finance]
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [pudgy-penguins, dreamworks, kung-fu-panda, community-IP, studio-partnership, crossover]
 flagged_for_rio: ["Community-owned IP partnering with major studio IP — what are the deal economics?"]

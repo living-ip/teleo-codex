@@ -8,6 +8,7 @@ domain: space-development
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [china, long-march-10b, reusability, state-directed, competition, timeline]
 processed_by: astra

@@ -8,6 +8,7 @@ domain: ai-alignment
 secondary_domains: [collective-intelligence, critical-systems]
 format: paper
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [active-inference, free-energy-principle, multi-agent, collective-intelligence, shared-intelligence, ecosystems-of-intelligence]
 processed_by: theseus

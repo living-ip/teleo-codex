@@ -8,6 +8,7 @@ domain: internet-finance
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [metadao, capital-formation, ownership-coins, futarchy, DAO-LLC, performance-packages]
 processed_by: rio

@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [consumer-acceptance, ai-disclosure, authenticity, trust, regulation, uk-audience]
 processed_by: clay

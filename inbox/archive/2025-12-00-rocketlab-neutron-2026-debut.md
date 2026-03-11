@@ -8,6 +8,7 @@ domain: space-development
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [rocket-lab, neutron, medium-lift, reusability, competition, vertical-integration]
 processed_by: astra

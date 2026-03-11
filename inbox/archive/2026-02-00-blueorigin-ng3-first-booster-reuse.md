@@ -8,6 +8,7 @@ domain: space-development
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [blue-origin, new-glenn, booster-reuse, ast-spacemobile, competition, reusability]
 processed_by: astra

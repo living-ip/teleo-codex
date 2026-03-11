@@ -8,6 +8,7 @@ domain: internet-finance
 secondary_domains: []
 format: transcript
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [metadao, solana, launchpad, futarchy, ownership-coins, kollan-house]
 processed_by: rio

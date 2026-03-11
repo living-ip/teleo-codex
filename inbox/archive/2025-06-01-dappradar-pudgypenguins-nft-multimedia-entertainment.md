@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: [internet-finance]
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [pudgy-penguins, multimedia, storytelling, community-ip, web3-entertainment, lil-pudgys]
 processed_by: clay

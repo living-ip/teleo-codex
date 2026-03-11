@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: [cultural-dynamics]
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: high
 tags: [mrbeast, long-form-storytelling, attention-economy, narrative-depth, content-strategy]
 processed_by: clay

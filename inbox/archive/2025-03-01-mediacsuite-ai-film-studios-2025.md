@@ -8,6 +8,7 @@ domain: entertainment
 secondary_domains: []
 format: report
 status: null-result
+last_attempted: 2026-03-11
 priority: medium
 tags: [ai-studios, independent-film, production-costs, narrative-craft, democratization]
 processed_by: clay
