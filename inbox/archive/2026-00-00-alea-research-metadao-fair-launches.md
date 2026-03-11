@@ -6,7 +6,7 @@ url: https://alearesearch.substack.com/p/metadao
 date: 2026-00-00
 domain: internet-finance
 secondary_domains: []
-format: article
+format: report
 status: null-result
 priority: medium
 tags: [metadao, ownership-coins, ICO, launchpad, futarchy, token-performance]
