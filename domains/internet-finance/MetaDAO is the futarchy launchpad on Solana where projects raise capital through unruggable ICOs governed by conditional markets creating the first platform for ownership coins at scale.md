@@ -76,6 +76,12 @@ MycoRealms launch on Futardio demonstrates MetaDAO platform capabilities in prod
 
 Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform supports purely speculative meme coin launches, not just productive ventures. The project raised $11,402,898 against a $50,000 target in under 24 hours (22,706% oversubscription) with stated fund use for 'fan merch, token listings, private events/partys'—consumption rather than productive infrastructure. This extends MetaDAO's demonstrated use cases beyond productive infrastructure (Myco Realms mushroom farm, $125K) to governance-enhanced speculative tokens, suggesting futarchy's anti-rug mechanisms appeal across asset classes.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-03-19-futardio-proposal-engage-in-250000-otc-trade-with-colosseum]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Proposal 13 shows MetaDAO using futarchy for strategic partnership structuring beyond project launches. Colosseum (Solana's hackathon operator) acquired $250k META through a futarchy-governed proposal that bundled capital with ecosystem commitments (DAO track sponsorship worth $50-80k, developer pipeline access). The proposal used conditional pricing based on pass market TWAP with three tiers, demonstrating futarchy extending beyond binary fundraising decisions to complex financial transactions with vesting, multisig coordination, and strategic value beyond capital.
+
 ---
 
 Relevant Notes:

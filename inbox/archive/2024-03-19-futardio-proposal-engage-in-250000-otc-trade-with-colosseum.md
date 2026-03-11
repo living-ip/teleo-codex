@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/5qEyKCVyJZMFZSb3yxh6rQjqDYxASiLW7vFuuUTCYnb
 date: 2024-03-19
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-03-19
+claims_extracted: ["colosseum-metadao-250k-otc-demonstrates-futarchy-governed-strategic-partnership-acquisition.md", "colosseum-metadao-partnership-bundles-capital-with-ecosystem-access-and-hackathon-sponsorship.md"]
+enrichments_applied: ["MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims about futarchy-governed strategic partnerships and OTC structuring. This proposal demonstrates futarchy extending beyond binary governance to complex financial transactions with conditional pricing, vesting, and bundled strategic commitments. Enriched three existing claims with evidence of Autocrat's operational complexity and strategic partnership capabilities."
 ---
 
 ## Proposal Details
@@ -90,3 +96,15 @@ We won’t speculate on what the exact ROI will be to META in the short to mediu
 - Autocrat version: 0.1
 - Completed: 2024-03-24
 - Ended: 2024-03-24
+
+
+## Key Facts
+- MetaDAO Proposal 13 passed 2024-03-24 (created 2024-03-19)
+- Colosseum acquired up to $250k USDC worth of META tokens
+- META spot price at proposal: $468.09 (2024-03-18 18:09 UTC)
+- META circulating supply at proposal: 17,421 tokens
+- Vesting structure: 20% immediate, 80% linear over 12 months via Streamflow
+- Multisig: 5/7 threshold with members from Colosseum (2) and MetaDAO (5)
+- Bundled commitment: DAO track sponsorship in next post-Renaissance hackathon ($50-80k prize pool)
+- Pricing tiers: TWAP < $850 → TWAP; $850 ≤ TWAP < $1,200 → $850; TWAP ≥ $1,200 → void
+- Treasury transferred 2,060 META to multisig (overallocated for price flexibility)

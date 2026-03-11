@@ -53,6 +53,12 @@ Autocrat is MetaDAO's core governance program on Solana -- the on-chain implemen
 
 **Limitations.** [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- when proposals are clearly good or clearly bad, few traders participate because the expected profit from trading in a consensus market is near zero. This is a structural feature, not a bug: contested decisions get more participation precisely because they're uncertain, which is when you most need information aggregation. But it does mean uncontested proposals can pass or fail with very thin markets, making the TWAP potentially noisy.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-03-19-futardio-proposal-engage-in-250000-otc-trade-with-colosseum]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Proposal 13 demonstrates Autocrat handling complex conditional execution beyond binary pass/fail: the proposal included three-tier pricing logic (TWAP < $850 → use TWAP; $850 ≤ TWAP < $1,200 → cap at $850; TWAP ≥ $1,200 → void proposal). This required 8-step multisig execution coordinating between MetaDAO treasury, Colosseum, and a 5/7 multisig with members from both organizations. The proposal passed and completed 2024-03-24, showing Autocrat can coordinate multi-party financial transactions with conditional pricing, vesting schedules (20% immediate, 80% linear 12-month), and strategic commitments bundled into a single futarchy decision.
+
 ---
 
 Relevant Notes:

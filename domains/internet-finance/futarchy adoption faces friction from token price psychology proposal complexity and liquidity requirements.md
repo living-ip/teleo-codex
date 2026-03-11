@@ -34,6 +34,12 @@ MycoRealms implementation reveals operational friction points: monthly $10,000 a
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-03-19-futardio-proposal-engage-in-250000-otc-trade-with-colosseum]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Proposal 13 required an 8-step multisig execution process with 5/7 threshold coordination between MetaDAO and Colosseum members. The complexity included: (1) accepting META into multisig, (2) accepting $250k USDC, (3) calculating price per META based on three-tier conditional logic, (4) confirmation from two MetaDAO parties, (5) calculating final allocation, (6) transferring 20% immediately, (7) configuring 12-month Streamflow vesting, (8) transferring 80% to vesting and returning excess to treasury. The proposal explicitly noted overallocating 2,060 META 'due to fluctuations in the price of META' to handle the conditional pricing ranges, demonstrating operational complexity friction in futarchy execution.
+
 ---
 
 Relevant Notes:
