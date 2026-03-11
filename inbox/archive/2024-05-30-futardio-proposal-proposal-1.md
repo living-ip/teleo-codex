@@ -6,7 +6,7 @@ url: "https://www.futard.io/proposal/8AEsxyN8jhth5WQZHjU9kS3JcRHaUmpck7qZgpv2v4w
 date: 2024-05-30
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 processed_by: rio
