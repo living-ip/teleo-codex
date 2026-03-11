@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/E1FJAp8saDU6Da2ccayjLBfA53qbjKRNYvu7QiMAnjQ
 date: 2024-02-18
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-02-18
+enrichments_applied: ["futarchy-governed-DAOs-converge-on-traditional-corporate-governance-scaffolding-for-treasury-operations-because-market-mechanisms-alone-cannot-provide-operational-security-and-legal-compliance.md", "MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md", "time-based-token-vesting-is-hedgeable-making-standard-lockups-meaningless-as-alignment-mechanisms-because-investors-can-short-sell-to-neutralize-lockup-exposure-while-appearing-locked.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Failed MetaDAO proposal for $100k OTC trade. Extracted two claims: (1) the vesting mechanism design for managing large token sales, (2) the market rejection despite acknowledged liquidity need. Four enrichments confirm existing claims about futarchy scaffolding, TWAP usage, adoption friction, and vesting limitations. The proposal's failure is particularly interesting as evidence of futarchy rejecting a solution to a stated problem, suggesting the mechanism can distinguish between 'we have a problem' and 'this solution is net positive.'"
 ---
 
 ## Proposal Details
@@ -140,3 +145,15 @@ Here are some post-money valuations at different prices as well total increase i
 - Autocrat version: 0.1
 - Completed: 2024-02-24
 - Ended: 2024-02-24
+
+
+## Key Facts
+- MetaDAO Proposal 8 created 2024-02-18, failed 2024-02-24
+- Proposal sought $100k USDC for up to 500 META tokens
+- Price formula: max(twapPass, 200)
+- Vesting structure: 20% immediate, 80% linear over 12 months
+- META spot price at proposal: $695.92 (2024-02-18 20:20 UTC)
+- META circulating supply: 14,530 tokens
+- Multisig: 6 members, 4/6 threshold (Proph3t, Dean, 0xNallok, Durden, Blockchainfixesthis, Rar3)
+- Projected circulating supply increase: 2-7%
+- Projected META value increase: ~15%
