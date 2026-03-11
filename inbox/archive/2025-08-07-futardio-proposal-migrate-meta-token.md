@@ -6,7 +6,14 @@ url: "https://www.futard.io/proposal/4grb3pea8ZSqE3ghx76Fn43Q97mAh64XjgwL9AXaB3P
 date: 2025-08-07
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted:
+  - "futarchy-daos-require-mintable-governance-tokens-because-fixed-supply-treasuries-exhaust-without-issuance-authority-forcing-disruptive-token-architecture-migrations"
+enrichments:
+  - "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements — META 1:1000 split confirms token split as solution for unit bias"
+  - "MetaDAOs Autocrat program — v0.5 program address auToUr3CQza3D4qreT6Std2MTomfzvrEeCC5qh7ivW5 adds to on-chain program details"
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 ---
