@@ -7,10 +7,15 @@ date: 2026-01-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence, mechanisms]
 format: article
-status: unprocessed
+status: null-result
 priority: high
 tags: [rlcf, bridging-consensus, polis, democratic-alignment, attentiveness, community-feedback]
 flagged_for_rio: ["RLCF as mechanism design — bridging algorithms are formally a mechanism design problem"]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations.md", "RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values.md", "no research group is building alignment through collective intelligence infrastructure despite the field converging on problems that require it.md", "AI alignment is a coordination problem not a technical problem.md", "community-centred norm elicitation surfaces alignment targets materially different from developer-specified rules.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three new claims extracted focusing on RLCF as structural alternative to RLHF, the attentiveness framework as democratic alignment architecture, and Polis as bridging consensus mechanism. Five enrichments applied, including a significant challenge to the claim that no research group is building collective intelligence infrastructure (Taiwan has been doing this since 2014). Key theoretical gap identified: Tang does not engage Arrow's theorem directly, so whether RLCF formally sidesteps social choice impossibility remains open. The Taiwan empirical evidence (447 citizens → unanimous parliamentary support in months) is remarkably strong for democratic alignment at policy scale. RLCF lacks technical specification—described at philosophy level, not engineering level."
 ---
 
 ## Content
@@ -55,3 +60,10 @@ The framework emphasizes integrity infrastructure including oversight by citizen
 PRIMARY CONNECTION: [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]]
 WHY ARCHIVED: RLCF is the first mechanism I've seen that might structurally handle preference diversity without hitting Arrow's impossibility — the constructive alternative our KB needs
 EXTRACTION HINT: Focus on (1) whether RLCF formally sidesteps Arrow's theorem and (2) the Taiwan evidence as democratic alignment at policy scale
+
+
+## Key Facts
+- Audrey Tang: Taiwan's cyber ambassador, first digital minister, 2025 Right Livelihood Laureate
+- vTaiwan platform operational since 2014
+- Taiwan 2026 case: 447 randomly selected citizens, unanimous parliamentary support achieved within months
+- Polis: machine learning platform for real-time vote analysis and consensus-building
