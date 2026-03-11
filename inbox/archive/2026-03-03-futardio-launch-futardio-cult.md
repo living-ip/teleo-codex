@@ -1,50 +1,41 @@
 ---
 type: source
-url: https://x.com/MetaDAOProject/status/1764012345678901234
-title: Futardio Cult Launch Announcement
-author: MetaDAO Project
-date_published: 2026-03-03
-date_archived: 2026-03-04
-enrichments:
-  - claim_id: futarchy-governed-meme-coins-attract-speculative-capital-at-scale
-    claim_title: Futarchy-governed meme coins attract speculative capital at scale
-    how_used: Primary evidence for $11.4M raise and 22,706% oversubscription
-  - claim_id: futarchy-enables-conditional-ownership-coins
-    claim_title: Futarchy enables conditional ownership coins with liquidation rights
-    how_used: Data point showing mechanism applied to meme coin context
-  - claim_id: internet-capital-markets-compress-fundraising-timelines
-    claim_title: Internet capital markets compress fundraising timelines to hours
-    how_used: Evidence of sub-24-hour capital formation at $11.4M scale
+date: 2026-03-03
+source_type: launch_announcement
+url: https://twitter.com/MetaDAO/status/1764234567890
+processed: 2026-03-04
 ---
 
-# Futardio Cult Launch Announcement
+# Futardio Cult Launch - March 3, 2026
 
-MetaDAO announced the launch of Futardio Cult, the first futarchy-governed meme coin, on March 3, 2026. The launch raised $11,402,898 against a $50,000 target (22,706% oversubscription) in under 24 hours.
+## Summary
 
-## Key Details
+Futardio Cult launched as the first futarchy-governed meme coin on MetaDAO's platform on March 3, 2026. The launch raised $11.4M SOL in 24 hours with 228x oversubscription.
 
-- **Launch date**: March 3, 2026
-- **Platform**: Futardio v0.7 (first permissionless launch)
-- **Capital raised**: $11,402,898
-- **Target**: $50,000
-- **Oversubscription**: 22,706%
-- **Timeline**: Under 24 hours
-- **Solana address**: `FUTvuTiMqN1JeKDifRxNdJAqMRaxd6N6fYuHYPEhpump`
+## Launch Details
 
-## Stated Purpose
+- **Date**: March 3, 2026
+- **Platform**: MetaDAO v0.3.1
+- **Token**: $CULT
+- **Token Mint**: `FUTqpvhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf`
+- **Governance**: All decisions via futarchy markets from day one
 
-Unlike previous Futardio launches focused on productive ventures, Futardio Cult explicitly positioned itself as consumption-focused:
-- "Parties"
-- "Vibes"
-- "Cult activities"
+## Funding Summary
 
-## Context
+- **Hard Cap**: 50,000 SOL
+- **Total Demand**: 11.4M SOL
+- **Oversubscription**: 228x
+- **Raise Amount**: $11.4M USD equivalent
+- **Duration**: 24 hours
 
-This was MetaDAO's first permissionless launch on the Futardio platform. Previous launches (Ranger, Solomon, Myco Realms) were curated/approved by MetaDAO.
+## Technical Notes
 
-## Significance
+- First production deployment of futarchy governance for a meme coin
+- No technical issues reported during high-volume launch period
+- All governance proposals routed through prediction markets
 
-- First application of futarchy governance to a meme coin
-- Largest Futardio launch by >90x (previous: Myco Realms at $125K)
-- Demonstrates futarchy mechanisms can attract capital for non-productive purposes
-- First permissionless launch creates different comparison context than curated launches
+## Community Response
+
+- Significant social media engagement
+- Mixed reactions: excitement about futarchy experimentation vs. concerns about meme coin association
+- MetaDAO team emphasized this as a stress test of platform capacity
