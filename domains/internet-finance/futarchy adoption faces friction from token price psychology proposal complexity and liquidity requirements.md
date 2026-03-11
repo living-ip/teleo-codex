@@ -34,6 +34,12 @@ MycoRealms implementation reveals operational friction points: monthly $10,000 a
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-05-futardio-launch-futardio-boat]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The Futardio Boat campaign reveals an additional friction point beyond token psychology, proposal complexity, and liquidity: futarchy markets struggle to evaluate proposals where ROI is indirect, long-term, and non-financial. The campaign's marketing thesis required markets to price the value of 'persistent brand awareness' and 'organic content generation' over 24 months—outcomes that cannot be directly measured in token price impact. The immediate refunding (launched March 5, refunding March 6, 2026) suggests futarchy markets defaulted to rejection when faced with uncertain marketing ROI rather than attempting to price it through conditional markets. This is a distinct friction point: when the causal chain from decision to token price is long and noisy (marketing ROI → brand value → platform adoption → token price), futarchy's price discovery mechanism appears to break down. The mechanism works for relative selection (which feature increases retention?) but fails for absolute prediction of long-term, indirect effects (does this marketing campaign justify €150,000 + €120,000 operational cost?).
+
 ---
 
 Relevant Notes:

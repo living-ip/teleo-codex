@@ -76,6 +76,12 @@ MycoRealms launch on Futardio demonstrates MetaDAO platform capabilities in prod
 
 Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform supports purely speculative meme coin launches, not just productive ventures. The project raised $11,402,898 against a $50,000 target in under 24 hours (22,706% oversubscription) with stated fund use for 'fan merch, token listings, private events/partys'—consumption rather than productive infrastructure. This extends MetaDAO's demonstrated use cases beyond productive infrastructure (Myco Realms mushroom farm, $125K) to governance-enhanced speculative tokens, suggesting futarchy's anti-rug mechanisms appeal across asset classes.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-05-futardio-launch-futardio-boat]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The Futardio Boat campaign extends MetaDAO/futard.io's application domain from purely financial/digital assets to physical infrastructure and marketing operations. The campaign structure applies futarchy governance to ongoing operational decisions: 'Any expenditure beyond €5,000/month requires a governance proposal on the futard.io platform.' This demonstrates futarchy markets evaluating not just one-time capital allocation decisions but continuous operational management of physical assets. The €150,000 raise for 24-month runway at ~€5,000/month burn creates a structure where futarchy governs both initial funding and ongoing spending authority. However, the immediate refunding status (launched March 5, refunding March 6, 2026) suggests futarchy markets may struggle to price physical infrastructure projects compared to digital/financial assets where value signals are clearer. This reveals a limitation in the 'first platform for ownership coins at scale' thesis: scale may be constrained to financial/digital outcomes where futarchy's price discovery mechanism works effectively.
+
 ---
 
 Relevant Notes:

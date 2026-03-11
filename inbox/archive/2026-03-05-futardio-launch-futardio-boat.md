@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/rFdgjcZYHgcsGy44iyvN95JRjB3Yr8APps437cd2HEL"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["futardio-boat-demonstrates-futarchy-governed-physical-marketing-infrastructure-through-150k-amsterdam-canal-boat-raise.md", "physical-brand-presence-in-tourist-destinations-creates-algorithmic-resistance-and-organic-content-generation-that-digital-advertising-cannot-replicate.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Source is a futarchy-governed fundraise for physical marketing infrastructure (Amsterdam canal boat). Primary extraction: two claims about futarchy governance of physical assets and physical marketing thesis. Three enrichments to existing futarchy adoption and MetaDAO claims. Campaign's immediate refunding provides negative evidence about futarchy's ability to evaluate non-financial proposals with indirect ROI. The rapid failure (one day) is itself significant data about market confidence in physical infrastructure projects on futarchy platforms."
 ---
 
 ## Launch Details
@@ -202,3 +208,13 @@ Campaign live on futard.io — support the FUTARDIO Boat.
 - Token mint: `6AuEKXSe1yesLW4zFU8hqaevutQ87ow7meftr8Pbmeta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- Futardio Boat campaign launched 2026-03-05 targeting €150,000 raise
+- Campaign entered Refunding status by 2026-03-06 (one day after launch)
+- Planned operational burn: ~€5,000/month for 24-month runway
+- Amsterdam receives 20M+ annual tourist visits (campaign claim)
+- Token: 6Au, mint address 6AuEKXSe1yesLW4zFU8hqaevutQ87ow7meftr8Pbmeta
+- Platform version: v0.7
+- Governance threshold: expenditures beyond €5,000/month require proposals
