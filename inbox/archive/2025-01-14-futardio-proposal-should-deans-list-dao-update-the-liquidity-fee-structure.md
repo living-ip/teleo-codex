@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/B8WLuXqoBb3hRD9XBCNuSqxDqCXCixqRdKR4pVFGzNP
 date: 2025-01-14
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2025-01-14
+claims_extracted: ["deans-list-dao-increased-swap-fees-from-0-25-to-5-percent-projecting-19k-to-25k-annual-treasury-growth.md", "futarchy-governed-fee-changes-use-mcap-plus-threshold-as-pass-condition-creating-alignment-between-proposal-success-and-token-price.md"]
+enrichments_applied: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "coin price is the fairest objective function for asset futarchy.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) the specific fee increase case with financial projections, and (2) the MCAP+threshold mechanism as a general futarchy pattern. Enriched three existing claims with new evidence about proposal complexity, trading volume context, and coin price as objective function. The tiered market structure hypothesis (large trades prefer DAO pool, small trades use LP pools) is interesting but untested speculation, included in first claim as proposer's theory. No actual post-implementation data available yet since proposal just passed."
 ---
 
 ## Proposal Details
@@ -165,3 +171,17 @@ Current MCAP will be -5% of the MCAP at the time of the proposal to account for 
 - Autocrat version: 0.3
 - Completed: 2025-01-17
 - Ended: 2025-01-17
+
+
+## Key Facts
+- Dean's List DAO proposal B8WLuXqoBb3hRD9XBCNuSqxDqCXCixqRdKR4pVFGzNP passed 2025-01-17
+- Monthly trading volume (06 Dec 2024 - 06 Jan 2025): 46,228 USDC
+- Average daily volume: ~1,541 USDC
+- Treasury: ~$80,000 (including native tokens)
+- MCAP at proposal: $298,889 (adjusted -5% for volatility)
+- Pass threshold: $307,855 (MCAP + 3%)
+- Fee change: 0.25% → 5% DLMM base fee
+- Quote token changed: mSOL → SOL
+- DAO account: 9TKh2yav4WpSNkFV2cLybrWZETBWZBkQ6WB6qV9Nt9dJ
+- Treasurer wallet: 3YW5dxM6u8TG8bZR6ShSiDS8aTfZPG72vUFuGuBVQA2z
+- Autocrat version: 0.3

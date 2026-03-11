@@ -34,6 +34,12 @@ MycoRealms implementation reveals operational friction points: monthly $10,000 a
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-01-14-futardio-proposal-should-deans-list-dao-update-the-liquidity-fee-structure]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) Dean's List DAO's fee proposal demonstrates proposal complexity friction through its extensive financial modeling: three volume scenarios (conservative/moderate/optimistic), treasury growth projections ($19k-$25k annually), MCAP impact calculations (2.5x treasury-to-MCAP ratio), volatility adjustments (-5% baseline), and tiered market structure hypothesis (large trades vs small trades). The proposal document includes multiple charts, detailed assumptions about volume decline (20-30%), and explicit TWAP threshold calculations ($307,855 pass threshold). This level of complexity may be necessary for informed futarchy trading but creates significant cognitive load for participants. The proposal also reveals token price psychology friction: it had to explicitly justify why a 20x fee increase would increase MCAP despite volume decline, suggesting participants required convincing that higher fees could be net positive rather than intuitively accepting it.
+
 ---
 
 Relevant Notes:
