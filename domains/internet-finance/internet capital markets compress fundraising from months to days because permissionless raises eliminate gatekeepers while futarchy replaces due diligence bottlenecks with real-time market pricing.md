@@ -36,6 +36,12 @@ The "Claude Code founders" framing is significant. The solo AI-native builder �
 - Since [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]], the friction hasn't been fully eliminated — it's been shifted from gatekeeper access to market participation complexity
 - Survivorship bias risk: we see the successful fast raises, not the proposals that sat with zero commitment
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-01-01-futardio-launch-mycorealms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MycoRealms demonstrates 72-hour permissionless raise window on Futardio for $125,000 USDC with automatic deployment: if target reached, treasury/spending limits/liquidity deploy automatically; if target missed, full refunds execute automatically. No gatekeepers, no due diligence bottleneck — market pricing determines success. This compresses what would traditionally be a multi-month fundraising process (pitch deck preparation, investor meetings, term sheet negotiation, legal documentation, wire transfers) into a 3-day permissionless window. Notably, this includes physical infrastructure (mushroom farm) not just digital projects.
+
 ---
 
 Relevant Notes:
