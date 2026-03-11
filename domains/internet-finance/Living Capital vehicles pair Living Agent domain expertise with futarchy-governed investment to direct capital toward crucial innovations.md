@@ -45,6 +45,12 @@ The binding constraint on Living Capital is information flow: how portfolio comp
 
 Since [[expert staking in Living Capital uses Numerai-style bounded burns for performance and escalating dispute bonds for fraud creating accountability without deterring participation]], experts stake on their analysis with dual-currency stakes (vehicle tokens + stablecoin bonds). The mechanism separates honest error (bounded 5% burns) from fraud (escalating dispute bonds leading to 100% slashing), with correlation-aware penalties that detect potential collusion when multiple experts fail simultaneously.
 
+
+### Additional Evidence (challenge)
+*Source: [[2025-06-12-optimism-futarchy-v1-preliminary-findings]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Optimism futarchy experiment shows domain expertise may not translate to futarchy market success—Badge Holders (recognized governance experts) had the LOWEST win rates. Additionally, futarchy selected high-variance portfolios: both the top performer (+$27.8M) and the single worst performer. This challenges the assumption that pairing domain expertise (Living Agents) with futarchy governance produces superior outcomes. The mechanism may select for trading skill and risk tolerance rather than domain knowledge, and may optimize for upside capture rather than consistent performance—potentially unsuitable for fiduciary capital management. The variance pattern suggests futarchy-governed vehicles may systematically select power-law portfolios with larger drawdowns than traditional VC, changing the risk profile and appropriate use cases.
+
 ---
 
 Relevant Notes:

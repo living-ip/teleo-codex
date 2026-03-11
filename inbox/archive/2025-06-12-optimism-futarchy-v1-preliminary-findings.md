@@ -7,9 +7,15 @@ date: 2025-06-12
 domain: internet-finance
 secondary_domains: [collective-intelligence]
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [futarchy, prediction-markets, governance, optimism, grants, empirical-evidence]
+processed_by: rio
+processed_date: 2025-06-12
+claims_extracted: ["futarchy-excels-at-relative-selection-but-fails-at-absolute-prediction-because-ordinal-ranking-works-while-cardinal-estimation-requires-calibration.md", "play-money-futarchy-attracts-participation-but-produces-uncalibrated-predictions-because-absence-of-downside-risk-removes-selection-pressure.md", "domain-expertise-loses-to-trading-skill-in-futarchy-markets-because-prediction-accuracy-requires-calibration-not-just-knowledge.md", "futarchy-variance-creates-portfolio-problem-because-mechanism-selects-both-top-performers-and-worst-performers-simultaneously.md"]
+enrichments_applied: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md", "speculative markets aggregate information through incentive and selection effects not wisdom of crowds.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "Living Capital vehicles pair Living Agent domain expertise with futarchy-governed investment to direct capital toward crucial innovations.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "This is the most detailed empirical futarchy test outside MetaDAO. The selection-vs-prediction split is the critical finding that scopes the 'markets beat votes' claim. Four new claims extracted focusing on: (1) ordinal vs cardinal accuracy, (2) play-money tradeoffs, (3) expertise vs trading skill, (4) variance/portfolio implications. Four enrichments applied to existing futarchy and Living Capital claims, primarily as challenges/extensions revealing mechanism limitations not previously documented."
 ---
 
 ## Content
@@ -42,3 +48,19 @@ Optimism ran a 21-day futarchy experiment (March-June 2025) parallel to their tr
 PRIMARY CONNECTION: [[speculative markets aggregate information through incentive and selection effects not wisdom of crowds]]
 WHY ARCHIVED: First large-scale futarchy experiment outside MetaDAO reveals critical selection-vs-prediction distinction not captured in existing KB
 EXTRACTION HINT: Focus on the selection-vs-prediction distinction and what it means for mechanism design — this is a scoping claim that refines existing beliefs
+
+
+## Key Facts
+- Optimism Futarchy v1 ran March-June 2025 for 21 days
+- 430 active forecasters after filtering 4,122 suspected bots
+- 5,898 total trades, average 13.6 transactions per person
+- 88.6% first-time Optimism governance participants
+- 10 countries, 4 continents represented
+- Both methods selected same 2 projects: Rocket Pool, SuperForm
+- Futarchy unique selections: Balancer & Beets, Avantis, Polynomial
+- Grants Council unique selections: Extra Finance, Gyroscope, Reservoir
+- Measurement period: 84 days post-grant
+- Grant size: 100K OP per project, ~500K OP total
+- Uniswap Foundation co-sponsored experiment
+- Butter operated the prediction markets platform
+- Used conditional tokens (pass/reject) for 23 grant candidates

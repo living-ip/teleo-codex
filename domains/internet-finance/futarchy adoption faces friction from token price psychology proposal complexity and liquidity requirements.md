@@ -28,6 +28,12 @@ Yet [[MetaDAOs futarchy implementation shows limited trading volume in uncontest
 
 MycoRealms implementation reveals operational friction points: monthly $10,000 allowance creates baseline operations budget, but any expenditure beyond this requires futarchy proposal and market approval. First post-raise proposal will be $50,000 CAPEX withdrawal — a large binary decision that may face liquidity challenges in decision markets. Team must balance operational needs (construction timelines, vendor commitments, seasonal agricultural constraints) against market approval uncertainty. This creates tension between real-world operational requirements (fixed deadlines, vendor deposits, material procurement) and futarchy's market-based approval process, suggesting futarchy may face adoption friction in domains with hard operational deadlines.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-06-12-optimism-futarchy-v1-preliminary-findings]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
+
 ---
 
 Relevant Notes:

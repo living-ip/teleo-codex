@@ -17,6 +17,12 @@ In uncontested decisions -- where the community broadly agrees on the right outc
 
 This evidence has direct implications for governance design. It suggests that [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]] -- futarchy excels precisely where disagreement and manipulation risk are high, but it wastes its protective power on consensual decisions. The MetaDAO experience validates the mixed-mechanism thesis: use simpler mechanisms for uncontested decisions and reserve futarchy's complexity for decisions where its manipulation resistance actually matters. The participation challenge also highlights a design tension: the mechanism that is most resistant to manipulation is also the one that demands the most sophistication from participants.
 
+
+### Additional Evidence (challenge)
+*Source: [[2025-06-12-optimism-futarchy-v1-preliminary-findings]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Optimism's futarchy experiment achieved 5,898 total trades from 430 active forecasters (average 13.6 transactions per person) over 21 days, with 88.6% being first-time Optimism governance participants. This suggests futarchy CAN attract substantial engagement when implemented at scale with proper incentives, contradicting the limited-volume pattern observed in MetaDAO. Key differences: Optimism used play money (lower barrier to entry), had institutional backing (Uniswap Foundation co-sponsor), and involved grant selection (clearer stakes) rather than protocol governance decisions. The participation breadth (10 countries, 4 continents, 36 new users/day) suggests the limited-volume finding may be specific to MetaDAO's implementation or use case rather than a structural futarchy limitation.
+
 ---
 
 Relevant Notes:
