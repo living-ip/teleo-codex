@@ -7,10 +7,16 @@ date: 2026-01-00
 domain: internet-finance
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: high
 tags: [polymarket, prediction-markets, regulation, nevada, gaming, cftc, jurisdiction, futarchy]
 flagged_for_leo: ["Cross-domain regulatory implications — prediction market classification affects futarchy governance viability"]
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["state-gaming-classification-of-prediction-markets-creates-existential-regulatory-risk-for-futarchy-through-50-state-licensing-requirements.md", "sports-prediction-markets-versus-governance-prediction-markets-may-face-different-regulatory-classification-because-gaming-law-focuses-on-event-betting-not-organizational-decisions.md", "cftc-rulemaking-on-prediction-markets-is-the-likely-resolution-path-for-state-federal-jurisdiction-conflict-because-circuit-split-and-supreme-court-timeline-exceed-industry-planning-horizon.md"]
+enrichments_applied: ["Polymarket vindicated prediction markets over polling in 2024 US election.md", "futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders.md", "MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "futarchy-governed entities are structurally not securities because prediction market participation replaces the concentrated promoter effort that the Howey test requires.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted three new claims on state-federal jurisdiction conflict as existential risk for futarchy, sports vs governance market distinction, and CFTC rulemaking as resolution path. Applied four enrichments challenging/extending existing futarchy claims with new regulatory risk evidence. This is the highest-stakes regulatory development for futarchy since Polymarket's CFTC approval — the KB previously had no claims covering state gaming jurisdiction risk. Agent notes correctly identified this as the most important gap."
 ---
 
 ## Content
@@ -54,3 +60,13 @@ flagged_for_leo: ["Cross-domain regulatory implications — prediction market cl
 PRIMARY CONNECTION: [[Futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders]]
 WHY ARCHIVED: State-federal jurisdiction crisis is the highest-stakes regulatory question for futarchy. If states win, futarchy governance becomes impractical. The KB has no claim covering this risk. Also important: the sports vs governance market distinction — futarchy markets may be classified differently than sports betting markets.
 EXTRACTION HINT: Focus on (1) existential risk to futarchy from state gaming classification, (2) distinction between sports prediction and governance prediction markets, (3) CFTC rulemaking as potential resolution path.
+
+
+## Key Facts
+- Nevada Gaming Control Board filed civil complaint against Blockratize Inc. (Polymarket) in January 2026
+- Nevada court issued temporary restraining order (2 weeks) against Polymarket
+- Massachusetts Suffolk County court issued preliminary injunction against Kalshi (Jan 2026)
+- Tennessee federal court sided with Kalshi on CFTC exclusive jurisdiction (Feb 19, 2026)
+- 36 states filed amicus briefs opposing federal preemption of prediction markets
+- CFTC Chairman Selig published WSJ op-ed defending agency jurisdiction
+- Sidley Austin reports CFTC rulemaking on prediction markets is imminent (Feb 2026)
