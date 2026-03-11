@@ -7,9 +7,14 @@ date: 2026-01-12
 domain: space-development
 secondary_domains: []
 format: article
-status: unprocessed
+status: null-result
 priority: low
 tags: [commercial-stations, iss-transition, axiom, vast, orbital-reef, breakthrough-tech]
+processed_by: astra
+processed_date: 2026-01-12
+enrichments_applied: ["commercial space stations are the next infrastructure bet as ISS retirement creates a void that 4 companies are racing to fill by 2030.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted one new claim on recognition-execution gap as signal of under-resourcing. Enriched existing commercial stations claim with 2026 competitive landscape update and MIT Tech Review recognition. Source lacks economic models for commercial station operations (noted as gap by agent). Primary value is institutional recognition signal and timeline status update."
 ---
 
 ## Content
@@ -35,3 +40,11 @@ NASA's Commercial LEO Destinations program and Private Astronaut Missions progra
 PRIMARY CONNECTION: [[commercial space stations are the next infrastructure bet as ISS retirement creates a void that 4 companies are racing to fill by 2030]]
 WHY ARCHIVED: Institutional recognition (MIT Tech Review) alongside systemic timeline slippage — the tension between recognition and execution
 EXTRACTION HINT: Lower priority — use primarily as supporting context for the commercial station gap risk analysis
+
+
+## Key Facts
+- MIT Technology Review listed commercial space stations in '10 Breakthrough Technologies 2026'
+- Axiom Space first module attaching to ISS in 2026
+- Vast Haven-1 demo station now targeting Q1 2027
+- Orbital Reef conducting life-size mockup tests in 2026
+- ISS deorbit planned for 2031
