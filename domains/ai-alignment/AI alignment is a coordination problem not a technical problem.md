@@ -21,6 +21,12 @@ Dario Amodei describes AI as "so powerful, such a glittering prize, that it is v
 
 Since [[the internet enabled global communication but not global cognition]], the coordination infrastructure needed doesn't exist yet. This is why [[collective superintelligence is the alternative to monolithic AI controlled by a few]] -- it solves alignment through architecture rather than attempting governance from outside the system.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-00-an-differentiable-social-choice]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(confirm) An & Du (2026) provide formal grounding for the coordination framing by showing that RLHF and similar alignment methods are social choice mechanisms—they aggregate diverse human preferences into collective model behavior. The paper explicitly states that 'contemporary ML systems already implement social choice mechanisms implicitly and without normative scrutiny,' positioning alignment as a preference aggregation problem (coordination) rather than a capability optimization problem (technical). The survey identifies 18 open problems in differentiable social choice for AI alignment, most of which concern how to aggregate preferences fairly, resist manipulation, and accommodate pluralistic values—all coordination challenges, not technical capability challenges.
+
 ---
 
 Relevant Notes:

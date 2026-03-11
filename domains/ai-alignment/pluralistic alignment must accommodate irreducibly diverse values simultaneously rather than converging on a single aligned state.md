@@ -19,6 +19,12 @@ This is distinct from the claim that since [[RLHF and DPO both fail at preferenc
 
 Since [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]], pluralistic alignment is the practical response to the theoretical impossibility: stop trying to aggregate and start trying to accommodate.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-00-an-differentiable-social-choice]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(confirm) An & Du (2026) identify 'pluralistic preference aggregation' as a core open problem in AI alignment as social choice, confirming that the field recognizes the need to accommodate diverse values rather than converge on a single reward function. The paper's framing of RLHF as implicit social choice without normative scrutiny supports the claim that current methods fail to accommodate diversity because they don't examine what aggregation rule they implement or whether it preserves pluralistic values. The survey's inclusion of participatory budgeting and liquid democracy as related domains suggests that mechanisms for representing diverse stakeholder values exist but have not been integrated into alignment research.
+
 ---
 
 Relevant Notes:
