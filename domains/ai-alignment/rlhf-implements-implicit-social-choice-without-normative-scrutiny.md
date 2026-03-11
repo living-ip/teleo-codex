@@ -1,47 +1,68 @@
 ---
 type: claim
-domain: ai-alignment
-secondary_domains: [mechanisms, collective-intelligence]
-description: "RLHF aggregates diverse human preferences into model behavior without examining what social choice function it implements or whether it satisfies democratic criteria"
+claim_id: rlhf-implements-implicit-social-choice-without-normative-scrutiny
+title: RLHF implements implicit social choice without normative scrutiny
+description: RLHF aggregates diverse human preferences into a single reward model, implementing an implicit social choice mechanism, but this aggregation typically occurs without explicit consideration of which voting-theoretic properties it satisfies.
 confidence: likely
-source: "An & Du 2026 'Methods and Open Problems in Differentiable Social Choice'"
-created: 2026-03-11
-depends_on:
-  - "[[AI alignment is a coordination problem not a technical problem]]"
-  - "[[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state]]"
+domains:
+  - ai-alignment
+tags:
+  - rlhf
+  - social-choice-theory
+  - preference-aggregation
+  - reward-modeling
+created: 2026-02-15
 ---
 
 # RLHF implements implicit social choice without normative scrutiny
 
-Reinforcement Learning from Human Feedback (RLHF) and similar alignment methods are social choice mechanisms—they aggregate diverse human preferences into a single model behavior—but the field treats them as technical optimization problems rather than as voting systems that require normative evaluation.
+Reinforcement Learning from Human Feedback (RLHF) aggregates preferences from multiple human labelers into a single reward model. This aggregation process implements an implicit social choice mechanism, but the choice of aggregation method typically receives little normative scrutiny compared to classical voting system design.
 
-An & Du (2026) argue that "contemporary ML systems already implement social choice mechanisms implicitly and without normative scrutiny." When RLHF aggregates preferences from multiple human raters, it performs the same function as a voting rule: taking diverse inputs and producing a collective decision. However, unlike formal voting theory, which explicitly examines properties like fairness, manipulation-resistance, and representation, ML alignment research focuses on loss functions and convergence without asking what social choice function is being implemented or whether it satisfies democratic criteria.
+## Core Argument
 
-This matters because different aggregation methods have different normative properties. A simple average treats all preferences equally but may suppress minority views. A median is robust to outliers but may ignore intensity of preference. RLHF's specific aggregation mechanism (reward model training on pairwise comparisons) implements a particular social choice function, but practitioners rarely examine which one or whether it has desirable properties.
+An %FEEDBACK% Du (2026) frames RLHF through a social choice lens:
 
-The paper positions this as foundational: "RLHF is implicit voting" means that alignment is already doing social choice, just without the theoretical tools or normative frameworks that voting theory has developed over centuries. Making this implicit mechanism explicit would allow researchers to evaluate whether RLHF satisfies criteria like Arrow's independence of irrelevant alternatives, resistance to strategic manipulation, or fair representation of diverse values.
+1. **Input**: Diverse human preference judgments (pairwise comparisons, rankings, etc.)
+2. **Aggregation**: Reward model training combines these into a single preference function
+3. **Output**: A unified reward signal that guides AI behavior
+
+This is structurally a social choice problem—aggregating multiple preference orderings into a collective choice—but is rarely designed or evaluated using social choice criteria.
+
+## Important Context
+
+This framing is not entirely novel to An %FEEDBACK% Du (2026). Recent work has examined RLHF through voting-theoretic lenses:
+- Casper et al. (2023) analyzed RLHF as preference aggregation
+- Skalse et al. (2024) connected reward modeling to social choice theory
+
+The contribution is highlighting that despite this recognition, practical RLHF implementations still lack systematic normative scrutiny of their aggregation mechanisms.
+
+## Technical Nuances
+
+**Labels vs. preferences**: RLHF aggregates *labels* (human judgments about preferences) rather than direct preference orderings. This distinction matters for applying classical impossibility results like Arrow's theorem.
+
+**Where aggregation occurs**: The social choice happens during reward model training (aggregating labeler judgments), not during RL optimization (which maximizes a single reward).
+
+**Existing scrutiny**: While the claim states aggregation occurs "without normative scrutiny," there is growing literature examining these questions. The claim is that *typical implementations* lack this scrutiny, not that the research community is entirely unaware.
 
 ## Evidence
 
-- An & Du (2026) survey of differentiable social choice identifies RLHF as a core application domain where "AI Alignment as Social Choice" is already happening in practice
-- The paper explicitly states: "contemporary ML systems already implement social choice mechanisms implicitly and without normative scrutiny"
-- Classical social choice theory provides formal criteria (Arrow's theorem, Gibbard-Satterthwaite, etc.) that could evaluate RLHF's aggregation properties but are not currently applied in alignment research
-- The survey identifies "pluralistic preference aggregation" as one of 18 open problems in differentiable social choice for AI alignment
+Standard RLHF implementations:
+- Use simple averaging or majority voting over labeler preferences
+- Do not explicitly test for properties like IIA, monotonicity, or strategyproofness
+- Treat aggregation as a technical detail rather than a normative choice
+- Rarely document which social choice properties their aggregation satisfies
 
 ## Challenges
 
-Some may argue that RLHF is fundamentally different from voting because it optimizes a continuous reward function rather than selecting discrete alternatives. However, the aggregation problem remains: multiple human preferences must be combined into a single model behavior, which is the core social choice problem regardless of mathematical representation.
+**Continuous vs. discrete**: Classical social choice theory deals with discrete alternatives; RLHF operates in continuous spaces, making direct application of voting-theoretic results non-trivial.
 
----
+**Empirical question**: Whether the *lack of scrutiny* causes practical problems is an open empirical question.
 
-Relevant Notes:
-- [[AI alignment is a coordination problem not a technical problem]]
-- [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state]]
-- [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]]
-- [[community-centred norm elicitation surfaces alignment targets materially different from developer-specified rules]]
-- [[designing coordination rules is categorically different from designing coordination outcomes as nine intellectual traditions independently confirm]]
+## Implications
 
-Topics:
-- [[domains/ai-alignment/_map]]
-- [[core/mechanisms/_map]]
-- [[foundations/collective-intelligence/_map]]
+- Connects to [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]]
+- Suggests RLHF systems may inherit unexamined voting-theoretic pathologies
+- Implies need for explicit social choice design in preference aggregation
+
+## Source
+An %FEEDBACK% Du (2026), "Differentiable Social Choice"
