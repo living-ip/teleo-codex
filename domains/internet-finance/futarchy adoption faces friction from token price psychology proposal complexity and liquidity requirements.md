@@ -34,6 +34,12 @@ MycoRealms implementation reveals operational friction points: monthly $10,000 a
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-05-30-futardio-proposal-drift-futarchy-proposal-welcome-the-futarchs]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The Drift Futarchy proposal's design complexity and explicit incentive structure provide evidence of adoption friction. The proposal required 4 distinct allocation mechanisms (retroactive rewards, future proposer incentives, active participant pools, execution group compensation), tiered reward structures based on engagement and holdings, 3-month vesting periods, and discretionary execution group authority to finalize participation criteria. The proposal explicitly invoked the endowment effect as a psychological mechanism to convert MetaDAO participants into Drift Futarchy participants, indicating that futarchy participation doesn't emerge organically even among crypto-native users with prior futarchy experience. The need to allocate 50,000 DRIFT (approximately 0.5% of Drift's token supply based on typical allocations) to bootstrap participation suggests significant friction in market formation.
+
 ---
 
 Relevant Notes:

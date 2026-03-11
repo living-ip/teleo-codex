@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/9jAnAupCdPQCFvuAMr5ZkmxDdEKqsneurgvUnx7Az9z
 date: 2024-05-30
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-05-30
+claims_extracted: ["drift-futarchy-proposal-allocated-50000-drift-to-incentivize-early-participants-and-future-proposal-quality.md", "futarchy-execution-groups-use-multisig-escrow-with-discretionary-distribution-authority-after-proposal-passage.md"]
+enrichments_applied: ["MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "First major Drift Futarchy proposal. Extracted two claims: (1) the incentive structure itself as a precedent for futarchy bootstrapping, (2) the execution group pattern as a governance innovation. Three enrichments to existing MetaDAO/futarchy claims. The proposal's complexity and explicit need for financial incentives provides evidence for futarchy adoption friction."
 ---
 
 ## Proposal Details
@@ -107,3 +113,11 @@ In the event of uncertainty or excess budget, funds shall be returned to origina
 - Autocrat version: 0.3
 - Completed: 2024-06-02
 - Ended: 2024-06-02
+
+
+## Key Facts
+- Drift Futarchy Proposal 9jAnAupCdPQCFvuAMr5ZkmxDdEKqsneurgvUnx7Az9zS passed 2024-06-02
+- 32 MetaDAO participants qualified for retroactive rewards based on 5+ interactions over 30+ days before 2024-05-19
+- Execution group: metaprophet, Sumatt, Lmvdzande (2/3 multisig)
+- Total allocation: 50,000 DRIFT (retroactive 12,000 + future proposer 10,000 + active participant 25,000 + execution 3,000)
+- Proposal number 1 on DAO account 5vVCYQHPd8o3pGejYWzKZtnUSdLjXzDZcjZQxiFumXXx

@@ -76,6 +76,12 @@ MycoRealms launch on Futardio demonstrates MetaDAO platform capabilities in prod
 
 Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform supports purely speculative meme coin launches, not just productive ventures. The project raised $11,402,898 against a $50,000 target in under 24 hours (22,706% oversubscription) with stated fund use for 'fan merch, token listings, private events/partys'—consumption rather than productive infrastructure. This extends MetaDAO's demonstrated use cases beyond productive infrastructure (Myco Realms mushroom farm, $125K) to governance-enhanced speculative tokens, suggesting futarchy's anti-rug mechanisms appeal across asset classes.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-05-30-futardio-proposal-drift-futarchy-proposal-welcome-the-futarchs]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The Drift Futarchy proposal demonstrates MetaDAO's role as a talent and experience pool for the broader futarchy ecosystem. The proposal explicitly targeted 32 MetaDAO participants with minimum 5 interactions over 30+ days for retroactive rewards (9,600 DRIFT) plus additional rewards for AMM swappers (2,400 DRIFT), totaling 12,000 DRIFT to convert MetaDAO experience into Drift Futarchy participation. The proposal invoked the endowment effect as the mechanism: giving tokens to experienced futarchy users would bootstrap the new platform's governance quality. This shows MetaDAO functioning as a training ground and talent pool for futarchy adoption, not just a standalone capital formation platform.
+
 ---
 
 Relevant Notes:

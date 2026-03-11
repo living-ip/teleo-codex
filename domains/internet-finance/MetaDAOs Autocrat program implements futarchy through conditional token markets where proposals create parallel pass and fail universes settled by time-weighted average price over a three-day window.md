@@ -53,6 +53,12 @@ Autocrat is MetaDAO's core governance program on Solana -- the on-chain implemen
 
 **Limitations.** [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- when proposals are clearly good or clearly bad, few traders participate because the expected profit from trading in a consensus market is near zero. This is a structural feature, not a bug: contested decisions get more participation precisely because they're uncertain, which is when you most need information aggregation. But it does mean uncontested proposals can pass or fail with very thin markets, making the TWAP potentially noisy.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-05-30-futardio-proposal-drift-futarchy-proposal-welcome-the-futarchs]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The Drift Futarchy proposal (passed 2024-06-02) demonstrates Autocrat handling complex multi-component treasury allocations with deferred execution and discretionary implementation. The proposal allocated 50,000 DRIFT across four mechanisms with different distribution timelines: immediate retroactive rewards (12,000 DRIFT), future proposer incentives (10,000 DRIFT claimable after 3 months), active participant pools (25,000 DRIFT claimable after 3 months), and execution group compensation (3,000 DRIFT). This shows Autocrat proposals can contain conditional components (e.g., proposer rewards only if proposals pass) and time-delayed execution, not just simple binary pass/fail decisions on single-component allocations.
+
 ---
 
 Relevant Notes:
