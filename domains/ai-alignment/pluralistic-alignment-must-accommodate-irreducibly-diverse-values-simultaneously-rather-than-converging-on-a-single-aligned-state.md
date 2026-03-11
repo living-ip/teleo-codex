@@ -28,6 +28,6 @@ Harland et al (NeurIPS 2024) propose the technical mechanism: Multi-Objective RL
 **Relevant Notes:**
 - [[binary-preference-comparisons-cannot-identify-latent-preference-types-making-pairwise-RLHF-structurally-blind-to-diversity]] — describes the technical failure mode
 - [[egalitarian-aggregation-through-minmax-regret-bounds-worst-case-preference-group-dissatisfaction-in-pluralistic-AI-deployment]] — MinMax Regret is a technical instantiation of this principle
-- [[democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations]] — assemblies are one mechanism for pluralistic alignment
+- [[democratic-alignment-assemblies-produce-constitutions-as-effective-as-expert-designed-ones-while-better-representing-diverse-populations]] — assemblies are one mechanism for pluralistic alignment
 
 **Topics:** AI alignment, preference diversity, value pluralism, multi-objective optimization
