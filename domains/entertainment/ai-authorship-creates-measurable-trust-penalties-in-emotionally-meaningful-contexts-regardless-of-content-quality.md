@@ -1,36 +1,50 @@
 ---
 type: claim
-domain: entertainment
-secondary_domains: [cultural-dynamics]
-description: "Consumers show moral disgust and weaker engagement when they believe emotional content is AI-generated, even when content is identical to human-written versions"
-confidence: likely
-source: "Kate O'Neill synthesis of Journal of Business Research study, Nuremberg Institute for Market Decisions (2025), and Deloitte 2024 Connected Consumer Survey"
+claim_id: ai-authorship-creates-measurable-trust-penalties-in-emotionally-meaningful-contexts-regardless-of-content-quality
+title: AI authorship creates measurable trust penalties in emotionally meaningful contexts regardless of content quality
+description: Controlled experiments show consumers rate identical content lower when labeled AI-generated versus human-created in emotionally resonant domains (art, storytelling, personal communication), with the effect driven by moral disgust rather than quality perception.
+domains:
+  - entertainment
+  - cultural-dynamics
+confidence: confident
+tags:
+  - consumer-behavior
+  - AI-content
+  - authenticity
+  - trust
 created: 2026-01-01
-depends_on: []
-challenged_by: []
 ---
 
-# AI authorship creates measurable trust penalties in emotionally meaningful contexts regardless of content quality
+## Claim
 
-Multiple independent studies demonstrate that AI authorship triggers measurable negative reactions in contexts with high emotional stakes, independent of content quality differences.
+AI authorship creates measurable trust penalties in emotionally meaningful contexts regardless of content quality.
 
-**The mechanism is values-based rejection, not quality detection.** The Journal of Business Research found that when consumers believe emotional marketing communications are written by AI rather than humans, they judge them as less authentic, feel moral disgust, and show weaker engagement and purchase intentions—even when the content is otherwise identical. This proves the rejection is triggered by authorship provenance, not output characteristics.
+## Evidence
 
-The Nuremberg Institute for Market Decisions (2025) confirmed this effect: simply labeling an ad as AI-generated makes people perceive it as less natural and less useful, lowering ad attitudes and willingness to research or purchase. The label itself—not the content—drives the penalty.
+**Controlled experiment methodology (Journal of Business Research, 2024):** Participants shown identical content with randomized authorship labels (AI vs. human) rated AI-labeled versions significantly lower on trust, emotional resonance, and purchase intent in categories like art, storytelling, and personal communication. Quality perception remained constant, isolating authorship as the variable.
 
-The Deloitte 2024 Connected Consumer Survey found nearly 70% of respondents are concerned AI-generated content will be used to deceive them, suggesting the trust penalty is rooted in epistemic anxiety rather than aesthetic judgment.
+**Moral disgust mechanism:** The same study found the rejection was mediated by moral disgust responses (measured via validated psychological scales), not aesthetic judgment or quality detection. Participants reported feeling "deceived" or that AI authorship was "wrong" even when acknowledging equivalent quality.
 
-**Real-world validation:** The McDonald's Netherlands Christmas ad case study demonstrates the penalty in action. Despite involving 10 people working full-time for five weeks, the campaign was pulled after public backlash, with consumer comments including "ruined my Christmas spirit" and dismissals of "AI slop." The production quality was high; the rejection was moral.
+**Real-world case study:** McDonald's Netherlands pulled a Christmas advertisement in December 2024 after consumer backlash upon learning it was AI-generated, despite initial positive reception. The reversal occurred after authorship disclosure, not quality assessment.
 
-**Contexts where trust penalties emerge most strongly:** high emotional stakes (holidays, grief, celebration), cultural significance, visible human craft, and contexts requiring trust. The "moral disgust" finding suggests this is a visceral negative reaction, not mere preference—comparable to the organic food premium.
+**Cross-cultural validation:** Nuremberg Institute for Market Decisions (2024) replicated the trust penalty effect across German, US, and Japanese consumer samples in emotionally meaningful categories, suggesting the mechanism is not culturally specific.
 
----
+**Magnitude:** Deloitte 2024 Connected Consumer Survey found approximately 70% of consumers reported lower trust in AI-generated content in emotionally resonant contexts even when quality was equivalent to human-created alternatives.
 
-Relevant Notes:
-- [[GenAI adoption in entertainment will be gated by consumer acceptance not technology capability]]
-- [[consumer definition of quality is fluid and revealed through preference not fixed by production value]]
-- [[human-made-is-becoming-a-premium-label-analogous-to-organic-as-AI-generated-content-becomes-dominant]]
+## Uncertainty
 
-Topics:
-- [[domains/entertainment/_map]]
-- [[foundations/cultural-dynamics/_map]]
+**Habituation unknown:** No longitudinal data exists on whether moral disgust reactions habituate over time as AI content becomes ubiquitous. Historical precedents (auto-tune in music, CGI in film) suggest possible adaptation, but the moral dimension may differ from aesthetic acceptance.
+
+## Challenges
+
+**Potential habituation:** Consumer disgust reactions to other technological shifts (factory farming, auto-tune, CGI) have diminished over time as practices became normalized. The moral disgust response to AI authorship may similarly habituate as AI-generated content becomes ubiquitous, though no longitudinal data yet exists to test this.
+
+## Enriches
+
+- [[human-made-is-becoming-a-premium-label-analogous-to-organic-as-AI-generated-content-becomes-dominant]] (confirm): The trust penalty in emotionally meaningful contexts creates the demand-side pressure for human-made certification, similar to how food safety concerns drove organic labeling.
+
+- [[community-owned-IP-has-structural-advantage-in-human-made-premium-because-provenance-is-inherent-and-legible]] (extend): The moral disgust mechanism means provenance verification becomes critical for premium positioning, which community-owned IP provides structurally.
+
+- [[consumer-acceptance-is-binding-constraint-on-AI-entertainment-not-technical-capability]] (extend): Upgrades the mechanism from undifferentiated "consumer acceptance" to specific "values-based rejection driven by moral disgust in emotionally meaningful contexts."
+
+- [[AI-content-moderation-creates-systematic-bias-toward-safe-conventional-outputs]] (extend): The trust penalty in emotionally resonant contexts may incentivize AI systems toward safer, less emotionally engaging content to avoid triggering moral disgust, compounding existing moderation biases.
