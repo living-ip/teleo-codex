@@ -23,6 +23,12 @@ The Making Care Primary model's termination in June 2025 (after just 12 months, 
 
 PACE represents the extreme end of value-based care alignment—100% capitation with full financial risk for a nursing-home-eligible population. The ASPE/HHS evaluation shows that even under complete payment alignment, PACE does not reduce total costs but redistributes them (lower Medicare acute costs in early months, higher Medicaid chronic costs overall). This suggests that the 'payment boundary' stall may not be primarily a problem of insufficient risk-bearing. Rather, the economic case for value-based care may rest on quality/preference improvements rather than cost reduction. PACE's 'stall' is not at the payment boundary—it's at the cost-savings promise. The implication: value-based care may require a different success metric (outcome quality, institutionalization avoidance, mortality reduction) than the current cost-reduction narrative assumes.
 
+
+### Additional Evidence (extend)
+*Source: [[2021-02-00-mckinsey-facility-to-home-265-billion-shift]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The facility-to-home transition is the care delivery equivalent of the value-based care payment transition. Just as VBC stalls at the payment boundary (60% touch value metrics but only 14% bear full risk), the facility-to-home transition faces a capacity boundary: current home-based care serves ~$65B of the potential $265B, requiring a 3-4x capacity increase. The gap between current and projected home care capacity is as large as the VBC payment transition gap. Both transitions face the same structural challenge: the enabling infrastructure (risk-bearing entities for VBC, home health workforce and RPM technology for facility-to-home) must scale faster than the economic incentive alone can drive it. This suggests that structural transitions in healthcare face similar boundary problems regardless of whether the boundary is payment-based or capacity-based.
+
 ---
 
 Relevant Notes:

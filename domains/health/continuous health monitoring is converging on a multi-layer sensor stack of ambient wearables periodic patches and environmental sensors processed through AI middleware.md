@@ -17,6 +17,12 @@ This inverts the current clinical paradigm. Instead of patients visiting doctors
 
 The wearable medical device market is $48.3B (2025) growing to ~$100B by 2030 at 15.6% CAGR. The broader digital health market is projected at $180B by 2031.
 
+
+### Additional Evidence (confirm)
+*Source: [[2021-02-00-mckinsey-facility-to-home-265-billion-shift]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The McKinsey facility-to-home projection provides the economic context for why the multi-layer sensor stack is necessary. The remote patient monitoring market is projected to grow from $29B to $138B (2024-2033) at 19% CAGR, with AI in RPM growing even faster at 27.5% CAGR ($2B → $8.4B, 2024-2030). Home healthcare is the fastest-growing RPM end-use segment at 25.3% CAGR. This market scaling is driven by the $265B facility-to-home care migration, which requires continuous monitoring infrastructure to safely manage patients outside clinical facilities. The technology stack described in the existing claim is not optional—it is the enabling layer that makes home-based care economically viable and clinically safe. Without continuous monitoring, the cost advantage of home-based care disappears and quality risk increases.
+
 ---
 
 Relevant Notes:

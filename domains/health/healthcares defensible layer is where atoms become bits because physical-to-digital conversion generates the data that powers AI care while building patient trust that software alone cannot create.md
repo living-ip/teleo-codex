@@ -34,6 +34,12 @@ The three-layer model for the healthcare attractor state:
 
 Since [[continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware]], the wearable sensor stack represents another tier of atoms-to-bits conversion infrastructure. Since [[Devoteds atoms-plus-bits moat combines physical care delivery with AI software creating defensibility that pure technology or pure healthcare companies cannot replicate]], Devoted is the fullest expression of this thesis at the care delivery level.
 
+
+### Additional Evidence (extend)
+*Source: [[2021-02-00-mckinsey-facility-to-home-265-billion-shift]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The facility-to-home shift makes the atoms-to-bits conversion even more critical because home-based care lacks the continuous clinical observation available in facilities. The $265B migration requires converting physical patient state (vital signs, symptoms, functional status) into digital streams that can be monitored remotely. This is why RPM is the fastest-growing segment—it is the infrastructure that makes home-based care safe and economically viable. The 71M Americans expected to use RPM by 2025 represents the scale at which atoms-to-bits conversion must operate to support the care delivery transition. Home care does not eliminate the need for physical-to-digital conversion; it makes it mandatory and scales it from clinical facility observation to continuous ambient monitoring.
+
 ---
 
 Relevant Notes:
