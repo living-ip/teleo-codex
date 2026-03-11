@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/9FCpb4TmNkvrgkoiJzUm5vDBnQUqzSrUvxEvESBrns46"
 date: 2026-02-21
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-02-21
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "ForeverNow is a fictional/satirical ICO prospectus with no verifiable evidence. The project description ('Something here for tomorrow is a day') is nonsensical, the funding shows $10 committed against $50k target with 'Refunding' status, and the elaborate executive summary appears to be generated boilerplate. The team bios, roadmap, and metrics are unverifiable marketing claims with no independent evidence. This is either a parody of crypto fundraising or a failed/abandoned project. No extractable claims meet the verifiability threshold."
 ---
 
 ## Launch Details
@@ -217,3 +221,9 @@ FRVR token holders benefit from governance rights, fee-sharing from protocol rev
 - Token mint: `7hxCaVZhCEUHkLj64eZZ1LkBcdW2PXcr9PxXnYVPmeta`
 - Version: v0.7
 - Closed: 2026-02-22
+
+
+## Key Facts
+- ForeverNow fundraise on futard.io launched 2026-02-21, refunding status with $10 committed of $50k target
+- Token: FRVR, described as 'perpetual on-chain preservation' protocol
+- Launch address: 9FCpb4TmNkvrgkoiJzUm5vDBnQUqzSrUvxEvESBrns46
