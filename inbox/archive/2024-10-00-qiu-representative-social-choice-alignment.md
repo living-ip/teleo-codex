@@ -7,10 +7,15 @@ date: 2024-10-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence, mechanisms]
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [social-choice, representative-alignment, arrows-theorem, privilege-graphs, learning-theory, generalization]
 flagged_for_rio: ["Social choice mechanisms as prediction market analogues — preference aggregation parallels"]
+processed_by: theseus
+processed_date: 2024-10-01
+enrichments_applied: ["universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective.md", "RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values.md", "pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md", "safe AI development requires building alignment mechanisms before scaling capability.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted three novel claims from Qiu's representative social choice framework. Key contribution: necessary and sufficient conditions for alignment impossibility (cyclic privilege graphs) with constructive alternatives (acyclic graphs enable Pareto-efficient mechanisms). Enriched four existing claims with formal learning theory foundations. No empirical implementation yet but theoretical rigor is high (CHAI/Berkeley, NeurIPS acceptance). The acyclic privilege graph condition is the major novel result — it converts Arrow's blanket impossibility into conditional impossibility with escape routes."
 ---
 
 ## Content
