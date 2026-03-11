@@ -6,7 +6,7 @@ url: https://www.technologyreview.com/2026/01/12/1130030/commercial-space-statio
 date: 2026-01-12
 domain: space-development
 secondary_domains: []
-format: article
+format: report
 status: null-result
 priority: low
 tags: [commercial-stations, iss-transition, axiom, vast, orbital-reef, breakthrough-tech]
