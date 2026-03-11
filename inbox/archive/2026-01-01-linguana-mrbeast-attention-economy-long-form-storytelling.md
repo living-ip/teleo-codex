@@ -6,10 +6,15 @@ url: https://www.linguana.com/insights/mrbeast-the-attention-economy-and-what-it
 date: 2026-01-01
 domain: entertainment
 secondary_domains: [cultural-dynamics]
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: high
 tags: [mrbeast, long-form-storytelling, attention-economy, narrative-depth, content-strategy]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership.md", "social video is already 25 percent of all video consumption and growing because dopamine-optimized formats match generational attention patterns.md", "creator-brand-partnerships-shifting-from-transactional-campaigns-to-long-term-joint-ventures-with-shared-formats-audiences-and-revenue.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three new claims extracted focusing on long-form vs short-form dynamics, content-as-loss-leader incentive structures, and universal emotional hooks. Three enrichments applied: extending the media attractor state claim with MrBeast's strategic positioning, challenging the dopamine-optimization framing with context-dependent attention evidence, and confirming the creator-brand joint venture shift with Beast Industries scale data. Primary insight: MrBeast's voluntary shift toward narrative depth despite proven viral formula challenges the race-to-the-bottom hypothesis for content-as-loss-leader models."
 ---
 
 ## Content
@@ -38,3 +43,10 @@ The article positions long-form storytelling as the PRIMARY revenue mechanism �
 PRIMARY CONNECTION: [[the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership]]
 WHY ARCHIVED: Evidence that content-as-loss-leader paradoxically ENABLES narrative depth rather than degrading it — because retention (not just reach) drives complement sales
 EXTRACTION HINT: Focus on the mechanism: WHY does content-as-loss-leader incentivize depth? Because long-form retention → deeper audience relationship → higher LTV for complements. The incentive structure is different from ad-supported (where CPM rewards reach) or studio (where box office rewards spectacle).
+
+
+## Key Facts
+- Over 50% of YouTube watch time now happens on TV screens (2026)
+- MrBeast has 464M subscribers (largest individual creator)
+- Beast Industries revenue trajectory: $899M → $1.6B → $4.78B projected
+- MrBeast released 40+ minute video as deliberate narrative depth experiment
