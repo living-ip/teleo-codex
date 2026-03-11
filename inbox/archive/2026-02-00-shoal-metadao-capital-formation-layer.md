@@ -6,10 +6,15 @@ url: https://www.shoal.gg/p/metadao-the-new-capital-formation
 date: 2026-02-00
 domain: internet-finance
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: medium
 tags: [metadao, capital-formation, ownership-coins, futarchy, DAO-LLC, performance-packages]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["performance-unlocked-team-tokens-with-price-multiple-triggers-and-twap-settlement-create-long-term-alignment-without-initial-dilution.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "Ooki DAO proved that DAOs without legal wrappers face general partnership liability making entity structure a prerequisite for any futarchy-governed vehicle.md", "internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md", "cryptos primary use case is capital formation not payments or store of value because permissionless token issuance solves the fundraising bottleneck that solo founders and small teams face.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Two new claims extracted on DAO LLC structure and launchpad mechanics. Five enrichments applied confirming existing claims about performance packages, legal wrappers, and capital formation timelines. The 'two pillars' framing (ICO launchpad + futarchy governance) clarifies MetaDAO's dual role as capital formation infrastructure. No revenue data yet to test the 2026 'flow vs mechanism' hypothesis. Curator was correct — mostly validates existing claims with implementation details."
 ---
 
 ## Content
