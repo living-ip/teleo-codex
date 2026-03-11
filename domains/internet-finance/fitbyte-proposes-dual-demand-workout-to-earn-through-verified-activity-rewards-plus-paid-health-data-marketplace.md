@@ -1,25 +1,47 @@
 ---
 type: claim
-claim_category: pattern
+claim_id: fitbyte-proposes-dual-demand-workout-to-earn-through-verified-activity-rewards-plus-paid-health-data-marketplace
+title: FitByte proposes dual-demand workout-to-earn through verified activity rewards plus paid health data marketplace
+description: FitByte's tokenomics design combined workout-to-earn rewards with a health data marketplace where users could sell verified activity data, creating two distinct demand sources for the token.
+domain: internet-finance
 confidence: speculative
-domains:
-  - internet-finance
 tags:
   - tokenomics
   - workout-to-earn
-  - health-data
-  - token-economy
-  - FitByte
-created: 2025-02-26
-processed_date: 2025-02-26
-source: inbox/archive/2026-02-26-futardio-launch-fitbyte.md
+  - data-marketplace
+  - case-study
+created: 2026-02-26
+updated: 2026-02-26
 ---
 
-# FitByte proposes dual-demand workout-to-earn through verified activity rewards plus paid health data marketplace
+# Claim
 
-FitByte's tokenomics model attempted to create two independent demand sources for its token: (1) users earning tokens through verified workout activity (supply side), and (2) health researchers/companies purchasing aggregated health data using the same token (demand side). The pitch deck positions this as solving the sustainability problem of pure workout-to-earn models by anchoring token value to real-world data marketplace demand rather than purely speculative trading.
+FitByte's proposed tokenomics model created dual demand for its token: users earned tokens through verified workout activity (supply side), while health researchers and fitness companies could purchase tokens to access aggregated, anonymized health data (demand side).
 
-<!-- wiki-link pending: workout-to-earn pattern claim -->
-<!-- wiki-link pending: token economy sustainability claim -->
+# Evidence
 
-The model remained entirely theoretical—the [[MetaDAO]] futarchy launch raised only $23 of a $500k target, and no operational phase ever validated whether the dual-demand mechanism would function as designed or whether sufficient data marketplace demand existed.
+*Source: 2026-02-26-futardio-launch-fitbyte*
+
+The launch page describes the two-sided model:
+
+> "FitByte tokens serve dual purposes: users earn them by completing verified workouts tracked through our mobile app, and health researchers can spend them to access aggregated, anonymized activity data from our user base. This creates sustainable token demand beyond speculation - the data marketplace provides real utility value."
+
+The project never launched operationally (raising only $23 of a $500k target), so this remains a theoretical design with no validation.
+
+# Counterevidence
+
+<!-- No operational data exists to validate whether this dual-demand model would have functioned as proposed -->
+
+# Implications
+
+If dual-demand tokenomics (earn + utility marketplace) can create sustainable token economies:
+- Workout-to-earn models might avoid pure inflation if paired with genuine data demand
+- Token utility beyond speculation could stabilize value
+- Data marketplace demand would need to scale with token emission rates
+
+# Confidence Assessment
+
+Marked **speculative** because:
+- Based entirely on pitch deck design from a failed fundraise
+- No operational validation of whether data marketplace demand would materialize
+- No evidence the dual-demand model would balance supply/demand at scale
