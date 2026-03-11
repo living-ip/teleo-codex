@@ -46,6 +46,12 @@ Critically, the proposal nullifies a prior 90-day restriction on buybacks/liquid
 - "Material misrepresentation" is a legal concept being enforced by a market mechanism without legal discovery, depositions, or cross-examination — the evidence standard is whatever the market accepts
 - The 90-day restriction nullification, while demonstrating adaptability, also shows that governance commitments can be overridden — which cuts both ways for investor confidence
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-01-futardio-launch-mycorealms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MycoRealms implements unruggable ICO structure with automatic refund mechanism: if $125,000 target not reached within 72 hours, full refunds execute automatically. Post-raise, team has zero direct treasury access — operates on $10,000 monthly allowance with all other expenditures requiring futarchy approval. This creates credible commitment: team cannot rug because they cannot access treasury directly, and investors can force liquidation through futarchy proposals if team materially misrepresents (e.g., fails to publish operational data to Arweave as promised, diverts funds from stated use). Transparency requirement (all invoices, expenses, harvest records, photos published to Arweave) creates verifiable baseline for detecting misrepresentation.
+
 ---
 
 Relevant Notes:
