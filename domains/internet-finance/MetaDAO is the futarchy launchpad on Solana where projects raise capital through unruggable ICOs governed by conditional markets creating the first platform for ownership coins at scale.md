@@ -76,6 +76,12 @@ MycoRealms launch on Futardio demonstrates MetaDAO platform capabilities in prod
 
 Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform supports purely speculative meme coin launches, not just productive ventures. The project raised $11,402,898 against a $50,000 target in under 24 hours (22,706% oversubscription) with stated fund use for 'fan merch, token listings, private events/partys'—consumption rather than productive infrastructure. This extends MetaDAO's demonstrated use cases beyond productive infrastructure (Myco Realms mushroom farm, $125K) to governance-enhanced speculative tokens, suggesting futarchy's anti-rug mechanisms appeal across asset classes.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-04-theiaresearch-permissionless-metadao-launches]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) Montealegre's analysis provides the first detailed articulation of the cultural and behavioral changes MetaDAO enables: continuous fundraising, liquidation-as-pivot, multiple rapid attempts, public accountability from day 1, and viability of 10x (not just 100x) outcomes. This moves beyond mechanism description to ecosystem-level effects on founder behavior and capital allocation patterns. The five cultural primitives (continuous fundraising, liquidation pivot, multiple attempts, public accountability, 10x viability) show MetaDAO's impact extends beyond technical infrastructure to reshape founder incentives, capital allocation patterns, and market structure.
+
 ---
 
 Relevant Notes:

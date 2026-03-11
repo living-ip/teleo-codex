@@ -44,6 +44,12 @@ Three credible voices arrived at this framing independently in February 2026: @c
 
 MycoRealms demonstrates permissionless capital formation for physical infrastructure: two-person team (blockchain developer + mushroom farmer) raising $125,000 USDC in 72 hours with no gatekeepers, no accreditation requirements, no geographic restrictions. Traditional agriculture financing would require bank loans (collateral requirements, credit history, multi-month approval), VC funding (network access, pitch process, equity dilution), or grants (application process, government approval, restricted use). Futardio enables direct public fundraising with automatic treasury deployment and market-governed spending — solving the fundraising bottleneck for a project that would struggle in traditional capital markets. Team has 5+ years operational experience but lacks traditional finance network access.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-04-theiaresearch-permissionless-metadao-launches]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) The 10x outcome gap provides specific evidence for crypto's capital formation advantage: "Many companies with 5-10x upside case outcomes don't get funded right now because venture funds all want venture outcomes (>100x on $20M). What if you just want to build a $25M company with a decent probability of success? Raise $1M and the math works fine for Futardio investors." This identifies a specific market segment (viable mid-scale businesses) that traditional VC structurally excludes but crypto-native capital formation can serve. The claim extends beyond solo founders to include small teams building mid-scale businesses that traditional VC fund structure systematically excludes.
+
 ---
 
 Relevant Notes:

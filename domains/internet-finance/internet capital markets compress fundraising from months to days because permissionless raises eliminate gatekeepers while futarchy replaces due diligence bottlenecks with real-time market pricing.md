@@ -48,6 +48,12 @@ MycoRealms demonstrates 72-hour permissionless raise window on Futardio for $125
 
 Futardio cult raised $11.4M in under 24 hours through MetaDAO's futarchy platform (launched 2026-03-03, closed 2026-03-04), confirming sub-day fundraising timelines for futarchy-governed launches. This provides concrete timing data supporting the compression thesis: traditional meme coin launches through centralized platforms typically require days to weeks for comparable capital formation.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-04-theiaresearch-permissionless-metadao-launches]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) Montealegre's analysis extends the speed compression claim to cultural implications: continuous fundraising becomes viable when cycles compress to days. "It only takes a few days to fundraise so don't take more than you need" — this suggests founders can return to market multiple times per year, fundamentally changing capital strategy from "raise large war chest" to "raise for next milestone." The 3-week iteration cycle ("come back in ~3 weeks") for failed raises also demonstrates the speed advantage creates new strategic options unavailable in traditional VC. This shows speed compression doesn't just accelerate existing patterns but enables entirely new fundraising strategies.
+
 ---
 
 Relevant Notes:
