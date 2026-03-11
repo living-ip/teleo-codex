@@ -7,9 +7,14 @@ date: 2025-11-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [pluralistic-alignment, safety-inclusivity-tradeoff, demographic-diversity, disagreement-preservation, dpo, grpo]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["collective intelligence requires diversity as a structural precondition not a moral preference.md", "RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values.md", "pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md", "some disagreements are permanently irreducible because they stem from genuine value differences not information gaps and systems must map rather than eliminate them.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "High-value empirical paper providing quantified evidence for pluralistic alignment principles. Key finding: 53% improvement from preserving disagreement challenges assumed safety-inclusivity trade-off. Five new claims extracted, four existing claims enriched with empirical support. All claims rated 'likely' confidence due to controlled experimental methodology with quantified results."
 ---
 
 ## Content

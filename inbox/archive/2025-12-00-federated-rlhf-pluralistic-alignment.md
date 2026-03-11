@@ -7,9 +7,14 @@ date: 2025-12-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: null-result
 priority: medium
 tags: [federated-rlhf, preference-aggregation, pluralistic-alignment, ppo, adaptive-weighting]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md", "RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values.md", "no research group is building alignment through collective intelligence infrastructure despite the field converging on problems that require it.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) empirical result on adaptive weighting performance, (2) structural parallel to collective agent architecture. Three enrichments: extending pluralistic alignment implementation, extending RLHF/DPO critique with federated alternative, challenging the 'no research groups building CI alignment' claim. Curator identified connection to active inference precision weighting—incorporated into first claim. Workshop paper = experimental confidence maximum."
 ---
 
 ## Content
@@ -51,3 +56,10 @@ NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle.
 PRIMARY CONNECTION: [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state]]
 WHY ARCHIVED: Federated RLHF mirrors our collective architecture — structural parallel worth tracking
 EXTRACTION HINT: The adaptive weighting mechanism and its connection to active inference precision weighting
+
+
+## Key Facts
+- NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle
+- Tested aggregation methods: min, max, average, and adaptive weighting
+- Evaluation used PPO-based RLHF pipeline on question-answering tasks
+- Adaptive scheme adjusts weights based on historical alignment performance
