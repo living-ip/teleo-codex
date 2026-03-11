@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/x1yqPH8mutuiqkrz66DPwFw1ykQqT4v5KyUUtUzBgPA"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["phonon-studio-demonstrates-futarchy-governed-ai-music-platform-with-tokenized-autonomous-artists.md", "phonon-studio-refund-status-indicates-futarchy-market-rejection-of-ai-music-platform-thesis.md"]
+enrichments_applied: ["futarchy-governed-meme-coins-attract-speculative-capital-at-scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) Phonon as demonstration of futarchy-governed AI music platform with novel tokenized artist mechanics, (2) Market rejection despite live product as evidence of futarchy's filtering function. Three enrichments confirm existing claims about futarchy market dynamics, limited participation, and investor protection mechanisms. The refunding status is particularly valuable evidence—shows the mechanism working as designed even when rejecting a project with demonstrable traction."
 ---
 
 ## Launch Details
@@ -173,3 +179,13 @@ Phonon is already live which means there is real product market validation, meas
 - Token mint: `J697wnGGP8yWhYSrrMNsfH7cpKqp8up4uteigCHZmeta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- Phonon Studio raised $88,888 target through futardio (2026-03-05)
+- Launch closed with 'Refunding' status (2026-03-06)
+- 1000+ AI songs generated in first week (self-reported)
+- Monthly operational allowance: $11,777
+- Token mint: J697wnGGP8yWhYSrrMNsfH7cpKqp8up4uteigCHZmeta
+- Built on Meteora Dynamic Bonding Pool protocol
+- Team: 9owls (founder)

@@ -6,6 +6,12 @@ description: The first futarchy-governed meme coin launch raised $11.4M in under
 confidence: experimental
 tags: [futarchy, meme-coins, capital-formation, governance, speculation]
 created: 2026-03-04
+
+### Additional Evidence (extend)
+*Source: [[2026-03-05-futardio-launch-phonon-studio-ai]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) Phonon Studio attempted to raise $88,888 for an AI music platform through futardio but closed with 'Refunding' status after one day (2026-03-06), demonstrating that futarchy-governed launches can fail to attract capital even for projects with live products and early traction (1000+ songs generated, functional tokenization, self-reported). This extends the meme-coin pattern to show futarchy markets can reject non-meme projects entirely, suggesting the speculative capital attraction may be specific to meme/community-driven assets rather than a general property of futarchy launches.
+
 ---
 
 # Futarchy-governed meme coins attract speculative capital at scale
