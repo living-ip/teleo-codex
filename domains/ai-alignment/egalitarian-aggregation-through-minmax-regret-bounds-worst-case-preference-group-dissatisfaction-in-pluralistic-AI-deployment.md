@@ -4,7 +4,8 @@ title: Egalitarian Aggregation Through Minmax Regret Bounds Worst-Case Preferenc
 description: MinMax Regret aggregation provides an egalitarian mechanism for combining diverse preference groups by minimizing the maximum dissatisfaction any group experiences, operationalizing fairness through social choice theory
 confidence: experimental
 created: 2026-03-11
-source: "2025-00-00-em-dpo-heterogeneous-preferences-extraction (EM-DPO paper)"
+processed_date: 2026-03-11
+source: "EM-DPO Heterogeneous Preferences Extraction (2025-00-00-em-dpo-heterogeneous-preferences-extraction)"
 enrichments: ["2025-00-00-em-dpo-heterogeneous-preferences-extraction"]
 ---
 
@@ -26,12 +27,10 @@ Arrow proved that no aggregation mechanism can satisfy all fairness criteria sim
 
 **Why this matters for pluralistic AI deployment:**
 
-In systems serving diverse populations with irreducible value differences, a single aggregated model will inevitably disappoint some groups severely. MinMax Regret operationalizes the principle that [[some disagreements are permanently irreducible because they stem from genuine value differences not information gaps and systems must map rather than eliminate them]] by explicitly mapping preference diversity into system structure (ensemble of type-specific models) rather than attempting to resolve it through consensus.
+In systems serving diverse populations with irreducible value differences, a single aggregated model will inevitably disappoint some groups severely. MinMax Regret operationalizes the principle that disagreements rooted in genuine value differences cannot be resolved with more evidence by explicitly mapping preference diversity into system structure (ensemble of type-specific models) rather than attempting to resolve it through consensus.
 
 **Relevant Notes:**
-- [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]] — MinMax Regret accepts this impossibility and optimizes for bounded inequality instead
 - [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state]] — MinMax Regret is a technical instantiation of this principle
-- [[binary preference comparisons cannot identify latent preference types making pairwise RLHF structurally blind to diversity]] — EM-DPO's EM stage discovers the preference types that MinMax Regret then aggregates
-- [[some disagreements are permanently irreducible because they stem from genuine value differences not information gaps and systems must map rather than eliminate them]] — MinMax Regret maps rather than eliminates disagreement
+- [[binary-preference-comparisons-cannot-identify-latent-preference-types-making-pairwise-RLHF-structurally-blind-to-diversity]] — EM-DPO's EM stage discovers the preference types that MinMax Regret then aggregates
 
 **Topics:** AI alignment, social choice theory, fairness, preference aggregation, egalitarianism
