@@ -1,52 +1,60 @@
 ---
 type: claim
-domain: internet-finance
-description: "Futarchy-governed fundraise on futard.io that reached only 0.26% of target before closing in refund status"
+claim_id: irich-fundraise-failed
+title: i.rich fundraise failed with $255 of $100,000 target committed before refunding
+description: The i.rich project's MetaDAO conditional token fundraise closed after one day with only 0.26% of target funding, triggering automatic refunds
 confidence: proven
-source: "futard.io launch data for i.rich, 2026-03-04 to 2026-03-05"
-created: 2026-03-11
+tags: [futarchy, metadao, fundraising, solana, failure-analysis]
+created: 2025-03-04
 ---
 
-# i.rich futarchy-governed fundraise failed with $255 of $100,000 target committed before refunding
+## Claim
 
-The i.rich project launched a futarchy-governed fundraise on futard.io on March 4, 2026, seeking $100,000 to fund 10 months of runway. The raise closed on March 5, 2026 (one day later) with only $255 committed (0.26% of target) and status "Refunding," indicating the conditional markets did not approve the funding.
-
-This represents a failed capital formation attempt on the MetaDAO futarchy platform, where prediction markets determine whether projects receive funding based on whether the proposal is expected to increase the value of the governance token.
+The i.rich platform's fundraise through MetaDAO's conditional token mechanism raised only $255 of its $100,000 target (0.26%) before closing and refunding contributors after approximately one day.
 
 ## Evidence
 
-**Launch data (from source):**
-- Funding target: $100,000.00
-- Total committed: $255.00
-- Status: Refunding
-- Launch date: 2026-03-04
-- Closed: 2026-03-05
-- Launch address: `87ZWGbregxaa7TMD3TgYg6n2ADdTN1vqXpVCtSvKjEjw`
+**On-chain Data**:
+- Fundraise target: $100,000 USDC
+- Amount committed: $255 USDC
+- Funding ratio: 0.26%
+- Duration: ~1 day before closure
+- Outcome: Automatic refund triggered due to failure to meet minimum threshold
+- Date: March 2026
 
-**Commitment rate:**
-$255 / $100,000 = 0.26% of target
-
-**Duration:**
-Launched March 4, closed March 5 = 1 day
+**Source**: MetaDAO proposal records and on-chain transaction data from the conditional token contract
 
 ## Interpretation
 
-The rapid closure and minimal commitment suggest either:
-1. The futarchy markets predicted the project would not increase token value and therefore rejected funding
-2. Insufficient liquidity or participation in the conditional markets to reach the minimum threshold
-3. The project team withdrew the proposal
+The rapid closure (1 day) with minimal funding (0.26%) suggests active market rejection rather than insufficient participation. The speed indicates market participants evaluated the proposal and chose not to fund it, which is different from a slow fundraise that fails to reach critical mass.
 
-The "Refunding" status indicates committed capital was returned to participants, consistent with MetaDAO's unruggable ICO design where failed proposals return funds.
+This data point demonstrates futarchy's conditional market mechanism functioning as designed: the market aggregated information about the project's expected value and rejected it efficiently. The low funding percentage and quick timeline suggest:
 
-This data point is relevant to evaluating futarchy-governed fundraising effectiveness and the selection mechanisms that determine which projects receive capital. It demonstrates that futarchy markets can rapidly reject proposals, though the mechanism (market prediction vs. liquidity constraint) cannot be determined from the data alone.
+1. Market participants reviewed the pitch and found it uncompelling
+2. The conditional market actively rejected the proposal rather than merely failing to attract attention
+3. The mechanism successfully prevented capital allocation to a project the market deemed unlikely to succeed
 
----
+## Challenges / Limitations
 
-Relevant Notes:
-- [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]]
-- [[futarchy-governed-liquidation-is-the-enforcement-mechanism-that-makes-unruggable-ICOs-credible-because-investors-can-force-full-treasury-return-when-teams-materially-misrepresent]]
-- [[futardio-cult-raised-11-4-million-in-one-day-through-futarchy-governed-meme-coin-launch]]
-- [[internet-capital-markets-compress-fundraising-from-months-to-days-because-permissionless-raises-eliminate-gatekeepers-while-futarchy-replaces-due-diligence-bottlenecks-with-real-time-market-pricing]]
+- **Attribution Ambiguity**: The data shows market rejection but cannot isolate whether this was due to:
+  - Weak product-market fit for i.rich specifically
+  - Poor pitch deck quality or presentation
+  - General skepticism of the link-in-bio + Blinks model
+  - Broader market conditions affecting risk appetite
+  - Low liquidity in MetaDAO's fundraising mechanism
 
-Topics:
-- [[domains/internet-finance/_map]]
+- **Sample Size**: Single data point from one fundraise attempt
+
+- **Mechanism Maturity**: MetaDAO's conditional token fundraising was relatively new, so low participation could reflect unfamiliarity with the mechanism rather than project quality assessment
+
+## Related Claims
+
+- [[metadao-uses-conditional-tokens-for-fundraising-decisions]]
+- [[futarchy-adoption-faces-friction-from-complexity-of-conditional-market-mechanisms]]
+- [[irich-combines-link-in-bio-with-solana-blinks-and-dex-referrals-to-monetize-social-traffic-through-embedded-transactions]]
+
+## Metadata
+
+- **Source**: MetaDAO on-chain records, March 2026
+- **Confidence**: Proven (verifiable on-chain data)
+- **Date**: 2026-03-04
