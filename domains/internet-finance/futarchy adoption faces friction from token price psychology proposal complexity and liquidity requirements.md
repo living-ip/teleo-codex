@@ -34,6 +34,12 @@ MycoRealms implementation reveals operational friction points: monthly $10,000 a
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-08-30-futardio-proposal-approve-budget-for-pre-governance-hackathon-development]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+FutureDAO's Pre-Governance Mandates tool directly addresses the proposal complexity friction point. The proposal identifies the problem: 'Governance is so much more than voting. Key decisions must be made by community leaders and members throughout the governance process, particularly leading up to formal submission of proposals. There are very few tools to support this process.' This indicates that futarchy adoption is limited not just by the voting mechanism itself, but by the lack of tooling to prepare high-quality proposals. The tool aims to produce 'well-thought out, well-supported and secure proposals prior to their submission' through decision-making engines, surveys, and AI analysis—suggesting that proposal complexity friction is addressable through pre-governance infrastructure rather than being a fundamental mechanism limitation.
+
 ---
 
 Relevant Notes:

@@ -53,6 +53,12 @@ Autocrat is MetaDAO's core governance program on Solana -- the on-chain implemen
 
 **Limitations.** [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- when proposals are clearly good or clearly bad, few traders participate because the expected profit from trading in a consensus market is near zero. This is a structural feature, not a bug: contested decisions get more participation precisely because they're uncertain, which is when you most need information aggregation. But it does mean uncontested proposals can pass or fail with very thin markets, making the TWAP potentially noisy.
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-08-30-futardio-proposal-approve-budget-for-pre-governance-hackathon-development]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+FutureDAO's budget proposal provides verifiable on-chain confirmation of Autocrat 0.3 in production use. The proposal was created August 30, 2024, and completed September 2, 2024—consistent with the three-day settlement window. The proposal account (2LKqzegdHrcrrRCHSuTS2fMjjJuZDfzuRKMnzPhzeD42) and DAO account (ofvb3CPvEyRfD5az8PAqW6ATpPqVBeiB5zBnpPR5cgm) provide verifiable on-chain evidence of the Autocrat implementation being used for operational budget decisions, not just theoretical design or capital allocation.
+
 ---
 
 Relevant Notes:

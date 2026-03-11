@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/2LKqzegdHrcrrRCHSuTS2fMjjJuZDfzuRKMnzPhzeD4
 date: 2024-08-30
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-08-30
+claims_extracted: ["futuredao-pre-governance-mandates-tool-bridges-community-engagement-and-formal-governance-through-decision-engine-and-customizable-surveys.md", "futuredao-demonstrates-futarchy-governed-product-development-budget-allocation-through-25k-hackathon-proposal.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: one about the Pre-Governance Mandates tool design and positioning, one about the futarchy-governed budget allocation as a concrete use case. Enriched three existing claims with evidence about MetaDAO ecosystem positioning, proposal complexity friction, and Autocrat implementation. Source demonstrates futarchy being used for operational product development decisions with detailed budget allocation."
 ---
 
 ## Proposal Details
@@ -161,3 +167,13 @@ Future is building a comprehensive pre-governance platform for DAOs and crypto p
 - Autocrat version: 0.3
 - Completed: 2024-09-02
 - Ended: 2024-09-02
+
+
+## Key Facts
+- FutureDAO proposal 2LKqzegdHrcrrRCHSuTS2fMjjJuZDfzuRKMnzPhzeD42 passed on September 2, 2024
+- $25,000 budget approved for Pre-Governance Mandates tool development
+- Solana Radar Hackathon ran September 1 - October 8, 2024
+- Budget breakdown: $5K engine/API, $3K wizard, $7K frontend, $5K backend, $5K documentation
+- Autocrat version 0.3 used for governance
+- DAO account: ofvb3CPvEyRfD5az8PAqW6ATpPqVBeiB5zBnpPR5cgm
+- Proposer: E2BjNZBAnT6yM52AANm2zDJ1ZLRQqEF6gbPqFZ51AJQh
