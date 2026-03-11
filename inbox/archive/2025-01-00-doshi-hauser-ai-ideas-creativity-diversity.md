@@ -7,7 +7,16 @@ date: 2025-01-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence, cultural-dynamics]
 format: paper
-status: unprocessed
+status: processed
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted:
+  - "high AI exposure increases collective idea diversity without improving individual creative quality creating an asymmetry between group and individual effects"
+  - "human ideas naturally converge toward similarity over social learning chains making AI a net diversity injector rather than a homogenizer under high-exposure conditions"
+  - "task difficulty moderates AI idea adoption more than source disclosure with difficult problems generating AI reliance regardless of whether the source is labeled"
+enrichments:
+  - "challenged_by field added to claim 1 referencing homogenization paper (ScienceDirect 2025)"
+  - "partial connectivity claim enriched with AI-as-external-diversity-source framing"
 priority: high
 tags: [homogenization, diversity-paradox, AI-creativity, collective-diversity, individual-creativity]
 flagged_for_clay: ["implications for creative industries — AI makes ideas different but not better"]
