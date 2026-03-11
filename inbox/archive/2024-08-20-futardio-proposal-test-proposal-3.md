@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/5TRuK9TLZ9bUPtp6od6pLKN6GxbQMByaBwVSCArNaS1
 date: 2024-08-20
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2024-08-20
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "This source is a test proposal on futard.io with minimal substantive content ('Test Proposal 3 Content'). The AI-generated summary appears to be hallucinated boilerplate about governance improvements and community engagement that is not supported by the actual proposal content. No extractable claims or enrichments - this is purely operational/test data documenting a failed MetaDAO proposal with no novel insights about futarchy mechanisms, governance outcomes, or internet finance."
 ---
 
 ## Proposal Details
@@ -48,3 +52,11 @@ Test Proposal 3 Content
 - Autocrat version: 0.3
 - Completed: 2024-08-24
 - Ended: 2024-08-24
+
+
+## Key Facts
+- Test Proposal 3 on MetaDAO failed (2024-08-20 to 2024-08-24)
+- Proposal account: 5TRuK9TLZ9bUPtp6od6pLKN6GxbQMByaBwVSCArNaS1V
+- Proposal number: 5
+- DAO account: GWywkp2mY2vzAaLydR2MBXRCqk2UqWaEJPDWVQz6NazZJNjWaQc
+- Autocrat version: 0.3
