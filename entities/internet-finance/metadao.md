@@ -1,0 +1,82 @@
+---
+type: entity
+entity_type: company
+name: "MetaDAO"
+domain: internet-finance
+handles: ["@MetaDAOProject"]
+website: https://metadao.fi
+status: active
+tracked_by: rio
+created: 2026-03-11
+last_updated: 2026-03-11
+founded: 2023-01-01
+founders: ["[[proph3t]]"]
+category: "Futarchy governance protocol + ownership coin launchpad (Solana)"
+stage: growth
+key_metrics:
+  ecosystem_launches: "12+ (via Futardio)"
+  futarchic_amm_lp_share: "~20% of each project's token supply"
+competitors: ["[[snapshot]]", "[[tally]]"]
+built_on: ["Solana"]
+tags: ["futarchy", "decision-markets", "ownership-coins", "governance", "launchpad"]
+---
+
+# MetaDAO
+
+## Overview
+The futarchy governance protocol on Solana. Implements decision markets through Autocrat — a system where proposals create parallel pass/fail token universes settled by time-weighted average price over a three-day window. Also operates as a launchpad for ownership coins through Futardio (unruggable ICOs). The first platform for futarchy-governed organizations at scale.
+
+## Current State
+- **Autocrat**: Conditional token markets for governance decisions. Proposals create pass/fail universes; TWAP settlement over 3 days.
+- **Futardio**: Unruggable ICO launch platform. Projects raise capital through the MetaDAO ecosystem with futarchy-governed accountability. Replaced the original uncapped pro-rata mechanism that caused massive overbidding (Umbra: $155M committed for $3M raise = 50x oversubscription; Solomon: $103M committed for $8M = 13x).
+- **Futarchic AMM**: Custom-built AMM for decision market trading. No fees for external LPs — all fees go to the protocol. ~20% of each project's token supply is in the Futarchic AMM LP. LP cannot be withdrawn during active markets.
+- **Ecosystem**: 12+ projects launched (Solomon, MycoRealms, Ranger, Dean's List, Umbra, and Futardio-era launches)
+- **Treasury**: Active management via subcommittee proposals (see Solomon DP-00001)
+- **Known limitation**: Limited trading volume in uncontested decisions — when community consensus is obvious, conditional markets add little information
+
+## Timeline
+- **2023** — MetaDAO founded by Proph3t
+- **2024** — Autocrat deployed; early governance proposals
+- **2025-10** — Futardio launches (Umbra is first launch, ~$155M committed)
+- **2025-11** — Solomon launches via Futardio ($103M committed for $8M raise)
+- **2026-02** — Futardio mechanism updated (unruggable ICO replacing pro-rata)
+- **2026-02/03** — Multiple new Futardio launches: Rock Game, Turtle Cove, VervePay, Open Music, SeekerVault, SuperClaw, LaunchPet, Seyf, Areal, Etnlio
+- **2026-03** — Ranger liquidation proposal; treasury subcommittee formation
+- **2026-03** — Pine Analytics Q4 2025 quarterly report published
+
+## Competitive Position
+- **First mover** in futarchy-governed organizations at scale
+- **No direct competitor** for conditional-market governance on Solana
+- **Indirect competitors**: Snapshot (token voting, free, widely adopted), Tally (onchain governance, Ethereum-focused)
+- **Structural advantage**: the Futarchic AMM is purpose-built; no existing AMM can replicate conditional token market settlement
+- **Key vulnerability**: depends on ecosystem project quality. Failed launches (Ranger liquidation) damage platform credibility. Brand separation between MetaDAO platform and Futardio-launched projects is an active design challenge.
+
+## Investment Thesis
+MetaDAO is the platform bet on futarchy as a governance mechanism. If decision markets prove superior to token voting (evidence: Stani Kulechov's DAO critique, convergence toward hybrid governance models), MetaDAO is the infrastructure layer that captures value from every futarchy-governed organization. Current risk: ecosystem quality varies widely, and limited trading volume in uncontested decisions raises questions about mechanism utility.
+
+**Thesis status:** ACTIVE
+
+## Key Metrics to Track
+- % of total futarchic market volume (market share of decision markets)
+- Number of active projects with meaningful governance activity
+- Futardio launch success rate (projects still active vs liquidated/abandoned)
+- Committed-to-raised ratio on new launches (improving from 50x overbidding?)
+- Ecosystem token aggregate market cap
+
+## Relationship to KB
+- [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]] — core claim about MetaDAO
+- [[MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window]] — mechanism description
+- [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] — known limitation
+- [[futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility]] — active design challenge
+- [[DAO governance degenerates into political capture because proposal processes select for coalition-building skill over operational competence and the resulting bureaucracy creates structural speed disadvantages against focused competitors]] — the problem MetaDAO solves
+
+---
+
+Relevant Entities:
+- [[omnipair]] — leverage infrastructure for ecosystem
+- [[proph3t]] — founder
+- [[solomon]] — ecosystem launch
+- [[futardio]] — launch platform
+
+Topics:
+- [[internet finance and decision markets]]
