@@ -6,6 +6,7 @@ description: "Current RLHF implementations make social choice decisions about ev
 confidence: likely
 source: "Conitzer et al. 2024 ICML position paper, multi-institutional collaboration including Stuart Russell"
 created: 2026-03-11
+updated: 2026-03-11
 depends_on: []
 challenged_by: []
 ---

@@ -2,11 +2,12 @@
 type: claim
 domain: ai-alignment
 secondary_domains: [mechanisms]
-description: "Practical voting methods like Borda Count and Ranked Pairs avoid Arrow's impossibility by sacrificing IIA rather than claiming to overcome the theorem"
+description: "Practical voting methods like Borda Count and Ranked Pairs avoid Arrow's impossibility by sacrificing IIA for ordinal preference aggregation rather than claiming to overcome the theorem"
 confidence: likely
 source: "Conitzer et al. 2024, synthesizing 70+ years of post-Arrow social choice theory"
 created: 2026-03-11
-depends_on: []
+updated: 2026-03-11
+depends_on: ["universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective"]
 challenged_by: []
 ---
 
@@ -15,6 +16,8 @@ challenged_by: []
 Arrow's impossibility theorem proves that no ordinal preference aggregation method can simultaneously satisfy unrestricted domain, Pareto efficiency, independence of irrelevant alternatives (IIA), and non-dictatorship. Rather than claiming to overcome this theorem, post-Arrow social choice theory has developed practical mechanisms that work by deliberately weakening IIA.
 
 Conitzer et al. (2024) explain the key insight: "For ordinal preference aggregation, in order to avoid dictatorships, oligarchies and vetoers, one must weaken IIA." This is not a workaround or a failure—it's the constructive path forward that 70+ years of social choice research has validated.
+
+**Important scope note:** This claim applies specifically to ordinal preference aggregation (ranking-based systems). Cardinal systems (range voting, approval voting) escape Arrow's theorem via a different route—by using non-ordinal preference representation rather than weakening IIA. The mechanisms described here are the practical solution for ranking-based systems.
 
 Practical voting methods that weaken IIA include:
 - **Borda Count**: Ranks depend on full preference orderings, not just pairwise comparisons
@@ -33,8 +36,9 @@ RLHF systems that use simple averaging or plurality voting are implicitly choosi
 ---
 
 Relevant Notes:
+- [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]]
 - [[designing coordination rules is categorically different from designing coordination outcomes as nine intellectual traditions independently confirm]]
-- [[rlhf-is-implicit-social-choice-without-normative-scrutiny.md]]
+- [[rlhf-is-implicit-social-choice-without-normative-scrutiny]]
 
 Topics:
 - [[domains/ai-alignment/_map]]

@@ -6,8 +6,9 @@ description: "When values are genuinely incompatible, creating multiple aligned 
 confidence: experimental
 source: "Conitzer et al. 2024 ICML position paper proposing pluralism as structural alternative to forced consensus"
 created: 2026-03-11
-depends_on: ["persistent irreducible disagreement.md"]
-challenged_by: ["multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence.md"]
+updated: 2026-03-11
+depends_on: ["persistent irreducible disagreement"]
+challenged_by: ["multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence"]
 ---
 
 # Pluralistic alignment creates multiple AI systems reflecting incompatible values rather than forcing consensus
@@ -29,7 +30,7 @@ This differs from the existing claim that [[pluralistic alignment must accommoda
 
 This aligns with the broader collective superintelligence thesis: rather than a single monolithic AI controlled by whoever wins the alignment race, a diverse ecosystem of aligned systems preserves human agency and value pluralism.
 
-**Open tension with multipolar risk**: [[multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence.md]] raises a genuine structural concern. The pluralistic approach assumes user-selected systems reflecting chosen values, which differs from competing labs racing to deploy incompatible systems. However, the multipolar failure dynamics remain a legitimate challenge: whether multiple aligned systems can coordinate without reproducing competitive failure modes is an open question that this claim does not fully resolve.
+**Open tension with multipolar risk**: [[multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence]] raises a genuine structural concern. The pluralistic approach assumes user-selected systems reflecting chosen values, which differs from competing labs racing to deploy incompatible systems. However, the multipolar failure dynamics remain a legitimate challenge: whether multiple aligned systems can coordinate without reproducing competitive failure modes is an open question that this claim does not fully resolve.
 
 Practical implementation challenges:
 - How to identify genuine value incompatibility vs. resolvable disagreement
@@ -45,9 +46,9 @@ The paper does not fully resolve these challenges but establishes pluralism as a
 Relevant Notes:
 - [[collective superintelligence is the alternative to monolithic AI controlled by a few]]
 - [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state]]
-- [[persistent irreducible disagreement.md]]
+- [[persistent irreducible disagreement]]
 - [[AI alignment is a coordination problem not a technical problem]]
-- [[multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence.md]]
+- [[multipolar failure from competing aligned AI systems may pose greater existential risk than any single misaligned superintelligence]]
 
 Topics:
 - [[domains/ai-alignment/_map]]

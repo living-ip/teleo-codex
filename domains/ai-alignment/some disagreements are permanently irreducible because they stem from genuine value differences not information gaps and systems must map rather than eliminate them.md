@@ -7,7 +7,7 @@ source: "Arrow's impossibility theorem; value pluralism (Isaiah Berlin); Conitze
 created: 2026-03-02
 updated: 2026-03-11
 depends_on: []
-challenged_by: []
+challenged_by: ["deliberative democracy theory (Habermas, Dryzek) argues that apparent value disagreements often dissolve under ideal speech conditions"]
 ---
 
 # Some disagreements are permanently irreducible because they stem from genuine value differences not information gaps and systems must map rather than eliminate them
@@ -24,7 +24,9 @@ The correct response is to map the disagreement rather than eliminate it. Identi
 
 [[Collective intelligence within a purpose-driven community faces a structural tension because shared worldview correlates errors while shared purpose enables coordination]]. Persistent irreducible disagreement is actually a safeguard here — it prevents the correlated error problem by maintaining genuine diversity of perspective within a coordinated community. The independence-coherence tradeoff is managed not by eliminating disagreement but by channeling it productively.
 
-**Evidence from social choice theory** (confirm): Conitzer et al. (2024) explicitly distinguish between disagreements that stem from information gaps (resolvable through deliberation and better information) and those that stem from fundamental value differences (requiring pluralistic accommodation). They argue that Arrow's impossibility theorem is not a bug but a feature: it reveals that some value conflicts cannot and should not be aggregated away. This supports the claim that systems must map irreducible disagreements rather than eliminate them. The paper's endorsement of the "pluralism option" — creating multiple AI systems reflecting incompatible values — is the practical response to this theoretical insight.
+### Additional Evidence (confirm)
+
+Conitzer et al. (2024) explicitly distinguish between disagreements that stem from information gaps (resolvable through deliberation and better information) and those that stem from fundamental value differences (requiring pluralistic accommodation). They argue that Arrow's impossibility theorem is not a bug but a feature: it reveals that some value conflicts cannot and should not be aggregated away. This supports the claim that systems must map irreducible disagreements rather than eliminate them. The paper's endorsement of the "pluralism option" — creating multiple AI systems reflecting incompatible values — is the practical response to this theoretical insight.
 
 ---
 

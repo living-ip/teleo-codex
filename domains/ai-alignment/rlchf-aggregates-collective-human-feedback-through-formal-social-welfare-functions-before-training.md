@@ -6,7 +6,8 @@ description: "RLCHF variants aggregate evaluator rankings via social choice func
 confidence: experimental
 source: "Conitzer et al. 2024 proposing RLCHF as formalization of collective feedback aggregation"
 created: 2026-03-11
-depends_on: ["rlhf-is-implicit-social-choice-without-normative-scrutiny.md"]
+updated: 2026-03-11
+depends_on: ["rlhf-is-implicit-social-choice-without-normative-scrutiny"]
 challenged_by: []
 ---
 
@@ -47,9 +48,9 @@ Open questions:
 ---
 
 Relevant Notes:
-- [[rlhf-is-implicit-social-choice-without-normative-scrutiny.md]]
+- [[rlhf-is-implicit-social-choice-without-normative-scrutiny]]
 - [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]]
-- [[post-arrow-social-choice-mechanisms-work-by-weakening-independence-of-irrelevant-alternatives.md]]
+- [[post-arrow-social-choice-mechanisms-work-by-weakening-independence-of-irrelevant-alternatives]]
 
 Topics:
 - [[domains/ai-alignment/_map]]
