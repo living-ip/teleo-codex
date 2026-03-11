@@ -36,7 +36,7 @@ Evidence: Futardio's unruggable ICO mechanism adds investor protection without a
 
 | Entity | Value Proposition | Thesis Dependency | Trajectory |
 |--------|------------------|-------------------|------------|
-| [[futardio]] | Unruggable ICOs with futarchy governance. Investor protection through market-governed liquidation. | Futarchy enforcement makes launches credible | Growing — 5,400+ launches, mechanism iterating |
+| [[futardio]] | Unruggable ICOs with futarchy governance. Investor protection through market-governed liquidation. | Futarchy enforcement makes launches credible | Growing — 45 launches, $17.8M committed, mechanism iterating |
 | [[metadao]] | Platform layer underneath Futardio. Autocrat governance + Futarchic AMM. | Futarchy outperforms voting for capital allocation | Growing |
 
 ### Unaccountable Launch Platforms (memecoins, no governance)
@@ -82,7 +82,7 @@ The regulatory axis is orthogonal. SOAR DRP and ERC-S attempt full compliance. F
 
 | Metric | Why It Matters | Current Leader |
 |--------|---------------|----------------|
-| Total launches | Market demand for permissionless capital formation | pump.fun — millions |
+| Total launches | Market demand for permissionless capital formation | pump.fun — millions; Futardio — 45 |
 | Capital raised through launches | Economic significance | pump.fun (aggregate) > Futardio (per quality launch) |
 | Investor protection events (liquidations) | Accountability mechanism works | Futardio — Ranger is first test |
 | Launch-to-active ratio | Platform quality signal | Unknown — no one tracks this well |

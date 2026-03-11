@@ -61,7 +61,7 @@ Evidence: convergent evolution from opposite directions. Futarchy-native project
 
 | Entity | What Happened | When | Lesson |
 |--------|--------------|------|--------|
-| Ranger Finance | Liquidation proposal filed via futarchy | 2026-03 | Futarchy-governed liquidation IS the enforcement mechanism — system working as designed |
+| [[ranger-finance]] | Liquidation proposal passed via futarchy. $6M raised, volume 60% below projections, revenue 75% below. Estimated $0.75-$0.82/token recovery. | 2026-03 | Futarchy-governed liquidation IS the enforcement mechanism — system working as designed. ~75-82% investor recovery. |
 | MycoRealms (v1) | First launch failed, relaunched | 2025-2026 | Low relaunch cost (~$90) enables iteration — failure is not permanent |
 
 ## Competitive Dynamics
@@ -88,7 +88,7 @@ The infrastructure layer (OmniPair for leverage, Futardio for launches) is where
 | Metric | Why It Matters | Current Leader |
 |--------|---------------|----------------|
 | Futarchic market volume | Governance signal quality scales with volume | MetaDAO — sole player |
-| Number of active futarchy-governed entities | Ecosystem breadth | MetaDAO — 12+ |
+| Number of active futarchy-governed entities | Ecosystem breadth | MetaDAO — 45 Futardio launches, 8 curated ICOs |
 | Launch success rate (projects still active vs failed) | Platform quality signal | MetaDAO/Futardio — unknown aggregate rate |
 | Committed-to-raised ratio | Capital efficiency of launch mechanism | Improving — Futardio unruggable ICO vs old 50x overbidding |
 | DAO treasuries governed by market mechanisms vs voting | Market share of governance | Token voting dominates ($100B+); futarchy is <1% |
