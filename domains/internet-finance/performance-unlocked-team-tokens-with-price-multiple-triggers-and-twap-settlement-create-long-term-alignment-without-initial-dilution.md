@@ -41,6 +41,12 @@ This structure is untested in practice. Key risks:
 - 18-month cliff may be too long for early-stage projects with high burn rates, creating team retention risk
 - No precedent for whether TWAP-based triggers actually prevent manipulation in low-liquidity token markets
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-01-06-futardio-launch-ranger]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Ranger's team performance package allocates 7,600,000 tokens (30% of total supply) with an 18-month cliff and price-based unlocks at 2x, 4x, 8x, 16x, and 32x ICO price using 3-month TWAP settlement. This structure defers 30% of supply until the team demonstrates sustained value creation, with each unlock tier requiring progressively higher market validation. The 3-month TWAP prevents gaming through short-term price manipulation, confirming the mechanism's effectiveness in creating long-term alignment without initial dilution.
+
 ---
 
 Relevant Notes:

@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/8Nmd13rpULJjY7h6oxCfuTWy8WkZxcuDrDWiSdnViVuo"
 date: 2026-01-06
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-01-06
+claims_extracted: ["ranger-raised-86m-through-metadao-futarchy-ico-with-points-preference-structure.md", "ranger-aggregates-perp-venues-across-solana-hyperliquid-through-smart-order-router.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "performance-unlocked-team-tokens-with-price-multiple-triggers-and-twap-settlement-create-long-term-alignment-without-initial-dilution.md", "internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) Ranger's $86M raise as first MetaDAO ICO with existing investor preferences and hybrid capital structure, (2) Ranger's multi-venue perp aggregation product. Four enrichments applied to existing MetaDAO/futarchy claims with new evidence on capital structure complexity, performance vesting, fundraising speed, and quasi-liquidation mechanisms. Product claims are self-reported and unverified, classified as experimental confidence."
 ---
 
 ## Launch Details
@@ -81,3 +87,13 @@ This ICO is to expand the team's capacity and increase velocity as we build towa
 - Total approved: $8,000,000.00
 - Closed: 2026-01-10
 - Completed: 2026-01-10
+
+
+## Key Facts
+- Ranger raised $86,398,012.12 against $6M minimum target (completed 2026-01-10)
+- Total token supply: 25,625,000 RNGR
+- Token mint: RNGRtJMbCveqCp7AC6U95KmrdKecFckaJZiWbPGmeta
+- $250k monthly spending allowance
+- Cayman SP entity structure
+- Launch address: 8Nmd13rpULJjY7h6oxCfuTWy8WkZxcuDrDWiSdnViVuo
+- Approximately $50B daily derivatives volume across Solana, Arbitrum, Hyperliquid
