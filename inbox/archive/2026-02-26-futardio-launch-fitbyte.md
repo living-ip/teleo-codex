@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/8AsLQuzVHwAjiQa9pkgoPHkEy523X7gQYs9zJfMtiqi2"
 date: 2026-02-26
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["fitbyte-demonstrates-dual-demand-workout-to-earn-through-verified-activity-rewards-plus-paid-health-data-marketplace.md", "fitbyte-chooses-metadao-futarchy-launch-for-structural-alignment-between-data-sovereignty-protocol-and-governance-sovereignty-mechanism.md"]
+enrichments_applied: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md", "ownership coins primary value proposition is investor protection not governance quality because anti-rug enforcement through market-governed liquidation creates credible exit guarantees that no amount of decision optimization can match.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "FitByte represents a failed MetaDAO ICO that provides evidence for existing claims about futarchy platform dynamics (reputational risk, low-volume decisions, investor protection framing). Extracted two new claims: one about the dual-demand token economics model (experimental confidence due to pitch-only evidence, no technical validation), and one about values-alignment rationale for choosing futarchy launch (speculative confidence as self-reported reasoning). The immediate failure ($23 raised) and refund status make this primarily valuable as a data point for futarchy mechanism behavior rather than as validation of the project's own claims."
 ---
 
 ## Launch Details
@@ -99,3 +105,13 @@ MetaDAO's Unruggable ICO model enforces what most projects only claim. Raise pro
 - Token mint: `6GFCEfiaBpX21D7vUe7LvHJXjNuc9q3e5nRwUz1Wmeta`
 - Version: v0.7
 - Closed: 2026-02-27
+
+
+## Key Facts
+- FitByte ICO launched 2026-02-26 on MetaDAO platform (launch address: 8AsLQuzVHwAjiQa9pkgoPHkEy523X7gQYs9zJfMtiqi2)
+- Funding target: $500,000.00
+- Total committed: $23.00
+- Status: Refunding (closed 2026-02-27)
+- Token: 6GF (mint: 6GFCEfiaBpX21D7vUe7LvHJXjNuc9q3e5nRwUz1Wmeta)
+- Project description: workout-to-earn + health data sovereignty protocol on Solana
+- Website listed: https://henry.com (likely placeholder or error)
