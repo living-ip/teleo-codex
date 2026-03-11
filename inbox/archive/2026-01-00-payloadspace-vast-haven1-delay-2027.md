@@ -6,10 +6,15 @@ url: https://payloadspace.com/vast-delays-haven-1-launch-to-2027/
 date: 2026-01-00
 domain: space-development
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: medium
 tags: [vast, haven-1, commercial-station, iss-transition, timeline-slip, gap-risk]
+processed_by: astra
+processed_date: 2026-03-11
+enrichments_applied: ["commercial space stations are the next infrastructure bet as ISS retirement creates a void that 4 companies are racing to fill by 2030.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted systemic timeline slippage claim and competitive positioning claim. Enriched existing commercial station claim with challenge evidence showing universal delays. Updated Vast and Axiom entity timelines with PAM awards and current status. Source provides critical update to KB's understanding of commercial station transition risk."
 ---
 
 ## Content
@@ -40,3 +45,10 @@ Despite the delay, Vast maintains a ~2-year lead over competitors. If Haven-1 la
 PRIMARY CONNECTION: [[commercial space stations are the next infrastructure bet as ISS retirement creates a void that 4 companies are racing to fill by 2030]]
 WHY ARCHIVED: Systemic timeline slippage across all commercial station programs — evidence that the transition is harder than originally projected
 EXTRACTION HINT: Focus on the systemic nature of delays (all programs behind, not just one) and the ISS gap risk if delays compound
+
+
+## Key Facts
+- ISS retirement scheduled for 2031 (may extend if no replacement ready)
+- MIT Technology Review named commercial space stations a '10 Breakthrough Technologies of 2026'
+- Starlab timeline: 2028-2029 (Nanoracks/Voyager/Lockheed)
+- Orbital Reef timeline: 2030 (Blue Origin/Sierra Space/Boeing)
