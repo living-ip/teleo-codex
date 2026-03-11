@@ -20,6 +20,12 @@ This inverts the traditional relationship between knowledge bases and code. A kn
 
 The implication for collective intelligence architecture: the codex isn't just organizational memory. It's the interface between human direction and autonomous execution. Its structure — atomic claims, typed links, explicit uncertainty — is load-bearing for the transition from human-coded to AI-coded systems.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-25-karpathy-programming-changed-december]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Andrej Karpathy's February 2026 observation that coding agents underwent a phase transition in December 2025—shifting from 'basically didn't work' to 'basically work' with 'significantly higher quality, long-term coherence and tenacity' enabling them to 'power through large and long tasks, well past enough that it is extremely disruptive to the default programming workflow'—provides direct evidence from a leading AI practitioner that AI-automated software development has crossed from theoretical to practical viability. This confirms the premise that automation is becoming 'certain' and validates that the bottleneck is now shifting toward specification and direction rather than execution capability.
+
 ---
 
 Relevant Notes:

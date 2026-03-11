@@ -6,11 +6,16 @@ url: https://www.space.com/astroscale-space-junk-removal-2026-plan-exclusive-vid
 date: 2026-03-00
 domain: space-development
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: medium
 tags: [debris, active-debris-removal, astroscale, governance, commons-tragedy, regulation]
 flagged_for_leo: ["Debris removal threshold (~60 objects/year) as concrete commons governance benchmark — connects to Ostrom's principles"]
+processed_by: astra
+processed_date: 2026-03-11
+enrichments_applied: ["orbital debris is a classic commons tragedy where individual launch incentives are private but collision risk is externalized to all operators.md", "space governance gaps are widening not narrowing because technology advances exponentially while institutional design advances linearly.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) quantified ADR threshold vs. current capability gap as concrete governance benchmark, (2) FCC/ESA regulatory tightening as evidence of governance plasticity in strong institutions. Enriched existing commons tragedy claim with quantitative threshold data and challenged governance gaps claim with evidence of regulatory adaptation. The 60 objects/year threshold is the key insight—it converts an abstract governance problem into a measurable performance target."
 ---
 
 ## Content
@@ -39,3 +44,10 @@ Research on ADR effectiveness (Frontiers in Space Technologies, 2026):
 PRIMARY CONNECTION: [[orbital debris is a classic commons tragedy where individual launch incentives are private but collision risk is externalized to all operators]]
 WHY ARCHIVED: First operational ADR missions + quantified removal threshold (~60/year) provides concrete test of commons governance in space
 EXTRACTION HINT: Extract the 60 objects/year threshold as a quantitative benchmark. Compare current ADR capability (~5 objects) to required rate. This is the gap between governance aspiration and operational reality.
+
+
+## Key Facts
+- Astroscale ELSA-M launching 2026, capable of removing multiple prepared satellites in single mission
+- Astroscale COSMIC mission (UK Space Agency partnership) removing 2 defunct British spacecraft in 2026
+- Astroscale U.S. Patent No. 12,234,043 B2 for distributed multi-object debris removal architecture
+- FCC and ESA mandated 5-year deorbit for LEO satellites (tightened from 25-year voluntary guideline)

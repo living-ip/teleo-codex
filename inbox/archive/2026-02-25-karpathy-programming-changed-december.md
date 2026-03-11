@@ -8,9 +8,15 @@ date: 2026-02-25
 domain: ai-alignment
 secondary_domains: [teleological-economics]
 format: tweet
-status: unprocessed
+status: processed
 priority: medium
 tags: [coding-agents, ai-capability, phase-transition, software-development, disruption]
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted: ["coding-agents-crossed-usability-threshold-december-2025-when-models-achieved-sustained-coherence-across-complex-multi-file-tasks.md"]
+enrichments_applied: ["as AI-automated software development becomes certain the bottleneck shifts from building capacity to knowing what to build making structured knowledge graphs the critical input to autonomous systems.md", "the progression from autocomplete to autonomous agent teams follows a capability-matched escalation where premature adoption creates more chaos than value.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "High-signal source from authoritative voice. Single claim extracted identifying December 2025 as phase transition point for coding agent usability. Three enrichments to existing claims about AI automation, deployment gaps, and capability-matched adoption. Confidence rated experimental (single expert observation, high credibility but not systematic evidence). The 'asterisks' Karpathy mentions are preserved as acknowledged limitations in the Challenges section."
 ---
 
 ## Content
@@ -26,3 +32,9 @@ It is hard to communicate how much programming has changed due to AI in the last
 **Extraction hints:** Claim candidate: coding agent capability crossed a usability threshold in December 2025, representing a phase transition not gradual improvement. Evidence: Karpathy's direct experience running agents on nanochat.
 
 **Context:** This tweet preceded the autoresearch project by ~10 days. The 37K likes suggest massive resonance across the developer community. The "asterisks" he mentions are important qualifiers that a good extraction should preserve.
+
+
+## Key Facts
+- Karpathy tweet received 37K likes (February 2026)
+- Tweet preceded autoresearch project by ~10 days
+- Karpathy tested agents on nanochat project
