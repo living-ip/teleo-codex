@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/7U7F3g1y81PJ97pQdA85moD732kctKGLizKgCHqnGW2d"
 date: 2026-03-04
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Failed fundraise with extreme undersubscription (98.4% shortfall). No novel claims about futarchy mechanisms or market dynamics — this is purely factual entity data about a failed launch. The project proposed standard Web3 storage architecture (decentralized storage + on-chain access control) but failed to attract capital. Significance threshold met despite failure due to being a documented futarchy-governed fundraise on established platform."
 ---
 
 ## Launch Details
@@ -135,3 +139,12 @@ We are seeking **$75,000** to fund **6 months** of operations, taking SeekerVaul
 - Token mint: `3M1UfefsfrtBNkaDnrbnchRakEixhd8GGzFpnNuSmeta`
 - Version: v0.7
 - Closed: 2026-03-05
+
+
+## Key Facts
+- SeekerVault targeted 150,000+ Solana Seeker device owners
+- Proposed pricing: 20MB free tier, 100GB for $10/month payable in SKR
+- Technical stack: Walrus protocol (storage) + Seal (decentralized secrets management on Sui)
+- Requested $75,000 for 6-month runway ($10,000/month burn: $4K team, $5K infrastructure, $1K marketing)
+- Launch address: 7U7F3g1y81PJ97pQdA85moD732kctKGLizKgCHqnGW2d
+- Token: 3M1, mint: 3M1UfefsfrtBNkaDnrbnchRakEixhd8GGzFpnNuSmeta
