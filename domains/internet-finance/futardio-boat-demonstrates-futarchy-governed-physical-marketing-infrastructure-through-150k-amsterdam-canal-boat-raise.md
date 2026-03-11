@@ -1,34 +1,23 @@
 ---
 type: claim
-claim_type: hypothesis
+claim_type: factual
 confidence: experimental
-tags:
-  - futarchy
-  - marketing
-  - physical-infrastructure
-  - metadao
-  - futardio
-source_type: primary
-source_date: 2026-03-05
-processed_date: 2026-03-06
+domains:
+  - internet-finance
+  - governance
+created: 2025-03-05
+processed_date: 2025-03-05
+source:
+  - https://x.com/MetaDAOProject/status/1897730668821614798
 ---
 
-# Futardio Boat demonstrates futarchy-governed physical marketing infrastructure through €150k Amsterdam canal boat raise
+# Futardio Boat demonstrates futarchy-governed physical marketing infrastructure through $150k Amsterdam canal boat raise
 
-The Futardio Boat campaign represents an attempt to use futarchy governance (via MetaDAO) to fund physical marketing infrastructure—specifically a branded canal boat in Amsterdam for brand visibility and content generation. The campaign proposed €150,000 for a 24-month runway at approximately €5,000/month burn rate.
+The Futardio Boat campaign on MetaDAO's futarchy platform proposed raising $150,000 to purchase and operate a branded canal boat in Amsterdam as physical marketing infrastructure for the MetaDAO ecosystem. The proposal represented an attempt to apply futarchy governance mechanisms to physical infrastructure projects with long-term, indirect marketing effects.
 
-The campaign launched March 5, 2026 and entered refunding status March 6, 2026. It remains unclear whether refunding resulted from market rejection, failure to meet participation thresholds, or other factors. No funds were ultimately raised.
+The campaign entered refunding status after one day. It remains unclear whether refunding resulted from market rejection of the proposal's value thesis, failure to meet participation thresholds, or other factors. The outcome contrasts with the MycoRealms campaign on the same platform, which successfully raised funds for a physical mushroom farm, suggesting that challenges may be proposal-specific rather than inherent limitations of futarchy for physical infrastructure.
 
-## Evidence
+## Related Claims
 
-- Campaign proposed €150,000 raise for 24-month operation
-- Targeted Amsterdam canal boat as physical marketing infrastructure
-- Launched March 5, 2026
-- Entered refunding March 6, 2026
-- Represents second Futardio-branded MetaDAO campaign after successful $11M meme coin launch
-
-## Enrichments
-
-### Related to [[myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-mushroom-cultivation-facility-raise]]
-
-Both campaigns attempted to use futarchy governance for physical infrastructure funding, though in different domains (marketing vs. agriculture). The Myco Realms campaign successfully raised funds while Futardio Boat entered refunding after one day, though the causes of refunding remain unclear.
+- [[futardio-boat-campaign-argued-physical-brand-presence-in-tourist-destinations-creates-algorithmic-resistance-and-organic-content-generation-that-digital-advertising-cannot-replicate]]
+- [[metadao-platform-enables-futarchy-governance-for-physical-infrastructure-projects]]
