@@ -21,3 +21,25 @@ Cross-session memory. Review after 5+ sessions for cross-session patterns.
 - Belief #6 (decentralized mechanism design creates regulatory defensibility): **COMPLICATED** — the Clarity Act's lifecycle reclassification model may make the Howey test structural argument less important. If secondary trading reclassifies tokens as commodities regardless of initial distribution, the entire "not a security" argument shifts from structure to lifecycle.
 
 **Sources archived this session:** 10 (Optimism futarchy findings, MetaDAO ICO analysis, Messari ownership coins thesis, PANews futarchy analysis, Frontiers DeSci futarchy paper, Chippr Robotics futarchy + private markets, GENIUS Act, Clarity Act, Polymarket CFTC approval, Shoal MetaDAO analysis)
+
+---
+
+## Session 2026-03-11 (Session 2)
+**Question:** How is the MetaDAO ecosystem's transition from curated to permissionless unfolding, and what does the converging regulatory landscape (CLARITY Act + prediction market jurisdiction battles) mean for futarchy-governed capital formation?
+
+**Key finding:** MetaDAO had a breakout Q4 2025 (first profitable quarter, $2.51M revenue, 6 ICOs, counter-cyclical growth during 25% crypto market decline) but revenue has declined since mid-December due to ICO cadence problem. The strategic response is a shift from curated to permissionless launches with a "verified launch" trust layer — reputation-based curation on permissionless infrastructure. Meanwhile, the regulatory landscape is simultaneously clarifying (CLARITY Act, DCIA) and fragmenting (3+ states suing prediction market platforms, circuit split emerging, Supreme Court involvement likely).
+
+**Pattern update:** Two session-1 patterns confirmed and extended:
+1. *Regulatory landscape shifting — but in two directions:* Federal clarity IS increasing (CLARITY Act passed House, DCIA passed Senate Ag Committee, CFTC defending exclusive jurisdiction). But state-level opposition is also mobilizing (Nevada, Massachusetts, Tennessee lawsuits; 36 states filed amicus briefs; NASAA formal concerns). The pattern is not "regulatory uncertainty decreasing" but "regulatory uncertainty BIFURCATING" — federal moving toward clarity while states resist. This is heading to SCOTUS.
+2. *Ownership coins thesis strengthening:* Pine Analytics Q4 data confirms counter-cyclical growth. Pump.fun comparison (<0.5% survival vs 100% above-ICO for MetaDAO) is the strongest comparative evidence. Colosseum STAMP provides the first standardized investment instrument for the ownership coin path. Galaxy Digital and Bankless covering ownership coins = narrative going mainstream.
+
+**New pattern identified:**
+3. *MetaDAO's curated → permissionless transition as microcosm of the platform scaling problem:* Revenue cadence depends on launch cadence. Curated model produces quality but not throughput. Permissionless produces throughput but not quality. The "verified launch" (reputation trust + permissionless infra) is a novel mechanism design compromise. This same pattern will face Teleocap — how to scale permissionless capital formation while maintaining quality.
+
+**Confidence shift:**
+- Belief #3 (futarchy solves trustless joint ownership): **FURTHER STRENGTHENED** — Q4 2025 data ($219M total futarchy marketcap, 17.5x proposal volume increase, counter-cyclical growth) adds to the evidence base. STAMP instrument creates the first standardized private-to-public path.
+- Belief #5 (legacy intermediation as rent-extraction): **STRENGTHENED** — CLARITY Act and DCIA creating explicit legal lanes for programmable alternatives. Stablecoin yield debate shows incumbents fighting for rent preservation.
+- Belief #6 (regulatory defensibility through decentralization): **COMPLICATED FURTHER** — two new developments: (a) CLARITY Act's "decentralization on-ramp" offers statutory path complementing Howey defense, (b) but state-federal prediction market jurisdiction crisis creates existential risk for futarchy if states classify governance markets as gaming. The Howey analysis may be less important than the prediction market classification question.
+- **NEW concern**: The prediction market state-federal jurisdiction crisis is the single most important regulatory risk for futarchy. The KB doesn't have a claim covering this. If states win, futarchy governance faces 50-state licensing. If CFTC wins, single federal framework. Supreme Court will likely decide.
+
+**Sources archived this session:** 11 (Pine Analytics Q4 2025 report, Colosseum STAMP introduction, CLARITY Act status, DCIA Senate Agriculture passage, Nevada Polymarket lawsuit, prediction market jurisdiction multi-state analysis, MetaDAO strategic reset, Alea Research MetaDAO analysis, CFTC prediction market rulemaking signal, NASAA concerns, crypto trends 2026 ownership coins, Bankless futarchy, Solana Compass MetaDAO interview)
