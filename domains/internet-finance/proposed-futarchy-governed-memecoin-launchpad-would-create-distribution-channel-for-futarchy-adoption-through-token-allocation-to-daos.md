@@ -1,72 +1,41 @@
 ---
 type: claim
-claim_id: futarchy_governed_memecoin_launchpad
+claim_id: proposed-futarchy-governed-memecoin-launchpad-would-create-distribution-channel-for-futarchy-adoption-through-token-allocation-to-daos
 title: Proposed futarchy-governed memecoin launchpad would create distribution channel for futarchy adoption through token allocation to DAOs
-description: A rejected 2024 MetaDAO proposal suggested a memecoin launchpad where 10% of launched tokens would be allocated to DAOs that adopt futarchy governance, creating a distribution mechanism for futarchy adoption
+description: The FUTARDIO proposal included a mechanism to allocate 10% of launched tokens to DAOs, which would have created a distribution channel for futarchy adoption by giving DAOs exposure to futarchy-governed assets. The proposal required a 6-month timeline and $100k grant but was rejected on 2024-08-18.
 domains:
   - internet-finance
   - governance
+confidence: speculative
 tags:
   - futarchy
-  - MetaDAO
+  - dao
+  - token-distribution
   - memecoin
-  - governance-adoption
-confidence: speculative
-status: active
-created: 2025-01-21
-modified: 2025-01-21
+created: 2025-01-26
+processed_date: 2025-01-26
 ---
 
-# Proposed futarchy-governed memecoin launchpad would create distribution channel for futarchy adoption through token allocation to DAOs
+The FUTARDIO proposal for a futarchy-governed memecoin launchpad on [[Solana]] included a mechanism where 10% of each launched token would be allocated to DAOs. This would have created a distribution channel for futarchy adoption by giving DAOs direct exposure to futarchy-governed assets and the FUTARDIO governance token.
 
-## Core Claim
+The proposal explicitly stated it would require **6 months** to develop and a **$100k grant**, providing important context for understanding the opportunity cost concerns that may have contributed to its rejection.
 
-A MetaDAO proposal from August 2024 (which was ultimately rejected) outlined a memecoin launchpad mechanism where 10% of each launched token would be allocated to DAOs that adopt futarchy governance. This would have created a distribution channel incentivizing futarchy adoption.
+## Supporting Evidence
 
-## Evidence
+- The proposal specified that "10% of the supply of each launched token goes to DAOs" and "0.5% of the supply of each launched token goes to FUTARDIO token holders"
+- This mechanism would have given DAOs both launched tokens and FUTARDIO tokens, creating exposure to futarchy governance
+- The proposal was submitted 2024-08-14 and failed 2024-08-18
+- Required timeline: 6 months
+- Required funding: $100k grant
 
-### Primary Evidence
+## Counter-Evidence
 
-**Proposal Mechanism Design**
-- Source: MetaDAO Proposal #59 "Develop Futardio - Memecoin Launchpad"
-- Date: August 2024
-- Confidence: High that this mechanism was proposed; speculative on whether it would have achieved stated goals
-- Details: The proposal specified that 10% of tokens from each memecoin launch would be distributed to DAOs that implement futarchy governance, creating a direct financial incentive for governance adoption
-
-**Distribution as Adoption Incentive**
-- The mechanism would have created ongoing value flow to futarchy-adopting DAOs
-- Each successful memecoin launch would have reinforced the incentive structure
-- The proposal framed this as a "distribution channel" for futarchy itself
-
-### Proposal Outcome
-
-**Market Rejection**
-- The proposal was rejected by MetaDAO's conditional markets on 2024-08-18
-- The market rejection could reflect multiple concerns including execution risk, opportunity cost, timing, team capability, reputational concerns, or other factors
-- The proposal itself outlined various tradeoffs, making it difficult to attribute the failure to any single factor
+- The proposal was never implemented, so the distribution mechanism was never tested
+- The proposal's rejection may indicate skepticism about the value proposition
+- No evidence that DAOs were actively seeking this type of distribution mechanism
 
 ## Related Claims
 
-- [[memecoin-launchpad-with-bootstrapping-token-represents-market-opening-for-pump-fun-competitors]]
+- [[proposed-memecoin-launchpad-with-bootstrapping-token-suggested-market-opening-for-pump-fun-competitors]]
 - [[pump.fun]] <!-- claim pending -->
 - [[hyperstructure]] <!-- claim pending -->
-
-## Counterevidence
-
-- The proposal was never implemented, so the actual effectiveness of this distribution mechanism remains untested
-- No evidence of similar mechanisms being successfully deployed elsewhere
-- The 10% allocation might not be sufficient incentive for DAOs to adopt an entirely new governance system
-
-## Implications
-
-If implemented, this mechanism would have:
-- Created financial incentives for governance experimentation
-- Linked memecoin speculation to governance innovation
-- Potentially accelerated futarchy adoption beyond MetaDAO
-
-## Confidence Assessment
-
-Confidence is marked as speculative because:
-- The proposal was rejected and never implemented
-- The actual effectiveness of the incentive mechanism is unproven
-- Whether DAOs would adopt futarchy for token allocations is uncertain

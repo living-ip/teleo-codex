@@ -1,75 +1,41 @@
 ---
 type: claim
-claim_id: memecoin_launchpad_bootstrapping_token
+claim_id: proposed-memecoin-launchpad-with-bootstrapping-token-suggested-market-opening-for-pump-fun-competitors
 title: Proposed memecoin launchpad with bootstrapping token suggested market opening for pump.fun competitors
-description: A rejected 2024 MetaDAO proposal outlined a memecoin launchpad using a bootstrapping token (FUTARDIO) to capture platform value, suggesting the market was open to pump.fun alternatives
+description: The FUTARDIO proposal for a memecoin launchpad with its own bootstrapping token (FUTARDIO) suggested there was perceived market opportunity for pump.fun alternatives, though the proposal's rejection on 2024-08-18 may indicate otherwise. The proposal required a 6-month timeline and $100k grant.
 domains:
   - internet-finance
-  - tokenomics
+  - market-analysis
+confidence: speculative
 tags:
   - memecoin
   - launchpad
-  - pump.fun
-  - MetaDAO
-  - platform-tokens
-confidence: speculative
-status: active
-created: 2025-01-21
-modified: 2025-01-21
+  - pump-fun
+  - market-opportunity
+created: 2025-01-26
+processed_date: 2025-01-26
 ---
 
-# Proposed memecoin launchpad with bootstrapping token suggested market opening for pump.fun competitors
+The FUTARDIO proposal for a futarchy-governed memecoin launchpad on [[Solana]] included a bootstrapping token mechanism where the FUTARDIO token would receive 0.5% of each launched token's supply. This design suggested the proposer perceived market opportunity for [[pump.fun]] alternatives with novel tokenomics.
 
-## Core Claim
+The proposal explicitly stated it would require **6 months** to develop and a **$100k grant**, providing important context for understanding the opportunity cost concerns that may have contributed to its rejection.
 
-A MetaDAO proposal from August 2024 (which was ultimately rejected) outlined a memecoin launchpad that would use a bootstrapping token (FUTARDIO) to capture platform value, suggesting that the proposers believed there was market opportunity for [[pump.fun]] competitors with alternative value capture mechanisms.
+## Supporting Evidence
 
-## Evidence
+- The proposal was submitted 2024-08-14, indicating perceived market timing
+- The FUTARDIO token mechanism (0.5% of each launch) represented a novel approach to launchpad bootstrapping
+- The proposal positioned itself as a [[hyperstructure]] <!-- claim pending --> alternative to existing launchpads
+- Required timeline: 6 months
+- Required funding: $100k grant
 
-### Primary Evidence
+## Counter-Evidence
 
-**Proposal Design**
-- Source: MetaDAO Proposal #59 "Develop Futardio - Memecoin Launchpad"
-- Date: August 2024
-- Confidence: High on proposal details; speculative on market validation
-- Details: The proposal outlined a launchpad where FUTARDIO token holders would receive 0.5% of launched tokens, creating a value capture mechanism distinct from pump.fun's direct fee model
-
-**Market Context**
-- The proposal explicitly positioned itself as a pump.fun competitor
-- The bootstrapping token model represented an alternative to pump.fun's fee-based value capture
-- The proposal suggested market demand for alternative launchpad mechanisms
-
-### Proposal Outcome
-
-**Market Rejection**
-- The proposal was rejected by MetaDAO's conditional markets on 2024-08-18
-- Market rejection could reflect multiple factors: execution risk, opportunity cost, timing concerns, team capability questions, competitive dynamics, or other considerations
-- A failed proposal does not validate the market opening hypothesis - it may indicate the opposite or reflect other concerns
+- The proposal failed 2024-08-18, which may indicate the market did not see the same opportunity
+- No evidence of successful similar launchpads with bootstrapping tokens
+- The rejection suggests the opportunity cost (6 months, $100k) was not justified by perceived market opportunity
 
 ## Related Claims
 
-- [[futarchy-governed-memecoin-launchpad-creates-distribution-channel-for-futarchy-adoption-through-token-allocation-to-daos]]
+- [[proposed-futarchy-governed-memecoin-launchpad-would-create-distribution-channel-for-futarchy-adoption-through-token-allocation-to-daos]]
 - [[pump.fun]] <!-- claim pending -->
 - [[hyperstructure]] <!-- claim pending -->
-
-## Counterevidence
-
-- The proposal's rejection suggests the market (at least MetaDAO's conditional markets) did not validate this specific approach
-- pump.fun's continued dominance indicates high barriers to entry for competitors
-- No evidence that the bootstrapping token model would have been competitive with pump.fun's established network effects
-
-## Implications
-
-The proposal's existence (though rejected) suggests:
-- Awareness of pump.fun's market position and potential vulnerabilities
-- Interest in alternative value capture mechanisms for launchpads
-- Belief that futarchy governance could be a differentiator
-
-However, the rejection indicates these factors were insufficient to justify implementation.
-
-## Confidence Assessment
-
-Confidence is marked as speculative because:
-- The proposal was rejected, not implemented
-- Market opening is inferred from proposal existence, not validated by success
-- The actual competitiveness of this approach against pump.fun remains untested
