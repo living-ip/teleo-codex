@@ -7,9 +7,15 @@ date: 2018-03-00
 domain: critical-systems
 secondary_domains: [collective-intelligence, ai-alignment]
 format: paper
-status: unprocessed
+status: processed
 priority: medium
 tags: [active-inference, free-energy-principle, multi-scale, variational-neuroethology, markov-blankets, biological-organization]
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted: ["free-energy-principle-applies-at-every-scale-of-biological-organization-from-cells-to-societies.md", "nested-markov-blankets-enable-hierarchical-organization-with-multi-level-free-energy-minimization.md", "tinbergen-four-questions-provide-structured-framework-for-evaluating-biological-and-cognitive-claims.md"]
+enrichments_applied: ["markov-blankets-enable-complex-systems-to-maintain-identity-while-interacting-with-environment-through-nested-statistical-boundaries.md", "emergence-is-the-fundamental-pattern-of-intelligence-from-ant-colonies-to-brains-to-civilizations.md", "living-agents-mirror-biological-markov-blanket-organization.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Foundational paper for nested agent architecture. Three new claims extracted covering scale-free FEP, nested Markov blankets, and Tinbergen framework integration. Three enrichments applied to existing claims on Markov blankets, emergence, and Living Agents architecture. This source provides the theoretical justification for the Agent → Team → Collective hierarchy as mirroring biological organization principles. The Tinbergen four-questions framework could be operationalized as an evaluation protocol addition."
 ---
 
 ## Content
