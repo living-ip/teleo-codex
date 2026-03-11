@@ -67,6 +67,7 @@ last_updated: YYYY-MM-DD
 founded: YYYY-MM-DD
 founders: ["[[person-entity]]"]
 category: "DeFi lending protocol"
+parent: "[[parent-entity]]"  # e.g., [[futardio]] for launched projects
 stage: seed | growth | mature | declining | liquidated
 market_cap: "$X"  # latest known, with date in body
 funding: "$X raised"  # total known funding
@@ -76,6 +77,17 @@ key_metrics:
   users: "X"
 competitors: ["[[competitor-entity]]"]
 built_on: ["Solana", "Ethereum"]
+
+# Capital formation fields (for launched/funded entities)
+raise_target: "$500K"          # intended raise amount
+amount_raised: "$969K"         # actual amount raised
+total_committed: "$14.9M"      # total capital committed (shows demand)
+# oversubscription_ratio is calculated: total_committed / raise_target
+# Do NOT store it — derive it to prevent inconsistency
+treasury: "$575K USDC"         # current treasury balance
+token_price: "$0.05"           # current token price
+monthly_allowance: "$50K"      # approved monthly spend rate
+launch_date: YYYY-MM-DD       # when the entity launched/raised
 ```
 
 ## Person-Specific Fields
