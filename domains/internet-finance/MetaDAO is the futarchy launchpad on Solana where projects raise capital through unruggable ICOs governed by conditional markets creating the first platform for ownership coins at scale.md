@@ -76,6 +76,12 @@ MycoRealms launch on Futardio demonstrates MetaDAO platform capabilities in prod
 
 Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform supports purely speculative meme coin launches, not just productive ventures. The project raised $11,402,898 against a $50,000 target in under 24 hours (22,706% oversubscription) with stated fund use for 'fan merch, token listings, private events/partys'—consumption rather than productive infrastructure. This extends MetaDAO's demonstrated use cases beyond productive infrastructure (Myco Realms mushroom farm, $125K) to governance-enhanced speculative tokens, suggesting futarchy's anti-rug mechanisms appeal across asset classes.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-04-22-futardio-proposal-testing-v03-transfer]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+MetaDAO is using futarchy to govern its own protocol evolution, not just external project launches. The v0.4 treasury transfer proposal demonstrates that the Autocrat mechanism can handle protocol upgrades and treasury migrations, expanding the scope of futarchy governance beyond fundraising to include core infrastructure decisions. This suggests MetaDAO is dogfooding its own governance mechanism for high-stakes structural changes.
+
 ---
 
 Relevant Notes:

@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/2dvNKyxKzVuUMcd89wzfuYjX2RKbJps2Srqu4mJ7LEg
 date: 2025-04-22
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2025-04-22
+claims_extracted: ["metadao-v04-treasury-transfer-demonstrates-futarchy-governed-protocol-upgrades.md"]
+enrichments_applied: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Single proposal data point. Extracted one experimental claim about futarchy governing protocol upgrades. Enriched two existing claims with confirming/extending evidence. Key limitation: no trading volume data, no market depth metrics, no participant count—only proposal metadata and completion status."
 ---
 
 ## Proposal Details
@@ -48,3 +54,11 @@ This would be the test example for transferring the MetaDAO treasury of USDC to 
 - Autocrat version: 0.3
 - Completed: 2025-04-22
 - Ended: 2025-04-22
+
+
+## Key Facts
+- Proposal 2dvNKyxKzVuUMcd89wzfuYjX2RKbJps2Srqu4mJ7LEgC passed 2025-04-22
+- Test DAO account: GCSGFCRfCRQDbqtPLa6bV7DCJz26NkejR182or8PNqRw
+- Proposer: 8Cwx4yR2sFAC5Pdx2NgGHxCk1gJrtSTxJoyqVonqndhq
+- Autocrat version: 0.3
+- Proposal number: 1 in Test DAO

@@ -23,6 +23,12 @@ This evidence has direct implications for governance design. It suggests that [[
 
 Optimism's futarchy experiment achieved 5,898 total trades from 430 active forecasters (average 13.6 transactions per person) over 21 days, with 88.6% being first-time Optimism governance participants. This suggests futarchy CAN attract substantial engagement when implemented at scale with proper incentives, contradicting the limited-volume pattern observed in MetaDAO. Key differences: Optimism used play money (lower barrier to entry), had institutional backing (Uniswap Foundation co-sponsor), and involved grant selection (clearer stakes) rather than protocol governance decisions. The participation breadth (10 countries, 4 continents, 36 new users/day) suggests the limited-volume finding may be specific to MetaDAO's implementation or use case rather than a structural futarchy limitation.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-04-22-futardio-proposal-testing-v03-transfer]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+The v0.4 treasury transfer proposal (2dvNKyxKzVuUMcd89wzfuYjX2RKbJps2Srqu4mJ7LEgC) passed and completed on the same day (2025-04-22), suggesting minimal market activity. A high-stakes treasury migration completing same-day indicates either overwhelming consensus or limited trading participation, consistent with the pattern that uncontested decisions see minimal futarchy market engagement.
+
 ---
 
 Relevant Notes:
