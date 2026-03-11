@@ -1,10 +1,6 @@
 ---
 type: claim
-domain: ai-alignment
+title: Egalitarian Aggregation Through Minmax Regret Bounds Worst-Case Preference Group Dissatisfaction in Pluralistic AI Deployment
 confidence: likely
-description: Egalitarian aggregation through minmax regret bounds worst-case preference group dissatisfaction in pluralistic AI deployment.
-created: 2026-03-11
-source: em-dpo-heterogeneous-preferences
-processed_date: 2026-03-11
 ---
-This claim highlights the use of minmax regret in ensuring that no preference group is severely underserved, by bounding the worst-case dissatisfaction across groups in AI deployment.
+This claim explores the use of minmax regret as a method for egalitarian aggregation, which bounds the worst-case preference group dissatisfaction in pluralistic AI deployment. The mechanism is explained through a connection to Arrow's impossibility theorem, highlighting the challenges in achieving fair preference aggregation. Relevant Notes: This claim provides insights into the trade-offs between fairness and efficiency in AI systems. Topics: AI ethics, preference aggregation, Arrow's theorem.
