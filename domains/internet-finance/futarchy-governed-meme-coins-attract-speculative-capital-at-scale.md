@@ -6,6 +6,12 @@ description: The first futarchy-governed meme coin launch raised $11.4M in under
 confidence: experimental
 tags: [futarchy, meme-coins, capital-formation, governance, speculation]
 created: 2026-03-04
+
+### Additional Evidence (challenge)
+*Source: [[2026-03-04-futardio-launch-sizematters]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(challenge) SizeMatters raised only $4,969 of $75,000 target before entering refunding status (2026-03-04), demonstrating that futarchy-governed launches can fail to attract capital even with novel technical architecture (ZK proofs, AI measurement, social speculation markets). This contrasts with successful raises like Cult ($11.4M in one day) and suggests that futarchy governance alone does not guarantee capital attraction—product-market fit, team credibility, and market timing remain critical variables. The failure occurred despite the project combining multiple novel mechanisms (privacy tech, AI measurement, social markets), indicating that technical novelty and futarchy infrastructure do not overcome fundamental capital formation barriers.
+
 ---
 
 # Futarchy-governed meme coins attract speculative capital at scale

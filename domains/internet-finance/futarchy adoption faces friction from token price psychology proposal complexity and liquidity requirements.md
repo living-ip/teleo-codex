@@ -34,6 +34,12 @@ MycoRealms implementation reveals operational friction points: monthly $10,000 a
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-03-04-futardio-launch-sizematters]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+(confirm) SizeMatters pitch explicitly required investors to evaluate multiple unproven technical layers simultaneously: ZK-proof verification, AI LiDAR measurement, social speculation markets without settlement, and e-learning infrastructure. The project's failure to reach funding threshold ($4,969 of $75,000) despite novel technical architecture suggests that proposal complexity—requiring simultaneous evaluation of multiple interdependent, unvalidated mechanisms—creates adoption friction even when the futarchy mechanism itself functions correctly. This confirms that complexity in the proposal layer (not just the governance mechanism) is a material barrier to capital attraction in futarchy-governed raises.
+
 ---
 
 Relevant Notes:

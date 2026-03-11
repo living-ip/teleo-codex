@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/CtynMdGE4CwJuUSoYhRf4powwKwT8bWo5Dq2KiBVEiKm"
 date: 2026-03-04
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["sizematters-demonstrates-zk-proof-verification-for-privacy-preserving-health-metrics.md", "social-speculation-markets-enable-engagement-driven-prediction-markets-without-hard-settlement.md", "sexual-health-apps-generate-300k-monthly-revenue-proving-market-demand-for-mens-wellness-platforms.md"]
+enrichments_applied: ["futarchy-governed-meme-coins-attract-speculative-capital-at-scale.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 3 claims: (1) ZK-proof health verification architecture, (2) social speculation markets without hard settlement, (3) sexual health app revenue benchmarks. All claims rated experimental or speculative due to single-source evidence and project failure to reach funding. Enriched 3 existing futarchy/MetaDAO claims with counter-evidence and extension data. Project represents novel application of futarchy to privacy-tech health vertical but failed to attract capital, providing useful negative case study for futarchy adoption friction."
 ---
 
 ## Launch Details
@@ -134,3 +140,12 @@ It is a new category: **provable, private, and socially viral sexual health infr
 - Token mint: `GPM6F86ritzhCvB7ZwkdxMEjgiXEiyW4nQ226PZemeta`
 - Version: v0.7
 - Closed: 2026-03-05
+
+
+## Key Facts
+- SizeMatters raised $4,969 of $75,000 target before entering refunding status (2026-03-04 to 2026-03-05)
+- Token: GPM (GPM), mint: GPM6F86ritzhCvB7ZwkdxMEjgiXEiyW4nQ226PZemeta
+- Launch address: CtynMdGE4CwJuUSoYhRf4powwKwT8bWo5Dq2KiBVEiKm
+- Planned allocation: 40% product/engineering, 30% growth, 20% compliance, 10% operations
+- Training dataset: 4,000+ synthetic genital images from 3D Blender pipelines
+- Website: https://sizematters.fun, Twitter: @sizemattersfun
