@@ -7,9 +7,14 @@ date: 2026-03-01
 domain: entertainment
 secondary_domains: [internet-finance]
 format: statistics-compilation
-status: unprocessed
+status: null-result
 priority: high
 tags: [creator-economy, owned-distribution, platform-dependency, revenue-comparison, statistics]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["creator-owned-streaming-infrastructure-has-reached-commercial-scale-with-430M-annual-creator-revenue-across-13M-subscribers.md", "creator-owned-direct-subscription-platforms-produce-qualitatively-different-audience-relationships-than-algorithmic-social-platforms-because-subscribers-choose-deliberately.md", "value flows to whichever resources are scarce and disruption shifts which resources are scarce making resource-scarcity analysis the core strategic framework.md", "when profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three new claims extracted focusing on the 189% income premium (with selection bias caveat), platform dependency risk quantification (42% YouTube creator vulnerability), and Dropout's unit economics proof point. Four enrichments applied to existing claims about owned distribution, value flow dynamics, and audience relationships. The source provides strong aggregate statistical evidence that complements existing case-study evidence (MrBeast, Dropout) with population-level data. Primary insight: distribution ownership creates measurable economic advantage (189% premium) and reduces catastrophic risk (42% platform dependency). Selection bias acknowledged but magnitude suggests real treatment effect."
 ---
 
 ## Content
@@ -46,3 +51,11 @@ Aggregated statistics from multiple 2026 creator economy reports.
 PRIMARY CONNECTION: value flows to whichever resources are scarce and disruption shifts which resources are scarce making resource-scarcity analysis the core strategic framework
 WHY ARCHIVED: Aggregate statistical evidence that distribution ownership — not just content quality — determines creator income. Complements the case-study evidence (Dropout, MrBeast) with population-level data.
 EXTRACTION HINT: The 189% figure is the headline but the platform vulnerability data (42% YouTube creator dependency) is equally important. Together they make the case that owned distribution is both more profitable AND more resilient.
+
+
+## Key Facts
+- 88% of high-earning creators leverage their own websites (2026)
+- 75% of high-earning creators have membership communities (2026)
+- 24% of creators use link-in-bio tools (2026)
+- 32% of creators cite unreliable/declining social reach as major concern (2026)
+- Dropout: 1M+ subscribers, 40-45% EBITDA margins (2026)
