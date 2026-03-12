@@ -7,9 +7,15 @@ date: 2025-12-00
 domain: internet-finance
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: medium
 tags: [ownership-coins, messari, governance-tokens, market-thesis, AVICI]
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["ownership-coins-demonstrate-higher-holder-retention-during-drawdowns-than-governance-tokens.md", "ownership-coin-market-cap-will-exceed-1-billion-in-2026-as-category-reaches-institutional-recognition.md"]
+enrichments_applied: ["ownership coins primary value proposition is investor protection not governance quality because anti-rug enforcement through market-governed liquidation creates credible exit guarantees that no amount of decision optimization can match.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) AVICI holder retention data as empirical evidence for ownership coin psychology difference, (2) Messari/Galaxy prediction as institutional recognition milestone. Enriched two existing claims with confirming evidence. Created entities for Messari and Galaxy Digital as institutional validators. AVICI holder retention data (4.7% attrition during 65% decline) is the strongest empirical evidence to date that ownership coins create different holder behavior than governance tokens."
 ---
 
 ## Content
@@ -44,3 +50,11 @@ tags: [ownership-coins, messari, governance-tokens, market-thesis, AVICI]
 PRIMARY CONNECTION: [[ownership coins primary value proposition is investor protection not governance quality]]
 WHY ARCHIVED: Mainstream institutional recognition (Messari + Galaxy Digital) of ownership coins as investment thesis, plus AVICI retention data as empirical evidence
 EXTRACTION HINT: Focus on AVICI holder retention as empirical evidence for ownership coin stickiness — this is the data point that distinguishes ownership coins from governance tokens empirically, not just theoretically
+
+
+## Key Facts
+- AVICI had 12,752 holders as of mid-December 2025
+- AVICI experienced 65% price decline with only 600 holder loss (4.7% attrition)
+- AVICI initial 45-day growth rate was 9,300 new holders
+- No ownership coin project has exceeded $1B FDV as of December 2025
+- Messari annual thesis is crypto industry's most-read research report

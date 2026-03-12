@@ -47,6 +47,9 @@ Futardio cult's $11.4M raise against $50,000 target with stated use of funds for
 *Source: [[2026-02-26-futardio-launch-fitbyte]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
 
 FitByte's pitch explicitly frames MetaDAO's unruggable ICO structure as investor protection through structural enforcement: 'The mechanism does not rely on trust. It does not require goodwill. It is structurally enforced.' The pitch emphasizes treasury governance, IP ownership through DAO LLC, and performance-gated founder unlocks as credibility mechanisms, not as superior decision-making tools. The framing is entirely about preventing founder extraction and ensuring investor sovereignty, with governance quality mentioned only as a secondary benefit. This confirms that even projects themselves understand and market the ownership coin value proposition as protection-first.
+*Source: [[2025-12-00-messari-ownership-coins-2026-thesis]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+AVICI holder retention data provides empirical confirmation. During a 65% price decline, AVICI retained 95.3% of holders (lost only 600 out of 12,752), with the 600 lost representing only 21% of the initial 45-day growth rate. This suggests holders value the legal and economic rights (investor protection) over price performance, supporting the claim that ownership coins create different holder psychology than governance tokens. Galaxy Digital's definition emphasizes this: ownership coins combine 'economic, legal, and governance rights' creating 'legally enforceable digital assets that provide meaningful and enforceable control over digital organizations with tangible assets.' The retention effect holds across holder size categories (low concentration among large holders), indicating the protection mechanism is not driven by a few strategic holders.
 
 ---
 

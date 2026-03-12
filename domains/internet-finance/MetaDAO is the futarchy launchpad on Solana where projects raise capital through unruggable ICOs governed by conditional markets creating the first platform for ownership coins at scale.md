@@ -87,6 +87,9 @@ Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform 
 *Source: [[2024-06-05-futardio-proposal-fund-futuredaos-token-migrator]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
 
 FutureDAO's token migrator extends the unruggable ICO concept to community takeovers of existing projects. The tool uses a 60% presale threshold as the success condition: if presale reaches 60% of target, migration proceeds with new LP creation; if not, all SOL is refunded and new tokens are burned. This applies the conditional market logic to post-launch rescues rather than just initial launches. The proposal describes the tool as addressing 'Rugged Projects: Preserve community and restore value in projects affected by rug pulls' and 'Hostile Takeovers: Enabling projects to acquire other projects and empowering communities to assert control over failed project teams.' The mechanism creates on-chain enforcement of community coordination thresholds for takeover scenarios, extending MetaDAO's unruggable ICO pattern to the secondary market for abandoned projects.
+*Source: [[2025-12-00-messari-ownership-coins-2026-thesis]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Messari's 2026 Thesis positioning ownership coins as a major investment opportunity validates MetaDAO's platform thesis at the institutional level. Galaxy Digital predicts at least one ownership coin will exceed $1B market cap in 2026, suggesting the unruggable ICO + futarchy governance model is reaching mainstream recognition. The Messari thesis is the crypto industry's most-read research report, meaning MetaDAO's platform infrastructure is now positioned at the center of a named institutional investment category. This institutional endorsement strengthens the case that MetaDAO's infrastructure is critical to ownership coin scaling.
 
 ---
 
