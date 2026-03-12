@@ -6,13 +6,17 @@ url: "https://www.futard.io/proposal/B4zpF4iHeF91qq8Szb9aD6pW1DrwSy6djD4QPWJQn3d
 date: 2024-11-21
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 processed_by: rio
 processed_date: 2024-11-21
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "This source contains only metadata about a failed MetaDAO proposal with no content details. There is no proposal text, no market data, no voting information, and no context about what was being proposed or why it failed. The source provides verifiable facts (proposal number, accounts, dates, status) but no evidence or interpretation that could support claims or enrich existing knowledge base content. Without knowing what Proposal #14 actually proposed or how the futarchy markets evaluated it, there is nothing extractable beyond the basic facts preserved in key_facts."
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Source contains only metadata about a failed MetaDAO proposal with no content details. Created decision_market entity for archival completeness and timeline entry on parent MetaDAO entity. No extractable claims or enrichments due to absence of proposal text, market data, or context about what was proposed or why it failed."
 ---
 
 ## Proposal Details
@@ -37,5 +41,12 @@ extraction_notes: "This source contains only metadata about a failed MetaDAO pro
 - MetaDAO Proposal #14 failed (created 2024-11-21, completed 2024-11-25)
 - Proposal account: B4zpF4iHeF91qq8Szb9aD6pW1DrwSy6djD4QPWJQn3dW
 - DAO account: GWywkp2mY2vzAaLydR2MBXRCqk2vBTyvtVRioujxi5Ce
+- Proposer: xwQTt7R68Vsxco819EBqK3itgn9osQc6M2Z1DjwUqmk
+- Autocrat version: 0.3
+
+
+## Key Facts
+- MetaDAO Proposal #14 failed (created 2024-11-21, completed 2024-11-25)
+- Proposal account: B4zpF4iHeF91qq8Szb9aD6pW1DrwSy6djD4QPWJQn3dW
 - Proposer: xwQTt7R68Vsxco819EBqK3itgn9osQc6M2Z1DjwUqmk
 - Autocrat version: 0.3
