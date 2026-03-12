@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/5HXtfhuf71xSZTcqp8NVANosH68qnKKuDidkFTTFHpgb"
 date: 2026-02-25
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Rabid Racers launch announcement. $100 raise is below typical significance threshold but included because it demonstrates MetaDAO/Futardio platform usage and governance model. No novel claims extracted — source is primarily marketing copy restating existing futarchy ICO mechanics already captured in KB. Entity data only."
 ---
 
 ## Launch Details
@@ -87,3 +91,11 @@ This is not a soft commitment. The mechanism enforces it.
 - Total approved: $100.00
 - Closed: 2026-02-25
 - Completed: 2026-02-25
+
+
+## Key Facts
+- Rabid Racers raised $100 through Futardio on 2026-02-25
+- Token: 6tS (mint: 6tSJq2sA4kdqEMy9WxgRPTYpdtAiC954quENGvj6meta)
+- Launch address: 5HXtfhuf71xSZTcqp8NVANosH68qnKKuDidkFTTFHpgb
+- Platform version: v0.7
+- Game built on Solana with on-chain tournaments and NFT assets
