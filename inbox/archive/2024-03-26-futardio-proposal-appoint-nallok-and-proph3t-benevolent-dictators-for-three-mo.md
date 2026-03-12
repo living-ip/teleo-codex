@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/BqMrwwZYdpbXNsfpcxxG2DyiQ7uuKB69PznPWZ33GrZ
 date: 2024-03-26
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Governance proposal establishing temporary centralized leadership structure. Created decision_market entity and timeline entry for parent MetaDAO entity. No novel claims - this is factual governance event data. The proposal's assertion about 20% success impact is self-reported and not independently verifiable, so treated as context rather than extractable claim."
 ---
 
 ## Proposal Details
@@ -88,3 +92,11 @@ Although we make no hard commitments, the META would likely be issued in 5-year 
 - Autocrat version: 0.1
 - Completed: 2024-03-31
 - Ended: 2024-03-31
+
+
+## Key Facts
+- MetaDAO proposal 14 passed on 2024-03-31 appointing Proph3t and Nallok as BDF3M
+- Compensation: 1015 META + 100,000 USDC for 7 months (4 retroactive, 3 forward)
+- Term: 2024-03-26 to 2024-06-30
+- OKR target: 10 GitHub issues completed per week
+- Proposers estimated failure would decrease MetaDAO success probability by >20%
