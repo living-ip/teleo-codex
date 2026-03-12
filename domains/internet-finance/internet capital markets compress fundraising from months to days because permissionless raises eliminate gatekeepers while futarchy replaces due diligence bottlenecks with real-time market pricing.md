@@ -48,6 +48,12 @@ MycoRealms demonstrates 72-hour permissionless raise window on Futardio for $125
 
 Futardio cult raised $11.4M in under 24 hours through MetaDAO's futarchy platform (launched 2026-03-03, closed 2026-03-04), confirming sub-day fundraising timelines for futarchy-governed launches. This provides concrete timing data supporting the compression thesis: traditional meme coin launches through centralized platforms typically require days to weeks for comparable capital formation.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-00-metadao-strategic-reset-permissionless]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+MetaDAO's revenue cadence problem provides empirical evidence for why permissionless is necessary for consistent capital formation. With curated launches, revenue declined sharply when ICO activity slowed (mid-December 2025 onward), demonstrating that selectivity creates feast-or-famine dynamics. The team explicitly stated 'without steady new launches, revenue can't grow,' framing permissionless as operationally required for platform sustainability. This shows that compression of fundraising timelines requires volume consistency, which curated models cannot provide.
+
 ---
 
 Relevant Notes:

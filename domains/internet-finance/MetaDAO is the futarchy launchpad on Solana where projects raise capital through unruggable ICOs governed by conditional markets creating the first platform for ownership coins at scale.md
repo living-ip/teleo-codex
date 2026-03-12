@@ -87,6 +87,9 @@ Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform 
 *Source: [[2024-06-05-futardio-proposal-fund-futuredaos-token-migrator]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
 
 FutureDAO's token migrator extends the unruggable ICO concept to community takeovers of existing projects. The tool uses a 60% presale threshold as the success condition: if presale reaches 60% of target, migration proceeds with new LP creation; if not, all SOL is refunded and new tokens are burned. This applies the conditional market logic to post-launch rescues rather than just initial launches. The proposal describes the tool as addressing 'Rugged Projects: Preserve community and restore value in projects affected by rug pulls' and 'Hostile Takeovers: Enabling projects to acquire other projects and empowering communities to assert control over failed project teams.' The mechanism creates on-chain enforcement of community coordination thresholds for takeover scenarios, extending MetaDAO's unruggable ICO pattern to the secondary market for abandoned projects.
+*Source: [[2026-02-00-metadao-strategic-reset-permissionless]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+MetaDAO is undergoing strategic transition from curated to permissionless launches. Revenue data since Futarchy AMM launch (Oct 10, 2025): ~$2.4M total (60% from Futarchy AMM fees, 40% from Meteora LP positions). Revenue declined sharply since mid-December 2025 as ICO activity slowed, with team acknowledging they 'fell short on cadence.' This revenue volatility is driving the permissionless transition, described as 'necessary experiment to increase throughput and validate platform scalability.' Proposed 'verified launch' system would layer reputation-based trust signals on permissionless infrastructure—projects referred by trusted ecosystem partners get verification badge similar to X's blue check.
 
 ---
 

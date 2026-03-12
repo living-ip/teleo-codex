@@ -7,9 +7,15 @@ date: 2026-02-00
 domain: internet-finance
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: high
 tags: [metadao, permissionless, curation, launchpad, strategic-reset, mechanism-design]
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["metadao-verified-launch-system-layers-reputation-trust-on-permissionless-infrastructure-creating-curation-without-gatekeeping.md", "metadao-revenue-cadence-problem-validates-permissionless-necessity-because-curated-model-creates-feast-or-famine-dynamics.md", "metadao-dao-of-daos-vision-positions-futarchy-as-coordination-layer-across-ecosystem-of-governed-entities.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three mechanism design claims extracted: (1) verified launch as reputation layer on permissionless infrastructure, (2) revenue cadence as forcing function for permissionless transition, (3) DAO of DAOs vision as coordination architecture. Four enrichments applied to existing claims about MetaDAO platform, permissionless necessity, Teleocap validation, and capital formation compression. MetaDAO entity updated with strategic transition timeline. Colosseum entity created for STAMP reference. The 'DAO of DAOs' vision is speculative—aspirational language without implementation details—but represents significant architectural claim about futarchy as coordination substrate."
 ---
 
 ## Content
@@ -53,3 +59,10 @@ MetaDAO has publicly debated whether to preserve curated launches or move to per
 PRIMARY CONNECTION: [[Teleocap makes capital formation permissionless by letting anyone propose investment terms while AI agents evaluate debate and futarchy determines funding]]
 WHY ARCHIVED: The curated → permissionless transition with verified trust layer is a novel mechanism design. Revenue cadence problem validates why permissionless is necessary. The "DAO of DAOs" vision directly relates to MetaDAO's platform thesis.
 EXTRACTION HINT: Focus on (1) verified launch as mechanism design (reputation trust + permissionless infrastructure), (2) revenue cadence as evidence for permissionless necessity, (3) "DAO of DAOs" vision as attractor state.
+
+
+## Key Facts
+- MetaDAO Futarchy AMM launched October 10, 2025
+- Total revenue since launch: ~$2.4M (60% Futarchy AMM, 40% Meteora LP)
+- Revenue declined sharply since mid-December 2025
+- Two key catalysts identified: permissionless launches + Colosseum's STAMP
