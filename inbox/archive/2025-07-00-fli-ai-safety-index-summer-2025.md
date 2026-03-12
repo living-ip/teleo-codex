@@ -7,9 +7,14 @@ date: 2025-07-01
 domain: ai-alignment
 secondary_domains: [grand-strategy]
 format: report
-status: unprocessed
+status: null-result
 priority: high
 tags: [AI-safety, company-scores, accountability, governance, existential-risk, transparency]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["the alignment tax creates a structural race to the bottom because safety training costs capability and rational competitors skip it.md", "voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints.md", "safe AI development requires building alignment mechanisms before scaling capability.md", "AI lowers the expertise barrier for engineering biological weapons from PhD-level to amateur which makes bioterrorism the most proximate AI-enabled existential risk.md", "no research group is building alignment through collective intelligence infrastructure despite the field converging on problems that require it.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "High-value extraction. Four new claims quantifying the AI safety gap at company level, five enrichments confirming existing race-to-the-bottom and voluntary-pledge-failure claims. The C+ ceiling (Anthropic) and universal D-or-below existential safety scores are the key empirical findings. FLI entity updated with timeline entry. No new entity creation needed—FLI already exists in KB."
 ---
 
 ## Content
@@ -62,3 +67,10 @@ FLI's comprehensive evaluation of frontier AI companies across 6 safety dimensio
 PRIMARY CONNECTION: [[the alignment tax creates a structural race to the bottom because safety training costs capability and rational competitors skip it]]
 WHY ARCHIVED: Provides quantitative company-level evidence for the race-to-the-bottom dynamic — best company scores C+ in overall safety, all companies score D or below in existential safety
 EXTRACTION HINT: The headline claim is "no frontier AI company scores above D in existential safety despite AGI claims." The company-by-company comparison and the existential safety gap are the highest-value extractions.
+
+
+## Key Facts
+- FLI AI Safety Index Summer 2025 evaluated 7 companies across 6 dimensions using peer-reviewed methodology
+- Company scores: Anthropic C+ (2.64), OpenAI C (2.10), DeepMind C- (1.76), x.AI D (1.23), Meta D (1.06), Zhipu AI F (0.62), DeepSeek F (0.37)
+- Six evaluation dimensions: Risk Assessment, Current Harms, Safety Frameworks, Existential Safety, Governance & Accountability, Information Sharing
+- Methodology based on publicly available information plus email correspondence with developers
