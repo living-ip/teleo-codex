@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/97zmRbfpCR88KkFucJnUvMKEaFg5ay6GxQSWmyEsdi67"
 date: 2026-03-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Factual launch data for failed Futardio raise. No novel claims about futarchy mechanisms or market dynamics—this is a straightforward failed fundraise with no unusual characteristics beyond the dramatic undersubscription. Created entity pages for VERSUS company and its decision_market fundraise, plus timeline update for Futardio. The 1.06% completion rate is notable as a data point but doesn't warrant a claim—it's just one failed raise among many possible outcomes."
 ---
 
 ## Launch Details
@@ -45,3 +49,11 @@ As soon as you place a bet, the **duel animation** will instantly generate, imme
 - Token mint: `ByPLh8frWwcH5pXjxS2iAc7WyGQBbnYNCb583FeGmeta`
 - Version: v0.7
 - Closed: 2026-03-04
+
+
+## Key Facts
+- VERSUS raised $5,283 of $500,000 target (1.06% completion) before refunding (2026-03-03 to 2026-03-04)
+- VERSUS proposed 75% marketing / 25% development allocation split
+- VERSUS token buyback mechanism: 0.5%-1% of each bet used to buy and burn $VS
+- VERSUS launch address: 97zmRbfpCR88KkFucJnUvMKEaFg5ay6GxQSWmyEsdi67
+- VERSUS token mint: ByPLh8frWwcH5pXjxS2iAc7WyGQBbnYNCb583FeGmeta
