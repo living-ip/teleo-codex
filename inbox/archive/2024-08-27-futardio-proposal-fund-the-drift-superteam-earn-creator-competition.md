@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/AKMnVnSC8DzoZJktErtzR2QNt1ESoN8i2DdHPYuQTMG
 date: 2024-08-27
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Single failed proposal for marketing spend. No novel mechanism insights or governance dynamics beyond standard futarchy rejection. Entity extraction only - no claims warranted. The proposal is routine marketing spend evaluation through futarchy, not a mechanism innovation or contested governance decision that would merit claim extraction."
 ---
 
 ## Proposal Details
@@ -75,3 +79,16 @@ Link to campaign details and evaluation criteria: [Link](https://docs.google.com
 - Autocrat version: 0.3
 - Completed: 2024-08-31
 - Ended: 2024-08-31
+
+
+## Key Facts
+- Drift is the largest open-sourced perpetual futures exchange on Solana
+- B.E.T is Solana's first capital efficient prediction market built on Drift
+- Proposal requested $8,250 total prize pool distributed as: Grand prize $3,000, three tracks at $1,750 each
+- Competition would run through Superteam Earn platform
+- Funding would come from Drift Foundation Grants Program in DRIFT tokens
+- Three bounty tracks: engaging video, Twitter thread, trade ideas sharing
+- Prize structure per track: 1st place $1,000, 2nd place $500, 3rd place $250
+- Proposal account: AKMnVnSC8DzoZJktErtzR2QNt1ESoN8i2DdHPYuQTMGY
+- DAO account: 5vVCYQHPd8o3pGejYWzKZtnUSdLjXzDZcjZQxiFumXXx
+- Autocrat version: 0.3
