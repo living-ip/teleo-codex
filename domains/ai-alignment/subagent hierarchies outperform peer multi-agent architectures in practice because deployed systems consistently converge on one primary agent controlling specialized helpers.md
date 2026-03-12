@@ -21,6 +21,12 @@ This observation creates tension with [[multi-model collaboration solved problem
 
 For the collective superintelligence thesis, this is important. If subagent hierarchies consistently outperform peer architectures, then [[collective superintelligence is the alternative to monolithic AI controlled by a few]] needs to specify what "collective" means architecturally — not flat peer networks, but nested hierarchies with human principals at the top.
 
+
+### Additional Evidence (challenge)
+*Source: [[2024-11-00-ruiz-serra-factorised-active-inference-multi-agent]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Ruiz-Serra et al.'s factorised active inference framework demonstrates successful peer multi-agent coordination without hierarchical control. Each agent maintains individual-level beliefs about others' internal states and performs strategic planning in a joint context through decentralized representation. The framework successfully handles iterated normal-form games with 2-3 players without requiring a primary controller. However, the finding that ensemble-level expected free energy is not necessarily minimized at the aggregate level suggests that while peer architectures can function, they may require explicit coordination mechanisms (effectively reintroducing hierarchy) to achieve collective optimization. This partially challenges the claim while explaining why hierarchies emerge in practice.
+
 ---
 
 Relevant Notes:

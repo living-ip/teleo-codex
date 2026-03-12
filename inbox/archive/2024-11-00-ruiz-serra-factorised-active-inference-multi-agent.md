@@ -7,9 +7,15 @@ date: 2024-11-00
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: processed
 priority: medium
 tags: [active-inference, multi-agent, game-theory, strategic-interaction, factorised-generative-model, nash-equilibrium]
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted: ["individual-free-energy-minimization-does-not-guarantee-collective-optimization-in-multi-agent-active-inference.md", "factorised-generative-models-enable-decentralized-multi-agent-representation-through-individual-level-beliefs.md"]
+enrichments_applied: ["AI alignment is a coordination problem not a technical problem.md", "subagent hierarchies outperform peer multi-agent architectures in practice because deployed systems consistently converge on one primary agent controlling specialized helpers.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two novel claims about multi-agent active inference: (1) individual free energy minimization doesn't guarantee collective optimization, and (2) factorised generative models enable decentralized strategic planning through individual beliefs about others. Applied three enrichments extending/challenging existing coordination and collective intelligence claims. The paper provides formal game-theoretic evidence for why explicit coordination mechanisms (like Leo's evaluator role) are necessary in multi-agent systems—individual optimization and collective optimization are not automatically aligned."
 ---
 
 ## Content
