@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/E7kXdSdZrjVFDkLb6V7S8VihKookPviRJ7tXVik9qbdu"
 date: 2025-10-18
 domain: internet-finance
 format: data
-status: unprocessed
+status: enrichment
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Launch announcement for Loyal on Futardio. Contains factual fundraise data (amounts, dates, oversubscription) but no novel claims about mechanisms or market dynamics. The 151.8x oversubscription ratio is notable but represents a single data point, not a pattern claim. Entity timeline updates capture the key facts."
 ---
 
 ## Launch Details
@@ -58,3 +62,10 @@ Token CA: [`LYLikzBQtpa9ZgVrJsqYGQpR3cC1WMJrBHaXGrQmeta`](https://jup.ag/tokens/
 - Version: v0.6
 - Final raise: $2,500,000.00
 - Closed: 2025-10-22
+
+
+## Key Facts
+- Loyal raised $75,898,233 in commitments against $500K target (2025-10-18)
+- Loyal final raise was $2.5M, closed 2025-10-22
+- Loyal is a Solana-based private decentralized intelligence protocol using MagicBlock and Arcium
+- Loyal token CA: LYLikzBQtpa9ZgVrJsqYGQpR3cC1WMJrBHaXGrQmeta

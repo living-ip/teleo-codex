@@ -34,6 +34,7 @@ Open source, decentralized, censorship-resistant intelligence protocol. Private 
 - **2025-10-18** — Futardio launch opens ($500K target)
 - **2025-10-22** — Launch closes. $2.5M raised.
 
+- **2025-10-18** — Launched futarchy-governed fundraise on Futardio with $500K target, achieved $75.9M in commitments (151.8x oversubscription), closed 2025-10-22 with $2.5M final raise
 ## Relationship to KB
 - [[futardio]] — launched on Futardio platform
 - [[internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing]] — 4-day raise window confirms compression
