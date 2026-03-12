@@ -6,7 +6,7 @@ url: https://chipprbots.com/2025/12/25/futarchy-private-markets-and-the-long-arc
 date: 2025-12-25
 domain: internet-finance
 secondary_domains: [mechanisms]
-format: article
+format: report
 status: null-result
 priority: medium
 tags: [futarchy, private-markets, governance, infrastructure, stablecoins, privacy]
