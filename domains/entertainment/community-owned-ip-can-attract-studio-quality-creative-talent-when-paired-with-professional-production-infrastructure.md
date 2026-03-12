@@ -1,18 +1,26 @@
 ---
 type: claim
 domain: entertainment
-title: Community-owned IP can attract studio-quality creative talent when paired with professional production infrastructure
-description: A case study of Claynosaurz shows that community-owned IP can attract studio-quality creative talent when paired with professional production infrastructure such as Mediawan's co-production capabilities and the founders' VFX backgrounds.
-created: 2023-10-01
-processed_date: 2023-10-02
+description: Community-owned IP can attract studio-quality creative talent when paired with professional production infrastructure.
 confidence: experimental
-source: Variety article on Mediawan and Claynosaurz animated series
+source: 2025-06-01-variety-mediawan-claynosaurz-animated-series
+created: 2026-03-12
 ---
-The claim that community-owned IP can attract studio-quality creative talent is supported by the involvement of Mediawan Kids & Family in the Claynosaurz project. The founders' backgrounds in VFX and the professional production infrastructure provided by Mediawan are key factors. However, it is important to note that the series has not yet launched, and the full realization of this potential is still pending.
 
-### Additional Evidence (confirm)
-- Mediawan Kids & Family's involvement in the project highlights the professional production infrastructure available.
-- The founders of Claynosaurz have a strong background in VFX, which contributes to the project's appeal to creative talent.
+# Community-owned IP can attract studio-quality creative talent when paired with professional production infrastructure
 
-### Challenged By
-- The series has not yet launched, so the claim is based on potential rather than realized outcomes.
+This claim suggests that when community-owned intellectual property (IP) is supported by professional production infrastructure, it has the potential to attract high-quality creative talent typically associated with established studios.
+
+## Relevant Notes:
+- [[progressive validation through community building...]]
+- [[traditional media buyers now seek content with pre-existing community engagement data...]]
+- [[fanchise management is a stack...]]
+
+## Topics:
+- Community-owned IP
+- Creative talent
+- Professional production infrastructure
+
+## Additional Evidence:
+- Mediawan Kids & Family's involvement with community-owned IP projects indicates a trend towards leveraging community engagement to attract talent.
+- The founders' backgrounds in major studios suggest a high level of expertise and potential for quality production.
