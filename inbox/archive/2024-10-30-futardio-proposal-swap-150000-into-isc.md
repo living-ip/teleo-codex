@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/Gp3ANMRTdGLPNeMGFUrzVFaodouwJSEXHbg5rFUi9ro
 date: 2024-10-30
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Governance proposal with clear outcome (failed). No novel mechanism insights warranting claim extraction - standard treasury diversification debate. Created decision_market entity for the proposal, new entity for ISC stablecoin (significant project with launch history and DAO integration attempts), and timeline entry on MetaDAO parent entity."
 ---
 
 ## Proposal Details
@@ -92,3 +96,11 @@ Potential pitfalls:
 - Autocrat version: 0.3
 - Completed: 2024-11-03
 - Ended: 2024-11-03
+
+
+## Key Facts
+- MetaDAO treasury held ~$2.2M USDC as of 2024-10-30
+- USD lost 17.8% of value since 2020 (cited in proposal)
+- ISC launched 2023-03-17 at $1.545, trading at $1.81 by 2024-10-30 (17.2% gain)
+- ISC collateral basket: 20% cash, 20% commodities, 20% treasuries, 20% bonds, 20% equities
+- Proposed DCA parameters: 10 orders, 1 hour intervals, $15K each, price range $1.70-$1.90
