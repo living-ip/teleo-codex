@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/4EhLS9CWQ2dQQe1nexxvB6D3c5jGaRCirpQ5GJFS43nR"
 date: 2026-03-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Failed futarchy launch with trivial capital commitment. Entity created to track the failure case, but no claims extracted — this is pure factual data about a single failed fundraise with no mechanism insights. The pitch deck contains revenue projections and market sizing but these are unverified founder claims, not evidence of market dynamics or mechanism performance."
 ---
 
 ## Launch Details
@@ -131,3 +135,11 @@ It’s a full digital real estate partner.
 - Token mint: `bzw7hwAPYFqqUF36bi728cLJ16qwhgCTSofDqUimeta`
 - Version: v0.7
 - Closed: 2026-03-04
+
+
+## Key Facts
+- MILO AI Agent raised $200 of $250,000 target (0.08% success rate)
+- Trident MLS has over 7,000 active real estate agents
+- MILO targeted $115/month subscription model
+- Founder Nathan Wissing has 9 years real estate experience in Charleston market
+- MILO was in Alpha testing with 15-person waitlist at launch
