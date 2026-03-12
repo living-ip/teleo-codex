@@ -2,16 +2,17 @@
 type: claim
 domain: entertainment
 title: Community-owned IP can attract studio-quality creative talent when paired with professional production infrastructure
+description: A case study of Claynosaurz shows that community-owned IP can attract studio-quality creative talent when paired with professional production infrastructure such as Mediawan's co-production capabilities and the founders' VFX backgrounds.
+created: 2023-10-01
+processed_date: 2023-10-02
 confidence: experimental
-description: A case study of Claynosaurz shows that community-owned IP can attract studio-quality creative talent when paired with professional production infrastructure.
-created: 2025-06-01
-processed_date: 2025-06-02
-source: Variety
+source: Variety article on Mediawan and Claynosaurz animated series
 ---
+The claim that community-owned IP can attract studio-quality creative talent is supported by the involvement of Mediawan Kids & Family in the Claynosaurz project. The founders' backgrounds in VFX and the professional production infrastructure provided by Mediawan are key factors. However, it is important to note that the series has not yet launched, and the full realization of this potential is still pending.
 
-The Claynosaurz project, a community-owned IP, has successfully attracted studio-quality creative talent by leveraging professional production infrastructure. This case study highlights the potential for community-owned IPs to draw in high-caliber talent, although it remains an experimental observation as the series has yet to launch.
+### Additional Evidence (confirm)
+- Mediawan Kids & Family's involvement in the project highlights the professional production infrastructure available.
+- The founders of Claynosaurz have a strong background in VFX, which contributes to the project's appeal to creative talent.
 
-Limitations: This is a single case study, and the series has not launched yet, making it difficult to generalize the findings.
-
-Related claims:
-- [[community-owned-IP-has-structural-advantage-in-human-made-premium]]
+### Challenged By
+- The series has not yet launched, so the claim is based on potential rather than realized outcomes.
