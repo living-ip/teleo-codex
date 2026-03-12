@@ -38,3 +38,7 @@ Relevant Entities:
 
 Topics:
 - [[internet finance and decision markets]]
+
+## Timeline
+
+- **2026-02-21** — Published Twitter thread explaining Omnipair's adaptive utilization range mechanism and positioning as unified capital venue
