@@ -7,9 +7,15 @@ date: 2021-06-29
 domain: collective-intelligence
 secondary_domains: [ai-alignment, critical-systems]
 format: paper
-status: unprocessed
+status: processed
 priority: high
 tags: [active-inference, collective-intelligence, agent-based-model, theory-of-mind, goal-alignment, emergence]
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted: ["collective-intelligence-emerges-endogenously-from-active-inference-agents-with-theory-of-mind-and-goal-alignment.md", "theory-of-mind-produces-measurable-collective-intelligence-gains-in-multi-agent-active-inference-systems.md", "local-global-alignment-in-active-inference-collectives-occurs-bottom-up-through-self-organization.md"]
+enrichments_applied: ["complexity-is-earned-not-designed-and-sophisticated-collective-behavior-must-evolve-from-simple-underlying-principles.md", "designing-coordination-rules-is-categorically-different-from-designing-coordination-outcomes.md", "collective-intelligence-is-a-measurable-property-of-group-interaction-structure-not-aggregated-individual-ability.md", "emergence-is-the-fundamental-pattern-of-intelligence-from-ant-colonies-to-brains-to-civilizations.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "High-value extraction: 3 new claims + 4 enrichments. This paper provides empirical validation for multiple core Teleo beliefs about emergence, simplicity-first design, and collective intelligence. The findings have direct operational implications for how our agents should model each other (Theory of Mind) and coordinate (endogenous alignment rather than external protocols). Confidence rated 'experimental' because this is a single simulation study, though peer-reviewed and reproducible. Would upgrade to 'likely' with independent replication or real-world validation."
 ---
 
 ## Content
@@ -59,3 +65,11 @@ Uses the Active Inference Formulation (AIF) — a framework for explaining the b
 PRIMARY CONNECTION: "collective intelligence is a measurable property of group interaction structure not aggregated individual ability"
 WHY ARCHIVED: Empirical agent-based evidence that active inference produces emergent collective intelligence from simple agent capabilities — validates our simplicity-first architecture
 EXTRACTION HINT: Focus on the endogenous emergence finding and the specific role of Theory of Mind. These have direct implementation implications for how our agents model each other.
+
+
+## Key Facts
+- Published in Entropy, Vol 23(7), 830 (2021-06-29)
+- Also available on arXiv: https://arxiv.org/abs/2104.01066
+- Authors: Rafael Kaufmann, Pranav Gupta, Jacob Taylor
+- Uses Active Inference Formulation (AIF) framework for agent-based modeling
+- Compares four agent configurations: baseline, Theory of Mind only, Goal Alignment only, both combined
