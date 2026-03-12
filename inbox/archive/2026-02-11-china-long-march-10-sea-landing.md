@@ -7,10 +7,16 @@ date: 2026-02-11
 domain: space-development
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: high
 tags: [china, long-march-10, reusability, sea-landing, competition, state-directed]
 flagged_for_leo: ["State-directed acceleration compressing technology timelines faster than KB predicted — governance/coordination implications"]
+processed_by: astra
+processed_date: 2026-03-11
+claims_extracted: ["china-achieved-controlled-first-stage-sea-landing-in-2026-compressing-reusability-timeline-from-8-years-to-2-years.md", "china-cable-net-recovery-represents-independent-innovation-trajectory-not-technology-copying.md"]
+enrichments_applied: ["China is the only credible peer competitor in space with comprehensive capabilities and state-directed acceleration closing the reusability gap in 5-8 years.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 2 claims challenging existing KB timeline estimates for China reusability development. Primary enrichment targets existing China space competition claim with concrete evidence of faster-than-expected timeline compression. Created 2 new entities (Long March 10 rocket program and Ling Hang Zhe recovery ship). Key insight: state-directed acceleration compressed projected 5-8 year timeline to actual 2 years, and recovery method represents independent innovation rather than technology copying. Flagged for Leo: governance/coordination implications of state-directed technology acceleration outpacing market-driven timelines."
 ---
 
 ## Content
@@ -38,3 +44,10 @@ China is also building a 25,000-ton, 472-foot rocket-catching ship "Ling Hang Zh
 PRIMARY CONNECTION: [[China is the only credible peer competitor in space with comprehensive capabilities and state-directed acceleration closing the reusability gap in 5-8 years]]
 WHY ARCHIVED: Directly challenges the "5-8 year" timeline — China achieved first stage recovery in early 2026, with reusable variant launching April 2026
 EXTRACTION HINT: The claim needs timeline revision. Also extract the cable-net recovery approach as evidence of independent innovation trajectory.
+
+
+## Key Facts
+- Long March 10 first stage features restartable engines and grid fins for controlled descent (Feb 11, 2026)
+- Long March 10B payload capacity: 11,000 kg to 900km altitude at 50° inclination
+- Mengzhou crewed spaceship conducted maximum dynamic pressure abort test simultaneously (Feb 11, 2026)
+- Ling Hang Zhe recovery ship: 25,000 tons, 472 feet, equipped with cable-net recovery gantry
