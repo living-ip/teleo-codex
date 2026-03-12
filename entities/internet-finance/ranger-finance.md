@@ -45,6 +45,7 @@ Perps aggregator and DEX aggregation platform on Solana/Hyperliquid. Three produ
 - **2026-03** — Liquidation proposal passed via futarchy. Snapshot scheduled March 12.
 - **2026-03-06** — Pivot to vaults-only, suspend perp/spot aggregation.
 
+- **2025-04-09** — Completed ICO on MetaDAO platform, raising ~$9.1M and bringing total Assets Under Futarchy to $57.3M
 ## Significance for KB
 Ranger is THE test case for futarchy-governed enforcement. The system is working as designed: investors funded a project, the project underperformed relative to representations, the community used futarchy to force liquidation and treasury return. This is exactly what the "unruggable ICO" mechanism promises — and Ranger is the first live demonstration.
 

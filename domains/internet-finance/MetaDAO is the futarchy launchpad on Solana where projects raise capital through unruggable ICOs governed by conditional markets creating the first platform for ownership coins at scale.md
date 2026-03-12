@@ -82,6 +82,12 @@ Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform 
 
 (challenge) Areal's failed Futardio launch ($11,654 raised of $50K target, REFUNDING status) demonstrates that futarchy-governed fundraising does not guarantee capital formation success. The mechanism provides credible exit guarantees through market-governed liquidation and governance quality through conditional markets, but market participants still evaluate project fundamentals and team credibility. Futarchy reduces rug risk but does not eliminate market skepticism of unproven business models or early-stage teams.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-04-09-blockworks-ranger-ico-metadao-reset]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+As of 2025-04-09, MetaDAO has facilitated 10 project launches with total Assets Under Futarchy reaching $57.3M. Ranger Finance's ICO added ~$9.1M to this total, demonstrating continued momentum in the platform. The platform operates as both a launchpad and governance protocol for 'ownership coins' where projects launch public sales with uniform pricing (no private rounds or auctioned allocations). Founders set mission, market opportunity, minimum raise, and monthly budget parameters, while participants deposit USDC during 4-day sale periods. MetaDAO was reportedly considering strategic changes to its platform model as of April 2025, suggesting potential recognition of platform limitations or sustainability concerns despite strong public metrics.
+
 ---
 
 Relevant Notes:

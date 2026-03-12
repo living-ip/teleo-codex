@@ -7,9 +7,14 @@ date: 2025-04-09
 domain: internet-finance
 secondary_domains: []
 format: article
-status: unprocessed
+status: enrichment
 priority: medium
 tags: [metadao, ranger-finance, ICO, assets-under-futarchy, ownership-coins]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Primary value is updating AUF metric ($57.3M) and confirming 4-day fundraising timeline. The 'strategic reset' mention is significant but lacks detail—flagged for follow-up investigation. No new claims warranted; existing claims adequately cover the mechanisms described. Ranger entity updated with ICO completion; MetaDAO entity updated with milestone and reset signal."
 ---
 
 ## Content
@@ -43,3 +48,11 @@ tags: [metadao, ranger-finance, ICO, assets-under-futarchy, ownership-coins]
 PRIMARY CONNECTION: [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]]
 WHY ARCHIVED: Latest AUF figure ($57.3M) and "strategic reset" signal worth tracking
 EXTRACTION HINT: The AUF metric is data for updating existing claims; the "strategic reset" needs follow-up investigation
+
+
+## Key Facts
+- MetaDAO total Assets Under Futarchy: $57.3M (2025-04-09)
+- Ranger Finance ICO raised ~$9.1M (2025-04-09)
+- MetaDAO has launched 10 projects to date (2025-04-09)
+- MetaDAO sale period: 4 days with USDC deposits
+- MetaDAO launch structure: no private rounds, no auctioned allocations, everyone pays same price

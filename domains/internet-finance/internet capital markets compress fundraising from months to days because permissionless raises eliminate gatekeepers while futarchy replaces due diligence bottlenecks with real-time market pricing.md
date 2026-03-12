@@ -48,6 +48,12 @@ MycoRealms demonstrates 72-hour permissionless raise window on Futardio for $125
 
 Futardio cult raised $11.4M in under 24 hours through MetaDAO's futarchy platform (launched 2026-03-03, closed 2026-03-04), confirming sub-day fundraising timelines for futarchy-governed launches. This provides concrete timing data supporting the compression thesis: traditional meme coin launches through centralized platforms typically require days to weeks for comparable capital formation.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-04-09-blockworks-ranger-ico-metadao-reset]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+MetaDAO's ownership coin launch mechanics compress fundraising to 4-day USDC deposit periods. Ranger Finance completed its ICO within this timeframe, raising ~$9.1M, providing a concrete example of sub-week capital formation at scale.
+
 ---
 
 Relevant Notes:
