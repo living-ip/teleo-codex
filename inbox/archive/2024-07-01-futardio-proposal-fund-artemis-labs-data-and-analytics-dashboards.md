@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/G95shxDXSSTcgi2DTJ2h79JCefVNQPm8dFeDzx7qZ2k
 date: 2024-07-01
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Proposal document with detailed vendor pitch and deliverables. Created entity for Artemis Labs (new company) and decision_market entity for the failed proposal. Updated Drift timeline. No extractable claims — this is purely factual governance data about a vendor proposal that failed. The proposal contains standard analytics deliverables without novel mechanism insights."
 ---
 
 ## Proposal Details
@@ -196,3 +200,14 @@ We ultimately think that we are providing a unique service and we want to build 
 - Autocrat version: 0.3
 - Completed: 2024-07-05
 - Ended: 2024-07-05
+
+
+## Key Facts
+- Artemis Labs serves institutional investors including Grayscale, Franklin Templeton, VanEck
+- Artemis Labs serves liquid token funds including Pantera Capital, Modular Capital, CoinFund
+- Artemis Labs has 20K+ Twitter followers and 20K+ newsletter subscribers
+- Artemis Labs team includes engineers from Venmo, Messari, Coinbase, Facebook
+- Artemis Labs team includes finance professionals from Holocene, Carlyle Group, BlackRock, Whale Rock
+- Artemis Labs became open source in early 2024
+- Drift Protocol's public S3 datalake refreshes every 24 hours
+- Artemis proposed 6-hour data refresh intervals for Drift metrics
