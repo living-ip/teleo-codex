@@ -48,6 +48,12 @@ MycoRealms demonstrates 72-hour permissionless raise window on Futardio for $125
 
 Futardio cult raised $11.4M in under 24 hours through MetaDAO's futarchy platform (launched 2026-03-03, closed 2026-03-04), confirming sub-day fundraising timelines for futarchy-governed launches. This provides concrete timing data supporting the compression thesis: traditional meme coin launches through centralized platforms typically require days to weeks for comparable capital formation.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-03-09-futarddotio-x-archive]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Futardio's first raise received $11M in commitments against a $50K minimum goal (220x oversubscription), demonstrating that permissionless capital formation can achieve massive scale in a single day. The automated pro-rata allocation and refund mechanism handled the oversubscription without human intervention, validating that futarchy infrastructure can execute at scale without traditional gatekeeping approval processes.
+
 ---
 
 Relevant Notes:

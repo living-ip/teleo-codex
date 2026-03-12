@@ -32,6 +32,12 @@ The implication for Living Capital: since [[agents create dozens of proposals bu
 - The "reputational liability" framing assumes MetaDAO's brand is the primary draw — but if futarchy governance itself is the value, the brand is secondary
 - Two-tier systems tend to become de facto caste systems where the lower tier never graduates to the upper tier
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-03-09-futarddotio-x-archive]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Futardio explicitly positions itself as separate from MetaDAO with messaging like 'Futardio is not MetaDAO launches' despite being built on MetaDAO's Autocrat infrastructure. The brand separation is deliberate — Futardio is positioned as capital formation infrastructure ('where dreams meet USDC') while MetaDAO/Autocrat remains the protocol layer. This architectural choice suggests that permissionless platforms recognize the need for reputational isolation from their parent protocols.
+
 ---
 
 Relevant Notes:

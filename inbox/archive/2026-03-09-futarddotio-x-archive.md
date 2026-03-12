@@ -6,7 +6,7 @@ url: https://x.com/futarddotio
 date: 2026-03-09
 domain: internet-finance
 format: tweet
-status: unprocessed
+status: processed
 tags: [futardio, permissionless-launchpad, ownership-coins, capital-formation, metadao]
 linked_set: metadao-x-landscape-2026-03
 curator_notes: |
@@ -24,6 +24,12 @@ extraction_hints:
   - "Which projects are launching on Futardio vs MetaDAO curated ICOs — market segmentation data"
   - "Low tweet volume means near-100% signal — almost every tweet is substantive"
 priority: medium
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["futardio-first-raise-220x-oversubscription-proves-permissionless-capital-formation-demand.md", "futardio-brand-separation-manages-reputational-risk-for-permissionless-launches.md"]
+enrichments_applied: ["internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md", "futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "High-signal source with only 70 tweets total. Two major claims extracted: (1) 220x oversubscription as proof of permissionless capital formation demand, (2) brand separation as reputational risk management. Three enrichments to existing claims with concrete data. The $11M/$50K oversubscription ratio is the single most important data point for internet capital markets compression thesis. Low tweet volume means nearly every tweet is substantive — minimal noise filtering required."
 ---
 
 # @futarddotio X Archive (March 2026)
@@ -50,3 +56,10 @@ priority: medium
 ## Noise Filtered Out
 - Very little noise — 70 total tweets, most are substantive announcements or mechanism explanations
 - No casual engagement pattern — this is a pure project account
+
+
+## Key Facts
+- Futardio uses time-based preference curves, hard caps, and minimum thresholds for automated launch mechanics
+- Futardio tagline: 'Where dreams meet USDC'
+- Account has only 70 total tweets as of March 2026, very low noise ratio
+- Futardio built on MetaDAO's Autocrat infrastructure but operates independently
