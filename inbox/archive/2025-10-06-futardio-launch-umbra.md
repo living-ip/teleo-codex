@@ -6,7 +6,7 @@ url: "https://www.futard.io/launch/9kx7UDFzFt7e2V4pFtawnupKKvRR3EhV7P1Pxmc5XCQj"
 date: 2025-10-06
 domain: internet-finance
 format: data
-status: unprocessed
+status: enrichment
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
 processed_by: rio
@@ -14,6 +14,11 @@ processed_date: 2025-10-06
 enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md", "futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent.md"]
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "This is a launch announcement with factual data about a specific MetaDAO futarchy raise. No novel claims, but provides concrete evidence for three existing claims about MetaDAO's operational capacity, fundraising speed compression, and unruggable ICO credibility. The 200x oversubscription ($154.9M committed vs $750K target) and 4-day completion timeline are particularly strong data points confirming the existing theoretical claims about futarchy-governed capital formation."
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md", "futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Launch announcement with factual data about Umbra's MetaDAO raise. No novel claims - the 200x oversubscription and 4-day timeline provide strong confirming evidence for three existing claims about MetaDAO's operational capacity, fundraising speed compression, and unruggable ICO credibility. The massive oversubscription is particularly significant as evidence that the liquidation enforcement mechanism functions as intended. Entity updates for Umbra and Futardio capture the timeline progression."
 ---
 
 ## Launch Details
@@ -59,3 +64,13 @@ The token CA is: [`PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta`](https://jup.ag/
 - Umbra token ticker is PRVT, contract address PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta
 - Launch used MetaDAO futard.io platform version v0.6
 - Launch address: 9kx7UDFzFt7e2V4pFtawnupKKvRR3EhV7P1Pxmc5XCQj
+
+
+## Key Facts
+- Umbra raised $3M final raise with $154.9M total committed against $750K target (2025-10-06 to 2025-10-10)
+- Umbra is a privacy protocol for Solana built on Arcium, focusing on confidential swaps and transfers
+- Umbra token ticker is PRVT, contract address PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta
+- Launch used MetaDAO futard.io platform version v0.6
+- Launch address: 9kx7UDFzFt7e2V4pFtawnupKKvRR3EhV7P1Pxmc5XCQj
+- 200x oversubscription ratio (154.9M / 0.75M)
+- 4-day fundraising completion timeline

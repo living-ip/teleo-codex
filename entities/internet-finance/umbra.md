@@ -33,6 +33,8 @@ Privacy protocol for confidential swaps and transfers on Solana, built on Arcium
 - **2025-10-06** — Futardio launch opens ($750K target)
 - **2025-10-10** — Launch closes. $3M raised from $154.9M committed.
 
+- **2025-10-06** — Launched futarchy-governed fundraise on MetaDAO/futard.io with $750K target
+- **2025-10-10** — Completed raise with $3M final allocation from $154.9M total committed (200x oversubscription), 4-day completion timeline
 ## Relationship to KB
 - [[futardio]] — launched on Futardio platform (first launch)
 - [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]] — evidence for platform operational capacity
