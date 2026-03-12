@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/B82Dw1W6cfngH7BRukAyKXvXzP4T2cDsxwKYfxCftoC
 date: 2024-10-22
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Hiring proposal with detailed compensation structure. No novel claims about futarchy mechanisms or governance — this is standard entity/decision_market data. Token allocation structure mirrors existing co-founder terms documented in metadao-compensation-proph3t-nallok. Created person entity for Advaith Sekharan and decision_market entity for the proposal itself."
 ---
 
 ## Proposal Details
@@ -71,3 +75,11 @@ The terms of its release would be the same as Nallok and Proph3t, except that th
 - Autocrat version: 0.3
 - Completed: 2024-10-26
 - Ended: 2024-10-26
+
+
+## Key Facts
+- MetaDAO token supply excluding DAO holdings: 19,755.7 META (2024-10-22)
+- MetaDAO token supply including co-founder allocations: 23,705.7 META (2024-10-22)
+- MetaDAO market cap definition: $1B = $42,198 per META
+- Advaith Sekharan GitHub: https://github.com/advaith101
+- Advaith Sekharan LinkedIn: https://www.linkedin.com/in/advaith-sekharan-78b52b277/
