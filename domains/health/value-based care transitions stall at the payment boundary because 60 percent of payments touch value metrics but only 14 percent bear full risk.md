@@ -23,6 +23,12 @@ The Making Care Primary model's termination in June 2025 (after just 12 months, 
 
 PACE represents the extreme end of value-based care alignment—100% capitation with full financial risk for a nursing-home-eligible population. The ASPE/HHS evaluation shows that even under complete payment alignment, PACE does not reduce total costs but redistributes them (lower Medicare acute costs in early months, higher Medicaid chronic costs overall). This suggests that the 'payment boundary' stall may not be primarily a problem of insufficient risk-bearing. Rather, the economic case for value-based care may rest on quality/preference improvements rather than cost reduction. PACE's 'stall' is not at the payment boundary—it's at the cost-savings promise. The implication: value-based care may require a different success metric (outcome quality, institutionalization avoidance, mortality reduction) than the current cost-reduction narrative assumes.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-07-24-kff-medicare-advantage-2025-enrollment-update]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+MA enrollment reached 54% penetration (34.1M beneficiaries) in 2025, meaning more than half of Medicare beneficiaries are now in capitated managed care arrangements that are nominally full-risk value-based care. Yet the federal spending gap is $84B (20% per-beneficiary premium over FFS), indicating that capitation alone does not produce value-based outcomes. The MA program is theoretically 'full-risk' value-based care, but the persistent overpayment premium suggests plans are not bearing true actuarial risk — they're extracting rents through risk adjustment gaming and supplemental benefit marketing. This confirms that payment structure (capitation) is necessary but not sufficient for value-based care; the stall occurs because plans optimize for revenue (risk scores, enrollment growth) rather than outcomes. The fact that MA plans have tools for cost control (prior authorization, network restrictions, care coordination) yet still command a 20% premium indicates the payment boundary problem: plans can optimize within their payment envelope without optimizing for actual health outcomes.
+
 ---
 
 Relevant Notes:

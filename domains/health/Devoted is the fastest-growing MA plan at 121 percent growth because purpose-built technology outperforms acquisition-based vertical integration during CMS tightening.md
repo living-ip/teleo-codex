@@ -23,6 +23,12 @@ Devoted was built from scratch on the Orinoco platform — a unified AI-native o
 
 Since [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]], UnitedHealth's $9 billion annual technology spend directed at optimizing existing infrastructure (consolidating 18 EMRs, AI scribing within legacy workflows) rather than rebuilding around prevention is textbook proxy inertia. The margin from coding arbitrage rationally prevents pursuit of the purpose-built alternative.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-07-24-kff-medicare-advantage-2025-enrollment-update]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Market concentration data shows UHG gained 505K members in 2025 while Humana lost 297K, indicating the market is consolidating toward the dominant player rather than diversifying. UHG + Humana control 46% of MA enrollment (15.6M beneficiaries), with 815 counties (26% of all counties) showing 75%+ concentration in these two organizations. This provides context for Devoted's 121% growth: the market is bifurcating between acquisition-based consolidation (UHG absorbing share from Humana) and purpose-built technology platforms (Devoted growing faster than market). The oligopoly structure (top 5 organizations = 70% of enrollment) makes Devoted's growth even more significant as a non-acquisition-based challenger. The fact that the #2 player (Humana) is losing share to the #1 player (UHG) rather than to smaller competitors suggests acquisition-based vertical integration is consolidating market power, not distributing it.
+
 ---
 
 Relevant Notes:

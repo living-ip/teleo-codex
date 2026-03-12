@@ -285,6 +285,12 @@ Healthcare is the clearest case study for TeleoHumanity's thesis: purpose-driven
 
 PACE provides the most comprehensive real-world test of the prevention-first attractor model: 100% capitation, fully integrated medical/social/psychiatric care, continuous monitoring of a nursing-home-eligible population, and 8-year longitudinal data (2006-2011). Yet the ASPE/HHS evaluation reveals that PACE does NOT reduce total costs—Medicare capitation rates are equivalent to FFS overall (with lower costs only in the first 6 months post-enrollment), while Medicaid costs are significantly HIGHER under PACE. The value is in restructuring care (community vs. institution, chronic vs. acute) and quality improvements (significantly lower nursing home utilization across all measures, some evidence of lower mortality), not in cost savings. This directly challenges the assumption that prevention-first, integrated care inherently 'profits from health' in an economic sense. The 'flywheel' may be clinical and social value, not financial ROI. If the attractor state requires economic efficiency to be sustainable, PACE suggests it may not be achievable through care integration alone.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-07-24-kff-medicare-advantage-2025-enrollment-update]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+C-SNPs (chronic condition special needs plans) grew 71% in one year (2024-2025) and now represent 16% of SNP enrollment, making them the fastest-growing MA segment. C-SNPs are purpose-built for continuous monitoring, medication management, and care coordination for chronic conditions (diabetes, heart failure, CKD, COPD). The 71% growth rate is a demand signal for the prevention-first attractor state infrastructure: continuous monitoring, AI-augmented care coordination, and aligned payment models that profit from managing disease progression rather than treating acute episodes. This growth occurs within broader SNP expansion (14% to 21% of MA enrollment 2020-2025) but C-SNPs are outpacing D-SNPs and I-SNPs, indicating chronic disease management infrastructure is the primary driver of specialized plan growth.
+
 ---
 
 Relevant Notes:
