@@ -7,7 +7,14 @@ date: 2026-02-01
 domain: entertainment
 secondary_domains: [internet-finance]
 format: report
-status: unprocessed
+status: processed
+processed_by: Clay
+processed_date: 2026-03-12
+claims_extracted:
+  - "mainstream-first-ip-funnel-outperforms-crypto-first-by-building-brand-recognition-before-requiring-web3-onboarding"
+  - "community-owned-ip-achieves-cultural-penetration-orders-of-magnitude-beyond-revenue-footprint-before-monetization-catches-up"
+  - "public-equity-pursuit-creates-structural-tension-for-community-owned-ip-by-subordinating-holder-alignment-to-shareholder-primacy"
+enrichments: []
 priority: high
 tags: [pudgy-penguins, community-owned-IP, tokenized-culture, mainstream-first, Web3-entertainment, IPO]
 flagged_for_rio: ["Token economics of community-owned IP at public market scale — PENGU tokenomics, Pengu ETF, IPO pathway"]
