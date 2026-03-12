@@ -17,6 +17,12 @@ The closed-loop referral platforms (Unite Us with 60 million connections, Findhe
 
 The near-term trajectory: mandatory outpatient screening by 2026, Z-code adoption rising to 15-25% by 2028, closed-loop referral integration in major EHRs by 2030, and SDOH interventions as standard as medication management by 2035. The binding constraint is not evidence or policy but operational infrastructure.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-09-19-commonwealth-fund-mirror-mirror-2024]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The Commonwealth Fund's 2024 international comparison provides quantified evidence of the population-level cost of not operationalizing SDOH interventions at scale. The US ranks second-worst on equity (9th of 10 countries) and last on health outcomes (10th of 10), with the highest healthcare spending (>16% of GDP). This outcome gap relative to peer nations with lower spending demonstrates the opportunity cost of the US healthcare system's failure to systematically address social determinants. Countries with better equity and access outcomes (Australia, Netherlands) achieve superior population health despite similar or lower clinical quality and lower spending ratios. The international comparison quantifies what the SDOH adoption gap costs: the US achieves worst population health outcomes among wealthy peer nations despite world-class clinical care, suggesting that the 3% Z-code documentation rate represents billions in foregone health gains.
+
 ---
 
 Relevant Notes:

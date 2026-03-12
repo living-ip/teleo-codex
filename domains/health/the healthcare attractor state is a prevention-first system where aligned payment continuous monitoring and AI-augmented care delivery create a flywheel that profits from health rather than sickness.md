@@ -285,6 +285,12 @@ Healthcare is the clearest case study for TeleoHumanity's thesis: purpose-driven
 
 PACE provides the most comprehensive real-world test of the prevention-first attractor model: 100% capitation, fully integrated medical/social/psychiatric care, continuous monitoring of a nursing-home-eligible population, and 8-year longitudinal data (2006-2011). Yet the ASPE/HHS evaluation reveals that PACE does NOT reduce total costs—Medicare capitation rates are equivalent to FFS overall (with lower costs only in the first 6 months post-enrollment), while Medicaid costs are significantly HIGHER under PACE. The value is in restructuring care (community vs. institution, chronic vs. acute) and quality improvements (significantly lower nursing home utilization across all measures, some evidence of lower mortality), not in cost savings. This directly challenges the assumption that prevention-first, integrated care inherently 'profits from health' in an economic sense. The 'flywheel' may be clinical and social value, not financial ROI. If the attractor state requires economic efficiency to be sustainable, PACE suggests it may not be achievable through care integration alone.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-09-19-commonwealth-fund-mirror-mirror-2024]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The Commonwealth Fund's 2024 international comparison provides evidence that the prevention-first attractor state is not theoretical — peer nations demonstrate it empirically. The top performers (Australia, Netherlands) achieve better health outcomes with lower spending as percentage of GDP, suggesting their systems have structural features that prevent rather than treat. The US paradox (2nd in care process, last in outcomes, highest spending, lowest efficiency) reveals a system optimized for treating sickness rather than producing health. The efficiency domain rankings (US among worst — highest spending, lowest return) quantify the cost of a sick-care attractor state. The international benchmark shows that systems with better access, equity, and prevention orientation achieve superior outcomes at lower cost, suggesting the prevention-first attractor state is achievable and economically superior to the current US sick-care model.
+
 ---
 
 Relevant Notes:

@@ -25,6 +25,12 @@ This creates a profound paradox for economic development: a society can be absol
 
 Since specialization and value form an autocatalytic feedback loop where each amplifies the other exponentially, the same specialization that drives economic growth also drives the inequality that undermines health. Since healthcare costs threaten to crowd out investment in humanitys future if the system is not restructured, the epidemiological transition explains WHY healthcare costs escalate: the system is fighting psychosocially-driven disease with materialist medicine.
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-09-19-commonwealth-fund-mirror-mirror-2024]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The Commonwealth Fund's 2024 international comparison demonstrates this transition empirically across 10 developed nations. All countries compared (Australia, Canada, France, Germany, Netherlands, New Zealand, Sweden, Switzerland, UK, US) have eliminated material scarcity in healthcare — all possess advanced clinical capabilities and universal or near-universal access infrastructure. Yet health outcomes vary dramatically. The US spends >16% of GDP (highest by far) with worst outcomes, while top performers (Australia, Netherlands) spend the lowest percentage of GDP. The differentiator is not clinical capability (US ranks 2nd in care process quality) but access structures and equity — social determinants. This proves that among developed nations with sufficient material resources, social disadvantage (who gets care, discrimination, equity barriers) drives outcomes more powerfully than clinical quality or spending volume.
+
 ---
 
 Relevant Notes:
