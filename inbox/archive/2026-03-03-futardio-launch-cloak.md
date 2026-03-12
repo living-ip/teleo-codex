@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/9MqyiXXJUAXQ1Uy5j2EV8hq21UeR3ruukWkZ1XGNhg3R"
 date: 2026-03-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Source is a failed Futardio fundraise for Cloak privacy DCA protocol. Extracted 5 entity files: Cloak company, Cloak fundraise decision_market, Privacy.cash integration, Oro RWA integration, and Futardio timeline update. No novel claims extracted - the source is primarily factual launch data and company pitch material. The 0.49% commitment rate is a significant data point but represents a single case, insufficient for broader claims about privacy infrastructure or futarchy launch dynamics. Key facts preserved in source archive for future reference."
 ---
 
 ## Launch Details
@@ -217,3 +221,15 @@ Worst case: the first and only private DCA product on Solana, used by whales who
 - Token mint: `8RSpKqJFeF6ipThWDXP284mE2ufmfeHwjdEjduQ2meta`
 - Version: v0.7
 - Closed: 2026-03-04
+
+
+## Key Facts
+- Cloak raised $1,455 of $300K target (0.49% commitment rate) on Futardio 2026-03-03
+- Cloak team: Vaibhav (CoinDCX engineer, PermaSign co-founder) and Prasad (Stealth founding engineer, PermaSign co-founder)
+- Cloak token allocation: 62.9% ICO, 18.2% liquidity, 18.9% team (performance-locked)
+- Cloak team tokens unlock at 2x, 4x, 8x, 16x, 32x ICO price with 18-month minimum cliff
+- Cloak integrated Privacy.cash ZK-proof pools and Jupiter DEX routing
+- Cloak first protocol to offer private DCA into RWA (Oro tokenized gold)
+- MEV extraction on Solana estimated at $370M-$500M over 16 months (mid-2025)
+- Cloak estimated whale DCA information leakage cost at $10K-$40K/month on $500K volume
+- Cloak fee structure: 0.25% on volume
