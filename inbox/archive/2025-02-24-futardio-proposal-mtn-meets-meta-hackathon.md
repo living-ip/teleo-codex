@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/9ZYMaLKWn9PSLTX1entmqJUYBiCkZbRxeRz1tVvYwqy
 date: 2025-02-24
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Single failed proposal from a hidden test DAO. No novel mechanism insights or governance dynamics worth extracting as claims. The proposal itself is significant enough to document as a decision_market entity showing futarchy governance in action, but contains no arguable propositions about mechanism design or organizational behavior. The AI-generated impact analysis sections were ignored as auto-generated noise per extraction rules."
 ---
 
 ## Proposal Details
@@ -50,3 +54,9 @@ But you have access to the data via API so here you are!
 - Autocrat version: 0.3
 - Completed: 2025-02-27
 - Ended: 2025-02-27
+
+
+## Key Facts
+- Test DAO proposal 9ZYMaLKWn9PSLTX1entmqJUYBiCkZbRxeRz1tVvYwqy6 for mtn Meets META Hackathon failed (2025-02-24 to 2025-02-27)
+- Test DAO is a hidden DAO with account GWywkp2mY2vzAaLydR2MBXRCqk2vBTyvtVRioujxi5Ce
+- Proposal used Autocrat v0.3 governance mechanism
