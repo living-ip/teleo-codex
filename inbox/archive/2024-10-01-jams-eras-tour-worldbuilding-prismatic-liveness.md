@@ -7,9 +7,14 @@ date: 2024-10-01
 domain: entertainment
 secondary_domains: [cultural-dynamics]
 format: academic-article
-status: unprocessed
+status: null-result
 priority: high
 tags: [taylor-swift, eras-tour, worldbuilding, narrative-infrastructure, meaning-creation, cultural-phenomenon]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership.md", "creator-world-building-converts-viewers-into-returning-communities-by-creating-belonging-audiences-can-recognize-participate-in-and-return-to.md", "fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted three claims about commercial/meaning function alignment, live communal narrative experiences, and transmedia worldbuilding mechanisms. Applied three enrichments to existing entertainment claims about content as loss leader, creator worldbuilding, and fanchise management. Source provides academic validation (JAMS) for existing KB theories about content serving dual commercial/meaning functions. Key insight: commercial and meaning functions REINFORCE rather than compete when revenue model rewards relationship depth."
 ---
 
 ## Content
@@ -45,3 +50,11 @@ Additional data from related sources:
 PRIMARY CONNECTION: [[narratives are infrastructure not just communication because they coordinate action at civilizational scale]]
 WHY ARCHIVED: Academic evidence that content serving commercial/loss-leader functions can SIMULTANEOUSLY serve meaning/narrative-infrastructure functions — the two are not in tension when the revenue model rewards relationship depth
 EXTRACTION HINT: The key insight is REINFORCEMENT, not tension. Commercial function (tour revenue) and meaning function (communal narrative experience) reinforce each other because the same mechanism (deep audience relationship) drives both.
+
+
+## Key Facts
+- Eras Tour generated $4.1B+ total revenue (2023-2024)
+- Tour revenue was 7x recorded music revenue
+- Swift filed 400+ trademarks across 16 jurisdictions for re-recorded catalog
+- AMC concert film used 57/43 revenue split bypassing traditional studio distribution
+- Tour structured as 3-hour narrative journey through distinct 'eras'
