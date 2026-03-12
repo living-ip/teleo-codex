@@ -6,7 +6,7 @@ url: https://www.bankless.com/read/the-beauty-of-futarchy-2
 date: 2026-00-00
 domain: internet-finance
 secondary_domains: []
-format: article
+format: report
 status: null-result
 priority: medium
 tags: [futarchy, metadao, mechanism-design, governance, bankless]
