@@ -6,7 +6,14 @@ url: https://www.columbia.edu/~ww2040/shorter041907.pdf
 date: 2019-04-19
 domain: internet-finance
 format: paper
-status: unprocessed
+status: processed
+processed_by: rio
+processed_date: 2026-03-12
+claims_extracted:
+  - "square-root staffing sets optimal server count at base load plus beta times its square root making excess capacity scale sublinearly with demand"
+  - "the Halfin-Whitt QED regime simultaneously achieves near-full server utilization and bounded delay because utilization approaches one at rate proportional to one over root n"
+  - "pooling demand across servers reduces required excess capacity because total variance grows as the square root of n while demand grows as n"
+enrichments: []
 tags: [pipeline-architecture, operations-research, queueing-theory, square-root-staffing, Halfin-Whitt]
 ---
 
