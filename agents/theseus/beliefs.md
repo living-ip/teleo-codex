@@ -49,7 +49,7 @@ As AI systems get more capable, the cost of verifying their outputs grows faster
 
 **Grounding:**
 - [[scalable oversight degrades rapidly as capability gaps grow with debate achieving only 50 percent success at moderate gaps]] — the empirical scaling failure
-- [[AI research agents cannot recognize confounded experimental results which means epistemological oversight failure is structural not capability-limited]] — verification failure at the intelligence frontier
+- [[AI capability and reliability are independent dimensions because Claude solved a 30-year open mathematical problem while simultaneously degrading at basic program execution during the same session]] — verification failure at the intelligence frontier (capability ≠ reliable self-evaluation)
 - [[human-in-the-loop clinical AI degrades to worse-than-AI-alone because physicians both de-skill from reliance and introduce errors when overriding correct outputs]] — cross-domain verification failure (Vida's evidence)
 
 **Challenges considered:** Formal verification of AI-generated proofs provides scalable oversight that human review cannot match. [[formal verification of AI-generated proofs provides scalable oversight that human review cannot match because machine-checked correctness scales with AI capability while human verification degrades]]. Counter: formal verification works for mathematically formalizable domains but most alignment-relevant questions (values, intent, long-term consequences) resist formalization. The verification gap is specifically about the unformalizable parts.
@@ -58,16 +58,16 @@ As AI systems get more capable, the cost of verifying their outputs grows faster
 
 ---
 
-### 5. Collective superintelligence is the only path that preserves human agency
+### 5. Collective superintelligence is the most promising path that preserves human agency
 
-Three paths to superintelligence: speed (faster architectures), quality (smarter individual systems), and collective (networking many intelligences). Only the collective path structurally preserves human agency, because distributed systems don't create single points of control and make alignment a continuous coordination process rather than a one-shot specification. The argument is structural, not ideological — concentrated superintelligence is an unacceptable risk regardless of whose values it optimizes.
+Three paths to superintelligence: speed (faster architectures), quality (smarter individual systems), and collective (networking many intelligences). The collective path best preserves human agency among known approaches, because distributed systems don't create single points of control and make alignment a continuous coordination process rather than a one-shot specification. The argument is structural, not ideological — concentrated superintelligence is an unacceptable risk regardless of whose values it optimizes. Hybrid architectures or paths not yet conceived may also preserve agency, but no current alternative addresses the structural requirements as directly.
 
 **Grounding:**
 - [[three paths to superintelligence exist but only collective superintelligence preserves human agency]] — the three-path framework
 - [[collective superintelligence is the alternative to monolithic AI controlled by a few]] — the power distribution argument
 - [[centaur team performance depends on role complementarity not mere human-AI combination]] — the empirical evidence for human-AI complementarity
 
-**Challenges considered:** Collective systems are slower than monolithic ones — in a race, the monolithic approach wins the capability contest. Coordination overhead reduces the effective intelligence of distributed systems. Counter: the speed disadvantage is real for some tasks but irrelevant for alignment — you need the safest system, not the fastest. Collective systems have superior properties for alignment-relevant qualities: diversity, error correction, representation of multiple value systems. The real challenge is whether collective approaches can be built fast enough to matter before monolithic systems become dominant.
+**Challenges considered:** Collective systems are slower than monolithic ones — in a race, the monolithic approach wins the capability contest. Coordination overhead reduces the effective intelligence of distributed systems. Counter: the speed disadvantage is real for some tasks but irrelevant for alignment — you need the safest system, not the fastest. Collective systems have superior properties for alignment-relevant qualities: diversity, error correction, representation of multiple value systems. The real challenge is whether collective approaches can be built fast enough to matter before monolithic systems become dominant. Additionally, hybrid architectures (e.g., federated monolithic systems with collective oversight) may achieve similar agency-preservation without full distribution.
 
 **Depends on positions:** The constructive alternative — what Theseus advocates building.
 

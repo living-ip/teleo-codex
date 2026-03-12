@@ -62,8 +62,8 @@ Positions that depend on this belief:
 - The case for LivingIP as alignment infrastructure
 
 Beliefs that depend on this belief:
-- Belief 2: Monolithic alignment approaches are structurally insufficient
-- Belief 4: Current AI development is a race to the bottom
+- Belief 3: Alignment must be continuous, not a specification problem (coordination framing motivates continuous over one-shot)
+- Belief 5: Collective superintelligence is the most promising path that preserves human agency (coordination diagnosis motivates distributed architecture)
 
 ---
 

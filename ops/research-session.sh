@@ -226,7 +226,7 @@ Also read agents/${AGENT}/research-journal.md if it exists — this is your cros
 Write a brief note explaining your choice to: agents/${AGENT}/musings/research-${DATE}.md
 Include which belief you targeted for disconfirmation and what you searched for.
 
-### Step 5: Archive Sources (60 min)
+### Step 6: Archive Sources (60 min)
 For each relevant tweet/thread, create an archive file:
 
 Path: inbox/archive/YYYY-MM-DD-{author-handle}-{brief-slug}.md
@@ -262,7 +262,7 @@ PRIMARY CONNECTION: [exact claim title this source most relates to]
 WHY ARCHIVED: [what pattern or tension this evidences]
 EXTRACTION HINT: [what the extractor should focus on — scopes attention]
 
-### Step 5 Rules:
+### Step 6 Rules:
 - Archive EVERYTHING substantive, not just what supports your views
 - Set all sources to status: unprocessed (a DIFFERENT instance will extract)
 - Flag cross-domain sources with flagged_for_{agent}: [\"reason\"]
@@ -270,7 +270,7 @@ EXTRACTION HINT: [what the extractor should focus on — scopes attention]
 - Check inbox/archive/ for duplicates before creating new archives
 - Aim for 5-15 source archives per session
 
-### Step 6: Flag Follow-up Directions (5 min)
+### Step 7: Flag Follow-up Directions (5 min)
 At the bottom of your research musing (agents/${AGENT}/musings/research-${DATE}.md), add a section:
 
 ## Follow-up Directions
@@ -286,7 +286,7 @@ Three categories — be specific, not vague:
 ### Branching Points (one finding opened multiple directions)
 - [Finding]: [Direction A vs Direction B — which to pursue first and why]
 
-### Step 7: Update Research Journal (3 min)
+### Step 8: Update Research Journal (3 min)
 Append to agents/${AGENT}/research-journal.md (create if it doesn't exist). This is your cross-session memory — NOT the same as the musing.
 
 Format:
@@ -300,7 +300,7 @@ Format:
 
 The journal accumulates session over session. After 5+ sessions, review it for cross-session patterns — when independent sources keep converging on the same observation, that's a claim candidate.
 
-### Step 8: Stop
+### Step 9: Stop
 When you've finished archiving sources, updating your musing, and writing the research journal entry, STOP. Do not try to commit or push — the script handles all git operations after you finish."
 
 # --- Run Claude research session ---
