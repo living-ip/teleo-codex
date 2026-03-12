@@ -44,6 +44,11 @@ Crypto-native prediction market platform on Polygon. Users trade binary outcome 
 - **2025-12** — Relaunched for US users (invite-only, restricted markets)
 - **2026-03** — Combined Polymarket+Kalshi weekly record: $5.35B (week of March 2-8, 2026)
 
+- **2026-01-XX** — Acquired QCX (CFTC-regulated DCM and DCO) for $112M, inheriting federal regulatory status and enabling US operations resumption
+- **2026-01-XX** — Surpassed $1B in weekly trading volume
+- **2026-01-XX** — Nevada Gaming Control Board sued Polymarket to halt sports-related contracts, arguing they constitute unlicensed gambling under state jurisdiction
+- **2026-01-XX** — Partnered with Palantir and TWG AI to build surveillance system detecting suspicious trading and manipulation in sports prediction markets
+- **2026-01-XX** — Targeting $20B valuation alongside Kalshi as prediction market duopoly emerges
 ## Competitive Position
 - **#1 by volume** — leads Kalshi on 30-day volume ($8.7B vs $6.8B)
 - **Crypto-native**: USDC on Polygon, non-custodial, permissionless market creation

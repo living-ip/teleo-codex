@@ -15,6 +15,12 @@ Consider a concrete scenario. If an attacker pushes conditional PASS tokens abov
 
 This self-correcting property distinguishes futarchy from simpler governance mechanisms like token voting, where wealthy actors can buy outcomes directly. Since [[ownership alignment turns network effects from extractive to generative]], the futarchy mechanism extends this alignment principle to decision-making itself: those who improve decision quality profit, those who distort it lose. Since [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]], futarchy provides one concrete mechanism for continuous value-weaving through market-based truth-seeking.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-20-polymarket-cftc-approval-qcx-acquisition]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Polymarket's approach to manipulation resistance combines market self-correction with external surveillance infrastructure. The platform partnered with Palantir and TWG AI (January 2026) to build surveillance systems that detect suspicious trading patterns, screen participants, and generate compliance reports shareable with regulators and sports leagues. This suggests that even large-scale prediction markets ($1B+ weekly volume) supplement market-based manipulation resistance with institutional monitoring tools. The surveillance layer uses Palantir's data tools and TWG AI analytics to flag unusual patterns in sports prediction markets specifically, indicating that self-correction alone may be insufficient at scale.
+
 ---
 
 Relevant Notes:

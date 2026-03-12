@@ -7,9 +7,15 @@ date: 2026-01-20
 domain: internet-finance
 secondary_domains: [grand-strategy]
 format: news
-status: unprocessed
+status: processed
 priority: high
 tags: [polymarket, prediction-markets, CFTC, regulation, US-operations, gambling-regulation]
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["polymarket-achieved-us-regulatory-legitimacy-through-qcx-acquisition-establishing-prediction-markets-as-cftc-regulated-derivatives.md", "prediction-market-scale-exceeds-decision-market-scale-by-two-orders-of-magnitude-showing-pure-forecasting-dominates-governance-applications.md", "polymarket-kalshi-duopoly-emerging-as-dominant-us-prediction-market-structure-with-complementary-regulatory-models.md"]
+enrichments_applied: ["Polymarket vindicated prediction markets over polling in 2024 US election.md", "futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three new claims extracted: (1) Polymarket's regulatory breakthrough via QCX acquisition, (2) prediction vs decision market scale gap quantified, (3) Polymarket-Kalshi duopoly thesis. Two enrichments: extended Polymarket vindication claim with post-election scaling data and regulatory developments; extended manipulation resistance claim with Palantir surveillance partnership. Six entities created/updated: Polymarket, Kalshi, QCX (new), Palantir (new), TWG AI (new), Nevada Gaming Control Board (new). The $1B weekly volume vs $57.3M total AUF comparison is the key quantitative insight showing prediction markets are ~100x larger than decision markets."
 ---
 
 ## Content
@@ -45,3 +51,12 @@ The Kalshi-Polymarket duopoly is emerging as the dominant structure. Kalshi's re
 PRIMARY CONNECTION: [[Polymarket vindicated prediction markets over polling in 2024 US election]]
 WHY ARCHIVED: Post-vindication scaling + regulatory breakthrough for prediction markets — updates the empirical evidence base for prediction market viability
 EXTRACTION HINT: Focus on (1) regulatory-via-acquisition as precedent, (2) the $1B weekly volume as evidence of sustained product-market fit, (3) the prediction-vs-decision market size gap
+
+
+## Key Facts
+- Polymarket acquired QCX for $112M (January 2026)
+- Polymarket monthly volume hit $2.6B by late 2024
+- Polymarket surpassed $1B weekly trading volume (January 2026)
+- Both Polymarket and Kalshi targeting $20B valuations
+- MetaDAO total AUF: $57.3M (cumulative)
+- The Block: prediction market space 'exploded in 2025'
