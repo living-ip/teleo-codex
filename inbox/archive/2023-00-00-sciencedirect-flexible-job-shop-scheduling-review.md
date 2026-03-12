@@ -10,9 +10,9 @@ status: processed
 processed_by: rio
 processed_date: 2026-03-12
 claims_extracted:
-  - core/grand-strategy/hybrid-flow-shop-pipelines-with-few-stages-and-homogeneous-workers-perform-within-5-10-percent-of-optimal-with-simple-priority-dispatching-rules.md
+  - foundations/collective-intelligence/sequential multi-stage pipelines with parallel workers at each stage achieve near-optimal scheduling with simple priority dispatching rules.md
 enrichments: []
-notes: "Source tagged internet-finance but contains no internet-finance claims. Single claim extracted to grand-strategy — scheduling theory applied to pipeline architecture. Domain mismatch in source metadata."
+notes: "Source tagged internet-finance but contains no internet-finance claims. Single claim extracted to collective-intelligence — scheduling theory applied to pipeline architecture. Domain mismatch in source metadata."
 tags: [pipeline-architecture, operations-research, combinatorial-optimization, job-shop-scheduling, flexible-scheduling]
 ---
 
