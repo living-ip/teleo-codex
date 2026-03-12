@@ -6,7 +6,7 @@ url: https://www.panewslab.com/en/articles/ws5i1bxj
 date: 2025-06-00
 domain: internet-finance
 secondary_domains: [collective-intelligence]
-format: article
+format: report
 status: null-result
 priority: high
 tags: [futarchy, prediction-markets, governance, optimism, self-referential, gamification]
