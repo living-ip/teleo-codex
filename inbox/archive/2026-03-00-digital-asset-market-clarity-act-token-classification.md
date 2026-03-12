@@ -7,9 +7,14 @@ date: 2026-03-00
 domain: internet-finance
 secondary_domains: [grand-strategy]
 format: legislation
-status: unprocessed
+status: null-result
 priority: high
 tags: [regulation, CLARITY-Act, token-classification, securities, CFTC, SEC, digital-commodities]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["Living Capital vehicles likely fail the Howey test for securities classification because the structural separation of capital raise from investment decision eliminates the efforts of others prong.md", "futarchy-governed entities are structurally not securities because prediction market participation replaces the concentrated promoter effort that the Howey test requires.md", "the DAO Reports rejection of voting as active management is the central legal hurdle for futarchy because prediction market trading must prove fundamentally more meaningful than token voting.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two major claims about the Clarity Act's classification framework. The secondary market transition provision is the most significant new regulatory concept — it introduces dynamic lifecycle reclassification rather than static Howey analysis. This fundamentally changes the ownership coin regulatory strategy from 'prove it's not a security' to 'manage the transition from security to commodity.' Enriched three existing claims about Living Capital securities classification with the new lifecycle framework. Updated NASAA entity with their regulatory opposition. The curator's hint about lifecycle reclassification as a NEW framework was accurate — this is not captured anywhere in the existing KB."
 ---
 
 ## Content
@@ -52,3 +57,11 @@ The North American Securities Administrators Association (state securities regul
 PRIMARY CONNECTION: [[Living Capital vehicles likely fail the Howey test for securities classification because the structural separation of capital raise from investment decision eliminates the efforts of others prong]]
 WHY ARCHIVED: Secondary market transition provision fundamentally changes the token classification landscape — lifecycle reclassification model not captured in existing KB
 EXTRACTION HINT: Focus on the lifecycle reclassification concept as a NEW framework that supplements (possibly supersedes) the static Howey test analysis for ownership coins
+
+
+## Key Facts
+- Digital Asset Market Clarity Act (H.R. 3633) passed House late 2025
+- Act under Senate committee review as of March 2026
+- JPMorgan identified 8 catalysts from the Act
+- Negotiations ongoing over DeFi provisions and ethics rules
+- Stablecoin yield compromise being negotiated alongside
