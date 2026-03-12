@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/CFZzTU9YBc2ESa9jXeiYsq1sbN2vg346gUunA5NC3iC
 date: 2025-10-22
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "This source is a futarchy governance proposal with no novel mechanism insights. Primary output is decision_market entity for the proposal itself, plus new entity for DeFiance Capital (not previously in KB), and timeline update for Sanctum. No extractable claims—the proposal contains standard strategic partnership rhetoric without arguable propositions about futarchy mechanisms or governance dynamics. The failure outcome is factual data, not an insight about why it failed or what that means for futarchy treasury management."
 ---
 
 ## Proposal Details
@@ -114,3 +118,12 @@ We look forward to the community's feedback and approval of this proposal.
 - Autocrat version: 0.3
 - Completed: 2025-10-25
 - Ended: 2025-10-25
+
+
+## Key Facts
+- DeFiance Capital has been a Sanctum strategic partner since 2021
+- Proposal requested 13.7M CLOUD tokens at $0.12 per token ($1.644M total)
+- Pricing based on 30-day TWAP at initial proposal submission
+- DeFiance facilitated LST partnerships between Sanctum and Solana DATs
+- Proposal ran on Autocrat v0.3
+- Proposal failed after 3-day market period (2025-10-22 to 2025-10-25)
