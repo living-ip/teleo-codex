@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/4ztwWkz9TD5Ni9Ze6XEEj6qrPBhzdTQMfpXzZ6A8bGz
 date: 2024-06-14
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Governance proposal for product expansion. Created decision_market entity and updated parent Futardio entity timeline. No novel claims about futarchy mechanisms or governance dynamics - this is a straightforward grants proposal for a new product feature. The bounty mechanism itself is not novel enough to warrant a claim (standard incentive alignment for community organizers)."
 ---
 
 ## Proposal Details
@@ -180,3 +184,11 @@ For more detailed information, you can visit the FutureDAO [Gitbook](https://fu
 - Autocrat version: 0.3
 - Completed: 2024-06-19
 - Ended: 2024-06-17
+
+
+## Key Facts
+- FutureDAO Rug Bounty Program proposal requested $5,000 USDC budget (2024-06-14)
+- Proposal passed and completed 2024-06-19
+- Success threshold defined as 60% of presale target raised in SOL
+- Platform development budget: $3,000 USDC for platform, $1,000 USDC for website, $1,000 USDC for QA
+- Operational costs estimated at $1,000+ for API and hosting
