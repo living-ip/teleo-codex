@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/6c1dnggYNpEZvz4fedJ19LAo8Pz2mTTvT6LxySYhpLb
 date: 2025-10-15
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Proposal data extraction for coal governance decision. Created new entity for coal (PoW memecoin) and decision_market entity for the proposal. No novel claims about futarchy mechanisms—this is a straightforward application of existing futarchy-governed DAO patterns. Updated timeline entries for futardio and metadao to reflect cross-ecosystem activity."
 ---
 
 ## Proposal Details
@@ -97,3 +101,12 @@ Voting
 - Autocrat version: 0.3
 - Completed: 2025-10-18
 - Ended: 2025-10-18
+
+
+## Key Facts
+- coal total supply expanded from 21M to 25M (one-time increase of 4M)
+- 2,314 META holder wallets eligible for 420 COAL airdrop (snapshot 2025-10-12)
+- coal dev fund established with 3,028,120 COAL and 30K monthly disbursement cap
+- coal migrated to v0.6 DAO governance with futarchy AMM (2025-10-18)
+- coal is the only PoW coin on Solana post-Ore transition
+- coal governance parameters: 1-day TWAP delay, 1500 USDC + 2000 COAL min liquidity, 100 bps pass threshold, 10K COAL stake requirement, 3-day proposals

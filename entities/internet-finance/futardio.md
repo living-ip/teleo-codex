@@ -46,6 +46,8 @@ MetaDAO's token launch platform. Implements "unruggable ICOs" — permissionless
 
 - **2026-03-07** — Areal DAO launch: $50K target, raised $11,654 (23.3%), REFUNDING status by 2026-03-08 — first documented failed futarchy-governed fundraise on platform
 - **2026-03-04** — [[seekervault]] fundraise launched targeting $75,000, closed next day with only $1,186 (1.6% of target) in refunding status
+- **2025-10-15** — [[coal-lets-get-futarded]] proposal created on Futardio: coal supply expansion, META airdrop, dev fund establishment
+- **2025-10-18** — [[coal-lets-get-futarded]] passed: coal migrated to v0.6 DAO governance with futarchy AMM infrastructure
 ## Competitive Position
 - **Unique mechanism**: Only launch platform with futarchy-governed accountability and treasury return guarantees
 - **vs pump.fun**: pump.fun is memecoin launch (zero accountability, pure speculation). Futardio is ownership coin launch (futarchy governance, treasury enforcement). Different categories despite both being "launch platforms."
