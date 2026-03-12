@@ -7,9 +7,14 @@ date: 2025-12-25
 domain: internet-finance
 secondary_domains: [mechanisms]
 format: article
-status: unprocessed
+status: null-result
 priority: medium
 tags: [futarchy, private-markets, governance, infrastructure, stablecoins, privacy]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Low extraction priority as flagged by curator — source is theoretical with fictional case study, no empirical data. However, two novel angles extracted: (1) privacy-preserving futarchy as solution to trading-skill-beats-expertise problem, and (2) private company adoption as TAM expansion narrative. Both claims rated speculative due to lack of empirical evidence. Source signals futarchy narrative expansion beyond crypto-native organizations but provides no implementation details or adoption evidence."
 ---
 
 ## Content
@@ -41,3 +46,9 @@ tags: [futarchy, private-markets, governance, infrastructure, stablecoins, priva
 PRIMARY CONNECTION: [[Internet finance is an industry transition from traditional finance where the attractor state replaces intermediaries with programmable coordination and market-tested governance]]
 WHY ARCHIVED: Signals futarchy interest from outside crypto-native ecosystem — private market governance application
 EXTRACTION HINT: Low priority for direct claims; useful as evidence of futarchy's expanding narrative reach beyond crypto
+
+
+## Key Facts
+- Chippr Robotics is a robotics/automation company with a blog covering governance innovation, representing futarchy interest from outside crypto-native ecosystem
+- Source traces futarchy history from Robin Hanson's original proposal through early Ethereum governance discussions
+- Fictional 'ClearPath' case study describes manufacturing stakeholders using prediction markets for facility expansion decisions with EBITDA growth metrics
