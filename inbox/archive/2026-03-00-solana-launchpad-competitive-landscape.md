@@ -7,9 +7,14 @@ date: 2026-03-00
 domain: internet-finance
 secondary_domains: []
 format: market-analysis
-status: unprocessed
+status: enrichment
 priority: medium
 tags: [solana, launchpads, pump-fun, metadao, capital-formation, token-launches, competitive-landscape]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability.md", "ownership-coins-primary-value-proposition-is-investor-protection-not-governance-quality.md", "cryptos-primary-use-case-is-capital-formation-not-payments-or-store-of-value.md", "MetaDAO-is-the-futarchy-launchpad-on-Solana-where-projects-raise-capital-through-unruggable-ICOs-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md", "internet-capital-markets-compress-fundraising-timelines.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two major claims about MetaDAO's competitive positioning and the Solana launchpad survival rate dynamics. Applied five enrichments to existing claims with strong confirming/extending evidence. Created five new entity pages for competitive launchpad platforms (Pump.fun, Solanium, Bags.fm, Magic Eden) and updated MetaDAO entity with competitive positioning data. The source provides crucial market structure evidence for the curation vs permissionless spectrum and validates multiple existing KB claims about futarchy governance, investor protection, and capital formation use cases."
 ---
 
 ## Content
@@ -52,3 +57,13 @@ MetaDAO and Solanium are positioned as solutions — MetaDAO through futarchy pr
 PRIMARY CONNECTION: [[futarchy-governed permissionless launches require brand separation to manage reputational liability]]
 WHY ARCHIVED: Competitive landscape data positions MetaDAO's futarchy model against permissionless alternatives — survival rate data is the strongest argument for curation
 EXTRACTION HINT: Focus on the curation vs permissionless spectrum as a market structure claim — what does the 9M tokens / <0.5% survival rate tell us about where value accrues in capital formation?
+
+
+## Key Facts
+- Pump.fun: $700M+ revenue since January 2024, 11M+ tokens launched, 70% market share at peak
+- Solana 2025: 9M+ tokens launched, <0.5% survived 30 days
+- MetaDAO: 8 ICOs, $25.6M raised, 15x average oversubscription
+- Pump.fun bonding curve: 1B tokens per launch, 800M to curve
+- Solanium: KYC, staking tiers, community vetting (traditional IDO)
+- Bags.fm: 1% perpetual revenue share on trading volume
+- Magic Eden: NFT-focused, highly selective, application-based
