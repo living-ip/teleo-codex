@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/BMZbX7z2zgLuq266yskeHF5BFZoaX9j3tvsZfVQ7RUY
 date: 2024-06-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["futuredao-token-migrator-enables-community-takeovers-through-structured-on-chain-migration-with-presale-fundraising-and-conditional-success-thresholds.md", "token-migration-fees-distributed-to-staked-nft-holders-create-revenue-sharing-without-direct-dao-treasury-capture.md", "token-migration-projected-revenue-assumes-linear-adoption-without-accounting-for-market-saturation-or-competitive-dynamics.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 3 claims about token migration mechanism design, NFT-based fee distribution model, and revenue projection methodology. Created FutureDAO entity and decision_market entity for the proposal. Enriched existing claims about MetaDAO's unruggable ICO concept and SPL-404 revenue distribution. The proposal contains detailed mechanism design (60% threshold, tiered fees, conditional success) that warrants claim extraction beyond just entity data. Revenue projections are speculative given lack of adoption modeling."
 ---
 
 ## Proposal Details
@@ -166,3 +172,14 @@ For more detailed information, you can visit the [Future DAO Gitbook](https://fu
 - Autocrat version: 0.3
 - Completed: 2024-06-08
 - Ended: 2024-06-08
+
+
+## Key Facts
+- FutureDAO proposal BMZbX7z2zgLuq266yskeHF5BFZoaX9j3tvsZfVQ7RUY6 passed 2024-06-08
+- Token Migrator budget: $12,000 USDC ($6K development, $6K audits)
+- Fee structure: 2% for <$1M FDMC, 1.5% for <$5M, 1% for <$20M
+- 60% presale threshold determines migration success
+- Non-migrators receive 50% airdrop if migration succeeds
+- Fees distributed to Champions NFT stakers over 30 days via SPL-404
+- At least 27 notable meme coin presales on Solana in past 12 months (per Coin Edition, Coinpedia)
+- FutureDAO born from $MERTD takeover after project team rugged
