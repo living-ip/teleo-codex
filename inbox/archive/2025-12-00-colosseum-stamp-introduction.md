@@ -6,10 +6,15 @@ url: https://blog.colosseum.com/introducing-the-colosseum-stamp/
 date: 2025-12-00
 domain: internet-finance
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: high
 tags: [stamp, investment-instrument, metadao, ownership-coins, safe, legal-structure, colosseum]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["STAMP replaces SAFE plus token warrant by adding futarchy-governed treasury spending allowances that prevent the extraction problem that killed legacy ICOs.md", "futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three new claims extracted on STAMP mechanics: (1) single-token structure with legal enforceability, (2) 20% investor cap ensuring community ownership, (3) clean migration from equity to tokens. Enriched three existing claims with detailed STAMP mechanics. Created entities for Colosseum and Orrick. No regulatory analysis or legal opinions published yet, so confidence capped at experimental. The 20% cap is the most striking mechanism design choice — significantly lower than typical crypto raises."
 ---
 
 ## Content
@@ -57,3 +62,16 @@ Colosseum introduces STAMP (Simple Token Agreement, Market Protected), developed
 PRIMARY CONNECTION: [[STAMP replaces SAFE plus token warrant by adding futarchy-governed treasury spending allowances that prevent the extraction problem that killed legacy ICOs]]
 WHY ARCHIVED: First detailed specification of STAMP instrument. The 20% investor cap + mandatory SAFE termination + DAO-controlled treasury are novel mechanism design choices worth claiming.
 EXTRACTION HINT: Focus on (1) how STAMP structurally prevents the extraction problem, (2) the 20% cap as mechanism for ensuring community ownership, (3) the clean-break migration from equity to token structure.
+
+
+## Key Facts
+- STAMP developed by Colosseum with law firm Orrick (2025-12)
+- STAMP uses Cayman SPC/SP entity structure
+- Investor allocation capped at 20% of total token supply
+- Team allocation: 10-40% of total supply, milestone-based
+- 24-month linear unlock schedule for investor allocations
+- Funds restricted to product development and operating expenses pre-ICO
+- Remaining balance transfers to DAO-controlled treasury upon ICO
+- Prior SAFEs and convertible notes terminated upon STAMP signing
+- MetaDAO interface handles entity setup
+- Positioned as open-source ecosystem standard

@@ -7,11 +7,16 @@ date: 2024-10-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [collective-intelligence, AI-human-collaboration, homogenization, diversity, inverted-U, multiplex-networks, skill-atrophy]
 flagged_for_clay: ["entertainment industry implications of AI homogenization"]
 flagged_for_rio: ["mechanism design implications of inverted-U collective intelligence curves"]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["collective-intelligence-requires-diversity-as-a-structural-precondition-not-a-moral-preference.md", "AI-is-collapsing-the-knowledge-producing-communities-it-depends-on.md", "partial-connectivity-produces-better-collective-intelligence-than-full-connectivity-on-complex-problems-because-it-preserves-diversity.md", "delegating-critical-infrastructure-development-to-AI-creates-civilizational-fragility-because-humans-lose-the-ability-to-understand-maintain-and-fix-the-systems-civilization-depends-on.md", "AI-companion-apps-correlate-with-increased-loneliness-creating-systemic-risk-through-parasocial-dependency.md", "intelligence-is-a-property-of-networks-not-individuals.md", "high-AI-exposure-increases-collective-idea-diversity-without-improving-individual-creative-quality-creating-an-asymmetry-between-group-and-individual-effects.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 7 claims and 7 enrichments. Core finding is the inverted-U relationship across multiple dimensions (connectivity, diversity, AI integration, personality traits). Five degradation mechanisms identified: bias amplification, motivation erosion, social bond disruption, skill atrophy, homogenization. Multiplex network framework provides structural model but review explicitly notes absence of comprehensive predictive theory. High-impact source (Cell Press) with direct relevance to collective intelligence architecture design."
 ---
 
 ## Content
@@ -63,3 +68,13 @@ Multiple dimensions show inverted-U curves:
 PRIMARY CONNECTION: collective intelligence is a measurable property of group interaction structure not aggregated individual ability
 WHY ARCHIVED: The inverted-U finding is the most important formal result for our collective architecture — it means we need to be at the right level of AI integration, not maximum
 EXTRACTION HINT: Focus on the inverted-U relationships (at least 4 independent dimensions), the degradation mechanisms, and the gap (no comprehensive framework)
+
+
+## Key Facts
+- Google Flu paradox: data-driven tool initially accurate became unreliable
+- Gender-diverse teams outperformed on complex tasks under low time pressure
+- Citizen scientist retention declined after AI deployment
+- Review published in Patterns (Cell Press journal) 2024
+- Framework identifies three network layers: cognition, physical, information
+- Five degradation mechanisms: bias amplification, motivation erosion, social bond disruption, skill atrophy, homogenization
+- Four dimensions show inverted-U curves: connectivity, cognitive diversity, AI integration level, personality traits
