@@ -7,9 +7,15 @@ date: 2025-07-24
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [caregiving, unpaid-care, workforce-crisis, aging, social-determinants, economic-value]
+processed_by: vida
+processed_date: 2026-03-11
+claims_extracted: ["unpaid-family-caregiving-provides-870-billion-annually-representing-16-percent-of-total-us-health-economy-invisible-to-policy-models.md", "caregiver-workforce-crisis-shows-all-50-states-experiencing-shortages-with-43-states-reporting-facility-closures-signaling-care-infrastructure-collapse.md", "family-caregiving-functions-as-poverty-transmission-mechanism-forcing-debt-savings-depletion-and-food-insecurity-on-working-age-population.md"]
+enrichments_applied: ["social isolation costs Medicare 7 billion annually and carries mortality risk equivalent to smoking 15 cigarettes per day making loneliness a clinical condition not a personal problem.md", "modernization dismantles family and community structures replacing them with market and state relationships that increase individual freedom but erode psychosocial foundations of wellbeing.md", "medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted three claims about unpaid caregiving as hidden healthcare subsidy, workforce crisis as infrastructure collapse, and caregiving as poverty transmission mechanism. Applied enrichments to social isolation, modernization, and medical care outcome claims. The $870B figure (16% of total US healthcare spending) is the key structural insight — this is healthcare's largest invisible subsidy. Strong connection to existing KB claims about social determinants, modernization's erosion of community structures, and the limits of medical care in determining health outcomes."
 ---
 
 ## Content
@@ -53,3 +59,13 @@ tags: [caregiving, unpaid-care, workforce-crisis, aging, social-determinants, ec
 PRIMARY CONNECTION: [[modernization dismantles family and community structures replacing them with market and state relationships that increase individual freedom but erode psychosocial foundations of wellbeing]]
 WHY ARCHIVED: Fills the caregiver crisis gap in the KB — essential for understanding the senior care infrastructure that exists outside formal healthcare systems.
 EXTRACTION HINT: The $870B figure compared to total US healthcare spending ($5.3T) — unpaid care is 16% of the total health economy, invisible to every policy model.
+
+
+## Key Facts
+- 63 million Americans provide unpaid family care (2025), up from 53 million a decade prior
+- $870 billion annual economic value of unpaid caregiving
+- Average 18 hours/week per caregiver, 36 billion total hours annually
+- Median paid caregiver wage: $15.43/hour
+- 92% of nursing homes report significant/severe workforce shortages
+- All 50 states experiencing home care worker shortages
+- 43 states report HCBS provider closures due to staffing

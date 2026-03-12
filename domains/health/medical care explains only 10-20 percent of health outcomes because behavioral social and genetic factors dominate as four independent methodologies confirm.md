@@ -29,6 +29,12 @@ The claim that "90% of health outcomes are determined by non-clinical factors" h
 
 This has structural implications for how healthcare should be organized. Since [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]], the 90% finding argues that the 86% of payments still not at full risk are systematically ignoring the factors that matter most. Fee-for-service reimburses procedures, not outcomes, creating no incentive to address food insecurity, social isolation, or housing instability -- even though these may matter more than the procedure itself.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-07-24-aarp-caregiving-crisis-63-million]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The $870 billion in unpaid family caregiving (AARP 2025) represents a massive non-medical health input that exists outside the formal healthcare system. This care includes medication management, mobility assistance, meal preparation, transportation to appointments, and social companionship — all factors in the 80-90% of health outcomes not explained by medical care. The 63 million family caregivers are effectively providing the social determinants of health infrastructure that the healthcare system does not and cannot provide at scale.
+
 ---
 
 Relevant Notes:

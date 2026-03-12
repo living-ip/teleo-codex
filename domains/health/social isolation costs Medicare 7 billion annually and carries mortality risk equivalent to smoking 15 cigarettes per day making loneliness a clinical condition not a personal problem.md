@@ -17,6 +17,12 @@ The structural challenge: there is no equivalent to the NHS link worker role in 
 
 Loneliness exists at the intersection of clinical medicine and social infrastructure. It cannot be treated with medication or therapy alone -- it requires community-level intervention that the healthcare system is not designed to deliver.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-07-24-aarp-caregiving-crisis-63-million]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+More than 13 million family caregivers struggle to care for their own health while providing care to others (AARP 2025). Caregivers themselves become socially isolated as a direct consequence of caregiving responsibilities — the time commitment (average 18 hours/week) and the nature of the work create isolation for the caregiver population. This represents a transmission mechanism where elderly care needs create social isolation in the working-age population, potentially multiplying the Medicare costs identified in the original claim as today's isolated caregivers become tomorrow's isolated elderly.
+
 ---
 
 Relevant Notes:

@@ -25,6 +25,12 @@ The most troubling signal is that the largest increase in suicide rates has occu
 
 Progress should mean happier, healthier populations, not merely more material possessions. Since [[Americas declining life expectancy is driven by deaths of despair concentrated in populations and regions most damaged by economic restructuring since the 1980s]], the US reversal in life expectancy is the empirical confirmation that modernization without psychosocial infrastructure produces net harm past a critical threshold.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-07-24-aarp-caregiving-crisis-63-million]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The caregiving crisis reveals the incomplete nature of the modernization transition in elder care. While family structures have weakened (caregiver ratio declining, geographic dispersion of families), neither market nor state has successfully replaced the care capacity families once provided. The result is 63 million Americans providing $870B in unpaid care — a hybrid failure state where modernization has dismantled traditional structures without building functional replacements. The 45% increase in unpaid caregivers over a decade (53M to 63M) suggests the system is moving *backward* toward family dependency even as family capacity continues to erode.
+
 ---
 
 Relevant Notes:
