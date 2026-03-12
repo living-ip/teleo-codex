@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/G33HJH2J2zRqqcHZKMggkQurvqe1cmaDtfBz3hgmuuA
 date: 2025-11-07
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "dynamic performance-based token minting replaces fixed emission schedules by tying new token creation to measurable outcomes creating algorithmic meritocracy in token distribution.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two mechanism design claims about deterministic treasury accumulation and dynamic license throttling. Created decision_market entity for the Meta-PoW proposal. Enriched existing claims about MetaDAO's capabilities and dynamic emission mechanisms. Source contains detailed economic calibration parameters preserved as key_facts. Note: COAL entity file does not exist in the provided index, so created timeline entries assuming it will be created or already exists outside the provided index."
 ---
 
 ## Proposal Details
@@ -265,3 +270,17 @@ Vote NO – keep the current model unchanged.
 - Autocrat version: 0.3
 - Completed: 2025-11-10
 - Ended: 2025-11-10
+
+
+## Key Facts
+- COAL max supply: 25,000,000 tokens
+- COAL halving bands: every 5% of max supply (1,250,000 COAL)
+- Initial daily emissions: 11,250 COAL/day
+- INGOT smelting cost: 100 COAL + ~12.10 ORE
+- Pickaxe crafting cost: 1 INGOT + 8 WOOD + c(y) COAL license
+- Daily repair cost: 0.082643 INGOT + 0.3 WOOD
+- Tool decay rate: 4% per day if not repaired
+- License formula: c(y) = 200 * (y/50)^3, clamped [1, 300]
+- Proposal account: G33HJH2J2zRqqcHZKMggkQurvqe1cmaDtfBz3hgmuuAg
+- DAO account: 3LGGRzLrgwhEbEsNYBSTZc5MLve1bw3nDaHzzfJMQ1PG
+- Proposer: HAymbnVo1w5sC7hz8E6sdmzSuDpqUwKXWzBeshEAb7WC
