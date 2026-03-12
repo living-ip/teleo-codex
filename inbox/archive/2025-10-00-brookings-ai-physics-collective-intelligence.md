@@ -7,9 +7,14 @@ date: 2025-10-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: article
-status: unprocessed
+status: null-result
 priority: medium
 tags: [collective-intelligence, coordination, AI-infrastructure, room-model, design-vs-model]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["AI alignment is a coordination problem not a technical problem.md", "collective intelligence requires diversity as a structural precondition not a moral preference.md", "the internet enabled global communication but not global cognition.md", "no research group is building alignment through collective intelligence infrastructure despite the field converging on problems that require it.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims about AI's impact on collective intelligence physics and LLMs as bridges between design/model approaches. Both claims are conceptual frameworks from institutional research agenda rather than empirical validation. Applied four enrichments to existing coordination and collective intelligence claims. The 'physics' framing and design-model divide are the novel contributions. Source is prospective and programmatic—no deployed systems or outcome data."
 ---
 
 ## Content
@@ -46,3 +51,9 @@ Argues AI disrupts the "physics" of collective intelligence — the fundamental 
 PRIMARY CONNECTION: collective brains generate innovation through population size and interconnectedness not individual genius
 WHY ARCHIVED: Institutional framing of AI-CI as "physics change" — conceptual framework for how AI restructures collective intelligence
 EXTRACTION HINT: The design-model bridging thesis and the feedback loop architecture are the novel contributions
+
+
+## Key Facts
+- Brookings 17 Rooms Initiative identifies two CI camps: design-minded (psychologists, anthropologists using facilitated convenings) and model-minded (economists, epidemiologists using simulations)
+- Proposed infrastructure includes digital identity systems, data-sharing protocols, model telemetry standards, evaluation frameworks, and governance structures
+- Four unanswered research questions about whether AI-enhanced CI processes improve understanding and reduce polarization
