@@ -7,9 +7,15 @@ date: 2025-11-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: processed
 priority: high
 tags: [alignment-trilemma, impossibility-result, rlhf, representativeness, robustness, tractability, preference-collapse, sycophancy]
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted: ["rlhf-alignment-trilemma-proves-no-system-can-simultaneously-achieve-representativeness-tractability-and-robustness.md", "preference-collapse-sycophancy-and-bias-amplification-are-computational-necessities-not-implementation-bugs.md", "current-rlhf-systems-collect-10-3-to-10-4-samples-while-true-global-representation-requires-10-7-to-10-8-samples.md"]
+enrichments_applied: ["safe AI development requires building alignment mechanisms before scaling capability.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted formal impossibility result (alignment trilemma) as primary claim, computational necessity of RLHF pathologies as secondary claim, and practical sample gap as tertiary claim. Three enrichments confirm/extend existing impossibility and safety claims. This paper provides complexity-theoretic formalization of informal claims already in KB, representing independent convergent evidence from different mathematical tradition."
 ---
 
 ## Content

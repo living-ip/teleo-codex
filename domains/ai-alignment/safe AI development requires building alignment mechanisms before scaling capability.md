@@ -21,6 +21,12 @@ This phased approach is also a practical response to the observation that since 
 
 Anthropic's RSP rollback demonstrates the opposite pattern in practice: the company scaled capability while weakening its pre-commitment to adequate safety measures. The original RSP required guaranteeing safety measures were adequate *before* training new systems. The rollback removes this forcing function, allowing capability development to proceed with safety work repositioned as aspirational ('we hope to create a forcing function') rather than mandatory. This provides empirical evidence that even safety-focused organizations prioritize capability scaling over alignment-first development when competitive pressure intensifies, suggesting the claim may be normatively correct but descriptively violated by actual frontier labs under market conditions.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-11-00-sahoo-rlhf-alignment-trilemma]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The trilemma demonstrates that current RLHF approaches cannot achieve alignment at scale regardless of implementation quality. Current systems collect 10^3-10^4 samples from homogeneous pools while 10^7-10^8 samples are needed for global representativeness—a four-order-of-magnitude gap. Critically, this is not a temporary resource constraint but reflects fundamental tradeoffs: increasing samples to achieve representativeness violates tractability constraints, making the system computationally infeasible. This supports the claim that alignment mechanisms must be fundamentally rethought before scaling, as scaling current approaches only amplifies their structural limitations rather than solving them.
+
 ---
 
 Relevant Notes:
