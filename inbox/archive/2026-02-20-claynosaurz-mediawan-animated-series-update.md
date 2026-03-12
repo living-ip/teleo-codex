@@ -7,9 +7,14 @@ date: 2025-06-02
 domain: entertainment
 secondary_domains: []
 format: report
-status: unprocessed
+status: processed
 priority: medium
 tags: [claynosaurz, mediawan, animated-series, community-involvement, production-model]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership.md", "progressive validation through community building reduces development risk by proving audience demand before production investment.md", "traditional media buyers now seek content with pre-existing community engagement data as risk mitigation.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two new claims on specific co-creation mechanisms and YouTube-first distribution strategy. Both claims are experimental confidence (single source, June 2025 announcement with no production outcome data yet). Enriched three existing claims with concrete validation data. Created entity pages for Claynosaurz and Mediawan Kids & Family. Note: No 2026 production update found in source — partnership announced June 2025 but no premiere date or production footage referenced."
 ---
 
 ## Content
@@ -40,3 +45,10 @@ Mediawan Kids & Family co-production partnership with Claynosaurz for CG-animate
 PRIMARY CONNECTION: [[fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership]]
 WHY ARCHIVED: Specific community co-creation implementation details (storyboards, scripts, collectibles in show) + YouTube-first distribution choice
 EXTRACTION HINT: Focus on the SPECIFIC co-creation mechanisms, not just "community involvement." What exactly do holders see/do? Also the distribution strategy (YouTube-first for a major co-production) is counter-intuitive.
+
+
+## Key Facts
+- Claynosaurz series: 39 episodes × 7 minutes, target ages 6-12
+- Characters: Flea, Milo, Bex, Trix — comedic adventures in Claynotopia
+- Founders: Nicholas Cabana, Dan Cabral, Daniel Jervis (former VFX artists at Sony Pictures, Animal Logic, Framestore)
+- Community metrics at announcement: 450M+ views, 200M+ impressions, 530K+ subscribers

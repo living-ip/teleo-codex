@@ -31,6 +31,12 @@ This is the lean startup model applied to entertainment IP incubation — build,
 
 Claynosaurz built 450M+ views, 200M+ impressions, and 530K+ subscribers before securing Mediawan co-production deal for 39-episode animated series. The community metrics preceded the production investment, demonstrating progressive validation in practice. Founders (former VFX artists at Sony Pictures, Animal Logic, Framestore) used community building to de-risk the pitch to traditional studio partner, validating the thesis that audience demand proven through community metrics reduces perceived development risk.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-02-20-claynosaurz-mediawan-animated-series-update]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Claynosaurz secured a 39-episode co-production deal with Mediawan Kids & Family after demonstrating 450M+ views, 200M+ impressions, and 530K+ community subscribers across digital platforms. The community metrics preceded the production partnership announcement (June 2025), validating that studios use pre-existing engagement data as risk mitigation when evaluating IP partnerships. Mediawan's willingness to co-produce with a community-driven IP (rather than traditional studio-owned IP) suggests the community validation was a decisive factor in reducing perceived development risk.
+
 ---
 
 Relevant Notes:

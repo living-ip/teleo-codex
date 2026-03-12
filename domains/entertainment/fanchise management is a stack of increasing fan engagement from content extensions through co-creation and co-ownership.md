@@ -23,6 +23,12 @@ The fanchise management stack also explains why since [[value flows to whichever
 
 Claynosaurz-Mediawan production implements the co-creation layer through three specific mechanisms: (1) sharing storyboards with community during pre-production, (2) sharing script portions during writing, and (3) featuring holders' digital collectibles within series episodes. This occurs within a professional co-production with Mediawan Kids & Family (39 episodes × 7 minutes), demonstrating co-creation at scale beyond independent creator projects. The team explicitly frames this as 'involving community at every stage' of production, positioning co-creation as a production methodology rather than post-hoc engagement.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-20-claynosaurz-mediawan-animated-series-update]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Claynosaurz-Mediawan partnership provides concrete implementation of the co-creation layer: (1) sharing storyboards with community during development, (2) sharing portions of scripts for community input, and (3) featuring community-owned digital collectibles within series episodes. This moves beyond abstract 'co-creation' to specific mechanisms. The partnership was secured after the community demonstrated 450M+ views and 530K+ subscribers, showing how proven co-ownership (collectible holders) and content consumption metrics enable progression to co-creation with major studios (Mediawan Kids & Family). The 39-episode series targets kids 6-12 with YouTube-first distribution, suggesting co-creation models are viable at commercial scale with traditional media partners.
+
 ---
 
 Relevant Notes:
