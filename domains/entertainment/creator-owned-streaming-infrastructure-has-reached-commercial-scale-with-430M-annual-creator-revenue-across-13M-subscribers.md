@@ -20,6 +20,12 @@ This positions Vimeo Streaming as a "Shopify for streaming": infrastructure-as-a
 
 The $430M figure is particularly significant because it represents revenue flowing *to creators* rather than being captured by platforms. This is a structural reversal from the ad-supported social model where platforms capture most of the value from creator audiences.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-05-01-ainvest-taylor-swift-catalog-buyback-ip-ownership]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Taylor Swift's direct theater distribution (AMC concert film, 57/43 revenue split) extends the creator-owned infrastructure thesis beyond digital streaming to physical exhibition venues. The deal demonstrates that creator-owned distribution infrastructure now spans digital streaming AND physical exhibition, suggesting the $430M creator streaming revenue figure understates total creator-owned distribution economics by excluding direct physical distribution deals. This indicates creator-owned infrastructure is broader than streaming-only and may represent a larger total addressable market than current estimates capture.
+
 ---
 
 Relevant Notes:

@@ -17,6 +17,12 @@ This two-phase structure is a powerful application of [[when profits disappear a
 
 The two-moat framework has cross-domain implications. In healthcare, distribution (insurance networks, hospital systems) was the first moat to face pressure, while creation (clinical expertise, care delivery) has remained protected. In knowledge work, [[collective intelligence disrupts the knowledge industry not frontier AI labs because the unserved job is collective synthesis with attribution and frontier models are the substrate not the competitor]] describes a similar two-phase dynamic: first distribution of knowledge was democratized (internet/search), now creation of knowledge is being disrupted (AI), and value migrates to synthesis and validation.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-05-01-ainvest-taylor-swift-catalog-buyback-ip-ownership]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Swift's strategy confirms the two-phase disruption model. Phase 1 (distribution): Direct AMC theater deal and streaming control bypass traditional film and music distributors. Phase 2 (creation): Re-recordings demonstrate creator control over production and IP ownership, not just distribution access. The $4.1B tour revenue (7x recorded music revenue) shows distribution disruption is further advanced than creation disruption—live performance and direct distribution capture more value than recorded music creation. This supports the claim that distribution moats fall first (Swift captured studio margins through direct exhibition), while creation moats remain partially intact (she still relies on compositions written during label era).
+
 ---
 
 Relevant Notes:

@@ -7,9 +7,15 @@ date: 2025-05-01
 domain: entertainment
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: medium
 tags: [taylor-swift, ip-ownership, creator-ownership, distribution, live-entertainment]
+processed_by: clay
+processed_date: 2026-03-11
+claims_extracted: ["direct-theater-distribution-bypasses-studio-intermediaries-when-creators-control-sufficient-audience-scale.md", "re-recordings-as-ip-reclamation-mechanism-refresh-legacy-catalog-control-and-stimulate-streaming-rebuy.md"]
+enrichments_applied: ["creator-owned-streaming-infrastructure-has-reached-commercial-scale-with-430M-annual-creator-revenue-across-13M-subscribers.md", "media disruption follows two sequential phases as distribution moats fall first and creation moats fall second.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Two claims extracted: (1) direct theater distribution as studio bypass, (2) re-recordings as IP reclamation mechanism. Three enrichments to existing value chain and distribution claims. Created Taylor Swift entity. Key open question flagged: minimum community size threshold for distribution bypass viability — Swift's 100M+ fanbase may not generalize to smaller creators. Source is financial analysis with well-documented public revenue data; 'blueprint' framing is analytical interpretation."
 ---
 
 ## Content
@@ -49,3 +55,13 @@ Analysis of Taylor Swift's IP ownership strategy as a blueprint for creator-owne
 PRIMARY CONNECTION: when profits disappear at one layer of a value chain they emerge at an adjacent layer through the conservation of attractive profits
 WHY ARCHIVED: Proves distribution bypass is possible at mega-scale — the question is whether it generalizes downward to smaller community-owned IPs
 EXTRACTION HINT: The AMC deal specifics (57/43 split, no studio intermediary) are the concrete evidence. The broader narrative about "blueprint" is less extractable than the structural economics.
+
+
+## Key Facts
+- Eras Tour: $4.1B total revenue (2x any prior concert tour)
+- Tour revenue was 7x recorded music revenue
+- AMC concert film deal: 57/43 revenue split (Swift/AMC)
+- Traditional film distribution: studios receive 40-60% of box office
+- 400+ trademarks registered across 16 jurisdictions
+- Re-recorded first six albums (2023-2024)
+- WIPO recognized Swift's trademark strategy as model for artist IP protection
