@@ -7,9 +7,14 @@ date: 2026-01-01
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: high
 tags: [risk-adjustment, cms-hcc, upcoding, medicare-advantage, V28, chart-review]
+processed_by: vida
+processed_date: 2026-03-11
+enrichments_applied: ["CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three new claims extracted focusing on the mechanical details of V28 vs chart review exclusion as complementary reforms, plus the 70% audit failure rate as evidence of systematic upcoding. One enrichment to existing claim providing the structural distinction between what gets coded (V28) and how it gets coded (chart review). Key insight: these are dual reforms targeting different dimensions of the same gaming surface, not redundant policies."
 ---
 
 ## Content
@@ -66,3 +71,11 @@ tags: [risk-adjustment, cms-hcc, upcoding, medicare-advantage, V28, chart-review
 PRIMARY CONNECTION: [[CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring]]
 WHY ARCHIVED: Deepens the existing KB claim with mechanical detail about how risk adjustment actually works and how reforms target it.
 EXTRACTION HINT: The distinction between V28 (what gets coded) and chart review exclusion (how it gets coded) is structurally important — they're complementary reforms, not redundant.
+
+
+## Key Facts
+- CMS-HCC risk adjustment: CMS pays MA plans monthly per-member capitation adjusted by risk scores derived from diagnosis codes (HCCs)
+- Each HCC has a coefficient that increases payment for sicker patients
+- V24 to V28 transition: 2024-2026 phase-in, complete by 2026
+- Chart review exclusion proposed for 2027 implementation
+- Combined V28 + chart review exclusion projected savings: $7.6B (2024) + >$7B (2027) = >$14.6B annually
