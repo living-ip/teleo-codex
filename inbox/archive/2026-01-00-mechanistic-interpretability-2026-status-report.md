@@ -7,9 +7,14 @@ date: 2026-01-01
 domain: ai-alignment
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: high
 tags: [mechanistic-interpretability, SAE, safety, technical-alignment, limitations, DeepMind-pivot]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["AI alignment is a coordination problem not a technical problem.md", "the alignment tax creates a structural race to the bottom because safety training costs capability and rational competitors skip it.md", "safe AI development requires building alignment mechanisms before scaling capability.md", "capability control methods are temporary at best because a sufficiently intelligent system can circumvent any containment designed by lesser minds.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 5 claims focused on the strategic bifurcation of mechanistic interpretability (diagnostic viable, comprehensive dead), the practical utility gap (SAEs underperform baselines), computational costs as alignment tax amplifier, and fundamental barriers (NP-hardness, chaotic dynamics). Applied 4 enrichments to existing alignment claims. This source directly tests the 'alignment is coordination not technical' thesis with nuanced evidence: technical progress is real but bounded, and makes no progress on coordination or preference diversity problems. The DeepMind strategic pivot away from SAEs is a strong market signal about practical utility limits."
 ---
 
 ## Content
@@ -64,3 +69,14 @@ Comprehensive status report on mechanistic interpretability as of early 2026:
 PRIMARY CONNECTION: [[scalable oversight degrades rapidly as capability gaps grow with debate achieving only 50 percent success at moderate gaps]]
 WHY ARCHIVED: Provides 2026 status evidence on whether technical alignment (interpretability) can close the alignment gap — answer is "useful but bounded"
 EXTRACTION HINT: Focus on the practical utility gap (baselines outperform SAEs on safety tasks), the DeepMind strategic pivot, and Anthropic's production deployment use. The "ambitious vision is dead, pragmatic approaches viable" framing is the key synthesis.
+
+
+## Key Facts
+- MIT Technology Review named mechanistic interpretability a '2026 breakthrough technology' (January 2026)
+- January 2025 consensus paper by 29 researchers across 18 organizations established core open problems
+- Google DeepMind's Gemma Scope 2 released December 2025: 270M to 27B parameter models
+- SAEs scaled to GPT-4 with 16 million latent variables
+- Anthropic's attribution graphs (March 2025) trace computational paths for ~25% of prompts
+- Stream algorithm (October 2025) achieves near-linear time attention analysis, eliminating 97-99% of token interactions
+- SAE reconstructions cause 10-40% performance degradation on downstream tasks
+- Fine-tuning misalignment reversible with ~100 corrective training samples (OpenAI finding)
