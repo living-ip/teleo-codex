@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/6LcxhHS3JvDtbS1GoQS18EgH5Pzf7AnqQpR7D4HxmWp
 date: 2024-11-13
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Source is a futarchy governance proposal for Coal token emission rate adjustment. Primary output is decision_market entity plus parent entity creation. No novel claims about futarchy mechanisms - this is standard application of existing futarchy governance to monetary policy. The bi-monthly adjustment framework is operationally interesting but not conceptually novel enough for a standalone claim."
 ---
 
 ## Proposal Details
@@ -66,3 +70,11 @@ A follow-up decision market will be held in early January, approximately two mon
 - Autocrat version: 0.3
 - Completed: 2024-11-17
 - Ended: 2024-11-17
+
+
+## Key Facts
+- Coal emission rate was 15.625 per minute (22,500 per day) before proposal
+- Coal circulating supply threshold for next halving was 7,350,000
+- Coal annual inflation rate was approximately 110% before proposal, 56% after
+- Coal's original emission schedule included automatic halvings every 5% circulating supply increase
+- Coal proposal passed 2024-11-17 after 4-day market period
