@@ -7,9 +7,14 @@ date: 2025-12-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence, mechanisms]
 format: article
-status: unprocessed
+status: null-result
 priority: medium
 tags: [cip, democratic-alignment, global-dialogues, weval, samiksha, digital-twin, frontier-lab-adoption]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations.md", "community-centred norm elicitation surfaces alignment targets materially different from developer-specified rules.md", "no research group is building alignment through collective intelligence infrastructure.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Three new claims extracted on democratic alignment scaling, AI trust dynamics, and digital twin evaluation framework. Three enrichments applied to existing democratic alignment claims. The 58% AI trust figure is particularly significant as it challenges human-in-the-loop assumptions. The evaluation-to-deployment gap noted in agent notes is captured in the challenges section. CIP entity timeline updated with 2025 results and 2026 plans."
 ---
 
 ## Content
@@ -59,3 +64,12 @@ CIP's comprehensive 2025 results and 2026 plans.
 PRIMARY CONNECTION: [[democratic alignment assemblies produce constitutions as effective as expert-designed ones while better representing diverse populations]]
 WHY ARCHIVED: Scale-up evidence for democratic alignment + frontier lab adoption evidence
 EXTRACTION HINT: The 70%+ cross-partisan consensus and the evaluation-to-deployment gap are both extractable
+
+
+## Key Facts
+- CIP Global Dialogues 2025: 10,000+ participants, 70+ countries, 6 deliberative dialogues
+- Weval political neutrality: 1,000 participants, 400 prompts, 107 evaluation criteria, 70%+ cross-partisan consensus
+- Samiksha India evaluation: 25,000+ queries, 11 Indian languages, 100,000+ manual evaluations
+- Frontier lab partners: Meta, Cohere, Anthropic, UK/US AI Safety Institutes
+- Government adoption: India, Taiwan, Sri Lanka
+- Survey findings: 58% believe AI could decide better than elected representatives; 28% support AI overriding rules for better outcomes; 47% felt chatbot interactions increased belief certainty; 13.7% reported concerning AI interactions affecting someone they know
