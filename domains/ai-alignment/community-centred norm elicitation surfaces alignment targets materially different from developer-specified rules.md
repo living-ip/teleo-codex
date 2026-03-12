@@ -19,6 +19,12 @@ Since [[democratic alignment assemblies produce constitutions as effective as ex
 
 Since [[collective intelligence requires diversity as a structural precondition not a moral preference]], community-centred norm elicitation is a concrete mechanism for ensuring the structural diversity that collective alignment requires. Without it, alignment defaults to the values of whichever demographic builds the systems.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-11-00-operationalizing-pluralistic-values-llm-alignment]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Empirical study with 1,095 participants and 27,375 ratings demonstrates that demographic composition of training data produces 3-5 percentage point differences in model behavior across emotional awareness and toxicity dimensions. Models fine-tuned on Liberal, White, and Female feedback showed improvements of 5.0, 4.7, and 3.4 percentage points respectively relative to Conservative, Black, and Male baselines. This quantifies the magnitude of difference between community-elicited norms and provides evidence that 'whose preferences' is a measurable variable, not just a theoretical concern.
+
 ---
 
 Relevant Notes:

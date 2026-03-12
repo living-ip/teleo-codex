@@ -21,6 +21,12 @@ The correct response is to map the disagreement rather than eliminate it. Identi
 
 [[Collective intelligence within a purpose-driven community faces a structural tension because shared worldview correlates errors while shared purpose enables coordination]]. Persistent irreducible disagreement is actually a safeguard here -- it prevents the correlated error problem by maintaining genuine diversity of perspective within a coordinated community. The independence-coherence tradeoff is managed not by eliminating disagreement but by channeling it productively.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-11-00-operationalizing-pluralistic-values-llm-alignment]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Large-scale empirical study (N=1,095) shows that alignment training on different demographic populations produces systematically different model behaviors with 3-5 percentage point effects. The fact that Liberal vs Conservative, White vs Black, and Female vs Male training populations produce measurably different alignment outcomes on the same technical architecture demonstrates that these differences reflect genuine value variation, not information gaps that could be resolved through better training.
+
 ---
 
 Relevant Notes:

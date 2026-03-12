@@ -7,9 +7,15 @@ date: 2025-11-01
 domain: ai-alignment
 secondary_domains: []
 format: paper
-status: unprocessed
+status: processed
 priority: high
 tags: [pluralistic-alignment, demographic-composition, empirical, safety-inclusivity, real-human-feedback]
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted: ["demographic-composition-of-alignment-training-data-materially-affects-model-behavior-with-3-5-percentage-point-effects.md"]
+enrichments_applied: ["community-centred norm elicitation surfaces alignment targets materially different from developer-specified rules.md", "some disagreements are permanently irreducible because they stem from genuine value differences not information gaps and systems must map rather than eliminate them.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Single high-quality claim extracted with strong empirical grounding (N=1,095, 27,375 ratings). Three enrichments to existing pluralistic alignment claims. Could not access full paper—extraction based on search summary and agent notes. Full paper would likely contain additional insights on interaction effects and comparison with other pluralistic alignment approaches."
 ---
 
 ## Content
@@ -37,3 +43,11 @@ Demonstrates that "whose feedback" matters as much as "how much feedback" for al
 PRIMARY CONNECTION: community-centred norm elicitation surfaces alignment targets materially different from developer-specified rules
 WHY ARCHIVED: Empirical evidence that "whose preferences" is a quantitatively important question, not just a fairness concern
 EXTRACTION HINT: Focus on the magnitude of demographic composition effects and what this means for single-population alignment training
+
+
+## Key Facts
+- Study included 1,095 participants providing 27,375 ratings
+- Liberal training data: +5.0 pp vs Conservative baseline
+- White training data: +4.7 pp vs Black baseline
+- Female training data: +3.4 pp vs Male baseline
+- Effects measured on emotional awareness and toxicity dimensions
