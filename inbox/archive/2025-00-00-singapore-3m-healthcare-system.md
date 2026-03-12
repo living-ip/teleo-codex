@@ -7,9 +7,14 @@ date: 2025-01-01
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: medium
 tags: [singapore, medisave, medishield, medifund, international-comparison, individual-responsibility, universal-coverage]
+processed_by: vida
+processed_date: 2026-03-11
+enrichments_applied: ["medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm.md", "value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims about Singapore's 3M healthcare framework as philosophical design alternative to US binary of individual responsibility vs universal coverage. Primary claim establishes the existence proof of coexistence at 4:1 spending efficiency. Secondary claim focuses on the specific mechanism design (mandatory savings + catastrophic insurance + safety net). Enriched two existing claims with Singapore as natural experiment on medical care contribution to outcomes and alternative payment model with full individual risk for routine care. Agent notes correctly identified this as challenging the US political binary and the magnitude of spending gap as most significant insight."
 ---
 
 ## Content
@@ -71,3 +76,11 @@ tags: [singapore, medisave, medishield, medifund, international-comparison, indi
 PRIMARY CONNECTION: [[medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm]]
 WHY ARCHIVED: Unique system design not represented in KB — the savings-based approach is philosophically distinct from both single-payer and market-based models.
 EXTRACTION HINT: The design philosophy (individual responsibility within universal coverage) is more extractable than the specific mechanics, which are Singapore-scale-dependent.
+
+
+## Key Facts
+- Singapore healthcare spending: 4.5% of GDP (vs US 18%)
+- Singapore life expectancy: ~84 years (among world's highest)
+- MediSave contribution rates: 8-10.5% of salary (age-dependent)
+- MediShield Life: universal mandatory insurance covering all citizens and permanent residents
+- MediFund: government endowment fund for those unable to pay after other coverage

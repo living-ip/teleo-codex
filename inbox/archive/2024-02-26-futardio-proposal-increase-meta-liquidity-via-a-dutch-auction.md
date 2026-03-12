@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/Dn638yPirR3e2UNNECpLNJApDhxsjhJTAv9uEd9LBVV
 date: 2024-02-26
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Proposal 10 is primarily operational/treasury management with no novel mechanism claims. The Dutch auction was manually executed (not programmatic), making it a governance case study rather than a mechanism innovation. Extracted as decision_market entity with enrichments to existing futarchy implementation claims. The sealed-bid multisig compensation structure (0-0.25 META) provides evidence for limited trading volume in uncontested decisions."
 ---
 
 ## Proposal Details
@@ -116,3 +121,12 @@ This proposal will significantly increase Meta DAO's protocol-owned liquidity as
 - Autocrat version: 0.1
 - Completed: 2024-03-02
 - Ended: 2024-03-02
+
+
+## Key Facts
+- MetaDAO Proposal 10 requested 3,005.45 total META (1,000 to sell, 2,000 for liquidity pairing, 5.45 compensation)
+- Multisig address: LMRVapqnn1LEwKaD8PzYEs4i37whTgeVS41qKqyn1wi (3/5 threshold)
+- Multisig members: Durden (91NjPFfJxQw2FRJvyuQUQsdh9mBGPeGPuNavt7nMLTQj), Ben H (Hu8qped4Cj7gQ3ChfZvZYrtgy2Ntr6YzfN7vwMZ2SWii), Nico (6kDGqrP4Wwqe5KBa9zTrgUFykVsv4YhZPDEX22kUsDMP), joebuild (XXXvLz1B89UtcTsg2hT3cL9qUJi5PqEEBTHg57MfNkZ), Dodecahedr0x (UuGEwN9aeh676ufphbavfssWVxH7BJCqacq1RYhco8e)
+- Dutch auction mechanics: start 50% above spot, lower 5% every 24h if >6% above spot, new asks at 10% above spot when filled
+- Liquidity destination: Meteora 4% fee pool initially, then consolidated to 1% fee pool
+- DAO account: 7J5yieabpMoiN3LrdfJnRjQiXHgi7f47UuMnyMyR78yy
