@@ -38,6 +38,12 @@ This represents a scarcity inversion: as AI-generated content becomes abundant a
 - **Verification infrastructure immature**: C2PA content authentication is emerging but not yet widely deployed; risk of label dilution or fraud if verification mechanisms remain weak
 - **Incumbent response unknown**: Corporate brands may develop effective transparency and verification mechanisms that close the credibility gap with community-owned IP
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-07-01-emarketer-consumers-rejecting-ai-creator-content]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The 60%→26% enthusiasm collapse for AI-generated creator content (2023-2025) while AI quality improved demonstrates that the 'human-made' signal is becoming more valuable precisely as AI capability increases. The Goldman Sachs finding that 54% of Gen Z reject AI in creative work (versus 13% in shopping) shows consumers are willing to pay the premium specifically in domains where authenticity and human creativity are core to the value proposition. The mainstream adoption of 'AI slop' as consumer terminology indicates the market is actively creating language to distinguish and devalue AI-generated content, which is the precursor to premium human-made positioning.
+
 ---
 
 Relevant Notes:

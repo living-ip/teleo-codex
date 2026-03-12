@@ -27,6 +27,12 @@ Shapiro's 2030 scenario paints a plausible picture: three of the top 10 most pop
 
 The emergence of 'human-made' as a premium label in 2026 provides concrete evidence of consumer resistance shaping market positioning and adoption patterns. Brands are actively differentiating on human creation and achieving higher conversion rates (PrismHaus), demonstrating consumer preference is creating market segmentation between human-made and AI-generated content. Monigle's framing that brands are 'forced to prove they're human' indicates consumer skepticism is driving strategic responses—companies are not adopting AI at maximum capability but instead positioning human creation as premium. This confirms that adoption is gated by consumer acceptance (skepticism about AI content) rather than capability (AI technology is clearly capable of generating content). The market is segmenting on acceptance, not on what's technically possible.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-07-01-emarketer-consumers-rejecting-ai-creator-content]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The 60%→26% collapse in consumer enthusiasm for AI-generated creator content between 2023-2025 (Billion Dollar Boy survey, July 2025, 4,000 consumers) provides the clearest longitudinal evidence that consumer acceptance is the binding constraint. This decline occurred during a period of significant AI quality improvement, definitively proving that capability advancement does not automatically translate to consumer acceptance. The emergence of 'AI slop' as mainstream consumer terminology indicates organized rejection is forming. Additionally, 32% of consumers now say AI negatively disrupts the creator economy (up from 18% in 2023), and 31% say AI in ads makes them less likely to pick a brand (CivicScience, July 2025).
+
 ---
 
 Relevant Notes:

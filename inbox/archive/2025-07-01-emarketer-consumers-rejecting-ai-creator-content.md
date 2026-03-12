@@ -7,9 +7,15 @@ date: 2025-07-01
 domain: entertainment
 secondary_domains: []
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [consumer-acceptance, ai-content, creator-economy, authenticity, gen-z, ai-slop]
+processed_by: clay
+processed_date: 2026-03-11
+claims_extracted: ["consumer-acceptance-of-ai-creative-content-declining-despite-quality-improvements-because-authenticity-signal-becomes-more-valuable.md", "consumer-ai-acceptance-diverges-by-use-case-with-creative-work-facing-4x-higher-rejection-than-functional-applications.md"]
+enrichments_applied: ["GenAI adoption in entertainment will be gated by consumer acceptance not technology capability.md", "human-made-is-becoming-a-premium-label-analogous-to-organic-as-AI-generated-content-becomes-dominant.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two new claims focused on the nature of consumer AI rejection (identity/values-driven, not quality-driven) and the use-case divergence (creative vs. functional). Applied five enrichments to existing claims with strong longitudinal data (60%→26% collapse) and the critical creative-vs-shopping divergence (54% vs. 13%). The 'AI slop' terminology becoming mainstream is a significant memetic marker. No entities to extract—this is survey/analysis data, not company/market activity."
 ---
 
 ## Content
@@ -51,3 +57,12 @@ Data distinguishes that creator-led AI content faces specific resistance that ma
 PRIMARY CONNECTION: `GenAI adoption in entertainment will be gated by consumer acceptance not technology capability`
 WHY ARCHIVED: The 60%→26% enthusiasm collapse is the clearest longitudinal data point on consumer AI acceptance trajectory. The direction is opposite of what quality-improvement alone would predict.
 EXTRACTION HINT: The extractor should focus on the NATURE of consumer rejection (identity/values driven) vs. the FACT of rejection. The Goldman Sachs creative-vs-shopping split is the key evidence for the "authenticity as identity" framing.
+
+
+## Key Facts
+- Billion Dollar Boy survey (July 2025): 4,000 consumers ages 16+ in US and UK, plus 1,000 creators and 1,000 senior marketers
+- Consumer enthusiasm for AI-generated creator content: 60% (2023) → 26% (2025)
+- 32% of US and UK consumers say AI negatively disrupts creator economy (up from 18% in 2023)
+- 31% say AI in ads makes them less likely to pick a brand (CivicScience, July 2025)
+- Goldman Sachs (August 2025): 54% of Gen Z prefer no AI in creative work vs. 13% in shopping
+- Major brands like Coca-Cola continue releasing AI-generated content despite consumer resistance
