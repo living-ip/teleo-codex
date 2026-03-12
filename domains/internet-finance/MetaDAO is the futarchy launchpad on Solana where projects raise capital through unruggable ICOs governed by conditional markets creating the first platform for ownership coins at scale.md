@@ -82,6 +82,12 @@ Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform 
 
 (challenge) Areal's failed Futardio launch ($11,654 raised of $50K target, REFUNDING status) demonstrates that futarchy-governed fundraising does not guarantee capital formation success. The mechanism provides credible exit guarantees through market-governed liquidation and governance quality through conditional markets, but market participants still evaluate project fundamentals and team credibility. Futarchy reduces rug risk but does not eliminate market skepticism of unproven business models or early-stage teams.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-25-futardio-launch-rock-game]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Rock Game's ICO pitch explicitly frames MetaDAO's unruggable structure as solving play-to-earn governance failures: 'Teams controlled treasuries. Insiders dumped allocations. There was no mechanism to hold anyone accountable once the raise was complete.' The project uses DAO LLC IP assignment, futarchy-governed treasury, and performance-gated founder unlocks as structural accountability mechanisms. This demonstrates MetaDAO's platform being used for vertical-specific governance problems (gaming) beyond general fundraising, showing the platform's adaptability to domain-specific incentive alignment challenges.
+
 ---
 
 Relevant Notes:

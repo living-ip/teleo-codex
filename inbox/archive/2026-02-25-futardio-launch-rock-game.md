@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/48z3txCwsHekZ7b43mPfoB3bMcZv3GpwX7B27x2PdmTA"
 date: 2026-02-25
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["rock-game-demonstrates-futarchy-governed-play-to-earn-with-performance-gated-founder-unlocks-and-dao-controlled-treasury.md", "battle-royale-game-mechanics-create-deflationary-token-economics-because-competitive-elimination-concentrates-rewards-on-skilled-players-not-early-participants.md"]
+enrichments_applied: ["futardio-cult-raised-11-4-million-in-one-day-through-futarchy-governed-meme-coin-launch.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: one about Rock Game's futarchy-governed ICO structure as applied to gaming (experimental confidence due to single case at launch), and one about battle royale mechanics creating deflationary token economics (speculative confidence as it's a design argument without operational validation). Enriched existing claims about Futardio traction and MetaDAO's platform use cases. Created new entity for Rock Game and updated Futardio timeline."
 ---
 
 ## Launch Details
@@ -85,3 +91,12 @@ MetaDAO changes that. Raise proceeds are locked in an on-chain treasury governed
 - Total approved: $10.00
 - Closed: 2026-02-26
 - Completed: 2026-02-26
+
+
+## Key Facts
+- Rock Game token symbol: 3n6
+- Token mint address: 3n6X4XRJHrkckqX21a5yJdSiGXXZo4MtEvVVsgSAmeta
+- Launch address: 48z3txCwsHekZ7b43mPfoB3bMcZv3GpwX7B27x2PdmTA
+- Platform version: v0.7
+- ICO closed: 2026-02-26
+- Website: https://joe.com
