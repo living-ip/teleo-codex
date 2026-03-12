@@ -54,6 +54,7 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **2026-03** — Pine Analytics Q4 2025 quarterly report published
 
 - **2024-02-18** — [[metadao-otc-trade-pantera-capital]] failed: Pantera Capital's $50,000 OTC purchase proposal rejected by futarchy markets
+- **2026-00-00** — Multiple crypto research outlets (KuCoin, TechFlow, Bitget, Followin) identified MetaDAO as quality differentiator in 2026 trends analysis, citing 100% above-ICO survival rate versus Pump.fun's <0.5% as evidence of futarchy curation effectiveness
 ## Key Decisions
 | Date | Proposal | Proposer | Category | Outcome |
 |------|----------|----------|----------|---------|

@@ -7,9 +7,14 @@ date: 2026-00-00
 domain: internet-finance
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: medium
 tags: [ownership-coins, crypto-trends, 2026, metadao, narrative]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Strong comparative evidence for futarchy curation quality (200x survival rate difference). Ownership coin narrative entering mainstream institutional vocabulary. Created new entities for Pump.fun, Metaplex Genesis, and Galaxy Digital as significant comparative/validation actors. AVICI holder retention data provides evidence for community ownership dynamics."
 ---
 
 ## Content
@@ -41,3 +46,12 @@ Multiple crypto research outlets identified ownership coins as a major investmen
 PRIMARY CONNECTION: [[Community ownership accelerates growth through aligned evangelism not passive holding]]
 WHY ARCHIVED: Ownership coin narrative going mainstream is a meaningful signal. Pump.fun comparison (<0.5% vs 100% survival) is the strongest comparative data for futarchy curation quality.
 EXTRACTION HINT: Focus on (1) Pump.fun vs MetaDAO survival rates as futarchy curation evidence, (2) institutional narrative adoption (Galaxy Digital) as validation signal.
+
+
+## Key Facts
+- Pump.fun: $700M+ revenue, 11M+ tokens launched, 70% of Solana launches, <0.5% 30-day survival rate
+- MetaDAO: 100% of launches above ICO price
+- Metaplex Genesis: declined from 5 launches/$7.53M in Q3 to 3 launches/$5.4M in Q4
+- AVICI: 4.7% holder churn during 65% drawdown (600 of 12,752 holders)
+- Galaxy Digital framing: ownership coins combine 'economic, legal, and governance rights in one asset'
+- 2026 prediction: at least one ownership coin project surpasses $1B market cap

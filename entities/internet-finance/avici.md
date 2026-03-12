@@ -33,6 +33,7 @@ Distributed internet banking infrastructure — onchain credit scoring, spend ca
 - **2025-10-14** — Futardio launch opens ($2M target)
 - **2025-10-18** — Launch closes. $3.5M raised.
 
+- **2026-00-00** — Demonstrated 4.7% holder churn during 65% drawdown (lost only 600 of 12,752 holders), cited as evidence of genuine community ownership versus speculative holding in 2026 crypto trends analysis
 ## Relationship to KB
 - [[futardio]] — launched on Futardio platform
 - [[cryptos primary use case is capital formation not payments or store of value because permissionless token issuance solves the fundraising bottleneck that solo founders and small teams face]] — test case for banking-focused crypto raising via permissionless ICO
