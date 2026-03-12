@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/US8j6iLf9GkokZbk89Bo1qnGBees5etv5sEfsfvCoZK
 date: 2024-02-13
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Factual governance proposal data. No novel claims about futarchy mechanisms or treasury strategy beyond what's already captured in existing claims about OTC trades and MetaDAO governance. Created decision_market entity and person entity for Ben Hawkins. Similar to the Pantera Capital OTC proposal that also failed."
 ---
 
 ## Proposal Details
@@ -51,3 +55,11 @@ in exchange for Ben will send 50,000 USDC to be sent to ADCCEAbH8eixGj5t73vb4sKe
 - Autocrat version: 0.1
 - Completed: 2024-02-18
 - Ended: 2024-02-18
+
+
+## Key Facts
+- MetaDAO proposal #6 created 2024-02-13, failed 2024-02-18
+- Proposed valuation: $33.33 per META token
+- Proposed mint: 1,500 META for $50,000 USDC
+- Recipient address: GxHamnPVxsBaWdbUSjR4C5izhMv2snriGyYtjCkAVzze
+- Treasury address: ADCCEAbH8eixGj5t73vb4sKecSKo7ndgDSuWGvER4Loy
