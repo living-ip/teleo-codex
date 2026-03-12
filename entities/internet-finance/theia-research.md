@@ -41,6 +41,8 @@ Onchain liquid token fund managed by Felipe Montealegre. Invests in companies bu
 - **2026-02-17** — Published "The Investment Manager of the Future." LLMs invert 80/20 ratio of execution vs analysis.
 
 - **2026-02-27** — Felipe Montealegre publicly endorsed MetaDAO's value proposition for "Claude Code founders" who can "raise capital in days so they can ship in weeks," framing it as operational reality rather than narrative (14.9K views, 78 likes)
+- **2025-01-27** — Proposed $500K OTC purchase of 370.370 META tokens at 14% premium to MetaDAO
+- **2025-01-30** — Completed $500K META token purchase from MetaDAO treasury with 12-month linear vesting
 ## Competitive Position
 - **Unique positioning**: Only known institutional fund explicitly building investment thesis around futarchy governance as a moat
 - **Token governance focus**: Launched Token Transparency Framework with Blockworks. Describes "Lemon Problem in Token Markets" — the structural issue of quality tokens being indistinguishable from scams

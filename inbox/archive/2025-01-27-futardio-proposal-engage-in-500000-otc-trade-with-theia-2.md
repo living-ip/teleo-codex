@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/3tApJXw2REQAZZyehiaAnQSdauVNviNbXsuS4inn8PA
 date: 2025-01-27
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "This is a straightforward treasury fundraise decision. The proposal passed, completing MetaDAO's second attempt at this OTC trade with Theia. No novel claims about futarchy mechanisms or governance dynamics—just execution of a strategic investment at premium pricing. All extractable information is factual (deal terms, timeline, investor commitments) and belongs in entity records rather than claims."
 ---
 
 ## Proposal Details
@@ -107,3 +111,11 @@ We are deeply impressed with the team, mission and community at MetaDAO. We woul
 - Autocrat version: 0.3
 - Completed: 2025-01-30
 - Ended: 2025-01-30
+
+
+## Key Facts
+- Theia Research is an onchain liquid token fund manager focused on Internet Financial System infrastructure
+- Theia's fund strategy: capped fund size, concentrated portfolio, 2-4 year hold periods
+- MetaDAO proposal included portfolio references from Kamino cofounder and Metaplex Lead of Strategy
+- Theia commits to active governance, research publication, investor roadshows, and US policy guidance as value-add
+- Proposal explicitly states $500K enables hiring senior engineer, seeding market liquidity, and expanding BD operations
