@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/HT3ScC7gyo3zTn95s9jR7J3ez5u8HrRfFwD33YjMHLy3"
 date: 2026-02-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Strong operational metrics but failed futarchy fundraise at 67% fill rate. Two claims extracted: (1) workflow-embedded stablecoin FX as adoption model, (2) futarchy fundraise friction at the margin. Created Hurupay entity and decision_market entity for the fundraise. Enriched two existing claims about MetaDAO/futarchy adoption friction."
 ---
 
 ## Launch Details
@@ -237,3 +242,21 @@ Cayman SPC Agreement: [Formation Summary](https://cybercorps.metalex.tech/metada
 - Token mint: `HURUsdbnMfQSi6khLigf5As8wh2CGNnS2fxHDDXCmeta`
 - Version: v0.7
 - Closed: 2026-02-07
+
+
+## Key Facts
+- Hurupay processed $36M+ in transaction volume over 12 months (self-reported)
+- Hurupay generated $500K+ in revenue over 12 months (self-reported)
+- Hurupay grew to 30,000+ users across Asia, Africa, Europe, and the U.S.
+- Hurupay transaction volume: ~$1.8M/month (Q3 2025) → $7.2M/month (Q1 2026), 4× growth in 6 months
+- Hurupay month-over-month growth rate: 32% compounding (H2 2025)
+- Hurupay signed 15 high-volume business customers for global payroll
+- Hurupay team size: 9 people
+- Hurupay revenue model: 0.5-2% fees on deposits/FX for both consumers and businesses
+- Hurupay backing: Founders Inc ($150K), angels from Microsoft ($10K) and Bankless ($20K)
+- Hurupay grants: Celo/Prezenti ($45K, 2023-2024), Base (4 ETH, 2025), Circle ($10K, 2025), Stellar ($82K, 2025)
+- Hurupay partnerships: top U.S. bank, Coins.ph, Circle Alliance, Base, Solana, Stellar
+- Hurupay Futardio raise: $3M target, $2,003,593 committed (66.8%), refunded 2026-02-07
+- Hurupay token (HUR) allocation: 39.02% ICO, 11.31% liquidity, 42.66% team (3yr lockup), 7% previous investors (2yr vest)
+- Hurupay monthly spending allowance: $250K
+- Foreign exchange market size: $6.5T/day (cited in pitch)
