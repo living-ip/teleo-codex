@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/7AbivixQZTrgnqpmyxW2j1dd4Jyy15K3T2T7MEgfg8D
 date: 2024-08-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Routine strategic roadmap proposal with specific operational targets. Created decision_market entity and timeline entry on parent. No novel claims — this is standard governance activity demonstrating the uncontested-proposal pattern already documented in existing claims. The specific metrics (page load times, interview targets, organization onboarding goals) are factual operational targets, not arguable propositions."
 ---
 
 ## Proposal Details
@@ -64,3 +69,10 @@ Subject to the DAO’s approval, this is what we’ll be working on for the rema
 - Autocrat version: 0.3
 - Completed: 2024-08-07
 - Ended: 2024-08-07
+
+
+## Key Facts
+- MetaDAO Q3 roadmap targeted 5 organizations onboarded to grants product (2024-08-03)
+- MetaDAO planned to interview 40 engineering candidates in Q3 2024
+- MetaDAO UI page load time was 14.6s with target of 1s (2024-08-03)
+- Proposal 4 on MetaDAO using Autocrat v0.3 (2024-08-03)
