@@ -44,6 +44,7 @@ Crypto-native prediction market platform on Polygon. Users trade binary outcome 
 - **2025-12** — Relaunched for US users (invite-only, restricted markets)
 - **2026-03** — Combined Polymarket+Kalshi weekly record: $5.35B (week of March 2-8, 2026)
 
+- **2026-02-00** — Polymarket's 2024 election success triggers CFTC defensive rulemaking (signaled Feb 2026) and 36-state amicus brief opposition, creating two-front regulatory battle between federal jurisdiction claims and state gaming commission challenges
 ## Competitive Position
 - **#1 by volume** — leads Kalshi on 30-day volume ($8.7B vs $6.8B)
 - **Crypto-native**: USDC on Polygon, non-custodial, permissionless market creation

@@ -7,9 +7,14 @@ date: 2026-02-00
 domain: internet-finance
 secondary_domains: []
 format: article
-status: unprocessed
+status: enrichment
 priority: high
 tags: [cftc, prediction-markets, rulemaking, regulation, event-contracts, jurisdiction]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["Polymarket vindicated prediction markets over polling in 2024 US election.md", "futarchy-based fundraising creates regulatory separation because there are no beneficial owners and investment decisions emerge from market forces not centralized control.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Single source (Sidley Austin legal analysis) provides regulatory context but not empirical evidence of outcomes, justifying experimental confidence. The critical uncertainty—whether CFTC rulemaking will explicitly cover governance prediction markets—remains unresolved in the source. Created new CFTC entity as it's a major regulatory actor not previously in the entity index. Enriched existing Polymarket and futarchy-fundraising claims with regulatory timeline and jurisdictional implications."
 ---
 
 ## Content
@@ -46,3 +51,9 @@ Sidley Austin analysis (February 2026):
 PRIMARY CONNECTION: [[Polymarket vindicated prediction markets over polling in 2024 US election]]
 WHY ARCHIVED: CFTC rulemaking signal could determine futarchy's regulatory viability. If governance prediction markets are explicitly covered, this resolves the existential regulatory risk.
 EXTRACTION HINT: Focus on CFTC rulemaking as potential resolution of state-federal jurisdiction crisis for futarchy governance markets.
+
+
+## Key Facts
+- CFTC rulemaking process typically takes 12-18 months from proposal to final rule
+- 36 states filed amicus briefs opposing federal preemption of prediction market jurisdiction (as of Feb 2026)
+- Chairman Selig published WSJ op-ed defending exclusive CFTC jurisdiction over prediction markets (Feb 2026)
