@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/A88sGec3GcVfyRXNXr9DyWN6wNEwSaCqeyzrmmakKFqf"
 date: 2026-03-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy-governed-meme-coins-attract-speculative-capital-at-scale.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "performance-unlocked-team-tokens-with-price-multiple-triggers-and-twap-settlement-create-long-term-alignment-without-initial-dilution.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "First futarchy-governed physical infrastructure project on Futardio. Raise failed to meet $200K minimum within 24-hour window, triggering automatic refunds. No novel claims extracted—all insights enrich existing claims about futarchy governance extending beyond digital assets and performance-based token unlocks. Created new entity for MycoRealms as significant real-world futarchy application despite failed raise."
 ---
 
 ## Launch Details
@@ -194,3 +199,14 @@ _Note: MycoRealms is not a financial product. $MYCO tokens represent governance 
 - Token mint: `6A5hGMwsg7ACDGRa1hWVGtEMnxdT1oAGHB8hb3jCmeta`
 - Version: v0.7
 - Closed: 2026-03-04
+
+
+## Key Facts
+- MycoRealms raise target: $200,000 (2026-03-03)
+- MycoRealms total committed: $158,067 before refunding (2026-03-04)
+- MycoRealms token: MYCO (6A5hGMwsg7ACDGRa1hWVGtEMnxdT1oAGHB8hb3jCmeta)
+- MycoRealms total supply: 15.9M tokens (12.9M circulating at launch)
+- MycoRealms team: crypticmeta (blockchain dev, OrdinalNovus founder) and Ram (5+ years mushroom production)
+- MycoRealms monthly allowance: $10,000 for operations
+- MycoRealms first planned CAPEX proposal: $50K for infrastructure (3 growing rooms, accommodation, DG set)
+- MycoRealms team tokens: 3M locked with unlocks at 2x/4x/8x/16x/32x ICO price, 18-month minimum cliff, 3-month TWAP
