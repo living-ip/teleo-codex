@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/634r63NH2qbTrSVyLieC3Ab3YKaEfoGnCLM8idZMEycE"
 date: 2025-11-14
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Factual launch data for Solomon's futarchy-governed fundraise. No novel claims about mechanisms or market dynamics beyond what's already captured in existing KB claims about futarchy launches and internet capital markets. Created decision_market entity to track this significant fundraise (51.5x oversubscription) and updated parent Solomon entity timeline."
 ---
 
 ## Launch Details
@@ -69,3 +73,12 @@ Solomon is the first stablecoin system that can sit everywhere money sits. Walle
 - Version: v0.6
 - Final raise: $8,000,000.00
 - Closed: 2025-11-18
+
+
+## Key Facts
+- Solomon raised $8M through Futardio (2025-11-14 to 2025-11-18)
+- Solomon received $102.9M in commitments against $2M target (51.5x oversubscription)
+- Solomon token: SOLO (SoLo9oxzLDpcq1dpqAgMwgce5WqkRDtNXK7EPnbmeta)
+- Solomon ran closed beta for one year with seven-figure TVL before public launch
+- USDv addresses $150B+ idle stablecoin capital across chains
+- Token allocation: 20% to MetaDAO for liquidity, 80% to Solomon DAO treasury

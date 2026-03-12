@@ -41,6 +41,7 @@ One of the first successful Futardio launches. Raised $8M through the pro-rata m
 - **2026-02/03** — Lab Notes series (Ranga documenting progress publicly)
 - **2026-03** — Treasury subcommittee proposal (DP-00001) — formalized operational governance
 
+- **2025-11-14** — Launched futarchy-governed fundraise on Futardio with $2M target, raised $102.9M in commitments before closing at $8M final raise (2025-11-18)
 ## Competitive Position
 Solomon is not primarily a competitive entity — it's an existence proof. It demonstrates that futarchy-governed organizations can raise capital, manage treasuries, and create operational governance structures. The key question is whether the futarchy layer adds genuine value beyond what a normal startup with transparent treasury management would achieve.
 
