@@ -6,7 +6,7 @@ url: https://blog.cip.org/p/from-global-dialogues-to-democratic
 date: 2025-12-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence, mechanisms]
-format: article
+format: report
 status: null-result
 priority: medium
 tags: [cip, democratic-alignment, global-dialogues, weval, samiksha, digital-twin, frontier-lab-adoption]
