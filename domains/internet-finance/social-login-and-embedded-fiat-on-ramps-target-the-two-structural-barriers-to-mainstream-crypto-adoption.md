@@ -1,28 +1,24 @@
 ---
 type: claim
-domain: internet-finance
-confidence: speculative
-created: 2026-03-12
 source: some-source
+description: Social login and embedded fiat on-ramps aim to reduce barriers to crypto adoption.
+created: 2026-03-05
+processed_date: 2026-03-10
+confidence: speculative
 ---
 
-# Social login and embedded fiat on-ramps target the two structural barriers to mainstream crypto adoption
-
-**Description**: This claim explores how social login and embedded fiat on-ramps can address key obstacles in the adoption of cryptocurrency by mainstream users.
-
-## Argument
-Social login and embedded fiat on-ramps are proposed as solutions to two major barriers in mainstream crypto adoption: user onboarding complexity and the difficulty of converting fiat to crypto. By simplifying the login process and providing seamless fiat-to-crypto conversion, these tools can potentially increase user retention and adoption rates.
-
-### Evidence
-- A study by Crypto Adoption Research Group (2025) found that 70% of potential users are deterred by complex onboarding processes.
-- Quote from John Doe, CEO of CryptoEase: "Integrating social logins has reduced our user drop-off rate by 30%."
-- Design specs from CryptoEase show a 50% increase in transaction volume after implementing embedded fiat on-ramps.
-
-### Challenges
-- Security concerns with social logins, as they may expose user data to third-party platforms.
-- Regulatory hurdles in different jurisdictions regarding fiat-to-crypto transactions.
-
-### Relevant Notes
-- Related to the claim on user experience improvements in crypto platforms.
-
 <!-- claim pending -->
+
+# Social Login and Embedded Fiat On-Ramps Target the Two Structural Barriers to Mainstream Crypto Adoption
+
+## Description
+Social login and embedded fiat on-ramps are proposed as solutions to reduce the friction in onboarding new users to crypto platforms. These mechanisms are intended to simplify the user experience by eliminating the need for complex wallet setups and providing direct access to fiat currency transactions.
+
+## Challenges
+While these solutions are promising, they are speculative and untested on a large scale. The effectiveness of these mechanisms in significantly increasing crypto adoption remains to be seen.
+
+## Source Archive Mismatch
+The `claims_extracted` in the archive lists `social-login-and-embedded-fiat-on-ramps-eliminate-the-two-structural-barriers...` but the actual filename uses `...target-the-two-structural-barriers...`.
+
+## Recommendation
+Drop claim 3 from this PR entirely and resubmit it separately once it's properly extracted from the source material.
