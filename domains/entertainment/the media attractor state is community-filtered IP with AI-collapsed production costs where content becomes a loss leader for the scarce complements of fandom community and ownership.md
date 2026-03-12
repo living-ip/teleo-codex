@@ -290,6 +290,12 @@ Entertainment is the domain where TeleoHumanity eats its own cooking.
 
 The crystallization of 'human-made' as a premium label adds a new dimension to the scarcity analysis: not just community and ownership, but verifiable human provenance becomes scarce and valuable as AI content becomes abundant. EY's guidance that companies must 'keep what people see and feel recognizably human—authentic faces, genuine stories and shared cultural moments' to build 'deeper trust and stronger brand value' suggests human provenance is becoming a distinct scarce complement alongside community and ownership. As production costs collapse toward compute costs (per the non-ATL production costs claim), the ability to credibly signal human creation becomes a scarce resource that differentiates content. Community-owned IP may have structural advantage in signaling this provenance because ownership structure itself communicates human creation, while corporate content must construct proof through external verification. This extends the attractor claim by identifying human provenance as an additional scarce complement that becomes valuable in the AI-abundant, community-filtered media landscape.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-02-27-fortune-mrbeast-5b-valuation-beast-industries]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Beast Industries' $5B valuation and revenue trajectory ($899M → $1.6B → $4.78B by 2029) with media projected at only 1/5 of revenue by 2026 provides enterprise-scale validation of content-as-loss-leader. The media business operates at ~$80M loss while Feastables generates $250M revenue with $20M+ profit, demonstrating that content functions as customer acquisition infrastructure rather than primary revenue source. The $5B valuation prices the integrated system (content → audience → products) rather than content alone, representing market validation that this attractor state is real and scalable. Feastables' presence in 30,000+ retail locations (Walmart, Target, 7-Eleven) shows the model translates to physical retail distribution, not just direct-to-consumer. This is the first enterprise-scale validation of the loss-leader model where media revenue is subordinate to product revenue.
+
 ---
 
 Relevant Notes:

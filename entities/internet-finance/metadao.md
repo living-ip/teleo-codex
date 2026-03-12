@@ -54,6 +54,8 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **2026-03** — Pine Analytics Q4 2025 quarterly report published
 
 - **2024-02-18** — [[metadao-otc-trade-pantera-capital]] failed: Pantera Capital's $50,000 OTC purchase proposal rejected by futarchy markets
+- **2024-02-26** — [[metadao-increase-meta-liquidity-dutch-auction]] proposed: sell 1,000 META via manual Dutch auction on OpenBook to acquire USDC for Meteora liquidity pairing
+- **2024-03-02** — [[metadao-increase-meta-liquidity-dutch-auction]] passed: completed Dutch auction and liquidity provision, moving all protocol-owned liquidity to Meteora 1% fee pool
 ## Key Decisions
 | Date | Proposal | Proposer | Category | Outcome |
 |------|----------|----------|----------|---------|
