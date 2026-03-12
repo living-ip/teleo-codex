@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/7KkoRGyvzhvzKjxuPHjyxg77a52MeP6axyx7aywpGbd
 date: 2024-06-08
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Factual proposal data extracted to decision_market entity. No novel claims about futarchy mechanisms beyond what's already captured in existing KB claims about MetaDAO's Autocrat implementation and futarchy-governed grants. The proposal's economic model ($4.45 benefit per dollar) is self-reported projection, not verified outcome data."
 ---
 
 ## Proposal Details
@@ -106,3 +110,11 @@ This proposal to allocate 1 million `$DEAN` tokens to the University of Waterloo
 - Autocrat version: 0.3
 - Completed: 2024-06-11
 - Ended: 2024-06-11
+
+
+## Key Facts
+- The Dean's List DAO FDV was $115,655 at proposal time (2024-06-08)
+- 1 million $DEAN tokens equaled $1,300 USDC at proposal time
+- University of Waterloo Blockchain Club had 200 student members
+- Proposal required 5% FDV increase ($5,783) over 5-day trading period
+- Proposal passed on 2024-06-11

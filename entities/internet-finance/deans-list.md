@@ -47,3 +47,5 @@ Topics:
 ## Timeline
 
 - **2024-12-19** — [[deans-list-implement-3-week-vesting]] passed: 3-week linear vesting for DAO payments to reduce sell pressure from 80% immediate liquidation to 33% weekly rate, projected 15%-25% valuation increase
+
+- **2024-06-08** — [[deans-list-reward-waterloo-blockchain-club]] passed: Allocated 1M $DEAN tokens ($1,300 USDC) to University of Waterloo Blockchain Club with 5% FDV increase condition, targeting 200 student contributors
