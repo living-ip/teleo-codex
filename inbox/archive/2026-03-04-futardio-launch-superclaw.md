@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/5BV8dmpaYz7Rj54EFisJiw2EjfgupqAELbjy5mV5sCrE"
 date: 2026-03-04
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy-governed-meme-coins-attract-speculative-capital-at-scale.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims about AI agent economic infrastructure and unified deployment architecture. Created decision_market entity for the fundraise with full project details. Updated parent Superclaw entity with timeline entry. Applied enrichments to existing futarchy-governed launch claims with new oversubscription data point."
 ---
 
 ## Launch Details
@@ -218,4 +223,13 @@ The platform aims to become the **default infrastructure layer for economically 
 - Version: v0.7
 - Total approved: $50,000.00
 - Closed: 2026-03-05
+- Completed: 2026-03-05
+
+
+## Key Facts
+- Superclaw raised $5,950,859 against $50,000 target on Futardio (2026-03-04)
+- Token: SUPER, mint: 5TbDn1dFEcUTJp69Fxnu5wbwNec6LmoK42Sr5mmNmeta
+- Launch address: 5BV8dmpaYz7Rj54EFisJiw2EjfgupqAELbjy5mV5sCrE
+- Monthly burn: ~$6,000 ($3K team, $2K infrastructure, $1K marketing)
+- Target runway: 6-10 months
 - Completed: 2026-03-05
