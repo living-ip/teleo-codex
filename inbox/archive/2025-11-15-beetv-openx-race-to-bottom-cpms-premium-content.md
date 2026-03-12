@@ -6,7 +6,7 @@ url: https://www.beet.tv/2025/11/openxs-erika-loberg-race-to-bottom-cpms-threate
 date: 2025-11-15
 domain: entertainment
 secondary_domains: [internet-finance]
-format: interview
+format: transcript
 status: null-result
 priority: medium
 tags: [ad-supported, cpm-race-to-bottom, premium-content, content-quality, revenue-model]
