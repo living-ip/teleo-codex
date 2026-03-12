@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/FXkyJpCVADXS6YZcz1Kppax8Kgih23t6yvze7ehELJp
 date: 2024-11-25
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Source is a futarchy proposal for Drift to list META token. Primary extraction is the decision_market entity capturing the governance event. No novel claims about futarchy mechanisms - the proposal describes existing MetaDAO futarchy architecture without new insights. Two enrichments confirm existing claims about limited trading volume in uncontested decisions and liquidity friction. Timeline entries added to Drift, MetaDAO, and Futardio entities to track this cross-platform governance event."
 ---
 
 ## Proposal Details
@@ -94,3 +99,12 @@ MetaDAO is a novel approach to governance that has the potential to reshape how 
 - Autocrat version: 0.3
 - Completed: 2024-11-28
 - Ended: 2024-11-28
+
+
+## Key Facts
+- META token had $199.7k 7-day average daily volume at proposal time (2024-11-25)
+- META token FDV was $79.9M with only CoinEX listing (2024-11-25)
+- Drift proposal FXkyJpCVADXS6YZcz1Kppax8Kgih23t6yvze7ehELJpp passed 2024-11-28
+- Drift committed 1x FUEL multiplier for META spot deposits
+- META token address: METADDFL6wWMWEoKTFJwcThTbUmtarRJZjRpzUvkxhr
+- META token launch date: 2023-11-07
