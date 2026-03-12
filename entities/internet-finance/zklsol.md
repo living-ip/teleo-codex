@@ -32,6 +32,9 @@ Zero-Knowledge Liquid Staking on Solana. Privacy mixer that converts deposited S
 ## Timeline
 - **2025-10-20** — Futardio launch opens ($300K target)
 
+- **2025-10-20** — Launched Futardio fundraise with $300K target, received $14.89M in commitments (49x oversubscription), closed 2025-10-24 with $969,420 raised
+- **2025-10-20** — Deployed devnet app at app.zklsol.org and documentation at docs.zklsol.org
+- **2025-10-20** — Token ZKFG launched with mint address ZKFHiLAfAFMTcDAuCtjNW54VzpERvoe7PBF9mYgmeta
 ## Relationship to KB
 - [[futardio]] — launched on Futardio platform
 
