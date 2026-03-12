@@ -47,3 +47,6 @@ Topics:
 ## Timeline
 
 - **2024-12-19** — [[deans-list-implement-3-week-vesting]] passed: 3-week linear vesting for DAO payments to reduce sell pressure from 80% immediate liquidation to 33% weekly rate, projected 15%-25% valuation increase
+
+- **2024-07-18** — [[deans-list-enhancing-economic-model]] proposed: transition from USDC payments to $DEAN token distributions funded by systematic buybacks (20% treasury tax in USDC, 80% used for market purchases)
+- **2024-07-22** — [[deans-list-enhancing-economic-model]] passed: economic model restructure approved via futarchy governance, implementing USDC-to-DEAN buyback mechanism with projected 5.33% FDV increase

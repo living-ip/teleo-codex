@@ -15,6 +15,12 @@ Living Capital replaces this with token economics that directly reward decision-
 
 The mechanism aligns with several core LivingIP principles. Since [[ownership alignment turns network effects from extractive to generative]], the token structure ensures that value flows to those who generate it rather than to intermediaries who merely facilitate access. Since [[blind meritocratic voting forces independent thinking by hiding interim results while showing engagement]], combining token-locked voting with blind mechanisms could further strengthen decision quality. Since [[gamified contribution with ownership stakes aligns individual sharing with collective intelligence growth]], the token emissions function as the ownership stakes that incentivize high-quality participation. The result is an investment governance model where authority is earned through demonstrated judgment rather than granted through capital contribution alone.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-07-18-futardio-proposal-enhancing-the-deans-list-dao-economic-model]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) The Dean's List DAO model demonstrates token economics applied to service DAO compensation rather than just investment vehicles. Citizens receive $DEAN tokens as payment for work (dApp reviews) rather than stablecoin fees, aligning worker compensation with protocol success. The 80% sell-off rate (stated as assumption in proposal) suggests workers treat tokens as hybrid compensation: partially liquid income for immediate expenses and partially equity stake. This differs from pure fee-for-service (no equity alignment) and pure equity compensation (illiquid), creating a middle ground where workers can immediately liquidate majority of compensation while retaining minority stake. However, the high sell-off rate also indicates that token-as-compensation may not create strong meritocratic alignment if workers prioritize immediate liquidity over long-term protocol success.
+
 ---
 
 Relevant Notes:

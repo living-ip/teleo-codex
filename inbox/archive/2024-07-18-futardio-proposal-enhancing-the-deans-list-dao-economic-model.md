@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/5c2XSWQ9rVPge2Umoz1yenZcAwRaQS5bC4i4w87B1WU
 date: 2024-07-18
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["treasury-buyback-model-creates-constant-buy-pressure-by-converting-revenue-to-governance-token-purchases.md"]
+enrichments_applied: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md", "token economics replacing management fees and carried interest creates natural meritocracy in investment governance.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted one new claim on treasury buyback mechanisms creating net buy pressure through systematic revenue conversion. Enriched two existing claims with evidence on futarchy governance of complex treasury decisions and token-based compensation models. Created decision_market entity for the proposal and updated Dean's List timeline with proposal and resolution events. Source contains detailed financial modeling that demonstrates futarchy governance applied to operational economic changes, not just binary funding decisions."
 ---
 
 ## Proposal Details
@@ -146,3 +152,12 @@ This way we create volume (3600 \$USDC volume) and the price action is always po
 - Autocrat version: 0.3
 - Completed: 2024-07-22
 - Ended: 2024-07-22
+
+
+## Key Facts
+- Dean's List DAO charges 2,500 USDC per dApp review (2024-07-18)
+- $DEAN price: $0.00337, FDV: $337,074, daily volume: $500 USDC (2024-07-18)
+- Dean's List DAO circulating supply: 100,000,000 $DEAN (2024-07-18)
+- Proposal account: 5c2XSWQ9rVPge2Umoz1yenZcAwRaQS5bC4i4w87B1WUp
+- DAO account: 9TKh2yav4WpSNkFV2cLybrWZETBWZBkQ6WB6qV9Nt9dJ
+- Autocrat version: 0.3

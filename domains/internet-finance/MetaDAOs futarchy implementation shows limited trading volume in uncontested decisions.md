@@ -23,6 +23,12 @@ This evidence has direct implications for governance design. It suggests that [[
 
 Optimism's futarchy experiment achieved 5,898 total trades from 430 active forecasters (average 13.6 transactions per person) over 21 days, with 88.6% being first-time Optimism governance participants. This suggests futarchy CAN attract substantial engagement when implemented at scale with proper incentives, contradicting the limited-volume pattern observed in MetaDAO. Key differences: Optimism used play money (lower barrier to entry), had institutional backing (Uniswap Foundation co-sponsor), and involved grant selection (clearer stakes) rather than protocol governance decisions. The participation breadth (10 countries, 4 continents, 36 new users/day) suggests the limited-volume finding may be specific to MetaDAO's implementation or use case rather than a structural futarchy limitation.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-07-18-futardio-proposal-enhancing-the-deans-list-dao-economic-model]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) The Dean's List DAO treasury proposal (passed 2024-07-22) demonstrates futarchy governance applied to operational economic model changes with complex financial modeling, not just binary funding decisions. The proposal included detailed scenario modeling (FDV projections, volume analysis, price impact estimates) and passed governance despite requiring participants to evaluate quantitative assumptions (80% sell-off rate, 24% price elasticity estimates). This suggests futarchy participants can engage with treasury mechanism complexity when backed by numerical analysis, though the proposal's unvalidated assumptions (sell-off ratios, price impact calculations) were not challenged in governance voting, raising questions about whether trading volume reflects genuine evaluation or passive acceptance of detailed-looking proposals.
+
 ---
 
 Relevant Notes:
