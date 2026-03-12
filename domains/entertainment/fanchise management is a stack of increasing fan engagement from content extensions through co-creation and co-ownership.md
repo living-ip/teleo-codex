@@ -23,6 +23,12 @@ The fanchise management stack also explains why since [[value flows to whichever
 
 Claynosaurz-Mediawan production implements the co-creation layer through three specific mechanisms: (1) sharing storyboards with community during pre-production, (2) sharing script portions during writing, and (3) featuring holders' digital collectibles within series episodes. This occurs within a professional co-production with Mediawan Kids & Family (39 episodes × 7 minutes), demonstrating co-creation at scale beyond independent creator projects. The team explicitly frames this as 'involving community at every stage' of production, positioning co-creation as a production methodology rather than post-hoc engagement.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-06-01-variety-mediawan-claynosaurz-animated-series]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Claynosaurz demonstrates the full fanchise stack progression: (1) ownership layer via NFT collectibles, (2) community co-creation via 'co-conspirators who have a real impact on Claynosaurz's future' with community input shaping narrative direction, and (3) content extension through 39-episode animated series. The progression from ownership → co-creation → content extension follows the fanchise management model, with each layer building on the previous one to increase fan engagement and economic participation.
+
 ---
 
 Relevant Notes:
