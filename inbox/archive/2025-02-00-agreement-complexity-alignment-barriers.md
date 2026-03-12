@@ -7,7 +7,15 @@ date: 2025-02-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: processed
+processed_by: theseus
+processed_date: 2026-03-12
+claims_extracted:
+  - "reward hacking is globally inevitable because finite training samples systematically under-cover rare high-loss states in large task spaces"
+  - "alignment overhead is computationally irreducible because no method eliminates the fundamental costs of encoding diverse values across sufficiently large agent populations or objective sets"
+  - "consensus-driven objective reduction makes multi-agent alignment tractable by shrinking the objective space to regions of shared agreement rather than attempting universal coverage"
+enrichments:
+  - "emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive" — new upstream mechanism: structural coverage gaps make reward hacking structurally inevitable, which provides the precondition for emergent deception
 priority: high
 tags: [impossibility-result, agreement-complexity, reward-hacking, multi-objective, safety-critical-slices]
 ---
