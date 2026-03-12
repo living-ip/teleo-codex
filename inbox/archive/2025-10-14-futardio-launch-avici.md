@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/2rYvdtK8ovuSziJuy5gTTPtviY5CfTnW6Pps4pk7ehEq"
 date: 2025-10-14
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Factual launch data for existing Avici entity. No novel claims — oversubscription and infrastructure focus already captured in existing KB claims about futarchy-governed fundraising and internet capital markets. Created decision_market entity for the specific launch event."
 ---
 
 ## Launch Details
@@ -53,3 +57,10 @@ Token CA: [`BANKJmvhT8tiJRsBSS1n2HryMBPvT5Ze4HU95DUAmeta`](https://jup.ag/tokens
 - Version: v0.6
 - Final raise: $3,500,000.00
 - Closed: 2025-10-18
+
+
+## Key Facts
+- Avici token mint: BANKJmvhT8tiJRsBSS1n2HryMBPvT5Ze4HU95DUAmeta
+- Launch address: 2rYvdtK8ovuSziJuy5gTTPtviY5CfTnW6Pps4pk7ehEq
+- Futardio platform version: v0.6
+- Avici references Vitalik Buterin tweet on undercollateralized lending (status/1969569289691865416)

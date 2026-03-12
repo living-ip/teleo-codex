@@ -33,6 +33,7 @@ Distributed internet banking infrastructure — onchain credit scoring, spend ca
 - **2025-10-14** — Futardio launch opens ($2M target)
 - **2025-10-18** — Launch closes. $3.5M raised.
 
+- **2025-10-14** — Launched futarchy-governed fundraise on Futardio targeting $2M for distributed internet banking infrastructure, achieving $34.2M in commitments (17x oversubscribed)
 ## Relationship to KB
 - [[futardio]] — launched on Futardio platform
 - [[cryptos primary use case is capital formation not payments or store of value because permissionless token issuance solves the fundraising bottleneck that solo founders and small teams face]] — test case for banking-focused crypto raising via permissionless ICO
