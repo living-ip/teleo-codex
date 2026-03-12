@@ -47,3 +47,5 @@ Topics:
 ## Timeline
 
 - **2024-12-19** — [[deans-list-implement-3-week-vesting]] passed: 3-week linear vesting for DAO payments to reduce sell pressure from 80% immediate liquidation to 33% weekly rate, projected 15%-25% valuation increase
+
+- **2024-10-10** — [[islanddao-treasury-proposal]] passed: Established treasury reserve funded by 2.5% of USDC payments with risk-scored asset allocation (80/20 safe/risky split) and quarterly performance reviews managed by Kai (@DeFi_Kai)
