@@ -48,3 +48,7 @@ Relevant Entities:
 
 Topics:
 - [[internet finance and decision markets]]
+
+## Timeline
+
+- **2026-03** — Jupiter DAO governance proposal received 303 views and 2 comments, demonstrating minimal engagement compared to futarchy markets (Pine Analytics comparison)

@@ -52,6 +52,12 @@ Critically, the proposal nullifies a prior 90-day restriction on buybacks/liquid
 
 MycoRealms implements unruggable ICO structure with automatic refund mechanism: if $125,000 target not reached within 72 hours, full refunds execute automatically. Post-raise, team has zero direct treasury access — operates on $10,000 monthly allowance with all other expenditures requiring futarchy approval. This creates credible commitment: team cannot rug because they cannot access treasury directly, and investors can force liquidation through futarchy proposals if team materially misrepresents (e.g., fails to publish operational data to Arweave as promised, diverts funds from stated use). Transparency requirement (all invoices, expenses, harvest records, photos published to Arweave) creates verifiable baseline for detecting misrepresentation.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-03-09-pineanalytics-x-archive]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+bankme token dropped 55% in 45 minutes following launch, demonstrating the investor protection gap in traditional token launches. In contrast, no ICO launched through MetaDAO's futarchy-governed platform has fallen below its launch price across 8 ICOs totaling $25.6M raised. The bankme crash represents the norm for permissionless launches without governance-enforced accountability — when investors have no recourse beyond selling into a falling market, price discovery becomes a race to exit. MetaDAO's zero sub-launch-price track record is consistent with the hypothesis that futarchy-governed liquidation creates structural incentives for teams to deliver on promises, though selection bias (MetaDAO curates projects) cannot be ruled out as an alternative explanation.
+
 ---
 
 Relevant Notes:

@@ -82,6 +82,12 @@ Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform 
 
 (challenge) Areal's failed Futardio launch ($11,654 raised of $50K target, REFUNDING status) demonstrates that futarchy-governed fundraising does not guarantee capital formation success. The mechanism provides credible exit guarantees through market-governed liquidation and governance quality through conditional markets, but market participants still evaluate project fundamentals and team credibility. Futarchy reduces rug risk but does not eliminate market skepticism of unproven business models or early-stage teams.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-03-09-pineanalytics-x-archive]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Pine Analytics Q4 2025 data confirms platform scale: 8 ICOs, $25.6M raised, $390M committed (95% refund rate from oversubscription), $300M AMM volume, $1.5M in fees. Zero ICOs have fallen below launch price. The 95% refund rate demonstrates capital efficiency — the platform can handle massive oversubscription and return capital cleanly. The $300M AMM volume shows that MetaDAO tokens achieve liquidity post-launch. Combined with the bankme comparison (-55% in 45min for non-futarchy launch), this data confirms MetaDAO as achieving unruggable ICOs at scale through futarchy governance, though selection bias (MetaDAO curates projects) remains a confound.
+
 ---
 
 Relevant Notes:

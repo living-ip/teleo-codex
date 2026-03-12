@@ -54,6 +54,7 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **2026-03** — Pine Analytics Q4 2025 quarterly report published
 
 - **2024-02-18** — [[metadao-otc-trade-pantera-capital]] failed: Pantera Capital's $50,000 OTC purchase proposal rejected by futarchy markets
+- **2026-03** — Pine Analytics comparison: MetaDAO futarchy decision generated $40K volume across 122 trades vs Jupiter DAO proposal with 303 views/2 comments, demonstrating 20,000x capital commitment differential
 ## Key Decisions
 | Date | Proposal | Proposer | Category | Outcome |
 |------|----------|----------|----------|---------|

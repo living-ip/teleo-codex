@@ -16,6 +16,12 @@ This structural problem makes token voting DAOs fundamentally extractive rather 
 
 For systems attempting [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]], token voting creates a persistent misalignment between minority and majority interests that no amount of value-weaving can overcome.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-03-09-pineanalytics-x-archive]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Jupiter DAO governance proposal received 303 views and 2 comments, while a comparable MetaDAO futarchy decision generated $40K in trading volume across 122 trades. The ~20,000x difference in capital commitment demonstrates that token voting forums produce minimal engagement, leaving minority stakeholders with no mechanism to influence outcomes beyond hoping the majority reads their comments. The futarchy comparison shows that when governance routes through markets rather than forums, participation becomes economically meaningful rather than purely social.
+
 ---
 
 Relevant Notes:
