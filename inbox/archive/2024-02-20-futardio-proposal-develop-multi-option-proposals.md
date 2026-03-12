@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/J7dWFgSSuMg3BNZBAKYp3AD5D2yuaaLUmyKqvxBZgHh
 date: 2024-02-20
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy-implementations-must-simplify-theoretical-mechanisms-for-production-adoption-because-original-designs-include-impractical-elements-that-academics-tolerate-but-users-reject.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md", "MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Failed proposal for multi-modal futarchy functionality. Primary extraction value is in enriching existing mechanism claims about futarchy implementation complexity and architectural evolution. Created decision_market entity and person entity for agrippa (significant contributor to Solana governance infrastructure). No novel claims warranted - the proposal articulates known challenges (complexity, liquidity) rather than introducing new theoretical insights."
 ---
 
 ## Proposal Details
@@ -107,3 +112,13 @@ I would be very excited to join this futarchic society as a major techinical con
 - Autocrat version: 0.1
 - Completed: 2024-02-25
 - Ended: 2024-02-25
+
+
+## Key Facts
+- MetaDAO circulating supply was 14,416 META as of 2024-02-20
+- Multi-modal proposal compensation requested: 200 META across 4 milestones (50 META each)
+- Milestone evaluation multisig: Proph3t, DeanMachine, 0xNallok, LegalizeOnionFutures, sapphire (3/5 threshold)
+- Multisig members compensated 2.5 META each upon passage
+- Proposal account: J7dWFgSSuMg3BNZBAKYp3AD5D2yuaaLUmyKqvxBZgHht
+- Proposer wallet: 99dZcXhrYgEmHeMKAb9ezPaBqgMdg1RjCGSfHa7BeQEX
+- agrippa's estimated value add: 12.1% to MetaDAO (1744 META equivalent at time of proposal)
