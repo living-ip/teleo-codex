@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/9DfNVpcDm6x1GXUa8wik8YVZhiw7dTmmhefVBWVZuAg8"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Failed fundraise with 1% commitment ratio. No novel claims about futarchy mechanisms or market dynamics—this is purely factual data about a failed launch. The low engagement and rapid closure are data points but don't support generalizable claims without additional context or pattern evidence. Created entity pages for RunBookAI company and its fundraise decision market, plus timeline entry on Futardio parent entity."
 ---
 
 ## Launch Details
@@ -107,3 +111,11 @@ Remote On-device agents,  creator SDK, institutional tier.
 - Token mint: `pMFWrTS9E6btgjLyxNc3AGi74QqvG88GV2vVrLJmeta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- RunBookAI targeted $350,000 fundraise on Futardio (2026-03-05)
+- RunBookAI closed with $3,600 committed, 1% of target (2026-03-06)
+- RunBookAI proposed DeFi agent strategy marketplace with TEE execution and immutable strategies
+- RunBookAI revenue model: agent setup fees, performance splits, platform fees
+- RunBookAI roadmap: Q2 2026 creator tools, Q3 2026 backtesting, Q4 2026 marketplace launch, Q1 2027+ scaling
