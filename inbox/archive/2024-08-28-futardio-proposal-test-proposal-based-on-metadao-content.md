@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/EmPUGgv2Utzuu2vgSu6GcTRAtJMox5vJeZKi95cBgfJ
 date: 2024-08-28
 domain: internet-finance
 format: data
-status: unprocessed
+status: enrichment
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy-governed-meme-coins-attract-speculative-capital-at-scale.md", "MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "This source is a failed governance proposal, not a product launch or company formation. Primary output is the decision_market entity. No novel claims extracted—the proposal's failure provides counter-evidence to existing claims about futarchy-governed memecoin adoption and confirms existing claims about futarchy adoption friction. The proposal's explicit tradeoff analysis (advantages vs pitfalls) and market rejection demonstrate sophisticated collective judgment about reputational positioning."
 ---
 
 ## Proposal Details
@@ -352,3 +357,11 @@ This would all be left to the discretion of the team building it, but they would
 - Autocrat version: 0.3
 - Completed: 2024-09-01
 - Ended: 2024-09-01
+
+
+## Key Facts
+- Futardio proposal (EmPUGgv2Utzuu2vgSu6GcTRAtJMox5vJeZKi95cBgfJo) was proposal #8 on MetaDAO
+- Proposal used Autocrat v0.3
+- Proposed $100k grant over 6 months with Q3 launch target
+- Nallok and Proph3t were named as supporters/funders, not core team
+- Proposal included 6 potential advantages and 4 potential pitfalls in explicit tradeoff analysis
