@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/HTyjkYarxpf115vPqGXYpPpS9jFMXzLLjGNnVjEGWuBg"
 date: 2026-03-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Source is a Futardio launch page for DigiFrens AI companion app. Extracted entity data for the company and its failed fundraise. No novel claims about futarchy mechanisms or market dynamics—this is a straightforward failed fundraise event. The technical details about the app (memory architecture, rendering engines, AI providers) are product features, not arguable propositions about mechanisms or market structure. The 3.3% funding rate is a data point, not evidence of a broader pattern without additional context."
 ---
 
 ## Launch Details
@@ -140,3 +144,15 @@ The demand is real. People want AI that feels personal — not a productivity to
 - Token mint: `4hE9uZLp2k6mQWVaw6pu9iDtgMeN2WxeLvMwLodvmeta`
 - Version: v0.7
 - Closed: 2026-03-04
+
+
+## Key Facts
+- DigiFrens raised $6,600 of $200,000 target (3.3%) on Futardio (2026-03-03)
+- DigiFrens is in TestFlight beta with 4 avatars, 6 AI providers, 9 memory retrieval strategies
+- DigiFrens uses VRM 3D and Live2D 2D rendering engines with 60 FPS animation
+- DigiFrens supports Apple Intelligence, OpenAI, Claude, local LLMs, and OpenRouter
+- DigiFrens implements HEXACO personality modeling with trait drift based on conversations
+- DigiFrens planned use of funds: 60% team, 15% infrastructure, 10% design, 10% marketing, 5% legal
+- DigiFrens planned hiring: iOS developer and marketing/social media manager
+- DigiFrens roadmap included Gaussian Splatting avatars from single photo (Month 1 target)
+- DigiFrens freemium model: free tier with 2 avatars, $15/mo DigiFrens+ for premium features
