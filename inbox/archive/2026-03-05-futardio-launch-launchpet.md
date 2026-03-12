@@ -10,11 +10,12 @@ status: processed
 processed_by: rio
 processed_date: 2026-03-12
 claims_extracted:
-  - futardio-permissionless-launches-show-bimodal-outcomes-where-novelty-and-community-drive-massively-outperform-consumer-utility-pitches
+  - futardio-permissionless-launches-show-extreme-variance-where-novelty-driven-launches-massively-outperform-consumer-utility-pitches
   - embedding-charitable-donations-in-protocol-fee-structures-creates-retention-through-identity-formation-turning-traders-into-evangelists
   - algorithm-driven-social-engagement-creates-attention-liquidity-flywheels-in-meme-token-platforms-where-virality-substitutes-for-insider-coordination
+  - mainstreaming-crypto-requires-social-app-mechanics-not-simplified-financial-mechanics-because-normies-are-fluent-in-engagement-not-finance
 enrichments:
-  - futardio-cult-raised-11-4-million-in-one-day-through-futarchy-governed-meme-coin-launch: add Launchpet ($2.1K of $60K, refunding) as third data point in bimodal outcome pattern alongside Areal
+  - futardio-cult-raised-11-4-million-in-one-day-through-futarchy-governed-meme-coin-launch: add Launchpet ($2.1K of $60K, refunding) as third data point alongside Areal
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
 ---
