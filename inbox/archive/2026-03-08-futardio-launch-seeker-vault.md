@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/7AMzZD3JZ15FCX2eoC17KgJD5Ywum9J5i7E9BAbgc2vi"
 date: 2026-03-08
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Futardio fundraise for SeekerVault. Failed to reach funding target (4.2% subscription). No novel claims about futarchy mechanisms or market dynamics — straightforward failed raise. Entity data only."
 ---
 
 ## Launch Details
@@ -160,3 +164,12 @@ Two builders, zero fluff. All execution.
 - Token mint: `J4rMkvf4qwJgX2nK3ueeL4E423chSG2jVqgk5LAGmeta`
 - Version: v0.7
 - Closed: 2026-03-09
+
+
+## Key Facts
+- SeekerVault targets 150,000+ Solana Seeker phone users
+- Walrus + Seal used as storage infrastructure
+- Pricing: 20MB free tier, 100GB for $10/month in SKR
+- Team: 2 builders (gbflarcos, Beardkoda)
+- Requested runway: 6+ months at $8,000/month burn rate
+- Product status: Live at seekervault.xyz, dApp Store listing in review

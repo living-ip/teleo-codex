@@ -7,9 +7,14 @@ date: 2025-01-01
 domain: ai-alignment
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: medium
 tags: [AI-agents, safety-documentation, transparency, deployment, agentic-AI]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints.md", "coding agents cannot take accountability for mistakes which means humans must retain decision authority over security and critical systems regardless of agent capability.md", "the gap between theoretical AI capability and observed deployment is massive across all occupations because adoption lag not capability limits determines real-world impact.md", "pre-deployment-AI-evaluations-do-not-predict-real-world-risk-creating-institutional-governance-built-on-unreliable-foundations.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims documenting the agent-specific safety gap and applied four enrichments to existing alignment claims. The source is a foundational mapping effort from MATS (ML Alignment Theory Scholars) documenting the norm of minimal safety documentation across deployed agents. Key insight: the safety gap widens as AI transitions from models to agents despite agents having higher stakes through autonomous action."
 ---
 
 ## Content
@@ -43,3 +48,9 @@ Key findings:
 PRIMARY CONNECTION: [[voluntary safety pledges cannot survive competitive pressure because unilateral commitments are structurally punished when competitors advance without equivalent constraints]]
 WHY ARCHIVED: Documents the agent-specific safety gap — agents act autonomously but have even less safety documentation than base models
 EXTRACTION HINT: The key finding is the NORM of minimal safety documentation across 30 deployed agents. This extends the alignment gap from models to agents.
+
+
+## Key Facts
+- MATS surveyed 30 state-of-the-art AI agents (2025)
+- Survey documented origins, design, capabilities, ecosystem characteristics, and safety features through publicly available information and developer correspondence
+- Most agents deployed for professional and personal tasks with limited human involvement

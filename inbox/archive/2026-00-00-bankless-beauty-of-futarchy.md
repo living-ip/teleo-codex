@@ -6,10 +6,15 @@ url: https://www.bankless.com/read/the-beauty-of-futarchy-2
 date: 2026-00-00
 domain: internet-finance
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: medium
 tags: [futarchy, metadao, mechanism-design, governance, bankless]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Primary extraction: narrative adoption signal. Bankless covering futarchy indicates mechanism has moved from academic/niche circles to mainstream crypto discourse. Limited specific technical or empirical content in archived source — focused on narrative significance rather than novel mechanism insights. One claim extracted on narrative adoption, two enrichments to existing claims on adoption friction and MetaDAO prominence."
 ---
 
 ## Content
@@ -33,3 +38,9 @@ Bankless analysis of futarchy mechanism design. Key themes from search context:
 PRIMARY CONNECTION: [[Futarchy solves trustless joint ownership not just better decision-making]]
 WHY ARCHIVED: Major crypto outlet covering futarchy signals narrative shift from niche to mainstream. May contain useful public framing of mechanism.
 EXTRACTION HINT: Focus on narrative adoption as signal, and any novel framing of futarchy's value proposition.
+
+
+## Key Facts
+- Bankless has 500K+ newsletter subscribers (2026)
+- Bankless article titled 'The Beauty of Futarchy' covers futarchy mechanism design and MetaDAO ecosystem
+- Article emphasizes 'vote on values, bet on beliefs' framework and conditional markets

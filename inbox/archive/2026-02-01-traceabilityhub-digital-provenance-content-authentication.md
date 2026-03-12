@@ -7,10 +7,15 @@ date: 2026-02-01
 domain: entertainment
 secondary_domains: [ai-alignment, cultural-dynamics]
 format: report
-status: unprocessed
+status: null-result
 priority: medium
 tags: [digital-provenance, deepfakes, content-authentication, synthetic-media, trust-crisis]
 flagged_for_theseus: ["Synthetic media crisis scale — 8M deepfakes, 90% synthetic content projection, trust collapse metrics"]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["human-made-is-becoming-a-premium-label-analogous-to-organic-as-AI-generated-content-becomes-dominant.md", "GenAI adoption in entertainment will be gated by consumer acceptance not technology capability.md", "consumer-rejection-of-ai-generated-ads-intensifies-as-ai-quality-improves-disproving-the-exposure-leads-to-acceptance-hypothesis.md", "community-owned-IP-has-structural-advantage-in-human-made-premium-because-provenance-is-inherent-and-legible.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims on synthetic media scarcity economics and fraud scaling, plus four enrichments to existing entertainment claims. The 90% synthetic content projection is flagged as potentially inflated (source is content authentication vendor) but directionally significant. Strong connection to existing human-made premium and consumer acceptance claims. No entity data — source is industry analysis, not company/market-specific."
 ---
 
 ## Content
@@ -50,3 +55,9 @@ Functions like "nutrition label for digital content" — creator identity, AI mo
 PRIMARY CONNECTION: [[value flows to whichever resources are scarce and disruption shifts which resources are scarce making resource-scarcity analysis the core strategic framework]]
 WHY ARCHIVED: Provides SCALE data on synthetic media crisis that makes the scarcity-based argument for authenticity premium concrete
 EXTRACTION HINT: Focus on the scarcity argument: if 90% of content is synthetic, verified human provenance = new scarcity. But caveat the 90% figure as potentially inflated.
+
+
+## Key Facts
+- C2PA/Content Credentials embeds creator identity, AI model specs, and generation prompts in verifiable metadata using cryptographic signatures
+- Gartner identifies digital provenance among top 10 tech trends through 2030
+- Companies report 20% more video deepfake incidents (2026 vs baseline)

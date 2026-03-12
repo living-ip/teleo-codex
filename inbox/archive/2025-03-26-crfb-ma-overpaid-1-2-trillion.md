@@ -7,9 +7,14 @@ date: 2025-03-26
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: high
 tags: [medicare-advantage, overpayment, fiscal-impact, coding-intensity, favorable-selection, trust-fund]
+processed_by: vida
+processed_date: 2026-03-11
+enrichments_applied: ["medicare-fiscal-pressure-forces-ma-reform-by-2030s-through-arithmetic-not-ideology.md", "medicare-trust-fund-insolvency-accelerated-12-years-by-tax-policy-demonstrating-fiscal-fragility.md", "CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md", "value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Two major claims extracted: (1) the $1.2T overpayment projection with equal split between coding and selection, and (2) the structural nature of favorable selection as a legal plan design feature rather than fraud. Four enrichments applied to existing MA/Medicare fiscal claims. The favorable selection mechanism is the less-discussed half of the overpayment equation and deserved its own claim as curator notes suggested. No entity data in this source—pure policy analysis and fiscal projections."
 ---
 
 ## Content
@@ -50,3 +55,13 @@ tags: [medicare-advantage, overpayment, fiscal-impact, coding-intensity, favorab
 PRIMARY CONNECTION: [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]]
 WHY ARCHIVED: Quantifies the fiscal stakes of MA reform — connects insurance market structure to Medicare solvency timeline.
 EXTRACTION HINT: The favorable selection mechanism deserves its own claim — it's the less-discussed half of the overpayment equation.
+
+
+## Key Facts
+- MA overpayments: $1.2 trillion over 2025-2034 (MedPAC data via CRFB)
+- Coding intensity overpayments: $600B total ($260B trust fund, $110B beneficiary premiums)
+- Favorable selection overpayments: $580B total ($250B trust fund, $110B beneficiary premiums)
+- MA plans see 10% net payment increase from coding intensity despite 5.9% CMS adjustment
+- Favorable selection causes MA costs to run 11% higher than FFS in 2025
+- CBO estimate: reducing MA benchmarks could save $489B
+- CBO estimate: raising coding adjustment from 5.9% to 20% could reduce deficits by >$1T

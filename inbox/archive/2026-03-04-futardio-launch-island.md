@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/FpFytak8JZwVntqDh9G95zqXXVJNXMxRFUYY959AXeZj"
 date: 2026-03-04
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Failed fundraise with minimal market validation (0.5% of target). No novel claims extracted — the failure itself is the primary data point. Three entities created: Island (company), the fundraise decision market, and founder xpmaxxer. Project represents a test of DeFi-travel loyalty thesis that found no market support."
 ---
 
 ## Launch Details
@@ -216,3 +220,17 @@ Earn yield. Earn points. Travel for pennies.
 - Token mint: `CGaDW7QYCNdVzivFabjWrpsqW7C4A3WSLjdkH84Pmeta`
 - Version: v0.7
 - Closed: 2026-03-05
+
+
+## Key Facts
+- Island.ag fundraise launched 2026-03-04 on Futardio
+- Funding target: $50,000
+- Total committed: $250 (0.5% of target)
+- Status: Refunding
+- Closed: 2026-03-05
+- Token: CGa (mint: CGaDW7QYCNdVzivFabjWrpsqW7C4A3WSLjdkH84Pmeta)
+- Autocrat version: v0.7
+- Founder: xpmaxxer (hospitality background)
+- Proposed model: DeFi yield discovery + hotel booking with Island Points loyalty system
+- Planned spend: 80% marketing, 10% infrastructure, 10% operations
+- Incentive: $1 minimum participation entered raffle for $1,500 tokens or Alps hotel stay

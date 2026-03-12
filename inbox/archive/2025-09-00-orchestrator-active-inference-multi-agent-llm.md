@@ -7,9 +7,14 @@ date: 2025-09-06
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [active-inference, multi-agent, LLM, orchestrator, coordination, long-horizon, partial-observability]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["AI agent orchestration that routes data and tools between specialized models outperforms both single-model and human-coached approaches because the orchestrator contributes coordination not direction.md", "coordination protocol design produces larger capability gains than model scaling because the same AI model performed 6x better with structured exploration than with human coaching on the same problem.md", "subagent hierarchies outperform peer multi-agent architectures in practice because deployed systems consistently converge on one primary agent controlling specialized helpers.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "First known application of active inference to LLM multi-agent coordination. Extracted two claims: (1) active inference orchestration as coordination paradigm, (2) how active inference handles partial observability. Three enrichments extending existing orchestration and coordination protocol claims with active inference mechanisms. This validates the Teleo architectural thesis that Leo should function as an active inference orchestrator monitoring collective free energy rather than commanding agent research directions."
 ---
 
 ## Content
@@ -54,3 +59,10 @@ Complex, non-linear tasks challenge LLM-enhanced multi-agent systems (MAS) due t
 PRIMARY CONNECTION: "AI agent orchestration that routes data and tools between specialized models outperforms both single-model and human-coached approaches"
 WHY ARCHIVED: First known application of active inference to LLM multi-agent coordination — validates our architectural thesis and provides implementation patterns for Leo's orchestrator role
 EXTRACTION HINT: Focus on the monitoring-and-adjusting pattern vs command-and-control, and the benchmark-driven introspection mechanism
+
+
+## Key Facts
+- Published on arXiv September 2025
+- Introduces Orchestrator framework for multi-agent LLM systems
+- Uses variational free energy (VFE) minimization as coordination mechanism
+- Implements benchmark-driven introspection to track agent-environment dynamics
