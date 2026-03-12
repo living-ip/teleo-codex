@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/62Yxd8gLQ2YYmY2TifhChJG4tVdf4b1oAHcMfwTL2WUu"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Factual fundraise data for failed gaming studio raise on Futardio. No novel claims about futarchy mechanisms or gaming economics — just execution data on a specific failed raise. Created entity pages for the company and the fundraise decision market, updated Futardio timeline. The 95% funding gap is notable as market signal but doesn't constitute a generalizable claim about gaming studios or futarchy without additional context/comparison data."
 ---
 
 ## Launch Details
@@ -117,3 +121,11 @@ We didn't want complex tokenomics driving our decisions. Futarchy puts the marke
 - Token mint: `32CPstBmwccnLoaUqkqiiMVg1nKrQ3YGcM43vFAimeta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- Insert Coin Labs Domin8 game: 232 games played, 55.1 SOL volume, +2.7 SOL house profit (as of 2026-03-05)
+- Insert Coin Labs Futardio raise: $50K target, $2,508 committed (5%), refunding status (2026-03-06)
+- Insert Coin Labs allocation: 80% team ($40K), 20% liquidity ($10K), $4K monthly burn, ~10 month runway
+- Insert Coin Labs roadmap: Domin8 live, 1v1 game ready, Casino hub Q2 2026, Rabbit Royal Q2 2026, Open API Q3 2026
+- Insert Coin Labs audit: Excalead, Honorable Mention at Solana Breakpoint 2025
