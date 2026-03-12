@@ -7,9 +7,14 @@ date: 2026-02-01
 domain: entertainment
 secondary_domains: []
 format: report
-status: unprocessed
+status: processed
 priority: medium
 tags: [ai-video-generation, seedance, production-costs, quality-threshold, capability]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["non-ATL production costs will converge with the cost of compute as AI replaces labor across the production chain.md", "GenAI adoption in entertainment will be gated by consumer acceptance not technology capability.md", "consumer definition of quality is fluid and revealed through preference not fixed by production value.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Two extractable claims: (1) hand anatomy fidelity threshold crossing eliminates primary visual detection signal, (2) Sora retention collapse reveals demand constraint despite capability breakthrough. Three enrichments to existing claims about production cost convergence, consumer acceptance gating, and quality definition fluidity. Two new entities (Seedance, Sora) with timeline entries. The curator's hint about Sora retention being the surprising signal was correct — it's the inverse of the expected adoption pattern and reveals structural demand-side constraint."
 ---
 
 ## Content
@@ -59,3 +64,10 @@ Aggregated benchmark data on the leading AI video generation models in 2026 (See
 PRIMARY CONNECTION: `non-ATL production costs will converge with the cost of compute as AI replaces labor across the production chain`
 WHY ARCHIVED: The hand anatomy benchmark crossing signals that the quality threshold for realistic video has been substantially cleared — which shifts the remaining barrier to consumer acceptance (demand-side) and creative direction (human judgment), not raw capability.
 EXTRACTION HINT: The Sora retention data (supply without demand) is the most extractable insight. A claim about AI video tool adoption being demand-constrained despite supply capability would be new to the KB.
+
+
+## Key Facts
+- Seedance 2.0: native 2K resolution (2048x1080 landscape / 1080x2048 portrait), 4-15s dynamic duration, 30% faster throughput than 1.5 Pro
+- Benchmark methodology: 50+ generations per model, identical 15-category prompt set, 4s at 720p/24fps, rated 0-10 on 6 dimensions by 2 independent reviewers
+- Competitive landscape February 2026: Seedance 2.0 (#1 benchmark), Kling 3.0 (ease of use), Google Veo 3 (audio+visual), Runway (Lionsgate partnership), Pika Labs
+- Sora: 12M downloads, <8% day-30 retention (vs. 30%+ top app benchmark)
