@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/2TK2hDtyNAY2hbV3yHDoVaAPSfaod2sHX7PtWPz8QfmQ"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Failed Futardio launch with trivial capital raised. Created entity page because it demonstrates futarchy-governed launch mechanics and intent-based wallet architecture, but no extractable claims — the project failed before producing evidence of mechanism viability. The pitch deck contains standard startup projections but no novel insights about AI wallets, DeFi UX, or futarchy governance that aren't already captured in existing KB claims."
 ---
 
 ## Launch Details
@@ -259,3 +263,10 @@ Our mission is to make capital on Solana programmable through natural language.
 - Token mint: `GgcMi8LxukwRYS1FZ5W4v2fo8XEAHpscqdQZz26Ymeta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- Seyf raised $200 of $300K target on Futardio (2026-03-05)
+- Seyf proposed 21-22 month runway with $23K monthly burn
+- Seyf team structure: 1 AI engineer, 1 backend engineer, 1 frontend engineer, 1 product lead
+- Seyf token mint: GgcMi8LxukwRYS1FZ5W4v2fo8XEAHpscqdQZz26Ymeta
