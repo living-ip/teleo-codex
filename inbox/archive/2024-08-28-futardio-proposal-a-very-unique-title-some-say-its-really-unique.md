@@ -6,7 +6,13 @@ url: "https://www.futard.io/proposal/GugKjNpirFNaaRkEStRKGJPnutptsnTA3XuCJ8nwaVt
 date: 2024-08-28
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
+processed_by: rio
+processed_date: 2026-03-12
+claims_extracted:
+  - memecoin-governance-is-futarchys-ideal-entry-context-because-price-maximizing-objectives-eliminate-temporal-ambiguity
+  - engagement-to-governance-bootstrapping-converts-platform-activity-into-future-ownership-tokens-aligning-early-user-incentives-with-platform-success
+enrichments: []
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 ---
