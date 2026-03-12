@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/2QUxbiMkDtoKxY2u6kXuevfMsqKGtHNxMFYHVWbqRK1
 date: 2024-11-25
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions.md", "MetaDAO-is-the-futarchy-launchpad-on-Solana-where-projects-raise-capital-through-unruggable-ICOs-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Governance proposal for DeFi protocol parameter decision. No novel claims about futarchy mechanisms, but provides evidence of futarchy use for operational decisions beyond fundraising. Created decision_market entity and enriched two existing claims about MetaDAO ecosystem usage patterns."
 ---
 
 ## Proposal Details
@@ -59,3 +64,12 @@ With the passing of this proposal, we would introduce a new boost with the same 
 - Autocrat version: 0.3
 - Completed: 2024-11-28
 - Ended: 2024-11-28
+
+
+## Key Facts
+- ORE proposal 2QUxbiMkDtoKxY2u6kXuevfMsqKGtHNxMFYHVWbqRK1A passed 2024-11-28
+- ORE strategic goal: build deep liquidity network of all real world assets on Solana
+- HNT is primary reward and governance token of Helium network
+- HIP-138 consolidated Helium tokenomics around HNT token
+- Boost applies to kTokens from Kamino vaults managing Orca concentrated liquidity positions
+- 3-tier boost system: tier 1 (vanilla ORE), tier 2 (SOL-ORE, USDC-ORE), tier 3 (ISC-ORE, HNT-ORE)
