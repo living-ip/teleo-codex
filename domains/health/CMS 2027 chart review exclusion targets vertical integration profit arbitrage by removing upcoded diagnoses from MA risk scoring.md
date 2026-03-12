@@ -34,6 +34,12 @@ The broader 2027 rate environment compounds the pressure into a three-pronged sq
 
 This is a proxy inertia story. Since [[proxy inertia is the most reliable predictor of incumbent failure because current profitability rationally discourages pursuit of viable futures]], the incumbents who built their MA economics around coding optimization will struggle to shift toward genuine quality competition. The plans that never relied on coding arbitrage (Devoted, Alignment, Kaiser) are better positioned.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-23-cbo-medicare-trust-fund-2040-insolvency]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) The trust fund insolvency timeline creates intensifying pressure for MA payment reform through the 2030s. With exhaustion now projected for 2040 (12 years earlier than 2025 estimates), MA overpayments of $84B/year become increasingly unsustainable from a fiscal perspective. Reducing MA benchmarks could save $489B over the decade, significantly extending solvency. The chart review exclusion is one mechanism in a broader reform trajectory: either restructure MA payments or accept automatic 8-10% benefit cuts for all Medicare beneficiaries starting 2040. The political economy strongly favors MA reform over across-the-board cuts, meaning chart review exclusions will likely be part of a suite of MA payment reforms driven by fiscal necessity rather than ideological preference.
+
 ---
 
 Relevant Notes:
