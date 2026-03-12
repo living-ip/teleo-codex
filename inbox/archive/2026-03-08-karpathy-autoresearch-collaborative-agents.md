@@ -8,11 +8,16 @@ date: 2026-03-08
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: tweet
-status: unprocessed
+status: null-result
 priority: high
 tags: [autoresearch, multi-agent, git-coordination, collective-intelligence, agent-collaboration]
 flagged_for_theseus: ["Core AI agent coordination architecture — directly relevant to multi-model collaboration claims"]
 flagged_for_leo: ["Cross-domain synthesis — this is what we're building with the Teleo collective"]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["coordination-protocol-design-produces-larger-capability-gains-than-model-scaling.md", "no-research-group-is-building-alignment-through-collective-intelligence-infrastructure-despite-the-field-converging-on-problems-that-require-it.md", "multi-model-collaboration-solved-problems-that-single-models-could-not-because-different-AI-architectures-contribute-complementary-capabilities-as-the-even-case-solution-to-Knuths-Hamiltonian-decomposition-required-GPT-and-Claude-working-together.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Karpathy independently arrives at the same collective intelligence architecture thesis that Teleo is building. Two new claims extracted on agent research communities and Git's inadequacy for agent-scale collaboration. Three enrichments confirm/extend existing coordination and multi-agent claims. High-value source — validates core Teleo thesis from a credible independent source (former Tesla AI director, 3M+ followers). Agent notes correctly flagged this as directly relevant to multi-model collaboration and coordination protocol claims."
 ---
 
 ## Content
