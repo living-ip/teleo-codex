@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/4R1peXdUehAS1aWCdnrBfLRevGktsKH2euvBLdsYXbWu"
 date: 2026-03-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Futardio launch that failed to reach funding threshold. No novel claims about futarchy mechanisms or market dynamics — this is a straightforward failed raise. The direct payment model vs pro-rata pool is a product feature, not a generalizable claim about music economics or platform design. Entity data only."
 ---
 
 ## Launch Details
@@ -181,3 +185,13 @@ AI discovery, and audience ownership in a single platform.
 - Token mint: `4HjXkVLJhURqVcJEjnHoWBSVv1AnCzQnZ9cW7LxTmeta`
 - Version: v0.7
 - Closed: 2026-03-04
+
+
+## Key Facts
+- Open Music raised $27,533 of $250,000 target (11% fill rate) on Futardio (2026-03-03)
+- Open Music proposed direct fan-to-artist payment model vs Spotify's pro-rata pool
+- Open Music claimed $128/month payout for 100 fans vs $9/month on Spotify
+- Spotify paid artists average $0.003 per stream, made $20B revenue (2025)
+- Open Music MVP live at openmusic.art with artist upload and payment functionality
+- Open Music planned $25K/month burn rate: 72% engineering, 16% infrastructure, 8% growth, 4% ops
+- Open Music team: 2 full-stack developers, planned to hire third with raise funds
