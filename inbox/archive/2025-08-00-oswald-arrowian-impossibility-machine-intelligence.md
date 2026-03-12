@@ -7,9 +7,15 @@ date: 2025-08-07
 domain: ai-alignment
 secondary_domains: [critical-systems]
 format: paper
-status: unprocessed
+status: processed
 priority: high
 tags: [arrows-theorem, machine-intelligence, impossibility, Legg-Hutter, Chollet-ARC, formal-proof]
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted: ["arrows-impossibility-theorem-applies-to-machine-intelligence-measurement-making-fair-universal-intelligence-metrics-mathematically-impossible.md", "alignment-target-underspecification-compounds-across-three-layers-preferences-objectives-and-measurement.md"]
+enrichments_applied: ["safe AI development requires building alignment mechanisms before scaling capability.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Fourth independent impossibility tradition extending Arrow's theorem from preference aggregation to intelligence measurement. Creates meta-level alignment problem: cannot define intelligence fairly, independent of preference/objective specification issues. Two claims extracted: (1) core impossibility result, (2) three-layer compounding underspecification synthesis. Enriched two existing claims with new impossibility tradition."
 ---
 
 ## Content
@@ -41,3 +47,10 @@ No agent-environment-based MIM simultaneously satisfies analogs of Arrow's fairn
 PRIMARY CONNECTION: universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective
 WHY ARCHIVED: Fourth independent impossibility tradition — extends Arrow's theorem from alignment to intelligence measurement itself
 EXTRACTION HINT: Focus on the extension from preference aggregation to intelligence measurement and what this means for alignment targets
+
+
+## Key Facts
+- Paper published at AGI 2025 Conference, Springer LNCS vol. 16058
+- Authors: Oswald, J.T., Ferguson, T.M., & Bringsjord, S.
+- Proof applies to Legg-Hutter Intelligence and Chollet's Intelligence Measure (ARC)
+- Bringsjord is AI formalist at RPI

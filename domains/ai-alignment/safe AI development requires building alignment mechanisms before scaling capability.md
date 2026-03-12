@@ -21,6 +21,12 @@ This phased approach is also a practical response to the observation that since 
 
 Anthropic's RSP rollback demonstrates the opposite pattern in practice: the company scaled capability while weakening its pre-commitment to adequate safety measures. The original RSP required guaranteeing safety measures were adequate *before* training new systems. The rollback removes this forcing function, allowing capability development to proceed with safety work repositioned as aspirational ('we hope to create a forcing function') rather than mandatory. This provides empirical evidence that even safety-focused organizations prioritize capability scaling over alignment-first development when competitive pressure intensifies, suggesting the claim may be normatively correct but descriptively violated by actual frontier labs under market conditions.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-08-00-oswald-arrowian-impossibility-machine-intelligence]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) Oswald, Ferguson & Bringsjord (2025) prove Arrow's Impossibility Theorem applies not just to preference aggregation (the original alignment impossibility) but to intelligence measurement itself. No agent-environment-based machine intelligence measure can simultaneously satisfy Pareto Efficiency, Independence of Irrelevant Alternatives, and Non-Oligarchy. This affects Legg-Hutter Intelligence, Chollet's ARC measure, and 'a large class of MIMs.' The impossibility extends from 'we cannot aggregate preferences fairly' to 'we cannot even measure intelligence fairly'—a meta-level underspecification where the alignment target itself violates fairness conditions. This strengthens the case for pre-scaling alignment work: if the measurement layer is fundamentally constrained, alignment mechanisms must be built before we scale to systems where measurement failures become catastrophic.
+
 ---
 
 Relevant Notes:
