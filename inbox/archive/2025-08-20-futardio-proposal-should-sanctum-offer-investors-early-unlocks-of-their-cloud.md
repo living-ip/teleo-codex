@@ -6,7 +6,7 @@ url: "https://www.futard.io/proposal/C61vTUyxTq5SWwbrTFEyYeXpGQLKhRRvRrGsu6YUa6C
 date: 2025-08-20
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 processed_by: rio
@@ -14,6 +14,11 @@ processed_date: 2025-08-20
 enrichments_applied: ["time-based-token-vesting-is-hedgeable-making-standard-lockups-meaningless-as-alignment-mechanisms-because-investors-can-short-sell-to-neutralize-lockup-exposure-while-appearing-locked.md", "MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md"]
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "No new claims extracted. Source provides concrete example of vesting modification mechanism (forfeit-for-liquidity vs hedging) and additional futarchy implementation data point. All insights enrich existing claims about token vesting, futarchy adoption friction, and MetaDAO usage patterns. The failed proposal itself is a factual event, not an arguable claim."
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["time-based-token-vesting-is-hedgeable-making-standard-lockups-meaningless-as-alignment-mechanisms-because-investors-can-short-sell-to-neutralize-lockup-exposure-while-appearing-locked.md", "MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "No new claims extracted. Source provides concrete example of forfeit-for-liquidity mechanism as alternative to vesting hedgeability, and additional data point on futarchy adoption friction and low-volume uncontested decisions. Created decision_market entity for the proposal and enriched three existing claims with mechanism design insights and futarchy implementation patterns."
 ---
 
 ## Proposal Details
@@ -68,3 +73,13 @@ Read the full proposal here https://research.sanctum.so/t/cloud-005-should-sanct
 - Potential increase of up to 27 million CLOUD to Team Reserve if all investors opted in
 - Team committed not to redistribute forfeited tokens for 24 months
 - Proposal used MetaDAO Autocrat v0.3
+
+
+## Key Facts
+- Sanctum proposal C61vTUyxTq5SWwbrTFEyYeXpGQLKhRRvRrGsu6YUa6CX failed (2025-08-23)
+- 9% of CLOUD token supply was unlocking monthly over 24 months from investors
+- Proposal offered 35% forfeit rate for immediate unlock
+- Potential increase of up to 27 million CLOUD to Team Reserve if all investors opted in
+- Team committed not to redistribute forfeited tokens for 24 months
+- Used MetaDAO Autocrat v0.3
+- DAO account: GVmi7ngRAVsUHh8REhKDsB2yNftJTNRt5qMLHDDCizov

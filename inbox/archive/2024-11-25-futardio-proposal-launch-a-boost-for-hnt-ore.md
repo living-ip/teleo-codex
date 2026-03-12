@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/2QUxbiMkDtoKxY2u6kXuevfMsqKGtHNxMFYHVWbqRK1
 date: 2024-11-25
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy-excels-at-relative-selection-but-fails-at-absolute-prediction-because-ordinal-ranking-works-while-cardinal-estimation-requires-calibration.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Futardio proposal for ORE-HNT liquidity boost. Primary extraction: three new entities (ORE protocol, decision_market for the proposal, Helium). Two enrichments showing futarchy governance patterns: three-tier boost system as governance simplification mechanism, and strategic partnership evaluation through conditional markets. No novel claims — the proposal demonstrates existing futarchy mechanisms in practice rather than introducing new theoretical insights."
 ---
 
 ## Proposal Details
@@ -59,3 +64,10 @@ With the passing of this proposal, we would introduce a new boost with the same 
 - Autocrat version: 0.3
 - Completed: 2024-11-28
 - Ended: 2024-11-28
+
+
+## Key Facts
+- ORE proposal 2QUxbiMkDtoKxY2u6kXuevfMsqKGtHNxMFYHVWbqRK1A passed 2024-11-28
+- HNT-ORE boost uses Kamino kTokens representing concentrated liquidity positions on Orca
+- ORE three-tier boost system: Tier 1 (vanilla stake), Tier 2 (SOL-ORE, USDC-ORE), Tier 3 (ISC-ORE, HNT-ORE)
+- Helium HIP-138 consolidated network tokenomics around HNT as primary token
