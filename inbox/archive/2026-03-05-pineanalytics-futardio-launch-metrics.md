@@ -5,8 +5,13 @@ url: https://x.com/PineAnalytics/status/2029616320015159504
 date: 2026-03-05
 tags: [rio, metadao, futarchy, futardio, permissionless-launches]
 domain: internet-finance
-status: unprocessed
+status: enrichment
 claims_extracted: []
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Primary extraction: new claim on permissionless launch coordination friction with first-mover hesitancy as novel mechanism insight. Two enrichments: extends existing friction claim with new coordination dimension, confirms brand separation strategy working in practice. Entity update: Futardio timeline entry with launch metrics. Source provides clean early-stage data on permissionless futarchy launch dynamics."
 ---
 
 # Futard.io Launch Metrics (First 2 Days) — Pine Analytics
@@ -36,3 +41,10 @@ First analytics on futard.io's permissionless launch platform, MetaDAO's unbrand
 - Enriches [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]] — first-mover hesitancy is a new friction dimension
 - Strengthens Position #4 — if 34 ICOs in 2 days becomes steady state, MetaDAO/futard.io ecosystem dominates Solana launch volume by sheer throughput
 - The 5.9% success rate creates a quality filter through market mechanism — only projects that attract genuine capital survive
+
+
+## Key Facts
+- Futard.io: 34 ICOs created in first ~48 hours (2026-03-03 to 2026-03-05)
+- Futard.io: $15.6M total deposits from 929 wallets (~$16.8K average per wallet)
+- Futard.io: 2 of 34 projects (5.9%) reached funding thresholds
+- MetaDAO: 6 curated launches in Q4 2025 (comparison baseline)
