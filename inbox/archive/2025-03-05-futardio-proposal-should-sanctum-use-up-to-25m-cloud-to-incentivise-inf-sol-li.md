@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/6mc1Fp6ds8XKA2jMzBDDhVwvY6ZCGg6SNqvHy4E6LS7
 date: 2025-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions.md", "MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Governance proposal demonstrating futarchy for treasury-funded growth initiatives. No novel claims extracted - primary value is entity data (new decision_market entity, Kamino entity creation, Sanctum timeline update) and enrichment of existing futarchy mechanism claims. The proposal exemplifies low-contestation futarchy decisions where economic logic is straightforward."
 ---
 
 ## Proposal Details
@@ -75,3 +80,11 @@ Assuming the $2.5M TVL cap is reached, incentives should last 6 months at least.
 - Autocrat version: 0.3
 - Completed: 2025-03-08
 - Ended: 2025-03-08
+
+
+## Key Facts
+- INF outperforms mSOL and jitoSOL historically (2025-03-05 data)
+- Kamino manages >95% of xSOL-SOL AMM liquidity on Solana
+- INF-SOL Kamino vault outperformed 100% INF HODL strategy due to high capital velocity
+- Industry standard LP incentive rate is 15% combined APY
+- Sanctum proposal 6mc1Fp6ds8XKA2jMzBDDhVwvY6ZCGg6SNqvHy4E6LS7Q used Autocrat v0.3
