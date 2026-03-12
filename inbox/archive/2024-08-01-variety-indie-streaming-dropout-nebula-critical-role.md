@@ -11,11 +11,11 @@ status: processed
 priority: medium
 tags: [indie-streaming, owned-distribution, dropout, nebula, critical-role, beacon, creator-platforms]
 processed_by: clay
-processed_date: 2026-03-11
-claims_extracted: ["creator-owned-streaming-uses-dual-platform-strategy-with-free-tier-for-acquisition-and-owned-platform-for-monetization.md", "indie-streaming-platforms-emerged-as-category-not-outliers-across-multiple-content-verticals-by-2024.md"]
-enrichments_applied: ["creator-owned-streaming-infrastructure-has-reached-commercial-scale-with-430M-annual-creator-revenue-across-13M-subscribers.md", "fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership.md", "creator-owned-direct-subscription-platforms-produce-qualitatively-different-audience-relationships-than-algorithmic-social-platforms-because-subscribers-choose-deliberately.md"]
-extraction_model: "anthropic/claude-sonnet-4.5"
-extraction_notes: "Extracted two claims about dual-platform strategy and category emergence. Primary insight is the STRUCTURAL PATTERN (YouTube for acquisition, owned platform for monetization) converging across three independent verticals (comedy, educational, tabletop RPG). This is category formation, not individual success stories. Enriched three existing claims with new evidence. Created three entity pages for Dropout, Nebula, and Critical Role's Beacon as significant platforms in the indie streaming category."
+processed_date: 2026-03-12
+claims_extracted:
+  - "indie streaming platforms use free social distribution as acquisition funnel and owned subscription as monetization layer, treating them as complementary not competing"
+  - "the convergence of comedy, educational, and tabletop RPG creators on owned subscription distribution by 2024 indicates structural economic logic not idiosyncratic innovation"
+enrichments: []
 ---
 
 ## Content
