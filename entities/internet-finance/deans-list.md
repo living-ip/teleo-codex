@@ -47,3 +47,5 @@ Topics:
 ## Timeline
 
 - **2024-12-19** — [[deans-list-implement-3-week-vesting]] passed: 3-week linear vesting for DAO payments to reduce sell pressure from 80% immediate liquidation to 33% weekly rate, projected 15%-25% valuation increase
+
+- **2024-12-30** — [[deans-list-fund-website-redesign]] passed: $3,500 budget approved for website redesign with projected 50% engagement increase and 30%-50% contract growth

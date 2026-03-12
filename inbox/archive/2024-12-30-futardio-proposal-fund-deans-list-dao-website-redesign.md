@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/5V5MFN69yB2w82QWcWXyW84L3x881w5TanLpLnKAKyK
 date: 2024-12-30
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Governance proposal with detailed financial modeling. No novel claims about futarchy mechanisms - the valuation methodology and impact projections are standard proposal content. Created decision_market entity and updated parent entities with timeline entries. The proposal demonstrates futarchy pricing of operational/cultural spending but doesn't introduce new mechanism insights beyond existing claims about cultural proposal pricing."
 ---
 
 ## Proposal Details
@@ -172,3 +176,15 @@ Current MCAP will be -5% of the MCAP at the time of the proposal to account for 
 - Autocrat version: 0.3
 - Completed: 2025-01-03
 - Ended: 2025-01-03
+
+
+## Key Facts
+- Dean's List DAO treasury: $115,000 (2024-12-30)
+- Dean's List DAO revenue model: 5% tax on member-generated contract revenue
+- Dean's List DAO annual contract revenue: ~$150,000 (2024)
+- Dean's List DAO current valuation: $450,000 (2024-12-30)
+- Website redesign budget: $3,500 ($2,800 USDC + $700 DEAN)
+- Payment structure: 80% upfront, 20% vested monthly over 12 months
+- Recipient: Dean's List Nigeria Network State Multi-Sig (36t37e9YsvSav4qoHwiLR53apSqpxnPYvenrJ4uxQeFE)
+- TWAP pass threshold: $489,250 (current MCAP $475,000 + 3%)
+- Proposal passed: 2025-01-03
