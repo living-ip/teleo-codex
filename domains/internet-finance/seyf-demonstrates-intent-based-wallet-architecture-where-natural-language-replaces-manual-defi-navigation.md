@@ -38,7 +38,7 @@ This inverts the traditional wallet model where users manually navigate protocol
 
 ## Limitations
 
-**No demonstrated user adoption**: The product launched as part of a futarchy-governed fundraise on MetaDAO that failed to reach its $300K target, raising only $200K before refunding. We have no evidence of production usage or user validation of the intent-based model.
+**No demonstrated user adoption**: The product launched as part of a futarchy-governed fundraise on MetaDAO that failed to reach its $300K target, raising only $200.00 (two hundred dollars) before refunding in under 24 hours. We have no evidence of production usage or user validation of the intent-based model.
 
 **Solver complexity not detailed**: The documentation describes the solver layer conceptually but doesn't specify how it handles intent ambiguity, optimization trade-offs, or protocol risk assessment.
 

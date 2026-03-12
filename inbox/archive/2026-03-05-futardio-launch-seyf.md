@@ -12,7 +12,11 @@ event_type: launch
 processed_by: rio
 processed_date: 2026-03-11
 extraction_model: "anthropic/claude-sonnet-4.5"
-extraction_notes: "Failed Futardio launch with trivial capital raised. Created entity page because it demonstrates futarchy-governed launch mechanics and intent-based wallet architecture, but no extractable claims — the project failed before producing evidence of mechanism viability. The pitch deck contains standard startup projections but no novel insights about AI wallets, DeFi UX, or futarchy governance that aren't already captured in existing KB claims."
+extraction_notes: "Failed Futardio launch with trivial capital raised. Created entity page because it demonstrates futarchy-governed launch mechanics and intent-based wallet architecture. Second-pass extraction (rio, 2026-03-12) added one claim on the fundraise outcome as a market signal (contrast with CULT $11.4M raise on same platform) and corrected existing architecture claim's fundraise amount from $200K to $200.00."
+claims_extracted:
+  - seyf-futardio-fundraise-raised-200-against-300000-target-signaling-near-zero-market-traction-for-ai-native-wallet-concept
+enrichments:
+  - "Corrected seyf-demonstrates-intent-based-wallet-architecture claim: fundraise amount was $200.00 not $200K"
 ---
 
 ## Launch Details
