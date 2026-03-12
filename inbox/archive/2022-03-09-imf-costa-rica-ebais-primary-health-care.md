@@ -7,9 +7,14 @@ date: 2022-03-09
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: null-result
 priority: high
 tags: [costa-rica, ebais, primary-health-care, international-comparison, spending-efficiency, blue-zone]
+processed_by: vida
+processed_date: 2026-03-11
+enrichments_applied: ["medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm.md", "pace-demonstrates-integrated-care-averts-institutionalization-through-community-based-delivery-not-cost-reduction.md", "the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Two new claims extracted: (1) Costa Rica as proof that prevention-first primary care at national scale achieves peer outcomes at fraction of US cost, (2) geographic empanelment as the structural mechanism enabling population health management. Three enrichments: extends the 10-20% medical care claim with strongest international counterfactual, extends PACE claim with national-scale comparison, confirms healthcare attractor state but challenges whether technology is prerequisite vs accelerant. Key insight: EBAIS-PACE comparison reveals same clinical model, wildly different scale — difference is political economy not care design."
 ---
 
 ## Content
@@ -58,3 +63,12 @@ tags: [costa-rica, ebais, primary-health-care, international-comparison, spendin
 PRIMARY CONNECTION: [[medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm]]
 WHY ARCHIVED: First international health system deep-dive in the KB. Costa Rica is the strongest counterfactual to US healthcare spending.
 EXTRACTION HINT: The EBAIS-PACE comparison is where the real insight lives. Same model, same concept — wildly different scale. What's different? Political economy, not clinical design.
+
+
+## Key Facts
+- Costa Rica life expectancy: 81.5 years (female), 76.7 years (male) — second in Americas
+- Costa Rica healthcare spending: 1/10 per capita vs US, below world average as % of income
+- EBAIS introduced 1994, covers 5 million population
+- EBAIS team composition: doctor, nurse, technical assistant, medical clerk, pharmacist
+- EBAIS districts show 8% lower child mortality, 2% lower adult mortality, 14% decline in communicable disease deaths
+- Nicoya Peninsula is one of 5 global Blue Zones, but Costa Rica's health outcomes are national not regional
