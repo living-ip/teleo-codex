@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/9ABv3Phb44BNF4VFteSi9qcWEyABdnRqkorNuNtzdh2
 date: 2024-01-12
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "This is a straightforward governance proposal with factual details about MetaDAO's first public token sale. No novel claims about futarchy mechanisms or governance dynamics - just execution of the existing fundraising model. Created decision_market entity as this was a significant fundraising decision with real capital at stake. Also added timeline entry to metadao.md parent entity."
 ---
 
 ## Proposal Details
@@ -75,3 +79,10 @@ The proposal invites futards to actively participate in shaping the future of th
 - Autocrat version: 0.1
 - Completed: 2024-01-18
 - Ended: 2024-01-18
+
+
+## Key Facts
+- MetaDAO proposal #3 created 2024-01-12, passed 2024-01-18
+- Proposal account: 9ABv3Phb44BNF4VFteSi9qcWEyABdnRqkorNuNtzdh2b
+- Token sale structure: $75K hard cap, ~$35K LP allocation, pricing at TWAP
+- Failure consequence: no public fundraising until March 12, 2024
