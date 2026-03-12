@@ -87,6 +87,9 @@ Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform 
 *Source: [[2024-06-05-futardio-proposal-fund-futuredaos-token-migrator]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
 
 FutureDAO's token migrator extends the unruggable ICO concept to community takeovers of existing projects. The tool uses a 60% presale threshold as the success condition: if presale reaches 60% of target, migration proceeds with new LP creation; if not, all SOL is refunded and new tokens are burned. This applies the conditional market logic to post-launch rescues rather than just initial launches. The proposal describes the tool as addressing 'Rugged Projects: Preserve community and restore value in projects affected by rug pulls' and 'Hostile Takeovers: Enabling projects to acquire other projects and empowering communities to assert control over failed project teams.' The mechanism creates on-chain enforcement of community coordination thresholds for takeover scenarios, extending MetaDAO's unruggable ICO pattern to the secondary market for abandoned projects.
+*Source: [[2026-01-00-alearesearch-metadao-fair-launches-misaligned-market]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+MetaDAO ICO platform processed 8 projects from April 2025 to January 2026, raising $25.6M against $390M in committed demand (15x oversubscription). Platform generated $57.3M in Assets Under Futarchy and $1.5M in fees from $300M trading volume. Individual project performance: Avici 21x peak/7x current, Omnipair 16x peak/5x current, Umbra 8x peak/3x current with $154M committed for $3M raise (51x oversubscription). Recent launches (Ranger, Solomon, Paystream, ZKLSOL, Loyal) show convergence toward lower volatility with maximum 30% drawdown from launch.
 
 ---
 

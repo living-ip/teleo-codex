@@ -52,6 +52,7 @@ Combined AMM + lending protocol on Solana — swapping and borrowing in the same
 - **~2026-03-15 (est)** — Leverage/looping feature expected (1-3 weeks from late Feb conversation). Implemented and audited in contracts, needs auxiliary peripheral program.
 - **Pending** — LP experience improvements, combined APY display (swap + interest), off-chain watchers for bad debt monitoring
 
+- **2026-01-00** — Performance update: reached 16x peak return, currently trading at ~5x from ICO price
 ## Competitive Position
 - **"Only game in town"** for leverage on MetaDAO ecosystem tokens currently
 - Rakka argues mathematically: same AMM + aggregator integration + borrow rate surplus = must yield more than Raydium for equivalent pools

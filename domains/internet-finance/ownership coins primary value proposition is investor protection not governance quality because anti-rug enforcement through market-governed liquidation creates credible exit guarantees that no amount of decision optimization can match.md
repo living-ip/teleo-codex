@@ -47,6 +47,9 @@ Futardio cult's $11.4M raise against $50,000 target with stated use of funds for
 *Source: [[2026-02-26-futardio-launch-fitbyte]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
 
 FitByte's pitch explicitly frames MetaDAO's unruggable ICO structure as investor protection through structural enforcement: 'The mechanism does not rely on trust. It does not require goodwill. It is structurally enforced.' The pitch emphasizes treasury governance, IP ownership through DAO LLC, and performance-gated founder unlocks as credibility mechanisms, not as superior decision-making tools. The framing is entirely about preventing founder extraction and ensuring investor sovereignty, with governance quality mentioned only as a secondary benefit. This confirms that even projects themselves understand and market the ownership coin value proposition as protection-first.
+*Source: [[2026-01-00-alearesearch-metadao-fair-launches-misaligned-market]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+MetaDAO's fair launch structure demonstrates investor protection through three mechanisms: (1) No private allocations—all participants pay identical prices during defined windows; (2) Market-governed treasury where founders receive only monthly allowances and larger expenditures require community approval through futarchy; (3) Mechanistic safeguards where IP and revenue are legally tied to ownership coins, and if a token trades below NAV, anyone can propose returning capital. Eight ICOs from April 2025-January 2026 raised $25.6M with no reported rug pulls despite 15x oversubscription creating strong incentives for founder extraction.
 
 ---
 

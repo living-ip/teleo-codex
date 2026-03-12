@@ -32,6 +32,7 @@ Zero-Knowledge Liquid Staking on Solana. Privacy mixer that converts deposited S
 ## Timeline
 - **2025-10-20** — Futardio launch opens ($300K target)
 
+- **2026-01-00** — ICO performance: maximum 30% drawdown from launch price
 ## Relationship to KB
 - [[futardio]] — launched on Futardio platform
 
