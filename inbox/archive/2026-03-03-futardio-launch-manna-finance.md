@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/5whxoTjxW4oKeSN4C8yf5JUur7pcSChkPWgmhSZQ8oD5"
 date: 2026-03-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Failed fundraise entity extraction. No novel claims about futarchy mechanisms or CDP economics — all information is factual (raise amounts, timeline, competitive positioning). The failure itself is a data point but doesn't constitute an arguable claim without broader pattern evidence. Created entity pages for Manna Finance and its fundraise decision market, updated Futardio timeline."
 ---
 
 ## Launch Details
@@ -186,3 +190,12 @@ We're not pitching to VCs. We're raising from the community that will use and go
 - Token mint: `DQuz3AeodGAoyXV5MG56F1ZqvgRpn1VhFwFskW6Jmeta`
 - Version: v0.7
 - Closed: 2026-03-04
+
+
+## Key Facts
+- Manna Finance raised $205 of $120,000 target (0.17% success rate) on Futardio (2026-03-03)
+- Manna proposed zero-interest CDP protocol on Solana with one-time 0.5% borrowing fee
+- Manna planned $10,000/month burn rate: 70% team, 10% infrastructure, 15% marketing, 5% security/legal
+- Manna competitive landscape: USX (Solstice), USDv (Solomon), jupUSD (Jupiter), USDGO (OSL)
+- Manna planned MetaDAO futarchy governance from launch
+- Fundraise closed in refunding status after 1 day (2026-03-04)
