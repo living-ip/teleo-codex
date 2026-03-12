@@ -26,6 +26,12 @@ The selection effect also relates to [[trial and error is the only coordination 
 
 Optimism futarchy experiment reveals the selection effect works for ordinal ranking but fails for cardinal estimation. Markets correctly identified which projects would outperform alternatives (futarchy selections beat Grants Council by $32.5M), but catastrophically failed at magnitude prediction (8x overshoot: $239M predicted vs $31M actual). This suggests the incentive/selection mechanism produces comparative advantage assessment ("this will outperform that") rather than absolute forecasting accuracy. Additionally, Badge Holders (domain experts) had the LOWEST win rates, indicating the selection effect filters for trading skill and calibration ability, not domain knowledge—a different kind of 'information' than typically assumed. The mechanism aggregates trader wisdom (risk management, position sizing, timing) rather than domain wisdom (technical assessment, ecosystem understanding).
 
+
+### Additional Evidence (extend)
+*Source: [[2025-00-00-frontiers-futarchy-desci-empirical-simulation]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+A retrospective simulation of VitaDAO governance found that futarchy-preferred outcomes matched actual token-weighted voting outcomes in 100% of cases examined through April 2025. This null result defines a boundary condition: when participants have similar information access and aligned incentives (as in expert DeSci communities), there is nothing for markets to aggregate that voting doesn't already capture. The paper's authors note that futarchy's 'foundational premises regarding informational efficiency of speculative markets, incentive alignment under risk, and objectivity of welfare metrics remain open to contestation' and that markets require 'institutional preconditions' to function as 'primary decision-making substrates.' This suggests information asymmetry is the key variable — markets excel when participants have different information, but converge to voting outcomes when information is symmetrically distributed.
+
 ---
 
 Relevant Notes:

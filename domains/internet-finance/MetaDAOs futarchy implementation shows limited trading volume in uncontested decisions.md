@@ -23,6 +23,12 @@ This evidence has direct implications for governance design. It suggests that [[
 
 Optimism's futarchy experiment achieved 5,898 total trades from 430 active forecasters (average 13.6 transactions per person) over 21 days, with 88.6% being first-time Optimism governance participants. This suggests futarchy CAN attract substantial engagement when implemented at scale with proper incentives, contradicting the limited-volume pattern observed in MetaDAO. Key differences: Optimism used play money (lower barrier to entry), had institutional backing (Uniswap Foundation co-sponsor), and involved grant selection (clearer stakes) rather than protocol governance decisions. The participation breadth (10 countries, 4 continents, 36 new users/day) suggests the limited-volume finding may be specific to MetaDAO's implementation or use case rather than a structural futarchy limitation.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-00-00-frontiers-futarchy-desci-empirical-simulation]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Empirical analysis of 13 DeSci DAOs found that most operate below 1 proposal/month, which the researchers argue is too infrequent for continuous futarchy. Low governance cadence creates structural problems: liquidity fragmentation (each proposal creates new markets, but <1/month means capital spread too thin), participant disengagement (traders need regular opportunities), and information staleness (futarchy's advantage is continuous price discovery, but low frequency means infrequent updates). This provides a structural explanation for limited trading volume beyond just 'uncontested decisions' — governance cadence itself determines whether futarchy markets can maintain depth. The paper notes that 'only some DAOs exhibit governance tempo compatible with continuous outcome-based decision processes,' suggesting a minimum decision throughput threshold for futarchy viability.
+
 ---
 
 Relevant Notes:

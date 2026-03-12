@@ -16,6 +16,12 @@ This clarity becomes crucial when combined with [[decision markets make majority
 
 The contrast with other governance domains matters. For government policy futarchy, choosing objective functions remains genuinely difficult—citizens want fairness, prosperity, security, and other goods that trade off. But for asset futarchy, the shared financial interest provides natural alignment. This connects to [[ownership alignment turns network effects from extractive to generative]]—the simple, shared objective function is what enables the alignment.
 
+
+### Additional Evidence (challenge)
+*Source: [[2025-00-00-frontiers-futarchy-desci-empirical-simulation]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+A peer-reviewed academic paper argues that KPI-conditional futarchy (forecasting proposal-specific key performance indicators) is more appropriate than asset-price futarchy for organizations where token price is a noisy proxy for success. The paper examines DeSci DAOs where token markets are thinly traded and tightly coupled to crypto market sentiment, making price a poor signal of organizational welfare. The authors argue that when 'token price is a noisy proxy for organizational success,' KPI-conditional markets that directly measure outcomes (papers published, milestones achieved) provide better governance signal than speculating on token price movements. This challenges the universality of coin-price objectives, suggesting they work best in liquid markets where price efficiently aggregates organizational value, but fail in contexts with thin liquidity or external noise dominance.
+
 ---
 
 Relevant Notes:
