@@ -23,6 +23,12 @@ The fanchise management stack also explains why since [[value flows to whichever
 
 Claynosaurz-Mediawan production implements the co-creation layer through three specific mechanisms: (1) sharing storyboards with community during pre-production, (2) sharing script portions during writing, and (3) featuring holders' digital collectibles within series episodes. This occurs within a professional co-production with Mediawan Kids & Family (39 episodes × 7 minutes), demonstrating co-creation at scale beyond independent creator projects. The team explicitly frames this as 'involving community at every stage' of production, positioning co-creation as a production methodology rather than post-hoc engagement.
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-08-01-variety-indie-streaming-dropout-nebula-critical-role]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Dropout, Nebula, and Critical Role's Beacon all serve niche audiences with high willingness-to-pay through community-driven (not algorithm-driven) discovery. Each platform implements fandom-backed growth model where subscribers choose deliberately rather than being algorithmically recommended. Nebula's ~2/3 annual membership rate indicates high fan commitment. This dual-platform strategy (free YouTube for acquisition, owned platform for monetization) represents the owned-distribution layer of the fanchise stack.
+
 ---
 
 Relevant Notes:

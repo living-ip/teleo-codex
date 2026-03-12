@@ -22,6 +22,12 @@ This claim connects to the deeper structural argument in [[streaming churn may b
 
 The "night and day" characterization is a single practitioner's account and may reflect Dropout's unusually strong brand rather than a universal pattern. The confidence is experimental because the qualitative relationship difference is asserted but not systematically measured across multiple creators.
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-08-01-variety-indie-streaming-dropout-nebula-critical-role]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+All three platforms (Dropout, Nebula, Critical Role's Beacon) use community-driven discovery rather than algorithm-driven discovery. Nebula's ~2/3 annual membership rate (vs monthly) signals high subscriber commitment and deliberate choice. The dual-platform strategy separates algorithmic discovery (YouTube) for reach from deliberate subscription (owned platform) for monetization, making the choice to subscribe an explicit opt-in rather than algorithmic recommendation.
+
 ---
 
 Relevant Notes:

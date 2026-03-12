@@ -7,9 +7,15 @@ date: 2024-08-01
 domain: entertainment
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: medium
 tags: [indie-streaming, owned-distribution, dropout, nebula, critical-role, beacon, creator-platforms]
+processed_by: clay
+processed_date: 2026-03-11
+claims_extracted: ["creator-owned-streaming-uses-dual-platform-strategy-with-free-tier-for-acquisition-and-owned-platform-for-monetization.md", "indie-streaming-platforms-emerged-as-category-not-outliers-across-multiple-content-verticals-by-2024.md"]
+enrichments_applied: ["creator-owned-streaming-infrastructure-has-reached-commercial-scale-with-430M-annual-creator-revenue-across-13M-subscribers.md", "fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership.md", "creator-owned-direct-subscription-platforms-produce-qualitatively-different-audience-relationships-than-algorithmic-social-platforms-because-subscribers-choose-deliberately.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims about dual-platform strategy and category emergence. Primary insight is the STRUCTURAL PATTERN (YouTube for acquisition, owned platform for monetization) converging across three independent verticals (comedy, educational, tabletop RPG). This is category formation, not individual success stories. Enriched three existing claims with new evidence. Created three entity pages for Dropout, Nebula, and Critical Role's Beacon as significant platforms in the indie streaming category."
 ---
 
 ## Content
@@ -51,3 +57,12 @@ Variety deep-dive on independent creator-owned streaming platforms as a new cate
 PRIMARY CONNECTION: fanchise management is a stack of increasing fan engagement from content extensions through co-creation and co-ownership
 WHY ARCHIVED: Evidences owned-distribution as an emerging CATEGORY, not just individual outliers. The dual-platform pattern (YouTube for acquisition, owned for monetization) is a specific structural innovation.
 EXTRACTION HINT: The extractable insight is the dual-platform pattern and the category emergence. Individual company data is secondary to the structural pattern.
+
+
+## Key Facts
+- Dropout reached 1M+ subscribers by October 2025
+- Nebula revenue more than doubled year-over-year as of August 2024
+- Nebula has ~2/3 of subscribers on annual memberships
+- Critical Role's Beacon launched May 2024 at $5.99/month
+- Critical Role hired General Manager for Beacon in January 2026
+- Variety published first major trade coverage of indie streaming as category on 2024-08-01

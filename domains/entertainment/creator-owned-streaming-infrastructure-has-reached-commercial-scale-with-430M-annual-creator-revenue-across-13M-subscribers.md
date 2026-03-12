@@ -20,6 +20,12 @@ This positions Vimeo Streaming as a "Shopify for streaming": infrastructure-as-a
 
 The $430M figure is particularly significant because it represents revenue flowing *to creators* rather than being captured by platforms. This is a structural reversal from the ad-supported social model where platforms capture most of the value from creator audiences.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-08-01-variety-indie-streaming-dropout-nebula-critical-role]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Dropout reached 1M+ subscribers by October 2025. Nebula revenue more than doubled in past year with approximately 2/3 of subscribers on annual memberships (indicating high commitment and retention). Critical Role launched Beacon in May 2024 at $5.99/month and hired a General Manager for the platform in January 2026, signaling investment in growth infrastructure. All three platforms maintain parallel YouTube presence for acquisition while monetizing through owned subscription platforms.
+
 ---
 
 Relevant Notes:
