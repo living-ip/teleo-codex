@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/zwVfLheTvbXN5Vn2tZxTc8KaaVnLoBFgbZzskdFnPUb"
 date: 2026-01-01
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy-based fundraising creates regulatory separation because there are no beneficial owners and investment decisions emerge from market forces not centralized control.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "First futarchy-governed physical infrastructure project. Extracted two novel claims: (1) futarchy application to agriculture with market-controlled CAPEX, (2) performance-unlocked team tokens with price-multiple triggers. Enriched three existing claims with physical infrastructure context. Created entities for MycoRealms (company), crypticmeta (person), and updated Futardio timeline. The team vesting structure (price multiples + TWAP + cliff) is a novel mechanism worth tracking separately from standard time-based vesting critiques."
 ---
 
 ## Launch Details
@@ -204,3 +209,14 @@ _Note: MycoRealms is not a financial product. $MYCO tokens represent governance 
 - Production target: button mushrooms initially, scaling to 12 rooms, then medicinal mushrooms and export
 - Transparency: all invoices, expenses, harvest records, photos published to Arweave
 - Team unlock structure: 5 tranches at 2x/4x/8x/16x/32x ICO price via 3-month TWAP, 18-month minimum cliff
+
+
+## Key Facts
+- MycoRealms raise target: $125,000 USDC (2026-01-01)
+- MycoRealms token supply: 15.9M max (12.9M circulating at launch)
+- MycoRealms monthly allowance: $10,000
+- MycoRealms first CAPEX proposal: $50,000 for infrastructure
+- MycoRealms team: crypticmeta (Solana/Bitcoin dev, OrdinalNovus $30M volume) + Ram (5+ years mushroom production)
+- MycoRealms production target: button mushrooms initially, scaling to 12 rooms, then medicinal mushrooms and export
+- MycoRealms team unlock: 5 tranches at 2x/4x/8x/16x/32x ICO price via 3-month TWAP, 18-month minimum cliff
+- OrdinalNovus trading volume: $30M (CBRC token exchange on Bitcoin Ordinals)

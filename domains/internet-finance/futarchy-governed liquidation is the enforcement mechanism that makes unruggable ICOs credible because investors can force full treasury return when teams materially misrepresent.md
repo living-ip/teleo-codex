@@ -52,6 +52,12 @@ Critically, the proposal nullifies a prior 90-day restriction on buybacks/liquid
 
 MycoRealms implements unruggable ICO structure with automatic refund mechanism: if $125,000 target not reached within 72 hours, full refunds execute automatically. Post-raise, team has zero direct treasury access — operates on $10,000 monthly allowance with all other expenditures requiring futarchy approval. This creates credible commitment: team cannot rug because they cannot access treasury directly, and investors can force liquidation through futarchy proposals if team materially misrepresents (e.g., fails to publish operational data to Arweave as promised, diverts funds from stated use). Transparency requirement (all invoices, expenses, harvest records, photos published to Arweave) creates verifiable baseline for detecting misrepresentation.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-01-futardio-launch-mycorealms]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+MycoRealms makes the liquidation threat more concrete and verifiable by operating in physical infrastructure where misrepresentation is easier to detect. The team publishes all invoices, expenses, harvest records, and operational photos to Arweave, creating a transparent audit trail. If the team claims to have built 3 growing rooms but on-chain records show no corresponding CAPEX deployment or harvest data, investors can propose liquidation through futarchy. The physical nature of the operation (mushroom production with measurable yields, temperature/humidity logs, wholesale sales records) makes the 'material misrepresentation' threshold clearer and more objectively verifiable than in purely digital projects, strengthening the credibility of the liquidation enforcement mechanism.
+
 ---
 
 Relevant Notes:

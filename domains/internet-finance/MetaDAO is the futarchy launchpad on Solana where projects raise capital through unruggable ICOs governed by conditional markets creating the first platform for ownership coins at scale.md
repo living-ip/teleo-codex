@@ -82,6 +82,12 @@ Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform 
 
 (challenge) Areal's failed Futardio launch ($11,654 raised of $50K target, REFUNDING status) demonstrates that futarchy-governed fundraising does not guarantee capital formation success. The mechanism provides credible exit guarantees through market-governed liquidation and governance quality through conditional markets, but market participants still evaluate project fundamentals and team credibility. Futarchy reduces rug risk but does not eliminate market skepticism of unproven business models or early-stage teams.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-01-futardio-launch-mycorealms]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+MycoRealms demonstrates MetaDAO/Futardio's expansion beyond digital-native projects into physical infrastructure. The $125K raise for mushroom farming operations uses the same unruggable ICO structure (72-hour raise window, full refunds if target not met, automatic treasury/liquidity deployment if successful) but applies it to tangible asset production with measurable physical outputs (crop yields, temperature/humidity data, wholesale sales). All operational records publish to Arweave. Team allocation uses performance-only unlocks (5 tranches at 2x/4x/8x/16x/32x ICO price via 3-month TWAP, 18-month minimum cliff, zero tokens if price never reaches 2x). This is the first futarchy-governed agricultural operation, expanding the platform's scope from ownership coins to real-world infrastructure governance.
+
 ---
 
 Relevant Notes:

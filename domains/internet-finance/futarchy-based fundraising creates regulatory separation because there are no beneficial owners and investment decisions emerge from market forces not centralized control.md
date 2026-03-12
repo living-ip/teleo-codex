@@ -25,6 +25,12 @@ Since [[decision markets make majority theft unprofitable through conditional to
 
 **The timing dependency.** Since [[anti-payvidor legislation targets all insurer-provider integration without distinguishing acquisition-based arbitrage from purpose-built care delivery]], the regulatory environment for Devoted specifically adds complexity. Public perception of crypto at the time of the raise matters. Companies need to understand that having a publicly trading proxy for their value is a double-edged sword.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-01-futardio-launch-mycorealms]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+MycoRealms extends futarchy-based fundraising into physical infrastructure (mushroom farming) where the team operates on a $10,000 monthly allowance and cannot access the $125,000 treasury directly. The first CAPEX proposal ($50,000 for infrastructure) must pass through conditional markets before deployment. This creates a clean separation: the raise provides capital, but market forces (not team discretion) determine how that capital deploys. All invoices, expenses, and operational records publish to Arweave, creating full transparency. This is the first application of futarchy governance to tangible asset production with measurable physical outputs (temperature, humidity, CO2, yield, harvest records), demonstrating that the regulatory separation mechanism (market-controlled deployment, no beneficial owner discretion) extends beyond digital-native projects to real-world infrastructure.
+
 ---
 
 Relevant Notes:
