@@ -7,10 +7,15 @@ date: 2026-03-01
 domain: entertainment
 secondary_domains: [ai-alignment, cultural-dynamics]
 format: report
-status: unprocessed
+status: null-result
 priority: high
 tags: [content-provenance, C2PA, content-credentials, digital-authenticity, trust-infrastructure]
 flagged_for_theseus: ["Content authentication infrastructure as alignment mechanism — provenance verification is a trust coordination problem"]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["community-owned-IP-has-structural-advantage-in-human-made-premium-because-provenance-is-inherent-and-legible.md", "human-made-is-becoming-a-premium-label-analogous-to-organic-as-AI-generated-content-becomes-dominant.md", "GenAI adoption in entertainment will be gated by consumer acceptance not technology capability.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) infrastructure deployment claim documenting consumer-scale rollout of C2PA/Content Credentials, (2) cross-domain mechanism claim connecting content authentication to trust coordination problems. Applied three enrichments to existing entertainment claims about human-made premium, consumer acceptance gating, and community-owned IP provenance advantage. Source provides concrete infrastructure evidence (hardware, software, standards) rather than just conceptual framework. Agent notes correctly identified this as supply-side infrastructure for authenticity premium. No entertainment-specific adoption metrics (studio/platform usage) available in source."
 ---
 
 ## Content
@@ -43,3 +48,13 @@ CAI emphasizes convergence among diverse content creators on shared attribution 
 PRIMARY CONNECTION: [[GenAI adoption in entertainment will be gated by consumer acceptance not technology capability]]
 WHY ARCHIVED: Content provenance infrastructure is the supply-side of the authenticity premium — makes human origin verifiable
 EXTRACTION HINT: Focus on the INFRASTRUCTURE buildout, not just the concept. Consumer hardware (Pixel 10) + enterprise tools (Adobe) + standards (C2PA 1.2) = provenance becomes ambient, not opt-in.
+
+
+## Key Facts
+- Content Authenticity Initiative expanded to 6,000+ global members by 2026
+- Google Pixel 10 launched with C2PA credential support (2026)
+- Sony PXW-Z300 released with Content Credentials integration (2026)
+- Adobe Content Authenticity for Enterprise launched (2026)
+- C2PA Conformance Program established (2026)
+- CAWG 1.2 Specification released (2026)
+- learn.contentauthenticity.org launched in collaboration with Pixelstream (2026)

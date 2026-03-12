@@ -6,13 +6,17 @@ url: "https://www.futard.io/proposal/35mgLHTJYhyEWjsLHDd4jZNQ6jwuZ4E214TUm1hA8vB
 date: 2025-07-02
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 processed_by: rio
 processed_date: 2025-07-02
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "This source is a futarchy proposal event record with minimal substantive content. The description field contains only 'This is' (appears truncated). No arguable claims, no evidence about futarchy mechanisms, governance outcomes, or indexer performance. This is purely operational metadata from the futard.io platform tracking a failed test proposal. No extractable claims or enrichments to existing knowledge base."
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Test proposal with minimal substantive content. Description field truncated to 'This is'. Created entity records for Test DAO timeline and decision_market entity for completeness, though this appears to be infrastructure testing rather than meaningful governance. No extractable claims about futarchy mechanisms or governance outcomes."
 ---
 
 ## Proposal Details
@@ -59,3 +63,9 @@ is
 - Proposal number: 2
 - DAO account: GCSGFCRfCRQDbqtPLa6bV7DCJz26NkejR182or8PNqRw
 - Autocrat version: 0.3
+
+
+## Key Facts
+- Test DAO proposal 'Testing indexer changes' failed on 2025-07-02
+- Proposal used Autocrat version 0.3
+- Proposal account: 35mgLHTJYhyEWjsLHDd4jZNQ6jwuZ4E214TUm1hA8vB2

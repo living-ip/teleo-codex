@@ -6,7 +6,13 @@ url: "https://www.futard.io/proposal/BU8kQ7ECq8CJ9BHUZfYsjHFKPMGsF6oJn5d6b1tArdw
 date: 2024-07-18
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
+processed_by: rio
+processed_date: 2026-03-12
+claims_extracted:
+  - "SPL-404-enables-fungible-NFT-swap-revenue-for-DAOs-by-bridging-governance-tokens-and-NFT-liquidity-on-Solana"
+  - "futarchy-markets-can-price-cultural-spending-proposals-by-treating-community-cohesion-and-brand-equity-as-token-price-inputs"
+enrichments: []
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 ---
