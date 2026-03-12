@@ -37,6 +37,7 @@ Solana liquidity protocol offering Dynamic Liquidity Market Maker (DLMM) pools, 
 - **2025-Q4** — Meteora LP generates $1.15M in fees for MetaDAO (Pine Analytics Q4 report)
 - **2025-10 to 2026-03** — Every Futardio launch allocates 900K tokens to Meteora pool as standard template
 
+- **2025-Q4** — Meteora LP positions generated 46% of MetaDAO's $2.51M protocol fees ($1.15M), demonstrating the platform's role in futarchy protocol revenue infrastructure
 ## Competitive Position
 - **Infrastructure role**: Not competing with MetaDAO — provides complementary liquidity infrastructure. Meteora is the LP venue; Futarchic AMM is the governance venue.
 - **vs Raydium**: Both are major Solana AMMs. Raydium offers CLMM (concentrated liquidity). Meteora differentiates with DLMM and dynamic bonding pools.

@@ -53,6 +53,12 @@ Autocrat is MetaDAO's core governance program on Solana -- the on-chain implemen
 
 **Limitations.** [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- when proposals are clearly good or clearly bad, few traders participate because the expected profit from trading in a consensus market is near zero. This is a structural feature, not a bug: contested decisions get more participation precisely because they're uncertain, which is when you most need information aggregation. But it does mean uncontested proposals can pass or fail with very thin markets, making the TWAP potentially noisy.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-03-pineanalytics-metadao-q4-2025-quarterly-report]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Q4 2025 data reveals the revenue generation capacity of the Autocrat mechanism: Futarchy AMM generated 54% of MetaDAO's $2.51M protocol fees ($1.35M), with Meteora LP positions contributing 46% ($1.16M). This demonstrates the conditional market infrastructure is not merely a governance tool but a revenue-generating product comparable to passive liquidity provision. Cost of revenue was ~12% of fee revenue, indicating the mechanism operates at scale with sustainable unit economics. The comparable fee split between governance mechanism and passive liquidity suggests the three-day TWAP settlement mechanism creates sufficient trading activity and market depth to generate meaningful protocol revenue.
+
 ---
 
 Relevant Notes:

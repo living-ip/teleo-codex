@@ -42,6 +42,12 @@ Proph3t's other framing reinforces this: he distinguishes "market oversight" fro
 
 Futardio cult's $11.4M raise against $50,000 target with stated use of funds for 'fan merch, token listings, private events/partys' (consumption rather than productive investment) tests whether futarchy's anti-rug mechanisms provide credible investor protection even when projects explicitly commit to non-productive spending. The 22,706% oversubscription suggests market confidence in futarchy-governed liquidation rights extends beyond traditional venture scenarios to purely speculative assets where fundamental value analysis is minimal, indicating investor protection mechanisms are the primary value driver regardless of governance quality or asset type.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-03-03-pineanalytics-metadao-q4-2025-quarterly-report]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+MetaDAO's Q4 2025 performance during market contraction provides empirical validation of the investor protection thesis over governance quality. While crypto marketcap declined 25% and speculative platforms like Pump.fun dropped 40%, MetaDAO grew from 1 to 6 launches (6x growth). This counter-cyclical performance during risk-off conditions suggests investors prioritize credible anti-rug mechanisms over governance optimization when market sentiment shifts. The concentration of capital toward MetaDAO despite broader market decline indicates the market-governed liquidation enforcement mechanism creates exit guarantees that attract capital away from platforms lacking such protections, validating that investor protection is the primary value driver rather than governance quality.
+
 ---
 
 Relevant Notes:

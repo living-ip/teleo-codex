@@ -54,6 +54,7 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **2026-03** — Pine Analytics Q4 2025 quarterly report published
 
 - **2024-02-18** — [[metadao-otc-trade-pantera-capital]] failed: Pantera Capital's $50,000 OTC purchase proposal rejected by futarchy markets
+- **2025-Q4** — Generated first operating income: $2.51M protocol fees (54% Futarchy AMM, 46% Meteora LP), launched 6 ICOs with $18.7M volume, raised $10M via futarchy-approved OTC sale of 2M META tokens, grew total equity from $4M to $16.5M, extended runway to 15+ quarters at ~$783K quarterly burn
 ## Key Decisions
 | Date | Proposal | Proposer | Category | Outcome |
 |------|----------|----------|----------|---------|
