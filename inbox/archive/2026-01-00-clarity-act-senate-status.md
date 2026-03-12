@@ -6,7 +6,7 @@ url: https://www.kucoin.com/news/articles/what-is-the-clarity-act-a-2026-guide-t
 date: 2026-01-00
 domain: internet-finance
 secondary_domains: []
-format: article
+format: report
 status: null-result
 priority: high
 tags: [clarity-act, regulation, sec, cftc, digital-commodities, stablecoins, decentralization]
