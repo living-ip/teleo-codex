@@ -26,6 +26,12 @@ The five layers form a chain-link system: propellant depots without ISRU are une
 
 The investment framework this implies: position along the dependency chain that builds toward this attractor state. [[power is the binding constraint on all space operations because every capability from ISRU to manufacturing to life support is power-limited]], making power infrastructure foundational. Water extraction is enabling. Propellant depots are connective. Manufacturing platforms are the value-capture layer.
 
+
+### Additional Evidence (challenge)
+*Source: [[2026-03-00-artemis-program-restructuring]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Artemis program restructuring pushes first lunar landing to 2028 (Artemis IV), with Artemis III descoped to LEO-only mission. This represents significant timeline slippage from earlier projections. Additionally, NASA's March 2026 ISRU assessment reveals that despite multiple prototype systems reaching TRL 5-6 (Carbothermal reactor, IPEx excavator, PVEx volatile extractor), deployment is blocked by insufficient resource knowledge: 'lunar water/volatile extraction is lacking sufficient resource knowledge to proceed without significant risk' and 'a resilient resource exploration campaign is needed to understand and map lunar water before commercial extraction.' This adds a resource mapping phase to the critical path that wasn't accounted for in technology-readiness-based timelines, potentially extending the timeline to the attractor state by years beyond current projections.
+
 ---
 
 Relevant Notes:

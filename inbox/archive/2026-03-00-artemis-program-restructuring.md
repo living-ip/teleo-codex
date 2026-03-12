@@ -7,9 +7,15 @@ date: 2026-03-00
 domain: space-development
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: high
 tags: [artemis, nasa, sls, lunar-landing, isru, timeline-slip, governance-gap]
+processed_by: astra
+processed_date: 2026-03-11
+claims_extracted: ["artemis-iii-descope-to-leo-reveals-institutional-timeline-divergence-from-commercial-pace.md", "lunar-isru-deployment-blocked-by-resource-knowledge-gap-not-technology-readiness.md"]
+enrichments_applied: ["the 30-year space economy attractor state is a cislunar industrial system with propellant networks lunar ISRU orbital manufacturing and partial life support closure.md", "space governance gaps are widening not narrowing because technology advances exponentially while institutional design advances linearly.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two novel claims: (1) Artemis III descoping as concrete evidence of institutional vs commercial pace divergence, and (2) ISRU resource knowledge gap as deployment blocker distinct from technology readiness. Both claims enrich existing attractor state and governance gap theses. The ISRU resource knowledge constraint is a genuinely new insight not previously captured in KB—technology readiness does not equal deployment readiness when resource location is unknown. No entities to extract (government program, not commercial entity)."
 ---
 
 ## Content
@@ -39,3 +45,12 @@ This represents a significant restructuring from earlier plans where Artemis III
 PRIMARY CONNECTION: [[the 30-year space economy attractor state is a cislunar industrial system with propellant networks lunar ISRU orbital manufacturing and partial life support closure]]
 WHY ARCHIVED: Artemis restructuring pushes lunar landing to 2028 and reveals ISRU resource knowledge gap — both affect attractor state timeline
 EXTRACTION HINT: Extract the ISRU resource knowledge gap as a NEW constraint not currently in KB (technology readiness ≠ deployment readiness when you don't know where the resource is)
+
+
+## Key Facts
+- Artemis II: NET April 1, 2026, crewed lunar flyby, crew includes Wiseman, Glover, Koch (NASA) and Hansen (CSA)
+- Artemis II delayed by helium flow issue in SLS upper stage, rolled back to VAB Feb 25, 2026
+- Artemis III: mid-2027, restructured to LEO rendezvous and docking test (no longer lunar landing)
+- Artemis IV: first lunar landing, early 2028
+- Artemis V: second lunar landing, late 2028
+- ISRU prototype systems at TRL 5-6: Carbothermal reactor, IPEx excavator, PVEx volatile extractor

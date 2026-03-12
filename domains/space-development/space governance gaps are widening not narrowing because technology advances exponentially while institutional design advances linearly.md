@@ -25,6 +25,12 @@ This pattern — technological capability outpacing institutional design — rec
 
 The governance gap framing assumes governance must precede activity, but historically many governance regimes emerged from practice rather than design — maritime law, internet governance, and aviation regulation all evolved alongside the activities they governed. Counter: the speed differential is qualitatively different for space. Maritime law had centuries to evolve; internet governance emerged over decades but still lags (no global data governance framework exists). Space combines the speed of technology advancement with the lethality of the environment — governance failure in space doesn't produce market inefficiency, it produces Kessler syndrome or lethal infrastructure conflicts. The design window is compressed by the exponential pace of capability development.
 
+
+### Additional Evidence (confirm)
+*Source: [[2026-03-00-artemis-program-restructuring]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Artemis III restructured from lunar landing to LEO rendezvous/docking test, pushing first lunar landing to Artemis IV (early 2028). This represents a 56-year gap between Apollo 17 (1972) and the next human lunar landing. The descoping decision—removing the landing mission entirely rather than delaying it—suggests systemic readiness issues across multiple program elements. Meanwhile, commercial capabilities continue advancing: SpaceX achieving routine Falcon 9 reusability and developing Starship at unprecedented cadence. The institutional timeline continues slipping (Artemis II delayed to NET April 2026 due to helium flow issues requiring VAB rollback) while commercial launch costs and capabilities improve exponentially. This pattern exemplifies the governance gap: institutional programs experience scope reduction and repeated delays while commercial providers accelerate, demonstrating that institutional design cannot keep pace with exponential technology advancement.
+
 ---
 
 Relevant Notes:
