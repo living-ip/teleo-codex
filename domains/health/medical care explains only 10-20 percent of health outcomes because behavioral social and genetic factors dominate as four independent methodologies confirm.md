@@ -29,6 +29,12 @@ The claim that "90% of health outcomes are determined by non-clinical factors" h
 
 This has structural implications for how healthcare should be organized. Since [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]], the 90% finding argues that the 86% of payments still not at full risk are systematically ignoring the factors that matter most. Fee-for-service reimburses procedures, not outcomes, creating no incentive to address food insecurity, social isolation, or housing instability -- even though these may matter more than the procedure itself.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-00-00-nhs-england-waiting-times-underfunding]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The NHS case provides a natural experiment showing that even excellent primary care access and universal coverage (which the NHS achieves) cannot overcome the 10-20% medical care contribution ceiling when specialty access degrades. Despite ranking 3rd overall in Commonwealth Fund comparisons for equity and primary care, the NHS has the worst cancer outcomes among peer nations and 263% growth in respiratory waiting lists over a decade. This suggests that the 10-20% medical care contribution is concentrated in specialty interventions (cancer treatment, surgical procedures, advanced diagnostics) rather than primary care access. Universal primary care access is necessary for equity but insufficient for outcomes when specialty capacity is constrained. (Source: UK Parliament Public Accounts Committee 2025, NHS England specialty backlog data)
+
 ---
 
 Relevant Notes:

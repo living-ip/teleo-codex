@@ -7,9 +7,15 @@ date: 2025-01-01
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: processed
 priority: medium
 tags: [nhs, universal-coverage, waiting-times, underfunding, international-comparison, uk-healthcare]
+processed_by: vida
+processed_date: 2026-03-11
+claims_extracted: ["nhs-demonstrates-universal-coverage-without-adequate-funding-produces-excellent-primary-care-but-catastrophic-specialty-access.md", "gatekeeping-systems-optimize-primary-care-at-the-expense-of-specialty-access-creating-structural-bottlenecks.md"]
+enrichments_applied: ["medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm.md", "value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two novel claims about the NHS paradox (universal coverage + poor specialty outcomes) and gatekeeping tradeoffs. Both claims are well-supported by specific data points. Enriched two existing claims with NHS evidence showing limits of payment reform and medical care contribution to outcomes. The NHS case is a natural experiment demonstrating structural tradeoffs in healthcare system design — no duplicates found in existing KB."
 ---
 
 ## Content
@@ -60,3 +66,14 @@ tags: [nhs, universal-coverage, waiting-times, underfunding, international-compa
 PRIMARY CONNECTION: [[medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm]]
 WHY ARCHIVED: Cautionary international comparison — shows what universal coverage does and doesn't solve.
 EXTRACTION HINT: The paradox of ranking 3rd overall while having worst specialty access is the extractable insight. Different metrics tell different stories about the same system.
+
+
+## Key Facts
+- NHS waiting list: 7.5M patients, only 58.9% seen within 18 weeks (target: 92%)
+- 22% of patients waiting >6 weeks for diagnostic tests (standard: 1%)
+- Respiratory medicine waiting list: 263% increase over past decade
+- Gynaecology waiting list: 223% increase over past decade
+- Shortfall of 3.6 million diagnostic tests
+- NHS ranked 3rd overall in Commonwealth Fund Mirror Mirror 2024
+- Target of 65% within 18 weeks by March 2026 unlikely to be met
+- Waiting list must be halved to 3.4 million to reach 92% standard

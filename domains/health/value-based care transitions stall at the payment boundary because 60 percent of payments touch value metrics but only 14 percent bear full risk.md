@@ -23,6 +23,12 @@ The Making Care Primary model's termination in June 2025 (after just 12 months, 
 
 PACE represents the extreme end of value-based care alignment—100% capitation with full financial risk for a nursing-home-eligible population. The ASPE/HHS evaluation shows that even under complete payment alignment, PACE does not reduce total costs but redistributes them (lower Medicare acute costs in early months, higher Medicaid chronic costs overall). This suggests that the 'payment boundary' stall may not be primarily a problem of insufficient risk-bearing. Rather, the economic case for value-based care may rest on quality/preference improvements rather than cost reduction. PACE's 'stall' is not at the payment boundary—it's at the cost-savings promise. The implication: value-based care may require a different success metric (outcome quality, institutionalization avoidance, mortality reduction) than the current cost-reduction narrative assumes.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-00-00-nhs-england-waiting-times-underfunding]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The NHS represents the extreme case of value-based payment failure: a fully capitated single-payer system where payment is 100% divorced from volume, yet specialty outcomes are catastrophic. Despite billions spent on 'recovery programs' and 'transformation initiatives,' waiting lists grew 263% in respiratory and 223% in gynaecology over a decade. This suggests that payment reform alone is insufficient — the NHS has no fee-for-service incentive misalignment, yet capacity constraints and chronic underfunding produce worse specialty access than mixed-payment US systems. The stall point is not payment structure but political willingness to fund adequate capacity under any payment model. (Source: UK Parliament Public Accounts Committee 2025)
+
 ---
 
 Relevant Notes:
