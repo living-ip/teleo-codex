@@ -36,6 +36,12 @@ This is the first implementation — no track record exists for futarchy-governe
 - Team performance unlocks tied to 2x/4x/8x/16x/32x token price with 18-month cliff — unproven alignment mechanism for physical operations with high operational burn
 - Tension between real-world operational requirements (fixed deadlines, vendor deposits) and futarchy's market-based approval process
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-04-futardio-launch-pli-crperie-ambulante]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Pli Crêperie Ambulante provides a contrasting failure case to Myco Realms' successful physical infrastructure raise. While Myco Realms raised $125K for a mushroom farm, Pli failed to raise $350K for a food truck within one day (2026-03-04 to 2026-03-05). Key differentiators: (1) Crypto-native framing: Myco Realms positioned as DePIN infrastructure with on-chain metrics; Pli explicitly rejected crypto framing ('This isn't a meme coin... I'm not going to pretend a crêpe truck needs a token to exist'); (2) Tokenomics clarity: Myco Realms had defined production metrics and token mechanics; Pli used traditional business plan structure (60k CHF truck, 8k equipment, 90k/year founder living expenses, three-phase roadmap to franchise); (3) Founder background: Myco Realms had agricultural/crypto expertise; Pli founder was a Solutions Architect in tech with no chef training; (4) Market positioning: Myco Realms framed as infrastructure with measurable yield; Pli framed as consumer food business seeking capital. The immediate failure suggests futarchy-governed physical infrastructure raises require crypto-native positioning, on-chain measurable metrics, and founder credibility in the domain, not just capital formation for traditional businesses.
+
 ---
 
 Relevant Notes:

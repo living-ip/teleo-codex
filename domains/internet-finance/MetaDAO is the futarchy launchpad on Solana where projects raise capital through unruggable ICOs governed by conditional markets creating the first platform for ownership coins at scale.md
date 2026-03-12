@@ -82,6 +82,12 @@ Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform 
 
 (challenge) Areal's failed Futardio launch ($11,654 raised of $50K target, REFUNDING status) demonstrates that futarchy-governed fundraising does not guarantee capital formation success. The mechanism provides credible exit guarantees through market-governed liquidation and governance quality through conditional markets, but market participants still evaluate project fundamentals and team credibility. Futarchy reduces rug risk but does not eliminate market skepticism of unproven business models or early-stage teams.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-04-futardio-launch-pli-crperie-ambulante]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Futard.io (the MetaDAO launchpad) processed its first documented consumer food business raise with Pli Crêperie Ambulante (2026-03-04), which failed within one day. The project explicitly positioned itself as a traditional business using futarchy purely for capital formation: 'This isn't a tech startup. There's no AI, no protocol, no flywheel diagram. This is a food truck, a billig (crêpe griddle), and someone who's done the math.' Budget breakdown: 60k CHF truck, 8k equipment, 6k/year permits, 24k/year ingredients, 90k/year founder living expenses, 15k buffer = ~219k CHF (~$250K target). The immediate failure (closed 2026-03-05, one day after launch) suggests the platform's permissionless nature accepts non-crypto-native projects but market participants filter them out rapidly. This indicates that 'ownership coins at scale' may be limited to crypto-native or digitally-measurable projects rather than traditional physical businesses, and that the platform's unruggable ICO mechanism does not guarantee capital formation success for all project types—only those aligned with token-holder expectations around measurable outcomes and crypto-native positioning.
+
 ---
 
 Relevant Notes:

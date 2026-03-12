@@ -46,6 +46,7 @@ MetaDAO's token launch platform. Implements "unruggable ICOs" — permissionless
 
 - **2026-03-07** — Areal DAO launch: $50K target, raised $11,654 (23.3%), REFUNDING status by 2026-03-08 — first documented failed futarchy-governed fundraise on platform
 - **2026-03-04** — [[seekervault]] fundraise launched targeting $75,000, closed next day with only $1,186 (1.6% of target) in refunding status
+- **2026-03-04** — [[pli-creperie-ambulante-futardio-fundraise]] failed: First consumer food business raise ($350K target for Zürich food truck) closed with Refunding status within one day, demonstrating market filtering of non-crypto-native projects
 ## Competitive Position
 - **Unique mechanism**: Only launch platform with futarchy-governed accountability and treasury return guarantees
 - **vs pump.fun**: pump.fun is memecoin launch (zero accountability, pure speculation). Futardio is ownership coin launch (futarchy governance, treasury enforcement). Different categories despite both being "launch platforms."

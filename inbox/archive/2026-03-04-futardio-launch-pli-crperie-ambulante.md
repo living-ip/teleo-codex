@@ -6,7 +6,7 @@ url: "https://www.futard.io/launch/GmNzSXzQ3q6UCVRpBf8PkvEqoo454Qr6twWc9zuzJzBa"
 date: 2026-03-04
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
 processed_by: rio
@@ -14,6 +14,11 @@ processed_date: 2026-03-11
 enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability-because-failed-projects-on-a-curated-platform-damage-the-platforms-credibility.md", "myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-125k-mushroom-farm-raise-with-market-controlled-capex-deployment.md"]
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "First documented consumer food business futarchy raise. Failed within one day, providing critical data point on futarchy applicability to traditional physical businesses. Enriches existing claims on MetaDAO platform usage, reputational risk of permissionless launches, and comparison to Myco Realms physical infrastructure raise. Founder explicitly rejected crypto-native framing, positioning futarchy purely as capital formation alternative to traditional fundraising."
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-125k-mushroom-farm-raise-with-market-controlled-capex-deployment.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "First documented consumer food business futarchy raise. Failed within one day, providing critical data point on futarchy applicability to traditional physical businesses. Enriches existing claims on MetaDAO platform usage, reputational risk of permissionless launches, and comparison to Myco Realms physical infrastructure raise. Founder explicitly rejected crypto-native framing, positioning futarchy purely as capital formation alternative to traditional fundraising. No new claims extracted as the failure itself is the data point rather than a novel proposition about futarchy mechanisms."
 ---
 
 ## Launch Details
@@ -130,3 +135,13 @@ If that's you, welcome. Let's make crêpes.
 - Market context: Zürich 430k+ residents, no dedicated crêperie food truck currently operating
 - Token: 8Xq, mint address 8XqLC3q6ju8Mxd33Zj92pEZsVwbbvqFd7JUbPLXSmeta
 - Launch address: GmNzSXzQ3q6UCVRpBf8PkvEqoo454Qr6twWc9zuzJzBa
+
+
+## Key Facts
+- Pli Crêperie Ambulante launched 2026-03-04, closed 2026-03-05 (1 day duration)
+- Target raise: $350,000 (~219,000 CHF budgeted)
+- Token: 8Xq, mint: 8XqLC3q6ju8Mxd33Zj92pEZsVwbbvqFd7JUbPLXSmeta
+- Launch address: GmNzSXzQ3q6UCVRpBf8PkvEqoo454Qr6twWc9zuzJzBa
+- Founder: Solutions Architect in tech, Zürich-based, not trained chef
+- Market context: Zürich 430K+ residents, no dedicated crêperie food truck currently operating
+- Three-phase roadmap: food truck (months 1-12), restaurant (year 2), franchise (year 3+)
