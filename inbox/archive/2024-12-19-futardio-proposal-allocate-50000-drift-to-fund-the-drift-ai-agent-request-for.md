@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/A74H61YqwsbwRczuErbUyh9kqG1A7ZbiE1W5hWZmT9f
 date: 2024-12-19
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Factual governance proposal with no novel mechanism insights. Extracted as decision_market entity with timeline entry on parent Drift entity. No claims warranted—standard grants program structure with committee oversight."
 ---
 
 ## Proposal Details
@@ -133,3 +137,12 @@ This comes at a cost of 50k DRIFT tokens to the foundation.
 - Autocrat version: 0.3
 - Completed: 2024-12-22
 - Ended: 2024-12-22
+
+
+## Key Facts
+- Drift AI Agents Grants program allocated 50,000 DRIFT (2024-12-19)
+- Individual grants range from 10,000-20,000 DRIFT based on milestone completion
+- Application deadline March 1st, 2025
+- Program targets four agent categories: trading, yield, information, and social agents
+- Decision committee has final discretion on all grant awards
+- Proposal passed 2024-12-22 via Autocrat v0.3

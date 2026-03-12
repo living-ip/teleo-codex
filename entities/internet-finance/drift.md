@@ -37,6 +37,7 @@ Perpetuals DEX on Solana — one of the largest decentralized derivatives platfo
 - **2024-12-19** — AI Agents Grants program: 50K DRIFT for trading, yield, info, and social agents
 - **2025-02-13** — Drift Working Group funded via futarchy
 
+- **2024-12-22** — [[drift-ai-agent-grants-program]] passed: 50,000 DRIFT allocated for AI Agents Grants program targeting trading, yield, information, and social agents building on Drift infrastructure
 ## Competitive Position
 - **Futarchy validation**: Drift using MetaDAO's governance system is the strongest external validation signal — a major protocol choosing futarchy over traditional token voting for real treasury decisions.
 - **Future leverage threat**: Drift listing META perps would directly compete with OmniPair for leverage demand. This is OmniPair's identified "key vulnerability" — the moat is temporary.
