@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/13YpYe4k5GPaD2vZvvY7v7if31S1Wu8yWShkQs8MzLNh"
 date: 2025-10-23
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Launch announcement with fundraise metrics. No novel claims — this is factual data about a successful Futardio raise. Created decision_market entity for the fundraise and updated parent Paystream entity timeline. High oversubscription (11.2x) continues pattern seen in other Futardio launches but does not constitute new evidence for existing oversubscription claims without comparative context."
 ---
 
 ## Launch Details
@@ -48,3 +52,10 @@ To advance this mission, **Paystream is raising through MetaDAO**, creating a co
 - Version: v0.6
 - Final raise: $750,000.00
 - Closed: 2025-10-27
+
+
+## Key Facts
+- Paystream raised $750K final on Futardio (2025-10-23 to 2025-10-27)
+- Paystream received $6.15M in commitments against $550K target (11.2x oversubscribed)
+- Paystream token mint: PAYZP1W3UmdEsNLJwmH61TNqACYJTvhXy8SCN4Tmeta
+- Paystream integrates with Raydium CLMM, Meteora DLMM, and DAMM v2 pools

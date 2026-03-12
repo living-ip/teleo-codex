@@ -33,6 +33,7 @@ Modular Solana protocol unifying peer-to-peer lending, leveraged liquidity provi
 - **2025-10-23** — Futardio launch opens ($550K target)
 - **2025-10-27** — Launch closes. $750K raised.
 
+- **2025-10-23** — Launched fundraise on Futardio targeting $550K, received $6.15M in commitments (11.2x oversubscribed)
 ## Relationship to KB
 - [[futardio]] — launched on Futardio platform
 
