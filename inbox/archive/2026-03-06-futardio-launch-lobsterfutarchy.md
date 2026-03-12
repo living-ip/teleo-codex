@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/2d9RAui8BGYh8Jt7dc49WSFTuXVRT4nNE4Sy2mUtALNZ"
 date: 2026-03-06
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Pure entity extraction. LobsterFutarchy fundraise is a dramatic failure case (0.24% of target) that provides data point on Futardio launch outcomes but contains no novel claims about mechanisms, markets, or agent infrastructure. The pitch deck describes product vision and competitive positioning but these are company-stated plans, not verifiable claims. Created company entity and decision_market entity for the fundraise, added timeline entry to Futardio. No claims extracted because: (1) product vision is unvalidated speculation from failed project, (2) competitive positioning claims are marketing copy not backed by evidence, (3) market failure itself is a data point not an arguable proposition."
 ---
 
 ## Launch Details
@@ -191,3 +195,12 @@ The objective is to become the default control layer for agentic finance, giving
 - Token mint: `8qs5bkW4E2gQMniMdZsAwRDSQmPRs4mMuMfwk5aTmeta`
 - Version: v0.7
 - Closed: 2026-03-07
+
+
+## Key Facts
+- LobsterFutarchy fundraise launched 2026-03-06 seeking $500K
+- Total committed: $1,183 (0.24% of target)
+- Fundraise closed 2026-03-07 in refunding status
+- Proposed monthly burn: $45K ($35K team, $5K infrastructure, $5K growth)
+- Token symbol: 8qs
+- Launch address: 2d9RAui8BGYh8Jt7dc49WSFTuXVRT4nNE4Sy2mUtALNZ
