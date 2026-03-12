@@ -23,6 +23,12 @@ The Making Care Primary model's termination in June 2025 (after just 12 months, 
 
 PACE represents the extreme end of value-based care alignment—100% capitation with full financial risk for a nursing-home-eligible population. The ASPE/HHS evaluation shows that even under complete payment alignment, PACE does not reduce total costs but redistributes them (lower Medicare acute costs in early months, higher Medicaid chronic costs overall). This suggests that the 'payment boundary' stall may not be primarily a problem of insufficient risk-bearing. Rather, the economic case for value-based care may rest on quality/preference improvements rather than cost reduction. PACE's 'stall' is not at the payment boundary—it's at the cost-savings promise. The implication: value-based care may require a different success metric (outcome quality, institutionalization avoidance, mortality reduction) than the current cost-reduction narrative assumes.
 
+
+### Additional Evidence (confirm)
+*Source: [[2025-03-17-norc-pace-market-assessment-for-profit-expansion]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+PACE represents the extreme case of full risk-bearing—a single provider taking 100% capitated risk for all medical, social, and psychiatric needs of nursing-home-eligible patients, completely replacing Medicare and Medicaid cards. Yet after 50 years, PACE serves only 90,580 enrollees (0.13% of Medicare-eligible population) compared to Medicare Advantage's 54% penetration. This 400x difference in adoption between partial-risk MA and full-risk PACE suggests that even when payment alignment is complete, structural barriers (capital requirements, regulatory complexity, organizational fragmentation, awareness deficits) prevent scaling. PACE proves that full capitation is clinically viable but insufficient for market adoption—the payment boundary is necessary but not sufficient for VBC transition.
+
 ---
 
 Relevant Notes:

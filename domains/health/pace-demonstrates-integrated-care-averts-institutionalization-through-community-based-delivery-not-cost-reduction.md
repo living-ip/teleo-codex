@@ -32,6 +32,12 @@ Some evidence indicates lower mortality rates among PACE enrollees, suggesting q
 - Study covered 8 states, 250+ enrollees during 2006-2008
 - Matched comparison groups: nursing home entrants AND HCBS waiver enrollees
 
+
+### Additional Evidence (extend)
+*Source: [[2025-03-17-norc-pace-market-assessment-for-profit-expansion]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+As of January 2025, PACE serves 80,815 enrollees across 198 programs in 33 states + DC, with over 376 centers serving ~87,000 participants by September 2025. The program grew by 9,765 enrollees (12% annual growth) in 2025, representing the fastest expansion in recent years. However, this still represents only 0.13% penetration of the 67 million Medicare-eligible population. The average PACE member is 76 years old with 7+ chronic conditions and nursing-home eligibility—exactly the population where integrated care should deliver maximum value. Geographic concentration remains extreme: over half of enrollees are in just 3 states (California, New York, Pennsylvania), and only 13 states have 1,000+ enrollees total.
+
 ---
 
 Relevant Notes:

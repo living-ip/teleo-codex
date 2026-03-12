@@ -39,6 +39,12 @@ This suggests that the value proposition of integrated care may rest on quality,
 
 Selection bias remains a significant concern. PACE enrollees may differ systematically from comparison groups (nursing home entrants and HCBS waiver users) in unmeasured ways that affect both costs and outcomes. The cost-neutral finding may not generalize to other integrated care models or populations.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-03-17-norc-pace-market-assessment-for-profit-expansion]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The 2025 NORC assessment identifies seven structural barriers preventing PACE scaling: (1) capital intensity requiring large upfront investment for centers and infrastructure, (2) awareness deficit among enrollees and referral sources, (3) insufficient economies of scale due to low enrollee concentration in service areas, (4) geographic concentration in 3 states limiting national model validation, (5) financial eligibility barriers requiring both Medicare and Medicaid status, (6) regulatory complexity with state-by-state approval processes, and (7) organizational fragmentation with most operators running single-state programs unable to leverage multi-market efficiencies. These barriers persist despite PACE being the most fully integrated capitated model in existence, taking 100% financial risk for all medical, social, and psychiatric needs.
+
 ---
 
 Relevant Notes:
