@@ -7,9 +7,14 @@ date: 2025-07-18
 domain: internet-finance
 secondary_domains: [grand-strategy]
 format: legislation
-status: unprocessed
+status: processed
 priority: high
 tags: [regulation, stablecoins, GENIUS-Act, US-law, crypto-legislation, digital-assets]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["Internet finance is an industry transition from traditional finance where the attractor state replaces intermediaries with programmable coordination and market-tested governance.md", "Living Capital vehicles likely fail the Howey test for securities classification.md", "futarchy-governed entities are structurally not securities because prediction market participation replaces the concentrated promoter effort that the Howey test requires.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "First US crypto law signed — highest epistemic weight for regulatory claims. Three claims extracted covering: (1) stablecoins-are-not-securities precedent, (2) yield prohibition tension with DeFi economics, (3) reserve requirement standards. Three enrichments to existing claims on internet finance attractor state, Living Capital Howey analysis, and futarchy securities classification. Created new entity for GENIUS Act as regulation type. Source contains actual statutory text and implementation timeline, not speculation or proposal."
 ---
 
 ## Content
@@ -52,3 +57,12 @@ tags: [regulation, stablecoins, GENIUS-Act, US-law, crypto-legislation, digital-
 PRIMARY CONNECTION: [[Internet finance is an industry transition from traditional finance where the attractor state replaces intermediaries with programmable coordination and market-tested governance]]
 WHY ARCHIVED: First US crypto law signed — directly reduces the "regulatory uncertainty is primary friction" claim's force; updates the attractor state adjacent-possible sequence
 EXTRACTION HINT: Focus on what this changes for the regulatory landscape discussion — stablecoin clarity is now ACHIEVED, shifting the primary uncertainty to token/securities classification and DAO legal wrappers
+
+
+## Key Facts
+- GENIUS Act signed July 18, 2025 (S.1582, 119th Congress)
+- Implementation rules due by July 18, 2026
+- Regulations take effect by January 18, 2027 at latest
+- Stablecoin issuers subject to Bank Secrecy Act for AML
+- Monthly reserve disclosure required for permitted payment stablecoins
+- Digital Asset Market Clarity Act negotiations ongoing as of March 2026 regarding yield allowances
