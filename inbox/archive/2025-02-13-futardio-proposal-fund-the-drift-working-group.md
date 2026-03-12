@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/6TkkCy26HCqxWGt1QgfhFHc6ASikRjk74Gkk4Wfyd7w
 date: 2025-02-13
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Governance proposal for community working group funding. No novel mechanism insights - standard futarchy-governed grant proposal. Entity extraction only: created decision_market entity and updated parent Drift entity timeline."
 ---
 
 ## Proposal Details
@@ -94,3 +98,12 @@ The DWG will be led by Socrates, bringing 3+ years of crypto marketing expertise
 - Autocrat version: 0.3
 - Completed: 2025-02-16
 - Ended: 2025-02-16
+
+
+## Key Facts
+- Drift Working Group proposal requested 50,000 DRIFT tokens for 3-month trial (2025-02-13)
+- Monthly budget breakdown: 5,000 DRIFT for lead, 2,600 DRIFT per team member, 3,800 DRIFT for initiatives
+- Working group led by Socrates with 3+ years crypto marketing experience
+- Proposal passed 2025-02-16 after 3-day voting period
+- Governance structure: 2/3 multisig wallet (lead + two Drift team members)
+- Success metrics: community initiative creation, increased X engagement, increased Discord participation
