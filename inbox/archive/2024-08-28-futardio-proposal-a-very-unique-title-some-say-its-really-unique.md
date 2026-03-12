@@ -10,9 +10,13 @@ status: processed
 processed_by: rio
 processed_date: 2026-03-12
 claims_extracted:
-  - memecoin-governance-is-futarchys-ideal-entry-context-because-price-maximizing-objectives-eliminate-temporal-ambiguity
+  - memecoin-governance-is-futarchys-ideal-entry-context-because-price-maximizing-objectives-reduce-temporal-ambiguity
   - engagement-to-governance-bootstrapping-converts-platform-activity-into-future-ownership-tokens-aligning-early-user-incentives-with-platform-success
-enrichments: []
+  - memecoin-governance-eliminates-futarchy-temporal-inconsistency-because-holders-share-singular-price-maximization-objective
+  - metadao-community-rejected-futardio-in-2024-showing-futarchy-practitioners-weighed-credibility-against-adoption-before-brand-separation-solved-the-tradeoff
+review_note: "First two claims (from parallel extraction) semantically overlap with third claim — reviewer should determine whether to keep both or consolidate"
+enrichments:
+  - futarchy-governed-permissionless-launches-require-brand-separation: prior 2024 evidence for the credibility tradeoff concern
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 ---
