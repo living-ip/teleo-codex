@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/8tUzX5dPQbkayE4FkFncdyePWP3shBQ8hvjr5HbFoS84"
 date: 2026-02-17
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Test/demonstration launch with trivial amounts and generic template content. Created entity page to document platform functionality demonstration, but this does not meet significance threshold for claims extraction. No novel mechanism insights or governance dynamics to extract."
 ---
 
 ## Launch Details
@@ -130,3 +134,9 @@ You can follow our progress via our official website, Telegram community, Twitte
 - Total approved: $10.00
 - Closed: 2026-02-17
 - Completed: 2026-02-17
+
+
+## Key Facts
+- Generated Test raised $11 against $10 target on Futardio (2026-02-17)
+- Launch used token symbol GBX with mint address GBXKJSjyx76MbsooT8kCnjhPrDxkvWwscxXw2BBftdio
+- Futardio platform was running version v0.7 as of 2026-02-17
