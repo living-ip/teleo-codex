@@ -6,7 +6,7 @@ url: "https://www.futard.io/proposal/E1FJAp8saDU6Da2ccayjLBfA53qbjKRNYvu7QiMAnjQ
 date: 2024-02-18
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 processed_by: rio
@@ -14,6 +14,12 @@ processed_date: 2024-02-18
 enrichments_applied: ["futarchy-governed-DAOs-converge-on-traditional-corporate-governance-scaffolding-for-treasury-operations-because-market-mechanisms-alone-cannot-provide-operational-security-and-legal-compliance.md", "MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md", "time-based-token-vesting-is-hedgeable-making-standard-lockups-meaningless-as-alignment-mechanisms-because-investors-can-short-sell-to-neutralize-lockup-exposure-while-appearing-locked.md"]
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "Failed MetaDAO proposal for $100k OTC trade. Extracted two claims: (1) the vesting mechanism design for managing large token sales, (2) the market rejection despite acknowledged liquidity need. Four enrichments confirm existing claims about futarchy scaffolding, TWAP usage, adoption friction, and vesting limitations. The proposal's failure is particularly interesting as evidence of futarchy rejecting a solution to a stated problem, suggesting the mechanism can distinguish between 'we have a problem' and 'this solution is net positive.'"
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["metadao-proposal-8-vesting-structure-combines-immediate-liquidity-with-long-term-lockup-through-20-percent-instant-release-and-80-percent-linear-12-month-vest.md", "metadao-proposal-8-market-rejection-despite-acknowledged-liquidity-problem-demonstrates-futarchy-can-distinguish-between-problem-recognition-and-solution-approval.md"]
+enrichments_applied: ["futarchy-governed-DAOs-converge-on-traditional-corporate-governance-scaffolding-for-treasury-operations-because-market-mechanisms-alone-cannot-provide-operational-security-and-legal-compliance.md", "MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md", "time-based token vesting is hedgeable making standard lockups meaningless as alignment mechanisms because investors can short-sell to neutralize lockup exposure while appearing locked.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Failed MetaDAO proposal for $100k OTC trade. Extracted two claims: (1) the vesting mechanism design for managing large token sales, (2) the market rejection despite acknowledged liquidity need. Four enrichments confirm existing claims about futarchy scaffolding, TWAP usage, adoption friction, and vesting limitations. Created decision_market entity for the proposal. The proposal's failure is particularly interesting as evidence of futarchy rejecting a solution to a stated problem, suggesting the mechanism can distinguish between 'we have a problem' and 'this solution is net positive.'"
 ---
 
 ## Proposal Details
@@ -157,3 +163,15 @@ Here are some post-money valuations at different prices as well total increase i
 - Multisig: 6 members, 4/6 threshold (Proph3t, Dean, 0xNallok, Durden, Blockchainfixesthis, Rar3)
 - Projected circulating supply increase: 2-7%
 - Projected META value increase: ~15%
+
+
+## Key Facts
+- MetaDAO Proposal 8 account: E1FJAp8saDU6Da2ccayjLBfA53qbjKRNYvu7QiMAnjQx
+- Proposal number: 8, Autocrat version: 0.1
+- META spot price 2024-02-18: $695.92
+- META circulating supply: 14,530 tokens
+- Multisig members: Proph3t, Dean, 0xNallok, Durden, Blockchainfixesthis, Rar3 (4/6 threshold)
+- Multisig address: FpMnruqVCxh3o2oBFZ9uSQmshiyfMqzeJ3YfNQfP9tHy
+- Ben Hawkins address: 7GmjpH2hpj3A5d6f1LTjXUAy8MR8FDTvZcPY79RDRDhq
+- Projected circulating supply increase: 2-7%
+- Projected META value increase: ~15% (per proposal analysis)
