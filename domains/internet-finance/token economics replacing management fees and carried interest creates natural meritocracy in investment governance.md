@@ -15,6 +15,12 @@ Living Capital replaces this with token economics that directly reward decision-
 
 The mechanism aligns with several core LivingIP principles. Since [[ownership alignment turns network effects from extractive to generative]], the token structure ensures that value flows to those who generate it rather than to intermediaries who merely facilitate access. Since [[blind meritocratic voting forces independent thinking by hiding interim results while showing engagement]], combining token-locked voting with blind mechanisms could further strengthen decision quality. Since [[gamified contribution with ownership stakes aligns individual sharing with collective intelligence growth]], the token emissions function as the ownership stakes that incentivize high-quality participation. The result is an investment governance model where authority is earned through demonstrated judgment rather than granted through capital contribution alone.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-03-05-futardio-launch-blockrock]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+BlockRock's fee structure attempts to eliminate percentage-based management fees entirely: 'Minimal management fees are funded transparently from the treasury and adjustable via governance. No percentage-based skimming.' The team allocation is performance-unlocked: '5% allocated to founding team, which unlocks at 3-month TWAPs of 2X, 4X, 8X, 16X, and 32X the ICO price' with only '$5K allowance per month for supporting infrastructure.' This creates extreme alignment—team compensation is almost entirely tied to token price multiples rather than AUM-based fees. The charter contrasts this with BlackRock's structure where '~73% of revenue from management fees' regardless of performance.
+
 ---
 
 Relevant Notes:

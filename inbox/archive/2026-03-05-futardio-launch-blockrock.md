@@ -6,9 +6,15 @@ url: "https://www.futard.io/launch/J7CmLqfMLVq67swRQa6xCWn7VcyfpyhFSiQdJYNwkP8k"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["blockrock-demonstrates-futarchy-governed-liquid-asset-allocation-as-viable-alternative-to-illiquid-vc-bets.md", "asset-management-fee-structure-creates-scale-incentive-over-performance-incentive.md", "ai-agents-as-continuous-proposal-generators-scale-governance-throughput-without-headcount.md"]
+enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent.md", "token economics replacing management fees and carried interest creates natural meritocracy in investment governance.md", "ownership coins primary value proposition is investor protection not governance quality because anti-rug enforcement through market-governed liquidation creates credible exit guarantees that no amount of decision optimization can match.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "BlockRock launch is a failed fundraise but contains significant mechanism design insights: (1) explicit pivot from illiquid VC (MtnCapital failure) to liquid assets for futarchy compatibility, (2) AI agents as proposal generators not executors, (3) performance-unlocked team tokens with extreme multiples (32X), (4) critique of traditional asset management fee structures. Charter is substantive enough to extract claims about futarchy application domain and AI integration patterns. Entity created despite failure because it demonstrates MetaDAO platform usage and contains novel architectural proposals."
 ---
 
 ## Launch Details
@@ -193,3 +199,15 @@ BlockRock is designed to scale to trillions in assets under management. The toke
 - Token mint: `D9o2F3Pu7gowtZr1PjPFiQr4DwVPkNJhqPjpVRwjmeta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- BlockRock targeted $500K raise, achieved $100 (0.02% of target)
+- Launch closed 2026-03-06 in REFUNDING status
+- Token symbol: D9o, mint address: D9o2F3Pu7gowtZr1PjPFiQr4DwVPkNJhqPjpVRwjmeta
+- Team allocation: 5% vesting at 2X/4X/8X/16X/32X price multiples via 3-month TWAPs
+- Monthly team allowance: $5K for infrastructure support
+- 95% of tokens distributed to ICO participants at same price
+- BlackRock revenue structure: ~73% management fees, ~5% performance fees
+- BlackRock scale: 20,000+ employees, 70+ global offices, 1,700+ ETFs
+- Asset management industry size: $120T+
