@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/GBQZvZAeW8xUuVV5a9FJHSyttzY5fPGuvkwLTpWLbw6
 date: 2024-12-04
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Governance proposal with clear outcome but no novel mechanism insights. Entity extraction only - no claims warranted. ORE entity may not exist in KB; if missing, this timeline entry will need parent entity creation during review."
 ---
 
 ## Proposal Details
@@ -57,3 +61,10 @@ With the passing of this proposal, we would launch a USDC-ORE vault on Kamino an
 - Autocrat version: 0.3
 - Completed: 2024-12-07
 - Ended: 2024-12-07
+
+
+## Key Facts
+- ORE proposal #3 passed on 2024-12-07 after 3-day voting period
+- USDC described as 'fully-backed by dollars and treasuries held in US banks by Circle'
+- ORE mission statement: 'create the best digital gold product in crypto'
+- Proposal used Autocrat v0.3 futarchy implementation
