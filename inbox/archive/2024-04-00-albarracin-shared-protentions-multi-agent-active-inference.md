@@ -7,9 +7,15 @@ date: 2024-04-00
 domain: collective-intelligence
 secondary_domains: [ai-alignment, critical-systems]
 format: paper
-status: unprocessed
+status: processed
 priority: medium
 tags: [active-inference, multi-agent, shared-goals, group-intentionality, category-theory, phenomenology, collective-action]
+processed_by: theseus
+processed_date: 2026-03-11
+claims_extracted: ["shared-anticipatory-structures-enable-decentralized-coordination.md", "shared-generative-models-underwrite-collective-goal-directed-behavior.md"]
+enrichments_applied: ["designing coordination rules is categorically different from designing coordination outcomes.md", "collective intelligence is a measurable property of group interaction structure not aggregated individual ability.md", "complexity is earned not designed and sophisticated collective behavior must evolve from simple underlying principles.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims on shared protentions and coordination mechanisms from active inference framework. Applied three enrichments to existing coordination and collective intelligence claims. Primary contribution: formal mechanism for how shared anticipatory structures enable decentralized coordination, directly relevant to multi-agent KB coordination design."
 ---
 
 ## Content
