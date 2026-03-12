@@ -6,7 +6,7 @@ url: "https://www.futard.io/proposal/DgXa6gy7nAFFWe8VDkiReQYhqe1JSYQCJWUBV8Mm6aM
 date: 2024-06-22
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 processed_by: rio
@@ -14,6 +14,11 @@ processed_date: 2024-06-22
 enrichments_applied: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md"]
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "Extracted 2 claims about futarchy market failure modes and DAO incentive mechanisms. Both claims are experimental/speculative due to single-case evidence. Proposal failed despite seemingly favorable economics, which itself is evidence about futarchy adoption barriers. Enriched 3 existing claims with concrete implementation data and failure case confirmation."
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted 2 claims about futarchy market failure modes and DAO incentive mechanisms. Both claims are experimental/speculative due to single-case evidence. Proposal failed despite seemingly favorable economics, which itself is evidence about futarchy adoption barriers. Enriched 3 existing claims with concrete implementation data and failure case confirmation. Created decision_market entity for the proposal and updated Dean's List timeline."
 ---
 
 ## Proposal Details
@@ -182,3 +187,14 @@ This proposal to create a promotional event at ThailandDAO, incentivizing govern
 - Proposal completed: 2024-06-25
 - Required TWAP increase: 3% ($3,698 absolute)
 - Trading period: 3 days
+
+
+## Key Facts
+- Dean's List DAO FDV: $123,263 (2024-06-22)
+- ThailandDAO event dates: Sept 25 - Oct 25, 2024, Koh Samui Thailand
+- Proposal budget: $15K ($10K travel for top 5, $5K events for top 50)
+- Proposal account: DgXa6gy7nAFFWe8VDkiReQYhqe1JSYQCJWUBV8Mm6aM
+- DAO account: 9TKh2yav4WpSNkFV2cLybrWZETBWZBkQ6WB6qV9Nt9dJ
+- Autocrat version: 0.3
+- Required TWAP increase: 3% ($3,698 absolute)
+- Trading period: 3 days (2024-06-22 to 2024-06-25)
