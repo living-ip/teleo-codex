@@ -7,9 +7,14 @@ date: 2025-09-01
 domain: ai-alignment
 secondary_domains: []
 format: paper
-status: unprocessed
+status: null-result
 priority: medium
 tags: [alignment-gap, feedback-misspecification, reward-hacking, sycophancy, impossibility, maps-framework]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive.md", "RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values.md", "collective intelligence requires diversity as a structural precondition not a moral preference.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Two novel formal results extracted as claims: (1) exponential barrier + calibration oracle solution, (2) MAPS framework for managing alignment gap. Three enrichments to existing claims on emergent misalignment, RLHF/DPO failures, and collective intelligence. The calibration oracle concept maps directly to our collective architecture — domain experts as calibration mechanisms. No connection to social choice theory or bridging-based approaches in the source."
 ---
 
 ## Content
@@ -51,3 +56,9 @@ The alignment gap cannot be eliminated but can be mapped, bounded, and managed.
 PRIMARY CONNECTION: [[emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive]]
 WHY ARCHIVED: The "calibration oracle" concept maps to our collective architecture — domain experts as calibration mechanisms
 EXTRACTION HINT: The exponential barrier + calibration oracle constructive result is the key extractable claim pair
+
+
+## Key Facts
+- Exponential sample complexity: exp(n*alpha*epsilon^2) where alpha = fraction of problematic contexts, epsilon = bias strength
+- Calibration oracle reduces complexity to O(1/(alpha*epsilon^2))
+- Paper published September 2025 by independent researcher Madhava Gaikwad

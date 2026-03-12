@@ -7,9 +7,15 @@ date: 2025-02-27
 domain: entertainment
 secondary_domains: [internet-finance]
 format: article
-status: unprocessed
+status: processed
 priority: medium
 tags: [mrbeast, beast-industries, valuation, content-as-loss-leader, creator-economy]
+processed_by: clay
+processed_date: 2026-03-11
+claims_extracted: ["beast-industries-5b-valuation-prices-content-as-loss-leader-model-at-enterprise-scale.md"]
+enrichments_applied: ["the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership.md", "creator-brand-partnerships-shifting-from-transactional-campaigns-to-long-term-joint-ventures-with-shared-formats-audiences-and-revenue.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims validating content-as-loss-leader model at enterprise scale, enriched two existing entertainment claims with market validation data, created Beast Industries entity. The $5B valuation represents significant market evidence that integrated creator-to-product models are valued differently than pure content businesses. Revenue trajectory data provides concrete metrics for the attractor state thesis."
 ---
 
 ## Content
@@ -43,3 +49,8 @@ Fortune coverage of Beast Industries fundraise and business structure.
 PRIMARY CONNECTION: the media attractor state is community-filtered IP with AI-collapsed production costs where content becomes a loss leader for the scarce complements of fandom community and ownership
 WHY ARCHIVED: Revenue trajectory data validates content-as-loss-leader at enterprise scale. Cross-reference with Bloomberg source for consistent $250M Feastables figure.
 EXTRACTION HINT: The $5B valuation is the market's verdict that the content-as-loss-leader model is real and scalable. This is market evidence, not just theoretical argument.
+
+
+## Key Facts
+- Beast Industries operates five verticals: software (Viewstats), CPG (Feastables, Lunchly), health/wellness, media, video games
+- Traditional CPG companies (Hershey's, Mars) spend 10-15% of revenue on advertising

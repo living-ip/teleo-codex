@@ -6,10 +6,15 @@ url: https://www.kucoin.com/news/articles/what-is-the-clarity-act-a-2026-guide-t
 date: 2026-01-00
 domain: internet-finance
 secondary_domains: []
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: high
 tags: [clarity-act, regulation, sec, cftc, digital-commodities, stablecoins, decentralization]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["Living Capital vehicles likely fail the Howey test for securities classification because the structural separation of capital raise from investment decision eliminates the efforts of others prong.md", "futarchy-governed entities are structurally not securities because prediction market participation replaces the concentrated promoter effort that the Howey test requires.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims on CLARITY Act regulatory mechanisms and their alignment with futarchy governance. Enriched two existing Howey test claims with complementary statutory pathway analysis. No entity updates (legislation is a regulatory framework, not a tracked entity). Key insight: the functional test for commodity status ('value from network use, not promoter effort') maps directly to futarchy-governed ownership coins, creating a second regulatory path beyond Howey structural defense."
 ---
 
 ## Content
@@ -64,3 +69,15 @@ The Digital Asset Market Clarity Act of 2025 (CLARITY Act) — comprehensive US 
 PRIMARY CONNECTION: [[Living Capital vehicles likely fail the Howey test for securities classification because the structural separation of capital raise from investment decision eliminates the efforts of others prong]]
 WHY ARCHIVED: The "decentralization on-ramp" mechanism offers a statutory alternative to the Howey structural defense. Two legal paths are better than one. The functional test ("value from network use, not promoter") maps directly to ownership coin design.
 EXTRACTION HINT: Focus on (1) decentralization on-ramp as complementary to Howey defense, (2) functional test alignment with ownership coins, (3) implication that regulatory uncertainty character is changing (from "no rules" to "which rules").
+
+
+## Key Facts
+- CLARITY Act passed House in late 2025
+- Senate Banking Committee delayed markup January 2026
+- Current stall point: stablecoin yield debate (whether yield-bearing stablecoins become banking products)
+- White House convened banking/crypto representatives February 2026 — constructive but no compromise
+- Projected implementation: late 2026 or early 2027
+- Digital Commodity Intermediaries Act (DCIA) advanced by Senate Agriculture Committee January 29, 2026 (party-line vote)
+- DCIA gives CFTC exclusive jurisdiction over digital commodity spot markets with 18-month rulemaking timeline
+- Customer fund segregation mandated in response to FTX collapse
+- DeFi control person liability and KYC requirements still under negotiation
