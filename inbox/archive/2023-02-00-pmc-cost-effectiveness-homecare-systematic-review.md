@@ -7,9 +7,14 @@ date: 2023-02-01
 domain: health
 secondary_domains: []
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [home-health, cost-effectiveness, facility-care, snf, hospital, aging, senior-care]
+processed_by: vida
+processed_date: 2026-03-11
+enrichments_applied: ["continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware.md", "the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness.md", "value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted three claims about home health cost advantage, SNF margin bifurcation as transition signal, and RPM market growth. Applied enrichments to three existing claims about continuous monitoring, healthcare attractor state, and value-based care transitions. The 52% cost differential for heart failure home care is the strongest extractable finding—it represents structural cost advantage, not marginal improvement. SNF bifurcation (36% deeply unprofitable, 34% profitable) is a clear signal of industry restructuring rather than uniform decline. RPM growth data provides the technology enablement layer that makes home-based care clinically viable."
 ---
 
 ## Content
@@ -51,3 +56,11 @@ tags: [home-health, cost-effectiveness, facility-care, snf, hospital, aging, sen
 PRIMARY CONNECTION: [[continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware]]
 WHY ARCHIVED: Fills the care delivery layer gap — KB has claims about insurance/payment structure but not about where care is actually delivered and how that's changing.
 EXTRACTION HINT: The cost differential (52% for heart failure) is the most extractable finding. Pair with RPM growth data to show the enabling technology layer.
+
+
+## Key Facts
+- 94% of Medicare beneficiaries prefer post-hospital care at home vs. nursing homes
+- Home health interventions typically more cost-efficient than institutional care across multiple conditions
+- When homecare compared to hospital care: cost-saving in 7 studies, cost-effective in 2, more effective in 1
+- 71 million Americans expected to use some form of RPM by 2025
+- AI in RPM: $1.96B (2024) → $8.43B (2030), 27.5% CAGR

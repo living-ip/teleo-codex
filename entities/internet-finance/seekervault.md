@@ -27,6 +27,7 @@ The project proposed combining Walrus protocol for decentralized storage with Se
 - **2026-03-04** — Launched fundraise on Futardio targeting $75,000 for 6-month runway
 - **2026-03-05** — Fundraise closed in refunding status with only $1,186 committed (1.6% of target)
 
+- **2026-03-08** — Futardio fundraise launched targeting $50,000 for 6-month runway to build encrypted backup for 150K+ Solana Seeker phones; raised $2,095 before refunding
 ## Relationship to KB
 - [[futardio]] — fundraising platform
 - Example of failed futarchy-governed fundraise with extreme undersubscription

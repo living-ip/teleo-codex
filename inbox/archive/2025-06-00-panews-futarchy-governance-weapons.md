@@ -6,10 +6,15 @@ url: https://www.panewslab.com/en/articles/ws5i1bxj
 date: 2025-06-00
 domain: internet-finance
 secondary_domains: [collective-intelligence]
-format: article
-status: unprocessed
+format: report
+status: null-result
 priority: high
 tags: [futarchy, prediction-markets, governance, optimism, self-referential, gamification]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "speculative markets aggregate information through incentive and selection effects not wisdom of crowds.md", "domain-expertise-loses-to-trading-skill-in-futarchy-markets-because-prediction-accuracy-requires-calibration-not-just-knowledge.md", "futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "High-value extraction. Source identifies the self-referential paradox as a fundamental challenge to futarchy theory not currently in KB. The distinction between futarchy (predictions allocate resources) and pure prediction markets (predictions observe external events) is crucial and underexplored. Also provides first large-scale empirical data on futarchy UX friction (6 interactions per bet) and information asymmetry effects (45% non-disclosure). Tyler Cowen critique adds philosophical dimension. Four new claims plus four enrichments to existing claims. Created Optimism entity to track this experiment."
 ---
 
 ## Content
@@ -53,3 +58,16 @@ Unlike pure prediction markets (Polymarket predicting elections), futarchy's pre
 PRIMARY CONNECTION: [[futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders]]
 WHY ARCHIVED: Identifies the self-referential paradox — a fundamental challenge to futarchy's theoretical foundations not currently captured in KB
 EXTRACTION HINT: Focus on the self-referential dynamic as a NEW challenge distinct from manipulation resistance — this is about the feedback loop between prediction and outcome, not about bad actors
+
+
+## Key Facts
+- Optimism futarchy experiment: 2,262 visitors, 19% conversion rate (March 2025)
+- 5,898 total transactions across futarchy experiment
+- Average 13.6 transactions per participant
+- Top performer: 406 transactions in 3 days
+- Only 4 of 20 top forecasters held OP governance credentials
+- All futarchy-selected projects: -$15.8M TVL collectively
+- Extra Finance (Grants Council pick): +$8M TVL
+- QiDAO (Grants Council pick): +$10M TVL
+- 45% of projects didn't disclose resource deployment plans
+- 41% of participants hedged positions in final three days

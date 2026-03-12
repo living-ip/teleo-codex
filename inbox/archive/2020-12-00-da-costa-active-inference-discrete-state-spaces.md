@@ -7,9 +7,14 @@ date: 2020-12-01
 domain: ai-alignment
 secondary_domains: [critical-systems]
 format: paper
-status: unprocessed
+status: null-result
 priority: medium
 tags: [active-inference, tutorial, discrete-state-space, expected-free-energy, variational-free-energy, planning, decision-making]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["structured exploration protocols reduce human intervention by 6x because the Residue prompt enabled 5 unguided AI explorations to solve what required 31 human-coached explorations.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Technical reference paper for discrete-state active inference. Extracted two core claims about the VFE/EFE distinction and the unification of existing frameworks under free energy minimization. One enrichment connecting formal active inference theory to the existing Residue prompt claim. This provides mathematical foundation for implementing EFE-based research direction selection in KB architecture."
 ---
 
 ## Content
