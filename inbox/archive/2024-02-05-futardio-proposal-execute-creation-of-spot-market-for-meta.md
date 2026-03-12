@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/HyA2h16uPQBFjezKf77wThNGsEoesUjeQf9rFvfAy4t
 date: 2024-02-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "futarchy-governed DAOs converge on traditional corporate governance scaffolding for treasury operations because market mechanisms alone cannot provide operational security and legal compliance.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Proposal demonstrates futarchy DAO operational scaffolding through multisig execution with social enforcement. No novel claims extracted - insights enrich existing claims about futarchy governance requiring traditional operational structures. Created decision_market entity for the proposal and updated timeline entries for MetaDAO and key participants."
 ---
 
 ## Proposal Details
@@ -61,3 +66,11 @@ Obviously, there is no algorithmic guarantee that the multisig members will actu
 - Autocrat version: 0.1
 - Completed: 2024-02-10
 - Ended: 2024-02-10
+
+
+## Key Facts
+- MetaDAO Proposal 5 passed on 2024-02-10
+- 4/6 multisig members: Proph3t, Dean, Nallok, Durden, Rar3, BlockchainFixesThis
+- Initial META spot price set at 35 USDC/META
+- Target raise: 75,000 USDC
+- Total META allocated: 4,130 (3,100 to participants, 1,000 to LP, 30 to multisig)

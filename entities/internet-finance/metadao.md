@@ -54,6 +54,7 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **2026-03** — Pine Analytics Q4 2025 quarterly report published
 
 - **2024-02-18** — [[metadao-otc-trade-pantera-capital]] failed: Pantera Capital's $50,000 OTC purchase proposal rejected by futarchy markets
+- **2024-02-05** — [[metadao-execute-creation-of-spot-market-for-meta]] passed: Authorized 4,130 META transfer to 4/6 multisig to execute spot market creation through 75K USDC raise and Meteora LP establishment at 35 USDC/META initial price
 ## Key Decisions
 | Date | Proposal | Proposer | Category | Outcome |
 |------|----------|----------|----------|---------|

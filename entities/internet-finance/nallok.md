@@ -48,3 +48,7 @@ Relevant Entities:
 
 Topics:
 - [[internet finance and decision markets]]
+
+## Timeline
+
+- **2024-02-05** — Served as multisig member (4/6) for MetaDAO's META spot market creation proposal execution

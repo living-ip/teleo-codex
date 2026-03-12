@@ -44,3 +44,7 @@ Relevant Entities:
 
 Topics:
 - [[internet finance and decision markets]]
+
+## Timeline
+
+- **2024-02-05** — Served as allocation decision-maker and multisig member for MetaDAO's META spot market creation, coordinating 75K USDC private sale and LP establishment
