@@ -98,6 +98,12 @@ Claims that frame alignment as a coordination problem, moved here from foundatio
 - [[safe AI development requires building alignment mechanisms before scaling capability]] — the sequencing requirement
 - [[no research group is building alignment through collective intelligence infrastructure despite the field converging on problems that require it]] — the institutional gap
 
+## Active Inference for Collective Agents
+Applying the free energy principle to how knowledge agents search, allocate attention, and learn — bridging foundations/critical-systems/ theory to practical agent architecture:
+- [[agent research direction selection is epistemic foraging where the optimal strategy is to seek observations that maximally reduce model uncertainty rather than confirm existing beliefs]] — reframes agent search as uncertainty-directed foraging, not keyword relevance
+- [[collective attention allocation follows nested active inference where domain agents minimize uncertainty within their boundaries while the evaluator minimizes uncertainty at domain intersections]] — predicts that cross-domain boundaries carry the highest surprise and deserve the most attention
+- [[user questions are an irreplaceable free energy signal for knowledge agents because they reveal functional uncertainty that model introspection cannot detect]] — chat closes the perception-action loop: user confusion flows back as research priority
+
 ## Foundations (cross-layer)
 Shared theory underlying this domain's analysis, living in foundations/collective-intelligence/ and core/teleohumanity/:
 - [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]] — Arrow's theorem applied to alignment (foundations/)
