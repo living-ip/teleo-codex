@@ -7,9 +7,14 @@ date: 2026-01-13
 domain: internet-finance
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: medium
 tags: [nasaa, regulation, clarity-act, state-regulators, federal-preemption, investor-protection]
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["internet finance generates 50 to 100 basis points of additional annual GDP growth by unlocking capital allocation to previously inaccessible assets and eliminating intermediation friction.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted one claim about coordinated state-level opposition to federal digital asset regulation. Created NASAA entity. Added challenge enrichment to internet finance GDP growth claim noting regulatory friction. Full PDF of NASAA concerns was not accessible, so specific arguments are inferred from context."
 ---
 
 ## Content
@@ -32,3 +37,9 @@ This aligns with the 36 states filing amicus briefs against federal preemption i
 PRIMARY CONNECTION: [[Internet finance is an industry transition from traditional finance where the attractor state replaces intermediaries with programmable coordination and market-tested governance]]
 WHY ARCHIVED: State-level opposition coalition represents a friction force against the internet finance transition. Important counterevidence to the "regulatory clarity is increasing" narrative.
 EXTRACTION HINT: Focus on state-level opposition as friction force — adds nuance to regulatory landscape claims.
+
+
+## Key Facts
+- NASAA represents securities regulators from all 50 states, DC, Puerto Rico, US Virgin Islands, and Canadian provinces
+- NASAA filed formal concerns about the CLARITY Act on 2026-01-13
+- 36 states filed amicus briefs against federal preemption in prediction market cases
