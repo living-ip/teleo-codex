@@ -6,7 +6,7 @@ url: https://www.brookings.edu/articles/ai-is-changing-the-physics-of-collective
 date: 2025-10-01
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
-format: article
+format: report
 status: null-result
 priority: medium
 tags: [collective-intelligence, coordination, AI-infrastructure, room-model, design-vs-model]
