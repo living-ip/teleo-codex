@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/8UjuYsm1m8uNNVSeA1NSwvV6ch9G2QC14yKvpXjrRgw"
 date: 2026-03-04
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Failed fundraise for futarchy game concept. Below significance threshold for claims extraction (no novel mechanism insights, just product description). Created entity page because it represents a Futardio launch with measurable outcome data. Project proposed gamifying futarchy through leaderboards and seasonal competition but failed to attract capital."
 ---
 
 ## Launch Details
@@ -137,3 +141,13 @@ Futarchy Arena makes that measurable.
 - Token mint: `DXSunZYhvgwe78jVk2MKtjpEVzj7hcuAkfi79jxtmeta`
 - Version: v0.7
 - Closed: 2026-03-05
+
+
+## Key Facts
+- Futarchy Arena fundraise launched 2026-03-04 with $50,000 target
+- Total committed: $934 (1.9% of target)
+- Monthly spending cap: $1,000
+- Status: Refunding
+- Closed: 2026-03-05
+- Token: DXS
+- Launch address: 8UjuYsm1m8uNNVSeA1NSwvV6ch9G2QC14yKvpXjrRgw
