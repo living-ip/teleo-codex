@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/A19yLRVqxvUf4cTDm6mKNKadasd7YSYDrzk6AYEyubA
 date: 2024-10-22
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions.md", "futarchy-markets-can-price-cultural-spending-proposals-by-treating-community-cohesion-and-brand-equity-as-token-price-inputs.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Single governance proposal for operational parameter tuning. No novel claims warranted — the mechanism (futarchy for boost multipliers) and the pattern (uncontested operational decisions) are already covered in existing claims. Created decision_market entity and enriched two existing claims about futarchy's application scope. The proposal's explicit framing as a 'low-risk testrun' for futarchy learning is significant context for understanding ORE's governance evolution."
 ---
 
 ## Proposal Details
@@ -73,3 +78,11 @@ With the launch of boosts just over one week ago, ORE saw a significant rise in 
 - Autocrat version: 0.3
 - Completed: 2024-10-26
 - Ended: 2024-10-26
+
+
+## Key Facts
+- ORE boosts launched one week before this proposal (mid-October 2024)
+- ORE supported three boost multipliers at proposal time: ORE-SOL LP (4x), ORE-ISC LP (4x), ORE (2x)
+- Proposal A19yLRVqxvUf4cTDm6mKNKadasd7YSYDrzk6AYEyubAC was proposal #1 for DAO 7XoddQu6HtEeHZowzCEwKiFJg4zR3BXUqMygvwPwSB1D
+- Autocrat version 0.3 used for this decision
+- Proposal completed 2024-10-26, four days after creation
