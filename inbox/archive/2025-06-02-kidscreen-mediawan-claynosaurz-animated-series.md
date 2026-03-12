@@ -7,9 +7,14 @@ date: 2025-06-02
 domain: entertainment
 secondary_domains: []
 format: article
-status: unprocessed
+status: processed
 priority: medium
 tags: [claynosaurz, mediawan, animated-series, youtube-distribution, community-ip, co-production]
+processed_by: clay
+processed_date: 2026-03-11
+enrichments_applied: ["traditional-media-buyers-now-seek-content-with-pre-existing-community-engagement-data-as-risk-mitigation.md", "youtube-first-distribution-for-major-studio-coproductions-signals-platform-primacy-over-traditional-broadcast-windowing.md", "community-co-creation-in-animation-production-includes-storyboard-sharing-script-collaboration-and-collectible-integration-as-specific-mechanisms.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Two new claims extracted focusing on co-production structure vs licensing and YouTube-first distribution as risk mitigation. Three enrichments to existing entertainment claims. Two new entity pages created (Claynosaurz, Mediawan Kids & Family). The co-production structure is the key innovation here — it's not just another licensing deal, but a partnership model that preserves community control while accessing professional production. The Paw Patrol creator visit is a strong signal that traditional entertainment sees this as strategically significant."
 ---
 
 ## Content
@@ -48,3 +53,12 @@ tags: [claynosaurz, mediawan, animated-series, youtube-distribution, community-i
 PRIMARY CONNECTION: traditional media buyers now seek content with pre-existing community engagement data as risk mitigation
 WHY ARCHIVED: The co-production structure (not licensing) represents a new relationship between community IP and traditional production infrastructure that preserves community control
 EXTRACTION HINT: Two distinct claims: (1) co-production vs licensing as structural innovation for community IP, (2) YouTube-first launch as risk-reduction through audience proof before traditional distribution commitment
+
+
+## Key Facts
+- 39 x 7-minute animated series format
+- Method Animation is Mediawan subsidiary handling production
+- Presented at Annecy International Animation Festival 2025
+- Paw Patrol creator ($10B+ franchise) visited to understand the model
+- Mediawan and Gameloft CEOs engaged directly with community holders
+- Claynosaurz community has ~1B views across social platforms
