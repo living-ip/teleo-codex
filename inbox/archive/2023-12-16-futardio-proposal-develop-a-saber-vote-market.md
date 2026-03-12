@@ -6,9 +6,14 @@ url: "https://www.futard.io/proposal/GPT8dFcpHfssMuULYKT9qERPY3heMoxwZHxgKgPw3TY
 date: 2023-12-16
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window.md", "MetaDAO-is-the-futarchy-launchpad-on-Solana-where-projects-raise-capital-through-unruggable-ICOs-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md", "futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Primary extraction: decision_market entity for passed proposal. Three enrichments to existing futarchy mechanism claims with operational detail. Created new Saber entity. No novel claims—all insights enrich existing mechanism understanding. Proposal demonstrates MetaDAO's business model evolution from launchpad to infrastructure provider, with detailed financial modeling based on Curve/Aura benchmarks."
 ---
 
 ## Proposal Details
@@ -201,3 +206,13 @@ For those who are more familiar with bribe terminology, which I prefer not to us
 - Autocrat version: 0.1
 - Completed: 2023-12-22
 - Ended: 2023-12-22
+
+
+## Key Facts
+- Curve had $2B TVL with $1.25M biweekly vote incentives ($30M annual run rate) as of proposal date
+- Pre-Luna Curve had $20B TVL with $15-20M biweekly vote volume
+- Aura had $600M TVL with $900k biweekly vote volume in May 2023
+- Convex charges 7-10% take rate on vote markets
+- Votium charges ~3% take rate
+- Hidden Hand charges ~10% take rate
+- Saber had $20M TVL as of 2023-12-16

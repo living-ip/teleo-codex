@@ -54,6 +54,8 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **2026-03** — Pine Analytics Q4 2025 quarterly report published
 
 - **2024-02-18** — [[metadao-otc-trade-pantera-capital]] failed: Pantera Capital's $50,000 OTC purchase proposal rejected by futarchy markets
+- **2023-12-16** — [[metadao-develop-saber-vote-market]] proposed: Build Saber vote market platform funded by $150k consortium (UXD, BlazeStake, LP Finance, Saber) with MetaDAO retaining majority ownership
+- **2023-12-22** — [[metadao-develop-saber-vote-market]] passed: Approved 10-week development timeline with $62k direct costs and dual audit process
 ## Key Decisions
 | Date | Proposal | Proposer | Category | Outcome |
 |------|----------|----------|----------|---------|

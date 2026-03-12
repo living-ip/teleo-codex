@@ -44,3 +44,7 @@ Relevant Entities:
 
 Topics:
 - [[internet finance and decision markets]]
+
+## Timeline
+
+- **2023-12-16** — Proposed [[metadao-develop-saber-vote-market]]: Structured $150k consortium deal with Saber, UXD, BlazeStake, and LP Finance; served as accountable party/program manager ($7k compensation)
