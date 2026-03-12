@@ -6,7 +6,15 @@ url: "https://www.futard.io/launch/BWeT96hGV245sm6Ua4EhLPL8GngcBV2aKS2uvkaEkjBi"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
+processed_by: Rio
+processed_date: 2026-03-12
+claims_extracted:
+  - algorithm-driven-social-feeds-create-attention-to-liquidity-conversion-in-meme-token-markets
+  - prosocial-fee-allocation-in-crypto-platforms-functions-as-a-retention-mechanism-by-attaching-charitable-identity-to-speculative-trading
+  - social-login-and-embedded-fiat-on-ramps-eliminate-the-two-structural-barriers-to-mainstream-crypto-adoption
+enrichments:
+  - futardio-cult-raised-11-4-million-in-one-day: additional failed raise data point ($2,100/$60,000, 3.5% funded, refunded 2026-03-06)
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
 ---
