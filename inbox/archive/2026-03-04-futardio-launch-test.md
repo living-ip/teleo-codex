@@ -6,13 +6,17 @@ url: "https://www.futard.io/launch/9SzcHQzMbxBbCEtLyRsuUcQn8cMSzjxnDG9WuSZCMJM5"
 date: 2026-03-04
 domain: internet-finance
 format: data
-status: unprocessed
+status: null-result
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
 processed_by: rio
 processed_date: 2026-03-11
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "This is a test launch with placeholder content ('TESTTEST...'). No actual project description, team information, or meaningful data. The $9 commitment and immediate refunding status confirm this was a platform test, not a real fundraise. No extractable claims or enrichments — purely operational test data."
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "This is a test launch with placeholder content ('TESTTEST...'). No actual project description, team information, or meaningful data. The $9 commitment and immediate refunding status confirm this was a platform test, not a real fundraise. No extractable claims or enrichments — purely operational test data. Does not meet entity significance threshold (trivial amount, refunding status, test content)."
 ---
 
 ## Launch Details
@@ -45,3 +49,10 @@ TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST
 - Launch address: 9SzcHQzMbxBbCEtLyRsuUcQn8cMSzjxnDG9WuSZCMJM5
 - Token: J5Q
 - Version: v0.7
+
+
+## Key Facts
+- Futardio test launch executed 2026-03-04 with $100K target
+- Test received $9 in commitments before entering refunding status
+- Launch used token J5Q on Solana (mint: J5QujLASJDfSck9znKSVYDNqasYPmUxVoNQLppNfmeta)
+- Platform version v0.7 operational
