@@ -7,9 +7,13 @@ date: 2025-11-15
 domain: entertainment
 secondary_domains: [internet-finance]
 format: interview
-status: unprocessed
+status: null-result
 priority: medium
 tags: [ad-supported, cpm-race-to-bottom, premium-content, content-quality, revenue-model]
+processed_by: clay
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Single new claim extracted. Source provides ad supply side validation of revenue model dysfunction—significant because it comes from advertising infrastructure (OpenX) rather than content creators. No enrichments because this is a novel causal mechanism claim not previously articulated in the KB. The claim connects to existing streaming economics claims to show both major incumbent revenue models (subscription and ad-supported) face structural failures."
 ---
 
 ## Content
@@ -36,3 +40,8 @@ Key quotes and data:
 PRIMARY CONNECTION: [[streaming churn may be permanently uneconomic because maintenance marketing consumes up to half of average revenue per user]]
 WHY ARCHIVED: Evidence from the ad ecosystem itself that ad-supported models structurally degrade content quality — supporting the thesis that alternative revenue models (loss-leader, subscription) enable better content
 EXTRACTION HINT: This is EVIDENCE for the revenue-model-determines-quality claim, not a standalone claim. Pair with Dropout and MrBeast sources for the full picture.
+
+
+## Key Facts
+- CTV advertising market is $30B+ (2025)
+- OpenX is a major programmatic advertising exchange operating in CTV space
