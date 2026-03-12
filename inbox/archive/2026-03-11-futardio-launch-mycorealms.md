@@ -6,9 +6,14 @@ url: "https://www.futard.io/launch/zwVfLheTvbXN5Vn2tZxTc8KaaVnLoBFgbZzskdFnPUb"
 date: 2026-03-11
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futardio.md", "performance-unlocked-team-tokens-with-price-multiple-triggers-and-twap-settlement-create-long-term-alignment-without-initial-dilution.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "First agricultural infrastructure project using futarchy governance. Single new claim extracted (experimental confidence due to no operational track record). Two enrichments: extends Futardio's project portfolio into physical infrastructure, confirms performance-based team token unlock mechanism. Created new entity for MycoRealms, updated Futardio timeline. Source contains detailed operational plans and team background but these are forward-looking commitments, not verified outcomes."
 ---
 
 ## Launch Details
@@ -193,3 +198,14 @@ _Note: MycoRealms is not a financial product. $MYCO tokens represent governance 
 - Token: 6hk (6hk)
 - Token mint: `6hkcSr3fDdaxjDHSrEJjxK54wz8uvbSheTEYnMEmmeta`
 - Version: v0.7
+
+
+## Key Facts
+- MycoRealms token: $MYCO (6hkcSr3fDdaxjDHSrEJjxK54wz8uvbSheTEYnMEmmeta)
+- Launch address: zwVfLheTvbXN5Vn2tZxTc8KaaVnLoBFgbZzskdFnPUb
+- Raise window: 72 hours on Futardio
+- Liquidity structure: 2M tokens Futarchy AMM, 900K Meteora, $25K (20% raise) paired
+- Team: crypticmeta (blockchain dev, built OrdinalNovus to $30M volume), Ram (5+ years commercial mushroom production)
+- Agricultural focus: button mushrooms initially, plan to expand to medicinal mushrooms and export
+- Infrastructure plan: Phase 1 $50K CAPEX for accommodation, 3 growing rooms with PUF insulation and automated climate control, DG set
+- Target: 12 growing rooms at scale, in-house composting, spawn lab
