@@ -6,7 +6,7 @@ url: "https://www.futard.io/proposal/4BTTxsV98Rhm1qjDe2yPdXtj7j7KBSuGtVQ6rUNWjjX
 date: 2025-02-06
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
 processed_by: rio
@@ -14,6 +14,11 @@ processed_date: 2025-02-06
 enrichments_applied: ["MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "Extracted two experimental claims about futarchy mechanism design (staking lockups for beauty contest mitigation, active staking rewards for participation incentives). Both are design rationales from a single proposal, not empirical results. Enriched three existing claims with implementation details and adoption friction evidence. Source is a passed governance proposal, not a retrospective analysis, so confidence is experimental at best."
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two experimental claims about futarchy mechanism design (staking lockups for beauty contest mitigation, active staking rewards for participation incentives). Both are design rationales from a passed proposal, not empirical results, so confidence is experimental. Enriched three existing claims with implementation details and adoption friction evidence. Created decision_market entity for CLOUD-1 proposal and updated Sanctum entity timeline. Source is a governance proposal with detailed mechanism specifications, not a retrospective analysis."
 ---
 
 ## Proposal Details
@@ -86,6 +91,17 @@ We aim to run new proposals every two weeks, with a one week deliberation period
 - Autocrat version: 0.3
 - Completed: 2025-02-09
 - Ended: 2025-02-09
+
+
+## Key Facts
+- Sanctum CLOUD-1 proposal passed 2025-02-09
+- Sanctum DAO account: 5n61x4BeVvvRMcYBMaorhu1MaZDViYw6HghE8gwLCvPR
+- Proposal allocates 30M CLOUD (3% of total supply) to active staking rewards
+- Staking lockup: 30-day linearly vesting (~3.3 CLOUD/day per 100 sCLOUD unstaked)
+- Minimum participation threshold: 10 USDC trading volume per proposal
+- Distribution: Two 15M CLOUD tranches, quarterly, first ~3 months after passage
+- Proposal cadence: Every two weeks (1 week deliberation + 3 day voting)
+- Uses Autocrat version 0.3
 
 
 ## Key Facts
