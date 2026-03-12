@@ -29,6 +29,12 @@ Contributing factors to prediction failure: play-money environment created no do
 ## Challenges
 This was a play-money experiment, which is the primary confound. Real-money futarchy may produce different calibration through actual downside risk. The 84-day measurement window may have been too short for TVL impact to materialize. ETH price volatility during the measurement period confounded project-specific performance attribution.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-11-25-futardio-proposal-launch-a-boost-for-hnt-ore]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+ORE's HNT-ORE boost proposal demonstrates futarchy's strength in relative selection: the market validated HNT as the next liquidity pair to boost relative to other candidates (ISC already had a boost at equivalent multiplier), but the proposal does not require absolute prediction of HNT's future price or utility—only that HNT is a better strategic choice than alternatives. The proposal passed by market consensus on relative positioning (HNT as flagship DePIN project post-HIP-138), not by predicting absolute HNT performance metrics.
+
 ---
 
 Relevant Notes:

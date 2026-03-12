@@ -7,9 +7,14 @@ date: 2026-01-01
 domain: ai-alignment
 secondary_domains: []
 format: paper
-status: unprocessed
+status: null-result
 priority: medium
 tags: [alignment-framing, Manhattan-project, operationalization, philosophical, AI-safety]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["AI alignment is a coordination problem not a technical problem.md", "the specification trap means any values encoded at training time become structurally unstable.md", "pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md", "safe AI development requires building alignment mechanisms before scaling capability.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Philosophical critique of alignment-as-technical-problem from Mind & Language. One new claim extracted (five-property decomposition of Manhattan Project framing). Four enrichments to existing claims. Full text paywalled—extraction based on abstract and discussion. The operationalizability impossibility claim is particularly strong and extends existing specification trap arguments."
 ---
 
 ## Content

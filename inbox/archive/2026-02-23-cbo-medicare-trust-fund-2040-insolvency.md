@@ -7,9 +7,15 @@ date: 2026-02-23
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [medicare-solvency, trust-fund, cbo, big-beautiful-bill, fiscal-sustainability, demographics]
+processed_by: vida
+processed_date: 2026-03-11
+claims_extracted: ["medicare-trust-fund-insolvency-accelerated-12-years-by-tax-policy-demonstrating-fiscal-fragility.md", "medicare-fiscal-pressure-forces-ma-reform-by-2030s-through-arithmetic-not-ideology.md"]
+enrichments_applied: ["the healthcare cost curve bends up through 2035 because new curative and screening capabilities create more treatable conditions faster than prices decline.md", "CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims: (1) the speed of solvency collapse as evidence of Medicare's fiscal fragility, (2) the forcing function for MA reform created by converging fiscal pressures. Enriched two existing claims with trust fund timeline context. The core insight is the arithmetic forcing function — not ideological but mathematical — that will drive reform conversations through the 2030s."
 ---
 
 ## Content
@@ -55,3 +61,17 @@ tags: [medicare-solvency, trust-fund, cbo, big-beautiful-bill, fiscal-sustainabi
 PRIMARY CONNECTION: [[the healthcare cost curve bends up through 2035 because new curative and screening capabilities create more treatable conditions faster than prices decline]]
 WHY ARCHIVED: Critical fiscal context — the solvency timeline constrains all Medicare policy including MA reform, VBC transition, and coverage decisions.
 EXTRACTION HINT: The 2055→2040 collapse in one year is the extractable insight. It demonstrates Medicare's fiscal fragility and the interaction between tax policy and healthcare sustainability.
+
+
+## Key Facts
+- CBO March 2025 projection: Medicare trust fund solvent through 2055
+- CBO February 2026 projection: Medicare trust fund exhausted by 2040
+- Solvency loss: 12 years in under one year
+- Big Beautiful Bill signed July 2025: lowered taxes, created temporary deduction for 65+
+- Trust fund exhaustion triggers 8% benefit cuts in 2040, climbing to 10% by 2056
+- Baby boomers all 65+ by 2030
+- 65+ population growth: 39.7M (2010) → 67M (2030)
+- Working-age to 65+ ratio: 2.8:1 (2025) → 2.2:1 (2055)
+- OECD old-age dependency ratio: 31.3% (2023) → 40.4% (2050)
+- MA overpayments: $84B/year, $1.2T/decade
+- Reducing MA benchmarks could save $489B over decade

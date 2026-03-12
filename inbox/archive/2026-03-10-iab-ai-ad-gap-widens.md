@@ -7,7 +7,15 @@ date: 2026-01-01
 domain: entertainment
 secondary_domains: []
 format: report
-status: unprocessed
+status: processed
+processed_by: clay
+processed_date: 2026-03-12
+claims_extracted:
+  - consumer-rejection-of-ai-generated-ads-intensifies-as-ai-quality-improves-disproving-the-exposure-leads-to-acceptance-hypothesis
+  - the-advertiser-consumer-ai-perception-gap-is-a-widening-structural-misalignment-not-a-temporal-communications-lag
+  - gen-z-hostility-to-ai-generated-advertising-is-stronger-than-millennials-and-widening-making-gen-z-a-negative-leading-indicator-for-ai-content-acceptance
+enrichments:
+  - GenAI adoption in entertainment will be gated by consumer acceptance not technology capability (strong supporting evidence — rejection intensifying, not eroding)
 priority: high
 tags: [consumer-acceptance, ai-content, advertiser-perception-gap, gen-z, authenticity]
 ---
