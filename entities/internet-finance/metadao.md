@@ -54,6 +54,8 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **2026-03** — Pine Analytics Q4 2025 quarterly report published
 
 - **2024-02-18** — [[metadao-otc-trade-pantera-capital]] failed: Pantera Capital's $50,000 OTC purchase proposal rejected by futarchy markets
+- **2024-01-24** — [[metadao-develop-amm-program-for-futarchy]] proposed: Replace CLOB markets with AMM implementation to improve liquidity and reduce state rent costs from 135-225 SOL annually to near-zero
+- **2024-01-29** — [[metadao-develop-amm-program-for-futarchy]] passed: AMM migration approved with 400 META upfront + 800 META on completion, 3-week development timeline
 ## Key Decisions
 | Date | Proposal | Proposer | Category | Outcome |
 |------|----------|----------|----------|---------|

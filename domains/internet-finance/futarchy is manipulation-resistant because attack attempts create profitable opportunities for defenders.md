@@ -15,6 +15,12 @@ Consider a concrete scenario. If an attacker pushes conditional PASS tokens abov
 
 This self-correcting property distinguishes futarchy from simpler governance mechanisms like token voting, where wealthy actors can buy outcomes directly. Since [[ownership alignment turns network effects from extractive to generative]], the futarchy mechanism extends this alignment principle to decision-making itself: those who improve decision quality profit, those who distort it lose. Since [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]], futarchy provides one concrete mechanism for continuous value-weaving through market-based truth-seeking.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-01-24-futardio-proposal-develop-amm-program-for-futarchy]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The AMM proposal makes the defender profit mechanism explicit: 3-5% swap fees mean that 'we can both: encourage LPs, and aggressively discourage wash-trading and manipulation.' The liquidity-weighted pricing adds a second layer: manipulation attempts when liquidity is high require large swaps (expensive in fees) and are heavily weighted in the settlement calculation. The proposal contrasts this with CLOB vulnerabilities where '1 $META can push the midpoint' and notes that 'defending against this (cranking markets all the time) would be a bit costly,' suggesting the AMM design shifts manipulation costs from defenders to attackers. This demonstrates a concrete implementation of the defender-profit principle in production futarchy design.
+
 ---
 
 Relevant Notes:

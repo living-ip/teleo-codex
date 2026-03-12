@@ -23,6 +23,12 @@ This evidence has direct implications for governance design. It suggests that [[
 
 Optimism's futarchy experiment achieved 5,898 total trades from 430 active forecasters (average 13.6 transactions per person) over 21 days, with 88.6% being first-time Optimism governance participants. This suggests futarchy CAN attract substantial engagement when implemented at scale with proper incentives, contradicting the limited-volume pattern observed in MetaDAO. Key differences: Optimism used play money (lower barrier to entry), had institutional backing (Uniswap Foundation co-sponsor), and involved grant selection (clearer stakes) rather than protocol governance decisions. The participation breadth (10 countries, 4 continents, 36 new users/day) suggests the limited-volume finding may be specific to MetaDAO's implementation or use case rather than a structural futarchy limitation.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-01-24-futardio-proposal-develop-amm-program-for-futarchy]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The AMM proposal directly addresses the liquidity problem as root cause of low trading volume: 'Estimating a fair price for the future value of MetaDao under pass/fail conditions is difficult, and most reasonable estimates will have a wide range. This uncertainty discourages people from risking their funds with limit orders near the midpoint price, and has the effect of reducing liquidity (and trading). This is the main reason for switching to AMMs.' The proposal quantifies the CLOB state rent burden at 135-225 SOL annually ($11,475-$19,125) and notes that 'AMMs cost almost nothing in state rent,' suggesting economic constraints were also limiting proposal frequency and thus trading opportunities. The AMM design with required proposer initial liquidity and 3-5% LP fees is explicitly intended to bootstrap trading volume.
+
 ---
 
 Relevant Notes:

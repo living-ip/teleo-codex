@@ -34,6 +34,12 @@ MycoRealms implementation reveals operational friction points: monthly $10,000 a
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-01-24-futardio-proposal-develop-amm-program-for-futarchy]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The AMM proposal confirms liquidity requirements as a core adoption barrier, identifying 'lack of liquidity' as the first of three CLOB drawbacks. The proposal notes that wide bid/ask spreads and price uncertainty 'discourage people from risking their funds with limit orders near the midpoint price.' The solution—requiring proposers to 'lock-up some initial liquidity and set the starting price'—acknowledges that liquidity bootstrapping is a necessary design constraint, not an incidental problem. This confirms that liquidity requirements are a structural friction point in futarchy adoption, not a temporary implementation issue.
+
 ---
 
 Relevant Notes:

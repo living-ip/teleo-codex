@@ -48,3 +48,7 @@ Relevant Entities:
 
 Topics:
 - [[internet finance and decision markets]]
+
+## Timeline
+
+- **2024-01-24** — Assigned frontend integration for [[metadao-develop-amm-program-for-futarchy]], responsible for majority of UI changes for AMM migration

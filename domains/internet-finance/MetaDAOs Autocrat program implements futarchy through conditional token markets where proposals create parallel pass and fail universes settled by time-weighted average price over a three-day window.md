@@ -53,6 +53,12 @@ Autocrat is MetaDAO's core governance program on Solana -- the on-chain implemen
 
 **Limitations.** [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- when proposals are clearly good or clearly bad, few traders participate because the expected profit from trading in a consensus market is near zero. This is a structural feature, not a bug: contested decisions get more participation precisely because they're uncertain, which is when you most need information aggregation. But it does mean uncontested proposals can pass or fail with very thin markets, making the TWAP potentially noisy.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-01-24-futardio-proposal-develop-amm-program-for-futarchy]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The AMM proposal reveals that the original CLOB implementation uses time-weighted average price (TWAP) but with significant vulnerabilities: 'With CLOBs there is always a bid/ask spread, and someone with 1 $META can push the midpoint towards the current best bid/ask' and 'VWAP can be manipulated by wash trading.' The proposed AMM upgrade replaces linear TWAP with liquidity-weighted price over time, where 'the more liquidity that is on the books, the more weight the current price of the pass or fail market is given. Every time there is a swap, these metrics are updated/aggregated.' This is a fundamental mechanism evolution within the Autocrat architecture, addressing identified vulnerabilities in the original TWAP settlement method.
+
 ---
 
 Relevant Notes:

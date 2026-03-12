@@ -6,9 +6,15 @@ url: "https://www.futard.io/proposal/CF9QUBS251FnNGZHLJ4WbB2CVRi5BtqJbCqMi47NX1P
 date: 2024-01-24
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+claims_extracted: ["amm-futarchy-reduces-state-rent-costs-from-135-225-sol-annually-to-near-zero-by-replacing-clob-market-pairs.md", "liquidity-weighted-price-over-time-solves-futarchy-manipulation-through-wash-trading-costs-because-high-fees-make-price-movement-expensive.md", "amm-futarchy-bootstraps-liquidity-through-high-fee-incentives-and-required-proposer-initial-liquidity-creating-self-reinforcing-depth.md"]
+enrichments_applied: ["MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md", "MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "High-quality technical proposal with clear problem statement, quantified costs, and novel mechanism design (liquidity-weighted pricing). Three claims extracted focus on: (1) state rent cost reduction, (2) manipulation resistance through fee structure, (3) liquidity bootstrapping mechanism. Four enrichments extend existing futarchy mechanism claims with implementation details. Created decision_market entity for the proposal itself plus new entity for joebuild as technical lead. Updated metadao.md and nallok.md timelines."
 ---
 
 ## Proposal Details
@@ -128,3 +134,15 @@ Any important changes or feedback brought up during the proposal vote will be re
 - Autocrat version: 0.1
 - Completed: 2024-01-29
 - Ended: 2024-01-29
+
+
+## Key Facts
+- CLOB state rent: 3.75 SOL per pass/fail market pair (2024-01-24)
+- MetaDAO proposal frequency: 3-5 per month (2024-01-24)
+- Annual CLOB state rent cost: 135-225 SOL or $11,475-$19,125 at Jan 2024 prices
+- Proposed AMM swap fees: 3-5% to incentivize LPs and discourage manipulation
+- AMM development budget: 400 META on passing + 800 META on completion
+- Development timeline: 3 weeks + 1 week review
+- Minimum CLOB order size: 1 META (spam filter for midpoint manipulation)
+- Proposal account: CF9QUBS251FnNGZHLJ4WbB2CVRi5BtqJbCqMi47NX1PG
+- Autocrat version: 0.1
