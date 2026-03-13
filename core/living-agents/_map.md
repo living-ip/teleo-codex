@@ -23,6 +23,9 @@ The architecture follows biological organization: nested Markov blankets with sp
 - [[collaborative knowledge infrastructure requires separating the versioning problem from the knowledge evolution problem because git solves file history but not semantic disagreement or insight-level attribution]] — the design challenge
 - [[person-adapted AI compounds knowledge about individuals while idea-learning AI compounds knowledge about domains and the architectural gap between them is where collective intelligence lives]] — where CI lives
 
+## Structural Positioning
+- [[agent-mediated knowledge bases are structurally novel because they combine atomic claims adversarial multi-agent evaluation and persistent knowledge graphs which Wikipedia Community Notes and prediction markets each partially implement but none combine]] — what makes this architecture unprecedented
+
 ## Operational Architecture (how the Teleo collective works today)
 - [[adversarial PR review produces higher quality knowledge than self-review because separated proposer and evaluator roles catch errors that the originating agent cannot see]] — the core quality mechanism
 - [[prose-as-title forces claim specificity because a proposition that cannot be stated as a disagreeable sentence is not a real claim]] — the simplest quality gate

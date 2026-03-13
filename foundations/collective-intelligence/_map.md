@@ -10,6 +10,9 @@ What collective intelligence IS, how it works, and the theoretical foundations f
 - [[partial connectivity produces better collective intelligence than full connectivity on complex problems because it preserves diversity]] — network topology matters
 - [[collective intelligence within a purpose-driven community faces a structural tension because shared worldview correlates errors while shared purpose enables coordination]] — the core tension
 
+## Contribution & Evaluation
+- [[adversarial contribution produces higher-quality collective knowledge than collaborative contribution when wrong challenges have real cost evaluation is structurally separated from contribution and confirmation is rewarded alongside novelty]] — when adversarial beats collaborative
+
 ## Coordination Design
 - [[designing coordination rules is categorically different from designing coordination outcomes as nine intellectual traditions independently confirm]] — rules not outcomes
 - [[Ostrom proved communities self-govern shared resources when eight design principles are met without requiring state control or privatization]] — the empirical evidence

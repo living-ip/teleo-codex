@@ -92,6 +92,9 @@ Evidence from documented AI problem-solving cases, primarily Knuth's "Claude's C
 - [[nation-states will inevitably assert control over frontier AI development because the monopoly on force is the foundational state function and weapons-grade AI capability in private hands is structurally intolerable to governments]] — Thompson/Karp: the state monopoly on force makes private AI control structurally untenable
 - [[anthropomorphizing AI agents to claim autonomous action creates credibility debt that compounds until a crisis forces public reckoning]] (in `core/living-agents/`) — narrative debt from overstating AI agent autonomy
 
+## Governance & Alignment Mechanisms
+- [[transparent algorithmic governance where AI response rules are public and challengeable through the same epistemic process as the knowledge base is a structurally novel alignment approach]] — alignment through transparent, improvable rules rather than designer specification
+
 ## Coordination & Alignment Theory (local)
 Claims that frame alignment as a coordination problem, moved here from foundations/ in PR #49:
 - [[AI alignment is a coordination problem not a technical problem]] — the foundational reframe
