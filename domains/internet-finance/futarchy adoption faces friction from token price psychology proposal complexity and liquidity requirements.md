@@ -34,6 +34,12 @@ MycoRealms implementation reveals operational friction points: monthly $10,000 a
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-03-28-futardio-proposal-should-sanctum-build-a-sanctum-mobile-app-wonder]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Sanctum's Wonder proposal failure reveals a new friction: team conviction vs. market verdict on strategic pivots. The team had strong conviction ('I want to build the right introduction to crypto: the app we all deserve, but no one is building') backed by market comparables (Phantom $3B, Jupiter $1.7B, MetaMask $320M fees) and team track record (safeguarding $1B+, making futarchy fun). Yet futarchy rejected the proposal. The team reserved 'the right to change details of the prospective features or go-to-market if we deem it better for the product' but submitted the core decision to futarchy, suggesting uncertainty about whether futarchy should govern strategic direction or just treasury/operations. This creates a new adoption friction: uncertainty about futarchy's appropriate scope (operational vs. strategic decisions) and whether token markets can accurately price founder conviction and domain expertise on product strategy.
+
 ---
 
 Relevant Notes:
