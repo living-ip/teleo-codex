@@ -56,6 +56,8 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **2024-02-18** — [[metadao-otc-trade-pantera-capital]] failed: Pantera Capital's $50,000 OTC purchase proposal rejected by futarchy markets
 - **2024-02-26** — [[metadao-increase-meta-liquidity-dutch-auction]] proposed: sell 1,000 META via manual Dutch auction on OpenBook to acquire USDC for Meteora liquidity pairing
 - **2024-03-02** — [[metadao-increase-meta-liquidity-dutch-auction]] passed: completed Dutch auction and liquidity provision, moving all protocol-owned liquidity to Meteora 1% fee pool
+- **2025-01-27** — [[metadao-otc-trade-theia-2]] proposed: Theia offers $500K for 370.370 META at 14% premium with 12-month vesting
+- **2025-01-30** — [[metadao-otc-trade-theia-2]] passed: Theia acquires 370.370 META tokens for $500,000 USDC
 ## Key Decisions
 | Date | Proposal | Proposer | Category | Outcome |
 |------|----------|----------|----------|---------|
