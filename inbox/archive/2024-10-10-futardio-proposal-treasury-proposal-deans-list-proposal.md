@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/8SwPfzKhaZ2SQfgfJYfeVRTXALZs2qyFj7kX1dEkd29
 date: 2024-10-10
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Governance proposal with detailed treasury management framework. Created decision_market entity for the proposal and updated parent entity timeline. No novel claims - this is operational governance implementing existing futarchy mechanisms. Risk scoring framework is specific to this DAO's treasury management, not a general claim about futarchy design."
 ---
 
 ## Proposal Details
@@ -131,3 +135,11 @@ Target \$DEAN Price: 0.005383 USDC
 - Autocrat version: 0.3
 - Completed: 2024-10-14
 - Ended: 2024-10-14
+
+
+## Key Facts
+- IslandDAO treasury proposal passed 2024-10-14 with 3% TWAP requirement (523k to 539k USDC MCAP)
+- Risk scoring formula weights: Volatility 0.4, Liquidity 0.2, Market Cap 0.3, Drawdown 0.1
+- Treasury manager performance fee: 5% of quarterly profit with 3-month vesting
+- Target $DEAN price: 0.005383 USDC (from 0.005227 USDC)
+- Portfolio allocation: 80% safe assets (RS >= 0.5), 20% risky assets (RS <= 0.5)

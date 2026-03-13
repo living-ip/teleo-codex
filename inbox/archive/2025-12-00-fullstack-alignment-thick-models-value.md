@@ -7,9 +7,14 @@ date: 2025-12-01
 domain: ai-alignment
 secondary_domains: [mechanisms, grand-strategy]
 format: paper
-status: unprocessed
+status: null-result
 priority: medium
 tags: [full-stack-alignment, institutional-alignment, thick-values, normative-competence, co-alignment]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["AI alignment is a coordination problem not a technical problem.md", "the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance.md", "RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two novel claims about full-stack alignment and thick value models. Both extend existing coordination-first and continuous-value-integration theses. Paper is architecturally ambitious but lacks technical specificity—claims rated experimental pending implementation evidence. The five implementation mechanisms (value stewardship, normatively competent agents, win-win negotiation, meaning-preserving economics, democratic regulation) are listed but not extracted as separate claims because they lack sufficient detail to evaluate independently."
 ---
 
 ## Content

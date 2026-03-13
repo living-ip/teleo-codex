@@ -40,6 +40,7 @@ Onchain liquid token fund managed by Felipe Montealegre. Invests in companies bu
 - **2026-02-12** — Published 2025 Annual Letter. Five-phase investment loop: moat analysis → multiples → prediction → Kelly sizing → Bayesian updating. Noah Goldberg promoted to equity partner, Thomas Bautista hired.
 - **2026-02-17** — Published "The Investment Manager of the Future." LLMs invert 80/20 ratio of execution vs analysis.
 
+- **2026-02-27** — Felipe Montealegre publicly endorsed MetaDAO's value proposition for "Claude Code founders" who can "raise capital in days so they can ship in weeks," framing it as operational reality rather than narrative (14.9K views, 78 likes)
 ## Competitive Position
 - **Unique positioning**: Only known institutional fund explicitly building investment thesis around futarchy governance as a moat
 - **Token governance focus**: Launched Token Transparency Framework with Blockworks. Describes "Lemon Problem in Token Markets" — the structural issue of quality tokens being indistinguishable from scams

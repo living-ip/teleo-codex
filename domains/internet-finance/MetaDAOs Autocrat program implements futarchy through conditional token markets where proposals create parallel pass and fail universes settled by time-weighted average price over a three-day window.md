@@ -53,6 +53,12 @@ Autocrat is MetaDAO's core governance program on Solana -- the on-chain implemen
 
 **Limitations.** [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- when proposals are clearly good or clearly bad, few traders participate because the expected profit from trading in a consensus market is near zero. This is a structural feature, not a bug: contested decisions get more participation precisely because they're uncertain, which is when you most need information aggregation. But it does mean uncontested proposals can pass or fail with very thin markets, making the TWAP potentially noisy.
 
+
+### Additional Evidence (extend)
+*Source: [[2025-03-28-futardio-proposal-should-sanctum-build-a-sanctum-mobile-app-wonder]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+
+Sanctum's Wonder proposal (2frDGSg1frwBeh3bc6R7XKR2wckyMTt6pGXLGLPgoota, created 2025-03-28, completed 2025-03-31) represents the first major test of Autocrat futarchy for strategic product direction rather than treasury operations. The team explicitly stated: 'Even though this is not a proposal that involves community CLOUD funds, this is going to be the largest product decision ever made by the Sanctum team, so we want to put it up to governance vote.' The proposal to build a consumer mobile app (Wonder) with automatic yield optimization, gasless transfers, and curated project participation failed despite team conviction backed by market comparables (Phantom $3B valuation, Jupiter $1.7B market cap, MetaMask $320M swap fees). This demonstrates Autocrat's capacity to govern strategic pivots beyond operational decisions, though the failure raises questions about whether futarchy markets discount consumer product risk or disagreed with the user segmentation thesis.
+
 ---
 
 Relevant Notes:

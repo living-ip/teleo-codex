@@ -7,9 +7,14 @@ date: 2025-01-21
 domain: ai-alignment
 secondary_domains: [collective-intelligence]
 format: paper
-status: unprocessed
+status: null-result
 priority: high
 tags: [pluralistic-alignment, reward-modeling, mixture-models, ideal-points, personalization, sample-efficiency]
+processed_by: theseus
+processed_date: 2026-03-11
+enrichments_applied: ["RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values.md", "pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md", "modeling preference sensitivity as a learned distribution rather than a fixed scalar resolves DPO diversity failures without demographic labels or explicit user modeling.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two novel claims about mixture modeling for pluralistic alignment and generalization superiority. Applied three enrichments to existing alignment claims with formal evidence from PAL's theorems and empirical results. This is the first pluralistic alignment mechanism with formal sample-efficiency guarantees, representing a significant constructive advance beyond the impossibility/failure diagnoses in the existing KB. The 36% unseen user improvement is particularly significant as it reframes pluralistic alignment from a fairness concern to a functional superiority claim."
 ---
 
 ## Content
@@ -49,3 +54,11 @@ Open source: github.com/RamyaLab/pluralistic-alignment
 PRIMARY CONNECTION: RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values
 WHY ARCHIVED: First mechanism with formal guarantees for pluralistic alignment — transitions the KB from impossibility diagnosis to constructive alternatives
 EXTRACTION HINT: Focus on the formal properties (Theorems 1 and 2) and the functional superiority claim (diverse approaches generalize better, not just fairer)
+
+
+## Key Facts
+- PAL accepted at ICLR 2025 (main conference)
+- PAL presented at NeurIPS 2024 workshops: AFM, Behavioral ML, FITML, Pluralistic-Alignment, SoLaR
+- Open source implementation: github.com/RamyaLab/pluralistic-alignment
+- Architecture uses Coombs' ideal point model (1950) as theoretical foundation
+- PAL is complementary to existing RLHF/DPO pipelines (can be integrated)

@@ -6,9 +6,13 @@ url: "https://www.futard.io/proposal/DhY2YrMde6BxiqCrqUieoKt5TYzRwf2KYE3J2RQyQc7
 date: 2024-12-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana, governance]
 event_type: proposal
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Factual governance proposal data. Created decision_market entity for the proposal and parent entity for COAL project. No novel claims about futarchy mechanisms—this is a straightforward failed treasury proposal. The failure is notable as data point but doesn't generate mechanism insights beyond what existing claims already cover."
 ---
 
 ## Proposal Details
@@ -71,3 +75,11 @@ If the emission rate were adjusted to 10,000 \$COAL/day:
 - Autocrat version: 0.3
 - Completed: 2024-12-08
 - Ended: 2024-12-08
+
+
+## Key Facts
+- COAL fair launched August 2024 with no pre-mine or team allocation
+- Base emission rate: 11,250 COAL/day
+- Proposed development allocation: 472.5 COAL/day (4.2%)
+- Development fund proposal failed 2024-12-08 after 3-day voting period
+- Proposal included weekly claims, public expenditure tracking, DAO-managed multisig

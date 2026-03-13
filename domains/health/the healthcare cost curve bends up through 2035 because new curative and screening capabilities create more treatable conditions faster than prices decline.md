@@ -31,6 +31,12 @@ The fundamental tension in healthcare economics: medicine can now cure diseases 
 
 The composition of spending shifts dramatically: less on chronic disease management (diabetes complications, repeat cardiovascular events, lifelong hemophilia factor), more on curative interventions (gene therapy, personalized vaccines), prevention (MCED screening, GLP-1s), and new care categories. Per-capita health outcomes improve substantially, but per-capita spending also increases. The deflationary equilibrium is real but 15-20 years away, not 5-10.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-02-23-cbo-medicare-trust-fund-2040-insolvency]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+(extend) The Medicare trust fund fiscal pressure adds a constraint layer to the cost curve dynamics. While new capabilities create upward cost pressure through expanded treatment populations, the trust fund exhaustion timeline (now 2040, accelerated from 2055 by tax policy changes) creates a hard fiscal boundary. The convergence of demographic pressure (working-age to 65+ ratio declining to 2.2:1 by 2055), MA overpayments ($1.2T/decade), and reduced tax revenues means automatic 8-10% benefit cuts starting 2040 unless structural reforms occur. This fiscal ceiling will force coverage and payment decisions in the 2030s independent of technology trajectories, potentially constraining the cost curve expansion that new capabilities would otherwise enable.
+
 ---
 
 Relevant Notes:
