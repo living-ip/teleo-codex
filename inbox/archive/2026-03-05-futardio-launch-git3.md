@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/HKRDmghovXSCMobiRCZ7BBdHopEizyKmnhJKywjk3vUa"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Factual launch data for Git3 futarchy-governed fundraise. No novel claims about futarchy mechanisms or internet finance dynamics — this is a straightforward failed fundraise with standard pitch deck content. Created entity pages for Git3 (company) and the fundraise decision market. The failure is notable as a data point (28.3% fill rate despite live MVP) but doesn't generate new theoretical claims about futarchy or capital formation mechanisms beyond what's already captured in existing KB claims about futarchy variance and market filtering."
 ---
 
 ## Launch Details
@@ -268,3 +272,13 @@ Future revenue streams include enterprise licensing, premium features, and custo
 - Token mint: `6VTMeDtrtimh2988dhfYi2rMEDVdYzuHoSgERUmdmeta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- Git3 launched futarchy-governed fundraise on Futardio 2026-03-05
+- Git3 raised $28,266 of $100,000 target (28.3% fill rate)
+- Git3 fundraise entered refunding status 2026-03-06
+- Git3 MVP live at git3.io with GitHub Actions integration
+- Git3 built on Irys blockchain for permanent storage
+- Git3 proposed 12-month runway with $8K monthly burn rate
+- Git3 revenue model: creator fees on NFT sales, protocol fees on x402 transactions, agent royalties
