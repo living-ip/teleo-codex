@@ -39,4 +39,4 @@ Relevant Notes:
 - [[Starship achieving routine operations at sub-100 dollars per kg is the single largest enabling condition for the entire space industrial economy]]
 
 Topics:
-- [[domains/space-development/_map]]
+- domains/space-development/_map

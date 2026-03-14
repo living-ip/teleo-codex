@@ -37,5 +37,5 @@ Relevant Notes:
 - [[SpaceX vertical integration across launch broadband and manufacturing creates compounding cost advantages that no competitor can replicate piecemeal]]
 
 Topics:
-- [[domains/space-development/_map]]
-- [[core/grand-strategy/_map]]
+- domains/space-development/_map
+- core/grand-strategy/_map

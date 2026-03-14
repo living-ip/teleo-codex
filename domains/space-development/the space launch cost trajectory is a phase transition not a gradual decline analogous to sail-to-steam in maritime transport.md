@@ -40,4 +40,4 @@ Relevant Notes:
 - [[what matters in industry transitions is the slope not the trigger because self-organized criticality means accumulated fragility determines the avalanche while the specific disruption event is irrelevant]] — the accumulated cost inefficiency of expendable launch is the slope; Falcon 9 reusability was the trigger
 
 Topics:
-- [[space exploration and development]]
+- space exploration and development
