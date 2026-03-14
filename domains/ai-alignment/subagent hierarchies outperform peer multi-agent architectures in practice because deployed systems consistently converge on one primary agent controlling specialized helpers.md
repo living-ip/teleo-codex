@@ -36,4 +36,4 @@ Relevant Notes:
 - [[collective superintelligence is the alternative to monolithic AI controlled by a few]] — needs architectural specification: hierarchy, not flat networks
 
 Topics:
-- [[domains/ai-alignment/_map]]
+- domains/ai-alignment/_map
