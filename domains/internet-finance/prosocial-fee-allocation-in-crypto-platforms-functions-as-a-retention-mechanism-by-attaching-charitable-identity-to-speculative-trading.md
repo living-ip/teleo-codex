@@ -39,4 +39,4 @@ Relevant Notes:
 - [[futarchy-governed-meme-coins-attract-speculative-capital-at-scale]] — related context on meme coin user psychology
 
 Topics:
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map

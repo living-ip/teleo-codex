@@ -36,4 +36,4 @@ Relevant Notes:
 - [[futardio-cult-raised-11-4-million-in-one-day-through-futarchy-governed-meme-coin-launch]] — contrasting example where a futarchy meme launch succeeded at scale
 
 Topics:
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map
