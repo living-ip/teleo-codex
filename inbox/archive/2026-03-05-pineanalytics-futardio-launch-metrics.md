@@ -37,7 +37,7 @@ First analytics on futard.io's permissionless launch platform, MetaDAO's unbrand
 
 ## Connections to Knowledge Base
 
-- Validates [[futarchy-governed permissionless launches require brand separation to manage reputational liability]] — the separation is working as designed
+- Validates futarchy-governed permissionless launches require brand separation to manage reputational liability — the separation is working as designed
 - Enriches [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]] — first-mover hesitancy is a new friction dimension
 - Strengthens Position #4 — if 34 ICOs in 2 days becomes steady state, MetaDAO/futard.io ecosystem dominates Solana launch volume by sheer throughput
 - The 5.9% success rate creates a quality filter through market mechanism — only projects that attract genuine capital survive
