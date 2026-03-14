@@ -21,5 +21,5 @@ Coal is a futarchy-governed token project on Solana using [[futardio]] for gover
 
 ## Relationship to KB
 - [[futardio]] - governance platform
-- [[MetaDAO]] - futarchy infrastructure provider
+- MetaDAO - futarchy infrastructure provider
 - [[dynamic performance-based token minting replaces fixed emission schedules by tying new token creation to measurable outcomes creating algorithmic meritocracy in token distribution]] - related mechanism
