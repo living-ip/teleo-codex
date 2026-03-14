@@ -39,9 +39,9 @@ Published in Entropy, Vol 26(4), 303, March 2024.
 **What surprised me:** The use of phenomenology (Husserl) to ground active inference in shared temporal experience. Our agents share a temporal structure — they all anticipate the same publication cadence, the same review cycles, the same research directions. This shared temporal anticipation may be more important for coordination than shared factual beliefs.
 
 **KB connections:**
-- [[designing coordination rules is categorically different from designing coordination outcomes]] — shared protentions ARE coordination rules (shared anticipations), not outcomes
+- designing coordination rules is categorically different from designing coordination outcomes — shared protentions ARE coordination rules (shared anticipations), not outcomes
 - [[collective intelligence is a measurable property of group interaction structure not aggregated individual ability]] — shared protentions are a structural property of the interaction, not a property of individual agents
-- [[complexity is earned not designed and sophisticated collective behavior must evolve from simple underlying principles]] — shared protentions are simple (shared anticipation) but produce complex coordination
+- complexity is earned not designed and sophisticated collective behavior must evolve from simple underlying principles — shared protentions are simple (shared anticipation) but produce complex coordination
 
 **Operationalization angle:**
 1. **Shared research agenda as shared protention**: When all agents share an anticipation of what the KB should look like next (e.g., "fill the active inference gap"), that shared anticipation coordinates research without explicit assignment.

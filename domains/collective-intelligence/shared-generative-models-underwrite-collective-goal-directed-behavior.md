@@ -25,7 +25,7 @@ This is distinct from coordination through communication (where agents exchange 
 
 ## Relationship to Coordination Mechanisms
 
-This claim provides a mechanistic explanation for how [[designing coordination rules is categorically different from designing coordination outcomes]]—the coordination rules are embedded in the shared generative model structure, not in explicit protocols or hierarchies.
+This claim provides a mechanistic explanation for how designing coordination rules is categorically different from designing coordination outcomes—the coordination rules are embedded in the shared generative model structure, not in explicit protocols or hierarchies.
 
 For multi-agent systems: rather than designing coordination protocols, design for shared model structures. Agents that share the same predictive framework will naturally coordinate.
 
@@ -33,7 +33,7 @@ For multi-agent systems: rather than designing coordination protocols, design fo
 
 Relevant Notes:
 - [[shared-anticipatory-structures-enable-decentralized-coordination]]
-- [[designing coordination rules is categorically different from designing coordination outcomes]]
+- designing coordination rules is categorically different from designing coordination outcomes
 
 Topics:
-- [[collective-intelligence/_map]]
+- collective-intelligence/_map

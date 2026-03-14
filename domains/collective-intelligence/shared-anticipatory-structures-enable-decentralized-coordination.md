@@ -32,9 +32,9 @@ This suggests creating explicit "collective objectives" files that all agents re
 ---
 
 Relevant Notes:
-- [[designing coordination rules is categorically different from designing coordination outcomes]]
+- designing coordination rules is categorically different from designing coordination outcomes
 - [[collective intelligence is a measurable property of group interaction structure not aggregated individual ability]]
-- [[complexity is earned not designed and sophisticated collective behavior must evolve from simple underlying principles]]
+- complexity is earned not designed and sophisticated collective behavior must evolve from simple underlying principles
 
 Topics:
-- [[collective-intelligence/_map]]
+- collective-intelligence/_map
