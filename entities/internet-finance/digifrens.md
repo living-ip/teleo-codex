@@ -27,6 +27,6 @@ DigiFrens is an iOS app that provides AI companions with persistent memory, pers
 
 ## Relationship to KB
 - [[futardio]] — fundraising platform
-- [[MetaDAO]] — futarchy infrastructure provider
+- MetaDAO — futarchy infrastructure provider
 - Demonstrates AI companion market segment attempting futarchy-based fundraising
 - Example of consumer AI application seeking internet capital markets funding

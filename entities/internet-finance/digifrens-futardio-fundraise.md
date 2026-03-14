@@ -41,6 +41,6 @@ The project had substantial technical development already complete (TestFlight b
 ## Relationship to KB
 - [[futardio]] — fundraising platform
 - [[digifrens]] — parent entity
-- [[MetaDAO]] — underlying futarchy infrastructure
+- MetaDAO — underlying futarchy infrastructure
 - Contrasts with [[futardio-cult-raised-11-4-million-in-one-day-through-futarchy-governed-meme-coin-launch]] which succeeded at scale
 - Example of consumer application fundraising challenges in futarchy context
