@@ -11,7 +11,7 @@ source: "MetaDAO Terms of Service, Founder/Operator Legal Pack, inbox research f
 
 MetaDAO is the platform that makes futarchy governance practical for token launches and ongoing project governance. It is currently the only launchpad where every project gets futarchy governance from day one, and where treasury spending is structurally constrained through conditional markets rather than discretionary team control.
 
-**What MetaDAO is.** A futarchy-as-a-service platform on Solana. Projects apply, get evaluated via futarchy proposals, raise capital through STAMP agreements, and launch with futarchy governance embedded. Since [[MetaDAOs Cayman SPC houses all launched projects as ring-fenced SegCos under a single entity with MetaDAO LLC as sole Director]], the platform provides both the governance mechanism and the legal chassis.
+**What MetaDAO is.** A futarchy-as-a-service platform on Solana. Projects apply, get evaluated via futarchy proposals, raise capital through STAMP agreements, and launch with futarchy governance embedded. Since MetaDAOs Cayman SPC houses all launched projects as ring-fenced SegCos under a single entity with MetaDAO LLC as sole Director, the platform provides both the governance mechanism and the legal chassis.
 
 **The entity.** MetaDAO LLC is a Republic of the Marshall Islands DAO limited liability company (852 Lagoon Rd, Majuro, MH 96960). It serves as sole Director of the Futarchy Governance SPC (Cayman Islands). Contact: kollan@metadao.fi. Kollan House (known as "Nallok" on social media) is the key operator.
 
@@ -28,7 +28,7 @@ MetaDAO is the platform that makes futarchy governance practical for token launc
 
 **Standard token issuance template:** 10M token base issuance + 2M AMM + 900K Meteora + performance package. Projects customize within this framework.
 
-**Unruggable ICO model.** MetaDAO's innovation is the "unruggable ICO" -- initial token sales where everyone participates at the same price with no privileged seed or private rounds. Combined with STAMP spending allowances and futarchy governance, this prevents the treasury extraction that killed legacy ICOs. Since [[STAMP replaces SAFE plus token warrant by adding futarchy-governed treasury spending allowances that prevent the extraction problem that killed legacy ICOs]], the investment instrument and governance are designed as a system.
+**Unruggable ICO model.** MetaDAO's innovation is the "unruggable ICO" -- initial token sales where everyone participates at the same price with no privileged seed or private rounds. Combined with STAMP spending allowances and futarchy governance, this prevents the treasury extraction that killed legacy ICOs. Since STAMP replaces SAFE plus token warrant by adding futarchy-governed treasury spending allowances that prevent the extraction problem that killed legacy ICOs, the investment instrument and governance are designed as a system.
 
 **Ecosystem (launched projects as of early 2026):**
 - **MetaDAO** ($META) — the platform itself
@@ -56,41 +56,47 @@ Raises include: Ranger ($6M minimum, uncapped), Solomon ($102.9M committed, $8M 
 
 **Treasury deployment (Mar 2026).** @oxranga proposed formation of a DAO treasury subcommittee with $150k legal/compliance budget as staged path to deploy the DAO treasury — the first concrete governance proposal to operationalize treasury management with institutional scaffolding.
 
-**MetaLeX partnership.** Since [[MetaLex BORG structure provides automated legal entity formation for futarchy-governed investment vehicles through Cayman SPC segregated portfolios with on-chain representation]], the go-forward infrastructure automates entity creation. MetaLeX services are "recommended and configured as default" but not mandatory. Economics: $150K advance + 7% of platform fees for 3 years per BORG.
+**MetaLeX partnership.** Since MetaLex BORG structure provides automated legal entity formation for futarchy-governed investment vehicles through Cayman SPC segregated portfolios with on-chain representation, the go-forward infrastructure automates entity creation. MetaLeX services are "recommended and configured as default" but not mandatory. Economics: $150K advance + 7% of platform fees for 3 years per BORG.
 
 **Institutional validation (Feb 2026).** Theia Capital holds MetaDAO specifically for "prioritizing investors over teams" — identifying this as the competitive moat that creates network effects and switching costs in token launches. Theia describes MetaDAO as addressing "the Token Problem" (the lemon market dynamic in token launches). This is significant because Theia is a rigorous, fundamentals-driven fund using Kelly Criterion sizing and Bayesian updating — not a momentum trader. Their MetaDAO position is a structural bet on the platform's competitive advantage, not a narrative trade. (Source: Theia 2025 Annual Letter, Feb 12 2026)
 
 **Why MetaDAO matters for Living Capital.** Since [[Living Capital vehicles pair Living Agent domain expertise with futarchy-governed investment to direct capital toward crucial innovations]], MetaDAO is the existing platform where Rio's fund would launch. The entire legal + governance + token infrastructure already exists. The question is not whether to build this from scratch but whether MetaDAO's existing platform serves Living Capital's needs well enough -- or whether modifications are needed.
 
-**Three-tier dispute resolution:** Protocol decisions via futarchy (on-chain), technical disputes via review panel, legal disputes via JAMS arbitration (Cayman Islands). The layered approach means on-chain governance handles day-to-day decisions while legal mechanisms provide fallback. Since [[MetaDAOs three-layer legal hierarchy separates formation agreements from contractual relationships from regulatory armor with each layer using different enforcement mechanisms]], the governance and legal structures are designed to work together.
+**Three-tier dispute resolution:** Protocol decisions via futarchy (on-chain), technical disputes via review panel, legal disputes via JAMS arbitration (Cayman Islands). The layered approach means on-chain governance handles day-to-day decisions while legal mechanisms provide fallback. Since MetaDAOs three-layer legal hierarchy separates formation agreements from contractual relationships from regulatory armor with each layer using different enforcement mechanisms, the governance and legal structures are designed to work together.
 
 
 ### Additional Evidence (extend)
-*Source: [[2026-01-01-futardio-launch-mycorealms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2026-01-01-futardio-launch-mycorealms | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
 
 MycoRealms launch on Futardio demonstrates MetaDAO platform capabilities in production: $125,000 USDC raise with 72-hour permissionless window, automatic treasury deployment if target reached, full refunds if target missed. Launch structure includes 10M ICO tokens (62.9% of supply), 2.9M tokens for liquidity provision (2M on Futarchy AMM, 900K on Meteora pool), with 20% of funds raised ($25K) paired with LP tokens. First physical infrastructure project (mushroom farm) using the platform, extending futarchy governance from digital to real-world operations with measurable outcomes (temperature, humidity, CO2, yield).
 
 
 ### Additional Evidence (extend)
-*Source: [[2026-03-03-futardio-launch-futardio-cult]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2026-03-03-futardio-launch-futardio-cult | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
 
 Futardio cult launch (2026-03-03 to 2026-03-04) demonstrates MetaDAO's platform supports purely speculative meme coin launches, not just productive ventures. The project raised $11,402,898 against a $50,000 target in under 24 hours (22,706% oversubscription) with stated fund use for 'fan merch, token listings, private events/partys'—consumption rather than productive infrastructure. This extends MetaDAO's demonstrated use cases beyond productive infrastructure (Myco Realms mushroom farm, $125K) to governance-enhanced speculative tokens, suggesting futarchy's anti-rug mechanisms appeal across asset classes.
 
 
 ### Additional Evidence (extend)
-*Source: [[2026-03-07-futardio-launch-areal]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2026-03-07-futardio-launch-areal | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
 
 (challenge) Areal's failed Futardio launch ($11,654 raised of $50K target, REFUNDING status) demonstrates that futarchy-governed fundraising does not guarantee capital formation success. The mechanism provides credible exit guarantees through market-governed liquidation and governance quality through conditional markets, but market participants still evaluate project fundamentals and team credibility. Futarchy reduces rug risk but does not eliminate market skepticism of unproven business models or early-stage teams.
+
+
+### Additional Evidence (extend)
+*Source: [[2024-06-05-futardio-proposal-fund-futuredaos-token-migrator]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+FutureDAO's token migrator extends the unruggable ICO concept to community takeovers of existing projects. The tool uses a 60% presale threshold as the success condition: if presale reaches 60% of target, migration proceeds with new LP creation; if not, all SOL is refunded and new tokens are burned. This applies the conditional market logic to post-launch rescues rather than just initial launches. The proposal describes the tool as addressing 'Rugged Projects: Preserve community and restore value in projects affected by rug pulls' and 'Hostile Takeovers: Enabling projects to acquire other projects and empowering communities to assert control over failed project teams.' The mechanism creates on-chain enforcement of community coordination thresholds for takeover scenarios, extending MetaDAO's unruggable ICO pattern to the secondary market for abandoned projects.
 
 ---
 
 Relevant Notes:
-- [[MetaDAOs Cayman SPC houses all launched projects as ring-fenced SegCos under a single entity with MetaDAO LLC as sole Director]] -- the legal structure housing all projects
+- MetaDAOs Cayman SPC houses all launched projects as ring-fenced SegCos under a single entity with MetaDAO LLC as sole Director -- the legal structure housing all projects
 - [[MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window]] -- the governance mechanism
-- [[STAMP replaces SAFE plus token warrant by adding futarchy-governed treasury spending allowances that prevent the extraction problem that killed legacy ICOs]] -- the investment instrument
-- [[MetaLex BORG structure provides automated legal entity formation for futarchy-governed investment vehicles through Cayman SPC segregated portfolios with on-chain representation]] -- the automated legal infrastructure
-- [[MetaDAOs three-layer legal hierarchy separates formation agreements from contractual relationships from regulatory armor with each layer using different enforcement mechanisms]] -- the legal architecture
-- [[two legal paths through MetaDAO create a governance binding spectrum from commercially reasonable efforts to legally binding and determinative]] -- the governance binding options
+- STAMP replaces SAFE plus token warrant by adding futarchy-governed treasury spending allowances that prevent the extraction problem that killed legacy ICOs -- the investment instrument
+- MetaLex BORG structure provides automated legal entity formation for futarchy-governed investment vehicles through Cayman SPC segregated portfolios with on-chain representation -- the automated legal infrastructure
+- MetaDAOs three-layer legal hierarchy separates formation agreements from contractual relationships from regulatory armor with each layer using different enforcement mechanisms -- the legal architecture
+- two legal paths through MetaDAO create a governance binding spectrum from commercially reasonable efforts to legally binding and determinative -- the governance binding options
 - [[Living Capital vehicles pair Living Agent domain expertise with futarchy-governed investment to direct capital toward crucial innovations]] -- why MetaDAO matters for Living Capital
 
 Topics:
