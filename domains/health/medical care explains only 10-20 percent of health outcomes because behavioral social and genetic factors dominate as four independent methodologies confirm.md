@@ -29,6 +29,12 @@ The claim that "90% of health outcomes are determined by non-clinical factors" h
 
 This has structural implications for how healthcare should be organized. Since [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]], the 90% finding argues that the 86% of payments still not at full risk are systematically ignoring the factors that matter most. Fee-for-service reimburses procedures, not outcomes, creating no incentive to address food insecurity, social isolation, or housing instability -- even though these may matter more than the procedure itself.
 
+
+### Additional Evidence (confirm)
+*Source: [[2024-09-19-commonwealth-fund-mirror-mirror-2024]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+The Commonwealth Fund's 2024 Mirror Mirror international comparison provides the strongest real-world proof of this claim. The US ranks **second in care process quality** (clinical excellence when care is accessed) but **last in health outcomes** (life expectancy, avoidable deaths) among 10 peer nations. This paradox proves that clinical quality alone cannot produce population health — the US has near-best clinical care AND worst outcomes, demonstrating that non-clinical factors (access, equity, social determinants) dominate outcome determination. The care process vs. outcomes decoupling across 70 measures and nearly 75% patient/physician-reported data is the international benchmark showing medical care's limited contribution to population health outcomes.
+
 ---
 
 Relevant Notes:

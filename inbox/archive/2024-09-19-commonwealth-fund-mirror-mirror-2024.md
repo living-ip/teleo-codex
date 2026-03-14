@@ -7,9 +7,15 @@ date: 2024-09-19
 domain: health
 secondary_domains: []
 format: report
-status: unprocessed
+status: processed
 priority: high
 tags: [international-comparison, commonwealth-fund, health-outcomes, access, equity, efficiency, mirror-mirror]
+processed_by: vida
+processed_date: 2026-03-11
+claims_extracted: ["us-healthcare-ranks-last-among-peer-nations-despite-highest-spending-because-access-and-equity-failures-override-clinical-quality.md"]
+enrichments_applied: ["medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm.md", "the epidemiological transition marks the shift from material scarcity to social disadvantage as the primary driver of health outcomes in developed nations.md", "SDOH interventions show strong ROI but adoption stalls because Z-code documentation remains below 3 percent and no operational infrastructure connects screening to action.md", "the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Extracted two claims focused on the care process vs. outcomes paradox, which is the core insight. Applied four enrichments to existing claims about medical care's limited contribution to health outcomes, epidemiological transition, SDOH interventions, and healthcare attractor states. This is the first international comparison source in the KB and provides the strongest real-world evidence for Belief 2 (health outcomes 80-90% determined by non-clinical factors). The paradox — 2nd in care process, last in outcomes — is definitive proof that clinical quality alone cannot produce population health."
 ---
 
 ## Content
@@ -62,3 +68,15 @@ The US system delivers excellent clinical care to those who access it, but the a
 PRIMARY CONNECTION: [[medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm]]
 WHY ARCHIVED: The strongest international evidence supporting Belief 2. First international comparison source in the KB.
 EXTRACTION HINT: The paradox — 2nd in care process, last in outcomes — is the single most extractable insight. It's the international proof that US healthcare's problem is structural, not clinical.
+
+
+## Key Facts
+- Commonwealth Fund Mirror Mirror 2024 compared 10 countries: Australia, Canada, France, Germany, Netherlands, New Zealand, Sweden, Switzerland, United Kingdom, United States
+- US ranked last overall (10th of 10) in 2024 comparison
+- US ranked 2nd in care process domain
+- US ranked last in health outcomes domain
+- US ranked 9th (second-worst) in equity domain
+- US healthcare spending exceeded 16% of GDP in 2022
+- Australia and Netherlands (top 2 overall) had lowest healthcare spending as % of GDP
+- Report used 70 unique measures across 5 performance domains
+- Nearly 75% of measures derived from patient or physician reports
