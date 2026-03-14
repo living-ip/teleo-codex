@@ -56,4 +56,4 @@ This represents Drift's strategic investment in the emerging AI x DeFi sector, u
 ## Relationship to KB
 - [[drift]] - parent entity, treasury allocation
 - [[futardio]] - governance platform
-- [[MetaDAO]] - futarchy implementation reference
+- MetaDAO - futarchy implementation reference
