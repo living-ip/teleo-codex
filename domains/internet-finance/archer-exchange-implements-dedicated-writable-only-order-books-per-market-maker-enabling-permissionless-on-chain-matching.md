@@ -30,9 +30,9 @@ This represents a novel mechanism design pattern for on-chain order books that c
 ---
 
 Relevant Notes:
-- [[permissionless-leverage-on-metadao-ecosystem-tokens-catalyzes-trading-volume-and-price-discovery-that-strengthens-governance-by-making-futarchy-markets-more-liquid.md]] — Archer provides the market making infrastructure layer
-- [[MetaDAO-is-the-futarchy-launchpad-on-solana-where-projects-raise-capital-through-unruggable-icos-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md]] — market making infrastructure enables futarchy market liquidity
+- permissionless-leverage-on-metadao-ecosystem-tokens-catalyzes-trading-volume-and-price-discovery-that-strengthens-governance-by-making-futarchy-markets-more-liquid.md — Archer provides the market making infrastructure layer
+- MetaDAO-is-the-futarchy-launchpad-on-solana-where-projects-raise-capital-through-unruggable-icos-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md — market making infrastructure enables futarchy market liquidity
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+- domains/internet-finance/_map
+- core/mechanisms/_map

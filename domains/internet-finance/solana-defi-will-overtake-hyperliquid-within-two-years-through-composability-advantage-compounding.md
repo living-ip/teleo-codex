@@ -39,8 +39,8 @@ This is a single-source prediction from a builder with direct financial interest
 ---
 
 Relevant Notes:
-- [[MetaDAO-is-the-futarchy-launchpad-on-solana-where-projects-raise-capital-through-unruggable-icos-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md]] — Solana DeFi infrastructure development
-- [[internet-capital-markets-compress-fundraising-from-months-to-days-because-permissionless-raises-eliminate-gatekeepers-while-futarchy-replaces-due-diligence-bottlenecks-with-real-time-market-pricing.md]] — composability enables rapid innovation
+- MetaDAO-is-the-futarchy-launchpad-on-solana-where-projects-raise-capital-through-unruggable-icos-governed-by-conditional-markets-creating-the-first-platform-for-ownership-coins-at-scale.md — Solana DeFi infrastructure development
+- internet-capital-markets-compress-fundraising-from-months-to-days-because-permissionless-raises-eliminate-gatekeepers-while-futarchy-replaces-due-diligence-bottlenecks-with-real-time-market-pricing.md — composability enables rapid innovation
 
 Topics:
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map
