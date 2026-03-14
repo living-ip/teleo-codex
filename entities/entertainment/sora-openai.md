@@ -25,4 +25,4 @@ OpenAI's AI video generation platform, launched as standalone app. Despite 12 mi
 ## Relationship to KB
 
 - [[GenAI adoption in entertainment will be gated by consumer acceptance not technology capability]] — retention collapse despite capability breakthrough reveals demand constraint
-- [[sora-retention-collapse-reveals-ai-video-demand-constraint-despite-capability-breakthrough]] — primary evidence source
+- sora-retention-collapse-reveals-ai-video-demand-constraint-despite-capability-breakthrough — primary evidence source
