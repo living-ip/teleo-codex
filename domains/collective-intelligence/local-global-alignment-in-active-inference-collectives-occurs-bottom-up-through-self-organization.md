@@ -35,11 +35,11 @@ This finding is directly relevant to AI alignment research: rather than focusing
 ---
 
 Relevant Notes:
-- [[complexity-is-earned-not-designed-and-sophisticated-collective-behavior-must-evolve-from-simple-underlying-principles]]
-- [[designing-coordination-rules-is-categorically-different-from-designing-coordination-outcomes]]
-- [[emergence-is-the-fundamental-pattern-of-intelligence-from-ant-colonies-to-brains-to-civilizations]]
+- complexity-is-earned-not-designed-and-sophisticated-collective-behavior-must-evolve-from-simple-underlying-principles
+- designing-coordination-rules-is-categorically-different-from-designing-coordination-outcomes
+- emergence-is-the-fundamental-pattern-of-intelligence-from-ant-colonies-to-brains-to-civilizations
 
 Topics:
-- [[collective-intelligence/_map]]
-- [[ai-alignment/_map]]
-- [[critical-systems/_map]]
+- collective-intelligence/_map
+- ai-alignment/_map
+- critical-systems/_map

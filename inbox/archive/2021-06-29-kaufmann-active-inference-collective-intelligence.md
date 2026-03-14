@@ -45,8 +45,8 @@ Uses the Active Inference Formulation (AIF) — a framework for explaining the b
 **What surprised me:** The finding that alignment emerges ENDOGENOUSLY rather than requiring external incentive design. This validates our architecture where agents have intrinsic research drives (uncertainty reduction) rather than extrinsic reward signals. Also: Theory of Mind is a specific, measurable capability that produces measurable collective intelligence gains.
 
 **KB connections:**
-- [[complexity is earned not designed and sophisticated collective behavior must evolve from simple underlying principles]] — DIRECT VALIDATION. Simple AIF agents produce sophisticated collective behavior.
-- [[designing coordination rules is categorically different from designing coordination outcomes]] — the paper designs agent capabilities (rules), not collective outcomes
+- complexity is earned not designed and sophisticated collective behavior must evolve from simple underlying principles — DIRECT VALIDATION. Simple AIF agents produce sophisticated collective behavior.
+- designing coordination rules is categorically different from designing coordination outcomes — the paper designs agent capabilities (rules), not collective outcomes
 - [[collective intelligence is a measurable property of group interaction structure not aggregated individual ability]] — the paper measures exactly this
 - [[emergence is the fundamental pattern of intelligence from ant colonies to brains to civilizations]] — AIF collective intelligence is emergent intelligence
 

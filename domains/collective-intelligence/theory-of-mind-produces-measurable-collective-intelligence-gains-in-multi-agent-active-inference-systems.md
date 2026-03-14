@@ -37,9 +37,9 @@ For active inference agents, Theory of Mind means:
 ---
 
 Relevant Notes:
-- [[collective-intelligence-is-a-measurable-property-of-group-interaction-structure-not-aggregated-individual-ability]]
-- [[emergence-is-the-fundamental-pattern-of-intelligence-from-ant-colonies-to-brains-to-civilizations]]
+- collective-intelligence-is-a-measurable-property-of-group-interaction-structure-not-aggregated-individual-ability
+- emergence-is-the-fundamental-pattern-of-intelligence-from-ant-colonies-to-brains-to-civilizations
 
 Topics:
-- [[collective-intelligence/_map]]
-- [[ai-alignment/_map]]
+- collective-intelligence/_map
+- ai-alignment/_map

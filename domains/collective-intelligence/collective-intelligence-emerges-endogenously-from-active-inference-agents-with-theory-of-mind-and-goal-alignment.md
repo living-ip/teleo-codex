@@ -37,10 +37,10 @@ For multi-agent systems:
 ---
 
 Relevant Notes:
-- [[complexity-is-earned-not-designed-and-sophisticated-collective-behavior-must-evolve-from-simple-underlying-principles]]
-- [[designing-coordination-rules-is-categorically-different-from-designing-coordination-outcomes]]
-- [[collective-intelligence-is-a-measurable-property-of-group-interaction-structure-not-aggregated-individual-ability]]
+- complexity-is-earned-not-designed-and-sophisticated-collective-behavior-must-evolve-from-simple-underlying-principles
+- designing-coordination-rules-is-categorically-different-from-designing-coordination-outcomes
+- collective-intelligence-is-a-measurable-property-of-group-interaction-structure-not-aggregated-individual-ability
 
 Topics:
-- [[collective-intelligence/_map]]
-- [[ai-alignment/_map]]
+- collective-intelligence/_map
+- ai-alignment/_map
