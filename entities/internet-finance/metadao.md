@@ -94,7 +94,7 @@ MetaDAO is the platform bet on futarchy as a governance mechanism. If decision m
 - [[MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window]] — mechanism description
 - [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] — known limitation
 - [[futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility]] — active design challenge
-- [[DAO governance degenerates into political capture because proposal processes select for coalition-building skill over operational competence and the resulting bureaucracy creates structural speed disadvantages against focused competitors]] — the problem MetaDAO solves
+- DAO governance degenerates into political capture because proposal processes select for coalition-building skill over operational competence and the resulting bureaucracy creates structural speed disadvantages against focused competitors — the problem MetaDAO solves
 
 ---
 

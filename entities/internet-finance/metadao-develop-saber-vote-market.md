@@ -43,4 +43,4 @@ The detailed execution plan (10-week timeline, $62k direct costs, 6 contributors
 ## Relationship to KB
 - [[metadao]] - parent organization, governance decision
 - [[MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window]] - mechanism being used
-- [[futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements]] - demonstrates operational complexity
+- futarchy-adoption-faces-friction-from-token-price-psychology-proposal-complexity-and-liquidity-requirements - demonstrates operational complexity
