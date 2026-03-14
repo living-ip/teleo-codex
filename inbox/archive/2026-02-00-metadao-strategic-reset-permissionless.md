@@ -51,12 +51,12 @@ MetaDAO has publicly debated whether to preserve curated launches or move to per
 **Why this matters:** The curated-to-permissionless transition is the key strategic inflection for MetaDAO. The "verified launch" mechanism is a novel coordination design — reputation-based trust networks layered on permissionless infrastructure. This is mechanism design, not just business strategy.
 **What surprised me:** Revenue declined sharply since mid-December — the cadence problem is real and urgent. The curated model creates feast-or-famine dynamics. This is the strongest evidence that permissionless scaling is necessary, not just desirable.
 **What I expected but didn't find:** Specific timeline for permissionless launch rollout. Details on how the "verified launch" trust layer would work mechanistically.
-**KB connections:** [[Teleocap makes capital formation permissionless by letting anyone propose investment terms while AI agents evaluate debate and futarchy determines funding]] — MetaDAO's permissionless transition validates the Teleocap design thesis.
+**KB connections:** Teleocap makes capital formation permissionless by letting anyone propose investment terms while AI agents evaluate debate and futarchy determines funding — MetaDAO's permissionless transition validates the Teleocap design thesis.
 **Extraction hints:** Claim about verified launches as mechanism design compromise. Claim about revenue cadence as forcing function for permissionless transition.
 **Context:** Blockworks article (behind 403 paywall) is the primary source. KuCoin and Delphi Digital summaries corroborate. The "strategic reset" was flagged in Session 1 but details were unknown.
 
 ## Curator Notes (structured handoff for extractor)
-PRIMARY CONNECTION: [[Teleocap makes capital formation permissionless by letting anyone propose investment terms while AI agents evaluate debate and futarchy determines funding]]
+PRIMARY CONNECTION: Teleocap makes capital formation permissionless by letting anyone propose investment terms while AI agents evaluate debate and futarchy determines funding
 WHY ARCHIVED: The curated → permissionless transition with verified trust layer is a novel mechanism design. Revenue cadence problem validates why permissionless is necessary. The "DAO of DAOs" vision directly relates to MetaDAO's platform thesis.
 EXTRACTION HINT: Focus on (1) verified launch as mechanism design (reputation trust + permissionless infrastructure), (2) revenue cadence as evidence for permissionless necessity, (3) "DAO of DAOs" vision as attractor state.
 

@@ -46,6 +46,6 @@ Relevant Notes:
 - [[collective intelligence requires diversity as a structural precondition not a moral preference]]
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
-- [[foundations/collective-intelligence/_map]]
+- domains/internet-finance/_map
+- core/mechanisms/_map
+- foundations/collective-intelligence/_map

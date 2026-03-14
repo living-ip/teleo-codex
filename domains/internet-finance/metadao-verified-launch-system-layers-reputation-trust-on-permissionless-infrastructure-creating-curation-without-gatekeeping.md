@@ -34,9 +34,9 @@ This represents a novel coordination design—using social proof and reputation 
 
 Relevant Notes:
 - [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]]
-- [[futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability-because-failed-projects-on-a-curated-platform-damage-the-platforms-credibility]]
-- [[Teleocap makes capital formation permissionless by letting anyone propose investment terms while AI agents evaluate debate and futarchy determines funding]]
+- futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability-because-failed-projects-on-a-curated-platform-damage-the-platforms-credibility
+- Teleocap makes capital formation permissionless by letting anyone propose investment terms while AI agents evaluate debate and futarchy determines funding
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+- domains/internet-finance/_map
+- core/mechanisms/_map

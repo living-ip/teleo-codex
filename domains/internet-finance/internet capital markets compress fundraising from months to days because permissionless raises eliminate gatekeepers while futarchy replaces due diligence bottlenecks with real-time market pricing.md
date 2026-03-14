@@ -38,13 +38,13 @@ The "Claude Code founders" framing is significant. The solo AI-native builder â€
 
 
 ### Additional Evidence (confirm)
-*Source: [[2026-01-01-futardio-launch-mycorealms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2026-01-01-futardio-launch-mycorealms | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
 
 MycoRealms demonstrates 72-hour permissionless raise window on Futardio for $125,000 USDC with automatic deployment: if target reached, treasury/spending limits/liquidity deploy automatically; if target missed, full refunds execute automatically. No gatekeepers, no due diligence bottleneck â€” market pricing determines success. This compresses what would traditionally be a multi-month fundraising process (pitch deck preparation, investor meetings, term sheet negotiation, legal documentation, wire transfers) into a 3-day permissionless window. Notably, this includes physical infrastructure (mushroom farm) not just digital projects.
 
 
 ### Additional Evidence (confirm)
-*Source: [[2026-03-03-futardio-launch-futardio-cult]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2026-03-03-futardio-launch-futardio-cult | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
 
 Futardio cult raised $11.4M in under 24 hours through MetaDAO's futarchy platform (launched 2026-03-03, closed 2026-03-04), confirming sub-day fundraising timelines for futarchy-governed launches. This provides concrete timing data supporting the compression thesis: traditional meme coin launches through centralized platforms typically require days to weeks for comparable capital formation.
 

@@ -29,8 +29,8 @@ This pattern likely generalizes to other curated launch platforms. High selectiv
 Relevant Notes:
 - [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]]
 - [[internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing]]
-- [[futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability-because-failed-projects-on-a-curated-platform-damage-the-platforms-credibility]]
+- futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability-because-failed-projects-on-a-curated-platform-damage-the-platforms-credibility
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+- domains/internet-finance/_map
+- core/mechanisms/_map
