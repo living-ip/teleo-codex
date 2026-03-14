@@ -21,6 +21,12 @@ Dario Amodei describes AI as "so powerful, such a glittering prize, that it is v
 
 Since [[the internet enabled global communication but not global cognition]], the coordination infrastructure needed doesn't exist yet. This is why [[collective superintelligence is the alternative to monolithic AI controlled by a few]] -- it solves alignment through architecture rather than attempting governance from outside the system.
 
+
+### Additional Evidence (extend)
+*Source: [[2024-11-00-ruiz-serra-factorised-active-inference-multi-agent]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Ruiz-Serra et al. (2024) provide formal evidence for the coordination framing through multi-agent active inference: even when individual agents successfully minimize their own expected free energy using factorised generative models with Theory of Mind beliefs about others, the ensemble-level expected free energy 'is not necessarily minimised at the aggregate level.' This demonstrates that alignment cannot be solved at the individual agent level—the interaction structure and coordination mechanisms determine whether individual optimization produces collective intelligence or collective failure. The finding validates that alignment is fundamentally about designing interaction structures that bridge individual and collective optimization, not about perfecting individual agent objectives.
+
 ---
 
 Relevant Notes:
