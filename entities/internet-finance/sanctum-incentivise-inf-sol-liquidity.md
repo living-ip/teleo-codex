@@ -43,5 +43,5 @@ Demonstrates futarchy application to treasury-funded growth initiatives where th
 
 ## Relationship to KB
 - [[sanctum]] - treasury allocation decision
-- [[MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window]] - mechanism used
-- [[MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions]] - exemplifies pattern
+- MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window - mechanism used
+- MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions - exemplifies pattern
