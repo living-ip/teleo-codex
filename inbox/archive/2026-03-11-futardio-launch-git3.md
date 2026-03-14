@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/6JSEvdUfQuo8rh3M18Wex5xmSacUuBozz9uQEgFC81pX"
 date: 2026-03-11
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Factual launch announcement with detailed roadmap and use of funds. No novel claims about futarchy mechanisms or market dynamics - purely entity data. The 'vampire attack' strategy and x402 integration are product features, not arguable propositions about how markets or coordination work. Created Git3 company entity and decision_market entity for the fundraise, updated Futardio timeline."
 ---
 
 ## Launch Details
@@ -339,3 +343,11 @@ Website: https://git3.io
 - Token: 3xU (3xU)
 - Token mint: `3xUJRRsEQLiEjTJNnRBy56AAVB2bh9ba9s3DYeVAmeta`
 - Version: v0.7
+
+
+## Key Facts
+- Git3 MVP live at git3.io with GitHub Actions integration (Q1 2025)
+- Git3 targets $50K raise with $8K/month burn rate and 5-month runway
+- Git3 uses Irys blockchain for permanent Git storage with 100K+ TPS capacity
+- Git3 roadmap includes NFT marketplace (Q2-Q3 2025) and $GIT3 token (Q4 2025)
+- Git3 positions as 'Code as an Asset' (CAA) play in $500B+ developer economy
