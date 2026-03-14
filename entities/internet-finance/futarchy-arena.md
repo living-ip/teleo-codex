@@ -25,5 +25,5 @@ Futarchy Arena was a competitive onchain futarchy game where players predicted o
 
 ## Relationship to KB
 - [[futardio]] — launch platform
-- [[MetaDAO]] — futarchy implementation reference
+- MetaDAO — futarchy implementation reference
 - Example of futarchy-governed project launch that failed to attract capital despite novel game mechanics approach
