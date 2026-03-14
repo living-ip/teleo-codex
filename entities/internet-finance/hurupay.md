@@ -39,7 +39,7 @@ The platform abstracts crypto complexity behind traditional payment interfaces w
 - **2026-02-07** — Futardio fundraise closed with $2,003,593 committed (67% of target); entered refund status
 
 ## Relationship to KB
-- Demonstrates [[hurupay-demonstrates-stablecoin-last-mile-fx-embedding-settlement-into-payroll-and-payments-workflows]] through workflow-embedded FX
-- Case study for [[hurupay-raised-2m-of-3m-target-on-futardio-before-refunding-suggesting-futarchy-governed-launches-face-liquidity-or-conviction-gaps]] in futarchy-governed fundraising
+- Demonstrates hurupay-demonstrates-stablecoin-last-mile-fx-embedding-settlement-into-payroll-and-payments-workflows through workflow-embedded FX
+- Case study for hurupay-raised-2m-of-3m-target-on-futardio-before-refunding-suggesting-futarchy-governed-launches-face-liquidity-or-conviction-gaps in futarchy-governed fundraising
 - Relevant to [[stablecoin flow velocity is a better predictor of DeFi protocol health than static TVL because flows measure capital utilization while TVL only measures capital parked]]
 - Contrasts with [[cryptos primary use case is capital formation not payments or store of value because permissionless token issuance solves the fundraising bottleneck that solo founders and small teams face]] by demonstrating payments as viable use case

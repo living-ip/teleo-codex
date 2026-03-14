@@ -52,6 +52,6 @@ The case contrasts with both obvious successes (substantial oversubscription) an
 
 ## Relationship to KB
 - [[hurupay]] — parent entity
-- [[hurupay-raised-2m-of-3m-target-on-futardio-before-refunding-suggesting-futarchy-governed-launches-face-liquidity-or-conviction-gaps]] — primary claim
+- hurupay-raised-2m-of-3m-target-on-futardio-before-refunding-suggesting-futarchy-governed-launches-face-liquidity-or-conviction-gaps — primary claim
 - [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]] — platform context
 - [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]] — mechanism friction
