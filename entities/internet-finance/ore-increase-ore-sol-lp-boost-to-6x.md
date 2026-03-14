@@ -52,5 +52,5 @@ This proposal demonstrates futarchy's application to operational parameter tunin
 ## Relationship to KB
 - [[ore]] — parent entity, governance decision on boost mechanism
 - [[futardio]] — platform used for decision market
-- [[MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions]] — extends pattern to operational parameters
+- MetaDAOs-futarchy-implementation-shows-limited-trading-volume-in-uncontested-decisions — extends pattern to operational parameters
 - [[futarchy-markets-can-price-cultural-spending-proposals-by-treating-community-cohesion-and-brand-equity-as-token-price-inputs]] — demonstrates indirect token-price reasoning through liquidity depth
