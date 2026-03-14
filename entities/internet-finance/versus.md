@@ -28,5 +28,5 @@ VERSUS is a provably fair AI-animated coinflip duels platform on Solana that att
 
 ## Relationship to KB
 - [[futardio]] — fundraising platform
-- [[MetaDAO]] — parent futarchy infrastructure
+- MetaDAO — parent futarchy infrastructure
 - Example of failed futarchy-governed meme coin launch, contrasting with successful raises like [[futardio-cult-raised-11-4-million-in-one-day-through-futarchy-governed-meme-coin-launch]]
