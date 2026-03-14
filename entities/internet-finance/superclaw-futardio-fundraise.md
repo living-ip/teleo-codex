@@ -62,6 +62,6 @@ The project addresses a real fragmentation problem in AI agent development while
 ## Relationship to KB
 
 - [[superclaw]] — parent entity
-- [[futardio]] — launch platform
+- futardio — launch platform
 - [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]]
 - [[futarchy-governed-meme-coins-attract-speculative-capital-at-scale]]

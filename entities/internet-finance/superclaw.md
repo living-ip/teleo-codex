@@ -9,7 +9,7 @@ status: active
 tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
-parent: "[[futardio]]"
+parent: "futardio"
 category: "AI agent infrastructure (Solana)"
 stage: seed
 funding: "Raised via Futardio ICO (target $50K, $5.95M committed)"
@@ -32,14 +32,14 @@ Infrastructure for economically autonomous AI agents. Provides agents with secur
 
 - **2026-03-04** — Launched futarchy-governed fundraise on Futardio, raising $5,950,859 against $50,000 target (119x oversubscription). Token: SUPER (mint: 5TbDn1dFEcUTJp69Fxnu5wbwNec6LmoK42Sr5mmNmeta). Completed 2026-03-05.
 ## Relationship to KB
-- [[futardio]] — launched on Futardio platform
+- futardio — launched on Futardio platform
 - [[agents that raise capital via futarchy accelerate their own development because real investment outcomes create feedback loops that information-only agents lack]] — direct test case for AI agents raising capital via futarchy
 
 ---
 
 Relevant Entities:
-- [[futardio]] — launch platform
-- [[metadao]] — parent ecosystem
+- futardio — launch platform
+- metadao — parent ecosystem
 
 Topics:
 - [[internet finance and decision markets]]
