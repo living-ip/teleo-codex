@@ -9,7 +9,7 @@ tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
 role: "Co-founder & Operator, MetaDAO"
-organizations: ["[[metadao]]", "[[futardio]]"]
+organizations: ["[[metadao]]", "futardio"]
 known_positions:
   - "Futarchy requires mechanism simplification for production adoption — Robin Hanson's original designs include impractical elements"
   - "Futarchy as a Service (FaaS) is the scaling path for futarchy governance"
@@ -43,8 +43,8 @@ Co-founder and primary operator of MetaDAO. Legal name Kollan House. Serves as t
 
 Relevant Entities:
 - [[metadao]] — co-founded
-- [[futardio]] — operates
-- [[proph3t]] — co-founder
+- futardio — operates
+- proph3t — co-founder
 
 Topics:
 - [[internet finance and decision markets]]

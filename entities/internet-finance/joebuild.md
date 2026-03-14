@@ -18,5 +18,5 @@ Solana developer and MetaDAO contributor who proposed and led the AMM migration 
 - **2024-01-29** — AMM proposal passed; responsible for program changes (400 META upfront, 800 META on completion)
 
 ## Relationship to KB
-- [[metadao.md]] — core contributor
+- metadao.md — core contributor
 - [[MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window]] — technical architect for mechanism evolution

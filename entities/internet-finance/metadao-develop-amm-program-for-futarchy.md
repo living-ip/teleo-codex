@@ -54,7 +54,7 @@ The proposal explicitly prioritizes simplicity and cost reduction over theoretic
 The liquidity-weighted pricing mechanism is novel in futarchy implementations—it weights price observations by available liquidity rather than using simple time-weighted averages, making manipulation expensive when liquidity is high.
 
 ## Relationship to KB
-- [[metadao.md]] — core mechanism upgrade
+- metadao.md — core mechanism upgrade
 - [[MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window]] — mechanism evolution from TWAP to liquidity-weighted pricing
 - [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]] — addresses liquidity barrier
 - [[futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders]] — implements explicit fee-based defender incentives

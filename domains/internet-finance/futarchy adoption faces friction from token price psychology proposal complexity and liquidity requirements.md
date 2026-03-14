@@ -12,7 +12,7 @@ Futarchy faces three concrete adoption barriers that compound to limit participa
 
 Token price psychology creates unexpected barriers to participation. META at $750 with 20K supply is designed for governance but psychologically repels the traders and arbitrageurs that futarchy depends on for price discovery. In an industry built on speculation and momentum, where participants want to buy millions of tokens and watch numbers rise, high per-token prices create psychological barriers to entry. This matters because futarchy's value proposition depends on traders turning information into accurate price signals. When the participants most sensitive to liquidity and slippage can't build meaningful positions or exit efficiently, governance gets weaker signals, conditional markets become less efficient, and price discovery breaks down.
 
-Proposal creation compounds this friction through genuine difficulty. Creating futarchic proposals requires hours of documentation, mapping complex implications, anticipating market reactions, and meeting technical requirements without templates to follow. The high effort with uncertain outcomes creates exactly the expected result: good ideas die in drafts, experiments don't happen, and proposals slow to a crawl. This is why [[futarchy proposal frequency must be controlled through auction mechanisms to prevent attention overload|proposal auction mechanisms]] matter -- they can channel the best proposals forward by rewarding sponsors when proposals pass. This connects to how [[knowledge scaling bottlenecks kill revolutionary ideas before they reach critical mass]] - even when the governance mechanism is superior, if using it is too hard, innovation stalls.
+Proposal creation compounds this friction through genuine difficulty. Creating futarchic proposals requires hours of documentation, mapping complex implications, anticipating market reactions, and meeting technical requirements without templates to follow. The high effort with uncertain outcomes creates exactly the expected result: good ideas die in drafts, experiments don't happen, and proposals slow to a crawl. This is why futarchy proposal frequency must be controlled through auction mechanisms to prevent attention overload|proposal auction mechanisms matter -- they can channel the best proposals forward by rewarding sponsors when proposals pass. This connects to how [[knowledge scaling bottlenecks kill revolutionary ideas before they reach critical mass]] - even when the governance mechanism is superior, if using it is too hard, innovation stalls.
 
 Liquidity requirements create capital barriers that exclude smaller participants. Each proposal needs sufficient market depth for meaningful trading, which requires capital commitments before knowing if the proposal has merit. This favors well-capitalized players and creates a chicken-and-egg problem where low liquidity deters traders, which reduces price discovery quality, which makes governance less effective.
 
@@ -24,13 +24,13 @@ Yet [[MetaDAOs futarchy implementation shows limited trading volume in uncontest
 
 
 ### Additional Evidence (extend)
-*Source: [[2026-01-01-futardio-launch-mycorealms]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2026-01-01-futardio-launch-mycorealms | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
 
 MycoRealms implementation reveals operational friction points: monthly $10,000 allowance creates baseline operations budget, but any expenditure beyond this requires futarchy proposal and market approval. First post-raise proposal will be $50,000 CAPEX withdrawal — a large binary decision that may face liquidity challenges in decision markets. Team must balance operational needs (construction timelines, vendor commitments, seasonal agricultural constraints) against market approval uncertainty. This creates tension between real-world operational requirements (fixed deadlines, vendor deposits, material procurement) and futarchy's market-based approval process, suggesting futarchy may face adoption friction in domains with hard operational deadlines.
 
 
 ### Additional Evidence (extend)
-*Source: [[2025-06-12-optimism-futarchy-v1-preliminary-findings]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2025-06-12-optimism-futarchy-v1-preliminary-findings | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
 
 Optimism futarchy achieved 430 active forecasters and 88.6% first-time governance participants by using play money, demonstrating that removing capital requirements can dramatically lower participation barriers. However, this came at the cost of prediction accuracy (8x overshoot on magnitude estimates), revealing a new friction: the play-money vs real-money tradeoff. Play money enables permissionless participation but sacrifices calibration; real money provides calibration but creates regulatory and capital barriers. This suggests futarchy adoption faces a structural dilemma between accessibility and accuracy that liquidity requirements alone don't capture. The tradeoff is not merely about quantity of liquidity but the fundamental difference between incentive structures that attract participants vs incentive structures that produce accurate predictions.
 
@@ -46,8 +46,8 @@ Relevant Notes:
 - [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- evidence of liquidity friction in practice
 - [[knowledge scaling bottlenecks kill revolutionary ideas before they reach critical mass]] -- similar adoption barrier through complexity
 - [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]] -- suggests focusing futarchy where benefits exceed costs
-- [[futarchy proposal frequency must be controlled through auction mechanisms to prevent attention overload]] -- proposal auction mechanisms could reduce the proposal creation barrier by rewarding good proposals
-- [[futarchy price differences should be evaluated statistically over decision periods not as point estimates]] -- statistical evaluation addresses the thin-market problem that liquidity barriers create
+- futarchy proposal frequency must be controlled through auction mechanisms to prevent attention overload -- proposal auction mechanisms could reduce the proposal creation barrier by rewarding good proposals
+- futarchy price differences should be evaluated statistically over decision periods not as point estimates -- statistical evaluation addresses the thin-market problem that liquidity barriers create
 - [[speculative markets aggregate information through incentive and selection effects not wisdom of crowds]] -- even thin markets can aggregate information if specialist arbitrageurs participate
 
 Topics:

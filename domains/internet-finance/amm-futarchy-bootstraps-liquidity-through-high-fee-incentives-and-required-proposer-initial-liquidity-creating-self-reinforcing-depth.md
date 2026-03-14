@@ -31,10 +31,10 @@ Rated experimental because this is a proposed design not yet deployed. The liqui
 ---
 
 Relevant Notes:
-- [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md]]
-- [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md]]
-- [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md]]
+- MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md
+- futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md
+- MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+- domains/internet-finance/_map
+- core/mechanisms/_map

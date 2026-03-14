@@ -10,7 +10,7 @@ tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
 founded: 2023-01-01
-founders: ["[[proph3t]]"]
+founders: ["proph3t"]
 category: "Futarchy governance protocol + ownership coin launchpad (Solana)"
 stage: growth
 key_metrics:
@@ -24,7 +24,7 @@ key_metrics:
   ecosystem_launches: "45 (via Futardio)"
   futarchic_amm_lp_share: "~20% of each project's token supply"
   proposal_volume: "$3.6M Q4 2025 (up from $205K in Q3)"
-competitors: ["[[snapshot]]", "[[tally]]"]
+competitors: ["snapshot", "tally"]
 built_on: ["Solana"]
 tags: ["futarchy", "decision-markets", "ownership-coins", "governance", "launchpad"]
 ---
@@ -53,22 +53,22 @@ The futarchy governance protocol on Solana. Implements decision markets through 
 - **2026-03** — Ranger liquidation proposal; treasury subcommittee formation
 - **2026-03** — Pine Analytics Q4 2025 quarterly report published
 
-- **2024-02-18** — [[metadao-otc-trade-pantera-capital]] failed: Pantera Capital's $50,000 OTC purchase proposal rejected by futarchy markets
+- **2024-02-18** — metadao-otc-trade-pantera-capital failed: Pantera Capital's $50,000 OTC purchase proposal rejected by futarchy markets
 - **2024-01-24** — [[metadao-develop-amm-program-for-futarchy]] proposed: Replace CLOB markets with AMM implementation to improve liquidity and reduce state rent costs from 135-225 SOL annually to near-zero
 - **2024-01-29** — [[metadao-develop-amm-program-for-futarchy]] passed: AMM migration approved with 400 META upfront + 800 META on completion, 3-week development timeline
 ## Key Decisions
 | Date | Proposal | Proposer | Category | Outcome |
 |------|----------|----------|----------|---------|
-| 2024-03-03 | [[metadao-burn-993-percent-meta]] | doctor.sol & rar3 | Treasury | Passed |
-| 2024-03-13 | [[metadao-develop-faas]] | 0xNallok | Strategy | Passed |
-| 2024-03-28 | [[metadao-migrate-autocrat-v02]] | HenryE & Proph3t | Mechanism | Passed |
-| 2024-05-27 | [[metadao-compensation-proph3t-nallok]] | Proph3t & Nallok | Hiring | Passed |
-| 2024-06-26 | [[metadao-fundraise-2]] | Proph3t | Fundraise | Passed |
-| 2024-11-21 | [[metadao-create-futardio]] | unknown | Strategy | Failed |
-| 2025-01-28 | [[metadao-token-split-elastic-supply]] | @aradtski | Mechanism | Failed |
-| 2025-02-10 | [[metadao-hire-robin-hanson]] | Proph3t | Hiring | Passed |
-| 2025-02-26 | [[metadao-release-launchpad]] | Proph3t & Kollan | Strategy | Passed |
-| 2025-08-07 | [[metadao-migrate-meta-token]] | Proph3t & Kollan | Mechanism | Passed |
+| 2024-03-03 | metadao-burn-993-percent-meta | doctor.sol & rar3 | Treasury | Passed |
+| 2024-03-13 | metadao-develop-faas | 0xNallok | Strategy | Passed |
+| 2024-03-28 | metadao-migrate-autocrat-v02 | HenryE & Proph3t | Mechanism | Passed |
+| 2024-05-27 | metadao-compensation-proph3t-nallok | Proph3t & Nallok | Hiring | Passed |
+| 2024-06-26 | metadao-fundraise-2 | Proph3t | Fundraise | Passed |
+| 2024-11-21 | metadao-create-futardio | unknown | Strategy | Failed |
+| 2025-01-28 | metadao-token-split-elastic-supply | @aradtski | Mechanism | Failed |
+| 2025-02-10 | metadao-hire-robin-hanson | Proph3t | Hiring | Passed |
+| 2025-02-26 | metadao-release-launchpad | Proph3t & Kollan | Strategy | Passed |
+| 2025-08-07 | metadao-migrate-meta-token | Proph3t & Kollan | Mechanism | Passed |
 
 ## Competitive Position
 - **First mover** in futarchy-governed organizations at scale
@@ -94,15 +94,15 @@ MetaDAO is the platform bet on futarchy as a governance mechanism. If decision m
 - [[MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window]] — mechanism description
 - [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] — known limitation
 - [[futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility]] — active design challenge
-- [[DAO governance degenerates into political capture because proposal processes select for coalition-building skill over operational competence and the resulting bureaucracy creates structural speed disadvantages against focused competitors]] — the problem MetaDAO solves
+- DAO governance degenerates into political capture because proposal processes select for coalition-building skill over operational competence and the resulting bureaucracy creates structural speed disadvantages against focused competitors — the problem MetaDAO solves
 
 ---
 
 Relevant Entities:
-- [[omnipair]] — leverage infrastructure for ecosystem
-- [[proph3t]] — founder
-- [[solomon]] — ecosystem launch
-- [[futardio]] — launch platform
+- omnipair — leverage infrastructure for ecosystem
+- proph3t — founder
+- solomon — ecosystem launch
+- futardio — launch platform
 
 Topics:
 - [[internet finance and decision markets]]

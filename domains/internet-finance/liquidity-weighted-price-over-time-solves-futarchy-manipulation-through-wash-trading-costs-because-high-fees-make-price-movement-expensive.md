@@ -23,10 +23,10 @@ This is rated experimental rather than proven because the mechanism has not yet 
 ---
 
 Relevant Notes:
-- [[futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders.md]]
-- [[MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md]]
-- [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles.md]]
+- futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders.md
+- MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window.md
+- optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles.md
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+- domains/internet-finance/_map
+- core/mechanisms/_map
