@@ -35,4 +35,4 @@ Relevant Notes:
 - [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]]
 
 Topics:
-- [[domains/ai-alignment/_map]]
+- domains/ai-alignment/_map

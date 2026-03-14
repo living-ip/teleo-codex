@@ -35,7 +35,7 @@ Demonstrates that "whose feedback" matters as much as "how much feedback" for al
 **Why this matters:** First large-scale empirical study varying DEMOGRAPHIC COMPOSITION of alignment training data. Proves that the composition question (whose preferences?) has measurable, quantitative effects on model behavior.
 **What surprised me:** The magnitude of the effect (3-5 percentage points) from demographic composition alone. This is not a subtle effect.
 **What I expected but didn't find:** Couldn't access full paper. Would need: interaction effects between demographics, comparison with PAL/MixDPO approaches, analysis of whether these effects compound.
-**KB connections:** Directly supports [[community-centred norm elicitation surfaces alignment targets materially different from developer-specified rules]]. Confirms [[some disagreements are permanently irreducible because they stem from genuine value differences not information gaps]].
+**KB connections:** Directly supports [[community-centred norm elicitation surfaces alignment targets materially different from developer-specified rules]]. Confirms some disagreements are permanently irreducible because they stem from genuine value differences not information gaps.
 **Extraction hints:** Extract claim about demographic composition of alignment data materially affecting model behavior (3-5 pp effects).
 **Context:** 1,095 participants is a large N for alignment research. Real human feedback, not synthetic.
 
