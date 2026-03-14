@@ -46,5 +46,5 @@ This inverts the traditional wallet model where users manually navigate protocol
 
 ## Related claims
 
-- [[futarchy-governed-fundraising-on-metadao-shows-early-stage-liquidity-constraints-in-seyf-launch]] - The fundraising outcome for this product
-- [[defi-complexity-creates-user-experience-friction-that-limits-mainstream-adoption]] - The broader UX problem this architecture attempts to solve
+- futarchy-governed-fundraising-on-metadao-shows-early-stage-liquidity-constraints-in-seyf-launch - The fundraising outcome for this product
+- defi-complexity-creates-user-experience-friction-that-limits-mainstream-adoption - The broader UX problem this architecture attempts to solve

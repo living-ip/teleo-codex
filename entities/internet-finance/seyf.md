@@ -31,5 +31,5 @@ The product vision centered on converting user intents like "Swap 20 SOL to USDC
 ## Relationship to KB
 
 - [[futardio]] — launch platform
-- [[MetaDAO]] — futarchy governance infrastructure
+- MetaDAO — futarchy governance infrastructure
 - Related to intent-based DeFi interaction patterns and AI wallet architecture

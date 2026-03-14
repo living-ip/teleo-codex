@@ -10,7 +10,7 @@ tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
 launched: 2025-10-01
-parent: "[[metadao]]"
+parent: "metadao"
 category: "Futarchy-governed token launchpad (Solana)"
 stage: growth
 key_metrics:
@@ -45,7 +45,7 @@ MetaDAO's token launch platform. Implements "unruggable ICOs" — permissionless
 - **2026-03** — Ranger Finance liquidation proposal — first futarchy-governed enforcement action
 
 - **2026-03-07** — Areal DAO launch: $50K target, raised $11,654 (23.3%), REFUNDING status by 2026-03-08 — first documented failed futarchy-governed fundraise on platform
-- **2026-03-04** — [[seekervault]] fundraise launched targeting $75,000, closed next day with only $1,186 (1.6% of target) in refunding status
+- **2026-03-04** — seekervault fundraise launched targeting $75,000, closed next day with only $1,186 (1.6% of target) in refunding status
 - **2026-03-05** — Seyf wallet launch raised only $200 of $300K target, entering refunding status after one day
 ## Competitive Position
 - **Unique mechanism**: Only launch platform with futarchy-governed accountability and treasury return guarantees
@@ -65,15 +65,15 @@ All permissionless launches on the Futardio platform. Successfully raised projec
 
 | Date | Project | Target | Committed | Status | Entity |
 |------|---------|--------|-----------|--------|--------|
-| 2025-10-06 | Umbra | $750K | $154.9M | Complete | [[umbra]] |
-| 2025-10-14 | Avici | $2M | $34.2M | Complete | [[avici]] |
-| 2025-10-18 | Loyal | $500K | $75.9M | Complete | [[loyal]] |
-| 2025-10-20 | ZKLSOL | $300K | $14.9M | Complete | [[zklsol]] |
-| 2025-10-23 | Paystream | $550K | $6.1M | Complete | [[paystream]] |
-| 2025-11-14 | Solomon | $2M | $102.9M | Complete | [[solomon]] |
+| 2025-10-06 | Umbra | $750K | $154.9M | Complete | umbra |
+| 2025-10-14 | Avici | $2M | $34.2M | Complete | avici |
+| 2025-10-18 | Loyal | $500K | $75.9M | Complete | loyal |
+| 2025-10-20 | ZKLSOL | $300K | $14.9M | Complete | zklsol |
+| 2025-10-23 | Paystream | $550K | $6.1M | Complete | paystream |
+| 2025-11-14 | Solomon | $2M | $102.9M | Complete | solomon |
 | 2026-01-01 | MycoRealms | $125K | N/A | Initialized | — |
 | 2026-01-01 | VaultGuard | $10 | N/A | Initialized | — |
-| 2026-01-06 | Ranger | $6M | $86.4M | Complete | [[ranger-finance]] |
+| 2026-01-06 | Ranger | $6M | $86.4M | Complete | ranger-finance |
 | 2026-02-03 | HuruPay | $3M | $2M | Refunding | — |
 | 2026-02-17 | Epic Finance | $50K | $2 | Refunding | — |
 | 2026-02-21 | ForeverNow | $50K | $10 | Refunding | — |
@@ -96,7 +96,7 @@ All permissionless launches on the Futardio platform. Successfully raised projec
 | 2026-03-03 | The Meme is Real | $55K | N/A | Refunding | — |
 | 2026-03-03 | Versus | $500K | $5.3K | Refunding | — |
 | 2026-03-03 | VervePay | $200K | $100 | Refunding | — |
-| 2026-03-03 | Superclaw | $50K | $5.95M | Complete | [[superclaw]] |
+| 2026-03-03 | Superclaw | $50K | $5.95M | Complete | superclaw |
 | 2026-03-04 | Futara | $50K | N/A | Refunding | — |
 | 2026-03-04 | Futarchy Arena | $50K | $934 | Refunding | — |
 | 2026-03-04 | iRich | $100K | $255 | Refunding | — |
@@ -148,9 +148,9 @@ All permissionless launches on the Futardio platform. Successfully raised projec
 ---
 
 Relevant Entities:
-- [[metadao]] — parent protocol
-- [[solomon]] — notable launch
-- [[omnipair]] — ecosystem infrastructure
+- metadao — parent protocol
+- solomon — notable launch
+- omnipair — ecosystem infrastructure
 
 Topics:
 - [[internet finance and decision markets]]
