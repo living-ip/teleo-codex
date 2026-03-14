@@ -30,7 +30,7 @@ LobsterFutarchy is a control plane for financial agents that provides secure, on
 ## Relationship to KB
 
 - [[futardio]] — fundraising platform
-- [[MetaDAO]] — futarchy infrastructure provider
+- MetaDAO — futarchy infrastructure provider
 - Related to agent infrastructure and DeFi automation themes in internet-finance domain
 
 ## Product Vision

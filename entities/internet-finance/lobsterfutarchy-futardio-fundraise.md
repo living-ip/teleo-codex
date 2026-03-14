@@ -75,5 +75,5 @@ The rapid close (1 day) and minimal capital committed indicate the market quickl
 
 - [[lobsterfutarchy]] — parent entity
 - [[futardio]] — fundraising platform
-- [[MetaDAO]] — futarchy infrastructure
+- MetaDAO — futarchy infrastructure
 - Related to themes in [[futarchy-governed permissionless launches require brand separation to manage reputational liability because failed projects on a curated platform damage the platforms credibility]]
