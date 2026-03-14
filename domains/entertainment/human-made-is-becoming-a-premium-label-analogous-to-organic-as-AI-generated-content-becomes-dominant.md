@@ -53,4 +53,4 @@ Relevant Notes:
 
 Topics:
 - [[entertainment]]
-- [[cultural-dynamics]]
+- cultural-dynamics

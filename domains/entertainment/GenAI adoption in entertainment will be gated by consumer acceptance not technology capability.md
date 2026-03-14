@@ -23,7 +23,7 @@ Shapiro's 2030 scenario paints a plausible picture: three of the top 10 most pop
 
 
 ### Additional Evidence (confirm)
-*Source: [[2026-01-01-multiple-human-made-premium-brand-positioning]] | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2026-01-01-multiple-human-made-premium-brand-positioning | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
 
 The emergence of 'human-made' as a premium label in 2026 provides concrete evidence of consumer resistance shaping market positioning and adoption patterns. Brands are actively differentiating on human creation and achieving higher conversion rates (PrismHaus), demonstrating consumer preference is creating market segmentation between human-made and AI-generated content. Monigle's framing that brands are 'forced to prove they're human' indicates consumer skepticism is driving strategic responses—companies are not adopting AI at maximum capability but instead positioning human creation as premium. This confirms that adoption is gated by consumer acceptance (skepticism about AI content) rather than capability (AI technology is clearly capable of generating content). The market is segmenting on acceptance, not on what's technically possible.
 
@@ -42,4 +42,4 @@ Relevant Notes:
 
 Topics:
 - [[entertainment]]
-- [[teleological-economics]]
+- teleological-economics

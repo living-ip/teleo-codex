@@ -35,5 +35,5 @@ Relevant Notes:
 - [[human-made-is-becoming-a-premium-label-analogous-to-organic-as-AI-generated-content-becomes-dominant]]
 
 Topics:
-- [[domains/entertainment/_map]]
-- [[foundations/cultural-dynamics/_map]]
+- domains/entertainment/_map
+- foundations/cultural-dynamics/_map

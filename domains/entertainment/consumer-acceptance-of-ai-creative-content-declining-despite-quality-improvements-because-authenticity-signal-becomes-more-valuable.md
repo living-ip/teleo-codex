@@ -38,5 +38,5 @@ Relevant Notes:
 - [[the-advertiser-consumer-ai-perception-gap-is-a-widening-structural-misalignment-not-a-temporal-communications-lag]]
 
 Topics:
-- [[domains/entertainment/_map]]
-- [[foundations/cultural-dynamics/_map]]
+- domains/entertainment/_map
+- foundations/cultural-dynamics/_map
