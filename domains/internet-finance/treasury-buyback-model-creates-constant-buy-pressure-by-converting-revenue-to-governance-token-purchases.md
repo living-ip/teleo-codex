@@ -39,10 +39,10 @@ The proposal passed MetaDAO governance but represents a single implementation wi
 ---
 
 Relevant Notes:
-- [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md]]
-- [[ownership coin treasuries should be actively managed through buybacks and token sales as continuous capital calibration not treated as static war chests.md]]
-- [[futarchy-daos-require-mintable-governance-tokens-because-fixed-supply-treasuries-exhaust-without-issuance-authority-forcing-disruptive-token-architecture-migrations.md]]
+- MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions.md
+- ownership coin treasuries should be actively managed through buybacks and token sales as continuous capital calibration not treated as static war chests.md
+- futarchy-daos-require-mintable-governance-tokens-because-fixed-supply-treasuries-exhaust-without-issuance-authority-forcing-disruptive-token-architecture-migrations.md
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+- domains/internet-finance/_map
+- core/mechanisms/_map

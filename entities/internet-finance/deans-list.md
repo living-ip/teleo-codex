@@ -33,20 +33,20 @@ Services DAO on Solana providing professional user feedback, QA, marketing, and 
 Dean's List is interesting not as a standalone company but as an adoption data point. It demonstrates that futarchy governance can be adopted by organizations outside of MetaDAO's direct ecosystem — a services DAO using market-based governance for operational decisions. If more existing DAOs migrate from Snapshot/token voting to futarchy, that validates the governance evolution thesis.
 
 ## Relationship to KB
-- [[DAO governance degenerates into political capture because proposal processes select for coalition-building skill over operational competence and the resulting bureaucracy creates structural speed disadvantages against focused competitors]] — Dean's List moved from token voting to futarchy to escape this
+- DAO governance degenerates into political capture because proposal processes select for coalition-building skill over operational competence and the resulting bureaucracy creates structural speed disadvantages against focused competitors — Dean's List moved from token voting to futarchy to escape this
 - [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]] — Dean's List may use futarchy selectively for high-stakes decisions
 
 ---
 
 Relevant Entities:
-- [[metadao]] — governance platform
+- metadao — governance platform
 
 Topics:
 - [[internet finance and decision markets]]
 
 ## Timeline
 
-- **2024-12-19** — [[deans-list-implement-3-week-vesting]] passed: 3-week linear vesting for DAO payments to reduce sell pressure from 80% immediate liquidation to 33% weekly rate, projected 15%-25% valuation increase
+- **2024-12-19** — deans-list-implement-3-week-vesting passed: 3-week linear vesting for DAO payments to reduce sell pressure from 80% immediate liquidation to 33% weekly rate, projected 15%-25% valuation increase
 
 - **2024-07-18** — [[deans-list-enhancing-economic-model]] proposed: transition from USDC payments to $DEAN token distributions funded by systematic buybacks (20% treasury tax in USDC, 80% used for market purchases)
 - **2024-07-22** — [[deans-list-enhancing-economic-model]] passed: economic model restructure approved via futarchy governance, implementing USDC-to-DEAN buyback mechanism with projected 5.33% FDV increase
