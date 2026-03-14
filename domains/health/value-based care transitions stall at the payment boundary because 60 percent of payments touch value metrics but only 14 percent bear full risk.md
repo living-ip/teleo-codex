@@ -19,7 +19,7 @@ The Making Care Primary model's termination in June 2025 (after just 12 months, 
 
 
 ### Additional Evidence (extend)
-*Source: [[2014-00-00-aspe-pace-effect-costs-nursing-home-mortality]] | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2014-00-00-aspe-pace-effect-costs-nursing-home-mortality | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
 
 PACE represents the extreme end of value-based care alignment—100% capitation with full financial risk for a nursing-home-eligible population. The ASPE/HHS evaluation shows that even under complete payment alignment, PACE does not reduce total costs but redistributes them (lower Medicare acute costs in early months, higher Medicaid chronic costs overall). This suggests that the 'payment boundary' stall may not be primarily a problem of insufficient risk-bearing. Rather, the economic case for value-based care may rest on quality/preference improvements rather than cost reduction. PACE's 'stall' is not at the payment boundary—it's at the cost-savings promise. The implication: value-based care may require a different success metric (outcome quality, institutionalization avoidance, mortality reduction) than the current cost-reduction narrative assumes.
 

@@ -56,7 +56,7 @@ For US policy debates, the NHS is ammunition against both extremes:
 Relevant Notes:
 - [[medical care explains only 10-20 percent of health outcomes because behavioral social and genetic factors dominate as four independent methodologies confirm]]
 - [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk]]
-- [[gatekeeping systems optimize primary care at the expense of specialty access creating structural bottlenecks]]
+- gatekeeping systems optimize primary care at the expense of specialty access creating structural bottlenecks
 
 Topics:
-- [[domains/health/_map]]
+- domains/health/_map

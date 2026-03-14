@@ -64,4 +64,4 @@ Relevant Notes:
 - [[healthcare is a complex adaptive system requiring simple enabling rules not complicated management because standardized processes erode the clinical autonomy needed for value creation]]
 
 Topics:
-- [[domains/health/_map]]
+- domains/health/_map
