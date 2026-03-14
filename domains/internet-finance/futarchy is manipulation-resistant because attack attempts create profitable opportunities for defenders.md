@@ -27,8 +27,8 @@ Relevant Notes:
 - [[ownership alignment turns network effects from extractive to generative]] -- futarchy extends ownership alignment from value creation to decision-making
 - [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]] -- futarchy is a continuous alignment mechanism through market forces
 - [[collective superintelligence is the alternative to monolithic AI controlled by a few]] -- futarchy is a governance mechanism for the collective architecture
-- [[mechanism design changes the game itself to produce better equilibria rather than expecting players to find optimal strategies]] -- futarchy is mechanism design applied to governance: the market structure makes honest pricing the dominant strategy and manipulation self-defeating
-- [[the Vickrey auction makes honesty the dominant strategy by paying winners the second-highest bid rather than their own]] -- futarchy's manipulation resistance parallels the Vickrey auction's strategy-proofness: both restructure payoffs so that truthful behavior dominates without requiring external enforcement
+- mechanism design changes the game itself to produce better equilibria rather than expecting players to find optimal strategies -- futarchy is mechanism design applied to governance: the market structure makes honest pricing the dominant strategy and manipulation self-defeating
+- the Vickrey auction makes honesty the dominant strategy by paying winners the second-highest bid rather than their own -- futarchy's manipulation resistance parallels the Vickrey auction's strategy-proofness: both restructure payoffs so that truthful behavior dominates without requiring external enforcement
 
 Topics:
 - [[livingip overview]]

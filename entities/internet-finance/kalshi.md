@@ -58,7 +58,7 @@ Kalshi is the institutional/mainstream bet on prediction markets. If prediction 
 ## Relationship to KB
 - [[Polymarket vindicated prediction markets over polling in 2024 US election]] — Kalshi co-beneficiary of this vindication
 - [[speculative markets aggregate information through incentive and selection effects not wisdom of crowds]] — same mechanism theory applies
-- [[decision markets fail in three systematic categories where legitimacy thin information or herding dynamics make voting or deliberation structurally superior]] — boundary conditions apply equally
+- decision markets fail in three systematic categories where legitimacy thin information or herding dynamics make voting or deliberation structurally superior — boundary conditions apply equally
 
 ---
 
