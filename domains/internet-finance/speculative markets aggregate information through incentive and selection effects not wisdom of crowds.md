@@ -22,7 +22,7 @@ The selection effect also relates to [[trial and error is the only coordination 
 
 
 ### Additional Evidence (extend)
-*Source: [[2025-06-12-optimism-futarchy-v1-preliminary-findings]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2025-06-12-optimism-futarchy-v1-preliminary-findings | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
 
 Optimism futarchy experiment reveals the selection effect works for ordinal ranking but fails for cardinal estimation. Markets correctly identified which projects would outperform alternatives (futarchy selections beat Grants Council by $32.5M), but catastrophically failed at magnitude prediction (8x overshoot: $239M predicted vs $31M actual). This suggests the incentive/selection mechanism produces comparative advantage assessment ("this will outperform that") rather than absolute forecasting accuracy. Additionally, Badge Holders (domain experts) had the LOWEST win rates, indicating the selection effect filters for trading skill and calibration ability, not domain knowledge—a different kind of 'information' than typically assumed. The mechanism aggregates trader wisdom (risk management, position sizing, timing) rather than domain wisdom (technical assessment, ecosystem understanding).
 
@@ -39,9 +39,9 @@ Relevant Notes:
 - [[Living Capital vehicles pair Living Agent domain expertise with futarchy-governed investment to direct capital toward crucial innovations]] -- relies on specialist correction mechanism
 - [[trial and error is the only coordination strategy humanity has ever used]] -- market-based vs society-wide trial and error
 - [[called-off bets enable conditional estimates without requiring counterfactual verification]] -- the mechanism that channels speculative incentives into conditional policy evaluation
-- [[national welfare functions can be arbitrarily complex and incrementally refined through democratic choice between alternative definitions]] -- noisy welfare signals are fine because risk-neutral speculators handle noise efficiently
+- national welfare functions can be arbitrarily complex and incrementally refined through democratic choice between alternative definitions -- noisy welfare signals are fine because risk-neutral speculators handle noise efficiently
 - [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]] -- adoption barriers reduce the noise trading that makes markets accurate
-- [[the shape of the prior distribution determines the prediction rule and getting the prior wrong produces worse predictions than having less data with the right prior]] -- market participants implicitly aggregate different prior distributions; market prediction accuracy depends on the meta-prior matching the generative distribution
+- the shape of the prior distribution determines the prediction rule and getting the prior wrong produces worse predictions than having less data with the right prior -- market participants implicitly aggregate different prior distributions; market prediction accuracy depends on the meta-prior matching the generative distribution
 
 Topics:
 - [[livingip overview]]

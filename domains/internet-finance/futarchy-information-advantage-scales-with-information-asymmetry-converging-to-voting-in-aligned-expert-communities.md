@@ -71,5 +71,5 @@ Relevant Notes:
 - [[domain-expertise-loses-to-trading-skill-in-futarchy-markets-because-prediction-accuracy-requires-calibration-not-just-knowledge]]
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[foundations/collective-intelligence/_map]]
+- domains/internet-finance/_map
+- foundations/collective-intelligence/_map
