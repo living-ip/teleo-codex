@@ -33,7 +33,7 @@ Services DAO on Solana providing professional user feedback, QA, marketing, and 
 Dean's List is interesting not as a standalone company but as an adoption data point. It demonstrates that futarchy governance can be adopted by organizations outside of MetaDAO's direct ecosystem — a services DAO using market-based governance for operational decisions. If more existing DAOs migrate from Snapshot/token voting to futarchy, that validates the governance evolution thesis.
 
 ## Relationship to KB
-- [[DAO governance degenerates into political capture because proposal processes select for coalition-building skill over operational competence and the resulting bureaucracy creates structural speed disadvantages against focused competitors]] — Dean's List moved from token voting to futarchy to escape this
+- DAO governance degenerates into political capture because proposal processes select for coalition-building skill over operational competence and the resulting bureaucracy creates structural speed disadvantages against focused competitors — Dean's List moved from token voting to futarchy to escape this
 - [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]] — Dean's List may use futarchy selectively for high-stakes decisions
 
 ---
