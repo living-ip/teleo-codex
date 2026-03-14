@@ -20,5 +20,5 @@ European media company division focused on children's and family entertainment. 
 
 ## Relationship to KB
 
-- [[co-production-partnerships-preserve-community-ip-control-while-accessing-professional-production-infrastructure-unlike-traditional-licensing]] — partnership structure
-- [[traditional-media-buyers-now-seek-content-with-pre-existing-community-engagement-data-as-risk-mitigation]] — strategic approach to community IP
+- co-production-partnerships-preserve-community-ip-control-while-accessing-professional-production-infrastructure-unlike-traditional-licensing — partnership structure
+- traditional-media-buyers-now-seek-content-with-pre-existing-community-engagement-data-as-risk-mitigation — strategic approach to community IP

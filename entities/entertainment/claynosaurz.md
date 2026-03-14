@@ -21,6 +21,6 @@ Community-owned IP project that originated as an NFT collection and is expanding
 
 ## Relationship to KB
 
-- [[co-production-partnerships-preserve-community-ip-control-while-accessing-professional-production-infrastructure-unlike-traditional-licensing]] — primary case study
-- [[youtube-first-distribution-inverts-traditional-risk-model-by-proving-audience-metrics-before-traditional-buyer-commitment]] — distribution strategy
+- co-production-partnerships-preserve-community-ip-control-while-accessing-professional-production-infrastructure-unlike-traditional-licensing — primary case study
+- youtube-first-distribution-inverts-traditional-risk-model-by-proving-audience-metrics-before-traditional-buyer-commitment — distribution strategy
 - [[community-owned-IP-has-structural-advantage-in-human-made-premium-because-provenance-is-inherent-and-legible]] — community IP model
