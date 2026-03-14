@@ -10,7 +10,7 @@ created: 2026-03-11
 last_updated: 2026-03-11
 founded: 2026-01-06
 category: "Perps aggregator / DEX aggregation (Solana/Hyperliquid)"
-parent: "[[futardio]]"
+parent: "futardio"
 stage: declining
 key_metrics:
   raise: "$8M raised ($86.4M committed — 14x oversubscription)"
@@ -63,7 +63,7 @@ Key questions this case answers:
 
 Relevant Entities:
 - [[metadao]] — parent platform
-- [[futardio]] — launch mechanism
+- futardio — launch mechanism
 
 Topics:
 - [[internet finance and decision markets]]

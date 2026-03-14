@@ -9,7 +9,7 @@ status: active
 tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
-parent: "[[futardio]]"
+parent: "futardio"
 category: "LST-based privacy mixer (Solana)"
 stage: growth
 funding: "Raised via Futardio ICO (target $300K)"
@@ -34,12 +34,12 @@ Zero-Knowledge Liquid Staking on Solana. Privacy mixer that converts deposited S
 
 - **2026-01-00** — ICO performance: maximum 30% drawdown from launch price
 ## Relationship to KB
-- [[futardio]] — launched on Futardio platform
+- futardio — launched on Futardio platform
 
 ---
 
 Relevant Entities:
-- [[futardio]] — launch platform
+- futardio — launch platform
 - [[metadao]] — parent ecosystem
 
 Topics:

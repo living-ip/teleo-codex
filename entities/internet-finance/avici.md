@@ -9,7 +9,7 @@ status: active
 tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
-parent: "[[futardio]]"
+parent: "futardio"
 category: "Distributed internet banking infrastructure (Solana)"
 stage: growth
 funding: "$3.5M raised via Futardio ICO"
@@ -35,13 +35,13 @@ Distributed internet banking infrastructure — onchain credit scoring, spend ca
 
 - **2026-01-00** — Performance update: reached 21x peak return, currently trading at ~7x from ICO price
 ## Relationship to KB
-- [[futardio]] — launched on Futardio platform
+- futardio — launched on Futardio platform
 - [[cryptos primary use case is capital formation not payments or store of value because permissionless token issuance solves the fundraising bottleneck that solo founders and small teams face]] — test case for banking-focused crypto raising via permissionless ICO
 
 ---
 
 Relevant Entities:
-- [[futardio]] — launch platform
+- futardio — launch platform
 - [[metadao]] — parent ecosystem
 
 Topics:

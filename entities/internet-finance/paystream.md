@@ -9,7 +9,7 @@ status: active
 tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
-parent: "[[futardio]]"
+parent: "futardio"
 category: "Liquidity optimization protocol (Solana)"
 stage: growth
 funding: "$750K raised via Futardio ICO"
@@ -35,12 +35,12 @@ Modular Solana protocol unifying peer-to-peer lending, leveraged liquidity provi
 
 - **2026-01-00** — ICO performance: maximum 30% drawdown from launch price
 ## Relationship to KB
-- [[futardio]] — launched on Futardio platform
+- futardio — launched on Futardio platform
 
 ---
 
 Relevant Entities:
-- [[futardio]] — launch platform
+- futardio — launch platform
 - [[metadao]] — parent ecosystem
 
 Topics:

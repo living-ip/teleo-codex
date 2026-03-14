@@ -31,10 +31,10 @@ The lower volatility in recent launches could reflect declining speculative inte
 ---
 
 Relevant Notes:
-- [[dutch-auction dynamic bonding curves solve the token launch pricing problem by tying descending prices to ascending supply curves eliminating instantaneous arbitrage.md]] (claim pending)
-- [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles.md]]
-- [[internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md]]
+- dutch-auction dynamic bonding curves solve the token launch pricing problem by tying descending prices to ascending supply curves eliminating instantaneous arbitrage.md (claim pending)
+- optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles.md
+- internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing.md
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+- domains/internet-finance/_map
+- core/mechanisms/_map

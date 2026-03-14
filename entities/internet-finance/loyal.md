@@ -10,7 +10,7 @@ status: active
 tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
-parent: "[[futardio]]"
+parent: "futardio"
 category: "Decentralized private AI intelligence protocol (Solana)"
 stage: growth
 funding: "$2.5M raised via Futardio ICO"
@@ -36,13 +36,13 @@ Open source, decentralized, censorship-resistant intelligence protocol. Private 
 
 - **2026-01-00** — ICO performance: maximum 30% drawdown from launch price
 ## Relationship to KB
-- [[futardio]] — launched on Futardio platform
+- futardio — launched on Futardio platform
 - [[internet capital markets compress fundraising from months to days because permissionless raises eliminate gatekeepers while futarchy replaces due diligence bottlenecks with real-time market pricing]] — 4-day raise window confirms compression
 
 ---
 
 Relevant Entities:
-- [[futardio]] — launch platform
+- futardio — launch platform
 - [[metadao]] — parent ecosystem
 
 Topics:

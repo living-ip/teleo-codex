@@ -9,7 +9,7 @@ status: active
 tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
-parent: "[[futardio]]"
+parent: "futardio"
 category: "Privacy protocol (Solana)"
 stage: growth
 funding: "$3M raised via Futardio ICO"
@@ -35,13 +35,13 @@ Privacy protocol for confidential swaps and transfers on Solana, built on Arcium
 
 - **2026-01-00** — ICO demonstrated strongest demand signal: $154M committed for $3M raise (51x oversubscription); reached 8x peak return, currently trading at ~3x
 ## Relationship to KB
-- [[futardio]] — launched on Futardio platform (first launch)
+- futardio — launched on Futardio platform (first launch)
 - [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]] — evidence for platform operational capacity
 
 ---
 
 Relevant Entities:
-- [[futardio]] — launch platform
+- futardio — launch platform
 - [[metadao]] — parent ecosystem
 
 Topics:

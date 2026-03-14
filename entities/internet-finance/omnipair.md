@@ -10,9 +10,9 @@ tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
 founded: 2025-01-01
-founders: ["[[rakka]]"]
+founders: ["rakka"]
 category: "Combined AMM + lending protocol (Solana)"
-parent: "[[futardio]]"
+parent: "futardio"
 stage: seed
 market_cap: "$2-3M (as of ~2026-02-25)"
 ico_raise: "$1.1M (July 2025 via MetaDAO)"
@@ -25,7 +25,7 @@ key_metrics:
   volume_tvl_ratio: "~0.8x monthly, trending toward 1x"
   borrow_rate: "1% annualized (conservative rate controller defaults)"
   team_size: "6"
-competitors: ["[[raydium]]", "[[meteora]]", "[[drift]]"]
+competitors: ["raydium", "meteora", "drift"]
 built_on: ["Solana"]
 tags: ["futarchy-ecosystem", "metadao", "leverage", "amm", "lending"]
 ---
@@ -88,10 +88,10 @@ OmniPair is a leveraged bet on MetaDAO ecosystem growth. If futarchic governance
 
 Relevant Entities:
 - [[metadao]] — platform / ecosystem
-- [[rakka]] — founder
-- [[raydium]] — AMM competitor
-- [[meteora]] — AMM competitor
-- [[drift]] — future leverage competitor
+- rakka — founder
+- raydium — AMM competitor
+- meteora — AMM competitor
+- drift — future leverage competitor
 
 Topics:
 - [[internet finance and decision markets]]

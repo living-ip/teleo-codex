@@ -11,7 +11,7 @@ last_updated: 2026-03-11
 founded: 2025-11-14
 founders: ["Ranga (@oxranga)"]
 category: "Futardio-launched ownership coin with active futarchy governance (Solana)"
-parent: "[[futardio]]"
+parent: "futardio"
 stage: early
 key_metrics:
   raise: "$8M raised ($103M committed — 13x oversubscription)"
@@ -58,7 +58,7 @@ Solomon validates the ownership coin model: futarchy governance + permissionless
 
 Relevant Entities:
 - [[metadao]] — parent platform
-- [[futardio]] — launch mechanism
+- futardio — launch mechanism
 
 Topics:
 - [[internet finance and decision markets]]
