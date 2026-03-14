@@ -43,7 +43,7 @@ Sidley Austin analysis (February 2026):
 **Why this matters:** CFTC rulemaking is the most promising near-term resolution to the state-federal prediction market crisis. If the CFTC establishes clear rules encompassing governance prediction markets, futarchy can operate under a single federal framework.
 **What surprised me:** The speed — imminent rulemaking signal in Feb 2026, while litigation is still ongoing. The CFTC is trying to establish facts on the ground before courts resolve the jurisdiction question.
 **What I expected but didn't find:** Specific scope of proposed rulemaking — does it cover all event contracts or only specific categories? The distinction matters enormously for futarchy.
-**KB connections:** [[Polymarket vindicated prediction markets over polling in 2024 US election]] — Polymarket's success is what triggered both state pushback and CFTC defense. [[Optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]] — regulatory framework determines which mechanisms are legally available.
+**KB connections:** [[Polymarket vindicated prediction markets over polling in 2024 US election]] — Polymarket's success is what triggered both state pushback and CFTC defense. Optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles — regulatory framework determines which mechanisms are legally available.
 **Extraction hints:** Claim about CFTC rulemaking as resolution path for futarchy regulation.
 **Context:** Sidley Austin is a major law firm with strong CFTC practice. Their analysis carries weight.
 

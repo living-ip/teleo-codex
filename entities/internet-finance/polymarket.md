@@ -10,7 +10,7 @@ tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
 founded: 2020-06-01
-founders: ["[[shayne-coplan]]"]
+founders: ["shayne-coplan"]
 category: "Prediction market platform (Polygon/Ethereum L2)"
 stage: growth
 funding: "ICE (Intercontinental Exchange) invested up to $2B"
@@ -18,7 +18,7 @@ key_metrics:
   monthly_volume_30d: "$8.7B (March 2026)"
   daily_volume_24h: "$390M (March 2026)"
   election_accuracy: "94%+ one month before resolution; 98% on winners"
-competitors: ["[[kalshi]]", "[[augur]]"]
+competitors: ["kalshi", "augur"]
 built_on: ["Polygon"]
 tags: ["prediction-markets", "decision-markets", "information-aggregation"]
 ---
@@ -59,13 +59,13 @@ Polymarket proved prediction markets work at scale. The 2024 election vindicatio
 ## Relationship to KB
 - [[Polymarket vindicated prediction markets over polling in 2024 US election]] — core vindication claim
 - [[speculative markets aggregate information through incentive and selection effects not wisdom of crowds]] — mechanism theory Polymarket demonstrates
-- [[decision markets fail in three systematic categories where legitimacy thin information or herding dynamics make voting or deliberation structurally superior]] — boundary conditions apply to Polymarket too (thin-information markets showed media-tracking behavior during early COVID)
+- decision markets fail in three systematic categories where legitimacy thin information or herding dynamics make voting or deliberation structurally superior — boundary conditions apply to Polymarket too (thin-information markets showed media-tracking behavior during early COVID)
 
 ---
 
 Relevant Entities:
-- [[kalshi]] — primary competitor (regulated)
-- [[metadao]] — same mechanism class, different application (governance vs prediction)
+- kalshi — primary competitor (regulated)
+- metadao — same mechanism class, different application (governance vs prediction)
 
 Topics:
 - [[internet finance and decision markets]]
