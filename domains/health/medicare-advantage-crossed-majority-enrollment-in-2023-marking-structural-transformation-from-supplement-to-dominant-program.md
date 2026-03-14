@@ -38,9 +38,9 @@ The Special Needs Plan growth is particularly significant: SNPs grew from 14% to
 ---
 
 Relevant Notes:
-- [[the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness.md]]
-- [[medicare-fiscal-pressure-forces-ma-reform-by-2030s-through-arithmetic-not-ideology.md]]
-- [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md]]
+- the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness.md
+- medicare-fiscal-pressure-forces-ma-reform-by-2030s-through-arithmetic-not-ideology.md
+- value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md
 
 Topics:
-- [[domains/health/_map]]
+- domains/health/_map

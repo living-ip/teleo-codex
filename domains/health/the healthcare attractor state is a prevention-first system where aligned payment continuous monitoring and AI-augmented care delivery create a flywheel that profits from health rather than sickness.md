@@ -281,7 +281,7 @@ Healthcare is the clearest case study for TeleoHumanity's thesis: purpose-driven
 
 
 ### Additional Evidence (challenge)
-*Source: [[2014-00-00-aspe-pace-effect-costs-nursing-home-mortality]] | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2014-00-00-aspe-pace-effect-costs-nursing-home-mortality | Added: 2026-03-10 | Extractor: anthropic/claude-sonnet-4.5*
 
 PACE provides the most comprehensive real-world test of the prevention-first attractor model: 100% capitation, fully integrated medical/social/psychiatric care, continuous monitoring of a nursing-home-eligible population, and 8-year longitudinal data (2006-2011). Yet the ASPE/HHS evaluation reveals that PACE does NOT reduce total costs—Medicare capitation rates are equivalent to FFS overall (with lower costs only in the first 6 months post-enrollment), while Medicaid costs are significantly HIGHER under PACE. The value is in restructuring care (community vs. institution, chronic vs. acute) and quality improvements (significantly lower nursing home utilization across all measures, some evidence of lower mortality), not in cost savings. This directly challenges the assumption that prevention-first, integrated care inherently 'profits from health' in an economic sense. The 'flywheel' may be clinical and social value, not financial ROI. If the attractor state requires economic efficiency to be sustainable, PACE suggests it may not be achievable through care integration alone.
 

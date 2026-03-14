@@ -46,9 +46,9 @@ The disconnect between plan choice (9+ options) and enrollment concentration (46
 ---
 
 Relevant Notes:
-- [[Devoted is the fastest-growing MA plan at 121 percent growth because purpose-built technology outperforms acquisition-based vertical integration during CMS tightening.md]]
-- [[Kaiser Permanentes 80-year tripartite structure is the strongest precedent for purpose-built payvidor exemptions because any structural separation bill that captures Kaiser faces 12.5 million members and Californias entire healthcare infrastructure.md]]
-- [[the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness.md]]
+- Devoted is the fastest-growing MA plan at 121 percent growth because purpose-built technology outperforms acquisition-based vertical integration during CMS tightening.md
+- Kaiser Permanentes 80-year tripartite structure is the strongest precedent for purpose-built payvidor exemptions because any structural separation bill that captures Kaiser faces 12.5 million members and Californias entire healthcare infrastructure.md
+- the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness.md
 
 Topics:
-- [[domains/health/_map]]
+- domains/health/_map

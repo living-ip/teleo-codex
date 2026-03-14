@@ -51,9 +51,9 @@ The spending gap is not a transitional inefficiency that will resolve as MA matu
 ---
 
 Relevant Notes:
-- [[medicare-fiscal-pressure-forces-ma-reform-by-2030s-through-arithmetic-not-ideology.md]]
-- [[CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md]]
-- [[value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md]]
+- medicare-fiscal-pressure-forces-ma-reform-by-2030s-through-arithmetic-not-ideology.md
+- CMS 2027 chart review exclusion targets vertical integration profit arbitrage by removing upcoded diagnoses from MA risk scoring.md
+- value-based care transitions stall at the payment boundary because 60 percent of payments touch value metrics but only 14 percent bear full risk.md
 
 Topics:
-- [[domains/health/_map]]
+- domains/health/_map

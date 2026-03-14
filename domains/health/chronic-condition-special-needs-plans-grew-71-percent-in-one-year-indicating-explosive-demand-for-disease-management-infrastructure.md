@@ -45,14 +45,14 @@ The 71% growth indicates:
 2. **Standard MA plans are insufficient** — Beneficiaries are actively seeking specialized chronic disease management
 3. **Plans see ROI in disease management infrastructure** — 71% growth means plans are investing heavily in C-SNP capacity
 
-This is the demand signal for [[GLP-1 receptor agonists are the largest therapeutic category launch in pharmaceutical history but their chronic use model makes the net cost impact inflationary through 2035.md]] and for continuous monitoring infrastructure like [[Oura controls 80 percent of the smart ring market with patent-defended form factor while a demographic pivot from fitness enthusiasts to wellness-focused women drives 250 percent sales growth.md]].
+This is the demand signal for GLP-1 receptor agonists are the largest therapeutic category launch in pharmaceutical history but their chronic use model makes the net cost impact inflationary through 2035.md and for continuous monitoring infrastructure like Oura controls 80 percent of the smart ring market with patent-defended form factor while a demographic pivot from fitness enthusiasts to wellness-focused women drives 250 percent sales growth.md.
 
 ---
 
 Relevant Notes:
-- [[the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness.md]]
-- [[Big Food companies engineer addictive products by hacking evolutionary reward pathways creating a noncommunicable disease epidemic more deadly than the famines specialization eliminated.md]]
-- [[continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware.md]]
+- the healthcare attractor state is a prevention-first system where aligned payment continuous monitoring and AI-augmented care delivery create a flywheel that profits from health rather than sickness.md
+- Big Food companies engineer addictive products by hacking evolutionary reward pathways creating a noncommunicable disease epidemic more deadly than the famines specialization eliminated.md
+- continuous health monitoring is converging on a multi-layer sensor stack of ambient wearables periodic patches and environmental sensors processed through AI middleware.md
 
 Topics:
-- [[domains/health/_map]]
+- domains/health/_map
