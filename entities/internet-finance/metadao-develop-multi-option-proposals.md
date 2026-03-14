@@ -38,5 +38,5 @@ The proposal outlined a from-scratch multi-modal conditional vault program with 
 
 ## Relationship to KB
 - [[metadao]] - governance mechanism expansion
-- [[futarchy-implementations-must-simplify-theoretical-mechanisms-for-production-adoption-because-original-designs-include-impractical-elements-that-academics-tolerate-but-users-reject]] - demonstrates specific simplification need
-- [[MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window]] - architectural evolution
+- futarchy-implementations-must-simplify-theoretical-mechanisms-for-production-adoption-because-original-designs-include-impractical-elements-that-academics-tolerate-but-users-reject - demonstrates specific simplification need
+- MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window - architectural evolution

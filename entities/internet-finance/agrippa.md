@@ -31,4 +31,4 @@ agrippa is a Solana developer who led Realms frontend development at Solana Labs
 
 ## Relationship to KB
 - [[metadao]] - proposed mechanism expansion
-- [[MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window]] - contributed to conditional vault design review
+- MetaDAOs-Autocrat-program-implements-futarchy-through-conditional-token-markets-where-proposals-create-parallel-pass-and-fail-universes-settled-by-time-weighted-average-price-over-a-three-day-window - contributed to conditional vault design review
