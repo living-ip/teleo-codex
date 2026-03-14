@@ -41,4 +41,4 @@ The failure contrasts with other Futardio launches that achieved higher engageme
 ## Relationship to KB
 - [[futardio]] — fundraising platform
 - [[runbookai]] — parent entity
-- [[MetaDAO]] — futarchy infrastructure
+- MetaDAO — futarchy infrastructure

@@ -26,7 +26,7 @@ RunBookAI is a proposed marketplace for trained DeFi agent strategies on Solana 
 
 ## Relationship to KB
 - [[futardio]] — fundraising platform
-- [[MetaDAO]] — futarchy infrastructure provider
+- MetaDAO — futarchy infrastructure provider
 
 ## Overview
 
