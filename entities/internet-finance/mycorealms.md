@@ -29,7 +29,7 @@ created: 2026-03-11
 
 # MycoRealms
 
-MycoRealms is the first agricultural operation governed entirely through futarchy, raising $125K via [[futardio.md|Futardio]] to build a climate-controlled mushroom production facility in India. The project separates operational allowance ($10K/month) from capital deployment, requiring all major CAPEX expenditures to pass through conditional token markets before funds can be accessed. All operational data—invoices, expenses, harvest records, photos—will be published to Arweave as a public operations ledger.
+MycoRealms is the first agricultural operation governed entirely through futarchy, raising $125K via futardio.md|Futardio to build a climate-controlled mushroom production facility in India. The project separates operational allowance ($10K/month) from capital deployment, requiring all major CAPEX expenditures to pass through conditional token markets before funds can be accessed. All operational data—invoices, expenses, harvest records, photos—will be published to Arweave as a public operations ledger.
 
 ## Timeline
 
@@ -39,5 +39,5 @@ MycoRealms is the first agricultural operation governed entirely through futarch
 ## Relationship to KB
 
 - [[myco-realms-demonstrates-futarchy-governed-physical-infrastructure-through-125k-mushroom-farm-raise-with-market-controlled-capex-deployment]] — first agricultural futarchy case
-- [[futardio.md]] — launch platform
-- [[MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window|MetaDAO futarchy implementation]] — governance mechanism
+- futardio.md — launch platform
+- MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window|MetaDAO futarchy implementation — governance mechanism
