@@ -29,7 +29,7 @@ Relevant Notes:
 - [[gamified contribution with ownership stakes aligns individual sharing with collective intelligence growth]] -- the token emission model is the investment-domain version of this incentive alignment
 - [[futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders]] -- the governance framework within which token economics operates
 
-- [[the create-destroy discipline forces genuine strategic alternatives by deliberately attacking your initial insight before committing]] -- token-locked voting with outcome-based emissions forces a create-destroy discipline on investment decisions: participants must stake tokens (create commitment) and face dilution if wrong (destroy poorly-judged positions), preventing the anchoring bias that degrades traditional fund governance
+- the create-destroy discipline forces genuine strategic alternatives by deliberately attacking your initial insight before committing -- token-locked voting with outcome-based emissions forces a create-destroy discipline on investment decisions: participants must stake tokens (create commitment) and face dilution if wrong (destroy poorly-judged positions), preventing the anchoring bias that degrades traditional fund governance
 
 Topics:
 - [[livingip overview]]

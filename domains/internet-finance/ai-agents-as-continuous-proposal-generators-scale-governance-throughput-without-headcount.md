@@ -42,6 +42,6 @@ Relevant Notes:
 - [[AI autonomously managing investment capital is regulatory terra incognita because the SEC framework assumes human-controlled registered entities deploy AI as tools]]
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[domains/ai-alignment/_map]]
-- [[core/mechanisms/_map]]
+- domains/internet-finance/_map
+- domains/ai-alignment/_map
+- core/mechanisms/_map

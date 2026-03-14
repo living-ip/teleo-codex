@@ -38,5 +38,5 @@ Relevant Notes:
 - [[LLMs shift investment management from economies of scale to economies of edge because AI collapses the analyst labor cost that forced funds to accumulate AUM rather than generate alpha]]
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[foundations/teleological-economics/_map]]
+- domains/internet-finance/_map
+- foundations/teleological-economics/_map

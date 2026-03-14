@@ -36,5 +36,5 @@ Relevant Notes:
 - [[optimal governance requires mixing mechanisms because different decisions have different manipulation risk profiles]]
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+- domains/internet-finance/_map
+- core/mechanisms/_map
