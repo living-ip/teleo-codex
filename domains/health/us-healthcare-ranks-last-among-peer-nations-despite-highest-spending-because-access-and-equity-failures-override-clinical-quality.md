@@ -44,4 +44,4 @@ Relevant Notes:
 - [[SDOH interventions show strong ROI but adoption stalls because Z-code documentation remains below 3 percent and no operational infrastructure connects screening to action]]
 
 Topics:
-- [[domains/health/_map]]
+- domains/health/_map
