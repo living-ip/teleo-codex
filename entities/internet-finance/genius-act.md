@@ -37,8 +37,8 @@ Key tensions as of March 2026 include stablecoin yield restrictions (issuers can
 
 ## Relationship to KB
 
-- [[genius-act-establishes-stablecoins-are-not-securities-classification-creating-first-legal-precedent-for-crypto-native-financial-instruments]] — statutory precedent for functional exemptions
-- [[genius-act-stablecoin-yield-prohibition-creates-structural-tension-between-regulatory-compliance-and-defi-economics]] — yield restriction implications
-- [[genius-act-reserve-requirements-establish-1-to-1-backing-with-cash-or-treasuries-as-statutory-standard-for-payment-stablecoins]] — reserve standards
-- [[Internet finance is an industry transition from traditional finance where the attractor state replaces intermediaries with programmable coordination and market-tested governance]] — stablecoin layer now has regulatory clarity
-- [[Living Capital vehicles likely fail the Howey test for securities classification]] — precedent for functional carve-outs from securities law
+- genius-act-establishes-stablecoins-are-not-securities-classification-creating-first-legal-precedent-for-crypto-native-financial-instruments — statutory precedent for functional exemptions
+- genius-act-stablecoin-yield-prohibition-creates-structural-tension-between-regulatory-compliance-and-defi-economics — yield restriction implications
+- genius-act-reserve-requirements-establish-1-to-1-backing-with-cash-or-treasuries-as-statutory-standard-for-payment-stablecoins — reserve standards
+- Internet finance is an industry transition from traditional finance where the attractor state replaces intermediaries with programmable coordination and market-tested governance — stablecoin layer now has regulatory clarity
+- Living Capital vehicles likely fail the Howey test for securities classification — precedent for functional carve-outs from securities law
