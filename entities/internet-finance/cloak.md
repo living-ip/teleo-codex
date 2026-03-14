@@ -31,6 +31,6 @@ Cloak is a privacy infrastructure protocol on Solana that enables private DCA (d
 
 ## Relationship to KB
 - [[futardio]] — launch platform
-- [[MetaDAO]] — futarchy infrastructure provider
-- Product demonstrated [[privacy.cash]] ZK-proof integration and [[Jupiter]] DEX routing
+- MetaDAO — futarchy infrastructure provider
+- Product demonstrated privacy.cash ZK-proof integration and Jupiter DEX routing
 - Team allocation structure used [[performance-unlocked-team-tokens-with-price-multiple-triggers-and-twap-settlement-create-long-term-alignment-without-initial-dilution]] mechanism design

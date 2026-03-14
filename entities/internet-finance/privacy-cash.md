@@ -18,5 +18,5 @@ Privacy.cash is a ZK-proof privacy pool protocol on Solana that enables cryptogr
 
 ## Relationship to KB
 - [[cloak]] — first known integration for private DCA
-- Provides infrastructure for [[futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability-because-failed-projects-on-a-curated-platform-damage-the-platforms-credibility]] privacy use cases
+- Provides infrastructure for futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability-because-failed-projects-on-a-curated-platform-damage-the-platforms-credibility privacy use cases
 - Solana implementation of ZK-proof privacy pools

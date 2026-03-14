@@ -46,6 +46,6 @@ The team's performance-locked token structure (3M tokens unlocking only at 2x, 4
 ## Relationship to KB
 - [[cloak]] — parent entity
 - [[futardio]] — launch platform
-- [[MetaDAO]] — futarchy infrastructure
-- Demonstrates challenge for [[futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability-because-failed-projects-on-a-curated-platform-damage-the-platforms-credibility]]
+- MetaDAO — futarchy infrastructure
+- Demonstrates challenge for futarchy-governed-permissionless-launches-require-brand-separation-to-manage-reputational-liability-because-failed-projects-on-a-curated-platform-damage-the-platforms-credibility
 - Tests [[internet-capital-markets-compress-fundraising-timelines]] hypothesis with negative result
