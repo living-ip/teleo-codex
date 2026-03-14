@@ -6,9 +6,13 @@ url: "https://www.futard.io/launch/5ocdHgwhMwVDzUbE7ctjdkBmP4fauPsVfb2mfUsSmhRD"
 date: 2026-03-05
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
+processed_by: rio
+processed_date: 2026-03-11
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "Source is a futarchy-governed fundraise launch that failed. Created entity pages for Torch Market (company) and the fundraise decision market. No novel claims about futarchy mechanisms or market dynamics — this is purely factual data about a specific launch event. The rapid failure (1 day) is notable but insufficient evidence alone to make claims about futarchy fundraise dynamics without additional context about market conditions or comparable cases."
 ---
 
 ## Launch Details
@@ -68,3 +72,13 @@ total: 69k-70k + flat 5k = 70k-75k total
 - Token mint: `5pFkSJ795Th3eAkvvm8KTc2Y2tFYj8gFCiSrVMjpmeta`
 - Version: v0.7
 - Closed: 2026-03-06
+
+
+## Key Facts
+- Torch Market has 48/48 kani proof harnesses for formal verification
+- Torch Market SDK has ~4K downloads on Clawhub
+- Torch Market is live on Solana devnet/mainnet
+- Torch Market founder has 1K+ followers on X
+- Torch Market fundraise targeted $75K for 6-month runway
+- Monthly burn rate: $11.5K-12.5K ($540-1540 infra, $3K founder, $2K marketing, $6K marketing team)
+- Fundraise closed 2026-03-06 in refunding status
