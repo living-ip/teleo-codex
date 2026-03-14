@@ -9,7 +9,7 @@ status: active
 tracked_by: rio
 created: 2026-03-11
 last_updated: 2026-03-11
-parent: "[[futardio]]"
+parent: "futardio"
 category: "Distributed internet banking infrastructure (Solana)"
 stage: growth
 funding: "$3.5M raised via Futardio ICO"
@@ -35,14 +35,14 @@ Distributed internet banking infrastructure — onchain credit scoring, spend ca
 
 - **2025-12-15** — Demonstrated exceptional holder retention during 65% price decline: lost only 600 holders out of 12,752 (4.7% attrition), with losses representing only 21% of initial 45-day growth rate of 9,300 holders. Featured in Messari 2026 Thesis as standout ownership coin project with low concentration among large holders.
 ## Relationship to KB
-- [[futardio]] — launched on Futardio platform
+- futardio — launched on Futardio platform
 - [[cryptos primary use case is capital formation not payments or store of value because permissionless token issuance solves the fundraising bottleneck that solo founders and small teams face]] — test case for banking-focused crypto raising via permissionless ICO
 
 ---
 
 Relevant Entities:
-- [[futardio]] — launch platform
-- [[metadao]] — parent ecosystem
+- futardio — launch platform
+- metadao — parent ecosystem
 
 Topics:
 - [[internet finance and decision markets]]

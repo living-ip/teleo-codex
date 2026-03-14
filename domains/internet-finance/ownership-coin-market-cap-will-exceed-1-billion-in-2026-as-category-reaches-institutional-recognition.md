@@ -35,9 +35,9 @@ The prediction assumes that ownership coins will solve barriers that have limite
 ---
 
 Relevant Notes:
-- [[ownership coins primary value proposition is investor protection not governance quality because anti-rug enforcement through market-governed liquidation creates credible exit guarantees that no amount of decision optimization can match.md]]
-- [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md]]
-- [[futarchy-enables-conditional-ownership-coins.md]]
+- ownership coins primary value proposition is investor protection not governance quality because anti-rug enforcement through market-governed liquidation creates credible exit guarantees that no amount of decision optimization can match.md
+- MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md
+- futarchy-enables-conditional-ownership-coins.md
 
 Topics:
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map

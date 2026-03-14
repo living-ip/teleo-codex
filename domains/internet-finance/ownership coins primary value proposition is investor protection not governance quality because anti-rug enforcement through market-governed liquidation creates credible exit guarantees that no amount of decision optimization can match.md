@@ -38,7 +38,7 @@ Proph3t's other framing reinforces this: he distinguishes "market oversight" fro
 
 
 ### Additional Evidence (extend)
-*Source: [[2026-03-03-futardio-launch-futardio-cult]] | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
+*Source: 2026-03-03-futardio-launch-futardio-cult | Added: 2026-03-11 | Extractor: anthropic/claude-sonnet-4.5*
 
 Futardio cult's $11.4M raise against $50,000 target with stated use of funds for 'fan merch, token listings, private events/partys' (consumption rather than productive investment) tests whether futarchy's anti-rug mechanisms provide credible investor protection even when projects explicitly commit to non-productive spending. The 22,706% oversubscription suggests market confidence in futarchy-governed liquidation rights extends beyond traditional venture scenarios to purely speculative assets where fundamental value analysis is minimal, indicating investor protection mechanisms are the primary value driver regardless of governance quality or asset type.
 

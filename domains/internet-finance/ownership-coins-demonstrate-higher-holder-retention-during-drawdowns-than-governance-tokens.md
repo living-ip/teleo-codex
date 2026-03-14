@@ -34,8 +34,8 @@ The 600 lost holders represent only 21% of the initial 45-day growth rate of 9,3
 ---
 
 Relevant Notes:
-- [[ownership coins primary value proposition is investor protection not governance quality because anti-rug enforcement through market-governed liquidation creates credible exit guarantees that no amount of decision optimization can match.md]]
-- [[futarchy-enables-conditional-ownership-coins.md]]
+- ownership coins primary value proposition is investor protection not governance quality because anti-rug enforcement through market-governed liquidation creates credible exit guarantees that no amount of decision optimization can match.md
+- futarchy-enables-conditional-ownership-coins.md
 
 Topics:
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map
