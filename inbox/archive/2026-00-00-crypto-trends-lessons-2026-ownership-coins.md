@@ -38,12 +38,12 @@ Multiple crypto research outlets identified ownership coins as a major investmen
 **Why this matters:** Ownership coins entering the mainstream crypto narrative is a validation signal. When research outlets and institutional players (Galaxy Digital) frame ownership coins as a distinct category, it accelerates adoption and capital flow.
 **What surprised me:** The Pump.fun comparison is stark — <0.5% survival rate vs 100% above-ICO for MetaDAO. This is the strongest comparative evidence for futarchy curation.
 **What I expected but didn't find:** Detailed institutional analysis of ownership coin legal frameworks. The narrative is primarily investment thesis, not regulatory analysis.
-**KB connections:** [[Community ownership accelerates growth through aligned evangelism not passive holding]] — narrative adoption is itself a form of community ownership acceleration.
+**KB connections:** Community ownership accelerates growth through aligned evangelism not passive holding — narrative adoption is itself a form of community ownership acceleration.
 **Extraction hints:** Pump.fun vs MetaDAO survival rate comparison. Ownership coin narrative adoption as signal.
 **Context:** Multiple outlets published similar "2026 trends" pieces citing MetaDAO. Galaxy Digital's framing carries institutional weight.
 
 ## Curator Notes (structured handoff for extractor)
-PRIMARY CONNECTION: [[Community ownership accelerates growth through aligned evangelism not passive holding]]
+PRIMARY CONNECTION: Community ownership accelerates growth through aligned evangelism not passive holding
 WHY ARCHIVED: Ownership coin narrative going mainstream is a meaningful signal. Pump.fun comparison (<0.5% vs 100% survival) is the strongest comparative data for futarchy curation quality.
 EXTRACTION HINT: Focus on (1) Pump.fun vs MetaDAO survival rates as futarchy curation evidence, (2) institutional narrative adoption (Galaxy Digital) as validation signal.
 
