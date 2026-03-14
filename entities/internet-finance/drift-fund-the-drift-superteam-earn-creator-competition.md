@@ -35,5 +35,5 @@ Represents an early futarchy-governed marketing spend decision for a DeFi protoc
 
 ## Relationship to KB
 - [[drift]] - parent protocol governance decision
-- [[futardio]] - governance platform used
-- [[metadao]] - futarchy implementation provider
+- futardio - governance platform used
+- metadao - futarchy implementation provider

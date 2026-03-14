@@ -15,7 +15,7 @@ key_metrics:
   futarchy_proposals: "6+ proposals on MetaDAO platform (grants, working group, AI agents, competitions)"
   drift_allocated: "150,000+ DRIFT allocated through futarchy governance"
 built_on: ["Solana"]
-competitors: ["[[omnipair]]"]
+competitors: ["omnipair"]
 tags: ["perps", "solana", "futarchy-adopter", "metadao-ecosystem"]
 ---
 
@@ -51,9 +51,9 @@ Perpetuals DEX on Solana — one of the largest decentralized derivatives platfo
 ---
 
 Relevant Entities:
-- [[metadao]] — futarchy platform provider
-- [[omnipair]] — current leverage competitor (OmniPair holds temporary monopoly)
-- [[ranger-finance]] — former aggregation client (liquidated)
+- metadao — futarchy platform provider
+- omnipair — current leverage competitor (OmniPair holds temporary monopoly)
+- ranger-finance — former aggregation client (liquidated)
 
 Topics:
 - [[internet finance and decision markets]]
