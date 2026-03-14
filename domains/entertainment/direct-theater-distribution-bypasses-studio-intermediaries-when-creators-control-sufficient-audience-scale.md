@@ -30,4 +30,4 @@ Relevant Notes:
 - [[creator-owned-streaming-infrastructure-has-reached-commercial-scale-with-430M-annual-creator-revenue-across-13M-subscribers]]
 
 Topics:
-- [[domains/entertainment/_map]]
+- domains/entertainment/_map

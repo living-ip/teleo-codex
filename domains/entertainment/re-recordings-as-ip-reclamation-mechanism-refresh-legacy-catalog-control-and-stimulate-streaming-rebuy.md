@@ -34,4 +34,4 @@ Relevant Notes:
 - [[entertainment IP should be treated as a multi-sided platform that enables fan creation rather than a unidirectional broadcast asset]]
 
 Topics:
-- [[domains/entertainment/_map]]
+- domains/entertainment/_map
