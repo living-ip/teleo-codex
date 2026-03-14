@@ -40,5 +40,5 @@ Relevant Notes:
 - [[futarchy-governed liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent]]
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+- domains/internet-finance/_map
+- core/mechanisms/_map

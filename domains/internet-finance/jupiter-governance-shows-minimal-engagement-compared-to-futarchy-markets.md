@@ -34,5 +34,5 @@ Relevant Notes:
 - [[futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements]]
 
 Topics:
-- [[domains/internet-finance/_map]]
-- [[core/mechanisms/_map]]
+- domains/internet-finance/_map
+- core/mechanisms/_map

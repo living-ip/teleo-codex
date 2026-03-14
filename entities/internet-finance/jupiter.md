@@ -41,10 +41,10 @@ The dominant DEX aggregator on Solana — routes trades across all Solana AMMs t
 ---
 
 Relevant Entities:
-- [[omnipair]] — SDK integration (highest-impact catalyst)
-- [[meteora]] — routed AMM
-- [[raydium]] — routed AMM
-- [[ranger-finance]] — former aggregation client (liquidated)
+- omnipair — SDK integration (highest-impact catalyst)
+- meteora — routed AMM
+- raydium — routed AMM
+- ranger-finance — former aggregation client (liquidated)
 
 Topics:
 - [[internet finance and decision markets]]

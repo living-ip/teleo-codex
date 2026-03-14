@@ -29,7 +29,7 @@ Relevant Notes:
 - [[ownership alignment turns network effects from extractive to generative]] — explains the consequences of broken ownership structures
 - [[the alignment problem dissolves when human values are continuously woven into the system rather than specified in advance]] — shows how structural misalignment blocks alignment solutions
 - [[quadratic voting fails for crypto because Sybil resistance and collusion prevention are unsolvable]] — quadratic voting also fails to provide the minority protection that token voting DAOs need
-- [[mechanism design changes the game itself to produce better equilibria rather than expecting players to find optimal strategies]] -- token voting DAOs fail precisely because they lack mechanism design: the game's rules make majority extraction rational, and no amount of goodwill changes the equilibrium without restructuring the payoffs
+- mechanism design changes the game itself to produce better equilibria rather than expecting players to find optimal strategies -- token voting DAOs fail precisely because they lack mechanism design: the game's rules make majority extraction rational, and no amount of goodwill changes the equilibrium without restructuring the payoffs
 
 Topics:
 - [[livingip overview]]
