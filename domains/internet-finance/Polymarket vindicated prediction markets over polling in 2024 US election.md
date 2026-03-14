@@ -16,6 +16,12 @@ The demonstration mattered because it moved prediction markets from theoretical 
 
 This empirical proof connects to [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]]—even small, illiquid markets can provide value if the underlying mechanism is sound. Polymarket proved the mechanism works at scale; MetaDAO is proving it works even when small.
 
+
+### Additional Evidence (extend)
+*Source: [[2026-01-20-polymarket-cftc-approval-qcx-acquisition]] | Added: 2026-03-12 | Extractor: anthropic/claude-sonnet-4.5*
+
+Post-election vindication translated into sustained product-market fit: monthly volume hit $2.6B by late 2024, recently surpassed $1B in weekly trading volume (January 2026), and the platform is targeting a $20B valuation. Polymarket achieved US regulatory compliance through a $112M acquisition of QCX (a CFTC-regulated DCM and DCO) in January 2026, establishing prediction markets as federally-regulated derivatives rather than state-regulated gambling. However, Nevada Gaming Control Board sued Polymarket in late January 2026 over sports prediction contracts, creating a federal-vs-state jurisdictional conflict that remains unresolved. To address manipulation concerns, Polymarket partnered with Palantir and TWG AI to build surveillance systems detecting suspicious trading patterns, screening participants, and generating compliance reports shareable with regulators and sports leagues. The Block reports the prediction market space 'exploded in 2025,' with both Polymarket and Kalshi (the two dominant platforms) targeting $20B valuations.
+
 ---
 
 Relevant Notes:

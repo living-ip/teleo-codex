@@ -41,6 +41,8 @@ CFTC-designated contract market for event-based trading. USD-denominated, KYC-re
 - **2025** — Growth surge post-election vindication
 - **2026-03** — Combined Polymarket+Kalshi weekly record: $5.35B (week of March 2-8, 2026)
 
+- **2026-01-XX** — Targeting $20B valuation alongside Polymarket as prediction market duopoly emerges
+- **2025-XX-XX** — Positioned for retail adoption through traditional broker integration with native CFTC approval
 ## Competitive Position
 - **Regulation-first**: Only CFTC-designated prediction market exchange. Institutional credibility.
 - **vs Polymarket**: Different market — Kalshi targets mainstream/institutional users who won't touch crypto. Polymarket targets crypto-native users who want permissionless market creation. Both grew massively post-2024 election.
@@ -56,7 +58,7 @@ Kalshi is the institutional/mainstream bet on prediction markets. If prediction 
 ## Relationship to KB
 - [[Polymarket vindicated prediction markets over polling in 2024 US election]] — Kalshi co-beneficiary of this vindication
 - [[speculative markets aggregate information through incentive and selection effects not wisdom of crowds]] — same mechanism theory applies
-- [[decision markets fail in three systematic categories where legitimacy thin information or herding dynamics make voting or deliberation structurally superior]] — boundary conditions apply equally
+- decision markets fail in three systematic categories where legitimacy thin information or herding dynamics make voting or deliberation structurally superior — boundary conditions apply equally
 
 ---
 
