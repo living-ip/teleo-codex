@@ -22,5 +22,5 @@ DeFiance Capital is a crypto investment firm founded by Arthur Cheong that speci
 - **2025-10-25** — CLOUD token acquisition proposal failed
 
 ## Relationship to KB
-- [[Sanctum]] - strategic partner and investor since 2021
-- [[MetaDAO]] - proposal executed through futarchy governance mechanism
+- Sanctum - strategic partner and investor since 2021
+- MetaDAO - proposal executed through futarchy governance mechanism
