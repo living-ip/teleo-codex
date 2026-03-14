@@ -27,4 +27,4 @@ Rabid Racers is a racing game built natively on Solana with fully on-chain tourn
 
 - [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]] — raised through this platform
 - [[futarchy-based fundraising creates regulatory separation because there are no beneficial owners and investment decisions emerge from market forces not centralized control]] — uses this governance model
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map
