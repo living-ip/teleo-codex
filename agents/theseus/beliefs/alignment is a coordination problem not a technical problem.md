@@ -68,4 +68,4 @@ Beliefs that depend on this belief:
 ---
 
 Topics:
-- [[theseus beliefs]]
+- theseus beliefs
