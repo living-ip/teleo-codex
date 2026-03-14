@@ -25,4 +25,4 @@ The proposal provides no sensitivity analysis, no adoption curve modeling, and n
 ---
 
 Topics:
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map

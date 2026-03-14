@@ -26,4 +26,4 @@ This mechanism differs from informal community takeovers by providing on-chain e
 ---
 
 Topics:
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map

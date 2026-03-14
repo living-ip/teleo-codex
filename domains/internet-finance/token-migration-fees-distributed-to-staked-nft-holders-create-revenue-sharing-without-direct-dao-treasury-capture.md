@@ -25,4 +25,4 @@ This differs from typical protocol fee models where revenue accrues to the proto
 ---
 
 Topics:
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map
