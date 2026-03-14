@@ -49,11 +49,11 @@ Full paper not accessed (paywalled). Cannot verify:
 ---
 
 **Related claims:**
-- [[safe AI development requires building alignment mechanisms before scaling capability.md]]
-- [[specifying human values in code is intractable because our goals contain hidden complexity comparable to visual perception.md]]
-- [[AI alignment is a coordination problem not a technical problem.md]]
-- [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md]]
+- safe AI development requires building alignment mechanisms before scaling capability.md
+- specifying human values in code is intractable because our goals contain hidden complexity comparable to visual perception.md
+- AI alignment is a coordination problem not a technical problem.md
+- pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md
 
 **Topics:**
-- [[domains/ai-alignment/_map]]
-- [[domains/critical-systems/_map]]
+- domains/ai-alignment/_map
+- domains/critical-systems/_map

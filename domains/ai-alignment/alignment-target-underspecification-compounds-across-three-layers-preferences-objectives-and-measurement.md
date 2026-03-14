@@ -54,11 +54,11 @@ This shifts the problem from "how do we specify the right objective" to "how do 
 ---
 
 **Related claims:**
-- [[safe AI development requires building alignment mechanisms before scaling capability.md]]
-- [[specifying human values in code is intractable because our goals contain hidden complexity comparable to visual perception.md]]
-- [[AI alignment is a coordination problem not a technical problem.md]]
-- [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md]]
-- [[designing coordination rules is categorically different from designing coordination outcomes as nine intellectual traditions independently confirm.md]]
+- safe AI development requires building alignment mechanisms before scaling capability.md
+- specifying human values in code is intractable because our goals contain hidden complexity comparable to visual perception.md
+- AI alignment is a coordination problem not a technical problem.md
+- pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state.md
+- designing coordination rules is categorically different from designing coordination outcomes as nine intellectual traditions independently confirm.md
 
 **Topics:**
-- [[domains/ai-alignment/_map]]
+- domains/ai-alignment/_map
