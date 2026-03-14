@@ -4,7 +4,7 @@ entity_type: decision_market
 name: "COAL: Meta-PoW: The ORE Treasury Protocol"
 domain: internet-finance
 status: passed
-parent_entity: "[[coal]]"
+parent_entity: "coal"
 platform: "futardio"
 proposer: "futard.io"
 proposal_url: "https://www.futard.io/proposal/G33HJH2J2zRqqcHZKMggkQurvqe1cmaDtfBz3hgmuuAg"
@@ -45,6 +45,6 @@ This proposal demonstrates sophisticated economic mechanism design governed thro
 The proposal also shows MetaDAO's evolution from fundraising platform to complex protocol economics coordinator. The level of economic calibration (specific INGOT costs, repair rates, license formulas) would be difficult to achieve through traditional governance.
 
 ## Relationship to KB
-- [[coal]] - parent entity, economic model redesign
+- coal - parent entity, economic model redesign
 - [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]] - governance platform
 - [[dynamic performance-based token minting replaces fixed emission schedules by tying new token creation to measurable outcomes creating algorithmic meritocracy in token distribution]] - related mechanism design pattern
