@@ -6,7 +6,7 @@ url: "https://www.futard.io/launch/Aakx1gdDoNQYqiv5uoqdXx56mGr6AbZh73SWpxHrk2qF"
 date: 2026-03-03
 domain: internet-finance
 format: data
-status: unprocessed
+status: processed
 tags: [futardio, metadao, futarchy, solana]
 event_type: launch
 processed_by: rio
@@ -14,6 +14,11 @@ processed_date: 2026-03-11
 enrichments_applied: ["MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "futarchy-governed DAOs converge on traditional corporate governance scaffolding for treasury operations because market mechanisms alone cannot provide operational security and legal compliance.md"]
 extraction_model: "anthropic/claude-sonnet-4.5"
 extraction_notes: "First observed futarchy-governed wallet infrastructure project on MetaDAO platform. Failed raise provides empirical data on futarchy adoption friction for operational software vs pure capital allocation vehicles. Enriches existing claims about MetaDAO scope expansion, adoption barriers, and operational governance challenges."
+processed_by: rio
+processed_date: 2026-03-11
+enrichments_applied: ["futarchy adoption faces friction from token price psychology proposal complexity and liquidity requirements.md", "MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale.md", "futarchy-governed DAOs converge on traditional corporate governance scaffolding for treasury operations because market mechanisms alone cannot provide operational security and legal compliance.md"]
+extraction_model: "anthropic/claude-sonnet-4.5"
+extraction_notes: "First observed futarchy-governed wallet infrastructure project on MetaDAO platform. Failed raise provides empirical data on futarchy adoption friction for operational software vs pure capital allocation vehicles. No new claims extracted — all insights enrich existing claims about MetaDAO scope expansion, adoption barriers, and operational governance challenges. Created entity pages for Salmon Wallet and the decision market, updated Futardio timeline."
 ---
 
 ## Launch Details
@@ -215,3 +220,13 @@ Secondary:
 - Launch address: Aakx1gdDoNQYqiv5uoqdXx56mGr6AbZh73SWpxHrk2qF
 - Operates own Solana validator for transparent revenue
 - Listed on Solana wallet adapter since 2022
+
+
+## Key Facts
+- Salmon Wallet active since 2022, listed on Solana wallet adapter
+- Prior funding: $80K bootstrap + $42.5K grants (Serum $2.5K, Eclipse $40K)
+- Futarchy raise: $97,535/$375,000 (26% of target) before refunding
+- Proposed burn rate: $25K/month for 12-month runway
+- Token: SAL (Salmon Token), mint: DDPW4sZT9GsSb2mSfY9Yi9EBZGnBQ2LvvJTXCpnLmeta
+- Launch address: Aakx1gdDoNQYqiv5uoqdXx56mGr6AbZh73SWpxHrk2qF
+- Operates own Solana validator for revenue
