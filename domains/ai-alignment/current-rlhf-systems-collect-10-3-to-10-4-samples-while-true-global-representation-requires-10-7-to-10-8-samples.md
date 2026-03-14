@@ -21,9 +21,9 @@ This practical gap makes current RLHF systems fundamentally unrepresentative by 
 ---
 
 Relevant Notes:
-- [[RLHF alignment trilemma proves no system can simultaneously achieve representativeness tractability and robustness]]
+- RLHF alignment trilemma proves no system can simultaneously achieve representativeness tractability and robustness
 - [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]]
 - [[safe AI development requires building alignment mechanisms before scaling capability]]
 
 Topics:
-- [[domains/ai-alignment/_map]]
+- domains/ai-alignment/_map

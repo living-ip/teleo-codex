@@ -43,7 +43,7 @@ Position paper from Berkeley AI Safety Initiative, AWS/Stanford, Meta/Stanford, 
 
 ## Agent Notes
 
-**Why this matters:** This is the formal impossibility result our KB has been gesturing at. Our claim [[RLHF and DPO both fail at preference diversity]] is an informal version of this trilemma. The formal result is stronger — it's not just that current implementations fail, it's that NO RLHF system can simultaneously achieve all three properties. This is analogous to the CAP theorem for distributed systems.
+**Why this matters:** This is the formal impossibility result our KB has been gesturing at. Our claim RLHF and DPO both fail at preference diversity is an informal version of this trilemma. The formal result is stronger — it's not just that current implementations fail, it's that NO RLHF system can simultaneously achieve all three properties. This is analogous to the CAP theorem for distributed systems.
 
 **What surprised me:** The paper does NOT directly reference Arrow's theorem despite the structural similarity. The trilemma is proven through complexity theory rather than social choice theory. This is an independent intellectual tradition arriving at a compatible impossibility result — strong convergent evidence.
 
@@ -52,7 +52,7 @@ Position paper from Berkeley AI Safety Initiative, AWS/Stanford, Meta/Stanford, 
 **KB connections:**
 - [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]] — this paper FORMALIZES our existing claim
 - [[universal alignment is mathematically impossible because Arrows impossibility theorem applies to aggregating diverse human preferences into a single coherent objective]] — independent confirmation from complexity theory
-- [[scalable oversight degrades rapidly as capability gaps grow]] — the trilemma shows degradation is mathematically necessary
+- scalable oversight degrades rapidly as capability gaps grow — the trilemma shows degradation is mathematically necessary
 
 **Extraction hints:** Claims about (1) the formal alignment trilemma as impossibility result, (2) preference collapse / sycophancy / bias amplification as computational necessities, (3) the 10^3 vs 10^8 representation gap in current RLHF.
 

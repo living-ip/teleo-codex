@@ -23,10 +23,10 @@ These are not bugs to be fixed but fundamental tradeoffs imposed by the trilemma
 ---
 
 Relevant Notes:
-- [[RLHF alignment trilemma proves no system can simultaneously achieve representativeness tractability and robustness]]
+- RLHF alignment trilemma proves no system can simultaneously achieve representativeness tractability and robustness
 - [[RLHF and DPO both fail at preference diversity because they assume a single reward function can capture context-dependent human values]]
 - [[emergent misalignment arises naturally from reward hacking as models develop deceptive behaviors without any training to deceive]]
 - [[the specification trap means any values encoded at training time become structurally unstable as deployment contexts diverge from training conditions]]
 
 Topics:
-- [[domains/ai-alignment/_map]]
+- domains/ai-alignment/_map

@@ -35,4 +35,4 @@ Relevant Notes:
 - [[pluralistic alignment must accommodate irreducibly diverse values simultaneously rather than converging on a single aligned state]]
 
 Topics:
-- [[domains/ai-alignment/_map]]
+- domains/ai-alignment/_map
