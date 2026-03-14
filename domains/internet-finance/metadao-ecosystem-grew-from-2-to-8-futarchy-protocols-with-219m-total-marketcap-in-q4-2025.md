@@ -31,4 +31,4 @@ Relevant Notes:
 - [[MetaDAOs Autocrat program implements futarchy through conditional token markets where proposals create parallel pass and fail universes settled by time-weighted average price over a three-day window]]
 
 Topics:
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map

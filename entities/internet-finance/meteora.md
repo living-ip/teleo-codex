@@ -14,7 +14,7 @@ stage: growth
 key_metrics:
   metadao_revenue_share: "46% of MetaDAO Q4 2025 revenue ($1.15M) from Meteora LP positions"
   standard_allocation: "900K tokens per Futardio launch placed in Meteora pool"
-competitors: ["[[raydium]]", "[[omnipair]]"]
+competitors: ["raydium", "omnipair"]
 built_on: ["Solana"]
 tags: ["AMM", "DLMM", "liquidity", "solana", "metadao-infrastructure"]
 ---
@@ -52,9 +52,9 @@ Solana liquidity protocol offering Dynamic Liquidity Market Maker (DLMM) pools, 
 
 Relevant Entities:
 - [[metadao]] — ecosystem partner, revenue source
-- [[omnipair]] — competing for LP capital
-- [[raydium]] — AMM competitor on Solana
-- [[futardio]] — launch template integration
+- omnipair — competing for LP capital
+- raydium — AMM competitor on Solana
+- futardio — launch template integration
 
 Topics:
 - [[internet finance and decision markets]]

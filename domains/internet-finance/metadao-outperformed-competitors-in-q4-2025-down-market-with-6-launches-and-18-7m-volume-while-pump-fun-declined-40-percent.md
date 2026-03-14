@@ -40,8 +40,8 @@ The report notes "each successive raise saw somewhat less excitement than the on
 
 Relevant Notes:
 - [[MetaDAO is the futarchy launchpad on Solana where projects raise capital through unruggable ICOs governed by conditional markets creating the first platform for ownership coins at scale]]
-- [[futarchy-governed-liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent]]
+- futarchy-governed-liquidation is the enforcement mechanism that makes unruggable ICOs credible because investors can force full treasury return when teams materially misrepresent
 - [[ownership coins primary value proposition is investor protection not governance quality because anti-rug enforcement through market-governed liquidation creates credible exit guarantees that no amount of decision optimization can match]]
 
 Topics:
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map

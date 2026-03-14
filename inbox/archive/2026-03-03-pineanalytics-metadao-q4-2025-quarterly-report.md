@@ -60,7 +60,7 @@ First independent financial analysis of MetaDAO. Published on Substack via X thr
 
 ## Connections to Knowledge Base
 
-- Directly enriches [[MetaDAO is the futarchy launchpad on Solana]] — Q4 data already partially captured, this adds competitive comparison and risk factors
+- Directly enriches MetaDAO is the futarchy launchpad on Solana — Q4 data already partially captured, this adds competitive comparison and risk factors
 - Competitive outperformance in down market strengthens Position #4 (MetaDAO captures majority of Solana launches by 2027)
 - Revenue composition (54% AMM / 46% Meteora) is new — the Futarchy AMM as revenue generator
 - "Capturing share of a shrinking pie" validates attractor state thesis — the transition happens regardless of macro conditions

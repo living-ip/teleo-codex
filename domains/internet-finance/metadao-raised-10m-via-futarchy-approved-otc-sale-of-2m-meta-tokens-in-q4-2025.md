@@ -33,4 +33,4 @@ Relevant Notes:
 - [[futarchy can override its own prior decisions when new evidence emerges because conditional markets re-evaluate proposals against current information not historical commitments]]
 
 Topics:
-- [[domains/internet-finance/_map]]
+- domains/internet-finance/_map

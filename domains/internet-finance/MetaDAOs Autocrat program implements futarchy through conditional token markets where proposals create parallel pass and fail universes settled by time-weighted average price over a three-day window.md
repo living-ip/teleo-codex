@@ -66,8 +66,8 @@ Relevant Notes:
 - [[futarchy is manipulation-resistant because attack attempts create profitable opportunities for defenders]] -- why TWAP settlement makes manipulation expensive
 - [[MetaDAOs futarchy implementation shows limited trading volume in uncontested decisions]] -- the participation challenge in consensus scenarios
 - [[agents create dozens of proposals but only those attracting minimum stake become live futarchic decisions creating a permissionless attention market for capital formation]] -- the proposal filtering this mechanism enables
-- [[STAMP replaces SAFE plus token warrant by adding futarchy-governed treasury spending allowances that prevent the extraction problem that killed legacy ICOs]] -- the investment instrument that integrates with this governance mechanism
-- [[MetaDAOs Cayman SPC houses all launched projects as ring-fenced SegCos under a single entity with MetaDAO LLC as sole Director]] -- the legal entity governed by this mechanism
+- STAMP replaces SAFE plus token warrant by adding futarchy-governed treasury spending allowances that prevent the extraction problem that killed legacy ICOs -- the investment instrument that integrates with this governance mechanism
+- MetaDAOs Cayman SPC houses all launched projects as ring-fenced SegCos under a single entity with MetaDAO LLC as sole Director -- the legal entity governed by this mechanism
 
 Topics:
 - [[internet finance and decision markets]]
